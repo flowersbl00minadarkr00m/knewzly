@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <link rel="icon" href="data:,">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Knewzly F01 — Design Explainer</title>
+  <style>
+    :root{--paper:#f7f5f1;--ink:#192329;--muted:#64727a;--line:#d9dcd8;--teal:#0f6f70;--teal-soft:#dcefed;--coral:#bb5a48;--coral-soft:#f6e5df;--violet:#625d8b;--white:#fff;--shadow:0 16px 45px rgba(25,35,41,.08)}
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0;background:var(--paper);color:var(--ink);font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.6}
+    a{color:var(--teal);text-decoration-thickness:.08em;text-underline-offset:.18em}
+    a:focus-visible,button:focus-visible{outline:3px solid #e99b45;outline-offset:3px}
+    .shell{max-width:1260px;margin:auto;display:grid;grid-template-columns:220px minmax(0,790px);gap:58px;padding:54px 34px 90px}
+    .toc{position:sticky;top:28px;align-self:start;font-size:.78rem}
+    .eyebrow{font-size:.68rem;letter-spacing:.13em;text-transform:uppercase;color:var(--teal);font-weight:800}
+    .toc strong{display:block;font-size:1rem;letter-spacing:-.02em;margin:12px 0 22px}
+    .toc a{display:block;color:var(--muted);text-decoration:none;border-left:2px solid transparent;padding:5px 0 5px 12px;margin-left:-14px}
+    .toc a:hover,.toc a:focus-visible{color:var(--ink);border-color:var(--teal)}
+    main{min-width:0}
+    header{border-bottom:1px solid var(--line);padding-bottom:30px;margin-bottom:34px}
+    h1{font-size:clamp(2.4rem,5vw,4.5rem);line-height:.98;letter-spacing:-.07em;margin:13px 0 22px;max-width:760px}
+    h2{font-size:1.55rem;letter-spacing:-.04em;line-height:1.1;margin:0 0 14px}
+    h3{font-size:1rem;margin:25px 0 8px}
+    p{margin:0 0 15px}
+    .lede{font-size:1.15rem;max-width:690px;color:#40505a}
+    .state{display:inline-flex;align-items:center;gap:7px;padding:6px 10px;border:1px solid #d8b5aa;background:var(--coral-soft);color:#7e372d;border-radius:999px;font-size:.74rem;font-weight:800}
+    .state i{width:7px;height:7px;background:var(--coral);border-radius:50%;display:block}
+    .callout{border-left:3px solid var(--teal);background:var(--teal-soft);padding:18px 20px;margin:22px 0;border-radius:0 8px 8px 0}
+    .callout strong{display:block;margin-bottom:4px}
+    section{padding:30px 0;border-bottom:1px solid var(--line)}
+    section:last-child{border-bottom:0}
+    .decision-list{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--line);border:1px solid var(--line)}
+    .decision{background:var(--white);padding:18px}
+    .decision b{display:block;color:var(--teal);font-size:.7rem;letter-spacing:.1em;text-transform:uppercase;margin-bottom:5px}
+    .decision p{margin:0;font-size:.9rem}
+    .flow{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin:20px 0}
+    .flow-step{background:var(--white);border:1px solid var(--line);padding:15px 13px;min-height:118px;position:relative}
+    .flow-step:not(:last-child)::after{content:"→";position:absolute;right:-17px;top:35px;color:var(--coral);font-size:1.4rem;z-index:1}
+    .flow-step span{font-family:ui-monospace,SFMono-Regular,Consolas,monospace;color:var(--coral);font-size:.72rem}
+    .flow-step strong{display:block;margin:8px 0 3px}
+    .flow-step small{color:var(--muted);font-size:.8rem}
+    .diagram{border:1px solid var(--line);background:#202f35;padding:20px;border-radius:8px;color:#f8f5ef;display:grid;grid-template-columns:1fr 1fr;gap:13px}
+    .diagram-box{border:1px solid rgba(255,255,255,.24);padding:15px;background:rgba(255,255,255,.06)}
+    .diagram-box strong{display:block;color:#a8e0db;margin-bottom:3px}
+    .diagram-box small{color:#d7e0dc}
+    .demo{background:var(--white);border:1px solid var(--line);padding:20px;box-shadow:var(--shadow);margin-top:18px}
+    .demo-head{display:flex;justify-content:space-between;gap:18px;align-items:start}
+    .demo-head p{font-size:.9rem;color:var(--muted);max-width:520px}
+    .demo-actions{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0}
+    button{font:inherit;cursor:pointer;border:1px solid var(--line);background:#fff;color:var(--ink);padding:8px 11px;border-radius:5px}
+    button:hover{border-color:var(--teal);color:var(--teal)}
+    button[aria-pressed="true"]{background:var(--teal);color:#fff;border-color:var(--teal)}
+    .demo-output{border-top:1px solid var(--line);padding-top:15px;display:grid;grid-template-columns:120px 1fr;gap:15px;font-size:.9rem}
+    .demo-output .tag{font-size:.7rem;text-transform:uppercase;letter-spacing:.1em;color:var(--coral);font-weight:800}
+    table{width:100%;border-collapse:collapse;font-size:.86rem}
+    th,td{text-align:left;vertical-align:top;border-bottom:1px solid var(--line);padding:11px 8px}
+    th{font-size:.68rem;text-transform:uppercase;letter-spacing:.1em;color:var(--muted)}
+    code,.mono{font-family:ui-monospace,SFMono-Regular,Consolas,monospace;font-size:.88em}
+    .pill{display:inline-block;padding:2px 7px;border-radius:4px;background:#edf0ee;color:#4c5c62;font-size:.72rem}
+    .footnote{font-size:.78rem;color:var(--muted)}
+    @media(max-width:850px){.shell{grid-template-columns:1fr;gap:20px;padding:28px 20px 65px}.toc{position:static;border-bottom:1px solid var(--line);padding-bottom:14px}.toc strong{margin:8px 0 10px}.toc nav{display:flex;gap:12px;overflow:auto}.toc a{white-space:nowrap;margin:0;padding:4px 0;border-left:0;border-bottom:2px solid transparent}.toc a:hover,.toc a:focus-visible{border-color:var(--teal)}}
+    @media(max-width:620px){.decision-list,.diagram{grid-template-columns:1fr}.flow{grid-template-columns:1fr}.flow-step:not(:last-child)::after{content:"↓";right:auto;left:20px;top:auto;bottom:-22px}.demo-head{display:block}.demo-output{grid-template-columns:1fr;gap:4px}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important;animation:none!important}}
+  </style>
+</head>
+<body>
+  <div class="shell">
+    <aside class="toc" aria-label="Design explainer contents">
+      <div class="eyebrow">Knewzly / F01</div>
+      <strong>Global History Atlas</strong>
+      <nav>
+        <a href="#intent">Intent</a>
+        <a href="#decisions">Decisions</a>
+        <a href="#architecture">Architecture</a>
+        <a href="#demo">Demo</a>
+        <a href="#risks">Risks</a>
+        <a href="#verification">Verification</a>
+      </nav>
+    </aside>
+    <main>
+      <header id="intent">
+        <span class="state"><i aria-hidden="true"></i> Non-binding design spike · proposed</span>
+        <h1>Make the history of AI feel connected, not crowded.</h1>
+        <p class="lede">A document-first explanation of the proposed atlas interaction: one shared time axis, parallel regional lanes, a persistent philosophy lane, typed relationships, and a drawer that keeps context visible.</p>
+        <p class="footnote">Source state: project plan approved. F01 requirements, design, tasks, and implementation are not approved or present. All interactive data in this explainer is simulated.</p>
+      </header>
+
+      <section>
+        <h2>The user outcome</h2>
+        <p>Knewzly should help a curious learner explain where an innovation came from, who or what shaped it, and what carried forward across regions and time.</p>
+        <div class="callout"><strong>The first learning loop</strong> Orient on time → compare lanes → trace one typed relationship → inspect context and evidence.</div>
+        <div class="flow" aria-label="Four-step learning loop">
+          <div class="flow-step"><span>01 / ORIENT</span><strong>Find the moment</strong><small>Use years and lane labels to build a mental map.</small></div>
+          <div class="flow-step"><span>02 / COMPARE</span><strong>Notice a bridge</strong><small>See parallel developments without a single-center story.</small></div>
+          <div class="flow-step"><span>03 / TRACE</span><strong>Read the edge</strong><small>Understand whether it influenced, enabled, or framed a later step.</small></div>
+          <div class="flow-step"><span>04 / INSPECT</span><strong>Check the claim</strong><small>Open the drawer for narrative, uncertainty, and sources.</small></div>
+        </div>
+      </section>
+
+      <section id="decisions">
+        <h2>Decisions at a glance</h2>
+        <div class="decision-list">
+          <div class="decision"><b>Entry point</b><p>History atlas first. Today is attached and bounded, not the home feed.</p></div>
+          <div class="decision"><b>Default unit</b><p>Anchor events keep the canvas readable; medium-depth learning opens on demand.</p></div>
+          <div class="decision"><b>Relationship language</b><p>Typed edges make influence, enablement, iteration, and conceptual lenses distinct.</p></div>
+          <div class="decision"><b>Trust posture</b><p>Source, date, claim type, confidence, and contested status travel with visible claims.</p></div>
+          <div class="decision"><b>Responsive posture</b><p>Wide canvas on desktop; stacked lanes, focused time strip, and full-height drawer on mobile.</p></div>
+          <div class="decision"><b>Motion posture</b><p>Selection can be understood without animation; reduced motion removes transitions.</p></div>
+        </div>
+      </section>
+
+      <section id="architecture">
+        <h2>Architecture and trust boundaries</h2>
+        <p>The spike keeps the product surface understandable without choosing a framework, feed provider, or hosting model. The production boundary remains a later design decision.</p>
+        <div class="diagram" aria-label="Proposed atlas component and evidence boundary">
+          <div class="diagram-box"><strong>Atlas shell</strong><small>Time rail · lanes · event anchors · selected relationship</small></div>
+          <div class="diagram-box"><strong>Learning drawer</strong><small>Story · before/change/after · related events · source links</small></div>
+          <div class="diagram-box"><strong>Provenance boundary</strong><small>Attribution · date/freshness · claim type · confidence · contested state</small></div>
+          <div class="diagram-box"><strong>Adjacent surfaces</strong><small>Today panel and Archie remain bounded, cited, and separately specified</small></div>
+        </div>
+        <h3>Data lineage, conceptually</h3>
+        <p class="mono">curated claim → source record → typed relationship → visible label → learner interpretation</p>
+        <p class="footnote">The prototype intentionally stops before source ingestion and AI generation. It demonstrates the display contract, not a live evidence pipeline.</p>
+      </section>
+
+      <section id="demo">
+        <h2>Small interaction demo</h2>
+        <p>This simulated control illustrates one design question: how should a selected relationship change the explanation without rewriting the historical story?</p>
+        <div class="demo">
+          <div class="demo-head">
+            <div><div class="eyebrow">Relationship lens</div><h3 style="margin-top:6px">What kind of bridge is this?</h3></div>
+            <span class="pill">SIMULATED</span>
+          </div>
+          <p>Choose a label. The text below changes deterministically; no model is called and no claim is verified.</p>
+          <div class="demo-actions" role="group" aria-label="Relationship type">
+            <button type="button" data-lens="influenced" aria-pressed="true">Influenced</button>
+            <button type="button" data-lens="enabled" aria-pressed="false">Enabled</button>
+            <button type="button" data-lens="conceptual" aria-pressed="false">Conceptual lens</button>
+            <button type="button" data-lens="contested" aria-pressed="false">Contested / indirect</button>
+          </div>
+          <div class="demo-output" aria-live="polite">
+            <div class="tag">Selected edge</div>
+            <div id="demoText">The proposed reading is that an earlier idea influenced the later development. This is an interpretation until supported by an approved source set.</div>
+          </div>
+        </div>
+      </section>
+
+      <section id="risks">
+        <h2>Failure, uncertainty, and recovery</h2>
+        <table>
+          <thead><tr><th>State</th><th>What the learner sees</th><th>Why it matters</th></tr></thead>
+          <tbody>
+            <tr><td><span class="pill">Simulated</span></td><td>“Demo content — source verification pending.”</td><td>A polished prototype cannot be mistaken for historical evidence.</td></tr>
+            <tr><td><span class="pill">Contested</span></td><td>“Contested / indirect relationship” with a weaker visual treatment.</td><td>Uncertainty is not hidden in the drawer.</td></tr>
+            <tr><td><span class="pill">Source unavailable</span></td><td>Event remains readable, source status becomes explicit.</td><td>Missing evidence does not silently become confidence.</td></tr>
+            <tr><td><span class="pill">Stale Today</span></td><td>Freshness timestamp and bounded stale label.</td><td>Current news is never implied to be live by default.</td></tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section id="verification">
+        <h2>Verification plan</h2>
+        <p>The future binding design should be verified with exact checks for selection, focus return, keyboard traversal, mobile drawer behavior, relationship labels, reduced motion, contrast, zoom, and provenance state rendering.</p>
+        <ul>
+          <li>Functional: select event, focus relationship, open/close drawer, trace from Today.</li>
+          <li>Accessibility: semantic landmarks, accessible names, visible focus, no color-only meaning, 200% zoom, reduced-motion equivalent.</li>
+          <li>Responsive: wide atlas, narrow stacked lanes, full-height drawer, no horizontal page overflow.</li>
+          <li>Trust: every visible demo claim marked simulated; no source or date fabricated as verified.</li>
+        </ul>
+        <p class="footnote">This explainer is a planning artifact. Its simulated interactions are not implementation evidence and do not advance the SDD gate.</p>
+      </section>
+    </main>
+  </div>
+  <script>
+    const copy = {
+      influenced: "The proposed reading is that an earlier idea influenced the later development. This is an interpretation until supported by an approved source set.",
+      enabled: "The proposed reading is that an artifact, method, or institution enabled the later development. Enablement is not the same as direct authorship.",
+      conceptual: "The proposed reading is a conceptual lens: a philosophical or interpretive relationship, not a claim of direct engineering causation.",
+      contested: "The proposed reading is contested or indirect. It belongs in the drawer until evidence supports a stronger visible relationship."
+    };
+    const output = document.querySelector("#demoText");
+    document.querySelectorAll("[data-lens]").forEach(function(button){
+      button.addEventListener("click", function(){
+        document.querySelectorAll("[data-lens]").forEach(function(item){ item.setAttribute("aria-pressed", "false"); });
+        button.setAttribute("aria-pressed", "true");
+        output.textContent = copy[button.dataset.lens];
+      });
+    });
+  </script>
+</body>
+</html>

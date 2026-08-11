@@ -1,0 +1,326 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'; script-src 'unsafe-inline'; img-src data:; font-src 'none'; connect-src 'none';">
+  <title>Knewzly — Global History Atlas timeline concept</title>
+  <style>
+    :root {
+      --paper: #f6f1e3;
+      --paper-deep: #e9e1cc;
+      --paper-raised: #fffaf0;
+      --ink: #172235;
+      --ink-soft: #465363;
+      --rule: #687586;
+      --rule-faint: #b5b9b5;
+      --spot: #163a5f;
+      --spot-soft: #244f76;
+      --focus: #00685d;
+      --visited: #75612e;
+      --inverse: #fbf7ea;
+      --shadow: rgba(22, 42, 64, 0.18);
+      --display: Georgia, "Times New Roman", Times, serif;
+      --utility: "Arial Narrow", "Helvetica Neue", Arial, sans-serif;
+    }
+
+    html[data-theme="dark"] {
+      --paper: #18212b;
+      --paper-deep: #10171f;
+      --paper-raised: #202b37;
+      --ink: #f3eddf;
+      --ink-soft: #c5c4be;
+      --rule: #909dab;
+      --rule-faint: #4f5e6e;
+      --spot: #9ac7e8;
+      --spot-soft: #b6d9f1;
+      --focus: #f1c96b;
+      --visited: #f1c96b;
+      --inverse: #111923;
+      --shadow: rgba(0, 0, 0, 0.38);
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { margin: 0; color: var(--ink); background: var(--paper-deep); font-family: var(--display); }
+    button, a { font: inherit; }
+    a { color: var(--spot-soft); text-underline-offset: 0.18rem; }
+    :focus-visible { outline: 3px solid var(--focus); outline-offset: 3px; }
+
+    .skip-link { position: fixed; left: -999px; top: 0; z-index: 100; }
+    .skip-link:focus { left: 1rem; top: 1rem; padding: 0.6rem 1rem; color: var(--inverse); background: var(--ink); }
+    .concept-banner { padding: 0.55rem 1rem; color: var(--inverse); background: var(--spot); font: 800 0.72rem/1.2 var(--utility); letter-spacing: 0.14em; text-align: center; text-transform: uppercase; }
+    .shell { width: min(1540px, calc(100% - 2rem)); margin: 1rem auto 2.5rem; background: var(--paper); box-shadow: 0 18px 48px var(--shadow); }
+    .masthead { display: grid; grid-template-columns: 1fr auto; gap: 2rem; padding: clamp(1rem, 2.8vw, 2.4rem); border-bottom: 6px double var(--ink); }
+    .eyebrow { margin: 0 0 0.4rem; color: var(--spot); font: 800 0.7rem/1.2 var(--utility); letter-spacing: 0.15em; text-transform: uppercase; }
+    h1 { margin: 0; font: 900 clamp(2.6rem, 6vw, 6.3rem)/0.84 var(--display); letter-spacing: -0.06em; }
+    .standfirst { max-width: 64ch; margin: 0.9rem 0 0; color: var(--ink-soft); font: italic 1.05rem/1.45 var(--display); }
+    .mast-actions { display: flex; flex-direction: column; align-items: flex-end; gap: 0.6rem; }
+    .edition-button { border: 0; border-bottom: 1px solid currentColor; padding: 0.15rem 0; color: var(--ink); background: transparent; cursor: pointer; font: 800 0.68rem/1.2 var(--utility); letter-spacing: 0.08em; text-transform: uppercase; }
+    .visited-summary { color: var(--ink-soft); font: 700 0.7rem/1.3 var(--utility); text-align: right; text-transform: uppercase; letter-spacing: 0.06em; }
+    .atlas-tools { display: flex; align-items: center; gap: 0.8rem; overflow-x: auto; padding: 0.65rem clamp(1rem, 2.8vw, 2.4rem); border-bottom: 1px solid var(--rule); font: 800 0.68rem/1 var(--utility); text-transform: uppercase; letter-spacing: 0.08em; }
+    .atlas-tools strong { color: var(--spot); }
+    .atlas-tools span { white-space: nowrap; }
+    .atlas-tools span::before { content: "·"; margin-right: 0.8rem; color: var(--rule); }
+
+    .atlas-region { padding: 1rem 0 1.2rem; }
+    .atlas-caption { display: flex; justify-content: space-between; gap: 1rem; padding: 0 clamp(1rem, 2.8vw, 2.4rem) 0.75rem; color: var(--ink-soft); font: 700 0.72rem/1.35 var(--utility); }
+    .timeline-viewport { overflow-x: auto; border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule); scrollbar-color: var(--spot) var(--paper-deep); }
+    .timeline-canvas { position: relative; width: 1760px; height: 730px; background: repeating-linear-gradient(90deg, transparent 0 159px, color-mix(in srgb, var(--rule-faint) 40%, transparent) 160px), var(--paper); }
+    .axis { position: absolute; left: 80px; right: 40px; top: 52px; height: 2px; background: var(--ink); }
+    .axis::after { content: ""; position: absolute; right: -1px; top: -5px; border-left: 9px solid var(--ink); border-top: 6px solid transparent; border-bottom: 6px solid transparent; }
+    .era { position: absolute; top: 19px; transform: translateX(-50%); color: var(--ink-soft); font: 800 0.67rem/1 var(--utility); letter-spacing: 0.06em; text-align: center; text-transform: uppercase; }
+    .era::after { content: ""; display: block; width: 1px; height: 13px; margin: 0.5rem auto 0; background: var(--ink); }
+    .lane { position: absolute; left: 0; right: 0; height: 116px; border-top: 1px solid var(--rule-faint); }
+    .lane-name { position: sticky; left: 0; z-index: 4; display: inline-block; width: 128px; padding: 0.45rem 0.75rem; color: var(--inverse); background: var(--spot); font: 800 0.67rem/1.2 var(--utility); letter-spacing: 0.1em; text-transform: uppercase; }
+    .lane.philosophy { top: 92px; height: 236px; }
+    .lane.europe { top: 328px; }
+    .lane.north-america { top: 444px; }
+    .lane.asia { top: 560px; border-bottom: 1px solid var(--rule-faint); }
+
+    .relationship-layer { position: absolute; inset: 0; z-index: 1; pointer-events: none; }
+    .arc { fill: none; stroke: var(--spot); stroke-width: 2; opacity: 0.2; transition: opacity 160ms ease, stroke-width 160ms ease; }
+    .arc.indirect { stroke-dasharray: 7 6; }
+    .arc.is-active { opacity: 0.95; stroke-width: 4; }
+    .arc.is-dimmed { opacity: 0.05; }
+
+    .anchor { position: absolute; z-index: 3; width: 168px; min-height: 76px; border: 1px solid var(--rule); border-top: 5px solid var(--spot); padding: 0.6rem 0.7rem; color: var(--ink); background: var(--paper-raised); box-shadow: 0 5px 16px var(--shadow); cursor: pointer; text-align: left; transform: translate(-50%, 0); transition: transform 150ms ease, opacity 150ms ease, box-shadow 150ms ease; }
+    .anchor:hover, .anchor[aria-expanded="true"] { transform: translate(-50%, -4px); box-shadow: 0 10px 24px var(--shadow); }
+    .anchor.is-dimmed { opacity: 0.24; }
+    .anchor-year { display: block; color: var(--spot); font: 900 0.68rem/1 var(--utility); letter-spacing: 0.08em; text-transform: uppercase; }
+    .anchor-title { display: block; margin-top: 0.25rem; font: 800 0.95rem/1.08 var(--display); }
+    .anchor-meta { display: block; margin-top: 0.3rem; color: var(--ink-soft); font: 700 0.58rem/1.2 var(--utility); text-transform: uppercase; }
+    .anchor.is-visited::after { content: "✓ Visited"; position: absolute; right: 0.35rem; top: 0.35rem; padding: 0.18rem 0.35rem; color: var(--inverse); background: var(--visited); font: 900 0.55rem/1 var(--utility); letter-spacing: 0.05em; text-transform: uppercase; }
+
+    .legend { display: grid; grid-template-columns: auto 1fr; gap: 0.55rem 1.25rem; margin: 1rem clamp(1rem, 2.8vw, 2.4rem) 0; padding-top: 0.8rem; border-top: 1px solid var(--rule); color: var(--ink-soft); font: 700 0.7rem/1.3 var(--utility); }
+    .legend strong { color: var(--ink); text-transform: uppercase; }
+    .legend-line { display: inline-block; width: 44px; border-top: 3px solid var(--spot); vertical-align: middle; }
+    .legend-line.dashed { border-top-style: dashed; }
+    .relationship-index { display: grid; grid-template-columns: repeat(auto-fill, minmax(210px, 1fr)); gap: 0.6rem; padding: 1rem clamp(1rem, 2.8vw, 2.4rem) 1.4rem; }
+    .relationship-button { border: 1px solid var(--rule); padding: 0.65rem; color: var(--ink-soft); background: transparent; cursor: pointer; font: 700 0.68rem/1.3 var(--utility); text-align: left; }
+    .relationship-button strong { display: block; margin-bottom: 0.2rem; color: var(--spot); text-transform: uppercase; }
+    .relationship-button[aria-pressed="true"] { color: var(--ink); background: color-mix(in srgb, var(--spot) 8%, transparent); border-color: var(--spot); }
+
+    .drawer-scrim { position: fixed; inset: 0; z-index: 40; background: rgba(8, 15, 23, 0.48); opacity: 0; pointer-events: none; transition: opacity 180ms ease; }
+    .drawer-scrim.is-open { opacity: 1; pointer-events: auto; }
+    .context-drawer { position: fixed; top: 0; right: 0; z-index: 50; width: min(500px, 94vw); height: 100dvh; overflow-y: auto; padding: clamp(1rem, 3vw, 2rem); color: var(--ink); background: var(--paper); border-left: 6px double var(--ink); box-shadow: -20px 0 60px var(--shadow); transform: translateX(105%); visibility: hidden; transition: transform 220ms ease, visibility 220ms; }
+    .context-drawer.is-open { transform: translateX(0); visibility: visible; }
+    .drawer-close { float: right; border: 1px solid var(--rule); padding: 0.45rem 0.7rem; color: var(--ink); background: transparent; cursor: pointer; font: 800 0.68rem/1 var(--utility); text-transform: uppercase; }
+    .drawer-label { margin: 3.2rem 0 0.35rem; color: var(--spot); font: 900 0.7rem/1.2 var(--utility); letter-spacing: 0.1em; text-transform: uppercase; }
+    .context-drawer h2 { margin: 0; font: 900 clamp(2.3rem, 6vw, 4.2rem)/0.93 var(--display); letter-spacing: -0.045em; }
+    .drawer-meta { color: var(--ink-soft); font: 800 0.68rem/1.3 var(--utility); letter-spacing: 0.05em; text-transform: uppercase; }
+    .story-copy { margin: 1rem 0; padding: 1rem 0; border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule); font-size: 1rem; line-height: 1.55; }
+    .drawer-section { margin-top: 1.2rem; }
+    .drawer-section h3 { margin: 0 0 0.45rem; font: 900 0.7rem/1.2 var(--utility); letter-spacing: 0.1em; text-transform: uppercase; }
+    .people-list, .topic-list { display: flex; flex-wrap: wrap; gap: 0.45rem; margin: 0; padding: 0; list-style: none; }
+    .people-list li, .topic-list li { padding: 0.28rem 0.48rem; border: 1px solid var(--rule); color: var(--ink-soft); font: 700 0.68rem/1.2 var(--utility); }
+    .drawer-relationships { margin: 0; padding: 0; list-style: none; }
+    .drawer-relationships li { margin-bottom: 0.55rem; padding: 0.6rem; border-left: 4px solid var(--spot); background: color-mix(in srgb, var(--spot) 6%, transparent); }
+    .drawer-relationships strong { display: block; color: var(--spot); font: 900 0.64rem/1.2 var(--utility); text-transform: uppercase; }
+    .source-card { padding: 0.7rem; border: 1px solid var(--rule); color: var(--ink-soft); font-size: 0.8rem; }
+    body.drawer-open { overflow: hidden; }
+
+    @media (max-width: 720px) {
+      .shell { width: 100%; margin: 0; box-shadow: none; }
+      .masthead { grid-template-columns: 1fr; }
+      .mast-actions { align-items: flex-start; }
+      .visited-summary { text-align: left; }
+      .atlas-caption { flex-direction: column; }
+      .relationship-index { display: flex; overflow-x: auto; }
+      .relationship-button { flex: 0 0 210px; }
+      .context-drawer { width: 100%; border-left: 0; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+      *, *::before, *::after { transition-duration: 0.01ms !important; }
+    }
+  </style>
+</head>
+<body>
+  <a class="skip-link" href="#atlas">Skip to timeline</a>
+  <div class="concept-banner">Conceptual mockup — proposed, not implemented.</div>
+  <main class="shell">
+    <header class="masthead">
+      <div>
+        <p class="eyebrow">The Knewzly Standard · Historical atlas desk</p>
+        <h1>The long road to artificial intelligence</h1>
+        <p class="standfirst">Move across one shared chronology, compare regional and philosophical lanes, and select an anchor to read the people, evidence and relationships behind it.</p>
+      </div>
+      <div class="mast-actions">
+        <button class="edition-button" id="theme-toggle" type="button">Dark edition</button>
+        <div class="visited-summary" id="visited-summary" aria-live="polite">0 of 16 anchors visited</div>
+      </div>
+    </header>
+
+    <div class="atlas-tools" aria-label="Timeline guide">
+      <strong>Browse the issue</strong><span>Drag or shift-scroll horizontally</span><span>Select any event for its context drawer</span><span>Solid arcs are direct; dashed arcs are interpretive</span>
+    </div>
+
+    <section class="atlas-region" id="atlas" aria-labelledby="atlas-title">
+      <div class="atlas-caption">
+        <span id="atlas-title"><strong>Edited time axis:</strong> chronological, intentionally not proportional so the modern record stays legible.</span>
+        <span>All anchors remain visible · Visited is progress, never access.</span>
+      </div>
+      <div class="timeline-viewport" tabindex="0" aria-label="Horizontally scrollable timeline with four lanes">
+        <div class="timeline-canvas">
+          <div class="axis" aria-hidden="true"></div>
+          <span class="era" style="left:40px">c. 400 BCE</span><span class="era" style="left:90px">c. 350 BCE</span><span class="era" style="left:290px">1781</span><span class="era" style="left:350px">1843 / 1807</span><span class="era" style="left:500px">1867</span><span class="era" style="left:560px">1921</span><span class="era" style="left:580px">1936</span><span class="era" style="left:780px">1956</span><span class="era" style="left:950px">1966</span><span class="era" style="left:1100px">1975</span><span class="era" style="left:1150px">1976</span><span class="era" style="left:1230px">1981</span><span class="era" style="left:1240px">1982</span><span class="era" style="left:1390px">1993</span><span class="era" style="left:1590px">2017</span>
+
+          <div class="lane philosophy"><span class="lane-name">Philosophy</span></div>
+          <div class="lane europe"><span class="lane-name">Europe</span></div>
+          <div class="lane north-america"><span class="lane-name">North America</span></div>
+          <div class="lane asia"><span class="lane-name">Asia</span></div>
+
+          <svg class="relationship-layer" width="1760" height="730" viewBox="0 0 1760 730" aria-hidden="true">
+            <path class="arc indirect" data-rel="aristotle-gruber" d="M 90 168 C 420 92, 1140 120, 1390 512"></path>
+            <path class="arc indirect" data-rel="lovelace-turing" d="M 350 405 C 420 350, 510 350, 580 405"></path>
+            <path class="arc" data-rel="turing-dartmouth" d="M 580 405 C 650 420, 710 475, 780 520"></path>
+            <path class="arc indirect" data-rel="dartmouth-japan" d="M 780 520 C 930 590, 1080 635, 1240 640"></path>
+            <path class="arc" data-rel="asilomar" d="M 1100 520 C 1220 445, 1470 445, 1590 520"></path>
+            <path class="arc" data-rel="socrates-aristotle" d="M 40 276 C 60 220, 70 200, 90 168"></path>
+            <path class="arc" data-rel="kant-hegel" d="M 290 168 C 310 200, 330 230, 350 276"></path>
+            <path class="arc" data-rel="hegel-marx" d="M 350 276 C 400 240, 450 200, 500 168"></path>
+            <path class="arc indirect" data-rel="wittgenstein-turing" d="M 560 276 C 570 320, 575 360, 580 404"></path>
+            <path class="arc indirect" data-rel="dawkins-gruber" d="M 1150 168 C 1250 250, 1320 400, 1390 512"></path>
+          </svg>
+
+          <button class="anchor" style="left:40px;top:224px" data-event="socrates" data-relations="socrates-aristotle" aria-expanded="false" aria-label="c. 400 BCE, Socrates’ elenctic method, Philosophy lane"><span class="anchor-year">c. 400 BCE</span><span class="anchor-title">Socrates’ questioning method</span><span class="anchor-meta">Dialectic · philosophy of innovation</span></button>
+          <button class="anchor" style="left:90px;top:116px" data-event="aristotle" data-relations="aristotle-gruber socrates-aristotle" aria-expanded="false" aria-label="c. 350 BCE, Aristotle’s Categories, Philosophy lane"><span class="anchor-year">c. 350 BCE</span><span class="anchor-title">Aristotle’s <em>Categories</em></span><span class="anchor-meta">Conceptual ancestry</span></button>
+          <button class="anchor" style="left:290px;top:116px" data-event="kant" data-relations="kant-hegel" aria-expanded="false" aria-label="1781, Kant’s Critique of Pure Reason, Philosophy lane"><span class="anchor-year">1781</span><span class="anchor-title">Kant’s critique of reason</span><span class="anchor-meta">Limits of a reasoning system</span></button>
+          <button class="anchor" style="left:350px;top:224px" data-event="hegel" data-relations="kant-hegel hegel-marx" aria-expanded="false" aria-label="1807, Hegel’s dialectic, Philosophy lane"><span class="anchor-year">1807</span><span class="anchor-title">Hegel’s dialectic</span><span class="anchor-meta">Philosophy of innovation</span></button>
+          <button class="anchor" style="left:350px;top:352px" data-event="lovelace" data-relations="lovelace-turing" aria-expanded="false" aria-label="1843, Lovelace’s objection, Europe lane"><span class="anchor-year">1843</span><span class="anchor-title">Lovelace’s objection</span><span class="anchor-meta">Computation · authorship</span></button>
+          <button class="anchor" style="left:500px;top:116px" data-event="marx" data-relations="hegel-marx" aria-expanded="false" aria-label="1867, Marx and the means of production, Philosophy lane"><span class="anchor-year">1867</span><span class="anchor-title">Marx: means of production</span><span class="anchor-meta">Philosophy of innovation</span></button>
+          <button class="anchor" style="left:560px;top:224px" data-event="wittgenstein" data-relations="wittgenstein-turing" aria-expanded="false" aria-label="1921 and 1953, Wittgenstein on meaning as use, Philosophy lane"><span class="anchor-year">1921 / 1953</span><span class="anchor-title">Wittgenstein: meaning as use</span><span class="anchor-meta">Philosophy of language</span></button>
+          <button class="anchor" style="left:580px;top:352px" data-event="turing" data-relations="lovelace-turing turing-dartmouth wittgenstein-turing" aria-expanded="false" aria-label="1936 and 1950, Turing defines computation and asks if machines can think, Europe lane"><span class="anchor-year">1936 / 1950</span><span class="anchor-title">Turing’s machine question</span><span class="anchor-meta">Formal computation</span></button>
+          <button class="anchor" style="left:780px;top:468px" data-event="dartmouth" data-relations="turing-dartmouth dartmouth-japan" aria-expanded="false" aria-label="1956, Dartmouth conference, North America lane"><span class="anchor-year">1956</span><span class="anchor-title">Dartmouth names AI</span><span class="anchor-meta">Field formation</span></button>
+          <button class="anchor" style="left:950px;top:352px" data-event="bohm" data-relations="" aria-expanded="false" aria-label="1966, Böhm–Jacopini theorem, Europe lane"><span class="anchor-year">1966</span><span class="anchor-title">Böhm–Jacopini theorem</span><span class="anchor-meta">Structured programs</span></button>
+          <button class="anchor" style="left:1100px;top:468px" data-event="asilomar75" data-relations="asilomar" aria-expanded="false" aria-label="1975, Asilomar recombinant DNA conference, North America lane"><span class="anchor-year">1975</span><span class="anchor-title">Asilomar self-regulation</span><span class="anchor-meta">Science governance</span></button>
+          <button class="anchor" style="left:1150px;top:116px" data-event="dawkins" data-relations="dawkins-gruber" aria-expanded="false" aria-label="1976, Dawkins names the meme, Philosophy lane"><span class="anchor-year">1976</span><span class="anchor-title">Dawkins: the meme</span><span class="anchor-meta">Cultural replication</span></button>
+          <button class="anchor" style="left:1230px;top:224px" data-event="baudrillard" data-relations="" aria-expanded="false" aria-label="1981, Baudrillard’s Simulacra and Simulation, Philosophy lane"><span class="anchor-year">1981</span><span class="anchor-title">Baudrillard’s simulacra</span><span class="anchor-meta">Hyperreality · synthetic media</span></button>
+          <button class="anchor" style="left:1240px;top:584px" data-event="japan" data-relations="dartmouth-japan" aria-expanded="false" aria-label="1982 to 1992, Japan’s Fifth Generation Computer Systems Project, Asia lane"><span class="anchor-year">1982–1992</span><span class="anchor-title">Japan’s Fifth Generation</span><span class="anchor-meta">National AI policy</span></button>
+          <button class="anchor" style="left:1390px;top:468px" data-event="gruber" data-relations="aristotle-gruber dawkins-gruber" aria-expanded="false" aria-label="1993, Tom Gruber’s ontology definition, North America lane"><span class="anchor-year">1993</span><span class="anchor-title">Gruber defines ontology</span><span class="anchor-meta">Knowledge engineering</span></button>
+          <button class="anchor" style="left:1590px;top:468px" data-event="asilomar17" data-relations="asilomar" aria-expanded="false" aria-label="2017, Asilomar AI Principles, North America lane"><span class="anchor-year">2017</span><span class="anchor-title">Asilomar AI Principles</span><span class="anchor-meta">Voluntary governance</span></button>
+        </div>
+      </div>
+
+      <div class="legend"><strong>Reading the arcs</strong><span><span class="legend-line"></span> Higher-confidence connection &nbsp;&nbsp; <span class="legend-line dashed"></span> Interpretive or indirect connection. Type and confidence are always repeated in text below.</span></div>
+      <div class="relationship-index" aria-label="Relationship list">
+        <button class="relationship-button" type="button" data-focus-rel="socrates-aristotle" aria-pressed="false"><strong>Influenced · interpretation</strong>Socrates’ questioning → Aristotle’s categorization</button>
+        <button class="relationship-button" type="button" data-focus-rel="aristotle-gruber" aria-pressed="false"><strong>Conceptual lens · indirect</strong>Aristotle’s categories → Gruber’s ontology definition</button>
+        <button class="relationship-button" type="button" data-focus-rel="kant-hegel" aria-pressed="false"><strong>Influenced · documented</strong>Kant’s critique of reason → Hegel’s dialectic</button>
+        <button class="relationship-button" type="button" data-focus-rel="hegel-marx" aria-pressed="false"><strong>Reacted against · documented</strong>Hegel’s dialectic → Marx’s materialist inversion</button>
+        <button class="relationship-button" type="button" data-focus-rel="lovelace-turing" aria-pressed="false"><strong>Reacted against · direct text</strong>Lovelace’s objection → Turing’s 1950 reply</button>
+        <button class="relationship-button" type="button" data-focus-rel="wittgenstein-turing" aria-pressed="false"><strong>Conceptual lens · indirect</strong>Meaning as use → Turing’s machine-intelligence test</button>
+        <button class="relationship-button" type="button" data-focus-rel="turing-dartmouth" aria-pressed="false"><strong>Influenced · high confidence</strong>Turing’s machine question → Dartmouth field formation</button>
+        <button class="relationship-button" type="button" data-focus-rel="dartmouth-japan" aria-pressed="false"><strong>Institutionalized · interpretation</strong>Dartmouth’s field → Japan’s national program</button>
+        <button class="relationship-button" type="button" data-focus-rel="dawkins-gruber" aria-pressed="false"><strong>Conceptual lens · indirect</strong>Memes as replicating culture → training corpora as pattern pools</button>
+        <button class="relationship-button" type="button" data-focus-rel="asilomar" aria-pressed="false"><strong>Iterated on · documented</strong>Asilomar 1975 → Asilomar AI Principles 2017</button>
+      </div>
+    </section>
+  </main>
+
+  <div class="drawer-scrim" data-close-drawer aria-hidden="true"></div>
+  <aside class="context-drawer" id="context-drawer" role="dialog" aria-modal="true" aria-labelledby="drawer-title" aria-hidden="true">
+    <button class="drawer-close" type="button" data-close-drawer>Close ×</button>
+    <p class="drawer-label" id="drawer-label"></p>
+    <h2 id="drawer-title"></h2>
+    <p class="drawer-meta" id="drawer-meta"></p>
+    <div class="story-copy" id="drawer-story"></div>
+    <section class="drawer-section"><h3>Key people</h3><ul class="people-list" id="drawer-people"></ul></section>
+    <section class="drawer-section"><h3>Related topics</h3><ul class="topic-list" id="drawer-topics"></ul></section>
+    <section class="drawer-section"><h3>Typed relationships</h3><ul class="drawer-relationships" id="drawer-relationships"></ul></section>
+    <section class="drawer-section"><h3>Source record</h3><div class="source-card" id="drawer-source"></div></section>
+  </aside>
+
+  <script>
+    (() => {
+      const root = document.documentElement;
+      const themeToggle = document.querySelector('#theme-toggle');
+      const drawer = document.querySelector('#context-drawer');
+      const scrim = document.querySelector('.drawer-scrim');
+      const anchors = [...document.querySelectorAll('.anchor')];
+      const relButtons = [...document.querySelectorAll('[data-focus-rel]')];
+      const arcs = [...document.querySelectorAll('.arc')];
+      const storageKey = 'knewzly-timeline-concept-visited-v1';
+      let returnFocus = null;
+
+      const events = {
+        socrates: { label:'Philosophy · c. 470–399 BCE', title:'Socrates’ questioning method', meta:'Claim type · Interpretation · confidence: established philosophical lineage', story:'<p>Socrates left no writings; what survives comes through Plato’s dialogues, where he cross-examines claims by relentless questioning (elenchus) until contradictions surface — exposing false confidence as the first step toward real understanding.</p><p>Reading this as the root of a Western “dialectical” tradition of testing ideas through structured challenge — later formalized by Hegel — is a well-established interpretive lineage, not a claim that Socrates anticipated any specific modern method.</p>', people:['Socrates','Plato'], topics:['dialectic','method of inquiry','philosophy of innovation'], rels:[['Influenced · interpretation','Socrates’ questioning method → Aristotle’s systematic categorization of knowledge.']], source:'<a href="https://plato.stanford.edu/entries/socrates/" target="_blank" rel="noreferrer">Stanford Encyclopedia of Philosophy: Socrates</a>.' },
+        aristotle: { label:'Philosophy · c. 350 BCE', title:'Aristotle’s Categories', meta:'Claim type · Interpretation · confidence: established conceptual ancestry', story:'<p>Aristotle proposed a scheme for fundamental kinds of being: substance, quantity, quality, relation and more. Modern ontology engineering borrows the word and the ambition to say what kinds of things exist in a domain.</p><p>This is conceptual ancestry, not a claim that ancient philosophy directly engineered a knowledge graph.</p>', people:['Aristotle'], topics:['ontology','categories','knowledge representation'], rels:[['Influenced · interpretation','Socrates’ questioning method → Aristotle’s systematic categorization.'],['Conceptual lens · indirect','Aristotle’s categorial scheme → Gruber’s 1993 ontology definition']], source:'<a href="https://plato.stanford.edu/entries/aristotle-logic/" target="_blank" rel="noreferrer">Stanford Encyclopedia of Philosophy: Aristotle’s Logic</a> · Orientation source in Knewzly research note.' },
+        kant: { label:'Philosophy · 1781', title:'Kant’s critique of reason', meta:'Claim type · Fact · confidence: high', story:'<p>Immanuel Kant’s 1781 <em>Critique of Pure Reason</em> argued that the mind actively structures experience through built-in categories of understanding, rather than passively receiving it — reason has both power and mappable limits.</p><p>This “critical” turn — examining the structure and limits of a reasoning system before trusting its output — is a recurring interpretive lens for AI evaluation and interpretability work, though Kant was describing human cognition, not machines.</p>', people:['Immanuel Kant'], topics:['epistemology','limits of reason','philosophy of innovation'], rels:[['Influenced · documented','Kant’s critique of reason → Hegel’s dialectical development of ideas.']], source:'<a href="https://plato.stanford.edu/entries/kant/" target="_blank" rel="noreferrer">Stanford Encyclopedia of Philosophy: Kant</a>.' },
+        hegel: { label:'Philosophy · 1807', title:'Hegel’s dialectic', meta:'Claim type · Fact + interpretation', story:'<p>In the <em>Phenomenology of Spirit</em> (1807), Hegel described knowledge developing through contradiction and resolution — a thesis meets its opposite, and the tension resolves into a more complete synthesis, which becomes the next thesis.</p><p>This dialectical pattern is often used as a conceptual lens for how technical fields, including AI, advance through critique, failure and revision — not a claim that Hegel described engineering practice.</p>', people:['G.W.F. Hegel'], topics:['dialectic','philosophy of innovation','historical development'], rels:[['Influenced · documented','Kant’s critique of reason → Hegel’s dialectic.'],['Reacted against · documented','Marx inverted Hegel’s idealist dialectic into a materialist one grounded in economic and technological conditions.']], source:'<a href="https://plato.stanford.edu/entries/hegel/" target="_blank" rel="noreferrer">Stanford Encyclopedia of Philosophy: Hegel</a>.' },
+        lovelace: { label:'Europe · 1843', title:'Lovelace’s objection', meta:'Claim type · Fact + conceptual analogy', story:'<p>In her notes on the Analytical Engine, Ada Lovelace argued that the machine had no power to originate anything: it could do what people knew how to order it to perform.</p><p>The question still sharpens arguments about generative systems and authorship. Calling that one unbroken debate is a conceptual analogy.</p>', people:['Ada Lovelace','Charles Babbage'], topics:['computation','creativity','authorship'], rels:[['Reacted against · documented text','Turing later answered what he called “Lady Lovelace’s Objection.”']], source:'Knewzly research note: <a href="../research/frank-coyle-talk-gap-analysis.md">Frank Coyle talk gap analysis</a> · Lovelace anchor section.' },
+        marx: { label:'Philosophy · 1867', title:'Marx: means of production', meta:'Claim type · Fact + interpretation', story:'<p><em>Das Kapital</em>, Volume I (1867) argued that a society’s technology and organization of production — not abstract ideas alone — drive historical change, and that whoever controls the means of production shapes who benefits from new efficiency.</p><p>Marx explicitly reworked Hegel’s dialectic into this materialist frame. Applying that lens to AI — asking who owns the compute, data and models, and who captures the resulting gains — is a direct, well-precedented extension of Marx’s own framework, not a claim that Marx foresaw computing.</p>', people:['Karl Marx'], topics:['means of production','labor','philosophy of innovation'], rels:[['Reacted against · documented','Hegel’s dialectic → Marx’s materialist inversion of it.']], source:'Knewzly research note: <a href="../research/frank-coyle-talk-gap-analysis.md">economics lineage extension</a> (Taylor, Keynes, Luddites) shares this frame.' },
+        wittgenstein: { label:'Philosophy · 1921 / 1953', title:'Wittgenstein: meaning as use', meta:'Claim type · Fact + interpretation', story:'<p>In the <em>Tractatus</em> (1921), the young Wittgenstein treated language as a picture of logical facts. By the posthumous <em>Philosophical Investigations</em> (1953), he had reversed course: meaning, he argued, comes from how a word is used within a shared “language game,” not from a fixed picture it represents.</p><p>That second idea — meaning as use in context — is frequently invoked as a conceptual lens for large language models, which likewise derive word meaning from statistical patterns of use rather than fixed definitions. Wittgenstein did not anticipate neural networks; the parallel is philosophers’ and AI researchers’ own drawing.</p>', people:['Ludwig Wittgenstein'], topics:['philosophy of language','meaning as use','language games'], rels:[['Conceptual lens · indirect','Meaning-as-use in language games → how large language models derive meaning from patterns of use.']], source:'<a href="https://plato.stanford.edu/entries/wittgenstein/" target="_blank" rel="noreferrer">Stanford Encyclopedia of Philosophy: Wittgenstein</a>.' },
+        turing: { label:'Europe · 1936 / 1950', title:'Turing’s machine question', meta:'Claim type · Fact · confidence: high', story:'<p>Alan Turing’s 1936 work gave a precise model of computation. In 1950 he shifted the public question from definitions of thinking to an operational test of machine intelligence.</p><p>Together, the two moments connect what a machine can compute with how people might judge intelligent behaviour.</p>', people:['Alan Turing'], topics:['computability','machine intelligence','imitation game'], rels:[['Reacted against','Turing replies to Lovelace’s objection.'],['Influenced · high confidence','The machine-intelligence question precedes the Dartmouth field-forming project.'],['Conceptual lens · indirect','Wittgenstein’s meaning-as-use → the operational, behavior-based test Turing proposes for machine intelligence.']], source:'Technical-spine orientation: <a href="../research/initial-timeline-video-gap-analysis.md">initial timeline gap analysis</a>.' },
+        dartmouth: { label:'North America · 1956', title:'Dartmouth names artificial intelligence', meta:'Claim type · Fact · confidence: high', story:'<p>The Dartmouth summer research proposal gathered researchers around the claim that aspects of learning and intelligence could be described precisely enough for a machine to simulate them.</p><p>The meeting did not invent every ingredient, but it gave a new research field a durable name and institutional centre.</p>', people:['John McCarthy','Marvin Minsky','Claude Shannon','Nathaniel Rochester'], topics:['symbolic AI','field formation','research institutions'], rels:[['Influenced','Turing’s earlier machine-intelligence question → Dartmouth.'],['Institutionalized · interpretation','The named field later became the object of national programs including Japan’s Fifth Generation project.']], source:'<a href="http://www-formal.stanford.edu/jmc/history/dartmouth/dartmouth.html" target="_blank" rel="noreferrer">Dartmouth proposal · primary source</a>.' },
+        bohm: { label:'Europe · 1966', title:'Böhm–Jacopini theorem', meta:'Claim type · Fact + interpretation', story:'<p>Corrado Böhm and Giuseppe Jacopini showed that sequence, selection and iteration are sufficient for structured computation.</p><p>Using the theorem to explain today’s tool-using agent loop is an interpretation. The theorem did not anticipate language models; it explains why a loop with branching is computationally powerful.</p>', people:['Corrado Böhm','Giuseppe Jacopini'], topics:['structured programming','iteration','agent loops'], rels:[['Enabled · present-day interpretation','Sequence + selection + iteration → the computational shape of agent loops today.']], source:'<a href="https://www.cs.cornell.edu/~kozen/Papers/BohmJacopini.pdf" target="_blank" rel="noreferrer">Cornell technical treatment</a> · linked from Knewzly research note.' },
+        asilomar75: { label:'North America · 1975', title:'Asilomar self-regulation', meta:'Claim type · Fact · confidence: high', story:'<p>About 140 researchers met at Asilomar to discuss safeguards for recombinant-DNA research. Their voluntary guidelines later influenced binding NIH rules.</p><p>The event became a durable model for scientists trying to govern a fast-moving field before ordinary regulation catches up.</p>', people:['Paul Berg','recombinant-DNA researchers'], topics:['science governance','self-regulation','biosafety'], rels:[['Iterated on · documented','AI researchers deliberately invoked the 1975 precedent at Asilomar in 2017.']], source:'Knewzly research note: <a href="../research/frank-coyle-talk-gap-analysis.md">Asilomar comparison and sources</a>.' },
+        japan: { label:'Asia · 1982–1992', title:'Japan’s Fifth Generation project', meta:'Claim type · Fact + interpretation', story:'<p>Japan’s Ministry of International Trade and Industry backed a decade-long national program built around logic programming and advanced computing.</p><p>It is widely described as a commercial failure, but that label misses the research it advanced and the international programs it provoked. Its value here is a complicated precedent for national AI strategy.</p>', people:['Japan MITI','ICOT researchers'], topics:['logic programming','industrial policy','expert systems'], rels:[['Institutionalized · interpretation','A named AI field becomes the target of a large national computing program.']], source:'Knewzly research note: <a href="../research/frank-coyle-talk-gap-analysis.md">Fifth Generation economic-policy dimension</a>.' },
+        gruber: { label:'North America · 1993', title:'Gruber defines ontology', meta:'Claim type · Fact · confidence: primary source', story:'<p>Tom Gruber defined an ontology as “an explicit specification of a conceptualization.” That exact wording matters: the familiar “formal” and “shared” additions came from later authors.</p><p>The definition became foundational to knowledge engineering and the systems that organize concepts for exchange and inference.</p>', people:['Tom Gruber'], topics:['ontology engineering','knowledge graphs','shared concepts'], rels:[['Conceptual lens · indirect','Aristotle’s categories → the framing of modern ontology engineering.'],['Conceptual lens · indirect','Dawkins’s replicating memes → treating a model’s training corpus as a pool of cultural patterns.']], source:'<a href="https://tomgruber.org/writing/ontolingua-kaj-1993/" target="_blank" rel="noreferrer">Gruber’s own site · primary source</a>.' },
+        dawkins: { label:'Philosophy · 1976', title:'Dawkins: the meme', meta:'Claim type · Fact + interpretation', story:'<p>In <em>The Selfish Gene</em> (1976), Richard Dawkins coined “meme” for a unit of cultural information that replicates, mutates and is selected for much like a gene — an idea, tune or technique copied from mind to mind.</p><p>Treating a training corpus as a vast pool of memes being selected for and remixed by a model — and the internet’s meme culture as a visible, accelerated case of exactly this replication — is a conceptual lens connecting cultural evolution to how models are trained on and reproduce cultural patterns. It is an analogy, not a claim that genetics or memetics is how neural networks actually work.</p>', people:['Richard Dawkins'], topics:['memetics','cultural evolution','information replication'], rels:[['Conceptual lens · indirect','Memes as replicating units of culture → training corpora as pools of patterns a model learns to reproduce.']], source:'Dawkins, <em>The Selfish Gene</em> (1976), Ch. 11 “Memes.”' },
+        baudrillard: { label:'Philosophy · 1981', title:'Baudrillard’s simulacra', meta:'Claim type · Fact + interpretation', story:'<p>Jean Baudrillard’s <em>Simulacra and Simulation</em> (1981) argued that a media-saturated society increasingly relates to copies, models and signs that no longer point back to any original — a condition he called “hyperreality,” where “the map precedes the territory.”</p><p>Written more than a decade before the mainstream internet and four decades before generative AI, the book is now widely reread as an early diagnosis of synthetic media: AI-generated images, text and video that circulate and get treated as real without any originating event. That reading is a conceptual lens, not a claim that Baudrillard foresaw generative models.</p>', people:['Jean Baudrillard'], topics:['hyperreality','simulation','synthetic media'], rels:[], source:'<a href="https://en.wikipedia.org/wiki/Simulacra_and_Simulation" target="_blank" rel="noreferrer">Baudrillard, <em>Simulacra and Simulation</em> (1981) — overview and reception</a>.' },
+        asilomar17: { label:'North America · 2017', title:'Asilomar AI Principles', meta:'Claim type · Fact + interpretation', story:'<p>AI researchers met at the same California location and produced 23 principles addressing research goals, safety, transparency and long-term questions.</p><p>The deliberate echo of 1975 is factual. Comparing the two frameworks’ enforcement outcomes is an interpretation: the AI principles remain voluntary.</p>', people:['Future of Life Institute','AI research community'], topics:['AI safety','voluntary principles','governance'], rels:[['Iterated on · documented','Asilomar 1975 → the deliberately named 2017 AI principles.']], source:'Knewzly research note: <a href="../research/frank-coyle-talk-gap-analysis.md">Asilomar historical echo and sources</a>.' }
+      };
+
+      let visited = new Set();
+      try { visited = new Set(JSON.parse(localStorage.getItem(storageKey) || '[]')); } catch (_) { visited = new Set(); }
+
+      function saveVisited() { try { localStorage.setItem(storageKey, JSON.stringify([...visited])); } catch (_) {} }
+      function renderVisited() {
+        anchors.forEach((anchor) => anchor.classList.toggle('is-visited', visited.has(anchor.dataset.event)));
+        document.querySelector('#visited-summary').textContent = `${visited.size} of ${anchors.length} anchors visited`;
+      }
+
+      function focusRelationship(id) {
+        const active = relButtons.find((button) => button.dataset.focusRel === id && button.getAttribute('aria-pressed') !== 'true');
+        relButtons.forEach((button) => button.setAttribute('aria-pressed', String(button === active)));
+        arcs.forEach((arc) => { arc.classList.toggle('is-active', !!active && arc.dataset.rel === id); arc.classList.toggle('is-dimmed', !!active && arc.dataset.rel !== id); });
+        anchors.forEach((anchor) => { const related = anchor.dataset.relations.split(' ').includes(id); anchor.classList.toggle('is-dimmed', !!active && !related); });
+      }
+
+      function openEvent(id, trigger) {
+        const event = events[id]; if (!event) return;
+        returnFocus = trigger;
+        visited.add(id); saveVisited(); renderVisited();
+        anchors.forEach((anchor) => anchor.setAttribute('aria-expanded', String(anchor === trigger)));
+        document.querySelector('#drawer-label').textContent = event.label;
+        document.querySelector('#drawer-title').textContent = event.title;
+        document.querySelector('#drawer-meta').textContent = event.meta;
+        document.querySelector('#drawer-story').innerHTML = event.story;
+        document.querySelector('#drawer-people').innerHTML = event.people.map((item) => `<li>${item}</li>`).join('');
+        document.querySelector('#drawer-topics').innerHTML = event.topics.map((item) => `<li>${item}</li>`).join('');
+        document.querySelector('#drawer-relationships').innerHTML = event.rels.map(([type, text]) => `<li><strong>${type}</strong>${text}</li>`).join('');
+        document.querySelector('#drawer-source').innerHTML = event.source;
+        drawer.classList.add('is-open'); scrim.classList.add('is-open'); drawer.setAttribute('aria-hidden','false'); document.body.classList.add('drawer-open');
+        drawer.querySelector('.drawer-close').focus();
+        const firstRel = trigger.dataset.relations.split(' ')[0]; if (firstRel) focusRelationship(firstRel);
+      }
+
+      function closeDrawer() {
+        drawer.classList.remove('is-open'); scrim.classList.remove('is-open'); drawer.setAttribute('aria-hidden','true'); document.body.classList.remove('drawer-open');
+        anchors.forEach((anchor) => anchor.setAttribute('aria-expanded','false'));
+        focusRelationship('');
+        if (returnFocus) returnFocus.focus();
+      }
+
+      anchors.forEach((anchor) => {
+        anchor.addEventListener('click', () => openEvent(anchor.dataset.event, anchor));
+        anchor.addEventListener('mouseenter', () => { const id = anchor.dataset.relations.split(' ')[0]; if (id) focusRelationship(id); });
+        anchor.addEventListener('mouseleave', () => { if (!drawer.classList.contains('is-open')) focusRelationship(''); });
+      });
+      relButtons.forEach((button) => button.addEventListener('click', () => focusRelationship(button.dataset.focusRel)));
+      document.querySelectorAll('[data-close-drawer]').forEach((button) => button.addEventListener('click', closeDrawer));
+      document.addEventListener('keydown', (event) => { if (event.key === 'Escape' && drawer.classList.contains('is-open')) closeDrawer(); });
+
+      const preferredDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+      root.dataset.theme = preferredDark ? 'dark' : 'light';
+      function updateThemeLabel() { const dark = root.dataset.theme === 'dark'; themeToggle.textContent = dark ? 'Light edition' : 'Dark edition'; themeToggle.setAttribute('aria-label', dark ? 'Switch to light theme' : 'Switch to dark theme'); }
+      themeToggle.addEventListener('click', () => { root.dataset.theme = root.dataset.theme === 'dark' ? 'light' : 'dark'; updateThemeLabel(); });
+      updateThemeLabel(); renderVisited();
+    })();
+  </script>
+</body>
+</html>

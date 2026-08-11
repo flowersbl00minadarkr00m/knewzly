@@ -1,0 +1,187 @@
+- generic [ref=f8e1]:
+  - banner [ref=f8e2]:
+    - link "Knewzly home, prototype" [ref=f8e3] [cursor=pointer]:
+      - /url: "#"
+      - generic [ref=f8e4]: K
+      - generic [ref=f8e5]: Knewzly
+      - generic [ref=f8e6]: history, connected
+    - generic [ref=f8e7]:
+      - button "Search atlas" [ref=f8e8] [cursor=pointer]
+      - 'button "Density: anchors" [ref=f8e9] [cursor=pointer]'
+      - button "Ask Archie" [ref=f8e10] [cursor=pointer]: Ask Archie ↗
+  - generic "Atlas status" [ref=f8e11]:
+    - strong [ref=f8e12]: HISTORY FIRST
+    - generic [ref=f8e14]: Simulated demo content
+    - generic [ref=f8e15]: ·
+    - generic [ref=f8e16]: 24 proposed anchors
+    - generic [ref=f8e17]: ·
+    - generic [ref=f8e18]: Relationships are typed, not implied by color
+  - main [ref=f8e19]:
+    - complementary "Atlas guide" [ref=f8e20]:
+      - generic [ref=f8e21]: Start here
+      - heading "Find one bridge." [level=2] [ref=f8e22]
+      - paragraph [ref=f8e23]: Choose an anchor, then read what came before, what changed, and what followed.
+      - button "Show me a bridge" [ref=f8e24] [cursor=pointer]: Show me a bridge →
+      - generic [ref=f8e25]:
+        - heading "Topic lens" [level=3] [ref=f8e26]
+        - group "Topic filters" [ref=f8e27]:
+          - button "Origins" [pressed] [ref=f8e28] [cursor=pointer]
+          - button "Compute" [ref=f8e29] [cursor=pointer]
+          - button "Language" [ref=f8e30] [cursor=pointer]
+          - button "Governance" [ref=f8e31] [cursor=pointer]
+      - generic [ref=f8e32]:
+        - heading "Relationship key" [level=3] [ref=f8e33]
+        - generic [ref=f8e34]: Influence / iteration
+        - generic [ref=f8e36]: Conceptual lens
+        - generic [ref=f8e38]: Selected anchor
+        - generic [ref=f8e40]: Philosophy lane
+    - region [ref=f8e42]:
+      - generic [ref=f8e43]:
+        - generic [ref=f8e44]:
+          - generic [ref=f8e45]: Global history atlas / F01 spike
+          - heading "The long arc into AI" [level=1] [ref=f8e46]
+          - paragraph [ref=f8e47]: Parallel lanes make origins visible across time, place, and idea.
+        - generic [ref=f8e48]: 1600 — NOW / PROPOSED SPINE
+      - generic [ref=f8e49]:
+        - generic [ref=f8e50]:
+          - strong [ref=f8e51]: Shared time axis · select an anchor to open context
+          - generic [ref=f8e52]: SIMULATED — NOT SOURCED
+        - generic "Scrollable history timeline. Use Tab to move through anchor events." [ref=f8e53]:
+          - generic [ref=f8e54]:
+            - generic [ref=f8e55]:
+              - generic [ref=f8e56]: "1600"
+              - generic [ref=f8e57]: "1800"
+              - generic [ref=f8e58]: "1900"
+              - generic [ref=f8e59]: "1940"
+              - generic [ref=f8e60]: "1960"
+              - generic [ref=f8e61]: "1980"
+              - generic [ref=f8e62]: "2000"
+              - generic [ref=f8e63]: "2025"
+            - img "Typed relationship arcs connect selected historical anchors.":
+              - generic: conceptual lens
+              - generic: enabled
+              - generic: iterated on
+            - generic [ref=f8e64]:
+              - generic [ref=f8e65]:
+                - text: Philosophy
+                - generic [ref=f8e66]: conceptual ancestry
+              - generic [ref=f8e67]:
+                - button "1800s Agency & reason conceptual lens" [ref=f8e68] [cursor=pointer]:
+                  - generic [ref=f8e70]: 1800s
+                  - strong [ref=f8e71]: Agency & reason
+                  - generic [ref=f8e72]: conceptual lens
+                - button "1900s Language & meaning conceptual lens" [ref=f8e73] [cursor=pointer]:
+                  - generic [ref=f8e75]: 1900s
+                  - strong [ref=f8e76]: Language & meaning
+                  - generic [ref=f8e77]: conceptual lens
+            - generic [ref=f8e78]:
+              - generic [ref=f8e79]:
+                - text: Europe
+                - generic [ref=f8e80]: logic & institutions
+              - generic [ref=f8e81]:
+                - button "1940s Codebreaking institution" [ref=f8e82] [cursor=pointer]:
+                  - generic [ref=f8e84]: 1940s
+                  - strong [ref=f8e85]: Codebreaking
+                  - generic [ref=f8e86]: institution
+                - button "1950s Symbolic AI formal reasoning" [ref=f8e87] [cursor=pointer]:
+                  - generic [ref=f8e89]: 1950s
+                  - strong [ref=f8e90]: Symbolic AI
+                  - generic [ref=f8e91]: formal reasoning
+            - generic [ref=f8e92]:
+              - generic [ref=f8e93]:
+                - text: North America
+                - generic [ref=f8e94]: research & scale
+              - generic [ref=f8e95]:
+                - button "1958 Learning machines neural branch" [ref=f8e96] [cursor=pointer]:
+                  - generic [ref=f8e98]: "1958"
+                  - strong [ref=f8e99]: Learning machines
+                  - generic [ref=f8e100]: neural branch
+                - button "1986 Backpropagation method" [ref=f8e101] [cursor=pointer]:
+                  - generic [ref=f8e103]: "1986"
+                  - strong [ref=f8e104]: Backpropagation
+                  - generic [ref=f8e105]: method
+            - generic [ref=f8e106]:
+              - generic [ref=f8e107]:
+                - text: Asia
+                - generic [ref=f8e108]: methods & systems
+              - button "2017 A new way to focus architecture" [pressed] [ref=f8e110] [cursor=pointer]:
+                - generic [ref=f8e112]: "2017"
+                - strong [ref=f8e113]: A new way to focus
+                - generic [ref=f8e114]: architecture
+            - generic [ref=f8e115]:
+              - generic [ref=f8e116]:
+                - text: Africa & global
+                - generic [ref=f8e117]: data, labor, governance
+              - button "2020s Deployment choices ecosystem" [ref=f8e119] [cursor=pointer]:
+                - generic [ref=f8e121]: 2020s
+                - strong [ref=f8e122]: Deployment choices
+                - generic [ref=f8e123]: ecosystem
+        - generic [ref=f8e124]:
+          - generic [ref=f8e125]:
+            - strong [ref=f8e126]: "Reading the map:"
+            - text: anchors are concise; the drawer carries depth.
+          - generic [ref=f8e127]: "Selected: Iterated on · medium confidence (demo) · demo state"
+    - complementary [ref=f8e128]:
+      - generic [ref=f8e129]:
+        - generic [ref=f8e130]:
+          - generic [ref=f8e131]: Attached / bounded
+          - heading "Today" [level=2] [ref=f8e132]
+        - generic [ref=f8e133]: DEMO
+      - paragraph [ref=f8e134]: Current stories stay secondary and trace back to history.
+      - group "Today topics" [ref=f8e135]:
+        - button "All" [pressed] [ref=f8e136] [cursor=pointer]
+        - button "Models" [ref=f8e137] [cursor=pointer]
+        - button "Policy" [ref=f8e138] [cursor=pointer]
+      - article [ref=f8e139]:
+        - time [ref=f8e140]: AUG 01 · FRESHNESS DEMO
+        - heading "Why “context” keeps returning" [level=3] [ref=f8e141]
+        - paragraph [ref=f8e142]: A simulated story card showing how a present topic could trace to an earlier anchor.
+        - button "Trace to origin →" [ref=f8e143] [cursor=pointer]
+      - article [ref=f8e144]:
+        - time [ref=f8e145]: JUL 29 · SOURCE PENDING
+        - heading "Who gets to shape deployment?" [level=3] [ref=f8e146]
+        - paragraph [ref=f8e147]: A bounded placeholder for labor, governance, and infrastructure context.
+        - button "Trace to origin →" [ref=f8e148] [cursor=pointer]
+      - generic [ref=f8e149]:
+        - strong [ref=f8e150]: Source status
+        - text: Prototype only. No live feed, citation, or freshness claim is connected.
+  - dialog [ref=f8e151]:
+    - generic [ref=f8e152]:
+      - generic [ref=f8e153]:
+        - generic [ref=f8e154]: 2017 · Asia / North America
+        - heading "A new way to focus" [active] [level=2] [ref=f8e155]
+        - paragraph [ref=f8e156]: Architecture · iterated on earlier methods
+      - button "Close context drawer" [ref=f8e157] [cursor=pointer]: ×
+    - generic [ref=f8e158]:
+      - paragraph [ref=f8e159]: This simulated anchor uses attention as a way to talk about changing how information is connected. It is a design example, not a sourced historical account.
+      - generic [ref=f8e160]:
+        - heading "Relationship in focus" [level=3] [ref=f8e161]
+        - generic [ref=f8e162]: Iterated on · medium confidence (demo)
+        - paragraph [ref=f8e163]: The selected reading is an enablement/iteration bridge, not a claim that one person or philosophy directly caused the architecture.
+      - generic [ref=f8e164]:
+        - heading "Learning path" [level=3] [ref=f8e165]
+        - generic [ref=f8e166]:
+          - generic [ref=f8e167]:
+            - strong [ref=f8e168]: What came before
+            - text: Sequence methods and growing compute made the problem visible.
+          - generic [ref=f8e169]:
+            - strong [ref=f8e170]: What changed here
+            - text: Attention is shown as the central design idea in this demo.
+          - generic [ref=f8e171]:
+            - strong [ref=f8e172]: What followed
+            - text: Later systems reused and extended the pattern in different settings.
+          - generic [ref=f8e173]:
+            - strong [ref=f8e174]: Related events
+            - text: Backpropagation · language & meaning · deployment choices
+      - generic [ref=f8e175]:
+        - heading "People / artifacts / institutions" [level=3] [ref=f8e176]
+        - paragraph [ref=f8e177]: Demo metadata pending approved historical curation and source verification.
+      - generic [ref=f8e178]:
+        - heading "Provenance" [level=3] [ref=f8e179]
+        - generic [ref=f8e180]:
+          - strong [ref=f8e181]: SIMULATED DEMO CONTENT
+          - text: Source link, publication date, claim type, confidence, and contested status must be populated from approved research before release.
+      - generic [ref=f8e182]:
+        - heading "Reflection prompt" [level=3] [ref=f8e183]
+        - paragraph [ref=f8e184]: What carried forward, and what changed?
+  - generic [ref=f8e185]: Selected A new way to focus. Iterated on · medium confidence (demo).

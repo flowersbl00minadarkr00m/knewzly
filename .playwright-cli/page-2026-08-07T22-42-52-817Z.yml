@@ -1,0 +1,97 @@
+- generic [ref=f1e1]:
+  - link "Skip to timeline" [ref=f1e2] [cursor=pointer]:
+    - /url: "#atlas"
+  - generic [ref=f1e3]: Conceptual mockup — proposed, not implemented.
+  - main [ref=f1e4]:
+    - generic [ref=f1e5]:
+      - generic [ref=f1e6]:
+        - paragraph [ref=f1e7]: The Knewzly Standard · Historical atlas desk
+        - heading "The long road to artificial intelligence" [level=1] [ref=f1e8]
+        - paragraph [ref=f1e9]: Move across one shared chronology, compare regional and philosophical lanes, and select an anchor to read the people, evidence and relationships behind it.
+      - generic [ref=f1e10]:
+        - button "Switch to dark theme" [active] [ref=f1e97] [cursor=pointer]: Dark edition
+        - generic [ref=f1e12]: 1 of 9 anchors visited
+    - generic "Timeline guide" [ref=f1e13]:
+      - strong [ref=f1e14]: Browse the issue
+      - generic [ref=f1e15]: ·Drag or shift-scroll horizontally
+      - generic [ref=f1e16]: ·Select any event for its context drawer
+      - generic [ref=f1e17]: ·Solid arcs are direct; dashed arcs are interpretive
+    - region [ref=f1e18]:
+      - generic [ref=f1e19]:
+        - generic [ref=f1e20]:
+          - strong [ref=f1e21]: "Edited time axis:"
+          - text: chronological, intentionally not proportional so the modern record stays legible.
+        - generic [ref=f1e22]: All anchors remain visible · Visited is progress, never access.
+      - generic "Horizontally scrollable timeline with four lanes" [ref=f1e23]:
+        - generic [ref=f1e24]:
+          - generic [ref=f1e26]: c. 350 BCE
+          - generic [ref=f1e27]: "1843"
+          - generic [ref=f1e28]: "1936"
+          - generic [ref=f1e29]: "1956"
+          - generic [ref=f1e30]: "1966"
+          - generic [ref=f1e31]: "1975"
+          - generic [ref=f1e32]: "1982"
+          - generic [ref=f1e33]: "1993"
+          - generic [ref=f1e34]: "2017"
+          - generic [ref=f1e35]: Philosophy
+          - generic [ref=f1e37]: Europe
+          - generic [ref=f1e39]: North America
+          - generic [ref=f1e41]: Asia
+          - button "c. 350 BCE, Aristotle’s Categories, Philosophy lane" [ref=f1e43] [cursor=pointer]:
+            - generic [ref=f1e44]: c. 350 BCE
+            - generic [ref=f1e45]:
+              - text: Aristotle’s
+              - emphasis [ref=f1e46]: Categories
+            - generic [ref=f1e47]: Conceptual ancestry
+            - text: ✓ Visited
+          - button "1843, Lovelace’s objection, Europe lane" [ref=f1e48] [cursor=pointer]:
+            - generic [ref=f1e49]: "1843"
+            - generic [ref=f1e50]: Lovelace’s objection
+            - generic [ref=f1e51]: Computation · authorship
+          - button "1936 and 1950, Turing defines computation and asks if machines can think, Europe lane" [ref=f1e52] [cursor=pointer]:
+            - generic [ref=f1e53]: 1936 / 1950
+            - generic [ref=f1e54]: Turing’s machine question
+            - generic [ref=f1e55]: Formal computation
+          - button "1956, Dartmouth conference, North America lane" [ref=f1e56] [cursor=pointer]:
+            - generic [ref=f1e57]: "1956"
+            - generic [ref=f1e58]: Dartmouth names AI
+            - generic [ref=f1e59]: Field formation
+          - button "1966, Böhm–Jacopini theorem, Europe lane" [ref=f1e60] [cursor=pointer]:
+            - generic [ref=f1e61]: "1966"
+            - generic [ref=f1e62]: Böhm–Jacopini theorem
+            - generic [ref=f1e63]: Structured programs
+          - button "1975, Asilomar recombinant DNA conference, North America lane" [ref=f1e64] [cursor=pointer]:
+            - generic [ref=f1e65]: "1975"
+            - generic [ref=f1e66]: Asilomar self-regulation
+            - generic [ref=f1e67]: Science governance
+          - button "1982 to 1992, Japan’s Fifth Generation Computer Systems Project, Asia lane" [ref=f1e68] [cursor=pointer]:
+            - generic [ref=f1e69]: 1982–1992
+            - generic [ref=f1e70]: Japan’s Fifth Generation
+            - generic [ref=f1e71]: National AI policy
+          - button "1993, Tom Gruber’s ontology definition, North America lane" [ref=f1e72] [cursor=pointer]:
+            - generic [ref=f1e73]: "1993"
+            - generic [ref=f1e74]: Gruber defines ontology
+            - generic [ref=f1e75]: Knowledge engineering
+          - button "2017, Asilomar AI Principles, North America lane" [ref=f1e76] [cursor=pointer]:
+            - generic [ref=f1e77]: "2017"
+            - generic [ref=f1e78]: Asilomar AI Principles
+            - generic [ref=f1e79]: Voluntary governance
+      - generic [ref=f1e80]:
+        - strong [ref=f1e81]: Reading the arcs
+        - generic [ref=f1e82]: Higher-confidence connection Interpretive or indirect connection. Type and confidence are always repeated in text below.
+      - generic "Relationship list" [ref=f1e85]:
+        - button [ref=f1e86] [cursor=pointer]:
+          - strong [ref=f1e87]: Conceptual lens · indirect
+          - text: Aristotle’s categories → Gruber’s ontology definition
+        - button [ref=f1e88] [cursor=pointer]:
+          - strong [ref=f1e89]: Reacted against · direct text
+          - text: Lovelace’s objection → Turing’s 1950 reply
+        - button [ref=f1e90] [cursor=pointer]:
+          - strong [ref=f1e91]: Influenced · high confidence
+          - text: Turing’s machine question → Dartmouth field formation
+        - button [ref=f1e92] [cursor=pointer]:
+          - strong [ref=f1e93]: Institutionalized · interpretation
+          - text: Dartmouth’s field → Japan’s national program
+        - button [ref=f1e94] [cursor=pointer]:
+          - strong [ref=f1e95]: Iterated on · documented
+          - text: Asilomar 1975 → Asilomar AI Principles 2017

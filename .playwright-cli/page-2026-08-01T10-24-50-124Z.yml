@@ -1,0 +1,172 @@
+- generic [ref=f7e1]:
+  - banner [ref=f7e2]:
+    - link "Knewzly home, prototype" [ref=f7e3] [cursor=pointer]:
+      - /url: "#"
+      - generic [ref=f7e4]: K
+      - generic [ref=f7e5]: Knewzly
+    - generic [ref=f7e7]:
+      - 'button "Density: anchors" [ref=f7e9] [cursor=pointer]'
+      - button "Ask Archie" [ref=f7e10] [cursor=pointer]: Ask Archie ↗
+  - generic "Atlas status" [ref=f7e11]:
+    - strong [ref=f7e12]: HISTORY FIRST
+    - generic [ref=f7e14]: Simulated demo content
+    - generic [ref=f7e15]: ·
+    - generic [ref=f7e16]: 24 proposed anchors
+    - generic [ref=f7e17]: ·
+    - generic [ref=f7e18]: Relationships are typed, not implied by color
+  - main [ref=f7e19]:
+    - complementary "Atlas guide" [ref=f7e20]:
+      - generic [ref=f7e21]: Start here
+      - heading "Find one bridge." [level=2] [ref=f7e22]
+      - paragraph [ref=f7e23]: Choose an anchor, then read what came before, what changed, and what followed.
+      - button "Show me a bridge" [ref=f7e24] [cursor=pointer]: Show me a bridge →
+    - region [ref=f7e42]:
+      - generic [ref=f7e43]:
+        - generic [ref=f7e44]:
+          - generic [ref=f7e45]: Global history atlas / F01 spike
+          - heading "The long arc into AI" [level=1] [ref=f7e46]
+          - paragraph [ref=f7e47]: Parallel lanes make origins visible across time, place, and idea.
+        - generic [ref=f7e48]: 1600 — NOW / PROPOSED SPINE
+      - generic [ref=f7e49]:
+        - generic [ref=f7e50]:
+          - strong [ref=f7e51]: Shared time axis · select an anchor to open context
+          - generic [ref=f7e52]: SIMULATED — NOT SOURCED
+        - generic "Scrollable history timeline. Use Tab to move through anchor events." [ref=f7e53]:
+          - generic [ref=f7e54]:
+            - generic [ref=f7e55]:
+              - generic [ref=f7e56]: "1600"
+              - generic [ref=f7e57]: "1800"
+              - generic [ref=f7e58]: "1900"
+              - generic [ref=f7e59]: "1940"
+              - generic [ref=f7e60]: "1960"
+              - generic [ref=f7e61]: "1980"
+              - generic [ref=f7e62]: "2000"
+              - generic [ref=f7e63]: "2025"
+            - img "Typed relationship arcs connect selected historical anchors.":
+              - generic: conceptual lens
+              - generic: enabled
+              - generic: iterated on
+            - generic [ref=f7e64]:
+              - generic [ref=f7e65]:
+                - text: Philosophy
+                - generic [ref=f7e66]: conceptual ancestry
+              - generic [ref=f7e67]:
+                - button "1800s Agency & reason conceptual lens" [ref=f7e68] [cursor=pointer]:
+                  - generic [ref=f7e70]: 1800s
+                  - strong [ref=f7e71]: Agency & reason
+                  - generic [ref=f7e72]: conceptual lens
+                - button "1900s Language & meaning conceptual lens" [ref=f7e73] [cursor=pointer]:
+                  - generic [ref=f7e75]: 1900s
+                  - strong [ref=f7e76]: Language & meaning
+                  - generic [ref=f7e77]: conceptual lens
+            - generic [ref=f7e78]:
+              - generic [ref=f7e79]:
+                - text: Europe
+                - generic [ref=f7e80]: logic & institutions
+              - generic [ref=f7e81]:
+                - button "1940s Codebreaking institution" [pressed] [ref=f7e82] [cursor=pointer]:
+                  - generic [ref=f7e84]: 1940s
+                  - strong [ref=f7e85]: Codebreaking
+                  - generic [ref=f7e86]: institution
+                - button "1950s Symbolic AI formal reasoning" [ref=f7e87] [cursor=pointer]:
+                  - generic [ref=f7e89]: 1950s
+                  - strong [ref=f7e90]: Symbolic AI
+                  - generic [ref=f7e91]: formal reasoning
+            - generic [ref=f7e92]:
+              - generic [ref=f7e93]:
+                - text: North America
+                - generic [ref=f7e94]: research & scale
+              - generic [ref=f7e95]:
+                - button "1958 Learning machines neural branch" [ref=f7e96] [cursor=pointer]:
+                  - generic [ref=f7e98]: "1958"
+                  - strong [ref=f7e99]: Learning machines
+                  - generic [ref=f7e100]: neural branch
+                - button "1986 Backpropagation method" [ref=f7e101] [cursor=pointer]:
+                  - generic [ref=f7e103]: "1986"
+                  - strong [ref=f7e104]: Backpropagation
+                  - generic [ref=f7e105]: method
+            - generic [ref=f7e106]:
+              - generic [ref=f7e107]:
+                - text: Asia
+                - generic [ref=f7e108]: methods & systems
+              - button "2017 A new way to focus architecture" [ref=f7e110] [cursor=pointer]:
+                - generic [ref=f7e112]: "2017"
+                - strong [ref=f7e113]: A new way to focus
+                - generic [ref=f7e114]: architecture
+            - generic [ref=f7e115]:
+              - generic [ref=f7e116]:
+                - text: Africa & global
+                - generic [ref=f7e117]: data, labor, governance
+              - button "2020s Deployment choices ecosystem" [ref=f7e119] [cursor=pointer]:
+                - generic [ref=f7e121]: 2020s
+                - strong [ref=f7e122]: Deployment choices
+                - generic [ref=f7e123]: ecosystem
+        - generic [ref=f7e124]:
+          - generic [ref=f7e125]:
+            - strong [ref=f7e126]: "Reading the map:"
+            - text: anchors are concise; the drawer carries depth.
+          - generic [ref=f7e127]: "Selected: Enabled · medium confidence (demo) · demo state"
+    - complementary [ref=f7e128]:
+      - generic [ref=f7e129]:
+        - generic [ref=f7e130]:
+          - generic [ref=f7e131]: Attached / bounded
+          - heading "Today" [level=2] [ref=f7e132]
+        - generic [ref=f7e133]: DEMO
+      - paragraph [ref=f7e134]: Current stories stay secondary and trace back to history.
+      - group "Today topics" [ref=f7e135]:
+        - button "All" [pressed] [ref=f7e136] [cursor=pointer]
+        - button "Models" [ref=f7e137] [cursor=pointer]
+        - button "Policy" [ref=f7e138] [cursor=pointer]
+      - article [ref=f7e139]:
+        - time [ref=f7e140]: AUG 01 · FRESHNESS DEMO
+        - heading "Why “context” keeps returning" [level=3] [ref=f7e141]
+        - paragraph [ref=f7e142]: A simulated story card showing how a present topic could trace to an earlier anchor.
+        - button "Trace to origin →" [ref=f7e143] [cursor=pointer]
+      - article [ref=f7e144]:
+        - time [ref=f7e145]: JUL 29 · SOURCE PENDING
+        - heading "Who gets to shape deployment?" [level=3] [ref=f7e146]
+        - paragraph [ref=f7e147]: A bounded placeholder for labor, governance, and infrastructure context.
+        - button "Trace to origin →" [ref=f7e148] [cursor=pointer]
+      - generic [ref=f7e149]:
+        - strong [ref=f7e150]: Source status
+        - text: Prototype only. No live feed, citation, or freshness claim is connected.
+  - dialog [ref=f7e186]:
+    - generic [ref=f7e152]:
+      - generic [ref=f7e153]:
+        - generic [ref=f7e154]: 1940s · Europe
+        - heading "Codebreaking" [active] [level=2] [ref=f7e187]
+        - paragraph [ref=f7e156]: Institution · enablement bridge
+      - button "Close context drawer" [ref=f7e157] [cursor=pointer]: ×
+    - generic [ref=f7e158]:
+      - paragraph [ref=f7e159]: A simulated institutional anchor for the wartime and codebreaking branch of the story. The prototype uses it to test how institutions can be represented beside individual inventions.
+      - generic [ref=f7e160]:
+        - heading "Relationship in focus" [level=3] [ref=f7e161]
+        - generic [ref=f7e162]: Enabled · medium confidence (demo)
+        - paragraph [ref=f7e163]: Enablement means a setting or artifact made a later step possible; it is not direct authorship.
+      - generic [ref=f7e164]:
+        - heading "Learning path" [level=3] [ref=f7e165]
+        - generic [ref=f7e166]:
+          - generic [ref=f7e167]:
+            - strong [ref=f7e168]: What came before
+            - text: Formal logic, machines, and institutional problems set the conditions.
+          - generic [ref=f7e169]:
+            - strong [ref=f7e170]: What changed here
+            - text: Large coordinated efforts make computation a visible socio-technical activity.
+          - generic [ref=f7e171]:
+            - strong [ref=f7e172]: What followed
+            - text: Later research communities inherit tools, methods, and institutional memory.
+          - generic [ref=f7e173]:
+            - strong [ref=f7e174]: Related events
+            - text: Symbolic AI · learning machines · deployment choices
+      - generic [ref=f7e175]:
+        - heading "People / artifacts / institutions" [level=3] [ref=f7e176]
+        - paragraph [ref=f7e177]: Demo metadata pending approved historical curation and source verification.
+      - generic [ref=f7e178]:
+        - heading "Provenance" [level=3] [ref=f7e179]
+        - generic [ref=f7e180]:
+          - strong [ref=f7e181]: SIMULATED DEMO CONTENT
+          - text: Source link, publication date, claim type, confidence, and contested status must be populated from approved research before release.
+      - generic [ref=f7e182]:
+        - heading "Reflection prompt" [level=3] [ref=f7e183]
+        - paragraph [ref=f7e184]: What carried forward, and what changed?
+  - generic [ref=f7e185]: Selected Codebreaking. Enabled · medium confidence (demo).

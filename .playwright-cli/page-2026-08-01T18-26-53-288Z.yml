@@ -1,0 +1,182 @@
+- generic [active] [ref=f14e1]:
+  - banner [ref=f14e2]:
+    - link "Knewzly home, prototype" [ref=f14e3] [cursor=pointer]:
+      - /url: "#atlas-title"
+      - generic [ref=f14e4]: K
+      - generic [ref=f14e5]: Knewzly
+    - 'button "Density: anchors" [ref=f14e7] [cursor=pointer]'
+  - generic "Atlas status" [ref=f14e8]:
+    - strong [ref=f14e9]: HISTORY FIRST
+    - generic [ref=f14e11]: Simulated demo content
+    - generic [ref=f14e12]: ·
+    - generic [ref=f14e13]: Curated anchor sample
+    - generic [ref=f14e14]: ·
+    - generic [ref=f14e15]: Relationship meaning is stated in text, not color alone
+  - main [ref=f14e16]:
+    - complementary "Atlas guide" [ref=f14e17]:
+      - generic [ref=f14e18]: Start here
+      - heading "Trace one bridge." [level=2] [ref=f14e19]
+      - paragraph [ref=f14e20]: Choose an event, predict what carried forward, then inspect the relationship and its claim-level evidence.
+      - button "Show me a bridge" [ref=f14e21] [cursor=pointer]: Show me a bridge →
+      - generic [ref=f14e22]:
+        - heading "Topic lens" [level=3] [ref=f14e23]
+        - group "Topic filters" [ref=f14e24]:
+          - button "Origins" [ref=f14e25] [cursor=pointer]
+          - button "Compute" [ref=f14e26] [cursor=pointer]
+          - button "Language" [ref=f14e27] [cursor=pointer]
+          - button "Governance" [ref=f14e28] [cursor=pointer]
+      - generic [ref=f14e29]:
+        - heading "Relationship key" [level=3] [ref=f14e30]
+        - generic [ref=f14e31]: Influence / iteration — stated in text
+        - generic [ref=f14e33]: Conceptual lens — indirect
+        - generic [ref=f14e35]: Selected endpoint — also labeled
+        - generic [ref=f14e37]: Philosophy lane — explicit heading
+      - paragraph [ref=f14e39]: "Keyboard: Tab through events or the relationship list. Enter or Space selects. Escape closes the context panel."
+    - region [ref=f14e40]:
+      - generic [ref=f14e41]:
+        - generic [ref=f14e42]:
+          - generic [ref=f14e43]: Global history atlas / F01 spike
+          - heading "The long arc into AI" [level=1] [ref=f14e44]
+          - paragraph [ref=f14e45]: Historical events stay dominant while typed bridges show what may have carried forward.
+        - generic [ref=f14e46]: 1600 — NOW / SIMULATED SAMPLE
+      - generic [ref=f14e47]:
+        - generic [ref=f14e48]:
+          - strong [ref=f14e49]: Shared time axis · select an event or relationship endpoint
+          - generic [ref=f14e50]: SIMULATED — NOT VERIFIED
+        - generic "Date-indexed mobile history lanes" [ref=f14e51]:
+          - region [ref=f14e52]:
+            - heading "Philosophy conceptual ancestry" [level=3] [ref=f14e53]:
+              - text: Philosophy
+              - generic [ref=f14e54]: conceptual ancestry
+            - list [ref=f14e55]:
+              - listitem [ref=f14e56]:
+                - button "1800s Agency & reason Conceptual lens · Philosophy" [ref=f14e57] [cursor=pointer]:
+                  - generic [ref=f14e58]: 1800s
+                  - generic [ref=f14e59]:
+                    - strong [ref=f14e60]: Agency & reason
+                    - generic [ref=f14e61]: Conceptual lens · Philosophy
+              - listitem [ref=f14e62]:
+                - button "1900s Language & meaning Conceptual lens · Philosophy" [ref=f14e63] [cursor=pointer]:
+                  - generic [ref=f14e64]: 1900s
+                  - generic [ref=f14e65]:
+                    - strong [ref=f14e66]: Language & meaning
+                    - generic [ref=f14e67]: Conceptual lens · Philosophy
+          - region [ref=f14e68]:
+            - heading "Europe logic & institutions" [level=3] [ref=f14e69]:
+              - text: Europe
+              - generic [ref=f14e70]: logic & institutions
+            - list [ref=f14e71]:
+              - listitem [ref=f14e72]:
+                - button "1940s Codebreaking Institution · Europe" [ref=f14e73] [cursor=pointer]:
+                  - generic [ref=f14e74]: 1940s
+                  - generic [ref=f14e75]:
+                    - strong [ref=f14e76]: Codebreaking
+                    - generic [ref=f14e77]: Institution · Europe
+              - listitem [ref=f14e78]:
+                - button "1950s Symbolic AI Formal reasoning · Europe" [ref=f14e79] [cursor=pointer]:
+                  - generic [ref=f14e80]: 1950s
+                  - generic [ref=f14e81]:
+                    - strong [ref=f14e82]: Symbolic AI
+                    - generic [ref=f14e83]: Formal reasoning · Europe
+          - region [ref=f14e84]:
+            - heading "North America research & scale" [level=3] [ref=f14e85]:
+              - text: North America
+              - generic [ref=f14e86]: research & scale
+            - list [ref=f14e87]:
+              - listitem [ref=f14e88]:
+                - button "1958 Learning machines Neural branch · North America" [ref=f14e89] [cursor=pointer]:
+                  - generic [ref=f14e90]: "1958"
+                  - generic [ref=f14e91]:
+                    - strong [ref=f14e92]: Learning machines
+                    - generic [ref=f14e93]: Neural branch · North America
+              - listitem [ref=f14e94]:
+                - button "1986 Backpropagation Method · North America" [ref=f14e95] [cursor=pointer]:
+                  - generic [ref=f14e96]: "1986"
+                  - generic [ref=f14e97]:
+                    - strong [ref=f14e98]: Backpropagation
+                    - generic [ref=f14e99]: Method · North America
+          - region [ref=f14e100]:
+            - heading "Asia methods & systems" [level=3] [ref=f14e101]:
+              - text: Asia
+              - generic [ref=f14e102]: methods & systems
+            - list [ref=f14e103]:
+              - listitem [ref=f14e104]:
+                - button "2017 A new way to focus Architecture · Asia / North America" [pressed] [ref=f14e105] [cursor=pointer]:
+                  - generic [ref=f14e106]: "2017"
+                  - generic [ref=f14e107]:
+                    - strong [ref=f14e108]: A new way to focus
+                    - generic [ref=f14e109]: Architecture · Asia / North America
+          - region [ref=f14e110]:
+            - heading "Africa & global data, labor, governance" [level=3] [ref=f14e111]:
+              - text: Africa & global
+              - generic [ref=f14e112]: data, labor, governance
+            - list [ref=f14e113]:
+              - listitem [ref=f14e114]:
+                - button "2020s Deployment choices Ecosystem · Africa & global" [ref=f14e115] [cursor=pointer]:
+                  - generic [ref=f14e116]: 2020s
+                  - generic [ref=f14e117]:
+                    - strong [ref=f14e118]: Deployment choices
+                    - generic [ref=f14e119]: Ecosystem · Africa & global
+        - generic [ref=f14e120]:
+          - generic [ref=f14e121]:
+            - strong [ref=f14e122]: "Reading the map:"
+            - text: historical anchors stay concise; the selected relationship and provenance carry depth.
+          - generic [ref=f14e123]: "Selected: no relationship yet"
+      - region [ref=f14e124]:
+        - heading "Text relationship list" [level=2] [ref=f14e125]
+        - paragraph [ref=f14e126]: This is the complete keyboard-accessible relationship view. Selecting a row focuses the matching ancestry and dims unrelated edges.
+        - list [ref=f14e127]:
+          - listitem [ref=f14e128]:
+            - 'button "Agency & reason → Symbolic AI Conceptual lens Evidence: illustrative only · Uncertainty: indirect; not a direct technical-causation claim Source path: simulated claim → pending source record → excerpt/location" [ref=f14e129] [cursor=pointer]':
+              - generic [ref=f14e130]: Agency & reason → Symbolic AI
+              - generic [ref=f14e131]: Conceptual lens
+              - generic [ref=f14e132]: "Evidence: illustrative only · Uncertainty: indirect; not a direct technical-causation claim"
+              - generic [ref=f14e133]: "Source path: simulated claim → pending source record → excerpt/location"
+          - listitem [ref=f14e134]:
+            - 'button "Language & meaning → Symbolic AI Conceptual lens Evidence: illustrative only · Uncertainty: interpretive framing, not technical influence Source path: simulated claim → pending philosophy record → excerpt/location" [ref=f14e135] [cursor=pointer]':
+              - generic [ref=f14e136]: Language & meaning → Symbolic AI
+              - generic [ref=f14e137]: Conceptual lens
+              - generic [ref=f14e138]: "Evidence: illustrative only · Uncertainty: interpretive framing, not technical influence"
+              - generic [ref=f14e139]: "Source path: simulated claim → pending philosophy record → excerpt/location"
+          - listitem [ref=f14e140]:
+            - 'button "Codebreaking → Symbolic AI Enabled Evidence: source review pending · Uncertainty: contribution path remains incomplete Source path: simulated claim → pending institutional record → excerpt/location" [ref=f14e141] [cursor=pointer]':
+              - generic [ref=f14e142]: Codebreaking → Symbolic AI
+              - generic [ref=f14e143]: Enabled
+              - generic [ref=f14e144]: "Evidence: source review pending · Uncertainty: contribution path remains incomplete"
+              - generic [ref=f14e145]: "Source path: simulated claim → pending institutional record → excerpt/location"
+          - listitem [ref=f14e146]:
+            - 'button "Symbolic AI → Learning machines Reacted against Evidence: source review pending · Uncertainty: branches may coexist rather than form a single replacement story Source path: simulated claim → pending technical history record → excerpt/location" [ref=f14e147] [cursor=pointer]':
+              - generic [ref=f14e148]: Symbolic AI → Learning machines
+              - generic [ref=f14e149]: Reacted against
+              - generic [ref=f14e150]: "Evidence: source review pending · Uncertainty: branches may coexist rather than form a single replacement story"
+              - generic [ref=f14e151]: "Source path: simulated claim → pending technical history record → excerpt/location"
+          - listitem [ref=f14e152]:
+            - 'button "Learning machines → Backpropagation Iterated on Evidence: source review pending · Uncertainty: method lineage is broader than this demo path Source path: simulated claim → pending technical paper record → excerpt/location" [ref=f14e153] [cursor=pointer]':
+              - generic [ref=f14e154]: Learning machines → Backpropagation
+              - generic [ref=f14e155]: Iterated on
+              - generic [ref=f14e156]: "Evidence: source review pending · Uncertainty: method lineage is broader than this demo path"
+              - generic [ref=f14e157]: "Source path: simulated claim → pending technical paper record → excerpt/location"
+          - listitem [ref=f14e158]:
+            - 'button "Backpropagation → A new way to focus Iterated on Evidence: source review pending · Uncertainty: bridge does not establish sole origin Source path: simulated claim → pending technical paper record → excerpt/location" [ref=f14e159] [cursor=pointer]':
+              - generic [ref=f14e160]: Backpropagation → A new way to focus
+              - generic [ref=f14e161]: Iterated on
+              - generic [ref=f14e162]: "Evidence: source review pending · Uncertainty: bridge does not establish sole origin"
+              - generic [ref=f14e163]: "Source path: simulated claim → pending technical paper record → excerpt/location"
+          - listitem [ref=f14e164]:
+            - 'button "A new way to focus → Deployment choices Institutionalized Evidence: source review pending · Uncertainty: deployment outcomes depend on people, institutions, and infrastructure Source path: simulated claim → pending governance/labor record → excerpt/location" [ref=f14e165] [cursor=pointer]':
+              - generic [ref=f14e166]: A new way to focus → Deployment choices
+              - generic [ref=f14e167]: Institutionalized
+              - generic [ref=f14e168]: "Evidence: source review pending · Uncertainty: deployment outcomes depend on people, institutions, and infrastructure"
+              - generic [ref=f14e169]: "Source path: simulated claim → pending governance/labor record → excerpt/location"
+        - generic [ref=f14e170]:
+          - strong [ref=f14e171]: Select a relationship to inspect its evidence state.
+          - text: Arc focus and endpoint emphasis will appear after selection.
+    - complementary "Secondary current-news connection" [ref=f14e172]:
+      - group [ref=f14e173]:
+        - generic "Secondary affordance Connect to today Open only after the historical event is understood. +" [ref=f14e174] [cursor=pointer]:
+          - generic [ref=f14e175]:
+            - text: Secondary affordance
+            - strong [ref=f14e176]: Connect to today
+            - generic [ref=f14e177]: Open only after the historical event is understood.
+          - text: +
+  - generic [ref=f14e178]: Selected A new way to focus. Iterated on.

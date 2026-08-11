@@ -1,0 +1,234 @@
+- generic [ref=f12e1]:
+  - banner [ref=f12e2]:
+    - link "Knewzly home, prototype" [ref=f12e3] [cursor=pointer]:
+      - /url: "#atlas-title"
+      - generic [ref=f12e4]: K
+      - generic [ref=f12e5]: Knewzly
+    - 'button "Density: anchors" [ref=f12e7] [cursor=pointer]'
+  - generic "Atlas status" [ref=f12e8]:
+    - strong [ref=f12e9]: HISTORY FIRST
+    - generic [ref=f12e11]: Simulated demo content
+    - generic [ref=f12e12]: ·
+    - generic [ref=f12e13]: Curated anchor sample
+    - generic [ref=f12e14]: ·
+    - generic [ref=f12e15]: Relationship meaning is stated in text, not color alone
+  - main [ref=f12e16]:
+    - complementary "Atlas guide" [ref=f12e17]:
+      - generic [ref=f12e18]: Start here
+      - heading "Trace one bridge." [level=2] [ref=f12e19]
+      - paragraph [ref=f12e20]: Choose an event, predict what carried forward, then inspect the relationship and its claim-level evidence.
+      - button "Show me a bridge" [ref=f12e21] [cursor=pointer]: Show me a bridge →
+      - paragraph [ref=f12e22]: "Keyboard: Tab through events or the relationship list. Enter or Space selects. Escape closes the context panel."
+    - region [ref=f12e23]:
+      - generic [ref=f12e24]:
+        - generic [ref=f12e25]:
+          - generic [ref=f12e26]: Global history atlas / F01 spike
+          - heading "The long arc into AI" [level=1] [ref=f12e27]
+          - paragraph [ref=f12e28]: Historical events stay dominant while typed bridges show what may have carried forward.
+        - generic [ref=f12e29]: 1600 — NOW / SIMULATED SAMPLE
+      - generic [ref=f12e30]:
+        - generic [ref=f12e31]:
+          - strong [ref=f12e32]: Shared time axis · select an event or relationship endpoint
+          - generic [ref=f12e33]: SIMULATED — NOT VERIFIED
+        - generic "Date-indexed mobile history lanes" [ref=f12e34]:
+          - region [ref=f12e35]:
+            - heading "Philosophy conceptual ancestry" [level=3] [ref=f12e36]:
+              - text: Philosophy
+              - generic [ref=f12e37]: conceptual ancestry
+            - list [ref=f12e38]:
+              - listitem [ref=f12e39]:
+                - button "1800s Agency & reason Conceptual lens · Philosophy" [ref=f12e40] [cursor=pointer]:
+                  - generic [ref=f12e41]: 1800s
+                  - generic [ref=f12e42]:
+                    - strong [ref=f12e43]: Agency & reason
+                    - generic [ref=f12e44]: Conceptual lens · Philosophy
+              - listitem [ref=f12e45]:
+                - button "1900s Language & meaning Conceptual lens · Philosophy" [ref=f12e46] [cursor=pointer]:
+                  - generic [ref=f12e47]: 1900s
+                  - generic [ref=f12e48]:
+                    - strong [ref=f12e49]: Language & meaning
+                    - generic [ref=f12e50]: Conceptual lens · Philosophy
+          - region [ref=f12e51]:
+            - heading "Europe logic & institutions" [level=3] [ref=f12e52]:
+              - text: Europe
+              - generic [ref=f12e53]: logic & institutions
+            - list [ref=f12e54]:
+              - listitem [ref=f12e55]:
+                - button "1940s Codebreaking Institution · Europe" [ref=f12e56] [cursor=pointer]:
+                  - generic [ref=f12e57]: 1940s
+                  - generic [ref=f12e58]:
+                    - strong [ref=f12e59]: Codebreaking
+                    - generic [ref=f12e60]: Institution · Europe
+              - listitem [ref=f12e61]:
+                - button "1950s Symbolic AI Formal reasoning · Europe" [ref=f12e62] [cursor=pointer]:
+                  - generic [ref=f12e63]: 1950s
+                  - generic [ref=f12e64]:
+                    - strong [ref=f12e65]: Symbolic AI
+                    - generic [ref=f12e66]: Formal reasoning · Europe
+          - region [ref=f12e67]:
+            - heading "North America research & scale" [level=3] [ref=f12e68]:
+              - text: North America
+              - generic [ref=f12e69]: research & scale
+            - list [ref=f12e70]:
+              - listitem [ref=f12e71]:
+                - button "1958 Learning machines Neural branch · North America" [ref=f12e72] [cursor=pointer]:
+                  - generic [ref=f12e73]: "1958"
+                  - generic [ref=f12e74]:
+                    - strong [ref=f12e75]: Learning machines
+                    - generic [ref=f12e76]: Neural branch · North America
+              - listitem [ref=f12e77]:
+                - button "1986 Backpropagation Method · North America" [ref=f12e78] [cursor=pointer]:
+                  - generic [ref=f12e79]: "1986"
+                  - generic [ref=f12e80]:
+                    - strong [ref=f12e81]: Backpropagation
+                    - generic [ref=f12e82]: Method · North America
+          - region [ref=f12e83]:
+            - heading "Asia methods & systems" [level=3] [ref=f12e84]:
+              - text: Asia
+              - generic [ref=f12e85]: methods & systems
+            - list [ref=f12e86]:
+              - listitem [ref=f12e87]:
+                - button "2017 A new way to focus Architecture · Asia / North America" [pressed] [ref=f12e88] [cursor=pointer]:
+                  - generic [ref=f12e89]: "2017"
+                  - generic [ref=f12e90]:
+                    - strong [ref=f12e91]: A new way to focus
+                    - generic [ref=f12e92]: Architecture · Asia / North America
+          - region [ref=f12e93]:
+            - heading "Africa & global data, labor, governance" [level=3] [ref=f12e94]:
+              - text: Africa & global
+              - generic [ref=f12e95]: data, labor, governance
+            - list [ref=f12e96]:
+              - listitem [ref=f12e97]:
+                - button "2020s Deployment choices Ecosystem · Africa & global" [ref=f12e98] [cursor=pointer]:
+                  - generic [ref=f12e99]: 2020s
+                  - generic [ref=f12e100]:
+                    - strong [ref=f12e101]: Deployment choices
+                    - generic [ref=f12e102]: Ecosystem · Africa & global
+        - generic [ref=f12e103]:
+          - generic [ref=f12e104]:
+            - strong [ref=f12e105]: "Reading the map:"
+            - text: historical anchors stay concise; the selected relationship and provenance carry depth.
+          - generic [ref=f12e106]: "Selected: Iterated on · Backpropagation → A new way to focus"
+      - region [ref=f12e107]:
+        - heading "Text relationship list" [level=2] [ref=f12e108]
+        - paragraph [ref=f12e109]: This is the complete keyboard-accessible relationship view. Selecting a row focuses the matching ancestry and dims unrelated edges.
+        - list [ref=f12e110]:
+          - listitem [ref=f12e111]:
+            - 'button "Agency & reason → Symbolic AI Conceptual lens Evidence: illustrative only · Uncertainty: indirect; not a direct technical-causation claim Source path: simulated claim → pending source record → excerpt/location" [ref=f12e112] [cursor=pointer]':
+              - generic [ref=f12e113]: Agency & reason → Symbolic AI
+              - generic [ref=f12e114]: Conceptual lens
+              - generic [ref=f12e115]: "Evidence: illustrative only · Uncertainty: indirect; not a direct technical-causation claim"
+              - generic [ref=f12e116]: "Source path: simulated claim → pending source record → excerpt/location"
+          - listitem [ref=f12e117]:
+            - 'button "Codebreaking → Symbolic AI Enabled Evidence: source review pending · Uncertainty: contribution path remains incomplete Source path: simulated claim → pending institutional record → excerpt/location" [ref=f12e118] [cursor=pointer]':
+              - generic [ref=f12e119]: Codebreaking → Symbolic AI
+              - generic [ref=f12e120]: Enabled
+              - generic [ref=f12e121]: "Evidence: source review pending · Uncertainty: contribution path remains incomplete"
+              - generic [ref=f12e122]: "Source path: simulated claim → pending institutional record → excerpt/location"
+          - listitem [ref=f12e123]:
+            - 'button "Backpropagation → A new way to focus Iterated on Evidence: source review pending · Uncertainty: bridge does not establish sole origin Source path: simulated claim → pending technical paper record → excerpt/location" [pressed] [ref=f12e124] [cursor=pointer]':
+              - generic [ref=f12e125]: Backpropagation → A new way to focus
+              - generic [ref=f12e126]: Iterated on
+              - generic [ref=f12e127]: "Evidence: source review pending · Uncertainty: bridge does not establish sole origin"
+              - generic [ref=f12e128]: "Source path: simulated claim → pending technical paper record → excerpt/location"
+        - generic [ref=f12e129]:
+          - strong [ref=f12e138]: "Iterated on: Backpropagation → A new way to focus"
+          - text: "Evidence: Source review pending. Uncertainty: The bridge does not establish a sole origin. Visible source path: Simulated claim → pending technical paper record → excerpt/location."
+    - complementary "Secondary current-news connection" [ref=f12e131]:
+      - group [ref=f12e132]:
+        - generic "Secondary affordance Connect to today Open only after the historical event is understood. +" [ref=f12e133] [cursor=pointer]:
+          - generic [ref=f12e134]:
+            - text: Secondary affordance
+            - strong [ref=f12e135]: Connect to today
+            - generic [ref=f12e136]: Open only after the historical event is understood.
+          - text: +
+  - dialog [ref=f12e139]:
+    - generic [ref=f12e140]:
+      - generic [ref=f12e141]:
+        - generic [ref=f12e142]: 2017 · Asia / North America
+        - heading "A new way to focus" [active] [level=2] [ref=f12e143]
+        - paragraph [ref=f12e144]: Architecture · iterated on earlier methods
+      - button "Close context drawer" [ref=f12e145] [cursor=pointer]: ×
+    - generic [ref=f12e146]:
+      - generic [ref=f12e147]: SIMULATED DEMO CONTENT — not a verified historical account.
+      - paragraph [ref=f12e148]: This simulated anchor uses attention as a way to talk about changing how information is connected. It is a design example, not a sourced historical account.
+      - generic [ref=f12e149]:
+        - heading "Relationship in focus" [level=3] [ref=f12e150]
+        - generic [ref=f12e151]: Iterated on
+        - generic [ref=f12e152]:
+          - generic [ref=f12e153]:
+            - term [ref=f12e154]: Type
+            - definition [ref=f12e155]: Iterated on
+          - generic [ref=f12e156]:
+            - term [ref=f12e157]: Evidence status
+            - definition [ref=f12e158]: Source review pending
+          - generic [ref=f12e159]:
+            - term [ref=f12e160]: Uncertainty
+            - definition [ref=f12e161]: The bridge does not establish a sole origin
+          - generic [ref=f12e162]:
+            - term [ref=f12e163]: Source path
+            - definition [ref=f12e164]: Simulated claim → pending technical paper record → excerpt/location
+        - paragraph [ref=f12e165]: The selected reading is an iteration bridge, not a claim that one person or philosophy directly caused the architecture.
+      - generic [ref=f12e166]:
+        - heading "Learning path" [level=3] [ref=f12e167]
+        - generic [ref=f12e168]:
+          - generic [ref=f12e169]:
+            - strong [ref=f12e170]: What came before
+            - text: Sequence methods and growing compute made the problem visible.
+          - generic [ref=f12e171]:
+            - strong [ref=f12e172]: What changed here
+            - text: Attention is shown as the central design idea in this demo.
+          - generic [ref=f12e173]:
+            - strong [ref=f12e174]: What followed
+            - text: Later systems reused and extended the pattern in different settings.
+          - generic [ref=f12e175]:
+            - strong [ref=f12e176]: Related events
+            - text: Backpropagation · Language & meaning · Deployment choices
+      - generic [ref=f12e177]:
+        - heading "People / artifacts / institutions" [level=3] [ref=f12e178]
+        - paragraph [ref=f12e179]: Demo metadata pending approved historical curation and source verification.
+      - generic [ref=f12e180]:
+        - heading "Claim-level provenance" [level=3] [ref=f12e181]
+        - generic [ref=f12e182]:
+          - strong [ref=f12e183]: SIMULATED PROVENANCE RECORD
+          - generic [ref=f12e184]:
+            - generic [ref=f12e185]:
+              - term [ref=f12e186]: Author / institution
+              - definition [ref=f12e187]: No author/institution asserted — demo claim
+            - generic [ref=f12e188]:
+              - term [ref=f12e189]: Publication date
+              - definition [ref=f12e190]: Not supplied — demo record
+            - generic [ref=f12e191]:
+              - term [ref=f12e192]: Access date
+              - definition [ref=f12e193]: Not supplied — demo record
+            - generic [ref=f12e194]:
+              - term [ref=f12e195]: Classification
+              - definition [ref=f12e196]: "Primary/secondary: pending review"
+            - generic [ref=f12e197]:
+              - term [ref=f12e198]: Exact supported claim
+              - definition [ref=f12e199]: The prototype uses attention as a simulated example of changing how information is connected.
+            - generic [ref=f12e200]:
+              - term [ref=f12e201]: Excerpt / location
+              - definition [ref=f12e202]: "No excerpt captured; intended location: technical paper record → architecture section"
+            - generic [ref=f12e203]:
+              - term [ref=f12e204]: Editorial interpretation
+              - definition [ref=f12e205]: The card tests a learning explanation; it is not a verified historical account.
+            - generic [ref=f12e206]:
+              - term [ref=f12e207]: Counter-reading / contested status
+              - definition [ref=f12e208]: The bridge must not imply that one person, region, or idea solely caused the architecture.
+            - generic [ref=f12e209]:
+              - term [ref=f12e210]: Last reviewed
+              - definition [ref=f12e211]: Not reviewed — prototype state
+      - generic [ref=f12e212]:
+        - heading "Make a prediction" [level=3] [ref=f12e213]
+        - generic [ref=f12e214]:
+          - paragraph [ref=f12e215]: Before reading the evidence state, what do you think carried forward?
+          - group "Prediction choices" [ref=f12e216]:
+            - button "A similar pattern" [ref=f12e217] [cursor=pointer]
+            - button "A changed pattern" [ref=f12e218] [cursor=pointer]
+            - button "I’m not sure" [ref=f12e219] [cursor=pointer]
+          - paragraph
+      - generic [ref=f12e220]:
+        - heading "Explain the bridge" [level=3] [ref=f12e221]
+        - paragraph [ref=f12e222]: "In one sentence: what carried forward, and what changed?"
+  - generic [ref=f12e137]: Selected A new way to focus. Iterated on.

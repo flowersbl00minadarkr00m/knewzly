@@ -1,0 +1,160 @@
+- generic [active] [ref=f13e1]:
+  - banner [ref=f13e2]:
+    - link "Knewzly home, prototype" [ref=f13e3] [cursor=pointer]:
+      - /url: "#atlas-title"
+      - generic [ref=f13e4]: K
+      - generic [ref=f13e5]: Knewzly
+      - generic [ref=f13e6]: history, connected
+    - generic [ref=f13e7]:
+      - button "Search atlas" [ref=f13e8] [cursor=pointer]
+      - 'button "Density: anchors" [ref=f13e9] [cursor=pointer]'
+  - generic "Atlas status" [ref=f13e10]:
+    - strong [ref=f13e11]: HISTORY FIRST
+    - generic [ref=f13e13]: Simulated demo content
+    - generic [ref=f13e14]: ·
+    - generic [ref=f13e15]: Curated anchor sample
+    - generic [ref=f13e16]: ·
+    - generic [ref=f13e17]: Relationship meaning is stated in text, not color alone
+  - main [ref=f13e18]:
+    - complementary "Atlas guide" [ref=f13e19]:
+      - generic [ref=f13e20]: Start here
+      - heading "Trace one bridge." [level=2] [ref=f13e21]
+      - paragraph [ref=f13e22]: Choose an event, predict what carried forward, then inspect the relationship and its claim-level evidence.
+      - button "Show me a bridge" [ref=f13e23] [cursor=pointer]: Show me a bridge →
+      - generic [ref=f13e24]:
+        - heading "Topic lens" [level=3] [ref=f13e25]
+        - group "Topic filters" [ref=f13e26]:
+          - button "Origins" [pressed] [ref=f13e27] [cursor=pointer]
+          - button "Compute" [ref=f13e28] [cursor=pointer]
+          - button "Language" [ref=f13e29] [cursor=pointer]
+          - button "Governance" [ref=f13e30] [cursor=pointer]
+      - generic [ref=f13e31]:
+        - heading "Relationship key" [level=3] [ref=f13e32]
+        - generic [ref=f13e33]: Influence / iteration — stated in text
+        - generic [ref=f13e35]: Conceptual lens — indirect
+        - generic [ref=f13e37]: Selected endpoint — also labeled
+        - generic [ref=f13e39]: Philosophy lane — explicit heading
+      - paragraph [ref=f13e41]: "Keyboard: Tab through events or the relationship list. Enter or Space selects. Escape closes the context panel."
+    - region [ref=f13e42]:
+      - generic [ref=f13e43]:
+        - generic [ref=f13e44]:
+          - generic [ref=f13e45]: Global history atlas / F01 spike
+          - heading "The long arc into AI" [level=1] [ref=f13e46]
+          - paragraph [ref=f13e47]: Historical events stay dominant while typed bridges show what may have carried forward.
+        - generic [ref=f13e48]: 1600 — NOW / SIMULATED SAMPLE
+      - generic [ref=f13e49]:
+        - generic [ref=f13e50]:
+          - strong [ref=f13e51]: Shared time axis · select an event or relationship endpoint
+          - generic [ref=f13e52]: SIMULATED — NOT VERIFIED
+        - generic "Scrollable desktop history timeline. Use Tab to move through event buttons and relationship endpoints." [ref=f13e53]:
+          - generic [ref=f13e54]:
+            - generic [ref=f13e55]:
+              - generic [ref=f13e56]: "1600"
+              - generic [ref=f13e57]: "1800"
+              - generic [ref=f13e58]: "1900"
+              - generic [ref=f13e59]: "1940"
+              - generic [ref=f13e60]: "1960"
+              - generic [ref=f13e61]: "1980"
+              - generic [ref=f13e62]: "2000"
+              - generic [ref=f13e63]: "2025"
+            - img "Selectable relationship arcs. The text relationship list below is the complete accessible equivalent." [ref=f13e64]:
+              - button "Select conceptual lens relationship from Agency and reason to Symbolic AI" [ref=f13e65] [cursor=pointer]
+              - button "Select enablement relationship from Codebreaking to Symbolic AI" [ref=f13e67] [cursor=pointer]
+              - button "Select iteration relationship from Backpropagation to A new way to focus" [ref=f13e69] [cursor=pointer]
+              - generic: conceptual lens
+              - generic: enabled
+              - generic: iterated on
+            - group [ref=f13e71]:
+              - generic [ref=f13e72]:
+                - heading "Philosophy" [level=3] [ref=f13e73]
+                - generic [ref=f13e74]: conceptual ancestry
+              - generic [ref=f13e75]:
+                - button "1800s Agency & reason conceptual lens" [ref=f13e76] [cursor=pointer]:
+                  - generic [ref=f13e78]: 1800s
+                  - strong [ref=f13e79]: Agency & reason
+                  - generic [ref=f13e80]: conceptual lens
+                - button "1900s Language & meaning conceptual lens" [ref=f13e81] [cursor=pointer]:
+                  - generic [ref=f13e83]: 1900s
+                  - strong [ref=f13e84]: Language & meaning
+                  - generic [ref=f13e85]: conceptual lens
+            - group [ref=f13e86]:
+              - generic [ref=f13e87]:
+                - heading "Europe" [level=3] [ref=f13e88]
+                - generic [ref=f13e89]: logic & institutions
+              - generic [ref=f13e90]:
+                - button "1940s Codebreaking institution" [ref=f13e91] [cursor=pointer]:
+                  - generic [ref=f13e93]: 1940s
+                  - strong [ref=f13e94]: Codebreaking
+                  - generic [ref=f13e95]: institution
+                - button "1950s Symbolic AI formal reasoning" [ref=f13e96] [cursor=pointer]:
+                  - generic [ref=f13e98]: 1950s
+                  - strong [ref=f13e99]: Symbolic AI
+                  - generic [ref=f13e100]: formal reasoning
+            - group [ref=f13e101]:
+              - generic [ref=f13e102]:
+                - heading "North America" [level=3] [ref=f13e103]
+                - generic [ref=f13e104]: research & scale
+              - generic [ref=f13e105]:
+                - button "1958 Learning machines neural branch" [ref=f13e106] [cursor=pointer]:
+                  - generic [ref=f13e108]: "1958"
+                  - strong [ref=f13e109]: Learning machines
+                  - generic [ref=f13e110]: neural branch
+                - button "1986 Backpropagation method" [ref=f13e111] [cursor=pointer]:
+                  - generic [ref=f13e113]: "1986"
+                  - strong [ref=f13e114]: Backpropagation
+                  - generic [ref=f13e115]: method
+            - group [ref=f13e116]:
+              - generic [ref=f13e117]:
+                - heading "Asia" [level=3] [ref=f13e118]
+                - generic [ref=f13e119]: methods & systems
+              - button "2017 A new way to focus architecture" [pressed] [ref=f13e121] [cursor=pointer]:
+                - generic [ref=f13e123]: "2017"
+                - strong [ref=f13e124]: A new way to focus
+                - generic [ref=f13e125]: architecture
+            - group [ref=f13e126]:
+              - generic [ref=f13e127]:
+                - heading "Africa & global" [level=3] [ref=f13e128]
+                - generic [ref=f13e129]: data, labor, governance
+              - button "2020s Deployment choices ecosystem" [ref=f13e131] [cursor=pointer]:
+                - generic [ref=f13e133]: 2020s
+                - strong [ref=f13e134]: Deployment choices
+                - generic [ref=f13e135]: ecosystem
+        - generic [ref=f13e136]:
+          - generic [ref=f13e137]:
+            - strong [ref=f13e138]: "Reading the map:"
+            - text: historical anchors stay concise; the selected relationship and provenance carry depth.
+          - generic [ref=f13e139]: "Selected: no relationship yet"
+      - region [ref=f13e140]:
+        - heading "Text relationship list" [level=2] [ref=f13e141]
+        - paragraph [ref=f13e142]: This is the complete keyboard-accessible relationship view. Selecting a row focuses the matching ancestry and dims unrelated edges.
+        - list [ref=f13e143]:
+          - listitem [ref=f13e144]:
+            - 'button "Agency & reason → Symbolic AI Conceptual lens Evidence: illustrative only · Uncertainty: indirect; not a direct technical-causation claim Source path: simulated claim → pending source record → excerpt/location" [ref=f13e145] [cursor=pointer]':
+              - generic [ref=f13e146]: Agency & reason → Symbolic AI
+              - generic [ref=f13e147]: Conceptual lens
+              - generic [ref=f13e148]: "Evidence: illustrative only · Uncertainty: indirect; not a direct technical-causation claim"
+              - generic [ref=f13e149]: "Source path: simulated claim → pending source record → excerpt/location"
+          - listitem [ref=f13e150]:
+            - 'button "Codebreaking → Symbolic AI Enabled Evidence: source review pending · Uncertainty: contribution path remains incomplete Source path: simulated claim → pending institutional record → excerpt/location" [ref=f13e151] [cursor=pointer]':
+              - generic [ref=f13e152]: Codebreaking → Symbolic AI
+              - generic [ref=f13e153]: Enabled
+              - generic [ref=f13e154]: "Evidence: source review pending · Uncertainty: contribution path remains incomplete"
+              - generic [ref=f13e155]: "Source path: simulated claim → pending institutional record → excerpt/location"
+          - listitem [ref=f13e156]:
+            - 'button "Backpropagation → A new way to focus Iterated on Evidence: source review pending · Uncertainty: bridge does not establish sole origin Source path: simulated claim → pending technical paper record → excerpt/location" [ref=f13e157] [cursor=pointer]':
+              - generic [ref=f13e158]: Backpropagation → A new way to focus
+              - generic [ref=f13e159]: Iterated on
+              - generic [ref=f13e160]: "Evidence: source review pending · Uncertainty: bridge does not establish sole origin"
+              - generic [ref=f13e161]: "Source path: simulated claim → pending technical paper record → excerpt/location"
+        - generic [ref=f13e162]:
+          - strong [ref=f13e163]: Select a relationship to inspect its evidence state.
+          - text: Arc focus and endpoint emphasis will appear after selection.
+    - complementary "Secondary current-news connection" [ref=f13e164]:
+      - group [ref=f13e165]:
+        - generic "Secondary affordance Connect to today Open only after the historical event is understood. +" [ref=f13e166] [cursor=pointer]:
+          - generic [ref=f13e167]:
+            - text: Secondary affordance
+            - strong [ref=f13e168]: Connect to today
+            - generic [ref=f13e169]: Open only after the historical event is understood.
+          - text: +
+  - generic [ref=f13e170]: Selected A new way to focus. Iterated on.

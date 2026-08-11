@@ -1,0 +1,440 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'; script-src 'unsafe-inline'; img-src data:; font-src 'none'; connect-src 'none';">
+<title>Archie — Knewzly's history desk companion, concept</title>
+<style>
+  :root {
+    --paper: #f6f1e3;
+    --paper-deep: #e9e1cc;
+    --paper-raised: #fffaf0;
+    --ink: #172235;
+    --ink-soft: #465363;
+    --rule: #687586;
+    --rule-faint: #b5b9b5;
+    --spot: #163a5f;
+    --spot-soft: #244f76;
+    --focus: #00685d;
+    --inverse: #fbf7ea;
+    --shadow: rgba(22, 42, 64, 0.16);
+    --display: Georgia, "Times New Roman", Times, serif;
+    --utility: "Arial Narrow", "Helvetica Neue", Arial, sans-serif;
+  }
+
+  :root:not([data-theme="light"]) {
+    @media (prefers-color-scheme: dark) {
+      --paper: #18212b;
+      --paper-deep: #10171f;
+      --paper-raised: #202b37;
+      --ink: #f3eddf;
+      --ink-soft: #c5c4be;
+      --rule: #909dab;
+      --rule-faint: #4f5e6e;
+      --spot: #9ac7e8;
+      --spot-soft: #b6d9f1;
+      --focus: #f1c96b;
+      --inverse: #111923;
+      --shadow: rgba(0, 0, 0, 0.4);
+    }
+  }
+
+  :root[data-theme="dark"] {
+    --paper: #18212b;
+    --paper-deep: #10171f;
+    --paper-raised: #202b37;
+    --ink: #f3eddf;
+    --ink-soft: #c5c4be;
+    --rule: #909dab;
+    --rule-faint: #4f5e6e;
+    --spot: #9ac7e8;
+    --spot-soft: #b6d9f1;
+    --focus: #f1c96b;
+    --inverse: #111923;
+    --shadow: rgba(0, 0, 0, 0.4);
+  }
+
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0;
+    color: var(--ink);
+    background: var(--paper-deep);
+    font-family: var(--display);
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  button, a { font: inherit; }
+  a { color: var(--spot-soft); text-underline-offset: 0.18rem; }
+  :focus-visible { outline: 3px solid var(--focus); outline-offset: 3px; }
+
+  .concept-banner {
+    padding: 0.55rem 1rem;
+    color: var(--inverse);
+    background: var(--spot);
+    font: 800 0.72rem/1.35 var(--utility);
+    letter-spacing: 0.08em;
+    text-align: center;
+  }
+  .concept-banner strong { letter-spacing: 0.14em; text-transform: uppercase; }
+
+  .shell {
+    width: min(1180px, calc(100% - 2rem));
+    margin: 1.25rem auto 3rem;
+    background: var(--paper);
+    box-shadow: 0 18px 48px var(--shadow);
+  }
+
+  .masthead {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: end;
+    gap: 1.5rem;
+    padding: clamp(1.2rem, 3vw, 2.2rem) clamp(1.2rem, 3vw, 2.2rem) 1.1rem;
+    border-bottom: 6px double var(--ink);
+  }
+  .eyebrow { margin: 0 0 0.3rem; color: var(--spot); font: 800 0.68rem/1.2 var(--utility); letter-spacing: 0.16em; text-transform: uppercase; }
+  .masthead h1 { margin: 0; font: 900 clamp(2.4rem, 6vw, 4.6rem)/0.86 var(--display); letter-spacing: -0.03em; }
+  .masthead .glyph { display: inline-block; margin-right: 0.05em; font-style: italic; color: var(--spot); }
+  .standfirst { grid-column: 1 / -1; max-width: 62ch; margin: 0.7rem 0 0; color: var(--ink-soft); font: italic 1.05rem/1.5 var(--display); }
+  .desk-status { justify-self: end; text-align: right; color: var(--ink-soft); font: 700 0.64rem/1.4 var(--utility); letter-spacing: 0.05em; text-transform: uppercase; }
+  .desk-status strong { display: block; color: var(--spot); font-size: 0.7rem; }
+
+  .layout {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 300px;
+    gap: 0;
+  }
+
+  .thread {
+    padding: clamp(1.2rem, 3vw, 2.2rem);
+    border-right: 1px solid var(--rule);
+  }
+
+  .rules-rail {
+    padding: clamp(1.2rem, 2.4vw, 1.8rem) clamp(1rem, 2vw, 1.5rem);
+    background: var(--paper-deep);
+  }
+  .rules-rail h2 {
+    margin: 0 0 0.3rem;
+    font: 900 1.5rem/1 var(--display);
+    letter-spacing: -0.02em;
+  }
+  .rules-rail .rail-note {
+    margin: 0 0 1rem;
+    color: var(--ink-soft);
+    font: italic 0.85rem/1.4 var(--display);
+  }
+  .rules-list { margin: 0; padding: 0; list-style: none; counter-reset: rule; }
+  .rules-list li {
+    counter-increment: rule;
+    position: relative;
+    margin-bottom: 0.85rem;
+    padding-left: 1.6rem;
+    color: var(--ink);
+    font-size: 0.86rem;
+    line-height: 1.4;
+  }
+  .rules-list li::before {
+    content: counter(rule);
+    position: absolute;
+    left: 0;
+    top: 0.05rem;
+    width: 1.15rem;
+    height: 1.15rem;
+    color: var(--inverse);
+    background: var(--spot);
+    font: 800 0.66rem/1.15rem var(--utility);
+    text-align: center;
+  }
+  .rules-list li strong { display: block; margin-bottom: 0.1rem; font: 800 0.72rem/1.2 var(--utility); letter-spacing: 0.03em; text-transform: uppercase; color: var(--spot); }
+  .rules-list li.rule-hard {
+    padding: 0.6rem 0.7rem 0.6rem 1.9rem;
+    border: 1px solid var(--spot);
+  }
+  .rules-list li.rule-hard::before { top: 0.65rem; left: 0.7rem; }
+
+  .exchange { margin-bottom: 2.6rem; }
+  .exchange:last-child { margin-bottom: 0; }
+
+  .reader-q {
+    padding: 0.9rem 1.1rem;
+    border-left: 4px solid var(--rule);
+    background: var(--paper-deep);
+    font: italic 1.08rem/1.45 var(--display);
+  }
+  .reader-q cite { display: block; margin-top: 0.4rem; color: var(--ink-soft); font: 700 0.62rem/1.2 var(--utility); font-style: normal; letter-spacing: 0.08em; text-transform: uppercase; }
+
+  .archie-byline {
+    display: flex;
+    align-items: baseline;
+    gap: 0.6rem;
+    margin: 1.1rem 0 0.6rem;
+    padding-top: 0.7rem;
+    border-top: 1px solid var(--rule-faint);
+  }
+  .archie-byline .name { font: 800 0.78rem/1 var(--utility); letter-spacing: 0.04em; text-transform: uppercase; color: var(--spot); }
+  .archie-byline .role { color: var(--ink-soft); font: 700 0.66rem/1 var(--utility); letter-spacing: 0.04em; text-transform: uppercase; }
+
+  .chip-row { display: flex; flex-wrap: wrap; gap: 0.4rem; margin: 0.6rem 0 1rem; }
+  .chip {
+    border: 1px solid var(--rule);
+    padding: 0.28rem 0.6rem;
+    color: var(--ink-soft);
+    font: 700 0.62rem/1 var(--utility);
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+  .chip.chip-active { color: var(--inverse); background: var(--spot); border-color: var(--spot); }
+
+  .freshness {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    margin: 0 0 1rem;
+    padding: 0.28rem 0.6rem 0.28rem 0.5rem;
+    border: 1px solid var(--focus);
+    color: var(--focus);
+    font: 800 0.62rem/1 var(--utility);
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+  }
+  .freshness::before { content: "●"; font-size: 0.55rem; }
+
+  .archie-copy { font-size: 1rem; line-height: 1.6; }
+  .archie-copy p { margin: 0 0 0.8rem; }
+  .sim-flag {
+    display: inline-block;
+    margin-bottom: 0.7rem;
+    padding: 0.15rem 0.5rem;
+    border: 1px dashed var(--rule);
+    color: var(--ink-soft);
+    font: 800 0.6rem/1.3 var(--utility);
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+
+  .claim {
+    display: inline-flex;
+    align-items: baseline;
+    gap: 0.4rem;
+    margin: 0 0.15rem 0.3rem 0;
+    padding: 0.08rem 0.5rem 0.08rem 0.6rem;
+    border-left: 4px solid var(--spot);
+    background: color-mix(in srgb, var(--spot) 7%, transparent);
+    font: 800 0.62rem/1.6 var(--utility);
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: var(--spot);
+    white-space: nowrap;
+  }
+  .claim.fact { border-left-style: solid; }
+  .claim.interpretation { border-left-style: dashed; }
+  .claim.hypothesis { border-left-style: dotted; }
+  .claim.analogy { border-left-width: 3px; border-image: repeating-linear-gradient(0deg, var(--spot) 0 4px, transparent 4px 7px) 3; }
+
+  .legend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem 1.1rem;
+    margin: 0 0 1.3rem;
+    padding: 0.6rem 0.8rem;
+    border: 1px solid var(--rule-faint);
+    color: var(--ink-soft);
+    font: 700 0.66rem/1.4 var(--utility);
+  }
+  .legend b { color: var(--ink); }
+
+  .uncertainty {
+    margin: 1rem 0;
+    padding: 0.85rem 1rem;
+    border: 1px solid var(--rule);
+    background: var(--paper-raised);
+  }
+  .uncertainty h4 { margin: 0 0 0.5rem; font: 800 0.68rem/1.2 var(--utility); letter-spacing: 0.06em; text-transform: uppercase; color: var(--spot); }
+  .uncertainty ul { margin: 0; padding-left: 1.1rem; }
+  .uncertainty li { margin-bottom: 0.4rem; font-size: 0.88rem; line-height: 1.45; }
+  .uncertainty li:last-child { margin-bottom: 0; }
+
+  .source-strip {
+    margin-top: 1rem;
+    padding-top: 0.8rem;
+    border-top: 1px solid var(--rule-faint);
+  }
+  .source-strip h4 { margin: 0 0 0.5rem; font: 800 0.64rem/1.2 var(--utility); letter-spacing: 0.06em; text-transform: uppercase; color: var(--ink-soft); }
+  .source-list { margin: 0; padding: 0; list-style: none; font-size: 0.82rem; }
+  .source-list li { margin-bottom: 0.35rem; color: var(--ink-soft); }
+  .source-list li:last-child { margin-bottom: 0; }
+  .source-list .src-date { font-variant-numeric: tabular-nums; color: var(--ink-soft); }
+
+  .further {
+    margin-top: 1rem;
+    padding: 0.7rem 0.9rem;
+    background: var(--paper-deep);
+  }
+  .further h4 { margin: 0 0 0.5rem; font: 800 0.64rem/1.2 var(--utility); letter-spacing: 0.06em; text-transform: uppercase; color: var(--ink-soft); }
+  .further ul { margin: 0; padding-left: 1.1rem; font-size: 0.84rem; }
+  .further li { margin-bottom: 0.3rem; }
+
+  .explainer-cta {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.7rem;
+    margin-top: 1.1rem;
+    padding: 0.7rem 0.9rem;
+    border: 2px solid var(--spot);
+  }
+  .explainer-cta button {
+    border: 0;
+    padding: 0.5rem 0.85rem;
+    color: var(--inverse);
+    background: var(--spot);
+    cursor: pointer;
+    font: 800 0.66rem/1 var(--utility);
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+  .explainer-cta button:hover { background: var(--spot-soft); }
+  .explainer-cta span { color: var(--ink-soft); font: 700 0.78rem/1.4 var(--display); font-style: italic; }
+
+  .explainer-preview {
+    display: none;
+    margin-top: 0.9rem;
+    padding: 0.9rem 1rem;
+    border: 1px solid var(--rule);
+    background: var(--paper-raised);
+  }
+  .explainer-preview.is-open { display: block; }
+  .explainer-preview .file-tag { display: block; margin-bottom: 0.6rem; color: var(--ink-soft); font: 700 0.62rem/1.2 var(--utility); letter-spacing: 0.05em; }
+  .explainer-preview h5 { margin: 0 0 0.3rem; font: 800 1.1rem/1.15 var(--display); }
+  .explainer-preview .exp-meta { margin: 0 0 0.6rem; color: var(--ink-soft); font: 700 0.64rem/1.3 var(--utility); text-transform: uppercase; letter-spacing: 0.04em; }
+  .explainer-preview p { margin: 0 0 0.5rem; font-size: 0.88rem; line-height: 1.5; }
+
+  @media (max-width: 860px) {
+    .layout { grid-template-columns: 1fr; }
+    .thread { border-right: 0; border-bottom: 1px solid var(--rule); }
+    .masthead { grid-template-columns: 1fr; }
+    .desk-status { justify-self: start; text-align: left; }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { transition-duration: 0.01ms !important; }
+  }
+</style>
+</head>
+<body>
+
+<div class="concept-banner"><strong>Conceptual mockup — proposed, not implemented.</strong> Archie is currently Out of Scope for F01 (product-design-review.md: "Later for F01 — define it after provenance contracts"). This page proposes that contract for review, it does not put Archie into the approved spec.</div>
+
+<main class="shell">
+  <header class="masthead">
+    <div>
+      <p class="eyebrow">Knewzly · History desk companion</p>
+      <h1><span class="glyph">Ask</span> Archie</h1>
+    </div>
+    <div></div>
+    <div class="desk-status"><strong>Answer contract v0.1</strong>Every reply is typed, dated,<br>and sourced — or it doesn't ship</div>
+    <p class="standfirst">Archie reads today's AI news and this atlas's sourced history side by side, and never blurs which one it's speaking from. Ask it what's happening, or ask it why — it answers both, and always shows its work.</p>
+  </header>
+
+  <div class="layout">
+    <div class="thread">
+
+      <article class="exchange">
+        <blockquote class="reader-q">"Why does every AI-compute story this month keep bringing up some guy and coal from the 1800s?"<cite>Reader question · Compute &amp; Energy</cite></blockquote>
+        <div class="archie-byline"><span class="name">Archie</span><span class="role">History desk companion</span></div>
+        <div class="chip-row"><span class="chip chip-active">Compute &amp; Energy</span><span class="chip">Model Releases</span><span class="chip">Safety &amp; Policy</span><span class="chip">+ add your own topic</span></div>
+
+        <div class="archie-copy">
+          <span class="sim-flag">Illustrative current-news scenario</span>
+          <div class="freshness">Refreshed 6 min ago · AP AI desk (mock)</div>
+          <p>Here's what's circulating: several model builders announced cheaper inference this week, and three separate outlets used the same 19th-century economist to frame it. That's <span class="claim fact">Fact</span> a real, observable pattern in this week's coverage — not something I'm inferring.</p>
+
+          <p><span class="claim fact">Fact</span> William Stanley Jevons argued in <em>The Coal Question</em> (1865) that more efficient steam engines could <em>increase</em> total coal use, by making it cheaper to run an engine at all — efficiency expanding demand, not shrinking it.</p>
+
+          <p><span class="claim analogy">Conceptual analogy</span> Writers are applying that same shape to AI: if inference gets cheaper, total compute demand might rise rather than fall. This is a structural analogy between two different systems 160 years apart — I'm not claiming Jevons said anything about data centers, and neither should the story that leans on him.</p>
+
+          <div class="legend"><b>How to read the tags:</b> <span class="claim fact" style="pointer-events:none">Fact</span> verifiable record &nbsp;·&nbsp; <span class="claim interpretation" style="pointer-events:none">Interpretation</span> a defensible reading of the record &nbsp;·&nbsp; <span class="claim hypothesis" style="pointer-events:none">Hypothesis</span> untested, stated as a guess &nbsp;·&nbsp; <span class="claim analogy" style="pointer-events:none">Analogy</span> a structural parallel, not a causal claim</div>
+
+          <div class="uncertainty">
+            <h4>Where this is genuinely contested</h4>
+            <ul>
+              <li><span class="claim interpretation">Interpretation</span> Some energy economists read the Jevons parallel as basically sound for AI compute — cheaper tokens, more total tokens run.</li>
+              <li><span class="claim interpretation">Interpretation</span> Others argue the analogy overreaches: Jevons was describing a single fungible fuel market, not a landscape of differently-priced model tiers with hard efficiency ceilings from power and chip supply. Both readings appear in this week's coverage; I'm not picking a winner for you.</li>
+            </ul>
+          </div>
+
+          <div class="source-strip">
+            <h4>Sources &amp; dates</h4>
+            <ul class="source-list">
+              <li><span class="src-date">1865</span> — Jevons, <em>The Coal Question</em>, primary text (public domain, archive.org)</li>
+              <li><span class="src-date">This week</span> — AP AI desk, compute-cost coverage <em>(mock link — illustrative scenario, not a live fetch in this concept)</em></li>
+            </ul>
+          </div>
+
+          <div class="further">
+            <h4>Go deeper</h4>
+            <ul>
+              <li>Reading — Jevons, <em>The Coal Question</em>, ch. 7 (the original "rebound effect" argument)</li>
+              <li>Video — any solid explainer on the modern "Jevons paradox" debate in energy economics, cross-checked against a second source before Archie would actually recommend a specific one</li>
+            </ul>
+          </div>
+
+          <div class="explainer-cta">
+            <button type="button" onclick="document.getElementById('exp-1').classList.toggle('is-open')">Generate labeled explainer →</button>
+            <span>Turns this exchange into a standalone, source-tagged HTML page for offline reading.</span>
+          </div>
+          <div class="explainer-preview" id="exp-1">
+            <span class="file-tag">Preview · archie-explainer_jevons-ai-compute.html</span>
+            <h5>Cheaper Inference, the Jevons Question</h5>
+            <p class="exp-meta">Generated by Archie · sourced from this exchange · claim types preserved</p>
+            <p><span class="claim fact" style="pointer-events:none">Fact</span> Jevons, <em>The Coal Question</em> (1865) — efficiency can expand total resource use.</p>
+            <p><span class="claim analogy" style="pointer-events:none">Analogy</span> Applied to AI compute by current commentary, not by Jevons.</p>
+            <p style="color:var(--ink-soft); font-style:italic;">Every claim tag, date, and source link from the exchange above carries into the generated file unchanged — Archie relabels nothing when it writes the explainer.</p>
+          </div>
+        </div>
+      </article>
+
+      <article class="exchange">
+        <blockquote class="reader-q">"Just show me the labor and governance stuff, skip the philosophy tangents."<cite>Reader question · topic filter</cite></blockquote>
+        <div class="archie-byline"><span class="name">Archie</span><span class="role">History desk companion</span></div>
+        <div class="chip-row"><span class="chip chip-active">Labor &amp; Economy</span><span class="chip chip-active">Governance</span><span class="chip">Philosophy</span><span class="chip">Compute &amp; Energy</span></div>
+        <div class="archie-copy">
+          <p>Filtered to Labor &amp; Economy and Governance. Two atlas anchors match directly: <span class="claim fact">Fact</span> Wiener's 1950 <em>The Human Use of Human Beings</em>, and <span class="claim fact">Fact</span> the 2021–2023 reporting on data-labeling labor in Kenya. I'm holding back the Heidegger and Marx philosophy-lane anchors since you asked to skip those — say the word if you want the deeper reading restored; nothing is hidden, just unfiltered on request.</p>
+        </div>
+      </article>
+
+      <article class="exchange">
+        <blockquote class="reader-q">"Is a third AI winter coming?"<cite>Reader question · speculative</cite></blockquote>
+        <div class="archie-byline"><span class="name">Archie</span><span class="role">History desk companion</span></div>
+        <div class="archie-copy">
+          <p><span class="claim hypothesis">Hypothesis</span> I don't know, and anyone who tells you they do is guessing with confidence — including me if I tried. What I can give you: <span class="claim fact">Fact</span> two funding collapses already happened, 1974–1980 and 1987–1993, each after promises outran delivery. <span class="claim interpretation">Interpretation</span> some researchers read today's spending-to-revenue gap at frontier labs as structurally similar to 1987's expert-system hardware bust; others point out today's models already have shipped, paying users, which neither earlier winter had at comparable scale. I'd flag any answer that states a third winter as settled fact — mine included, if I ever slip and do that.</p>
+        </div>
+      </article>
+
+    </div>
+
+    <aside class="rules-rail" aria-label="Archie's operating rules">
+      <h2>Archie's rules</h2>
+      <p class="rail-note">Posted here the way a paper posts its corrections policy — visible, not buried in a settings page.</p>
+      <ul class="rules-list">
+        <li><strong>News</strong>Looks up and summarizes current AI news on request.</li>
+        <li><strong>Filter</strong>Filters by common topics or any topic you define.</li>
+        <li><strong>Trace</strong>Connects present-day events back to sourced historical origins.</li>
+        <li><strong>Explain</strong>Explains the technical, philosophical, and regional relationships between anchors.</li>
+        <li><strong>Type every claim</strong>Labels each statement Fact, Interpretation, Hypothesis, or Conceptual analogy — never leaves the type ambiguous.</li>
+        <li><strong>Show disagreement</strong>Surfaces uncertainty and competing interpretations instead of picking a winner silently.</li>
+        <li><strong>Cite</strong>Gives source links, dates, and a freshness marker for current-news claims.</li>
+        <li><strong>Go deeper</strong>Recommends further reading and video, cross-checked before naming a specific source.</li>
+        <li><strong>Export</strong>Generates a labeled explainer HTML page that preserves every claim tag and source.</li>
+        <li class="rule-hard"><strong>Never fabricates</strong>No invented citations, dates, people, relationships, or confidence levels — an unsourced claim is withheld and flagged, not filled in.</li>
+      </ul>
+    </aside>
+  </div>
+</main>
+</body>
+</html>

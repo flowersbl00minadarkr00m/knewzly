@@ -1,0 +1,33 @@
+- main [ref=f4e2]:
+  - generic [ref=f4e3]: F01 / rough semantic example
+  - heading "One anchor, clearly explained." [level=1] [ref=f4e4]
+  - paragraph [ref=f4e5]: This is the smallest HTML shape that can carry a historical moment without relying on a canvas, a framework, or color-only meaning.
+  - generic [ref=f4e6]:
+    - region [ref=f4e7]:
+      - heading "Readable structure" [level=2] [ref=f4e8]
+      - code [ref=f4e10]: "<article aria-labelledby=\"event-title\"> <header> <p>2017 · Asia / North America</p> <h2 id=\"event-title\">A new way to focus</h2> <p><span>Claim type:</span> sourced fact</p> </header> <p>Narrative in simple English...</p> <dl> <dt>What came before</dt> <dd>Earlier sequence models...</dd> <dt>What changed here</dt> <dd>Attention became easier to apply...</dd> </dl> <footer> <p>Source: pending verification</p> </footer> </article>"
+    - region [ref=f4e11]:
+      - heading "Live preview" [level=2] [ref=f4e12]
+      - article [ref=f4e14]:
+        - generic [ref=f4e15]:
+          - generic [ref=f4e16]:
+            - generic [ref=f4e17]: "2017"
+            - generic [ref=f4e18]: ·
+            - generic [ref=f4e19]: Asia / North America
+            - generic [ref=f4e20]: SIMULATED
+          - heading "A new way to focus" [level=2] [ref=f4e21]
+          - paragraph [ref=f4e22]: "Claim type: sourced fact · Relationship: enabled · Confidence: pending"
+        - paragraph [ref=f4e23]: Earlier sequence models handled information step by step. This rough example shows how a later event can be explained as a change in the way information is connected, without claiming that one person or philosophy directly caused it.
+        - generic [ref=f4e24]:
+          - strong [ref=f4e25]: What came before
+          - text: Earlier sequence methods and growing compute made the question visible.
+        - generic [ref=f4e26]:
+          - strong [ref=f4e27]: What changed here
+          - text: Attention is presented as the central design idea in this simulated card.
+        - generic [ref=f4e28]:
+          - strong [ref=f4e29]: What followed
+          - text: Later systems reused and extended the pattern in different settings.
+        - generic [ref=f4e30]: ProvenanceDemo content — source link, publication date, and confidence must be filled from approved research before release.
+      - paragraph [ref=f4e31]: The same semantic content should remain available when the rich atlas canvas is unavailable, filtered, zoomed, or reduced to a mobile layout.
+      - button "Show the non-visual relationship label" [ref=f4e32] [cursor=pointer]
+  - paragraph [ref=f4e33]: Non-binding design spike. Simulated content. Not implementation evidence.

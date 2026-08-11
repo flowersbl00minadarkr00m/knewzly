@@ -1,0 +1,50 @@
+# T10: Scheduled CI news-refresh job.
+# design.md §6 (API/Integration Contract) + §13 TD-003 — a scheduled script
+# publishing static JSON, not a running backend service. No Edge Functions,
+# no Redis, no relay service (TD-004).
+#
+# NOTE: scripts/refresh-today.js's fetchAllowlistedItems() is currently a
+# stub (no live source integration was built in T10 — see the task report
+# for why a live dry-run wasn't attempted in the sandboxed dev session).
+# This workflow is syntactically complete and will run once that stub is
+# replaced with a real per-source fetch/parse implementation.
+
+name: Refresh Today panel content
+
+on:
+  schedule:
+    # Every 6 hours. The exact interval is an ops decision D-008 leaves
+    # open ("not fixed here") — this is a reasonable starting cadence for
+    # a bounded, scheduled curated-source feed.
+    - cron: '0 */6 * * *'
+  workflow_dispatch: {} # manual trigger for testing/ops
+
+permissions:
+  contents: write
+
+jobs:
+  refresh-today:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Run news-refresh pipeline
+        run: node scripts/refresh-today.js
+
+      - name: Commit updated today-stories.json if changed
+        run: |
+          if git diff --quiet -- content/today-stories.json; then
+            echo "No changes to content/today-stories.json — nothing to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add content/today-stories.json
+          git commit -m "chore: refresh today-stories.json [skip ci]"
+          git push

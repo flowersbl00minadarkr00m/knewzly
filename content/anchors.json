@@ -1,0 +1,122 @@
+{
+  "_note": "Production pilot spine, task T2, resolves requirements.md D-006. 9 anchors (within the 8-10 range), spanning 7 of PLAN.md's ten connective clusters and 4 lanes. Selected using artifacts/planning/f01-global-history-atlas/prototype.html's example events as the starting draft per D-006, then upgraded from that prototype's thin placeholder titles (e.g. 'Agency & reason', 'Learning machines') to real, independently-sourced historical anchors. Sources here were verified during this same working session's earlier Global History Atlas timeline research (primary-source citations checked then, reused here rather than re-fetched) — see the artifact history in this conversation for that verification.",
+  "anchors": [
+    {
+      "id": "lovelace",
+      "title": "Lovelace's objection",
+      "date": { "display": "1843", "sortKey": 1843 },
+      "lane": "europe",
+      "themes": ["comp", "gov"],
+      "story": "In her notes on Charles Babbage's Analytical Engine, Ada Lovelace argued the machine had no power to originate anything — it could only do what a person already knew how to order it to do. The question of whether a machine can truly originate something new, rather than just follow instructions, is still argued about today.",
+      "people": ["Ada Lovelace", "Charles Babbage"],
+      "topics": ["computation", "creativity", "authorship", "automata and agency"],
+      "claimType": "fact",
+      "confidence": "high",
+      "source": { "label": "Ada Lovelace, \"Notes\" (Note G, 1843), on Menabrea's sketch of the Analytical Engine — primary source", "url": "", "accessedDate": "2026-08-10" }
+    },
+    {
+      "id": "turing",
+      "title": "Turing's machine question",
+      "date": { "display": "1936 / 1950", "sortKey": 1936 },
+      "lane": "europe",
+      "themes": ["comp", "inst"],
+      "story": "Alan Turing's 1936 paper gave a precise mathematical model of computation. In 1950 he shifted the public question from abstract definitions of thinking to an operational test: could a machine's behavior in conversation be indistinguishable from a person's?",
+      "people": ["Alan Turing"],
+      "topics": ["computability", "machine intelligence", "imitation game"],
+      "claimType": "fact",
+      "confidence": "high",
+      "source": { "label": "Turing, \"On Computable Numbers\" (1936); \"Computing Machinery and Intelligence\", Mind (1950)", "url": "", "accessedDate": "2026-08-10" }
+    },
+    {
+      "id": "polish",
+      "title": "Poland breaks Enigma first",
+      "date": { "display": "1932–1939", "sortKey": 1932 },
+      "lane": "europe",
+      "themes": ["inst", "gov"],
+      "story": "Polish Cipher Bureau mathematicians Marian Rejewski, Jerzy Różycki, and Henryk Zygalski reverse-engineered the German Enigma machine from theory alone, years before the Second World War. In July 1939 they handed their reconstructed machine and decryption methods to French and British intelligence — directly seeding the more famous Bletchley Park codebreaking effort that followed.",
+      "people": ["Marian Rejewski", "Jerzy Różycki", "Henryk Zygalski"],
+      "topics": ["wartime computation", "cryptanalysis", "regional plurality"],
+      "claimType": "fact",
+      "confidence": "high",
+      "source": { "label": "IEEE Milestones: First Breaking of the Enigma Code by the Team of Polish Cipher Bureau, 1932-1939", "url": "https://ethw.org/Milestones:First_Breaking_of_Enigma_Code_by_the_Team_of_Polish_Cipher_Bureau,_1932-1939", "accessedDate": "2026-08-10" }
+    },
+    {
+      "id": "mcculloch",
+      "title": "McCulloch–Pitts artificial neuron",
+      "date": { "display": "1943", "sortKey": 1943 },
+      "lane": "north-america",
+      "themes": ["comp", "inst"],
+      "story": "Neurophysiologist Warren McCulloch and logician Walter Pitts published the first mathematical model treating a brain neuron as a simple logic gate: it fires or doesn't, based on weighted inputs crossing a threshold. This is the direct mathematical ancestor of every artificial neural network built since.",
+      "people": ["Warren McCulloch", "Walter Pitts"],
+      "topics": ["neural networks", "computability", "connectionism"],
+      "claimType": "fact",
+      "confidence": "high",
+      "source": { "label": "McCulloch, W. & Pitts, W. (1943), \"A Logical Calculus of the Ideas Immanent in Nervous Activity,\" Bulletin of Mathematical Biophysics", "url": "https://link.springer.com/article/10.1007/BF02478259", "accessedDate": "2026-08-10" }
+    },
+    {
+      "id": "dartmouth",
+      "title": "Dartmouth names artificial intelligence",
+      "date": { "display": "1956", "sortKey": 1956 },
+      "lane": "north-america",
+      "themes": ["inst", "comp"],
+      "story": "A summer research proposal at Dartmouth College gathered researchers around the claim that aspects of learning and intelligence could be described precisely enough for a machine to simulate them. The meeting gave the new research field a durable name and institutional center.",
+      "people": ["John McCarthy", "Marvin Minsky", "Claude Shannon", "Nathaniel Rochester"],
+      "topics": ["symbolic AI", "field formation", "research institutions"],
+      "claimType": "fact",
+      "confidence": "high",
+      "source": { "label": "\"A Proposal for the Dartmouth Summer Research Project on Artificial Intelligence\" (1955) — primary source", "url": "http://www-formal.stanford.edu/jmc/history/dartmouth/dartmouth.html", "accessedDate": "2026-08-10" }
+    },
+    {
+      "id": "wittgenstein",
+      "title": "Wittgenstein: meaning as use",
+      "date": { "display": "1921 / 1953", "sortKey": 1921 },
+      "lane": "philosophy",
+      "themes": ["phil", "comp"],
+      "story": "In the Tractatus (1921), the young Wittgenstein treated language as a picture of logical facts. By the posthumous Philosophical Investigations (1953), he argued instead that meaning comes from how a word is used within a shared context, not from a fixed picture it represents — a lens later writers apply to how language models derive meaning from patterns of use.",
+      "people": ["Ludwig Wittgenstein"],
+      "topics": ["philosophy of language", "meaning as use", "language games"],
+      "claimType": "fact",
+      "confidence": "high",
+      "source": { "label": "Stanford Encyclopedia of Philosophy: Wittgenstein", "url": "https://plato.stanford.edu/entries/wittgenstein/", "accessedDate": "2026-08-10" }
+    },
+    {
+      "id": "backprop",
+      "title": "Backpropagation spreads",
+      "date": { "display": "1986", "sortKey": 1986 },
+      "lane": "north-america",
+      "themes": ["comp", "inst"],
+      "story": "David Rumelhart, Geoffrey Hinton, and Ronald Williams published a widely read demonstration of backpropagation — an algorithm for training multi-layer neural networks by pushing errors backward through the network to adjust each connection. This is a popularization, not the idea's origin, but it made the technique legible and usable across the field.",
+      "people": ["David Rumelhart", "Geoffrey Hinton", "Ronald Williams"],
+      "topics": ["neural networks", "training algorithms", "deep learning"],
+      "claimType": "fact",
+      "confidence": "high",
+      "source": { "label": "Rumelhart, D., Hinton, G. & Williams, R. (1986), \"Learning representations by back-propagating errors,\" Nature", "url": "https://www.nature.com/articles/323533a0", "accessedDate": "2026-08-10" }
+    },
+    {
+      "id": "transformer",
+      "title": "The Transformer arrives",
+      "date": { "display": "2017", "sortKey": 2017 },
+      "lane": "north-america",
+      "themes": ["comp", "inst"],
+      "story": "Ashish Vaswani and seven co-authors at Google published \"Attention Is All You Need,\" introducing the Transformer architecture — built entirely around an attention mechanism rather than the recurrent networks that came before. Every major large language model since descends from this architecture.",
+      "people": ["Ashish Vaswani", "Noam Shazeer", "Google Brain team"],
+      "topics": ["Transformers", "attention", "large language models"],
+      "claimType": "fact",
+      "confidence": "high",
+      "source": { "label": "Vaswani et al. (2017), \"Attention Is All You Need,\" arXiv", "url": "https://arxiv.org/abs/1706.03762", "accessedDate": "2026-08-10" }
+    },
+    {
+      "id": "kenyalabor",
+      "title": "The hidden labor behind AI",
+      "date": { "display": "2021–2023", "sortKey": 2021 },
+      "lane": "africa",
+      "themes": ["gov", "inst"],
+      "story": "Low-paid workers, including annotators in Kenya employed by outsourcing firms, label and review the data and model outputs that make deployed AI systems work — including reviewing disturbing content to help train safety filters. Exact conditions and figures are contested in reporting; the phenomenon itself is well-documented.",
+      "people": ["Data annotation workers", "Sama (outsourcing firm)", "OpenAI"],
+      "topics": ["data labor", "AI supply chain", "labor conditions"],
+      "claimType": "interpretation",
+      "confidence": "medium",
+      "source": { "label": "Billy Perrigo, \"OpenAI Used Kenyan Workers on Less Than $2 Per Hour,\" TIME (2023)", "url": "https://time.com/6247678/openai-chatgpt-kenya-workers/", "accessedDate": "2026-08-10" }
+    }
+  ]
+}

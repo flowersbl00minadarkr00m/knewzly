@@ -1,0 +1,29 @@
+{
+  "$comment": "STARTER allowlist — needs content-review before production use. Populated with well-known, reputable AI-news sources as a placeholder so the T10 pipeline has something concrete to fetch/validate against. Real allowlist curation (source trust tiering, topic/region metadata per D-008's design-input notes) is a content-review responsibility, not a code decision made by this task. Do not treat this list as final.",
+  "reviewed": false,
+  "reviewedBy": null,
+  "reviewedDate": null,
+  "sources": [
+    {
+      "id": "ap-news-ai",
+      "name": "AP News — Artificial Intelligence",
+      "url": "https://apnews.com/hub/artificial-intelligence",
+      "feedUrl": "https://apnews.com/hub/artificial-intelligence",
+      "notes": "Wire-service reporting, high general trust; verify a stable feed/API endpoint exists before relying on this entry in a live run."
+    },
+    {
+      "id": "mit-tech-review-ai",
+      "name": "MIT Technology Review — Artificial Intelligence",
+      "url": "https://www.technologyreview.com/topic/artificial-intelligence/",
+      "feedUrl": "https://www.technologyreview.com/topic/artificial-intelligence/feed/",
+      "notes": "Editorially independent tech-focused outlet with AI subject-matter depth."
+    },
+    {
+      "id": "reuters-tech",
+      "name": "Reuters — Technology",
+      "url": "https://www.reuters.com/technology/",
+      "feedUrl": "https://www.reuters.com/technology/",
+      "notes": "Wire-service reporting, high general trust; verify a stable feed/API endpoint before relying on this entry in a live run."
+    }
+  ]
+}

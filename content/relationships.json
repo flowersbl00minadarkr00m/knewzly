@@ -1,0 +1,77 @@
+{
+  "_note": "Production relationship set for T2's pilot spine. Each entry reuses a relationship already verified during this session's earlier Global History Atlas timeline work, reselected to connect the 9-anchor pilot spine into a coherent, traceable structure rather than a fully-connected graph.",
+  "relationships": [
+    {
+      "id": "lovelace-turing",
+      "from": "lovelace",
+      "to": "turing",
+      "type": "reacted against",
+      "confidence": "documented",
+      "claimType": "fact",
+      "label": "Lovelace's 1843 objection → Turing's 1950 reply, which he explicitly called \"Lady Lovelace's Objection\""
+    },
+    {
+      "id": "polish-turing",
+      "from": "polish",
+      "to": "turing",
+      "type": "enabled",
+      "confidence": "documented",
+      "claimType": "fact",
+      "label": "Poland's reconstructed Enigma and decryption methods → Bletchley Park's wartime codebreaking work, where Turing served"
+    },
+    {
+      "id": "turing-mcculloch",
+      "from": "turing",
+      "to": "mcculloch",
+      "type": "enabled",
+      "confidence": "documented",
+      "claimType": "fact",
+      "label": "Turing's 1936 formal model of computation → the McCulloch–Pitts 1943 artificial-neuron model"
+    },
+    {
+      "id": "turing-dartmouth",
+      "from": "turing",
+      "to": "dartmouth",
+      "type": "influenced",
+      "confidence": "documented",
+      "claimType": "fact",
+      "label": "Turing's machine-intelligence question → the 1956 Dartmouth field-forming proposal"
+    },
+    {
+      "id": "mcculloch-backprop",
+      "from": "mcculloch",
+      "to": "backprop",
+      "type": "enabled",
+      "confidence": "documented",
+      "claimType": "fact",
+      "label": "The McCulloch–Pitts artificial neuron → trainable multi-layer networks via backpropagation"
+    },
+    {
+      "id": "wittgenstein-transformer",
+      "from": "wittgenstein",
+      "to": "transformer",
+      "type": "conceptual lens",
+      "confidence": "indirect",
+      "claimType": "conceptual-analogy",
+      "label": "Meaning-as-use in language games → how attention-based language models derive meaning from patterns of use (a conceptual lens later writers apply, not a claim Wittgenstein anticipated neural networks)"
+    },
+    {
+      "id": "backprop-transformer",
+      "from": "backprop",
+      "to": "transformer",
+      "type": "enabled",
+      "confidence": "interpretation",
+      "claimType": "interpretation",
+      "label": "Backpropagation's trainable networks → the field-wide momentum toward the deep, trainable architectures that led to the Transformer (a looser, field-level connection, not a direct technical dependency)"
+    },
+    {
+      "id": "transformer-kenyalabor",
+      "from": "transformer",
+      "to": "kenyalabor",
+      "type": "enabled",
+      "confidence": "interpretation",
+      "claimType": "interpretation",
+      "label": "The Transformer architecture underlying deployed large language models → the human data-labeling and content-review labor those deployed systems depend on"
+    }
+  ]
+}

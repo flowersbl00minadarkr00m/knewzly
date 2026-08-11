@@ -104,25 +104,28 @@ Only T1 is currently implementable. T8 and T10 unblock in parallel with T2–T7 
 **Expected Lifecycle Events:** `acknowledged` → `started` → (`blocked` / `contract-conflict` if the design shape proves unimplementable as written — route back to design.md, don't silently reshape it) → `verification-failed` or `ready-for-review` → tracking-owner-reconciled `completed`.
 
 ### Work
-- [ ] Write the three schema shapes exactly as specified in design.md §5.
-- [ ] Implement `ContentLoader` (fetch all three JSON files; expose them to callers).
-- [ ] Write 3-5 anchor / 3-5 relationship / 2-3 story fixture entries (clearly marked as fixture/placeholder, not real content — NFR-004 requires this distinction stay visible).
-- [ ] Write the `node:test` validator: referential integrity + mandatory-field presence.
+- [x] Write the three schema shapes exactly as specified in design.md §5.
+- [x] Implement `ContentLoader` (fetch all three JSON files; expose them to callers).
+- [x] Write 3-5 anchor / 3-5 relationship / 2-3 story fixture entries (clearly marked as fixture/placeholder, not real content — NFR-004 requires this distinction stay visible).
+- [x] Write the `node:test` validator: referential integrity + mandatory-field presence.
 
 ### Acceptance Criteria
-- [ ] Validator fails loudly on a fixture with a dangling relationship ID (prove the check actually catches the case it claims to).
-- [ ] Validator fails loudly on a fixture entry missing `claimType`, `source`, or `date`.
-- [ ] `ContentLoader` successfully fetches and parses all three fixture files in a manual browser check.
+- [x] Validator fails loudly on a fixture with a dangling relationship ID (prove the check actually catches the case it claims to).
+- [x] Validator fails loudly on a fixture entry missing `claimType`, `source`, or `date`.
+- [ ] `ContentLoader` successfully fetches and parses all three fixture files in a manual browser check. **Not yet verified — no page exists to call the browser `fetchReader` path until T3/T8. Verified instead via an injected fs-based reader (6/6 node:test pass). Re-check this specific criterion once T3 or T8 lands.**
 
 ### Files
-- `content/*.schema.json` — create
-- `content/fixtures/*.json` — create
-- `src/content-loader.js` (or equivalent) — create
-- `test/content-schema.test.js` — create
+- `content/*.schema.json` — created
+- `content/fixtures/*.json` — created (incl. `content/fixtures/invalid/*` for negative-path tests, not originally itemized but needed to prove the validator)
+- `src/content-loader.js` — created
+- `test/content-schema.test.js` — created
+- `package.json` — created (not originally listed; needed as minimal project metadata for `node --test` to run — zero dependencies declared)
 
 ### Verification
-- [ ] `node --test test/content-schema.test.js` — exit 0, both negative cases (dangling ID, missing field) demonstrated failing before the fix and passing after
-- [ ] Manual: open a throwaway HTML page invoking `ContentLoader`, confirm all three fixtures load without console errors
+- [x] `node --test` — exit 0, 6/6 pass, both negative cases (dangling ID, missing field) demonstrated failing correctly
+- [ ] Manual: open a throwaway HTML page invoking `ContentLoader` — deferred to T3/T8 (see caveat above)
+
+**Status: Done, with one honestly-flagged open item** (browser-path manual check deferred, not skipped).
 
 ---
 
@@ -150,24 +153,25 @@ Only T1 is currently implementable. T8 and T10 unblock in parallel with T2–T7 
 **Expected Lifecycle Events:** `acknowledged` → `started` → `blocked` if a source can't be verified in reasonable time (flag and move to the next candidate anchor rather than stalling the whole task) → `ready-for-review` → `completed`.
 
 ### Work
-- [ ] Select 8-10 anchors from the prototype's examples spanning ≥3 connective clusters.
-- [ ] Verify each anchor's date, claim type, and source independently (not just copied from the prototype without re-checking).
-- [ ] Write each anchor's story/people/topics in P-002-compliant language.
-- [ ] Define the initial relationships between the selected anchors using the seven-item vocabulary.
-- [ ] Run T1's validator against the result.
+- [x] Select 9 anchors (within the 8-10 range) from the prototype's examples spanning >=3 connective clusters — actually spans 7 of PLAN.md's 10 clusters (automata/agency, logic/computation, wartime codebreaking, early symbolic/neural AI, statistics/backprop, attention/Transformers, deployment/labor/governance).
+- [x] Verify each anchor's date, claim type, and source. **Caveat, stated plainly: sources were verified during this same working session's earlier Global History Atlas timeline artifact work (real primary-source citations checked then — Lovelace's Note G, Turing's 1936/1950 papers, the IEEE Enigma milestone, the McCulloch-Pitts 1943 paper, the Dartmouth proposal, Wittgenstein's SEP entry, the 1986 Nature paper, the 2017 arXiv paper, TIME's Kenya reporting), reused here rather than re-fetched live in this pass. Flagged to Henry for spot-check before this is treated as final, per the explicit agreement this session.**
+- [x] Write each anchor's story/people/topics in P-002-compliant language.
+- [x] Define the initial relationships (8 total) between the selected anchors using the seven-item vocabulary.
+- [x] Run T1's validator against the result.
 
 ### Acceptance Criteria
-- [ ] 8-10 anchors, ≥3 clusters represented (US-001 acceptance criteria, verbatim).
-- [ ] Every anchor and relationship passes T1's validator with zero errors.
-- [ ] Every anchor has a real, checkable source — no placeholder/simulated content presented as sourced (NFR-004).
+- [x] 9 anchors, 7 clusters represented (exceeds US-001's >=3 requirement).
+- [x] Every anchor and relationship passes T1's validator with zero errors (verified: `errors: []`, `VALID`).
+- [x] Every anchor has a real, checkable source — no placeholder/simulated content presented as sourced (NFR-004). One anchor (`kenyalabor`) is explicitly typed `claimType: interpretation`/`confidence: medium` rather than `fact`/`high`, since the underlying reporting itself flags contested specifics — this is the honest label, not an inflated one.
 
 ### Files
-- `content/anchors.json` — create (real content, replaces fixture for production use)
-- `content/relationships.json` — create
+- `content/anchors.json` — created (real content, replaces fixture for production use)
+- `content/relationships.json` — created
 
 ### Verification
-- [ ] `node --test test/content-schema.test.js` run against the real files — exit 0
-- [ ] Manual source spot-check: pick 2 anchors at random, independently re-verify their cited source
+- [x] Validator run directly against the real files (not via `node --test`, since T1's suite targets fixtures specifically) — 0 errors, confirmed
+- [x] `node --test` (full suite) — still 6/6 pass, real content didn't break anything
+- [ ] **Manual source spot-check by Henry — requested, not yet performed.** Per this session's explicit agreement, T2 pauses here for a human check before T12 (which depends on it) proceeds; T3-T7's component work can continue against fixtures in the meantime.
 
 ---
 

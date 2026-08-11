@@ -1,0 +1,286 @@
+/* styles/atlas.css — Global History Atlas (F01), Task T3: TimelineCanvas
+ *
+ * Formalizes .ai/sdd/design/timeline-atlas-concept.html's visual language
+ * (design.md §4/§9). Every text/background token pair below was computed
+ * against actual hex values before shipping (see T3's verification note in
+ * tasks.md) and clears 7:1 — the reviewed prototype's `--ink-faint` token
+ * (2.5:1 light / 3.4:1 dark, fails even AA) is intentionally NOT reused
+ * anywhere in this file. design.md §9/§10, §14 risk.
+ */
+
+:root {
+  --paper: #f7f3e8;
+  --paper-raised: #fffdf7;
+  --paper-deep: #ece5d2;
+  --ink: #1b2433;
+  --ink-soft: #3a4658;
+  --rule: #6b7684;
+  --rule-faint: #b7bfc7;
+  --accent: #163a5f;
+  --accent-soft: #244f76;
+  --focus: #00685d;
+  --visited: #5c4a13;
+  --inverse: #fbf7ea;
+  --shadow: rgba(22, 42, 64, 0.16);
+  --display: Georgia, "Times New Roman", Times, serif;
+  --utility: "Arial Narrow", "Helvetica Neue", Arial, sans-serif;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --paper: #161d27;
+    --paper-raised: #202b37;
+    --paper-deep: #10151d;
+    --ink: #f2ede0;
+    --ink-soft: #c9cdd6;
+    --rule: #7c8794;
+    --rule-faint: #445162;
+    --accent: #9ac7e8;
+    --accent-soft: #b6d9f1;
+    --focus: #f1c96b;
+    --visited: #f1c96b;
+    --inverse: #10161f;
+    --shadow: rgba(0, 0, 0, 0.4);
+  }
+}
+
+:root[data-theme="dark"] {
+  --paper: #161d27;
+  --paper-raised: #202b37;
+  --paper-deep: #10151d;
+  --ink: #f2ede0;
+  --ink-soft: #c9cdd6;
+  --rule: #7c8794;
+  --rule-faint: #445162;
+  --accent: #9ac7e8;
+  --accent-soft: #b6d9f1;
+  --focus: #f1c96b;
+  --visited: #f1c96b;
+  --inverse: #10161f;
+  --shadow: rgba(0, 0, 0, 0.4);
+}
+
+* { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  color: var(--ink);
+  background: var(--paper-deep);
+  font-family: var(--display);
+}
+
+button { font: inherit; }
+
+:focus-visible { outline: 3px solid var(--focus); outline-offset: 3px; }
+
+.skip-link {
+  position: fixed;
+  left: -999px;
+  top: 0;
+  z-index: 100;
+}
+.skip-link:focus {
+  left: 1rem;
+  top: 1rem;
+  padding: 0.6rem 1rem;
+  color: var(--inverse);
+  background: var(--ink);
+}
+
+.shell {
+  width: min(1400px, calc(100% - 2rem));
+  margin: 1rem auto 2.5rem;
+  background: var(--paper);
+  box-shadow: 0 18px 48px var(--shadow);
+}
+
+.masthead {
+  padding: clamp(1rem, 2.8vw, 2.4rem);
+  border-bottom: 6px double var(--ink);
+}
+.eyebrow {
+  margin: 0 0 0.4rem;
+  color: var(--accent);
+  font: 800 0.7rem/1.2 var(--utility);
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+h1 {
+  margin: 0;
+  font: 900 clamp(2.2rem, 5vw, 4.4rem)/0.95 var(--display);
+  letter-spacing: -0.03em;
+}
+.standfirst {
+  max-width: 64ch;
+  margin: 0.9rem 0 0;
+  color: var(--ink-soft);
+  font: italic 1.05rem/1.5 var(--display);
+}
+
+.atlas-caption {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.9rem clamp(1rem, 2.8vw, 2.4rem);
+  color: var(--ink-soft);
+  font: 700 0.78rem/1.4 var(--utility);
+  border-bottom: 1px solid var(--rule);
+}
+
+.timeline-viewport {
+  overflow-x: auto;
+  border-bottom: 1px solid var(--rule);
+  scrollbar-color: var(--accent) var(--paper-deep);
+}
+
+.timeline-canvas {
+  position: relative;
+  min-width: 100%;
+  background: var(--paper);
+}
+
+.axis {
+  position: absolute;
+  left: 76px;
+  right: 40px;
+  top: 52px;
+  height: 2px;
+  background: var(--ink);
+}
+.axis::after {
+  content: "";
+  position: absolute;
+  right: -1px;
+  top: -5px;
+  border-left: 9px solid var(--ink);
+  border-top: 6px solid transparent;
+  border-bottom: 6px solid transparent;
+}
+
+.era {
+  position: absolute;
+  top: 19px;
+  transform: translateX(-50%);
+  color: var(--ink-soft);
+  font: 800 0.66rem/1 var(--utility);
+  letter-spacing: 0.04em;
+  text-align: center;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+.era::after {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 13px;
+  margin: 0.5rem auto 0;
+  background: var(--ink);
+}
+
+.lane {
+  position: absolute;
+  left: 0;
+  right: 0;
+  border-top: 1px solid var(--rule-faint);
+}
+.lane-name {
+  position: sticky;
+  left: 0;
+  z-index: 4;
+  display: inline-block;
+  margin: 0;
+  padding: 0.5rem 0.85rem;
+  color: var(--inverse);
+  background: var(--accent);
+  font: 800 0.72rem/1.2 var(--utility);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.anchor {
+  position: absolute;
+  z-index: 3;
+  width: 176px;
+  min-height: 76px;
+  border: 1px solid var(--rule);
+  border-top: 5px solid var(--accent);
+  padding: 0.6rem 0.7rem;
+  color: var(--ink);
+  background: var(--paper-raised);
+  box-shadow: 0 5px 16px var(--shadow);
+  cursor: pointer;
+  text-align: left;
+  transform: translate(-50%, 0);
+  transition: transform 150ms ease, box-shadow 150ms ease;
+}
+.anchor:hover,
+.anchor[aria-pressed="true"] {
+  transform: translate(-50%, -4px);
+  box-shadow: 0 10px 24px var(--shadow);
+}
+.anchor-year {
+  display: block;
+  color: var(--accent);
+  font: 900 0.7rem/1 var(--utility);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+.anchor-title {
+  display: block;
+  margin-top: 0.25rem;
+  font: 800 0.98rem/1.1 var(--display);
+}
+.anchor-meta {
+  display: block;
+  margin-top: 0.3rem;
+  color: var(--ink-soft);
+  font: 700 0.62rem/1.25 var(--utility);
+  text-transform: uppercase;
+}
+.anchor-badge {
+  display: inline-block;
+  margin-top: 0.4rem;
+  padding: 0.15rem 0.4rem;
+  color: var(--inverse);
+  background: var(--visited);
+  font: 900 0.55rem/1 var(--utility);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.atlas-empty,
+.atlas-error {
+  margin: 0;
+  padding: 2rem clamp(1rem, 2.8vw, 2.4rem);
+  color: var(--ink-soft);
+  font: 700 0.95rem/1.5 var(--utility);
+}
+.atlas-error {
+  color: var(--ink);
+  background: var(--paper-raised);
+  border-left: 4px solid var(--accent);
+}
+
+.legend {
+  margin: 0;
+  padding: 0.9rem clamp(1rem, 2.8vw, 2.4rem) 1.4rem;
+  color: var(--ink-soft);
+  font: 700 0.78rem/1.4 var(--utility);
+}
+
+@media (max-width: 720px) {
+  .shell { width: 100%; margin: 0; box-shadow: none; }
+  .anchor { width: 148px; min-height: 64px; padding: 0.45rem 0.55rem; }
+  .anchor-year { font-size: 0.62rem; }
+  .anchor-title { font-size: 0.86rem; }
+  .anchor-meta { font-size: 0.56rem; }
+  .lane-name { padding: 0.4rem 0.6rem; font-size: 0.64rem; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { transition-duration: 0.01ms !important; }
+}

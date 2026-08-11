@@ -27,10 +27,22 @@
           <p class="atlas-empty">Loading the atlas…</p>
         </div>
       </div>
-      <p class="legend">Select any anchor to focus it. The anchor marked <strong>Start here</strong> is a suggested first stop for new visitors.</p>
+      <p class="legend">Select any anchor to focus it. The anchor marked <strong>Start here</strong> is a suggested first stop for new visitors.
+        <span class="legend-line"><span class="legend-swatch"></span> Solid arc — documented connection</span>
+        <span class="legend-line"><span class="legend-swatch dashed"></span> Dashed arc — interpretation or indirect/conceptual connection</span>
+      </p>
+    </section>
+
+    <section aria-labelledby="relationship-index-title">
+      <h2 class="section-title" id="relationship-index-title">Relationship Index</h2>
+      <p class="atlas-caption">Every relationship's type, direction, and confidence is listed here as text — this list is the full equivalent of the arcs above it, not a summary of them. Activate any entry (pointer or keyboard) to focus that relationship on the timeline; activate it again to clear the focus.</p>
+      <ul id="relationship-index-root" class="relationship-index" aria-label="Relationship list" aria-live="polite">
+        <li class="relationship-index-empty">Loading relationships…</li>
+      </ul>
     </section>
   </main>
 
   <script type="module" src="src/timeline-canvas.js"></script>
+  <script type="module" src="src/relationship-layer.js"></script>
 </body>
 </html>

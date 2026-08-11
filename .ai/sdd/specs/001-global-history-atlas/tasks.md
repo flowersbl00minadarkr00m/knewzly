@@ -243,21 +243,26 @@ Only T1 is currently implementable. T8 and T10 unblock in parallel with T2–T7 
 **Expected Lifecycle Events:** `acknowledged` → `started` → `ready-for-review` → `completed`.
 
 ### Work
-- [ ] Render relationship arcs (solid = documented, dashed = interpretive/indirect) from fixture relationship data.
-- [ ] Build the always-available text Relationship Index as a true equivalent, not a decorative afterthought.
-- [ ] Implement focus interaction: selecting a relationship (pointer or keyboard) dims unrelated arcs and reflects the same state in the text list.
+- [x] Render relationship arcs (solid = documented, dashed = interpretive/indirect) from relationship data. `renderRelationshipArcs()` reads T3's already-rendered anchor DOM (`readAnchorPositions()`) rather than duplicating TimelineCanvas's layout constants, so it stays correct even against fixture data or a future real-content layout change. Verified against both `content/fixtures/relationships.json` and the real 8-relationship `content/relationships.json`.
+- [x] Build the always-available text Relationship Index as a true equivalent, not a decorative afterthought. `renderRelationshipIndex()` writes type, direction (`fromTitle → toTitle`), the full confidence sentence, and the authored label as real DOM text nodes — nothing is conveyed only via a CSS class or the arc's line style.
+- [x] Implement focus interaction: selecting a relationship (pointer or keyboard) dims unrelated arcs and reflects the same state in the text list. `focusRelationship()` is the single function both interaction paths call (plain `<button>` elements fire an identical `click` event for a pointer click and for keyboard Enter/Space — no separate keydown handling needed), so pointer and keyboard activation are structurally guaranteed to converge on the same resulting state.
 
 ### Acceptance Criteria
-- [ ] Every relationship's type, direction, and confidence is available as text — verified by disabling CSS and confirming the information survives.
-- [ ] Keyboard-only focus of a relationship produces the same visible state as pointer interaction.
+- [x] Every relationship's type, direction, and confidence is available as text — verified by disabling CSS and confirming the information survives. **Not verified with a real browser's dev-tools CSS toggle (no browser tool reachable this session, see Verification below).** Verified instead the way that criterion actually cashes out: `test/relationship-layer.test.js`'s "renderRelationshipIndex — true text equivalent" suite asserts against each button's `.textContent` (not against any class, attribute, or visual/computed style) that the type, both endpoint titles with an explicit "→", and the full confidence sentence are present as real text nodes. `.textContent` is exactly what remains once CSS is disabled — a stylesheet cannot remove DOM text — so this is a direct, not simulated, proof of the same fact a manual CSS-disable check would show, just not captured as a rendered screenshot.
+- [x] Keyboard-only focus of a relationship produces the same visible state as pointer interaction. **Not verified with a real Tab/Enter keyboard sweep in an actual browser (no browser tool reachable this session).** Verified instead at the logic level, which is what actually determines the outcome: `wireFocusInteractions()` attaches exactly one `click` listener per relationship button, and `focusRelationship()` is the only place that mutates `aria-pressed`/arc classes/anchor-dimming state. `test/relationship-layer.test.js`'s "pointer path and keyboard path converge on identical state" test calls `focusRelationship()` directly (simulating the pointer-click handler body) against one scene and triggers the wired button's `.click()` (simulating what a real browser does identically for Enter/Space on a native `<button>`) against an independent second scene, then asserts `deepEqual` across pressed/active/dimmed state on both. Since both code paths are the same function, this is a structural guarantee, not an inference — but it does not replace an actual Tab-key focus-order check in a browser (would additionally need to confirm the browser truly agrees `<button>`+Enter fires `click`, which is standard HTML behavior but wasn't independently re-confirmed here).
 
 ### Files
-- `src/relationship-layer.js` — create
-- `atlas.html` — modify
+- `src/relationship-layer.js` — created
+- `atlas.html` — modified (added the Relationship Index section/markup, the solid/dashed legend, and the `relationship-layer.js` module script tag; did not alter T3's existing timeline markup)
+- `styles/atlas.css` — modified (not originally itemized, but required to render the arcs/index/focus states at all; every new text/background pair reuses one of T3's four already-computed >=7:1 token pairs or the verified inverse-on-accent badge pair — no new token introduced, see file header comment)
+- `test/relationship-layer.test.js` — created (not originally itemized; 33 new `node:test` assertions — pure-logic tests with zero DOM, plus a small hand-written fake-DOM shim for the rendering/focus-interaction tests, since Node has no built-in DOM and no browser tool was reachable this session)
 
 ### Verification
-- [ ] Manual: keyboard-only relationship selection produces correct dim/focus state
-- [ ] Manual: disable CSS, confirm relationship type/confidence still readable in the text list
+- [ ] Manual: keyboard-only relationship selection produces correct dim/focus state. **Deferred — no browser tool reachable this session** (`tabs_context_mcp` returned "Browser extension is not connected", same limitation T3/T8 hit earlier in this session). Substituted with the fake-DOM structural proof described in the Acceptance Criteria above. Re-check in an actual browser before T11's accessibility pass or T12's demo.
+- [ ] Manual: disable CSS, confirm relationship type/confidence still readable in the text list. **Deferred for the same reason.** Substituted with direct `.textContent` assertions (see above), which is what a CSS-disabled page actually reduces to — not a simulation of the check, but not a captured real-browser screenshot either.
+- [x] `node --test` — exit 0, full suite 77/77 pass (44 pre-existing + 33 new in `test/relationship-layer.test.js`).
+
+**Status: Done, with two honestly-flagged open items** — real-browser keyboard-sweep and CSS-disabled visual confirmation both deferred (no browser tool reachable this session); the underlying claims were verified at the DOM-text and interaction-logic level instead, which is a real proof of the same properties but not a substitute for an actual rendered-browser check. Re-check both before T11's accessibility pass or T12's end-to-end demo, consistent with T3's and T8's identical caveat.
 
 ---
 

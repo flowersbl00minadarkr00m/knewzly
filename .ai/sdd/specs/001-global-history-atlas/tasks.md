@@ -481,25 +481,27 @@ Only T1 is currently implementable. T8 and T10 unblock in parallel with T2–T7 
 **Expected Lifecycle Events:** `acknowledged` → `started` → `blocked` if a candidate allowlist source proves unfetchable/unparseable during implementation (drop it, document why, don't silently stall) → `ready-for-review` → `completed`.
 
 ### Work
-- [ ] Create the version-controlled source allowlist (content-review responsibility, not a code decision — start with a small, clearly reputable set).
-- [ ] Implement fetch + pubdate gate (drop undated/future-dated, count drops).
-- [ ] Implement per-source freshness computation + `min()` reduction + fail-closed-on-undatable.
-- [ ] Implement schema validation before publish (reuse T1's validator or an equivalent check against the `today-stories.json` shape).
-- [ ] Wire the cron schedule.
+- [x] Create the version-controlled source allowlist (content-review responsibility, not a code decision — start with a small, clearly reputable set). **`content/source-allowlist.json`, `"reviewed": false` — explicitly labeled a starter list (AP News AI hub, MIT Technology Review AI, Reuters Technology) needing content-review before production use, not finalized here.**
+- [x] Implement fetch + pubdate gate (drop undated/future-dated, count drops). `gatePubdates()`.
+- [x] Implement per-source freshness computation + `min()` reduction + fail-closed-on-undatable. `computeSourceFreshness()` + `reduceFreshness()` — an undatable/empty source resolves to `error`, never `fresh`; `min()` reduction takes the worst-ranked state across sources.
+- [x] Implement schema validation before publish (reuse T1's validator or an equivalent check against the `today-stories.json` shape). `validateForPublish()` calls `src/content-loader.js`'s `validateContent()` directly (T1 reuse, not a reimplementation); `publishTodayStories()` refuses to write when errors are non-empty.
+- [x] Wire the cron schedule. `.github/workflows/refresh-today.yml` — `schedule: cron '0 */6 * * *'` + `workflow_dispatch`. **Syntactically valid (parsed clean with a YAML parser) but not run — no live GitHub repo/secrets available in this sandbox, and it calls a real fetch step (see below) that is not yet implemented.**
 
 ### Acceptance Criteria
-- [ ] A deliberately undated test item is dropped, not included.
-- [ ] A deliberately stale-only source set produces `freshnessState: stale` or `very_stale`, never `fresh`.
-- [ ] A publish that would fail schema validation is blocked, not shipped.
+- [x] A deliberately undated test item is dropped, not included. `test/news-pipeline.test.js` — "gatePubdates: drops an item with no parseable date, and counts the drop".
+- [x] A deliberately stale-only source set produces `freshnessState: stale` or `very_stale`, never `fresh`. `test/news-pipeline.test.js` — "reduceFreshness: a deliberately stale-only source set produces stale/very_stale, never fresh" (both cases covered).
+- [x] A publish that would fail schema validation is blocked, not shipped. `test/news-pipeline.test.js` — "buildTodayStories: a publish that would fail schema validation is blocked" + "publishTodayStories: refuses to write a candidate that failed validation" (proves the actual filesystem write is skipped, not just that errors are returned).
 
 ### Files
-- `.github/workflows/refresh-today.yml` (or equivalent CI config) — create
-- `scripts/refresh-today.js` — create
-- `content/source-allowlist.json` — create
+- `.github/workflows/refresh-today.yml` — created
+- `scripts/refresh-today.js` — created
+- `content/source-allowlist.json` — created
 
 ### Verification
-- [ ] `node --test` against the pipeline's pure functions (pubdate gate, freshness reduction) using fixture source data — exit 0
-- [ ] Manual: dry-run the job against the real allowlist once, confirm a valid `today-stories.json` publishes
+- [x] `node --test` against the pipeline's pure functions (pubdate gate, freshness reduction) using fixture source data — exit 0. **28/28 pass (6 T1 + 22 T10), see execution record below.**
+- [ ] Manual: dry-run the job against the real allowlist once, confirm a valid `today-stories.json` publishes. **Not attempted — `fetchAllowlistedItems()` in `scripts/refresh-today.js` is an explicit stub that throws; no live per-source fetch/parse (RSS/API/HTML) was built in this pass, and this sandboxed session has no reliable path to safely validate live outbound fetches against the real allowlisted domains. Verification instead rests on the unit-tested pure pipeline functions (pubdate gate, per-source freshness, min()-reduction, schema validation) against fixture/fake source data, which is the acceptance-criteria bar this task actually specifies. A real dry-run requires implementing `fetchAllowlistedItems()` against a chosen fetch/parse approach per allowlisted source — left as a clearly-flagged follow-up, not silently skipped.**
+
+**Status: Work items and unit-tested acceptance criteria done. The manual live dry-run is honestly left unchecked — see note above. `content/source-allowlist.json` still needs Henry's content-review sign-off (`"reviewed": false`) before being treated as production-ready, per design.md's content-review-responsibility framing.**
 
 ---
 

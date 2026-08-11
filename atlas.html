@@ -42,7 +42,33 @@
     </section>
   </main>
 
+  <div class="drawer-scrim" id="drawer-scrim" aria-hidden="true"></div>
+  <aside class="context-drawer" id="context-drawer" role="dialog" aria-modal="true" aria-labelledby="drawer-title" aria-hidden="true">
+    <button class="drawer-close" type="button" id="drawer-close">Close ×</button>
+    <p class="drawer-label" id="drawer-label"></p>
+    <h2 id="drawer-title"></h2>
+    <p class="drawer-meta" id="drawer-meta"></p>
+    <div class="story-copy" id="drawer-story"></div>
+    <section class="drawer-section">
+      <h3>Key people</h3>
+      <ul class="people-list" id="drawer-people"></ul>
+    </section>
+    <section class="drawer-section">
+      <h3>Related topics</h3>
+      <ul class="topic-list" id="drawer-topics"></ul>
+    </section>
+    <section class="drawer-section">
+      <h3>Typed relationships</h3>
+      <ul class="drawer-relationships" id="drawer-relationships"></ul>
+    </section>
+    <section class="drawer-section">
+      <h3>Source record</h3>
+      <p class="source-card" id="drawer-source"></p>
+    </section>
+  </aside>
+
   <script type="module" src="src/timeline-canvas.js"></script>
   <script type="module" src="src/relationship-layer.js"></script>
+  <script type="module" src="src/context-drawer.js"></script>
 </body>
 </html>

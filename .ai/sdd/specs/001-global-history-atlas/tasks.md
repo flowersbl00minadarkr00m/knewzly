@@ -288,20 +288,25 @@ Only T1 is currently implementable. T8 and T10 unblock in parallel with T2–T7 
 **Expected Lifecycle Events:** `acknowledged` → `started` → `ready-for-review` → `completed`.
 
 ### Work
-- [ ] Build the drawer: story, people, topics, sources, relationships.
-- [ ] Wire anchor selection (T3) to open it; wire relationship selection (T4) to focus within it.
-- [ ] Implement keyboard open/close with focus return to the triggering anchor.
+- [x] Build the drawer: story, people, topics, sources, relationships. `renderDrawerContent()` populates title/meta/story/people/topics/source/relationships as real DOM text nodes; an anchor with zero relationships states this plainly (design.md §9 edge case), matching T4's own convention for an empty state.
+- [x] Wire anchor selection (T3) to open it; wire relationship selection (T4) to focus within it. `initContextDrawer()` attaches an additional click listener to each of T3's already-rendered anchor buttons (does not modify `timeline-canvas.js`) that calls `openDrawer()`. Relationship wiring is bidirectional and reuses T4's own `focusRelationship()` as the single source of truth rather than reimplementing it: (1) drawer → T4 — clicking one of the drawer's own relationship buttons dispatches a real `.click()` on the matching Relationship Index button, which runs T4's already-wired handler; (2) T4 → drawer — `syncDrawerHighlight()` mirrors whichever Relationship Index button is currently pressed onto the drawer's own relationship buttons, called both at drawer-open time and whenever an index button is clicked while the drawer is open.
+- [x] Implement keyboard open/close with focus return to the triggering anchor. `document.addEventListener('keydown', ...)` closes on Escape when the drawer is open; the close button and scrim also close it. `state.returnFocus` is set once, at open time, to the exact triggering anchor button, and `closeDrawer()` calls `.focus()` on it and nothing else.
 
 ### Acceptance Criteria
-- [ ] Opening/closing the drawer never loses the atlas's visible state behind it.
-- [ ] Closing the drawer (Escape or close button) returns focus exactly to the anchor that opened it.
+- [x] Opening/closing the drawer never loses the atlas's visible state behind it. The drawer is a `position: fixed` overlay (`.context-drawer`/`.drawer-scrim`, styles/atlas.css) — the atlas/timeline canvas is never unmounted, hidden, or marked `aria-hidden` by this module. Verified structurally: `test/context-drawer.test.js`'s "opening/closing the drawer never touches the underlying atlas DOM" asserts `canvasRoot`'s children and the triggering anchor button are byte-identical before and after an open/close cycle, with no `aria-hidden` added to the anchor.
+- [x] Closing the drawer (Escape or close button) returns focus exactly to the anchor that opened it. **This is the hard, testable requirement — proved structurally, not just claimed:** `test/context-drawer.test.js`'s "full open → read → Escape → close cycle, focus returns exactly to the triggering anchor" test tracks a simulated `document.activeElement` through `openDrawer()` → `closeDrawer()` against real production content (`content/anchors.json`/`relationships.json`), asserts `document.activeElement` equals the *exact* triggering anchor button object (not merely "an" anchor — a same-test distractor element proves it isn't landing on the wrong one), and a second test proves a close→reopen-for-a-different-anchor cycle updates `returnFocus` correctly rather than returning to a stale trigger. **Caveat, stated plainly: this is a DOM-stub proof (`document.activeElement` is a plain object property on a hand-written fake `document`, not a real browser's actual focus/tab-order/screen-reader-announcement behavior).** The `claude-in-chrome` browser extension was tried this session (`tabs_context_mcp`) and returned "Browser extension is not connected" — the same disconnect T3/T4/T8 hit earlier in this session. No real-browser confirmation was possible. Re-check with a real keyboard-only pass in an actual browser before T11's accessibility pass or T12's demo.
 
 ### Files
-- `src/context-drawer.js` — create
-- `atlas.html` — modify
+- `src/context-drawer.js` — created
+- `atlas.html` — modified (added the drawer markup: `.drawer-scrim`, `#context-drawer` with its close button and content sections; added the `src/context-drawer.js` module script tag; did not alter T3/T4's existing markup)
+- `styles/atlas.css` — modified (not originally itemized, but required to render the drawer at all; every new text/background pair reuses one of T3's already-computed >=7:1 token pairs — no new token introduced, per file header comment and this task's contrast-discipline instruction)
+- `test/context-drawer.test.js` — created (not originally itemized; 21 new `node:test` assertions — pure-logic tests plus a small hand-written fake-DOM shim, extended with a `focus()`/`document.activeElement` implementation specifically to test the focus-return requirement, since Node has no built-in DOM and no browser tool was reachable this session)
 
 ### Verification
-- [ ] Manual: full keyboard-only open → read → close → focus-return cycle
+- [ ] Manual: full keyboard-only open → read → close → focus-return cycle. **Deferred — no browser tool reachable this session** (`tabs_context_mcp` returned "Browser extension is not connected", tried directly before falling back, consistent with T3/T4/T8's identical caveat). Substituted with the fake-DOM structural proof described in the Acceptance Criteria above, which tracks `document.activeElement` through a simulated open→Escape→close cycle against real production content. This proves the *logic* is correct (the right element reference is stored and refocused); it does not prove real Tab-key focus order, real CSS transition/visibility behavior, or actual screen-reader announcement. Re-check in an actual browser before T11's accessibility pass or T12's end-to-end demo.
+- [x] `node --test` — exit 0, full suite 98/98 pass (77 pre-existing + 21 new in `test/context-drawer.test.js`).
+
+**Status: Done, with one honestly-flagged open item** — real-browser keyboard-only open/close/focus-return confirmation deferred (no browser tool reachable this session, tried and confirmed disconnected before falling back); the underlying focus-return logic was verified via a DOM-stub `document.activeElement` trace against real production content instead, which is a real proof of the same property but not a substitute for an actual rendered-browser check. Re-check before T11's accessibility pass or T12's end-to-end demo, consistent with T3's/T4's/T8's identical caveat.
 
 ---
 

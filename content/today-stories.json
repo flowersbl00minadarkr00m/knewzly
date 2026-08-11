@@ -1,0 +1,6 @@
+{
+  "_note": "Real production file, seeded pre-launch. The scheduled CI news-refresh job (T10, scripts/refresh-today.js) has not actually run against live sources yet — this honestly reflects that: freshnessState 'no_data', zero stories, rather than fabricating placeholder news. Once T10's cron job runs for real, it will overwrite this file with genuine fetched content. Discovered as a real cross-task integration gap while fixing T6: any code loading real content/ (not content/fixtures/) needs this file to exist at all, even pre-launch.",
+  "lastUpdated": "2026-08-11T00:00:00Z",
+  "freshnessState": "no_data",
+  "stories": []
+}

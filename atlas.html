@@ -40,6 +40,15 @@
         <li class="relationship-index-empty">Loading relationships…</li>
       </ul>
     </section>
+
+    <section aria-labelledby="anchor-list-title">
+      <h2 class="section-title" id="anchor-list-title">Anchor list &amp; visited progress</h2>
+      <p class="atlas-caption">Every anchor above is listed here as text too, with its visited state spelled out in words — not color alone. Activate any entry to open that anchor's context drawer, the same as selecting it on the timeline.</p>
+      <div id="visited-storage-notice-root"></div>
+      <ul id="visited-anchor-list-root" class="anchor-list" aria-label="Anchor list with visited status">
+        <li class="anchor-list-empty">Loading anchors…</li>
+      </ul>
+    </section>
   </main>
 
   <div class="drawer-scrim" id="drawer-scrim" aria-hidden="true"></div>
@@ -70,5 +79,7 @@
   <script type="module" src="src/timeline-canvas.js"></script>
   <script type="module" src="src/relationship-layer.js"></script>
   <script type="module" src="src/context-drawer.js"></script>
+  <script type="module" src="src/visited-tracker.js"></script>
+  <script type="module" src="src/trace-to-origin.js"></script>
 </body>
 </html>

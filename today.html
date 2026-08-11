@@ -181,6 +181,9 @@
     }
     .story-card-source a { text-underline-offset: 0.16rem; }
     .story-card-trace { color: var(--spot-soft); }
+    /* T9: the trace text becomes a real link into atlas.html?anchor=...;
+       reuses the same already-verified color as the surrounding text. */
+    .story-card-trace-link { color: inherit; text-underline-offset: 0.16rem; }
 
     .story-grid-empty,
     .story-grid-error {
@@ -234,6 +237,7 @@
     import { loadContent, fetchReader } from './src/content-loader.js';
     import { renderFreshnessBanner, renderFreshnessBannerError } from './src/freshness-banner.js';
     import { renderStoryGrid, renderStoryGridError } from './src/story-grid.js';
+    import { wireTraceToOrigin } from './src/trace-to-origin.js';
 
     // today-stories.json is fixture-only until T10's CI job publishes the
     // real content/today-stories.json (see tasks.md T8/T10). basePath is
@@ -263,6 +267,10 @@
       const { todayStories } = content;
       renderFreshnessBanner(bannerEl, todayStories);
       renderStoryGrid(gridEl, todayStories.stories);
+      // T9: turn each story's already-rendered "Traces to → ..." text (T8)
+      // into a real cross-page link into the Atlas (does not modify
+      // story-grid.js — only augments the DOM it already produced).
+      wireTraceToOrigin(gridEl, todayStories.stories);
     }
 
     init();

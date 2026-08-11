@@ -530,6 +530,80 @@ h1 {
 
 body.drawer-open { overflow: hidden; }
 
+/* Task T6: VisitedTracker — local persistence (design.md §5 localStorage
+ * schema; requirements.md FR-007, FR-008, NFR-003, US-004). Formalizes/
+ * versions the reviewed prototype's `.anchor.is-visited::after` checkmark
+ * badge convention (.ai/sdd/design/timeline-atlas-concept.html) as a real
+ * text badge element rather than a ::after content string, so it is real
+ * DOM text (survives "disable CSS", matches T4/T5's own text-equivalent
+ * discipline) rather than a CSS-generated string. Reuses the existing
+ * --visited/--inverse token pair already in this file (T3's "Start here"
+ * badge uses the same pair) — independently recomputed for this exact
+ * pairing before shipping: 8.02:1 (light) / 11.51:1 (dark), both clear 7:1
+ * AAA. No new token introduced.
+ */
+.visited-badge {
+  display: inline-block;
+  margin-top: 0.3rem;
+  padding: 0.15rem 0.4rem;
+  color: var(--inverse);
+  background: var(--visited);
+  font: 900 0.55rem/1 var(--utility);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.anchor-list {
+  margin: 0;
+  padding: 0.6rem clamp(1rem, 2.8vw, 2.4rem) 1.6rem;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 0.6rem;
+}
+.anchor-list-empty {
+  padding: 0.6rem clamp(1rem, 2.8vw, 2.4rem);
+  color: var(--ink-soft);
+  font: 700 0.85rem/1.4 var(--utility);
+}
+.anchor-list-item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  width: 100%;
+  border: 1px solid var(--rule);
+  padding: 0.6rem 0.7rem;
+  color: var(--ink-soft);
+  background: var(--paper-raised);
+  cursor: pointer;
+  text-align: left;
+  font: 700 0.78rem/1.35 var(--utility);
+}
+.anchor-list-title { color: var(--ink); font: 800 0.82rem/1.3 var(--display); }
+.anchor-list-status { color: var(--ink-soft); font-style: italic; }
+.anchor-list-item[data-visited="true"] { border-left: 4px solid var(--visited); }
+
+.visited-storage-notice {
+  margin: 0 clamp(1rem, 2.8vw, 2.4rem) 0.8rem;
+  padding: 0.6rem 0.8rem;
+  color: var(--ink);
+  background: var(--paper-raised);
+  border-left: 4px solid var(--accent);
+  font: 700 0.82rem/1.45 var(--utility);
+}
+
+/* T9: trace-to-origin — reuses the already-computed ink-on-paper-raised
+   pair (see T3's contrast verification note at the top of this file); no
+   new token introduced. */
+.trace-status-error {
+  margin: 0 0 1rem;
+  padding: 0.6rem 0.8rem;
+  color: var(--ink);
+  background: var(--paper-raised);
+  border-left: 4px solid var(--accent);
+  font: 700 0.82rem/1.45 var(--utility);
+}
+
 @media (max-width: 720px) {
   .context-drawer { width: 100%; border-left: 0; }
 }

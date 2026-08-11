@@ -333,22 +333,25 @@ Only T1 is currently implementable. T8 and T10 unblock in parallel with T2–T7 
 **Expected Lifecycle Events:** `acknowledged` → `started` → `ready-for-review` → `completed`.
 
 ### Work
-- [ ] Implement the versioned `localStorage` read/write.
-- [ ] Wire drawer-open (T5) to mark visited.
-- [ ] Add the non-color-only visited indicator to both the anchor button and the text anchor list.
-- [ ] Handle `localStorage` unavailable (private browsing) — atlas stays fully browsable, a non-blocking notice explains progress won't persist.
+- [x] Implement the versioned `localStorage` read/write (`knewzly-visited-v1`, `{version, visited}`).
+- [x] Wire drawer-open (T5's `knewzly:drawer-open` CustomEvent hook) to mark visited.
+- [x] Add the non-color-only visited indicator (real text badge + aria-label suffix) to both the anchor button and the text anchor list.
+- [x] Handle `localStorage` unavailable (private browsing) — atlas stays fully browsable, a non-blocking notice explains progress won't persist.
 
 ### Acceptance Criteria
-- [ ] All of US-004's acceptance criteria, including: closing/reopening the app on the same browser preserves visited state; clearing local storage resets it (expected, not a defect).
-- [ ] Visited marking never gates access to any anchor (D-001, reused from requirements).
+- [x] All of US-004's acceptance criteria, including: closing/reopening the app on the same browser preserves visited state; clearing local storage resets it (expected, not a defect).
+- [x] Visited marking never gates access to any anchor (D-001) — proved structurally: every anchor button remains present and clickable, count unchanged, after a visit.
 
 ### Files
-- `src/visited-tracker.js` — create
+- `src/visited-tracker.js` — created
+- `test/visited-tracker.test.js` — created
+- `content/today-stories.json` — created (see note below — this was a real cross-task gap, not originally in T6's file list)
 
 ### Verification
-- [ ] Manual: mark an anchor visited, reload the page, confirm it's still marked
-- [ ] Manual: clear `localStorage`, confirm reset and confirm the atlas remains fully browsable throughout
-- [ ] Manual: disable `localStorage` (private-browsing simulation), confirm graceful degradation
+- [x] `node --test` — 30/30 pass (this module's suite), 163/163 full project suite
+- [ ] Manual real-browser check — deferred, same `claude-in-chrome` extension-disconnected limitation every task this session hit (confirmed disconnected for the orchestrator too). Structural proof used instead (fake-DOM + fake-Storage harness); flagged for re-check before T11/T12.
+
+**Status: Done, with process notes.** The implementing subagent was cut off mid-task by a session usage limit before it could run its own tests or update this file — it left real, mostly-correct code plus a genuinely broken test file (from being mid-edit when killed). The orchestrator (this session) diagnosed and fixed two real bugs directly rather than re-dispatching: (1) the test's own hand-written fake-DOM `appendChild` never set `_parent`, so `element.remove()` silently no-op'd — a test-harness bug, not a `visited-tracker.js` bug; (2) `content/today-stories.json` (the real production file) didn't exist yet, since T10 never actually ran its live pipeline — `initVisitedTracker`'s content-load silently failed and the drawer-open listener never registered as a result. Fixed by seeding a real, honestly-labeled `content/today-stories.json` (`freshnessState: "no_data"`, empty stories — not fabricated news) reflecting actual pre-launch state. This is a genuine cross-task integration finding worth carrying into T12: **anything loading real `content/` needs `today-stories.json` to exist even before T10's job first runs for real.**
 
 ---
 
@@ -459,19 +462,24 @@ Only T1 is currently implementable. T8 and T10 unblock in parallel with T2–T7 
 **Expected Lifecycle Events:** `acknowledged` → `started` → `ready-for-review` → `completed`.
 
 ### Work
-- [ ] Wire each Today story's `traceToAnchors` field to open the linked anchor's drawer.
-- [ ] Render the story→anchor connection as explicit text, not implied by proximity/navigation alone.
-- [ ] Confirm the trace path also triggers `VisitedTracker` (T6) the same as direct selection.
+- [x] Wire each Today story's `traceToAnchors` field to open the linked anchor's drawer. **Decision made and documented, not silently invented:** since `today.html`/`atlas.html` are separate pages (design.md's two-page structure), "trace to origin" navigates via `atlas.html?anchor=<id>`; `atlas.html` auto-opens that anchor's drawer on load once T5's `knewzly:context-drawer-ready` fires (race-guarded against T5's async content load, with its own timeout backstop).
+- [x] Render the story→anchor connection as explicit text (the original "Traces to → ..." text is preserved inside the generated `<a>`, not replaced or only implied by the href).
+- [x] Confirm the trace path also triggers `VisitedTracker` (T6): the traced anchor opens via a real `.click()` on the same anchor button T3/T5 already wire, so it flows through T5's identical `knewzly:drawer-open` dispatch T6 listens to — no special-case code needed, verified structurally via T9's own click-simulation tests.
 
 ### Acceptance Criteria
-- [ ] All of US-003's acceptance criteria.
-- [ ] The linked anchor is marked visited after a trace, identically to direct selection.
+- [x] All of US-003's acceptance criteria.
+- [x] The linked anchor is marked visited after a trace, identically to direct selection (same event path, not a duplicate mechanism).
 
 ### Files
-- `src/trace-to-origin.js` — create
+- `src/trace-to-origin.js` — created
+- `test/trace-to-origin.test.js` — created
+- `today.html`, `atlas.html` — modified (wiring + `?anchor=` handling)
 
 ### Verification
-- [ ] Manual: full trace path — open Today story, activate trace, confirm correct anchor's drawer opens with the connection stated, confirm visited-marking fires
+- [x] `node --test` — 35/35 pass (this module's suite), 163/163 full project suite
+- [ ] Manual: full real-browser trace path — deferred, same extension-disconnected limitation as T6/T3/T4/T5/T8. Structural proof used instead (URL-building tested as pure logic; click-wiring and the ready/error/timeout race tested against a fake document/window). Flagged for re-check before T11/T12, specifically: does a real `atlas.html?anchor=X` load in an actual browser end with that anchor's drawer visibly open?
+
+**Status: Done, with process notes.** Same interruption pattern as T6: this task's subagent was cut off by the session usage limit mid-implementation, before running tests or updating this file. It left two real, findable bugs from being mid-edit: (1) `wireTraceToOrigin` calls `document.createElement` but the test never installed a fake global `document` — the subagent had already written a `makeFakeDocument()` helper but was killed before wiring it up; (2) source-code bug in `trace-to-origin.js` itself: the auto-init guard checked only `typeof document !== 'undefined'`, but `initAtlasTrace()`'s default parameters reference the global `window`, which doesn't exist in Node — fixed by checking both `document` and `window` in the guard. Also fixed a second fake-DOM shim gap (this file's `FakeElement` had no `href` reflection into `getAttribute`, unlike its `id` handling) so the href-assertion tests could actually run. The orchestrator fixed all of this directly rather than re-dispatching.
 
 ---
 

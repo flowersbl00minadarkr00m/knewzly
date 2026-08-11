@@ -214,6 +214,16 @@ export function openDrawer({ dom, anchor, trigger, relItems, indexRoot, state })
   wireDrawerRelationshipButtons(dom.relEl, indexRoot);
   syncDrawerHighlight(dom.relEl, indexRoot);
 
+  // T6 hook (VisitedTracker): a plain DOM CustomEvent, not a direct import,
+  // so this module keeps zero knowledge of T6's existence — T5's own
+  // Owned Surfaces stay exactly what they were. Guarded so environments
+  // without a real `dispatchEvent`/`CustomEvent` (e.g. this file's own
+  // hand-written fake-DOM test shim) silently no-op instead of throwing;
+  // any real browser has both.
+  if (typeof document !== 'undefined' && typeof document.dispatchEvent === 'function' && typeof CustomEvent === 'function') {
+    document.dispatchEvent(new CustomEvent('knewzly:drawer-open', { detail: { anchorId: anchor.id } }));
+  }
+
   // Focus moves into the drawer (close button — the reviewed prototype's
   // own convention) so a keyboard/screen-reader user lands somewhere
   // sensible inside the newly opened dialog, not left behind on a
@@ -317,6 +327,21 @@ export async function initContextDrawer({ canvasRoot, indexRoot, dom, contentOpt
     [dom.closeBtn, dom.scrim].forEach((el) => {
       el.addEventListener('click', () => closeDrawer({ dom, state }));
     });
+
+    // T9 hook (minimal, additive): announce that anchor buttons are wired
+    // and clickable, so src/trace-to-origin.js can safely simulate a click
+    // on a specific anchor button once — and only once — this module's own
+    // handler is actually attached, without T9 reimplementing any open/close
+    // or visited-marking logic of its own. Nothing in this module's own
+    // behavior changes; this is a signal, not a new code path.
+    if (typeof document !== 'undefined') {
+      document.documentElement.dataset.knewzlyContextDrawerReady = '1';
+      document.dispatchEvent(
+        new CustomEvent('knewzly:context-drawer-ready', {
+          detail: { anchorIds: Array.from(anchorsById.keys()) },
+        }),
+      );
+    }
 
     document.addEventListener('keydown', (event) => {
       if (event.key === 'Escape' && state.open) {

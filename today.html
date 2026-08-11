@@ -239,13 +239,14 @@
     import { renderStoryGrid, renderStoryGridError } from './src/story-grid.js';
     import { wireTraceToOrigin } from './src/trace-to-origin.js';
 
-    // today-stories.json is fixture-only until T10's CI job publishes the
-    // real content/today-stories.json (see tasks.md T8/T10). basePath is
-    // overridable via ?basePath= for manual QA against alternate fixture
-    // copies (e.g. to exercise each freshnessState) without editing the
-    // shared dev fixture in place.
+    // Real content/today-stories.json now exists (seeded pre-launch by T12,
+    // freshnessState: no_data until T10's CI job actually runs). Defaults to
+    // real content, matching atlas.html's ContentLoader default. basePath
+    // stays overridable via ?basePath=content/fixtures/ for manual QA
+    // against fixture copies (e.g. to exercise each freshnessState) without
+    // editing the real file in place.
     const params = new URLSearchParams(location.search);
-    const basePath = params.get('basePath') || 'content/fixtures/';
+    const basePath = params.get('basePath') || 'content/';
 
     const bannerEl = document.querySelector('#freshness-banner');
     const gridEl = document.querySelector('#story-grid');

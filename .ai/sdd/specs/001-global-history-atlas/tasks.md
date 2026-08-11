@@ -613,17 +613,21 @@ Only T1 is currently implementable. T8 and T10 unblock in parallel with T2–T7 
 **Expected Lifecycle Events:** `acknowledged` → `started` → `verification-failed` (route back to the owning earlier task if something breaks only in integration) → `ready-for-review` → tracking-owner-reconciled `completed` — this is the task whose `completed` event effectively closes out the MVP slice.
 
 ### Work
-- [ ] Replace fixture references with T2's real `content/anchors.json`/`relationships.json` everywhere.
-- [ ] Run the full success-signal loop once, start to finish, without instruction (simulating a first-time learner).
-- [ ] Fix any integration-only gap found (route back to the owning task if the fix is substantial, don't quietly absorb someone else's scope here).
+- [x] Replace fixture references with T2's real `content/anchors.json`/`relationships.json` everywhere. **Found and fixed one real gap:** `atlas.html` already defaulted to real content (T1's `ContentLoader` default is `content/`), but `today.html` still defaulted to `content/fixtures/` — fixed to default to real `content/`, keeping `?basePath=` override for QA. This was a genuine, previously-undetected integration gap, exactly what T12 exists to catch.
+- [ ] Run the full success-signal loop once, start to finish, without instruction (simulating a first-time learner). **Not performed — requires a real browser; see honest gap below.**
+- [x] Fix any integration-only gap found. Two real cross-task gaps were found and fixed this session: (1) `content/today-stories.json` didn't exist in production at all, breaking anything that loaded real content (fixed in T6's pass, seeded honestly as `no_data`/empty); (2) `today.html`'s stale fixture default, just above.
 
 ### Acceptance Criteria
-- [ ] The full loop completes without instruction, using real content, exactly as described in requirements.md's Business Context success signal.
-- [ ] `node --test` (all suites) passes against real content, not just fixtures.
+- [ ] The full loop completes without instruction, using real content, exactly as described in requirements.md's Business Context success signal. **Not verified end-to-end in a real browser** — every individual step has been proven at the code/module level (real content loads and validates cleanly across all three files together; every component's own tests pass against real content where applicable), but no single live, uninstructed click-through was performed or witnessed.
+- [x] `node --test` (all suites) passes against real content, not just fixtures — **196/196 pass.** `validateContent()` run directly against the real `anchors.json` + `relationships.json` + `today-stories.json` together: 0 errors.
 
 ### Files
-- Wiring changes only — no new files expected.
+- `today.html` — modified (basePath default fix)
 
 ### Verification
-- [ ] `node --test` — full suite, exit 0, against real content
+- [x] `node --test` — 196/196 pass, exit 0
+- [x] Real-content cross-file validation (`validateContent` against all three real files together) — 0 errors
+- [ ] Manual: complete, uninstructed run of the full loop, real content, real browser — **not performed.**
+
+**Status: Code-complete, integration-verified at the module level; the one remaining step needs a real browser.** Every task T1-T10 is fully done and independently verified (either by the orchestrator directly, or self-reported with evidence the orchestrator spot-checked). T11 fixed 4 real accessibility defects via genuine computed verification. T12 itself found and fixed 2 more real integration gaps. What's left, honestly: the `claude-in-chrome` extension has been confirmed disconnected all session — for every implementing subagent and for the orchestrator directly, re-checked multiple times, not a one-off failure. The actual live walkthrough (keyboard sweep, six-breakpoint responsive check, and this task's uninstructed full-loop demo) requires either that connection or Henry's own manual pass in a real browser. Nothing here is being claimed as verified that wasn't.
 - [ ] Manual: complete, uninstructed run of the full loop, real content, real browser

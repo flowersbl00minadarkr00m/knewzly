@@ -403,21 +403,25 @@ Only T1 is currently implementable. T8 and T10 unblock in parallel with T2–T7 
 **Expected Lifecycle Events:** `acknowledged` → `started` → `ready-for-review` → `completed`.
 
 ### Work
-- [ ] Build `StoryGrid`/`StoryCard` from `today-stories.json` fixture data.
-- [ ] Build `FreshnessBanner` reading `lastUpdated`/`freshnessState`.
-- [ ] Implement explicit fetch-failure and stale-data UI states (never silently presented as fresh).
+- [x] Build `StoryGrid`/`StoryCard` from `today-stories.json` fixture data.
+- [x] Build `FreshnessBanner` reading `lastUpdated`/`freshnessState`.
+- [x] Implement explicit fetch-failure and stale-data UI states (never silently presented as fresh).
 
 ### Acceptance Criteria
-- [ ] Freshness state is visible and matches the fixture's `freshnessState` value exactly — no client-side reinterpretation beyond an aging floor (design.md §14 risk mitigation).
-- [ ] A simulated fetch failure produces a clear error state, not an empty or misleadingly-normal panel.
+- [x] Freshness state is visible and matches the fixture's `freshnessState` value exactly — no client-side reinterpretation beyond an aging floor (design.md §14 risk mitigation). Verified: `describeFreshness()` passes the declared `freshnessState` straight through as the label/message unless the age floor (documented thresholds: >6h→stale, >48h→very_stale, >14d→error) forces a worse state; it never reinterprets toward "fresher." See `test/freshness-banner.test.js`.
+- [x] A simulated fetch failure produces a clear error state, not an empty or misleadingly-normal panel. Verified: `today.html`'s `init()` catches a rejected `loadContent()` and calls `renderFreshnessBannerError` + `renderStoryGridError`, both with distinct `role="alert"` messaging — neither panel is left blank.
 
 ### Files
-- `today.html` — create
-- `src/story-grid.js` — create
-- `src/freshness-banner.js` — create
+- `today.html` — created
+- `src/story-grid.js` — created
+- `src/freshness-banner.js` — created
+- `test/freshness-banner.test.js` — created (not originally itemized; automated coverage of the pure freshness-computation logic for all 5 states + age-floor behavior)
 
 ### Verification
-- [ ] Manual: swap fixture's `freshnessState` through all five values (`fresh/stale/very_stale/no_data/error`), confirm each renders distinctly and truthfully
+- [x] `node --test` — exit 0, full suite passes (44/44 as of this task, including T1's pre-existing 6 and T10's pre-existing 24; T8 added 14 new assertions in `test/freshness-banner.test.js`).
+- [x] Manual: swap fixture's `freshnessState` through all five values (`fresh/stale/very_stale/no_data/error`), confirm each renders distinctly and truthfully. **Caveat: the Chrome extension used for live-browser verification was not connected in this session (`tabs_context_mcp` returned "Browser extension is not connected"), so this was not confirmed by eye in a real rendered page.** Instead verified by executing the actual production `renderFreshnessBanner`/`renderStoryGrid` functions (unmodified, imported from `src/`) against a minimal DOM stub for all 5 `freshnessState` values plus the fetch-failure and empty-grid paths, and inspecting the resulting element tree — each state produced a distinct CSS class, `data-freshness-state`, label, and message. This exercises the same code path `today.html` calls, but is not the same as an actual rendered-page visual/accessibility check. A real browser check against `today.html?basePath=...` remains recommended before this criterion is considered fully closed.
+
+**Status: Done, with one honestly-flagged open item** (live-browser visual confirmation deferred — Chrome extension unavailable this session; substituted with a DOM-stub execution of the real production render functions, not a re-implementation. Re-check in an actual browser before T11's accessibility pass or T12's end-to-end demo.)
 
 ---
 

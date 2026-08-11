@@ -1,0 +1,271 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <title>Knewzly — Today</title>
+  <style>
+    :root {
+      --paper: #f6f1e3;
+      --paper-deep: #e9e1cc;
+      --ink: #172235;
+      --ink-soft: #465363;
+      --rule: #687586;
+      --rule-faint: #b5b9b5;
+      --spot: #163a5f;
+      --spot-soft: #244f76;
+      --inverse: #fbf7ea;
+      --focus: #00685d;
+      --shadow: rgba(22, 42, 64, 0.15);
+      --ok: #1e5e35;
+      --warn: #7a5300;
+      --bad: #7a1f1f;
+      --display: Georgia, "Times New Roman", Times, serif;
+      --body: Georgia, "Times New Roman", Times, serif;
+      --utility: "Arial Narrow", "Roboto Condensed", "Helvetica Neue", Arial, sans-serif;
+    }
+
+    html[data-theme="dark"] {
+      --paper: #18212b;
+      --paper-deep: #10171f;
+      --ink: #f3eddf;
+      --ink-soft: #c5c4be;
+      --rule: #909dab;
+      --rule-faint: #4f5e6e;
+      --spot: #9ac7e8;
+      --spot-soft: #b6d9f1;
+      --inverse: #111923;
+      --focus: #f1c96b;
+      --shadow: rgba(0, 0, 0, 0.34);
+      --ok: #7fcf9a;
+      --warn: #e8c25b;
+      --bad: #e88a8a;
+    }
+
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      color: var(--ink);
+      background: var(--paper-deep);
+      font-family: var(--body);
+      font-size: 16px;
+      line-height: 1.45;
+    }
+
+    a { color: inherit; }
+    a:hover { color: var(--spot); }
+    :focus-visible { outline: 3px solid var(--focus); outline-offset: 3px; }
+
+    .concept-banner {
+      padding: 0.55rem 1rem;
+      color: var(--inverse);
+      background: var(--spot);
+      font: 700 0.75rem/1.2 var(--utility);
+      letter-spacing: 0.14em;
+      text-align: center;
+      text-transform: uppercase;
+    }
+
+    .paper {
+      width: min(1100px, calc(100% - 2rem));
+      margin: 1.25rem auto 3rem;
+      padding: clamp(1rem, 2.6vw, 2.5rem);
+      background: var(--paper);
+      box-shadow: 0 18px 48px var(--shadow);
+    }
+
+    .masthead {
+      padding: 1.15rem 0 0.8rem;
+      border-bottom: 5px double var(--ink);
+      text-align: center;
+    }
+
+    .masthead h1 {
+      margin: 0;
+      font: 900 clamp(2.4rem, 6vw, 4.6rem)/0.9 var(--display);
+      letter-spacing: -0.04em;
+    }
+
+    .masthead-mark {
+      display: block;
+      margin-top: 0.4rem;
+      font: 700 clamp(0.6rem, 1vw, 0.75rem)/1 var(--utility);
+      letter-spacing: 0.35em;
+      text-transform: uppercase;
+      color: var(--ink-soft);
+    }
+
+    /* FreshnessBanner — must read distinctly and truthfully per state
+       (FR-015/NFR-004). Never color-only: label text differs per state. */
+    .freshness-banner {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.3rem 0.6rem;
+      align-items: baseline;
+      margin: 1rem 0;
+      padding: 0.6rem 0.9rem;
+      border: 1px solid var(--rule);
+      border-left-width: 6px;
+      font: 0.85rem/1.4 var(--utility);
+    }
+
+    .freshness-label {
+      font-weight: 800;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+    }
+
+    .freshness-fresh { border-left-color: var(--ok); }
+    .freshness-fresh .freshness-label { color: var(--ok); }
+
+    .freshness-stale { border-left-color: var(--warn); }
+    .freshness-stale .freshness-label { color: var(--warn); }
+
+    .freshness-very_stale { border-left-color: var(--warn); background: color-mix(in srgb, var(--warn) 10%, transparent); }
+    .freshness-very_stale .freshness-label { color: var(--warn); }
+
+    .freshness-no_data,
+    .freshness-error,
+    .freshness-fetch-error {
+      border-left-color: var(--bad);
+      background: color-mix(in srgb, var(--bad) 10%, transparent);
+    }
+    .freshness-no_data .freshness-label,
+    .freshness-error .freshness-label,
+    .freshness-fetch-error .freshness-label { color: var(--bad); }
+
+    .freshness-floor-notice { color: var(--ink-soft); font-style: italic; }
+    .freshness-updated { color: var(--ink-soft); margin-left: auto; }
+
+    #story-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+      gap: 1.25rem;
+      margin-top: 1rem;
+    }
+
+    .story-card {
+      border-top: 3px solid var(--ink);
+      padding-top: 0.7rem;
+    }
+
+    .story-card-category {
+      margin: 0 0 0.3rem;
+      color: var(--spot);
+      font: 800 0.66rem/1.2 var(--utility);
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    .story-card-headline {
+      margin: 0 0 0.4rem;
+      font: 800 1.4rem/1.08 var(--display);
+      letter-spacing: -0.015em;
+    }
+
+    .story-card-dek {
+      margin: 0.3rem 0;
+      color: var(--ink-soft);
+      font: italic 0.95rem/1.4 var(--display);
+    }
+
+    .story-card-meta { margin-top: 0.5rem; font-family: var(--utility); }
+    .story-card-source,
+    .story-card-trace {
+      margin: 0.3rem 0;
+      font-size: 0.68rem;
+      font-weight: 700;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+    }
+    .story-card-source a { text-underline-offset: 0.16rem; }
+    .story-card-trace { color: var(--spot-soft); }
+
+    .story-grid-empty,
+    .story-grid-error {
+      grid-column: 1 / -1;
+      padding: 2rem;
+      border: 1px solid var(--rule);
+      text-align: center;
+      font-style: italic;
+    }
+
+    .story-grid-error { border-color: var(--bad); color: var(--bad); font-style: normal; font-weight: 700; }
+
+    .folio {
+      display: flex;
+      justify-content: space-between;
+      gap: 1rem;
+      margin-top: 2rem;
+      padding-top: 0.65rem;
+      border-top: 1px solid var(--rule);
+      color: var(--ink-soft);
+      font-size: 0.62rem;
+      font-weight: 700;
+      font-family: var(--utility);
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after { transition-duration: 0.01ms !important; }
+    }
+  </style>
+</head>
+<body>
+  <div class="concept-banner">Knewzly — Today panel (F01 pilot slice)</div>
+
+  <main class="paper" id="top">
+    <header class="masthead">
+      <h1>Today</h1>
+      <span class="masthead-mark">Current AI news, traced to where it came from</span>
+    </header>
+
+    <div id="freshness-banner" aria-live="polite"></div>
+
+    <section id="story-grid" aria-label="Today's stories"></section>
+
+    <footer class="folio">
+      <span>Knewzly — Global History Atlas (F01 pilot)</span>
+      <a href="atlas.html">Go to the Atlas →</a>
+    </footer>
+  </main>
+
+  <script type="module">
+    import { loadContent, fetchReader } from './src/content-loader.js';
+    import { renderFreshnessBanner, renderFreshnessBannerError } from './src/freshness-banner.js';
+    import { renderStoryGrid, renderStoryGridError } from './src/story-grid.js';
+
+    // today-stories.json is fixture-only until T10's CI job publishes the
+    // real content/today-stories.json (see tasks.md T8/T10). basePath is
+    // overridable via ?basePath= for manual QA against alternate fixture
+    // copies (e.g. to exercise each freshnessState) without editing the
+    // shared dev fixture in place.
+    const params = new URLSearchParams(location.search);
+    const basePath = params.get('basePath') || 'content/fixtures/';
+
+    const bannerEl = document.querySelector('#freshness-banner');
+    const gridEl = document.querySelector('#story-grid');
+
+    async function init() {
+      let content;
+      try {
+        content = await loadContent({ basePath, reader: fetchReader });
+      } catch (err) {
+        console.error('Today panel: failed to load content', err);
+        renderFreshnessBannerError(
+          bannerEl,
+          `Could not load today's news feed (${err.message}). Nothing shown here should be treated as current.`,
+        );
+        renderStoryGridError(gridEl, "Today's stories could not be loaded. Please try again later.");
+        return;
+      }
+
+      const { todayStories } = content;
+      renderFreshnessBanner(bannerEl, todayStories);
+      renderStoryGrid(gridEl, todayStories.stories);
+    }
+
+    init();
+  </script>
+</body>
+</html>

@@ -198,23 +198,25 @@ Only T1 is currently implementable. T8 and T10 unblock in parallel with T2–T7 
 **Expected Lifecycle Events:** `acknowledged` → `started` → `ready-for-review` → `completed`.
 
 ### Work
-- [ ] Build era axis + lane layout per design.md §4.
-- [ ] Render anchors from `ContentLoader`'s fixture data as focusable buttons.
-- [ ] Set one anchor as the default first-use guided entry point (NFR-001).
-- [ ] Confirm no reuse of the known-defective `--ink-faint`-style low-contrast token (design.md §9/§14 risk).
+- [x] Build era axis + lane layout per design.md §4.
+- [x] Render anchors from `ContentLoader`'s fixture data as focusable buttons.
+- [x] Set one anchor as the default first-use guided entry point (NFR-001).
+- [x] Confirm no reuse of the known-defective `--ink-faint`-style low-contrast token (design.md §9/§14 risk).
 
 ### Acceptance Criteria
-- [ ] All of US-001's acceptance criteria hold against fixture data.
-- [ ] A new session loads with one anchor pre-selected or a suggested starting trace — not an empty canvas.
+- [x] All of US-001's acceptance criteria hold. **Note on "against fixture data":** T3's own task framing (written when only T1 had landed) assumed T2's real content wasn't ready; T2 has since been committed in this shared checkout (9 anchors / 4 lanes: philosophy, europe, north-america, africa). `atlas.html` was built content-agnostic — it loads whatever is at `ContentLoader`'s default `content/` basePath, with no fixture-specific logic — and a fake-DOM harness confirms it renders all 9 real anchors correctly (9/9 buttons, all 5 lanes incl. unoccupied Asia, correct accessible names). Verified separately against T1's 3-anchor fixture too (2 lanes occupied) to confirm the component doesn't assume any particular anchor count. The literal "8-10 anchors, ≥3 clusters" criterion therefore holds against what the page actually renders today, though this is downstream of T2 landing early, not something T3 itself curated.
+- [x] A new session loads with one anchor pre-selected or a suggested starting trace — not an empty canvas. (Earliest-dated anchor by `sortKey` is marked `.is-suggested` with a text "Start here" badge and an aria-label suffix "— suggested starting point"; it is a visual/textual marker only, not a T5 drawer-open, which is out of this task's scope.)
 
 ### Files
-- `atlas.html` — create
-- `src/timeline-canvas.js` — create
-- `styles/atlas.css` — create
+- `atlas.html` — created
+- `src/timeline-canvas.js` — created
+- `styles/atlas.css` — created
 
 ### Verification
-- [ ] Manual: tab through every anchor via keyboard only, confirm each has an accessible name including date/title/region
-- [ ] Manual: computed contrast check on any new text token introduced
+- [ ] Manual: tab through every anchor via keyboard only, confirm each has an accessible name including date/title/region. **Not verified in a real browser — no browser tool was available in this session (`claude-in-chrome` reported "Browser extension is not connected"; a local static server was started at `localhost:8791` and abandoned once the extension proved unreachable, see commit note).** Verified instead via a throwaway fake-DOM harness that rendered `renderTimelineCanvas` against `content/fixtures/anchors.json` and asserted every button's `aria-label` contains its date, title, and lane name (e.g. `"1843, Lovelace's objection, Europe lane — suggested starting point"`). This proves the accessible-name *content* is correct; it does not prove real Tab-key focus order or that a screen reader announces it correctly — re-check in an actual browser before T11 or T12 sign-off.
+- [x] Manual: computed contrast check on any new text token introduced. Computed via the WCAG 2.x relative-luminance formula (script, not eyeballing — same method design.md §15 requires) against every text/background pair `styles/atlas.css` actually uses: ink-on-paper 14.06:1 (light) / 14.50:1 (dark), ink-soft-on-paper 8.62:1 (light) / 10.64:1 (dark), ink-on-paper-raised 15.33:1 (light) / 12.29:1 (dark), ink-soft-on-paper-raised 9.40:1 (light) / 9.02:1 (dark), inverse-on-accent (lane badge) 10.86:1 (light) / 10.12:1 (dark). All ten pairs clear 7:1 AAA; the reviewed prototype's failing `--ink-faint` token (2.5:1/3.4:1) is not reused anywhere in this file.
+
+**Status: Done, with one honestly-flagged open item** — real-browser keyboard/screen-reader verification deferred (no browser tool reachable this session); re-check before T11's accessibility pass or T12's demo. `node --test` unaffected (T3 has no test-suite ownership; existing 6/6 T1 suite plus other in-flight suites in this shared repo checkout remained green throughout — see commit).
 
 ---
 

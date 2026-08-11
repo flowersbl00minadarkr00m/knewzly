@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <title>Knewzly — Global History Atlas</title>
+  <meta name="description" content="Browse a curated pilot spine of AI/innovation history on a shared time axis with regional and Philosophy lanes.">
+  <link rel="stylesheet" href="styles/atlas.css">
+</head>
+<body>
+  <a class="skip-link" href="#atlas">Skip to timeline</a>
+  <main class="shell">
+    <header class="masthead">
+      <p class="eyebrow">The Knewzly Standard · Historical atlas desk</p>
+      <h1>The Global History Atlas</h1>
+      <p class="standfirst">Move across one shared chronology, compare regional and philosophical lanes, and select an anchor to read the people, evidence, and relationships behind it.</p>
+    </header>
+
+    <section aria-labelledby="atlas-title">
+      <p class="atlas-caption" id="atlas-title">
+        <span><strong>Edited time axis:</strong> chronological, intentionally not proportional so the record stays legible.</span>
+        <span>All anchors remain visible — nothing is ever hidden or unlocked.</span>
+      </p>
+      <div class="timeline-viewport" tabindex="0" aria-label="Horizontally scrollable timeline with regional and Philosophy lanes">
+        <div id="timeline-canvas-root" aria-live="polite" aria-busy="true">
+          <p class="atlas-empty">Loading the atlas…</p>
+        </div>
+      </div>
+      <p class="legend">Select any anchor to focus it. The anchor marked <strong>Start here</strong> is a suggested first stop for new visitors.</p>
+    </section>
+  </main>
+
+  <script type="module" src="src/timeline-canvas.js"></script>
+</body>
+</html>

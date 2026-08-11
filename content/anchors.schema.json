@@ -1,0 +1,67 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "knewzly:content/anchors.schema.json",
+  "title": "Knewzly anchor set",
+  "description": "Documented contract for content/anchors.json. Reference only — validated by hand-written checks in test/content-schema.test.js, not by a schema-validation library (zero new dependencies, per F01 design.md TD-001).",
+  "type": "object",
+  "required": ["anchors"],
+  "properties": {
+    "anchors": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/anchor" }
+    }
+  },
+  "$defs": {
+    "anchor": {
+      "type": "object",
+      "required": ["id", "title", "date", "lane", "story", "claimType", "confidence", "source"],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z0-9-]+$",
+          "description": "Stable, unique, kebab-case identifier. Referenced by relationships.json and today-stories.json."
+        },
+        "title": { "type": "string", "minLength": 1 },
+        "date": {
+          "type": "object",
+          "required": ["display", "sortKey"],
+          "properties": {
+            "display": { "type": "string", "description": "Human-readable date/range, e.g. \"1936 / 1950\"." },
+            "sortKey": { "type": "integer", "description": "A single sortable year for chronological placement." }
+          }
+        },
+        "lane": {
+          "type": "string",
+          "enum": ["philosophy", "europe", "north-america", "asia", "africa"]
+        },
+        "themes": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Optional theme-filter tags (FR-014, Could Have — not rendered by any task in this pass, but content may carry them for later use)."
+        },
+        "story": { "type": "string", "minLength": 1, "description": "Simple-English narrative, P-002 compliant." },
+        "people": { "type": "array", "items": { "type": "string" } },
+        "topics": { "type": "array", "items": { "type": "string" } },
+        "claimType": {
+          "type": "string",
+          "enum": ["fact", "interpretation", "conceptual-analogy"],
+          "description": "Matches F01 requirements.md FR-011's exact three-type vocabulary. Note: PLAN.md's project-wide Source and Provenance Baseline was later extended to four types (adding 'hypothesis') for F08/Archie's dynamic Q&A use case, but F01's own approved requirements.md was not amended to match — this schema deliberately follows F01's actual approved contract, not the newer four-type list, since anchors describe established history rather than open speculative questions. Flag to Henry if this divergence should be reconciled."
+        },
+        "confidence": {
+          "type": "string",
+          "enum": ["high", "medium", "medium-high", "contested"]
+        },
+        "source": {
+          "type": "object",
+          "required": ["label", "accessedDate"],
+          "properties": {
+            "label": { "type": "string" },
+            "url": { "type": "string" },
+            "accessedDate": { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$" }
+          }
+        }
+      }
+    }
+  }
+}

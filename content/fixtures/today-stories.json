@@ -1,0 +1,17 @@
+{
+  "_fixture": true,
+  "_note": "Test/dev fixture — simulates what T10's CI job would publish. Not live data.",
+  "lastUpdated": "2026-08-10T14:00:00Z",
+  "freshnessState": "fresh",
+  "stories": [
+    {
+      "id": "fixture-story-turing",
+      "category": "research",
+      "headline": "Fixture headline for development use",
+      "dek": "Illustrative only — T10's real CI job produces the production file.",
+      "source": { "name": "Fixture source", "url": "", "publishedDate": "2026-08-10" },
+      "traceToAnchors": ["turing"],
+      "traceLabel": "Turing's machine question (1936/1950)"
+    }
+  ]
+}

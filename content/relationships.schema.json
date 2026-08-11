@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "knewzly:content/relationships.schema.json",
+  "title": "Knewzly typed relationships",
+  "description": "Documented contract for content/relationships.json. Reference only — validated by hand-written checks in test/content-schema.test.js.",
+  "type": "object",
+  "required": ["relationships"],
+  "properties": {
+    "relationships": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/relationship" }
+    }
+  },
+  "$defs": {
+    "relationship": {
+      "type": "object",
+      "required": ["id", "from", "to", "type", "confidence", "claimType", "label"],
+      "properties": {
+        "id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+        "from": { "type": "string", "description": "Must resolve to a real anchors.json id — checked by the validator, not this schema alone." },
+        "to": { "type": "string", "description": "Must resolve to a real anchors.json id — checked by the validator, not this schema alone." },
+        "type": {
+          "type": "string",
+          "enum": ["influenced", "enabled", "reacted against", "iterated on", "institutionalized", "regulated", "conceptual lens"],
+          "description": "The seven-item vocabulary from PLAN.md's Relationship Vocabulary decision — no others permitted without a PLAN.md update."
+        },
+        "confidence": {
+          "type": "string",
+          "enum": ["documented", "interpretation", "indirect"],
+          "description": "'documented' renders a solid arc; 'interpretation'/'indirect' render dashed (FR-003 — never color-only, always also stated in text)."
+        },
+        "claimType": {
+          "type": "string",
+          "enum": ["fact", "interpretation", "conceptual-analogy"]
+        },
+        "label": { "type": "string", "minLength": 1, "description": "Human-readable statement of the connection, e.g. \"Turing's machine question → Dartmouth field formation\"." }
+      }
+    }
+  }
+}

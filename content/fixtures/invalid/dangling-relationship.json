@@ -1,0 +1,15 @@
+{
+  "_fixture": true,
+  "_note": "Deliberately broken: 'to' references an anchor id that doesn't exist. Used only by test/content-schema.test.js to prove the validator actually catches this case.",
+  "relationships": [
+    {
+      "id": "turing-nonexistent",
+      "from": "turing",
+      "to": "anchor-that-does-not-exist",
+      "type": "influenced",
+      "confidence": "documented",
+      "claimType": "fact",
+      "label": "This relationship should fail validation"
+    }
+  ]
+}

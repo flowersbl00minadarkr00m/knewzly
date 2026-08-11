@@ -1,0 +1,24 @@
+{
+  "_fixture": true,
+  "_note": "Test/dev fixture data — see anchors.json fixture note. Not the production relationship set.",
+  "relationships": [
+    {
+      "id": "lovelace-turing",
+      "from": "lovelace",
+      "to": "turing",
+      "type": "reacted against",
+      "confidence": "documented",
+      "claimType": "fact",
+      "label": "Lovelace's objection → Turing's 1950 reply (\"Lady Lovelace's Objection\")"
+    },
+    {
+      "id": "turing-dartmouth",
+      "from": "turing",
+      "to": "dartmouth",
+      "type": "influenced",
+      "confidence": "documented",
+      "claimType": "fact",
+      "label": "Turing's machine-intelligence question → Dartmouth field formation"
+    }
+  ]
+}

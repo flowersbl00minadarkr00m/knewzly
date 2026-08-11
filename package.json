@@ -1,0 +1,12 @@
+{
+  "name": "knewzly",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Knewzly — history-first global insight engine for AI/innovation history (F01 Global History Atlas).",
+  "scripts": {
+    "test": "node --test"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}

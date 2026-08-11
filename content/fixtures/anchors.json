@@ -1,0 +1,45 @@
+{
+  "_fixture": true,
+  "_note": "Test/dev fixture data for T1's validator and T3-T9's component development. NOT the production pilot spine — that is content/anchors.json, produced by T2 with independently source-verified content. These entries reuse facts already verified elsewhere in this project (the Global History Atlas timeline artifact) rather than inventing throwaway placeholder claims, but are still fixture data, not the approved production spine.",
+  "anchors": [
+    {
+      "id": "lovelace",
+      "title": "Lovelace's objection",
+      "date": { "display": "1843", "sortKey": 1843 },
+      "lane": "europe",
+      "themes": ["comp", "gov"],
+      "story": "In her notes on Babbage's Analytical Engine, Ada Lovelace argued the machine could only do what people knew how to order it to perform — it had no power to originate anything on its own.",
+      "people": ["Ada Lovelace", "Charles Babbage"],
+      "topics": ["computation", "creativity", "authorship"],
+      "claimType": "fact",
+      "confidence": "high",
+      "source": { "label": "Ada Lovelace, \"Notes\" (Note G, 1843)", "url": "", "accessedDate": "2026-08-10" }
+    },
+    {
+      "id": "turing",
+      "title": "Turing's machine question",
+      "date": { "display": "1936 / 1950", "sortKey": 1936 },
+      "lane": "europe",
+      "themes": ["comp", "inst"],
+      "story": "Alan Turing's 1936 work gave a precise model of computation. In 1950 he shifted the public question from definitions of thinking to an operational test of machine intelligence.",
+      "people": ["Alan Turing"],
+      "topics": ["computability", "machine intelligence"],
+      "claimType": "fact",
+      "confidence": "high",
+      "source": { "label": "Turing, \"On Computable Numbers\" (1936); \"Computing Machinery and Intelligence\" (1950)", "url": "", "accessedDate": "2026-08-10" }
+    },
+    {
+      "id": "dartmouth",
+      "title": "Dartmouth names artificial intelligence",
+      "date": { "display": "1956", "sortKey": 1956 },
+      "lane": "north-america",
+      "themes": ["inst", "comp"],
+      "story": "The Dartmouth summer research proposal gathered researchers around the claim that aspects of learning and intelligence could be described precisely enough for a machine to simulate them.",
+      "people": ["John McCarthy", "Marvin Minsky", "Claude Shannon", "Nathaniel Rochester"],
+      "topics": ["symbolic AI", "field formation"],
+      "claimType": "fact",
+      "confidence": "high",
+      "source": { "label": "Dartmouth proposal, primary source", "url": "http://www-formal.stanford.edu/jmc/history/dartmouth/dartmouth.html", "accessedDate": "2026-08-10" }
+    }
+  ]
+}

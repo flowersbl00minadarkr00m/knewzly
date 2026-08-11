@@ -1,0 +1,12 @@
+{
+  "_fixture": true,
+  "_note": "Deliberately broken: missing claimType, source, and date fields. Used only by test/content-schema.test.js to prove the validator catches missing provenance fields (FR-011/NFR-004).",
+  "anchors": [
+    {
+      "id": "incomplete-anchor",
+      "title": "An anchor missing required provenance fields",
+      "lane": "europe",
+      "story": "This entry deliberately omits claimType, confidence, source, and date to test the validator."
+    }
+  ]
+}

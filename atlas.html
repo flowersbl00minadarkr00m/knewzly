@@ -49,6 +49,18 @@
         <li class="anchor-list-empty">Loading anchors…</li>
       </ul>
     </section>
+
+    <section aria-labelledby="export-import-title">
+      <h2 class="section-title" id="export-import-title">Export &amp; import progress</h2>
+      <p class="atlas-caption">Your visited-anchor progress stays on this device unless you export it. Export downloads a JSON file you can keep or move to another browser; import restores progress from a previously exported file.</p>
+      <div class="export-import-controls">
+        <button type="button" id="export-progress-button">Export progress</button>
+        <label for="import-progress-input">Import progress from file</label>
+        <input type="file" id="import-progress-input" accept="application/json,.json">
+      </div>
+      <div id="import-prompt-root" aria-live="polite"></div>
+      <div id="import-status-root" aria-live="polite"></div>
+    </section>
   </main>
 
   <div class="drawer-scrim" id="drawer-scrim" aria-hidden="true"></div>
@@ -81,5 +93,6 @@
   <script type="module" src="src/context-drawer.js"></script>
   <script type="module" src="src/visited-tracker.js"></script>
   <script type="module" src="src/trace-to-origin.js"></script>
+  <script type="module" src="src/export-import.js"></script>
 </body>
 </html>

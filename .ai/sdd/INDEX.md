@@ -26,7 +26,7 @@
 
 | ID | Feature | Status | Requirements | Design | Tasks | Review |
 |----|---------|--------|--------------|--------|-------|--------|
-| 001 | Global History Atlas (F01, bundled minimal F03 trace loop) | tasks:approved | Approved | Approved | Approved | — |
+| 001 | Global History Atlas (F01, bundled minimal F03 trace loop) | implementation:in-progress | Approved | Approved | Approved | — |
 | 002 | Archie — History Desk Companion (F08) | design:approved | Approved | Approved | — | — |
 
 ## Handoff

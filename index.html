@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <title>Knewzly — Global History Atlas (pilot)</title>
+  <style>
+    :root { --paper: #f7f3e8; --ink: #1b2433; --ink-soft: #3a4658; --accent: #163a5f; }
+    @media (prefers-color-scheme: dark) { :root { --paper: #161d27; --ink: #f2ede0; --ink-soft: #c9cdd6; --accent: #9ac7e8; } }
+    body { margin: 0; min-height: 100vh; display: flex; align-items: center; justify-content: center; background: var(--paper); color: var(--ink); font-family: Georgia, "Times New Roman", Times, serif; }
+    main { max-width: 640px; padding: 2rem; }
+    h1 { font-size: 2.2rem; margin-bottom: 0.4rem; }
+    p { color: var(--ink-soft); line-height: 1.5; }
+    .links { display: flex; gap: 1rem; margin-top: 1.5rem; flex-wrap: wrap; }
+    a.card { flex: 1; min-width: 220px; padding: 1rem 1.2rem; border: 1px solid var(--ink-soft); border-radius: 6px; color: var(--ink); text-decoration: none; }
+    a.card:hover { background: var(--accent); color: var(--paper); }
+    a.card strong { display: block; font-size: 1.1rem; margin-bottom: 0.3rem; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Knewzly</h1>
+    <p>The Global History Atlas — an F01 pilot slice. Browse a curated spine of AI/computing history, read typed relationships between events, and see current news traced back to its historical origin.</p>
+    <div class="links">
+      <a class="card" href="atlas.html"><strong>The Atlas →</strong> Timeline, anchors, relationships, visited progress, export/import.</a>
+      <a class="card" href="today.html"><strong>Today →</strong> Current AI news, traced to where it came from.</a>
+    </div>
+  </main>
+</body>
+</html>

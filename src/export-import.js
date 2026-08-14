@@ -80,11 +80,19 @@ export function triggerExportDownload(payload, opts = {}) {
   const anchor = documentRef.createElement('a');
   anchor.href = url;
   anchor.setAttribute('download', filename);
+  // 2026-08-12 gauntlet-review finding: this used to gate the cleanup
+  // removeChild on `anchor._parent`, a property only the test fakes ever
+  // set — real DOM elements have no such property, so the anchor was never
+  // actually removed in a real browser and every export left a stray <a>
+  // in <body>. Track whether *we* appended it instead, and remove
+  // unconditionally when we did.
+  let appended = false;
   if (documentRef.body && typeof documentRef.body.appendChild === 'function') {
     documentRef.body.appendChild(anchor);
+    appended = true;
   }
   anchor.click();
-  if (documentRef.body && typeof documentRef.body.removeChild === 'function' && anchor._parent) {
+  if (appended && documentRef.body && typeof documentRef.body.removeChild === 'function') {
     documentRef.body.removeChild(anchor);
   }
   if (typeof urlApi.revokeObjectURL === 'function') urlApi.revokeObjectURL(url);
@@ -313,7 +321,7 @@ export async function importFromFile(file, storage, opts) {
  * @param {number} importedCount
  * @returns {Promise<'merge'|'overwrite'|'cancel'>}
  */
-export function renderMergeOverwritePrompt(root, existingCount, importedCount) {
+export function renderMergeOverwritePrompt(root, existingCount, importedCount, { returnFocusTo } = {}) {
   return new Promise((resolve) => {
     root.innerHTML = '';
     const wrap = document.createElement('div');
@@ -327,24 +335,38 @@ export function renderMergeOverwritePrompt(root, existingCount, importedCount) {
       `and this file has ${importedCount}. Merge keeps both. Overwrite replaces your current progress with the file's.`;
     wrap.appendChild(message);
 
+    // 2026-08-12 follow-up (T11 gauntlet-review finding): this alertdialog
+    // never moved focus into itself, had no Escape handling, and never
+    // returned focus on close — a real keyboard dead end. `settle` is the
+    // single exit path (button click or Escape) so focus-handling and
+    // listener cleanup can't drift out of sync across them.
+    const onKeydown = (event) => {
+      if (event.key === 'Escape') settle('cancel');
+    };
+    const settle = (value) => {
+      document.removeEventListener('keydown', onKeydown);
+      root.innerHTML = '';
+      if (returnFocusTo && typeof returnFocusTo.focus === 'function') returnFocusTo.focus();
+      resolve(value);
+    };
+
     const makeButton = (label, value) => {
       const button = document.createElement('button');
       button.type = 'button';
       button.textContent = label;
       button.className = `import-prompt-${value}`;
-      button.addEventListener('click', () => {
-        root.innerHTML = '';
-        resolve(value);
-      });
+      button.addEventListener('click', () => settle(value));
       wrap.appendChild(button);
       return button;
     };
 
-    makeButton('Merge (keep both)', 'merge');
+    const mergeButton = makeButton('Merge (keep both)', 'merge');
     makeButton('Overwrite (use file only)', 'overwrite');
     makeButton('Cancel', 'cancel');
 
     root.appendChild(wrap);
+    document.addEventListener('keydown', onKeydown);
+    if (typeof mergeButton.focus === 'function') mergeButton.focus();
   });
 }
 
@@ -405,12 +427,34 @@ export function initExportImport({
       if (!file) return;
       const result = await importFromFile(file, storage, {
         promptMergeOrOverwrite: (existingCount, importedCount) =>
-          promptRoot ? renderMergeOverwritePrompt(promptRoot, existingCount, importedCount) : Promise.resolve('cancel'),
+          promptRoot
+            ? renderMergeOverwritePrompt(promptRoot, existingCount, importedCount, { returnFocusTo: importInput })
+            : Promise.resolve('cancel'),
       });
       if (!result.ok) {
         renderImportStatus(statusRoot, result.error, 'error');
+      } else if (!result.persisted) {
+        // 2026-08-12 gauntlet-review finding: this branch used to say
+        // "…saved" unconditionally, even when writeVisited (inside
+        // applyImport) reported persisted:false (storage unavailable —
+        // private browsing, quota, etc.) — the same class of dishonesty
+        // T6's own storage notice exists to avoid. The imported state is
+        // still applied in memory for this session (D-001/NFR-003: never
+        // gates), it just won't survive a reload.
+        renderImportStatus(
+          statusRoot,
+          `Import applied for this session (${result.state.visited.length} visited anchors) — could not be saved to this device's storage, so it won't persist after you leave.`,
+          'success'
+        );
       } else {
         renderImportStatus(statusRoot, `Import complete — you now have ${result.state.visited.length} visited anchors saved.`, 'success');
+        // 2026-08-12 live-browser finding: the import itself was always
+        // correct (see applyImport/writeVisited above) — what was missing
+        // was telling T6's already-rendered visited badges to catch up
+        // without a full page reload. visited-tracker.js listens for this.
+        if (typeof document !== 'undefined') {
+          document.dispatchEvent(new CustomEvent('knewzly:visited-import', { detail: { visited: result.state.visited } }));
+        }
       }
       importInput.value = '';
     });

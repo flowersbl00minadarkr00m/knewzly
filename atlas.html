@@ -15,6 +15,7 @@
       <p class="eyebrow">The Knewzly Standard · Historical atlas desk</p>
       <h1>The Global History Atlas</h1>
       <p class="standfirst">Move across one shared chronology, compare regional and philosophical lanes, and select an anchor to read the people, evidence, and relationships behind it.</p>
+      <p class="atlas-nav-link"><a href="today.html">Today's news, traced to its origin here →</a></p>
     </header>
 
     <section aria-labelledby="atlas-title">
@@ -22,6 +23,11 @@
         <span><strong>Edited time axis:</strong> chronological, intentionally not proportional so the record stays legible.</span>
         <span>All anchors remain visible — nothing is ever hidden or unlocked.</span>
       </p>
+      <div class="view-toggle" role="group" aria-label="Atlas view">
+        <button type="button" id="view-toggle-timeline" aria-pressed="true">Timeline view</button>
+        <button type="button" id="view-toggle-constellation" aria-pressed="false">Constellation view</button>
+      </div>
+
       <div class="timeline-viewport" tabindex="0" aria-label="Horizontally scrollable timeline with regional and Philosophy lanes">
         <div id="timeline-canvas-root" aria-live="polite" aria-busy="true">
           <p class="atlas-empty">Loading the atlas…</p>
@@ -30,6 +36,15 @@
       <p class="legend">Select any anchor to focus it. The anchor marked <strong>Start here</strong> is a suggested first stop for new visitors.
         <span class="legend-line"><span class="legend-swatch"></span> Solid arc — documented connection</span>
         <span class="legend-line"><span class="legend-swatch dashed"></span> Dashed arc — interpretation or indirect/conceptual connection</span>
+      </p>
+
+      <div class="constellation-viewport" id="constellation-viewport" hidden aria-label="Anchors and their relationships as a force-directed graph, alternative to the timeline above">
+        <svg id="constellation-svg" class="constellation-svg"></svg>
+        <div id="constellation-node-buttons" class="node-buttons-overlay"></div>
+      </div>
+      <p class="legend" id="constellation-legend-wrap" hidden>
+        Same anchors and relationships as the timeline, laid out by connection instead of by date — closely-linked anchors cluster together. Select any anchor to open the same detail drawer as the timeline. Full text equivalents remain below in the Relationship Index and Anchor list.
+        <span id="constellation-legend" class="constellation-legend"></span>
       </p>
     </section>
 
@@ -89,6 +104,7 @@
   </aside>
 
   <script type="module" src="src/timeline-canvas.js"></script>
+  <script type="module" src="src/constellation-view.js"></script>
   <script type="module" src="src/relationship-layer.js"></script>
   <script type="module" src="src/context-drawer.js"></script>
   <script type="module" src="src/visited-tracker.js"></script>

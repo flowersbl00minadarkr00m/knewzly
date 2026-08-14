@@ -431,6 +431,11 @@ class FakeElement {
   set innerHTML(v) { this.children = []; this._text = ''; }
   addEventListener(type, fn) { (this._listeners[type] ??= []).push(fn); }
   click() { (this._listeners.click || []).forEach((fn) => fn()); }
+  // Import's change handler is async (`await importFromFile(...)`) — await
+  // every registered listener's return value so the caller can rely on the
+  // import having actually finished (status rendered, event dispatched)
+  // before asserting anything, rather than racing it.
+  async fireChange() { await Promise.all((this._listeners.change || []).map((fn) => fn())); }
   querySelectorAll(selector) { return queryAll(this, selector); }
   querySelector(selector) { return queryAll(this, selector)[0] ?? null; }
 }
@@ -456,6 +461,7 @@ function installFakeDocument() {
   globalThis.document = {
     createElement(tag) { return new FakeElement(tag); },
     addEventListener() {},
+    removeEventListener() {},
     dispatchEvent() { return true; },
   };
 }
@@ -518,4 +524,52 @@ test('T7 DOM: initExportImport — wires export click and import change end-to-e
   initExportImport({ exportButton, statusRoot, storage });
   exportButton.click();
   assert.ok(statusRoot.textContent.length > 0, 'clicking export always leaves a status message, success or a caught error');
+});
+
+test('T7 DOM: initExportImport — a successful import dispatches knewzly:visited-import so visited-tracker.js can re-render (2026-08-12 regression, found by independent code review)', async () => {
+  // Found by an independent code-review subagent: the "regression" test in
+  // test/visited-tracker.test.js proved the LISTENER side of this fix works,
+  // but nothing exercised the actual production call site in
+  // src/export-import.js — deleting the dispatch line there would not have
+  // failed any existing test. This test wires initExportImport's real
+  // import `change` handler end-to-end and asserts the event actually fires
+  // from that code path, with the correct detail.
+  const { initExportImport } = await import('../src/export-import.js');
+
+  // A separate, event-capable fake document for just this test (not the
+  // shared no-op stub installed at module load) — real addEventListener/
+  // dispatchEvent semantics, so this proves the actual dispatch, not a
+  // presence-of-a-line-of-code check.
+  const listeners = {};
+  const eventableDocument = {
+    createElement(tag) { return new FakeElement(tag); },
+    addEventListener(type, fn) { (listeners[type] ??= []).push(fn); },
+    dispatchEvent(evt) { (listeners[evt.type] || []).forEach((fn) => fn(evt)); return true; },
+  };
+  const prevDocument = globalThis.document;
+  globalThis.document = eventableDocument;
+  try {
+    const importInput = new FakeElement('input');
+    const statusRoot = new FakeElement('div');
+    const storage = new FakeStorage(); // no existing state -> applies directly, no merge/overwrite prompt needed
+    const payload = JSON.stringify({
+      exportedFrom: 'knewzly-atlas',
+      schemaVersion: 1,
+      exportedAt: '2026-01-01T00:00:00.000Z',
+      visited: ['lovelace', 'agentic-loop'],
+    });
+    importInput.files = [fakeFile(payload)];
+
+    let dispatchedDetail = null;
+    eventableDocument.addEventListener('knewzly:visited-import', (evt) => { dispatchedDetail = evt.detail; });
+
+    initExportImport({ importInput, statusRoot, storage });
+    await importInput.fireChange();
+
+    assert.match(statusRoot.textContent, /Import complete/);
+    assert.ok(dispatchedDetail, 'knewzly:visited-import must actually be dispatched by the real import code path, not just claimed in a comment');
+    assert.deepEqual([...dispatchedDetail.visited].sort(), ['agentic-loop', 'lovelace']);
+  } finally {
+    globalThis.document = prevDocument;
+  }
 });

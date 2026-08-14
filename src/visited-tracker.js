@@ -314,6 +314,38 @@ export async function initVisitedTracker({
       applyAnchorBadge(findCanvasButton(anchorId), true);
       if (listRoot) syncAnchorListStatus(listRoot, anchorId, true);
     });
+
+    // 2026-08-12 live-browser finding: T7's import correctly persisted the
+    // imported visited set to localStorage, but nothing told this module's
+    // already-rendered badges to catch up — a learner who imported saw a
+    // stale "not visited" UI until their next full page load, even though
+    // the data itself was never wrong (NFR-003 held; this was a rendering
+    // gap, not a data-integrity one). export-import.js dispatches this
+    // event on a successful import.
+    //
+    // 2026-08-12 gauntlet-review follow-up, two real edge cases fixed:
+    // (1) this used to always call readVisited(storage) — if the import
+    // succeeded in memory but the storage write itself failed (private
+    // browsing, quota), readVisited falls back to the empty default and
+    // this handler would have wiped every already-correct badge to "not
+    // visited". Prefer the ids export-import.js already computed
+    // (event.detail.visited, exactly what's in memory right now) and only
+    // fall back to a storage re-read if the event was fired without detail.
+    // (2) this re-used the `anchorButtons` array captured once at init,
+    // inconsistent with the drawer-open listener above (which always
+    // queries live via findCanvasButton) and stale if the canvas were ever
+    // re-rendered — now queries canvasRoot fresh each time, same as the
+    // drawer-open path.
+    document.addEventListener('knewzly:visited-import', (event) => {
+      state = Array.isArray(event?.detail?.visited)
+        ? { version: SCHEMA_VERSION, visited: event.detail.visited }
+        : readVisited(storage);
+      if (listRoot) renderAnchorList(listRoot, anchors, state.visited, findCanvasButton);
+      const currentButtons = canvasRoot.querySelectorAll('.anchor[data-anchor-id]');
+      currentButtons.forEach((button) => {
+        applyAnchorBadge(button, isVisited(state, button.dataset.anchorId));
+      });
+    });
   } catch (err) {
     // Mirrors T3/T4/T5's own fail-quiet convention: nothing valid to wire.
     // Content-loading failure is unrelated to storage — the notice above

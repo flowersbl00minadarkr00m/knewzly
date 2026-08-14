@@ -53,6 +53,7 @@
       line-height: 1.45;
     }
 
+    button, a { font: inherit; }
     a { color: inherit; }
     a:hover { color: var(--spot); }
     :focus-visible { outline: 3px solid var(--focus); outline-offset: 3px; }
@@ -68,13 +69,16 @@
     }
 
     .paper {
-      width: min(1100px, calc(100% - 2rem));
+      width: min(1200px, calc(100% - 2rem));
       margin: 1.25rem auto 3rem;
       padding: clamp(1rem, 2.6vw, 2.5rem);
       background: var(--paper);
       box-shadow: 0 18px 48px var(--shadow);
     }
 
+    /* Masthead — reuses the F07 newspaper-concept's visual language
+       (.ai/sdd/design/present-day-newspaper-concept.html), adapted here to
+       today.html's already-AAA-verified color tokens (D-014). */
     .masthead {
       padding: 1.15rem 0 0.8rem;
       border-bottom: 5px double var(--ink);
@@ -94,6 +98,51 @@
       letter-spacing: 0.35em;
       text-transform: uppercase;
       color: var(--ink-soft);
+    }
+
+    .edition-line {
+      display: flex;
+      justify-content: space-between;
+      gap: 1rem;
+      padding: 0.45rem 0;
+      border-bottom: 1px solid var(--ink);
+      color: var(--ink-soft);
+      font: 700 0.67rem/1.2 var(--utility);
+      letter-spacing: 0.075em;
+      text-transform: uppercase;
+    }
+
+    /* Section nav — real filter chips (FR-014/D-013), same button +
+       aria-pressed pattern as the F07 mockup's .section-nav. */
+    .section-nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0;
+      padding: 0.48rem 0;
+      border-bottom: 1px solid var(--rule);
+    }
+
+    .section-nav button {
+      flex: 0 0 auto;
+      border: 0;
+      border-right: 1px solid var(--rule-faint);
+      padding: 0.3rem 0.9rem;
+      color: var(--ink-soft);
+      background: transparent;
+      cursor: pointer;
+      font: 700 0.72rem/1.2 var(--utility);
+      letter-spacing: 0.07em;
+      text-transform: uppercase;
+    }
+
+    .section-nav button:first-child { padding-left: 0; }
+    .section-nav button:last-child { border-right: 0; }
+    .section-nav button:hover { color: var(--spot); }
+    .section-nav button[aria-pressed="true"] {
+      color: var(--spot);
+      text-decoration: underline;
+      text-underline-offset: 0.25rem;
+      font-weight: 800;
     }
 
     /* FreshnessBanner — must read distinctly and truthfully per state
@@ -138,20 +187,29 @@
     .freshness-floor-notice { color: var(--ink-soft); font-style: italic; }
     .freshness-updated { color: var(--ink-soft); margin-left: auto; }
 
+    /* Story grid — newspaper column layout. Every card is a real, styled
+       "column story" (headline hierarchy, byline/dateline, jump-style
+       trace line) rather than a uniform card grid. */
     #story-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-      gap: 1.25rem;
-      margin-top: 1rem;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 0;
+      margin-top: 1.4rem;
+      border-top: 5px double var(--ink);
+      border-bottom: 5px double var(--ink);
     }
 
     .story-card {
-      border-top: 3px solid var(--ink);
-      padding-top: 0.7rem;
+      min-height: 100%;
+      padding: 1rem;
+      border-right: 1px solid var(--rule);
+      border-top: 0;
     }
 
+    .story-card:nth-child(3n) { border-right: 0; }
+
     .story-card-category {
-      margin: 0 0 0.3rem;
+      margin: 0 0 0.35rem;
       color: var(--spot);
       font: 800 0.66rem/1.2 var(--utility);
       letter-spacing: 0.08em;
@@ -160,8 +218,8 @@
 
     .story-card-headline {
       margin: 0 0 0.4rem;
-      font: 800 1.4rem/1.08 var(--display);
-      letter-spacing: -0.015em;
+      font: 800 1.55rem/1.06 var(--display);
+      letter-spacing: -0.02em;
     }
 
     .story-card-dek {
@@ -209,6 +267,25 @@
       font-family: var(--utility);
     }
 
+    @media (max-width: 980px) {
+      #story-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .story-card:nth-child(3n) { border-right: 1px solid var(--rule); }
+      .story-card:nth-child(2n) { border-right: 0; }
+    }
+
+    @media (max-width: 680px) {
+      body { font-size: 15px; }
+      .paper { width: 100%; margin: 0; padding: 0.85rem; box-shadow: none; }
+      .masthead h1 { font-size: clamp(2.8rem, 17vw, 5rem); }
+      .edition-line { flex-direction: column; gap: 0.2rem; }
+      #story-grid { grid-template-columns: 1fr; }
+      .story-card,
+      .story-card:nth-child(2n),
+      .story-card:nth-child(3n) { border-right: 0; border-top: 1px solid var(--rule); padding: 1rem 0; }
+      .story-card:first-child { border-top: 0; }
+      .folio { flex-direction: column; }
+    }
+
     @media (prefers-reduced-motion: reduce) {
       *, *::before, *::after { transition-duration: 0.01ms !important; }
     }
@@ -222,6 +299,13 @@
       <h1>Today</h1>
       <span class="masthead-mark">Current AI news, traced to where it came from</span>
     </header>
+
+    <div class="edition-line">
+      <span>History before hype</span>
+      <span>Every story traces to a real historical anchor</span>
+    </div>
+
+    <nav class="section-nav" id="section-nav" aria-label="Filter stories by category"></nav>
 
     <div id="freshness-banner" aria-live="polite"></div>
 
@@ -238,6 +322,8 @@
     import { renderFreshnessBanner, renderFreshnessBannerError } from './src/freshness-banner.js';
     import { renderStoryGrid, renderStoryGridError } from './src/story-grid.js';
     import { wireTraceToOrigin } from './src/trace-to-origin.js';
+    import { getAvailableCategories, filterStoriesByCategory, ALL_CATEGORIES_ID } from './src/story-filters.js';
+    import { renderSectionNav } from './src/section-nav.js';
 
     // Real content/today-stories.json now exists (seeded pre-launch by T12,
     // freshnessState: no_data until T10's CI job actually runs). Defaults to
@@ -248,8 +334,25 @@
     const params = new URLSearchParams(location.search);
     const basePath = params.get('basePath') || 'content/';
 
+    const navEl = document.querySelector('#section-nav');
     const bannerEl = document.querySelector('#freshness-banner');
     const gridEl = document.querySelector('#story-grid');
+
+    let allStories = [];
+    let activeCategory = ALL_CATEGORIES_ID;
+
+    // FR-014/D-013: filtering is a client-side re-render over the same
+    // already-loaded stories — no re-fetch, no server round-trip.
+    function renderFiltered() {
+      const categories = getAvailableCategories(allStories);
+      renderSectionNav(navEl, categories, activeCategory, (id) => {
+        activeCategory = id;
+        renderFiltered();
+      });
+      const filtered = filterStoriesByCategory(allStories, activeCategory);
+      renderStoryGrid(gridEl, filtered);
+      wireTraceToOrigin(gridEl, filtered);
+    }
 
     async function init() {
       let content;
@@ -267,11 +370,8 @@
 
       const { todayStories } = content;
       renderFreshnessBanner(bannerEl, todayStories);
-      renderStoryGrid(gridEl, todayStories.stories);
-      // T9: turn each story's already-rendered "Traces to → ..." text (T8)
-      // into a real cross-page link into the Atlas (does not modify
-      // story-grid.js — only augments the DOM it already produced).
-      wireTraceToOrigin(gridEl, todayStories.stories);
+      allStories = todayStories.stories;
+      renderFiltered();
     }
 
     init();

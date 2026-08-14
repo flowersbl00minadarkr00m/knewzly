@@ -1,122 +1,1308 @@
 {
-  "_note": "Production pilot spine, task T2, resolves requirements.md D-006. 9 anchors (within the 8-10 range), spanning 7 of PLAN.md's ten connective clusters and 4 lanes. Selected using artifacts/planning/f01-global-history-atlas/prototype.html's example events as the starting draft per D-006, then upgraded from that prototype's thin placeholder titles (e.g. 'Agency & reason', 'Learning machines') to real, independently-sourced historical anchors. Sources here were verified during this same working session's earlier Global History Atlas timeline research (primary-source citations checked then, reused here rather than re-fetched) — see the artifact history in this conversation for that verification.",
+  "_note": "Full anchor spine, expanded 2026-08-13 per Henry's direction from the 8-10 pilot cap to the fuller spine already researched in .ai/sdd/design/timeline-atlas-concept.html (46 anchors, itself built from .ai/sdd/research/ai-history-expansion-batch-2.md's vetted, sourced candidates) plus the existing agentic-loop anchor. This is a real requirements/design change beyond D-003's original 8-10 pilot cap — flagged in tasks.md, not silently absorbed. Extraction was programmatic (see scratch_events.cjs parsing), not hand-retyped, to avoid transcription drift from the already-researched source content.",
   "anchors": [
+    {
+      "id": "zhuangzi",
+      "title": "Zhuangzi's Cook Ding",
+      "date": {
+        "display": "c. 4th–3rd century BCE",
+        "sortKey": -350
+      },
+      "lane": "philosophy",
+      "story": "In a parable from the Zhuangzi, a cook carves an ox so skillfully that his blade glides along natural seams without ever dulling. Asked how, he says he no longer looks with his eyes; he moves with the ox's own structure. Read as a non-Western theory of technique, this offers a genuine alternative to Western means-end \"instrumental\" framings of craft: mastery as effortless alignment with a thing's own grain (wu wei), not force applied by a method. It is a philosophical reading of a parable, not a claim that Daoist thought engineered anything.",
+      "people": [
+        "Zhuangzi"
+      ],
+      "topics": [
+        "non-Western philosophy of technique",
+        "craft mastery",
+        "wu wei"
+      ],
+      "claimType": "interpretation",
+      "confidence": "medium",
+      "source": {
+        "label": "Zhuangzi, Inner Chapters, \"Cook Ding\" (c. 4th–3rd century BCE) — Stanford Encyclopedia of Philosophy: Zhuangzi; Knewzly research note: philosophy of technology & systems lineage report.",
+        "url": "https://plato.stanford.edu/entries/zhuangzi/",
+        "accessedDate": "2026-08-13"
+      }
+    },
+    {
+      "id": "socrates",
+      "title": "Socrates' questioning method",
+      "date": {
+        "display": "c. 470–399 BCE",
+        "sortKey": -470
+      },
+      "lane": "philosophy",
+      "story": "Socrates left no writings; what survives comes through Plato's dialogues, where he cross-examines claims by relentless questioning (elenchus) until contradictions surface — exposing false confidence as the first step toward real understanding. Reading this as the root of a Western \"dialectical\" tradition of testing ideas through structured challenge — later formalized by Hegel — is a well-established interpretive lineage, not a claim that Socrates anticipated any specific modern method.",
+      "people": [
+        "Socrates",
+        "Plato"
+      ],
+      "topics": [
+        "dialectic",
+        "method of inquiry",
+        "philosophy of innovation"
+      ],
+      "claimType": "interpretation",
+      "confidence": "medium",
+      "source": {
+        "label": "Stanford Encyclopedia of Philosophy: Socrates.",
+        "url": "https://plato.stanford.edu/entries/socrates/",
+        "accessedDate": "2026-08-13"
+      }
+    },
+    {
+      "id": "aristotle",
+      "title": "Aristotle's Categories",
+      "date": {
+        "display": "c. 350 BCE",
+        "sortKey": -350
+      },
+      "lane": "philosophy",
+      "story": "Aristotle proposed a scheme for fundamental kinds of being: substance, quantity, quality, relation and more. Modern ontology engineering borrows the word and the ambition to say what kinds of things exist in a domain. This is conceptual ancestry, not a claim that ancient philosophy directly engineered a knowledge graph.",
+      "people": [
+        "Aristotle"
+      ],
+      "topics": [
+        "ontology",
+        "categories",
+        "knowledge representation"
+      ],
+      "claimType": "interpretation",
+      "confidence": "medium",
+      "source": {
+        "label": "Stanford Encyclopedia of Philosophy: Aristotle's Logic · Orientation source in Knewzly research note.",
+        "url": "https://plato.stanford.edu/entries/aristotle-logic/",
+        "accessedDate": "2026-08-13"
+      }
+    },
+    {
+      "id": "kant",
+      "title": "Kant's critique of reason",
+      "date": {
+        "display": "1781",
+        "sortKey": 1781
+      },
+      "lane": "philosophy",
+      "story": "Immanuel Kant's 1781 Critique of Pure Reason argued that the mind actively structures experience through built-in categories of understanding, rather than passively receiving it — reason has both power and mappable limits. This \"critical\" turn — examining the structure and limits of a reasoning system before trusting its output — is a recurring interpretive lens for AI evaluation and interpretability work, though Kant was describing human cognition, not machines.",
+      "people": [
+        "Immanuel Kant"
+      ],
+      "topics": [
+        "epistemology",
+        "limits of reason",
+        "philosophy of innovation"
+      ],
+      "claimType": "fact",
+      "confidence": "high",
+      "source": {
+        "label": "Stanford Encyclopedia of Philosophy: Kant.",
+        "url": "https://plato.stanford.edu/entries/kant/",
+        "accessedDate": "2026-08-13"
+      }
+    },
+    {
+      "id": "hegel",
+      "title": "Hegel's dialectic",
+      "date": {
+        "display": "1807",
+        "sortKey": 1807
+      },
+      "lane": "philosophy",
+      "story": "In the Phenomenology of Spirit (1807), Hegel described knowledge developing through contradiction and resolution — a thesis meets its opposite, and the tension resolves into a more complete synthesis, which becomes the next thesis. This dialectical pattern is often used as a conceptual lens for how technical fields, including AI, advance through critique, failure and revision — not a claim that Hegel described engineering practice.",
+      "people": [
+        "G.W.F. Hegel"
+      ],
+      "topics": [
+        "dialectic",
+        "philosophy of innovation",
+        "historical development"
+      ],
+      "claimType": "interpretation",
+      "confidence": "medium",
+      "source": {
+        "label": "Stanford Encyclopedia of Philosophy: Hegel.",
+        "url": "https://plato.stanford.edu/entries/hegel/",
+        "accessedDate": "2026-08-13"
+      }
+    },
     {
       "id": "lovelace",
       "title": "Lovelace's objection",
-      "date": { "display": "1843", "sortKey": 1843 },
+      "date": {
+        "display": "1843",
+        "sortKey": 1843
+      },
       "lane": "europe",
-      "themes": ["comp", "gov"],
-      "story": "In her notes on Charles Babbage's Analytical Engine, Ada Lovelace argued the machine had no power to originate anything — it could only do what a person already knew how to order it to do. The question of whether a machine can truly originate something new, rather than just follow instructions, is still argued about today.",
-      "people": ["Ada Lovelace", "Charles Babbage"],
-      "topics": ["computation", "creativity", "authorship", "automata and agency"],
-      "claimType": "fact",
-      "confidence": "high",
-      "source": { "label": "Ada Lovelace, \"Notes\" (Note G, 1843), on Menabrea's sketch of the Analytical Engine — primary source", "url": "", "accessedDate": "2026-08-10" }
+      "story": "In Note G of her notes on the Analytical Engine, Ada Lovelace argued that the machine had no power to originate anything: it could do only what people knew how to order it to perform. The question still sharpens arguments about generative systems and authorship. Calling that one unbroken 180-year debate is a conceptual analogy — Lovelace was writing about a mechanical calculating engine, not a generative model.",
+      "people": [
+        "Ada Lovelace",
+        "Charles Babbage"
+      ],
+      "topics": [
+        "computation",
+        "creativity",
+        "authorship"
+      ],
+      "claimType": "conceptual-analogy",
+      "confidence": "medium",
+      "source": {
+        "label": "Ada Lovelace, \"Notes\" (Note G, 1843), on Menabrea's sketch of the Analytical Engine — primary source; cross-referenced in Knewzly research note: Frank Coyle talk gap analysis.",
+        "url": "../research/frank-coyle-talk-gap-analysis.md",
+        "accessedDate": "2026-08-13"
+      }
     },
     {
-      "id": "turing",
-      "title": "Turing's machine question",
-      "date": { "display": "1936 / 1950", "sortKey": 1936 },
-      "lane": "europe",
-      "themes": ["comp", "inst"],
-      "story": "Alan Turing's 1936 paper gave a precise mathematical model of computation. In 1950 he shifted the public question from abstract definitions of thinking to an operational test: could a machine's behavior in conversation be indistinguishable from a person's?",
-      "people": ["Alan Turing"],
-      "topics": ["computability", "machine intelligence", "imitation game"],
-      "claimType": "fact",
-      "confidence": "high",
-      "source": { "label": "Turing, \"On Computable Numbers\" (1936); \"Computing Machinery and Intelligence\", Mind (1950)", "url": "", "accessedDate": "2026-08-10" }
+      "id": "marx",
+      "title": "Marx: means of production",
+      "date": {
+        "display": "1867",
+        "sortKey": 1867
+      },
+      "lane": "philosophy",
+      "story": "Das Kapital, Volume I (1867) argued that a society's technology and organization of production — not abstract ideas alone — drive historical change, and that whoever controls the means of production shapes who benefits from new efficiency. Marx explicitly reworked Hegel's dialectic into this materialist frame. Applying that lens to AI — asking who owns the compute, data and models, and who captures the resulting gains — is a later reader's extension of Marx's own method, not a claim Marx made or foresaw; this atlas states that distinction explicitly rather than blurring the historical claim with the present-day application.",
+      "people": [
+        "Karl Marx"
+      ],
+      "topics": [
+        "means of production",
+        "labor",
+        "philosophy of innovation"
+      ],
+      "claimType": "interpretation",
+      "confidence": "medium",
+      "source": {
+        "label": "Knewzly research note: economics lineage extension (Taylor, Keynes, Luddites) shares this frame.",
+        "url": "../research/frank-coyle-talk-gap-analysis.md",
+        "accessedDate": "2026-08-13"
+      }
     },
     {
       "id": "polish",
       "title": "Poland breaks Enigma first",
-      "date": { "display": "1932–1939", "sortKey": 1932 },
+      "date": {
+        "display": "1932–1939",
+        "sortKey": 1932
+      },
       "lane": "europe",
-      "themes": ["inst", "gov"],
-      "story": "Polish Cipher Bureau mathematicians Marian Rejewski, Jerzy Różycki, and Henryk Zygalski reverse-engineered the German Enigma machine from theory alone, years before the Second World War. In July 1939 they handed their reconstructed machine and decryption methods to French and British intelligence — directly seeding the more famous Bletchley Park codebreaking effort that followed.",
-      "people": ["Marian Rejewski", "Jerzy Różycki", "Henryk Zygalski"],
-      "topics": ["wartime computation", "cryptanalysis", "regional plurality"],
+      "story": "Polish Cipher Bureau mathematicians Marian Rejewski, Jerzy Różycki and Henryk Zygalski reverse-engineered the German Enigma machine from theory alone, years before the Second World War. In July 1939 they handed their reconstructed machine and their bomba decryption design to French and British intelligence. This directly seeded Bletchley Park's later, more famous codebreaking work — the \"Turing beat Enigma\" story is real but incomplete without it, and telling it corrects a UK/US-centered account of wartime computation.",
+      "people": [
+        "Marian Rejewski",
+        "Jerzy Różycki",
+        "Henryk Zygalski"
+      ],
+      "topics": [
+        "wartime computation",
+        "cryptanalysis",
+        "regional plurality"
+      ],
       "claimType": "fact",
       "confidence": "high",
-      "source": { "label": "IEEE Milestones: First Breaking of the Enigma Code by the Team of Polish Cipher Bureau, 1932-1939", "url": "https://ethw.org/Milestones:First_Breaking_of_Enigma_Code_by_the_Team_of_Polish_Cipher_Bureau,_1932-1939", "accessedDate": "2026-08-10" }
-    },
-    {
-      "id": "mcculloch",
-      "title": "McCulloch–Pitts artificial neuron",
-      "date": { "display": "1943", "sortKey": 1943 },
-      "lane": "north-america",
-      "themes": ["comp", "inst"],
-      "story": "Neurophysiologist Warren McCulloch and logician Walter Pitts published the first mathematical model treating a brain neuron as a simple logic gate: it fires or doesn't, based on weighted inputs crossing a threshold. This is the direct mathematical ancestor of every artificial neural network built since.",
-      "people": ["Warren McCulloch", "Walter Pitts"],
-      "topics": ["neural networks", "computability", "connectionism"],
-      "claimType": "fact",
-      "confidence": "high",
-      "source": { "label": "McCulloch, W. & Pitts, W. (1943), \"A Logical Calculus of the Ideas Immanent in Nervous Activity,\" Bulletin of Mathematical Biophysics", "url": "https://link.springer.com/article/10.1007/BF02478259", "accessedDate": "2026-08-10" }
-    },
-    {
-      "id": "dartmouth",
-      "title": "Dartmouth names artificial intelligence",
-      "date": { "display": "1956", "sortKey": 1956 },
-      "lane": "north-america",
-      "themes": ["inst", "comp"],
-      "story": "A summer research proposal at Dartmouth College gathered researchers around the claim that aspects of learning and intelligence could be described precisely enough for a machine to simulate them. The meeting gave the new research field a durable name and institutional center.",
-      "people": ["John McCarthy", "Marvin Minsky", "Claude Shannon", "Nathaniel Rochester"],
-      "topics": ["symbolic AI", "field formation", "research institutions"],
-      "claimType": "fact",
-      "confidence": "high",
-      "source": { "label": "\"A Proposal for the Dartmouth Summer Research Project on Artificial Intelligence\" (1955) — primary source", "url": "http://www-formal.stanford.edu/jmc/history/dartmouth/dartmouth.html", "accessedDate": "2026-08-10" }
+      "source": {
+        "label": "IEEE Milestones: First Breaking of the Enigma Code; Knewzly research note: technical/institutional history report.",
+        "url": "https://ethw.org/Milestones:First_Breaking_of_Enigma_Code_by_the_Team_of_Polish_Cipher_Bureau,_1932-1939",
+        "accessedDate": "2026-08-13"
+      }
     },
     {
       "id": "wittgenstein",
       "title": "Wittgenstein: meaning as use",
-      "date": { "display": "1921 / 1953", "sortKey": 1921 },
+      "date": {
+        "display": "1921 / 1953",
+        "sortKey": 1921
+      },
       "lane": "philosophy",
-      "themes": ["phil", "comp"],
-      "story": "In the Tractatus (1921), the young Wittgenstein treated language as a picture of logical facts. By the posthumous Philosophical Investigations (1953), he argued instead that meaning comes from how a word is used within a shared context, not from a fixed picture it represents — a lens later writers apply to how language models derive meaning from patterns of use.",
-      "people": ["Ludwig Wittgenstein"],
-      "topics": ["philosophy of language", "meaning as use", "language games"],
+      "story": "In the Tractatus (1921), the young Wittgenstein treated language as a picture of logical facts. By the posthumous Philosophical Investigations (1953), he had reversed course: meaning, he argued, comes from how a word is used within a shared \"language game,\" not from a fixed picture it represents. That second idea — meaning as use in context — is frequently invoked as a conceptual lens for large language models, which likewise derive word meaning from statistical patterns of use rather than fixed definitions. Wittgenstein did not anticipate neural networks; the parallel is philosophers' and AI researchers' own drawing.",
+      "people": [
+        "Ludwig Wittgenstein"
+      ],
+      "topics": [
+        "philosophy of language",
+        "meaning as use",
+        "language games"
+      ],
+      "claimType": "interpretation",
+      "confidence": "medium",
+      "source": {
+        "label": "Stanford Encyclopedia of Philosophy: Wittgenstein.",
+        "url": "https://plato.stanford.edu/entries/wittgenstein/",
+        "accessedDate": "2026-08-13"
+      }
+    },
+    {
+      "id": "turing",
+      "title": "Turing's machine question",
+      "date": {
+        "display": "1936 / 1950",
+        "sortKey": 1936
+      },
+      "lane": "europe",
+      "story": "Alan Turing's 1936 work gave a precise model of computation. In 1950 he shifted the public question from definitions of thinking to an operational test of machine intelligence. Together, the two moments connect what a machine can compute with how people might judge intelligent behaviour — and set up a debate (does passing a behavioral test mean understanding?) that Searle's Chinese Room directly challenges in 1980.",
+      "people": [
+        "Alan Turing"
+      ],
+      "topics": [
+        "computability",
+        "machine intelligence",
+        "imitation game"
+      ],
       "claimType": "fact",
       "confidence": "high",
-      "source": { "label": "Stanford Encyclopedia of Philosophy: Wittgenstein", "url": "https://plato.stanford.edu/entries/wittgenstein/", "accessedDate": "2026-08-10" }
+      "source": {
+        "label": "Technical-spine orientation: initial timeline gap analysis.",
+        "url": "../research/initial-timeline-video-gap-analysis.md",
+        "accessedDate": "2026-08-13"
+      }
+    },
+    {
+      "id": "mcculloch",
+      "title": "McCulloch–Pitts artificial neuron",
+      "date": {
+        "display": "1943",
+        "sortKey": 1943
+      },
+      "lane": "north-america",
+      "story": "Warren McCulloch, a neurophysiologist, and Walter Pitts, a logician, published the first mathematical model treating a brain neuron as a simple logic gate: it fires or doesn't, based on weighted inputs crossing a threshold. This is the direct mathematical ancestor of every artificial neural network since, including the ones behind large language models — the missing biological/logical seed between Turing's 1936 computation model and the 1956 Dartmouth conference.",
+      "people": [
+        "Warren McCulloch",
+        "Walter Pitts"
+      ],
+      "topics": [
+        "neural networks",
+        "computability",
+        "connectionism"
+      ],
+      "claimType": "fact",
+      "confidence": "high",
+      "source": {
+        "label": "McCulloch, W. & Pitts, W. (1943), \"A Logical Calculus of the Ideas Immanent in Nervous Activity,\" Bulletin of Mathematical Biophysics — primary source.",
+        "url": "https://link.springer.com/article/10.1007/BF02478259",
+        "accessedDate": "2026-08-13"
+      }
+    },
+    {
+      "id": "heidegger",
+      "title": "Heidegger's enframing",
+      "date": {
+        "display": "1954",
+        "sortKey": 1954
+      },
+      "lane": "europe",
+      "story": "In \"The Question Concerning Technology,\" Martin Heidegger argued that modern technology is not just a set of tools but a mode of \"enframing\" (Ge-stell) that reveals nature only as \"standing-reserve\" — raw material to be ordered, extracted and used up. Heidegger contrasts this with an older sense of craft as \"bringing-forth\" (poiesis), closer to the kind of skilled, non-extractive technique Zhuangzi's Cook Ding describes. This is a widely cited lens for questioning what gets treated as a resource to extract rather than something to encounter on its own terms — including, in later readers' hands, the people whose labor trains and moderates AI systems. Heidegger did not write about AI, data labor, or Daoist philosophy; both applications are later readers' extensions, stated here as such.",
+      "people": [
+        "Martin Heidegger"
+      ],
+      "topics": [
+        "philosophy of technology",
+        "enframing",
+        "critical theory"
+      ],
+      "claimType": "interpretation",
+      "confidence": "high",
+      "source": {
+        "label": "Heidegger, M. (1954), \"The Question Concerning Technology\"; Knewzly research note: philosophy of technology & systems lineage report.",
+        "url": "../research/philosophy-technology-ai-lineage-expansion.md",
+        "accessedDate": "2026-08-13"
+      }
+    },
+    {
+      "id": "wiener",
+      "title": "Wiener names cybernetics",
+      "date": {
+        "display": "1948",
+        "sortKey": 1948
+      },
+      "lane": "north-america",
+      "story": "Norbert Wiener's Cybernetics: or Control and Communication in the Animal and the Machine coined \"cybernetics\" from the Greek for \"steersman,\" unifying feedback and control ideas across machines, animals and social systems. This gave the interdisciplinary Macy Conferences their shared vocabulary and is a direct institutional root of later systems philosophy, robotics and AI language — including how people later describe an AI agent's feedback loop.",
+      "people": [
+        "Norbert Wiener"
+      ],
+      "topics": [
+        "cybernetics",
+        "feedback",
+        "systems philosophy"
+      ],
+      "claimType": "fact",
+      "confidence": "high",
+      "source": {
+        "label": "Wiener, N. (1948), Cybernetics; Knewzly research note: philosophy of technology & systems lineage report.",
+        "url": "../research/philosophy-technology-ai-lineage-expansion.md",
+        "accessedDate": "2026-08-13"
+      }
+    },
+    {
+      "id": "dartmouth",
+      "title": "Dartmouth names artificial intelligence",
+      "date": {
+        "display": "1956",
+        "sortKey": 1956
+      },
+      "lane": "north-america",
+      "story": "The Dartmouth summer research proposal gathered researchers around the claim that aspects of learning and intelligence could be described precisely enough for a machine to simulate them. The meeting did not invent every ingredient, but it gave a new research field a durable name and institutional centre — and set the symbolic-AI research program that Searle's Chinese Room would later challenge on whether symbol manipulation alone can produce understanding.",
+      "people": [
+        "John McCarthy",
+        "Marvin Minsky",
+        "Claude Shannon",
+        "Nathaniel Rochester"
+      ],
+      "topics": [
+        "symbolic AI",
+        "field formation",
+        "research institutions"
+      ],
+      "claimType": "fact",
+      "confidence": "high",
+      "source": {
+        "label": "Dartmouth proposal · primary source.",
+        "url": "http://www-formal.stanford.edu/jmc/history/dartmouth/dartmouth.html",
+        "accessedDate": "2026-08-13"
+      }
+    },
+    {
+      "id": "bohm",
+      "title": "Böhm–Jacopini theorem",
+      "date": {
+        "display": "1966",
+        "sortKey": 1966
+      },
+      "lane": "europe",
+      "story": "Corrado Böhm and Giuseppe Jacopini showed that sequence, selection and iteration are sufficient for structured computation. Using the theorem to explain today's tool-using agent loop, or the internal computation of an attention-based Transformer, is an interpretation. The theorem did not anticipate language models; it explains why a loop with branching is computationally powerful.",
+      "people": [
+        "Corrado Böhm",
+        "Giuseppe Jacopini"
+      ],
+      "topics": [
+        "structured programming",
+        "iteration",
+        "agent loops"
+      ],
+      "claimType": "interpretation",
+      "confidence": "medium",
+      "source": {
+        "label": "Cornell technical treatment · linked from Knewzly research note.",
+        "url": "https://www.cs.cornell.edu/~kozen/Papers/BohmJacopini.pdf",
+        "accessedDate": "2026-08-13"
+      }
+    },
+    {
+      "id": "searle",
+      "title": "Searle's Chinese Room",
+      "date": {
+        "display": "1980",
+        "sortKey": 1980
+      },
+      "lane": "north-america",
+      "story": "John Searle imagined a person locked in a room, following an English rulebook to match Chinese symbols and produce correct Chinese replies — convincingly, without understanding a word of Chinese. His argument: a system can manipulate symbols correctly without understanding anything, so passing a behavioral test (like Turing's) doesn't prove real understanding. This is the single most-cited philosophical challenge to \"does the machine really think,\" and it is directly why some scholars later call large language models \"stochastic parrots.\" The argument remains actively contested — present it as one strong position in an open debate, not a settled verdict.",
+      "people": [
+        "John Searle"
+      ],
+      "topics": [
+        "philosophy of mind",
+        "symbol manipulation",
+        "machine understanding"
+      ],
+      "claimType": "interpretation",
+      "confidence": "contested",
+      "source": {
+        "label": "Stanford Encyclopedia of Philosophy: The Chinese Room Argument.",
+        "url": "https://plato.stanford.edu/entries/chinese-room/",
+        "accessedDate": "2026-08-13"
+      }
+    },
+    {
+      "id": "asilomar75",
+      "title": "Asilomar self-regulation",
+      "date": {
+        "display": "1975",
+        "sortKey": 1975
+      },
+      "lane": "north-america",
+      "story": "About 140 researchers met at Asilomar to discuss safeguards for recombinant-DNA research. Their voluntary guidelines later influenced binding NIH rules. The event became a durable model for scientists trying to govern a fast-moving field before ordinary regulation catches up.",
+      "people": [
+        "Paul Berg",
+        "recombinant-DNA researchers"
+      ],
+      "topics": [
+        "science governance",
+        "self-regulation",
+        "biosafety"
+      ],
+      "claimType": "fact",
+      "confidence": "high",
+      "source": {
+        "label": "Knewzly research note: Asilomar comparison and sources.",
+        "url": "../research/frank-coyle-talk-gap-analysis.md",
+        "accessedDate": "2026-08-13"
+      }
+    },
+    {
+      "id": "dawkins",
+      "title": "Dawkins: the meme",
+      "date": {
+        "display": "1976",
+        "sortKey": 1976
+      },
+      "lane": "philosophy",
+      "story": "In The Selfish Gene (1976), Richard Dawkins coined \"meme\" for a unit of cultural information that replicates, mutates and is selected for much like a gene — an idea, tune or technique copied from mind to mind. Treating a training corpus as a vast pool of memes being selected for and remixed by a model — and the internet's meme culture as a visible, accelerated case of exactly this replication — is a conceptual lens connecting cultural evolution to how models are trained on and reproduce cultural patterns. It is an analogy, not a claim that genetics or memetics is how neural networks actually work.",
+      "people": [
+        "Richard Dawkins"
+      ],
+      "topics": [
+        "memetics",
+        "cultural evolution",
+        "information replication"
+      ],
+      "claimType": "interpretation",
+      "confidence": "medium",
+      "source": {
+        "label": "Dawkins, The Selfish Gene (1976), Ch. 11 \"Memes.\"",
+        "url": "",
+        "accessedDate": "2026-08-13"
+      }
+    },
+    {
+      "id": "baudrillard",
+      "title": "Baudrillard's simulacra",
+      "date": {
+        "display": "1981",
+        "sortKey": 1981
+      },
+      "lane": "philosophy",
+      "story": "Jean Baudrillard's Simulacra and Simulation (1981) argued that a media-saturated society increasingly relates to copies, models and signs that no longer point back to any original — a condition he called \"hyperreality,\" where \"the map precedes the territory.\" Written more than a decade before the mainstream internet and four decades before generative AI, the book is now widely reread as an early diagnosis of synthetic media: AI-generated images, text and video that circulate and get treated as real without any originating event. That reading is a conceptual lens, not a claim that Baudrillard foresaw generative models.",
+      "people": [
+        "Jean Baudrillard"
+      ],
+      "topics": [
+        "hyperreality",
+        "simulation",
+        "synthetic media"
+      ],
+      "claimType": "interpretation",
+      "confidence": "medium",
+      "source": {
+        "label": "Baudrillard, Simulacra and Simulation (1981) — overview and reception.",
+        "url": "https://en.wikipedia.org/wiki/Simulacra_and_Simulation",
+        "accessedDate": "2026-08-13"
+      }
+    },
+    {
+      "id": "japan",
+      "title": "Japan's Fifth Generation project",
+      "date": {
+        "display": "1982–1992",
+        "sortKey": 1982
+      },
+      "lane": "asia",
+      "story": "Japan's Ministry of International Trade and Industry backed a decade-long national program built around logic programming and advanced computing. It is widely described as a commercial failure, but that label misses the research it advanced and the international programs it provoked. Its value here is a complicated precedent for national AI strategy.",
+      "people": [
+        "Japan MITI",
+        "ICOT researchers"
+      ],
+      "topics": [
+        "logic programming",
+        "industrial policy",
+        "expert systems"
+      ],
+      "claimType": "interpretation",
+      "confidence": "medium",
+      "source": {
+        "label": "Knewzly research note: Fifth Generation economic-policy dimension.",
+        "url": "../research/frank-coyle-talk-gap-analysis.md",
+        "accessedDate": "2026-08-13"
+      }
     },
     {
       "id": "backprop",
       "title": "Backpropagation spreads",
-      "date": { "display": "1986", "sortKey": 1986 },
+      "date": {
+        "display": "1986",
+        "sortKey": 1986
+      },
       "lane": "north-america",
-      "themes": ["comp", "inst"],
-      "story": "David Rumelhart, Geoffrey Hinton, and Ronald Williams published a widely read demonstration of backpropagation — an algorithm for training multi-layer neural networks by pushing errors backward through the network to adjust each connection. This is a popularization, not the idea's origin, but it made the technique legible and usable across the field.",
-      "people": ["David Rumelhart", "Geoffrey Hinton", "Ronald Williams"],
-      "topics": ["neural networks", "training algorithms", "deep learning"],
+      "story": "David Rumelhart, Geoffrey Hinton and Ronald Williams published a widely read demonstration of backpropagation — an algorithm for training multi-layer neural networks by pushing errors backward through the network to adjust each connection. This is a popularization, not the idea's origin: the core mathematics traces back to Paul Werbos's 1974 thesis and earlier control-theory work. What made 1986 pivotal is that it made the technique legible and usable across the field, directly enabling the deep networks (like AlexNet) that arrived once enough data and compute existed.",
+      "people": [
+        "David Rumelhart",
+        "Geoffrey Hinton",
+        "Ronald Williams"
+      ],
+      "topics": [
+        "neural networks",
+        "training algorithms",
+        "deep learning"
+      ],
       "claimType": "fact",
       "confidence": "high",
-      "source": { "label": "Rumelhart, D., Hinton, G. & Williams, R. (1986), \"Learning representations by back-propagating errors,\" Nature", "url": "https://www.nature.com/articles/323533a0", "accessedDate": "2026-08-10" }
+      "source": {
+        "label": "Rumelhart, D., Hinton, G. & Williams, R. (1986), \"Learning representations by back-propagating errors,\" Nature — primary source.",
+        "url": "https://www.nature.com/articles/323533a0",
+        "accessedDate": "2026-08-13"
+      }
+    },
+    {
+      "id": "gruber",
+      "title": "Gruber defines ontology",
+      "date": {
+        "display": "1993",
+        "sortKey": 1993
+      },
+      "lane": "north-america",
+      "story": "Tom Gruber defined an ontology as \"an explicit specification of a conceptualization.\" That exact wording matters: the familiar \"formal\" and \"shared\" additions came from later authors. The definition became foundational to knowledge engineering and the systems that organize concepts for exchange and inference.",
+      "people": [
+        "Tom Gruber"
+      ],
+      "topics": [
+        "ontology engineering",
+        "knowledge graphs",
+        "shared concepts"
+      ],
+      "claimType": "fact",
+      "confidence": "medium",
+      "source": {
+        "label": "Gruber's own site · primary source.",
+        "url": "https://tomgruber.org/writing/ontolingua-kaj-1993/",
+        "accessedDate": "2026-08-13"
+      }
+    },
+    {
+      "id": "alexnet",
+      "title": "AlexNet wins ImageNet",
+      "date": {
+        "display": "2012",
+        "sortKey": 2012
+      },
+      "lane": "north-america",
+      "story": "Alex Krizhevsky, Ilya Sutskever and Geoffrey Hinton entered a convolutional neural network into the ImageNet image-recognition competition and beat the previous best error rate by roughly ten percentage points — trained using backpropagation, GPUs and a large labeled dataset. This is widely agreed to be the moment that convinced the field, and industry funding, that deep networks plus data plus compute genuinely work — closing the long gap in this timeline between 1993 and the deep-learning era.",
+      "people": [
+        "Alex Krizhevsky",
+        "Ilya Sutskever",
+        "Geoffrey Hinton"
+      ],
+      "topics": [
+        "deep learning",
+        "computer vision",
+        "GPUs"
+      ],
+      "claimType": "fact",
+      "confidence": "high",
+      "source": {
+        "label": "AlexNet overview; Computer History Museum source release.",
+        "url": "https://en.wikipedia.org/wiki/AlexNet",
+        "accessedDate": "2026-08-13"
+      }
+    },
+    {
+      "id": "alphago",
+      "title": "AlphaGo beats Lee Sedol",
+      "date": {
+        "display": "2016",
+        "sortKey": 2016
+      },
+      "lane": "asia",
+      "story": "In Seoul, DeepMind's AlphaGo defeated world-champion Go player Lee Sedol — the first widely publicized proof that deep reinforcement learning (self-play plus neural networks) could exceed elite human performance in a domain long thought too intuitive for computers. Watched by over 200 million people, it is a genuinely global \"AI moment,\" and a useful contrast to IBM's 1997 Deep Blue: brute-force search versus learned self-play, nineteen years apart.",
+      "people": [
+        "DeepMind",
+        "David Silver",
+        "Lee Sedol"
+      ],
+      "topics": [
+        "reinforcement learning",
+        "deep learning",
+        "games"
+      ],
+      "claimType": "fact",
+      "confidence": "high",
+      "source": {
+        "label": "DeepMind: AlphaGo.",
+        "url": "https://deepmind.google/research/alphago/",
+        "accessedDate": "2026-08-13"
+      }
     },
     {
       "id": "transformer",
       "title": "The Transformer arrives",
-      "date": { "display": "2017", "sortKey": 2017 },
+      "date": {
+        "display": "2017",
+        "sortKey": 2017
+      },
       "lane": "north-america",
-      "themes": ["comp", "inst"],
-      "story": "Ashish Vaswani and seven co-authors at Google published \"Attention Is All You Need,\" introducing the Transformer architecture — built entirely around an attention mechanism rather than the recurrent networks that came before. Every major large language model since descends from this architecture.",
-      "people": ["Ashish Vaswani", "Noam Shazeer", "Google Brain team"],
-      "topics": ["Transformers", "attention", "large language models"],
+      "story": "Ashish Vaswani and seven co-authors at Google published \"Attention Is All You Need,\" introducing the Transformer architecture — built entirely around an \"attention\" mechanism rather than the recurrent networks that came before. Every major large language model since, including the ones this atlas discusses, descends from this architecture. Its absence was the single most load-bearing gap in earlier versions of this mockup.",
+      "people": [
+        "Ashish Vaswani",
+        "Noam Shazeer",
+        "Google Brain team"
+      ],
+      "topics": [
+        "Transformers",
+        "attention",
+        "large language models"
+      ],
       "claimType": "fact",
       "confidence": "high",
-      "source": { "label": "Vaswani et al. (2017), \"Attention Is All You Need,\" arXiv", "url": "https://arxiv.org/abs/1706.03762", "accessedDate": "2026-08-10" }
+      "source": {
+        "label": "Vaswani et al. (2017), \"Attention Is All You Need,\" arXiv.",
+        "url": "https://arxiv.org/abs/1706.03762",
+        "accessedDate": "2026-08-13"
+      }
+    },
+    {
+      "id": "asilomar17",
+      "title": "Asilomar AI Principles",
+      "date": {
+        "display": "2017",
+        "sortKey": 2017
+      },
+      "lane": "north-america",
+      "story": "AI researchers met at the same California location and produced 23 principles addressing research goals, safety, transparency and long-term questions. The deliberate echo of 1975 is factual. Comparing the two frameworks' enforcement outcomes is an interpretation: the AI principles remain voluntary.",
+      "people": [
+        "Future of Life Institute",
+        "AI research community"
+      ],
+      "topics": [
+        "AI safety",
+        "voluntary principles",
+        "governance"
+      ],
+      "claimType": "interpretation",
+      "confidence": "medium",
+      "source": {
+        "label": "Knewzly research note: Asilomar historical echo and sources.",
+        "url": "../research/frank-coyle-talk-gap-analysis.md",
+        "accessedDate": "2026-08-13"
+      }
+    },
+    {
+      "id": "parrots",
+      "title": "\"Stochastic Parrots\"",
+      "date": {
+        "display": "2021",
+        "sortKey": 2021
+      },
+      "lane": "north-america",
+      "story": "Emily Bender, Timnit Gebru and co-authors argued that large language models are \"stochastic parrots\" — systems that reproduce statistical patterns of text without grounded comprehension of what the words mean. This is a direct, present-day continuation of the symbol-grounding and Chinese Room lineage, aimed squarely at today's LLMs. It remains an actively contested claim, not a settled verdict — present it alongside opposing \"emergent understanding\" arguments rather than as the final word.",
+      "people": [
+        "Emily Bender",
+        "Timnit Gebru",
+        "Angelina McMillan-Major",
+        "Margaret Mitchell"
+      ],
+      "topics": [
+        "LLM understanding",
+        "language models",
+        "AI ethics"
+      ],
+      "claimType": "interpretation",
+      "confidence": "contested",
+      "source": {
+        "label": "Bender, E., Gebru, T. et al. (2021), \"On the Dangers of Stochastic Parrots,\" FAccT — primary source.",
+        "url": "https://s10251.pcdn.co/pdf/2021-bender-parrots.pdf",
+        "accessedDate": "2026-08-13"
+      }
     },
     {
       "id": "kenyalabor",
       "title": "The hidden labor behind AI",
-      "date": { "display": "2021–2023", "sortKey": 2021 },
+      "date": {
+        "display": "2021–2023",
+        "sortKey": 2021
+      },
       "lane": "africa",
-      "themes": ["gov", "inst"],
-      "story": "Low-paid workers, including annotators in Kenya employed by outsourcing firms, label and review the data and model outputs that make deployed AI systems work — including reviewing disturbing content to help train safety filters. Exact conditions and figures are contested in reporting; the phenomenon itself is well-documented.",
-      "people": ["Data annotation workers", "Sama (outsourcing firm)", "OpenAI"],
-      "topics": ["data labor", "AI supply chain", "labor conditions"],
+      "story": "Low-paid workers, including annotators in Kenya employed by outsourcing firms, label and review the data and model outputs that make \"automated\" AI systems work — including reviewing disturbing content to help train safety filters. This is a present-day parallel to the ENIAC-era women programmers who were essential and uncredited for decades: essential human labor made invisible by the word \"automated.\" Exact conditions and figures are contested in reporting; this atlas presents the phenomenon as well-documented while flagging specific numbers as needing direct-source verification, not settled fact.",
+      "people": [
+        "Data annotation workers",
+        "Sama (outsourcing firm)",
+        "OpenAI"
+      ],
+      "topics": [
+        "data labor",
+        "AI supply chain",
+        "labor conditions"
+      ],
+      "claimType": "interpretation",
+      "confidence": "contested",
+      "source": {
+        "label": "Billy Perrigo, \"Inside Facebook's African Sweatshop\" and \"OpenAI Used Kenyan Workers on Less Than $2 Per Hour,\" TIME (2023) — original investigative reporting; Knewzly research note: technical/institutional history report — cross-check the original reporting before treating specific figures as settled.",
+        "url": "https://time.com/6247678/openai-chatgpt-kenya-workers/",
+        "accessedDate": "2026-08-13"
+      }
+    },
+    {
+      "id": "chatgpt",
+      "title": "ChatGPT reaches the public",
+      "date": {
+        "display": "2022",
+        "sortKey": 2022
+      },
+      "lane": "north-america",
+      "story": "OpenAI's public release of ChatGPT in November 2022 made generative AI a mainstream phenomenon almost overnight — built directly on the Transformer architecture and the scaling path that followed GPT-3 in 2020. This anchor brings the technical spine to the present and gives the Today panel concept a concrete, dated origin point to trace current AI news back to.",
+      "people": [
+        "OpenAI"
+      ],
+      "topics": [
+        "large language models",
+        "generative AI",
+        "public launch"
+      ],
+      "claimType": "fact",
+      "confidence": "high",
+      "source": {
+        "label": "OpenAI, \"Introducing ChatGPT\" (November 30, 2022) — OpenAI's own announcement, primary source.",
+        "url": "https://openai.com/index/chatgpt/",
+        "accessedDate": "2026-08-13"
+      }
+    },
+    {
+      "id": "georgetownibm",
+      "title": "Georgetown–IBM translates Russian",
+      "date": {
+        "display": "1954",
+        "sortKey": 1954
+      },
+      "lane": "north-america",
+      "story": "On January 7, 1954, Georgetown University and IBM publicly demonstrated a machine-translation system that turned more than 60 Russian sentences into English using an IBM 701, about 250 words of vocabulary and six grammar rules — probably the first non-numerical application of a digital computer, and the first public demonstration of automated language translation. Calling it \"the first NLP system\" is a defensible but somewhat interpretive framing — narrower rule-based efforts existed in classified and academic settings slightly earlier — but this is the first system with a well-documented public demonstration, distinct from ELIZA's later conversational pattern-matching: Georgetown–IBM converted one language into another with lexical-substitution rules, with no pretense of holding a conversation.",
+      "people": [
+        "Léon Dostert",
+        "Cuthbert Hurd",
+        "Peter Sheridan"
+      ],
+      "topics": [
+        "NLP",
+        "machine translation",
+        "early computing"
+      ],
+      "claimType": "fact",
+      "confidence": "high",
+      "source": {
+        "label": "John Hutchins, \"The Georgetown-IBM experiment demonstrated in January 1954,\" ACL Anthology — primary historical account; Knewzly research note: AI history expansion, batch 2.",
+        "url": "https://aclanthology.org/2004.amta-papers.12/",
+        "accessedDate": "2026-08-13"
+      }
+    },
+    {
+      "id": "masterman",
+      "title": "Masterman's thesaurus machine translation",
+      "date": {
+        "display": "1954–1970s",
+        "sortKey": 1954
+      },
+      "lane": "europe",
+      "story": "Margaret Masterman founded the Cambridge Language Research Unit in 1954/1955, an independent group studying mechanical translation at a time machine translation had no place in any UK university curriculum. She had Roget's Thesaurus punch-carded for translation experiments on Hollerith machines and developed the idea of an \"interlingua\" — a language-neutral intermediate representation for translation. Her documented contribution is specifically to thesaurus-based and interlingua-based machine-translation methodology, not a single canonical AI breakthrough; retrospectives credit her unit as a \"seedbed\" that trained later computational-linguistics researchers — a broader interpretive claim, distinct from her narrower, well-documented technical publications. Included to correct a US-centered account of early computational linguistics.",
+      "people": [
+        "Margaret Masterman"
+      ],
+      "topics": [
+        "machine translation",
+        "computational linguistics",
+        "regional plurality"
+      ],
+      "claimType": "fact",
+      "confidence": "medium-high",
+      "source": {
+        "label": "Martin Kay, obituary of Margaret Masterman, Computational Linguistics — ACL Anthology archive; Knewzly research note: AI history expansion, batch 2.",
+        "url": "https://aclanthology.org/www.mt-archive.info/CL-1987-Kay.pdf",
+        "accessedDate": "2026-08-13"
+      }
+    },
+    {
+      "id": "chomsky",
+      "title": "Chomsky's generative grammar",
+      "date": {
+        "display": "1957",
+        "sortKey": 1957
+      },
+      "lane": "philosophy",
+      "story": "Syntactic Structures (1957) formalized Noam Chomsky's transformational-generative grammar: a finite system of rules generating the infinite set of grammatical sentences in a language. The \"Chomsky hierarchy\" of grammars remains foundational to computer science, including context-free grammars used in compiler parsers. The connection to AI history is real but should not be overstated as a straight line to systems like semantic networks — Chomsky's formalism shaped formal-grammar tools used across computing; it did not directly produce later associative meaning-representation models. Later connectionist and statistical NLP researchers explicitly positioned themselves as reacting against his innatist, rule-based framework — a documented influence plus a documented later reaction, not one unbroken lineage to modern language models.",
+      "people": [
+        "Noam Chomsky"
+      ],
+      "topics": [
+        "generative grammar",
+        "formal languages",
+        "computational linguistics"
+      ],
       "claimType": "interpretation",
       "confidence": "medium",
-      "source": { "label": "Billy Perrigo, \"OpenAI Used Kenyan Workers on Less Than $2 Per Hour,\" TIME (2023)", "url": "https://time.com/6247678/openai-chatgpt-kenya-workers/", "accessedDate": "2026-08-10" }
+      "source": {
+        "label": "Chomsky, Syntactic Structures (Mouton, 1957) — primary text; Knewzly research note: AI history expansion, batch 2.",
+        "url": "https://www.ling.upenn.edu/courses/ling5700/Chomsky1957.pdf",
+        "accessedDate": "2026-08-13"
+      }
+    },
+    {
+      "id": "eliza",
+      "title": "ELIZA, the first chatbot",
+      "date": {
+        "display": "1966",
+        "sortKey": 1966
+      },
+      "lane": "north-america",
+      "story": "In January 1966, MIT's Joseph Weizenbaum published ELIZA, which used simple keyword pattern-matching and scripted templates — no semantic understanding — to hold text conversations; its best-known script, DOCTOR, imitated a non-directive psychotherapist by reflecting statements back as questions. Weizenbaum was reportedly disturbed that users, including his own secretary, attributed real understanding and emotion to ELIZA despite knowing it was a simple program (the \"ELIZA effect\"), and he went on to write a sharp critique of AI overreach. That ELIZA fooled people into perceiving comprehension is documented fact; whether that reveals something deep about human psychology or something trivial about low bars for perceived intelligence remains an interpretive debate — the same question Searle's Chinese Room later formalizes.",
+      "people": [
+        "Joseph Weizenbaum"
+      ],
+      "topics": [
+        "NLP",
+        "chatbots",
+        "human-computer interaction"
+      ],
+      "claimType": "fact",
+      "confidence": "high",
+      "source": {
+        "label": "Weizenbaum, J. (1966), \"ELIZA — a computer program...,\" Communications of the ACM 9(1) — ACM DL record; Knewzly research note: AI history expansion, batch 2.",
+        "url": "https://dl.acm.org/doi/10.1145/365153.365168",
+        "accessedDate": "2026-08-13"
+      }
+    },
+    {
+      "id": "putnam",
+      "title": "Putnam's functionalism",
+      "date": {
+        "display": "1967",
+        "sortKey": 1967
+      },
+      "lane": "philosophy",
+      "story": "In \"Psychological Predicates\" (1967), Hilary Putnam proposed \"machine functionalism\": mental states are functional states of a probabilistic automaton, defined by their causal role rather than by the physical stuff that realizes them — and argued for \"multiple realizability,\" the same mental state realizable in physically different systems. Putnam's claim is narrow: he did not claim computers are conscious or that any AI system has mental states. The natural extension many draw — that if mentality is substrate-independent, computers could in principle realize mental states — later informed debates around Searle's Chinese Room, which specifically attacks whether the right functional organization alone is sufficient for understanding. Putnam himself later grew critical of strong functionalism — a documented complication, not \"Putnam said computers can think.\"",
+      "people": [
+        "Hilary Putnam"
+      ],
+      "topics": [
+        "functionalism",
+        "philosophy of mind",
+        "multiple realizability"
+      ],
+      "claimType": "interpretation",
+      "confidence": "high",
+      "source": {
+        "label": "SEP, \"The Computational Theory of Mind\" — Stanford Encyclopedia of Philosophy; Knewzly research note: AI history expansion, batch 2.",
+        "url": "https://plato.stanford.edu/entries/computational-mind/",
+        "accessedDate": "2026-08-13"
+      }
+    },
+    {
+      "id": "prolog",
+      "title": "Prolog: logic as a language",
+      "date": {
+        "display": "1971–1974",
+        "sortKey": 1971
+      },
+      "lane": "europe",
+      "story": "In 1972, Alain Colmerauer's group at Aix-Marseille built the first working Prolog system; Robert Kowalski at Edinburgh independently developed the theoretical case that Horn-clause logic could serve as a programming language, publishing it in 1974. Both describe the \"top-down\" resolution procedure underlying Prolog's execution as a joint discovery from their 1972 collaboration. Prolog became foundational to symbolic AI — expert systems, NLP, Japan's Fifth Generation project — through the 1970s–80s, a direct, well-documented lineage. What is genuinely interpretive is the exact split of credit: sources consistently frame it as a two-lab collaboration, Kowalski the co-discoverer of the theoretical procedure, Colmerauer and Roussel the implementers who built it.",
+      "people": [
+        "Robert Kowalski",
+        "Alain Colmerauer",
+        "Philippe Roussel"
+      ],
+      "topics": [
+        "logic programming",
+        "symbolic AI",
+        "Prolog"
+      ],
+      "claimType": "interpretation",
+      "confidence": "high",
+      "source": {
+        "label": "Colmerauer & Roussel, \"The Birth of Prolog,\" History of Programming Languages—II (ACM, 1993) — ACM DL; Knewzly research note: AI history expansion, batch 2.",
+        "url": "https://dl.acm.org/doi/10.1145/234286.1057820",
+        "accessedDate": "2026-08-13"
+      }
+    },
+    {
+      "id": "deepblue",
+      "title": "Deep Blue defeats Kasparov",
+      "date": {
+        "display": "1997",
+        "sortKey": 1997
+      },
+      "lane": "north-america",
+      "story": "On May 11, 1997, IBM's Deep Blue defeated reigning world chess champion Garry Kasparov in the deciding sixth game of a rematch, winning 3.5–2.5 — the first time a computer beat a reigning champion under standard tournament conditions, evaluating roughly 200 million positions per second. Deep Blue is widely cited as the moment \"a computer can beat the best human at a canonical test of intelligence\" entered mainstream consciousness — a fact about public perception, distinct from general intelligence, since Deep Blue used brute-force search and handcrafted evaluation, not learning. Kasparov accused IBM of cheating after Game 2; he said in 2016 he no longer believed that. Present the match as fact and the cheating claim as a disputed, later-retracted footnote.",
+      "people": [
+        "Garry Kasparov",
+        "Murray Campbell",
+        "Feng-hsiung Hsu"
+      ],
+      "topics": [
+        "search",
+        "symbolic AI",
+        "games"
+      ],
+      "claimType": "fact",
+      "confidence": "high",
+      "source": {
+        "label": "Kasparov's own site, timeline entry on Deep Blue — kasparov.com; Knewzly research note: AI history expansion, batch 2.",
+        "url": "https://www.kasparov.com/timeline-event/deep-blue/",
+        "accessedDate": "2026-08-13"
+      }
+    },
+    {
+      "id": "lstm",
+      "title": "LSTM solves long memory",
+      "date": {
+        "display": "1997",
+        "sortKey": 1997
+      },
+      "lane": "europe",
+      "story": "Sepp Hochreiter and Jürgen Schmidhuber published \"Long Short-Term Memory\" in 1997, introducing a recurrent-network architecture with gated memory cells that solved the \"vanishing gradient\" problem blocking networks from learning dependencies across long time gaps. LSTM became the dominant sequence-modeling architecture for roughly two decades, until largely superseded by Transformers after 2017. The paper's existence and huge citation count are undisputed. Schmidhuber has publicly and repeatedly argued that foundational ideas behind later celebrated techniques were insufficiently credited to him and his students — a real, ongoing, multi-sided controversy. Present the 1997 publication as settled fact while noting the priority disputes as a live, unresolved controversy, not adjudicating who is \"right.\"",
+      "people": [
+        "Sepp Hochreiter",
+        "Jürgen Schmidhuber"
+      ],
+      "topics": [
+        "deep learning",
+        "RNNs",
+        "sequence modeling"
+      ],
+      "claimType": "fact",
+      "confidence": "contested",
+      "source": {
+        "label": "Hochreiter & Schmidhuber, \"Long Short-Term Memory,\" Neural Computation 9(8), 1997 — publisher record; Knewzly research note: AI history expansion, batch 2.",
+        "url": "https://direct.mit.edu/neco/article/9/8/1735/6109/Long-Short-Term-Memory",
+        "accessedDate": "2026-08-13"
+      }
+    },
+    {
+      "id": "gpuneuralnets06",
+      "title": "GPUs train neural nets, pre-AlexNet",
+      "date": {
+        "display": "2004–2006",
+        "sortKey": 2004
+      },
+      "lane": "north-america",
+      "story": "Several groups explored GPU-accelerated neural-network training before AlexNet's 2012 breakthrough: Oh and Jung (2004) showed substantial GPU speedups; Steinkraus, Buck and Simard (Microsoft Research, 2005) reported roughly 3x training speedup; Chellapilla, Puri and Simard (2006) trained a convolutional network on GPU about four times faster than an equivalent CPU version — widely cited as the earliest GPU-trained CNN specifically. These pre-2012 efforts documented that GPU acceleration was technically viable for neural-network training years before AlexNet, but trained comparatively small networks on comparatively small datasets. AlexNet's 2012 achievement was distinctive not because it was first to use GPUs — documented fact: it wasn't — but because it combined GPU-scale training with a large labeled dataset and a deep architecture to post a decisive, field-changing performance jump.",
+      "people": [
+        "Kyoung-Su Oh",
+        "Keechul Jung",
+        "Dave Steinkraus",
+        "Patrice Simard",
+        "Kumar Chellapilla"
+      ],
+      "topics": [
+        "GPU computing",
+        "neural networks",
+        "hardware"
+      ],
+      "claimType": "fact",
+      "confidence": "medium-high",
+      "source": {
+        "label": "Sebastian Raschka, FAQ surveying earliest GPU-trained CNNs — sebastianraschka.com; Knewzly research note: AI history expansion, batch 2.",
+        "url": "https://sebastianraschka.com/faq/docs/first-cnn-gpu.html",
+        "accessedDate": "2026-08-13"
+      }
+    },
+    {
+      "id": "siri",
+      "title": "Siri reaches the iPhone",
+      "date": {
+        "display": "2011",
+        "sortKey": 2011
+      },
+      "lane": "north-america",
+      "story": "Siri originated in SRI International's CALO project, funded from 2003 under DARPA's Personalized Assistant that Learns program — then the largest AI program the US government had funded. SRI spun out Siri, Inc. in 2007; Apple acquired it in 2010 and announced Siri as a built-in iPhone 4S feature on October 4, 2011. Siri is a useful \"first mainstream deployment\" marker distinct from ELIZA (1966): ELIZA was a text-based script with no task execution, while Siri combined DARPA-funded language and planning research with voice recognition and real actions on a mass-market device. Calling it \"first\" needs care — Microsoft's Clippy (1996) predates it as an assistant UI paradigm, but Clippy is a non-learning UI heuristic, not an AI-research milestone.",
+      "people": [
+        "Dag Kittlaus",
+        "Adam Cheyer",
+        "Tom Gruber",
+        "Steve Jobs"
+      ],
+      "topics": [
+        "virtual assistants",
+        "DARPA",
+        "consumer AI"
+      ],
+      "claimType": "fact",
+      "confidence": "high",
+      "source": {
+        "label": "SRI International, \"Siri\" retrospective — sri.com; Knewzly research note: AI history expansion, batch 2.",
+        "url": "https://www.sri.com/hoi/siri/",
+        "accessedDate": "2026-08-13"
+      }
+    },
+    {
+      "id": "deepmind",
+      "title": "DeepMind founded, then merged",
+      "date": {
+        "display": "2010–2023",
+        "sortKey": 2010
+      },
+      "lane": "europe",
+      "story": "DeepMind Technologies was founded in London in September 2010 by Demis Hassabis, Shane Legg and Mustafa Suleyman; Google acquired it in January 2014. It operated as a distinct lab within Alphabet for nearly a decade, producing AlphaGo and AlphaFold, until an April 2023 merger with Google Brain formed Google DeepMind, led by Hassabis. The founding, acquisition and merger dates are documented via Google DeepMind's own announcements. The merger is widely read as Google's response to competitive pressure from OpenAI/Microsoft following ChatGPT's late-2022 launch — a framing supported by contemporaneous reporting but not stated in those terms by Google's own announcement, which emphasizes safety and capability. Attributing the merger's timing to competitive panic is a reasonable but interpretive read, not documented fact.",
+      "people": [
+        "Demis Hassabis",
+        "Shane Legg",
+        "Mustafa Suleyman",
+        "Sundar Pichai"
+      ],
+      "topics": [
+        "AI labs",
+        "institutional history",
+        "reinforcement learning"
+      ],
+      "claimType": "interpretation",
+      "confidence": "high",
+      "source": {
+        "label": "Google DeepMind, \"Announcing Google DeepMind\" (April 2023) — official blog; Knewzly research note: AI history expansion, batch 2.",
+        "url": "https://deepmind.google/blog/announcing-google-deepmind/",
+        "accessedDate": "2026-08-13"
+      }
+    },
+    {
+      "id": "sophia",
+      "title": "Sophia the robot's \"citizenship\"",
+      "date": {
+        "display": "2017",
+        "sortKey": 2017
+      },
+      "lane": "asia",
+      "story": "On October 25, 2017, at a Riyadh summit, Hanson Robotics' humanoid robot Sophia was announced as having been granted Saudi Arabian citizenship — reportedly the first time any country conferred citizenship on a robot. No implementing legislation or published decree ever explained what rights or obligations this entailed, and Sophia was not required to comply with Saudi Arabia's then-mandatory dress code for women. This should not be read as a real legal milestone. AI ethics researchers quoted at the time, including Joanna Bryson and Kate Darling, publicly called it a marketing stunt with no legal weight, and commentators noted the irony that a robot appeared to have more public freedom than Saudi women faced under law. The near-universal reading among researchers and legal scholars is Saudi PR positioning the country as a tech innovator, not a genuine legal-personhood event.",
+      "people": [
+        "Sophia (Hanson Robotics)",
+        "David Hanson"
+      ],
+      "topics": [
+        "robotics",
+        "AI ethics",
+        "legal personhood"
+      ],
+      "claimType": "interpretation",
+      "confidence": "high",
+      "source": {
+        "label": "Slate, \"What Exactly Does It Mean to Give a Robot Citizenship?\" — slate.com; Knewzly research note: AI history expansion, batch 2.",
+        "url": "https://slate.com/technology/2017/11/what-rights-does-a-robot-get-with-citizenship.html",
+        "accessedDate": "2026-08-13"
+      }
+    },
+    {
+      "id": "llamaleak",
+      "title": "LLaMA's weights leak",
+      "date": {
+        "display": "2023",
+        "sortKey": 2023
+      },
+      "lane": "north-america",
+      "story": "Meta announced LLaMA on February 24, 2023, offering access only to approved researchers under a noncommercial license. On March 3, 2023, someone with approved access posted a torrent link on 4chan; the weights spread rapidly to GitHub and Hugging Face. Meta's March 6 takedown requests came too late — within days, developers ran LLaMA on consumer laptops, and derivative open projects like Stanford's Alpaca appeared almost immediately. The leak, its date and immediate aftermath are documented. The interpretation many draw — that this leak accelerated the open-weight/local-model movement by roughly a year — is widely repeated in industry commentary but not something Meta or independent researchers have quantified; Mistral AI's own founding two months later was driven as much by its founders' pre-existing open-science convictions as by the leak. Treat the causal link as suggestive, not proven.",
+      "people": [
+        "Meta AI research team",
+        "anonymous leaker (unidentified)"
+      ],
+      "topics": [
+        "open-weight models",
+        "LLMs",
+        "AI governance"
+      ],
+      "claimType": "fact",
+      "confidence": "high",
+      "source": {
+        "label": "Fortune, \"Meta's LLaMa leak awakens debate over A.I. research practices\" — fortune.com; Knewzly research note: AI history expansion, batch 2.",
+        "url": "https://fortune.com/2023/03/08/metas-large-language-model-leak-awakens-debate-over-open-or-closed-a-i-research/",
+        "accessedDate": "2026-08-13"
+      }
+    },
+    {
+      "id": "aiwinters",
+      "title": "The AI winters",
+      "date": {
+        "display": "1974–1980 & 1987–1993",
+        "sortKey": 1974
+      },
+      "lane": "north-america",
+      "story": "Twice, AI research funding collapsed after early promises outran results. The 1973 Lighthill Report savaged UK machine-translation and general-purpose AI research, prompting deep funding cuts across the UK and soon after at DARPA; a second collapse followed in the late 1980s as the commercial market for expert-system hardware (Lisp machines) evaporated and the field's promises again outpaced delivery. Both episodes are widely cited by historians of the field, though exact start and end years vary by source and by which national funding stream is being tracked. Presented here as a documented, recurring pattern — intense investment following ambitious claims, followed by sharp retrenchment when those claims aren't met on schedule — a useful check on any single year's hype, including the field's current one.",
+      "people": [
+        "James Lighthill",
+        "DARPA program officers"
+      ],
+      "topics": [
+        "funding cycles",
+        "hype cycles",
+        "research history"
+      ],
+      "claimType": "fact",
+      "confidence": "high",
+      "source": {
+        "label": "James Lighthill (1973), \"Artificial Intelligence: A General Survey\" (the Lighthill Report), UK Science Research Council; Knewzly research note: AI winters and hype-cycle history.",
+        "url": "",
+        "accessedDate": "2026-08-13"
+      }
+    },
+    {
+      "id": "wiener1950",
+      "title": "Wiener: The Human Use of Human Beings",
+      "date": {
+        "display": "1950",
+        "sortKey": 1950
+      },
+      "lane": "north-america",
+      "story": "Two years after coining \"cybernetics,\" Norbert Wiener published The Human Use of Human Beings, extending his feedback-and-control framework directly to automation's effect on labor. He warned that machines capable of learning and decision-making would devalue routine human work \"at a price of complete unemployment,\" arguing the same feedback logic used to describe steering a torpedo also describes a factory replacing workers. This is Wiener's own explicit extension of his 1948 systems vocabulary into a labor-and-automation warning, not a later reader's analogy. It anticipates, in general terms, present-day arguments about AI displacing routine cognitive work, including the data-labeling labor this atlas documents in 2021–2023.",
+      "people": [
+        "Norbert Wiener"
+      ],
+      "topics": [
+        "automation",
+        "labor",
+        "cybernetics"
+      ],
+      "claimType": "fact",
+      "confidence": "high",
+      "source": {
+        "label": "Wiener, N. (1950), The Human Use of Human Beings: Cybernetics and Society — Houghton Mifflin.",
+        "url": "",
+        "accessedDate": "2026-08-13"
+      }
+    },
+    {
+      "id": "licklider",
+      "title": "Licklider's \"Man-Computer Symbiosis\"",
+      "date": {
+        "display": "1960",
+        "sortKey": 1960
+      },
+      "lane": "north-america",
+      "story": "J.C.R. Licklider's 1960 paper \"Man-Computer Symbiosis\" proposed a partnership model: humans set goals and make judgment calls, while machines handle routine, formalizable work — cooperative interaction, not automation for its own sake. He went on to run ARPA's Information Processing Techniques Office, directly funding research that led to networked, interactive computing. Read alongside the Böhm–Jacopini theorem published six years later, the two texts frame a real tension in how \"the loop\" gets understood: Licklider's is a vision of human-machine partnership; Böhm–Jacopini is a mechanistic proof about what any structured program can compute. Today's tool-using agents inherit both — a decision loop (Böhm–Jacopini's shape) meant to serve a human's goals (Licklider's vision) — and the two anchors sit here as a counterpoint, not a single lineage.",
+      "people": [
+        "J.C.R. Licklider"
+      ],
+      "topics": [
+        "human-computer interaction",
+        "ARPA",
+        "agents"
+      ],
+      "claimType": "fact",
+      "confidence": "high",
+      "source": {
+        "label": "Licklider, J.C.R. (1960), \"Man-Computer Symbiosis,\" IRE Transactions on Human Factors in Electronics — MIT CSAIL archive, primary source.",
+        "url": "https://groups.csail.mit.edu/medg/people/psz/Licklider.html",
+        "accessedDate": "2026-08-13"
+      }
+    },
+    {
+      "id": "euaiact",
+      "title": "EU AI Act enters into force",
+      "date": {
+        "display": "2024",
+        "sortKey": 2024
+      },
+      "lane": "europe",
+      "story": "Regulation (EU) 2024/1689, the \"Artificial Intelligence Act,\" was published in the EU's Official Journal on July 12, 2024 and entered into force on August 1, 2024 — a risk-tiered framework covering AI development, deployment and use across all 27 member states, with prohibitions on \"unacceptable risk\" uses taking effect February 2025 and most obligations phasing in through August 2026. The legal text, dates and structure are documented directly from EUR-Lex. Calling it \"the first\" comprehensive AI-specific regulation globally is repeated by the European Parliament's own communications and widely echoed in policy analysis — reasonably solid, though China's algorithm-recommendation and generative-AI rules are narrower and sector-specific rather than a general risk-based architecture. That the generative-AI boom accelerated the Act's final negotiations is documented in EU legislative-history commentary, though the Act's origins predate ChatGPT by several years — a partial accelerant, not sole cause.",
+      "people": [
+        "European Parliament",
+        "European Commission"
+      ],
+      "topics": [
+        "AI regulation",
+        "policy",
+        "risk governance"
+      ],
+      "claimType": "fact",
+      "confidence": "high",
+      "source": {
+        "label": "EUR-Lex, official text of Regulation (EU) 2024/1689 — eur-lex.europa.eu; Knewzly research note: AI history expansion, batch 2.",
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ%3AL_202401689",
+        "accessedDate": "2026-08-13"
+      }
+    },
+    {
+      "id": "as-we-may-think",
+      "title": "As We May Think",
+      "date": {
+        "display": "1945",
+        "sortKey": 1945
+      },
+      "lane": "north-america",
+      "story": "In 1945, Vannevar Bush published \"As We May Think\" in The Atlantic, describing a hypothetical machine, the memex, that could scan documents, search by association rather than rigid indexing, and respond to voice — decades before any of that existed as real technology. The essay is often used to frame a recurring pattern in the history of computing: a new capability tends to first appear as a primitive sketch of an idea, not a finished destination. Bush was not building a memex; he was describing a shape that later systems would grow to fill.",
+      "people": [
+        "Vannevar Bush"
+      ],
+      "topics": [
+        "As We May Think",
+        "memex",
+        "information retrieval",
+        "software primitives"
+      ],
+      "claimType": "fact",
+      "confidence": "high",
+      "source": {
+        "label": "Vannevar Bush, \"As We May Think,\" The Atlantic Monthly (July 1945)",
+        "url": "https://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/",
+        "accessedDate": "2026-08-13"
+      }
+    },
+    {
+      "id": "visicalc",
+      "title": "VisiCalc and the primitive that grew a category",
+      "date": {
+        "display": "1979",
+        "sortKey": 1979
+      },
+      "lane": "north-america",
+      "story": "VisiCalc, released in October 1979 by Dan Bricklin and Bob Frankston through their company Software Arts, was the first electronic spreadsheet. It did not put accountants out of work; instead, it made vastly more accounting and financial modeling possible and created categories of work — financial analysis, business planning — that nobody could have fully described beforehand. VisiCalc is the clearest historical example of Bush's pattern playing out in software: a new capability arrives looking like a primitive, and its real destination only becomes visible once people start building on top of it.",
+      "people": [
+        "Dan Bricklin",
+        "Bob Frankston"
+      ],
+      "topics": [
+        "VisiCalc",
+        "spreadsheets",
+        "software primitives",
+        "Software Arts"
+      ],
+      "claimType": "fact",
+      "confidence": "high",
+      "source": {
+        "label": "Dan Bricklin & Bob Frankston, VisiCalc (Software Arts, released October 1979)",
+        "url": "https://www.bricklin.com/history/vcexecutable.htm",
+        "accessedDate": "2026-08-13"
+      }
+    },
+    {
+      "id": "react-agentic-loop",
+      "title": "ReAct: reasoning and acting in a loop",
+      "date": {
+        "display": "2022",
+        "sortKey": 2022
+      },
+      "lane": "north-america",
+      "story": "The 2022 ReAct paper demonstrated a step similarly shaped to Bush's memex sketch and VisiCalc's spreadsheet, but for AI: a practical loop in which a language model could reason about a task, take an action, observe what happened, and continue — rather than simply generating a single answer. This reasoning-act-observe loop became the template that later API actions, computer-use capabilities, tool-connection standards, and coding agents built on to connect language models to real software.",
+      "people": [
+        "Shunyu Yao",
+        "ReAct co-authors"
+      ],
+      "topics": [
+        "AI agents",
+        "tool use",
+        "ReAct",
+        "reasoning and acting"
+      ],
+      "claimType": "fact",
+      "confidence": "high",
+      "source": {
+        "label": "Yao et al., \"ReAct: Synergizing Reasoning and Acting in Language Models\" (2022)",
+        "url": "https://arxiv.org/abs/2210.03629",
+        "accessedDate": "2026-08-13"
+      }
+    },
+    {
+      "id": "openclaw-agent-runtime",
+      "title": "OpenClaw and the visible personal agent",
+      "date": {
+        "display": "2025",
+        "sortKey": 2025
+      },
+      "lane": "north-america",
+      "story": "OpenClaw became a visible example of the ReAct-style loop put to everyday use: a persistent personal-agent runtime connected to messages, files, and tools. It did not invent agents — it made a broader shift easier to see: from a model that generates an answer to a system that carries work through a changing environment over time. The same pattern Bush anticipated in 1945 and VisiCalc demonstrated in 1979 recurs here: today's agents look like a primitive, not necessarily the destination.",
+      "people": [
+        "Peter Steinberger",
+        "OpenClaw contributors"
+      ],
+      "topics": [
+        "AI agents",
+        "computer use",
+        "personal assistants",
+        "OpenClaw"
+      ],
+      "claimType": "interpretation",
+      "confidence": "medium-high",
+      "source": {
+        "label": "OpenClaw repository and agent runtime docs (repository created 2025-11-24, per GitHub API)",
+        "url": "https://github.com/openclaw/openclaw",
+        "accessedDate": "2026-08-13"
+      }
     }
   ]
 }

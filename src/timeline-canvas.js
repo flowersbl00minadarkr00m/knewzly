@@ -61,7 +61,7 @@ function layoutAnchors(anchors) {
   return anchors.map((anchor) => {
     const slot = eraIndex.get(anchor.date?.sortKey) ?? 0;
     const x = CANVAS_LEFT_MARGIN + slot * ERA_SLOT_WIDTH + ERA_SLOT_WIDTH / 2;
-    const laneId = LANES.some((l) => l.id === anchor.lane) ? anchor.lane : 'europe';
+    const laneId = resolveLaneId(anchor);
     const laneRow = laneIndex.get(laneId) ?? 1;
     const key = `${laneId}:${slot}`;
     const stagger = occupied.get(key) ?? 0;
@@ -76,12 +76,24 @@ function laneLabel(laneId) {
 }
 
 /**
+ * Resolves an anchor's lane id to a known lane, falling back to 'europe'
+ * for anything unrecognized — matching layoutAnchors' positioning fallback.
+ * Used everywhere a lane is displayed (accessible name, meta text) so an
+ * anchor with a bad/unknown lane value never surfaces its raw, unrecognized
+ * lane id to a screen reader or as visible text; it just quietly renders in
+ * Europe like it's positioned.
+ */
+function resolveLaneId(anchor) {
+  return LANES.some((l) => l.id === anchor.lane) ? anchor.lane : 'europe';
+}
+
+/**
  * Builds the accessible name for an anchor button per US-001: date, title,
  * and region/lane must all be exposed in the accessible name.
  */
 function anchorAccessibleName(anchor, { suggested = false } = {}) {
   const date = anchor.date?.display ?? 'undated';
-  const lane = laneLabel(anchor.lane);
+  const lane = laneLabel(resolveLaneId(anchor));
   const base = `${date}, ${anchor.title}, ${lane} lane`;
   return suggested ? `${base} — suggested starting point` : base;
 }
@@ -176,7 +188,7 @@ export function renderTimelineCanvas(root, anchorsDoc) {
 
     const meta = document.createElement('span');
     meta.className = 'anchor-meta';
-    meta.textContent = laneLabel(anchor.lane);
+    meta.textContent = laneLabel(resolveLaneId(anchor));
     button.appendChild(meta);
 
     if (isSuggested) {

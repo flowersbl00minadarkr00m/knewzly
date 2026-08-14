@@ -1,6 +1,51 @@
 {
-  "_note": "Production relationship set for T2's pilot spine. Each entry reuses a relationship already verified during this session's earlier Global History Atlas timeline work, reselected to connect the 9-anchor pilot spine into a coherent, traceable structure rather than a fully-connected graph.",
+  "_note": "Full relationship set for the expanded anchor spine (2026-08-13), extracted programmatically from .ai/sdd/design/timeline-atlas-concept.html plus 3 new edges wiring the agentic-loop anchor into the existing graph.",
   "relationships": [
+    {
+      "id": "zhuangzi-heidegger",
+      "from": "zhuangzi",
+      "to": "heidegger",
+      "type": "conceptual lens",
+      "confidence": "indirect",
+      "claimType": "conceptual-analogy",
+      "label": "Zhuangzi's craft mastery → Heidegger's poiesis/\"bringing-forth\" reading of pre-modern craft."
+    },
+    {
+      "id": "socrates-aristotle",
+      "from": "socrates",
+      "to": "aristotle",
+      "type": "influenced",
+      "confidence": "interpretation",
+      "claimType": "interpretation",
+      "label": "Socrates' questioning method → Aristotle's systematic categorization of knowledge."
+    },
+    {
+      "id": "aristotle-gruber",
+      "from": "aristotle",
+      "to": "gruber",
+      "type": "conceptual lens",
+      "confidence": "indirect",
+      "claimType": "conceptual-analogy",
+      "label": "Aristotle's categorial scheme → Gruber's 1993 ontology definition"
+    },
+    {
+      "id": "kant-hegel",
+      "from": "kant",
+      "to": "hegel",
+      "type": "influenced",
+      "confidence": "documented",
+      "claimType": "fact",
+      "label": "Kant's critique of reason → Hegel's dialectical development of ideas."
+    },
+    {
+      "id": "hegel-marx",
+      "from": "hegel",
+      "to": "marx",
+      "type": "reacted against",
+      "confidence": "documented",
+      "claimType": "fact",
+      "label": "Marx inverted Hegel's idealist dialectic into a materialist one grounded in economic and technological conditions."
+    },
     {
       "id": "lovelace-turing",
       "from": "lovelace",
@@ -8,7 +53,16 @@
       "type": "reacted against",
       "confidence": "documented",
       "claimType": "fact",
-      "label": "Lovelace's 1843 objection → Turing's 1950 reply, which he explicitly called \"Lady Lovelace's Objection\""
+      "label": "Turing later answered what he called \"Lady Lovelace's Objection.\""
+    },
+    {
+      "id": "marx-kenyalabor",
+      "from": "marx",
+      "to": "kenyalabor",
+      "type": "conceptual lens",
+      "confidence": "indirect",
+      "claimType": "conceptual-analogy",
+      "label": "Marx's means-of-production frame → who owns the compute, data and labor behind today's AI systems."
     },
     {
       "id": "polish-turing",
@@ -17,16 +71,25 @@
       "type": "enabled",
       "confidence": "documented",
       "claimType": "fact",
-      "label": "Poland's reconstructed Enigma and decryption methods → Bletchley Park's wartime codebreaking work, where Turing served"
+      "label": "Poland's Enigma break → Turing's Bletchley Park codebreaking work."
     },
     {
-      "id": "turing-mcculloch",
-      "from": "turing",
-      "to": "mcculloch",
-      "type": "enabled",
-      "confidence": "documented",
-      "claimType": "fact",
-      "label": "Turing's 1936 formal model of computation → the McCulloch–Pitts 1943 artificial-neuron model"
+      "id": "wittgenstein-turing",
+      "from": "wittgenstein",
+      "to": "turing",
+      "type": "conceptual lens",
+      "confidence": "indirect",
+      "claimType": "conceptual-analogy",
+      "label": "Wittgenstein's meaning-as-use → the operational, behavior-based test Turing proposes for machine intelligence."
+    },
+    {
+      "id": "wittgenstein-parrots",
+      "from": "wittgenstein",
+      "to": "parrots",
+      "type": "conceptual lens",
+      "confidence": "indirect",
+      "claimType": "conceptual-analogy",
+      "label": "Meaning-as-use → the 2021 \"Stochastic Parrots\" critique of what LLMs can and cannot mean."
     },
     {
       "id": "turing-dartmouth",
@@ -35,7 +98,34 @@
       "type": "influenced",
       "confidence": "documented",
       "claimType": "fact",
-      "label": "Turing's machine-intelligence question → the 1956 Dartmouth field-forming proposal"
+      "label": "Turing's earlier machine-intelligence question → Dartmouth."
+    },
+    {
+      "id": "turing-mcculloch",
+      "from": "turing",
+      "to": "mcculloch",
+      "type": "enabled",
+      "confidence": "documented",
+      "claimType": "fact",
+      "label": "Turing's formal model of computation → McCulloch and Pitts's 1943 artificial-neuron model."
+    },
+    {
+      "id": "turing-searle",
+      "from": "turing",
+      "to": "searle",
+      "type": "reacted against",
+      "confidence": "documented",
+      "claimType": "fact",
+      "label": "Searle's Chinese Room directly challenges whether passing Turing's behavioral test proves understanding."
+    },
+    {
+      "id": "turing-putnam",
+      "from": "turing",
+      "to": "putnam",
+      "type": "influenced",
+      "confidence": "documented",
+      "claimType": "fact",
+      "label": "Turing's machine formalism → Putnam's machine functionalism."
     },
     {
       "id": "mcculloch-backprop",
@@ -44,34 +134,331 @@
       "type": "enabled",
       "confidence": "documented",
       "claimType": "fact",
-      "label": "The McCulloch–Pitts artificial neuron → trainable multi-layer networks via backpropagation"
+      "label": "The McCulloch–Pitts neuron → backpropagation's trainable multi-layer networks."
     },
     {
-      "id": "wittgenstein-transformer",
-      "from": "wittgenstein",
-      "to": "transformer",
+      "id": "heidegger-kenyalabor",
+      "from": "heidegger",
+      "to": "kenyalabor",
       "type": "conceptual lens",
       "confidence": "indirect",
       "claimType": "conceptual-analogy",
-      "label": "Meaning-as-use in language games → how attention-based language models derive meaning from patterns of use (a conceptual lens later writers apply, not a claim Wittgenstein anticipated neural networks)"
+      "label": "Heidegger's enframing/standing-reserve → later readings of data-labeling labor conditions."
     },
     {
-      "id": "backprop-transformer",
-      "from": "backprop",
+      "id": "wiener-bohm",
+      "from": "wiener",
+      "to": "bohm",
+      "type": "conceptual lens",
+      "confidence": "indirect",
+      "claimType": "conceptual-analogy",
+      "label": "Wiener's cybernetics/feedback vocabulary → the structured, loop-based computation Böhm and Jacopini formalize in 1966."
+    },
+    {
+      "id": "wiener-wiener1950",
+      "from": "wiener",
+      "to": "wiener1950",
+      "type": "conceptual lens",
+      "confidence": "indirect",
+      "claimType": "conceptual-analogy",
+      "label": "Wiener's automation-and-labor warning → the present-day human labor made invisible behind \"automated\" AI systems."
+    },
+    {
+      "id": "dartmouth-searle",
+      "from": "dartmouth",
+      "to": "searle",
+      "type": "reacted against",
+      "confidence": "interpretation",
+      "claimType": "interpretation",
+      "label": "Dartmouth's symbolic-AI program → Searle's 1980 Chinese Room challenge to symbol-manipulation-as-understanding."
+    },
+    {
+      "id": "dartmouth-georgetownibm",
+      "from": "dartmouth",
+      "to": "georgetownibm",
+      "type": "influenced",
+      "confidence": "interpretation",
+      "claimType": "interpretation",
+      "label": "Georgetown–IBM's public success → the funding and research climate feeding into the 1956 Dartmouth conference."
+    },
+    {
+      "id": "chomsky-dartmouth",
+      "from": "chomsky",
+      "to": "dartmouth",
+      "type": "influenced",
+      "confidence": "documented",
+      "claimType": "fact",
+      "label": "Chomsky's formal-grammar apparatus → formal-language tools used across early AI and computer science, including work discussed at Dartmouth."
+    },
+    {
+      "id": "dartmouth-prolog",
+      "from": "dartmouth",
+      "to": "prolog",
+      "type": "iterated on",
+      "confidence": "documented",
+      "claimType": "fact",
+      "label": "Dartmouth's symbolic-AI program → Prolog's logic-programming paradigm."
+    },
+    {
+      "id": "dartmouth-deepblue",
+      "from": "dartmouth",
+      "to": "deepblue",
+      "type": "iterated on",
+      "confidence": "documented",
+      "claimType": "fact",
+      "label": "Dartmouth-era search research → Deep Blue's brute-force game-tree search."
+    },
+    {
+      "id": "bohm-transformer",
+      "from": "bohm",
       "to": "transformer",
       "type": "enabled",
       "confidence": "interpretation",
       "claimType": "interpretation",
-      "label": "Backpropagation's trainable networks → the field-wide momentum toward the deep, trainable architectures that led to the Transformer (a looser, field-level connection, not a direct technical dependency)"
+      "label": "Böhm–Jacopini's structured control flow → the layered, iterated computation inside a Transformer."
     },
     {
-      "id": "transformer-kenyalabor",
-      "from": "transformer",
-      "to": "kenyalabor",
+      "id": "licklider-bohm",
+      "from": "licklider",
+      "to": "bohm",
+      "type": "conceptual lens",
+      "confidence": "indirect",
+      "claimType": "conceptual-analogy",
+      "label": "Licklider's human-machine partnership vision → a counterpoint to Böhm–Jacopini's mechanistic proof about structured computation loops."
+    },
+    {
+      "id": "putnam-searle",
+      "from": "putnam",
+      "to": "searle",
+      "type": "conceptual lens",
+      "confidence": "indirect",
+      "claimType": "conceptual-analogy",
+      "label": "Putnam's functionalism → the target Searle's Chinese Room argument attacks."
+    },
+    {
+      "id": "backprop-alexnet",
+      "from": "backprop",
+      "to": "alexnet",
+      "type": "enabled",
+      "confidence": "documented",
+      "claimType": "fact",
+      "label": "Backpropagation → AlexNet's 2012 deep-learning breakthrough."
+    },
+    {
+      "id": "backprop-lstm",
+      "from": "backprop",
+      "to": "lstm",
+      "type": "enabled",
+      "confidence": "documented",
+      "claimType": "fact",
+      "label": "Backpropagation → LSTM's gated recurrent training."
+    },
+    {
+      "id": "gruber-siri",
+      "from": "gruber",
+      "to": "siri",
+      "type": "enabled",
+      "confidence": "documented",
+      "claimType": "fact",
+      "label": "Tom Gruber's ontology work → Siri, which Gruber co-founded."
+    },
+    {
+      "id": "alexnet-alphago",
+      "from": "alexnet",
+      "to": "alphago",
+      "type": "enabled",
+      "confidence": "documented",
+      "claimType": "fact",
+      "label": "AlexNet's deep-learning proof → AlphaGo's deep reinforcement learning."
+    },
+    {
+      "id": "alexnet-transformer",
+      "from": "alexnet",
+      "to": "transformer",
       "type": "enabled",
       "confidence": "interpretation",
       "claimType": "interpretation",
-      "label": "The Transformer architecture underlying deployed large language models → the human data-labeling and content-review labor those deployed systems depend on"
+      "label": "AlexNet's deep-learning proof → field-wide momentum toward the architectures that lead to the Transformer (the Transformer's direct lineage runs through RNN/attention research, not CNNs — this edge is a looser, field-level connection, not a direct technical dependency)."
+    },
+    {
+      "id": "gpuneuralnets06-alexnet",
+      "from": "gpuneuralnets06",
+      "to": "alexnet",
+      "type": "enabled",
+      "confidence": "documented",
+      "claimType": "fact",
+      "label": "Pre-2012 GPU-trained neural networks → AlexNet's GPU-scale training."
+    },
+    {
+      "id": "deepblue-alphago",
+      "from": "deepblue",
+      "to": "alphago",
+      "type": "reacted against",
+      "confidence": "interpretation",
+      "claimType": "interpretation",
+      "label": "Deep Blue's brute-force search → AlphaGo's learned self-play, nineteen years apart."
+    },
+    {
+      "id": "deepmind-alphago",
+      "from": "deepmind",
+      "to": "alphago",
+      "type": "institutionalized",
+      "confidence": "documented",
+      "claimType": "fact",
+      "label": "DeepMind, the lab → AlphaGo, the system it built."
+    },
+    {
+      "id": "transformer-chatgpt",
+      "from": "transformer",
+      "to": "chatgpt",
+      "type": "enabled",
+      "confidence": "documented",
+      "claimType": "fact",
+      "label": "The Transformer architecture → ChatGPT's 2022 public launch."
+    },
+    {
+      "id": "masterman-transformer",
+      "from": "masterman",
+      "to": "transformer",
+      "type": "influenced",
+      "confidence": "interpretation",
+      "claimType": "interpretation",
+      "label": "Masterman's interlingua and thesaurus-based MT research → the deep, multi-decade prehistory of machine translation feeding the Transformer."
+    },
+    {
+      "id": "lstm-transformer",
+      "from": "lstm",
+      "to": "transformer",
+      "type": "iterated on",
+      "confidence": "documented",
+      "claimType": "fact",
+      "label": "LSTM's two-decade dominance as the standard sequence architecture → the Transformer, positioned explicitly against it."
+    },
+    {
+      "id": "transformer-llamaleak",
+      "from": "transformer",
+      "to": "llamaleak",
+      "type": "iterated on",
+      "confidence": "documented",
+      "claimType": "fact",
+      "label": "The Transformer architecture → the leaked LLaMA weights, built on it."
+    },
+    {
+      "id": "wiener1950-kenyalabor",
+      "from": "wiener1950",
+      "to": "kenyalabor",
+      "type": "conceptual lens",
+      "confidence": "indirect",
+      "claimType": "conceptual-analogy",
+      "label": "Wiener's automation-and-labor warning → the present-day human labor made invisible behind \"automated\" AI systems."
+    },
+    {
+      "id": "chatgpt-deepmind",
+      "from": "chatgpt",
+      "to": "deepmind",
+      "type": "reacted against",
+      "confidence": "interpretation",
+      "claimType": "interpretation",
+      "label": "ChatGPT's 2022 launch → Google's 2023 DeepMind/Brain merger, widely read as competitive response."
+    },
+    {
+      "id": "georgetownibm-eliza",
+      "from": "georgetownibm",
+      "to": "eliza",
+      "type": "iterated on",
+      "confidence": "interpretation",
+      "claimType": "interpretation",
+      "label": "Georgetown–IBM's rule-based translation demo → ELIZA's rule-based conversation, entirely different mechanisms."
+    },
+    {
+      "id": "dartmouth-japan",
+      "from": "dartmouth",
+      "to": "japan",
+      "type": "institutionalized",
+      "confidence": "interpretation",
+      "claimType": "interpretation",
+      "label": "The named field later became the object of national programs including Japan's Fifth Generation project."
+    },
+    {
+      "id": "dartmouth-aiwinters",
+      "from": "dartmouth",
+      "to": "aiwinters",
+      "type": "reacted against",
+      "confidence": "documented",
+      "claimType": "fact",
+      "label": "Dartmouth's ambitious early framing of the field enabled the funding collapses that followed when its early promises outran results."
+    },
+    {
+      "id": "searle-sophia",
+      "from": "searle",
+      "to": "sophia",
+      "type": "conceptual lens",
+      "confidence": "interpretation",
+      "claimType": "interpretation",
+      "label": "Searle's understanding-vs-behavior challenge is often invoked, loosely, as a real-world case of confusing surface behavior for genuine agency."
+    },
+    {
+      "id": "dawkins-gruber",
+      "from": "dawkins",
+      "to": "gruber",
+      "type": "conceptual lens",
+      "confidence": "indirect",
+      "claimType": "conceptual-analogy",
+      "label": "Dawkins's replicating memes as units of culture parallel treating a model's training corpus as a pool of patterns it reproduces."
+    },
+    {
+      "id": "backprop-chomsky",
+      "from": "backprop",
+      "to": "chomsky",
+      "type": "reacted against",
+      "confidence": "documented",
+      "claimType": "fact",
+      "label": "Connectionist and statistical approaches like backpropagation-trained networks explicitly critiqued Chomsky's innatist, rule-based grammar."
+    },
+    {
+      "id": "chatgpt-euaiact",
+      "from": "chatgpt",
+      "to": "euaiact",
+      "type": "reacted against",
+      "confidence": "interpretation",
+      "claimType": "interpretation",
+      "label": "ChatGPT's public launch partially accelerated the EU AI Act's foundation-model provisions, though not its sole cause."
+    },
+    {
+      "id": "aiwinters-chatgpt",
+      "from": "aiwinters",
+      "to": "chatgpt",
+      "type": "conceptual lens",
+      "confidence": "indirect",
+      "claimType": "conceptual-analogy",
+      "label": "The historical pattern of boom-then-bust AI funding offers a skeptical lens for evaluating any single year's AI enthusiasm, including ChatGPT's."
+    },
+    {
+      "id": "transformer-react-agentic-loop",
+      "from": "transformer",
+      "to": "react-agentic-loop",
+      "type": "enabled",
+      "confidence": "documented",
+      "claimType": "fact",
+      "label": "Transformer-based language models enabled ReAct-style systems that alternate model reasoning, tool actions and observations."
+    },
+    {
+      "id": "bohm-react-agentic-loop",
+      "from": "bohm",
+      "to": "react-agentic-loop",
+      "type": "enabled",
+      "confidence": "interpretation",
+      "claimType": "interpretation",
+      "label": "Böhm–Jacopini's proof that sequence, selection and iteration suffice for structured computation describes the computational shape of today's tool-using agent loop, formalized in ReAct."
+    },
+    {
+      "id": "licklider-openclaw-agent-runtime",
+      "from": "licklider",
+      "to": "openclaw-agent-runtime",
+      "type": "conceptual lens",
+      "confidence": "indirect",
+      "claimType": "conceptual-analogy",
+      "label": "Licklider's human-machine partnership vision — humans set goals, machines handle routine work — is a counterpoint later tool-using agents like OpenClaw inherit alongside Böhm–Jacopini's mechanistic loop."
     }
   ]
 }

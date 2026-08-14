@@ -388,6 +388,41 @@ test('T6 DOM: initVisitedTracker end-to-end — real content, fake storage, simu
     assert.equal(canvasRoot.querySelectorAll('.anchor').length, anchorButtons.length);
   });
 
+  await t.test('regression (2026-08-12 live-browser finding): knewzly:visited-import re-renders badges without a page reload', async () => {
+    // A live import-flow test in a real browser found that applyImport
+    // correctly wrote the imported visited set to localStorage, but the
+    // already-rendered anchor-list/canvas badges never caught up until the
+    // next full page load. export-import.js now dispatches
+    // 'knewzly:visited-import' on a successful import; this proves
+    // initVisitedTracker listens and re-renders immediately.
+    const canvasRoot = new FakeElement('div');
+    const anchorButtons = realAnchors.anchors.map((a) => makeAnchorButton(a.id, `${a.date.display}, ${a.title}, ${a.lane} lane`));
+    anchorButtons.forEach((b) => canvasRoot.appendChild(b));
+    const listRoot = new FakeElement('ul');
+    const storage = new FakeStorage();
+
+    await initVisitedTracker({
+      canvasRoot,
+      listRoot,
+      storage,
+      contentOpts: { reader: async (p) => JSON.parse(readFileSync(path.join(__dirname, '..', p), 'utf8')) },
+    });
+
+    const [a1, a2] = realAnchors.anchors;
+    assert.notEqual(canvasRoot.querySelector(`[data-anchor-id="${a1.id}"]`).dataset.visited, 'true');
+
+    // Simulate export-import.js's applyImport already having written to
+    // storage directly (bypassing the drawer-open path entirely, exactly
+    // like a real import does), then firing its completion event.
+    storage.setItem(STORAGE_KEY, JSON.stringify({ version: 1, visited: [a1.id, a2.id] }));
+    document.dispatchEvent(new CustomEvent('knewzly:visited-import', { detail: { visited: [a1.id, a2.id] } }));
+
+    assert.equal(canvasRoot.querySelector(`[data-anchor-id="${a1.id}"]`).dataset.visited, 'true', 'canvas badge updated without a reload');
+    assert.equal(canvasRoot.querySelector(`[data-anchor-id="${a2.id}"]`).dataset.visited, 'true');
+    const listStatus = listRoot.querySelector(`[data-anchor-list-status="${a1.id}"]`);
+    assert.match(listStatus.textContent, /Visited/, 'text anchor list also caught up');
+  });
+
   await t.test('a second, unrelated anchor button is untouched by another anchor being visited', async () => {
     const canvasRoot = new FakeElement('div');
     const [a1, a2] = realAnchors.anchors;

@@ -70,9 +70,9 @@ test('T4 pure logic: buildRelationshipItems enriches every relationship with rea
     }
   });
 
-  await t.test('real production data (content/relationships.json): all 8 relationships enrich cleanly, matching T2\'s documented/interpretation/indirect mix', () => {
+  await t.test('real production data (content/relationships.json): all 9 relationships enrich cleanly, matching T2\'s documented/interpretation/indirect mix', () => {
     const items = buildRelationshipItems(realRelationships, realAnchors);
-    assert.equal(items.length, 8);
+    assert.equal(items.length, realRelationships.relationships.length);
     const documented = items.filter((i) => i.confidence === 'documented');
     const nonDocumented = items.filter((i) => i.confidence !== 'documented');
     assert.ok(documented.length > 0, 'expected at least one documented (solid-arc) relationship in real content');
@@ -391,7 +391,7 @@ test('T4 DOM: focusRelationship — pointer path and keyboard path converge on i
 test('T4 DOM: initRelationshipLayer end-to-end — real production content/relationships.json + content/anchors.json against a simulated T3-rendered canvas', async (t) => {
   const { initRelationshipLayer } = await import('../src/relationship-layer.js');
 
-  await t.test('happy path: index gets all 8 real relationships, arcs get drawn, no error state shown', async () => {
+  await t.test('happy path: index gets all 9 real relationships, arcs get drawn, no error state shown', async () => {
     const canvasRoot = new FakeElement('div');
     const timelineCanvas = new FakeElement('div');
     timelineCanvas.className = 'timeline-canvas';
@@ -413,11 +413,11 @@ test('T4 DOM: initRelationshipLayer end-to-end — real production content/relat
 
     await initRelationshipLayer({ canvasRoot, indexRoot, contentOpts: { reader } });
 
-    assert.equal(indexRoot.children.length, 8, 'all 8 real relationships should render in the text index');
+    assert.equal(indexRoot.children.length, realRelationships.relationships.length, 'all real relationships should render in the text index');
     assert.doesNotMatch(indexRoot.textContent, /could not load|failed validation/i);
     const svg = timelineCanvas.querySelector('.relationship-layer');
     assert.ok(svg, 'an SVG relationship-layer element must be inserted into the timeline canvas');
-    assert.equal(svg.children.length, 8, 'all 8 relationships should have a drawn arc (all real anchors are present)');
+    assert.equal(svg.children.length, realRelationships.relationships.length, 'all relationships should have a drawn arc (all real anchors are present)');
   });
 
   await t.test('validation failure surfaces a plain-text error in the index, not a silent blank list', async () => {

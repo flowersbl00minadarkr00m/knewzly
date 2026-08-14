@@ -1,8 +1,8 @@
 {
-  "$comment": "STARTER allowlist — needs content-review before production use. Populated with well-known, reputable AI-news sources as a placeholder so the T10 pipeline has something concrete to fetch/validate against. Real allowlist curation (source trust tiering, topic/region metadata per D-008's design-input notes) is a content-review responsibility, not a code decision made by this task. Do not treat this list as final.",
-  "reviewed": false,
-  "reviewedBy": null,
-  "reviewedDate": null,
+  "$comment": "Allowlist expanded 2026-08-14 (Henry direction: 'I would expect at least 50 stories across different categories... I believe the rules are overly restrictive', with 15 named sources) — see requirements.md D-015/D-016. 11 new entries added this round: venturebeat-ai, wired-ai, anthropic-research, rundown-ai, tldr-ai, the-neuron, forbes-ai-innovation, stanford-hai, huggingface-blog, nvidia-tech-blog, the-gradient. Every feedUrl below was live-fetched with Node's real fetch() (matching scripts/refresh-today.js's actual runtime, not a browser-UA curl call — one prior entry, theverge-ai, had a feedUrl that 404'd regardless of client; the real path was discovered from the site's own <link rel=alternate> tag and corrected here) on 2026-08-14. Two named sources (Anthropic Research, Rundown AI) and one pre-existing one (Stanford HAI, added alongside this round) have no discoverable public RSS/Atom feed as of this date — each falls back to its hub/homepage URL as feedUrl, the same documented precedent as ap-news-ai/reuters-tech/anthropic-news above, and will fail closed (contribute 0 items) in a live run until the publisher ships a feed. This remains a content-review responsibility going forward, not a one-time code change — D-008's original discipline still applies. Earlier history retained below.\n\nAllowlist expanded 2026-08-13 (Henry direction, relayed via sdd-brief.md checkpoint: \"expand to other news sources like official blogs from OpenAI, Anthropic, Microsoft, etc and other reputable news sources\") — see requirements.md D-012. Original 2026-08-12 starter-list comment retained below for history. New entries: openai-blog, anthropic-news, microsoft-ai-blog, google-deepmind-blog, techcrunch-ai, theverge-ai — official company blogs plus two reputable independent outlets, each feed live-checked in this session where the fetch tool could reach the host (see each entry's notes for verification status). This remains a content-review responsibility going forward, not a one-time code change — D-008's original discipline still applies. Original starter-list note: Starter allowlist, content-reviewed and approved 2026-08-12 (Henry, direct chat approval) as the initial reputable-source set for T10's pilot run. Real allowlist curation (source trust tiering, topic/region metadata per D-008's design-input notes) remains an ongoing content-review responsibility, not a code decision — this sign-off approves the original 3 sources as a starting set, not a final one. Two entries (ap-news-ai, reuters-tech) reuse their hub page URL as feedUrl since no dedicated feed endpoint was confirmed; a live run may fail-closed on those specific sources if no parseable feed exists there, which is expected behavior, not a defect.",
+  "reviewed": true,
+  "reviewedBy": "Henry Flowers",
+  "reviewedDate": "2026-08-14",
   "sources": [
     {
       "id": "ap-news-ai",
@@ -24,6 +24,125 @@
       "url": "https://www.reuters.com/technology/",
       "feedUrl": "https://www.reuters.com/technology/",
       "notes": "Wire-service reporting, high general trust; verify a stable feed/API endpoint before relying on this entry in a live run."
+    },
+    {
+      "id": "openai-blog",
+      "name": "OpenAI — News",
+      "url": "https://openai.com/news/",
+      "feedUrl": "https://openai.com/news/rss.xml",
+      "notes": "Official company blog. Feed verified live 2026-08-13 (valid RSS 2.0, real items)."
+    },
+    {
+      "id": "anthropic-news",
+      "name": "Anthropic — Newsroom",
+      "url": "https://www.anthropic.com/news",
+      "feedUrl": "https://www.anthropic.com/news",
+      "notes": "Official company newsroom. No confirmed official RSS/Atom feed as of 2026-08-13 (page exposes no feed link) — feedUrl reuses the hub page like ap-news-ai/reuters-tech above; expect this source to fail closed in a live run until Anthropic ships a feed or a source-specific scraper is added."
+    },
+    {
+      "id": "microsoft-ai-blog",
+      "name": "Microsoft — AI news",
+      "url": "https://news.microsoft.com/source/topics/ai/",
+      "feedUrl": "https://news.microsoft.com/source/topics/ai/feed/",
+      "notes": "Official company blog (news.microsoft.com AI topic, not the now-defunct blogs.microsoft.com/ai). Feed verified live 2026-08-13 (valid RSS 2.0, real items); re-verified live 2026-08-14."
+    },
+    {
+      "id": "google-deepmind-blog",
+      "name": "Google DeepMind — Blog",
+      "url": "https://deepmind.google/blog/",
+      "feedUrl": "https://deepmind.google/blog/rss.xml",
+      "notes": "Official company blog. Feed verified live 2026-08-13 (valid RSS 2.0, real items)."
+    },
+    {
+      "id": "techcrunch-ai",
+      "name": "TechCrunch — Artificial Intelligence",
+      "url": "https://techcrunch.com/category/artificial-intelligence/",
+      "feedUrl": "https://techcrunch.com/category/artificial-intelligence/feed/",
+      "notes": "Reputable independent tech-news outlet, AI-focused category feed. Verified live 2026-08-13 (valid RSS 2.0, real items)."
+    },
+    {
+      "id": "theverge-ai",
+      "name": "The Verge — Artificial Intelligence",
+      "url": "https://www.theverge.com/ai-artificial-intelligence",
+      "feedUrl": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+      "notes": "Reputable independent tech-news outlet, AI-focused category feed. 2026-08-14 correction: the previously recorded feedUrl (.../ai-artificial-intelligence/rss/index.xml) 404s regardless of client — the real path, discovered from the live page's own <link rel=alternate> tag, reverses the last two path segments. Verified live 2026-08-14 (valid Atom feed)."
+    },
+    {
+      "id": "venturebeat-ai",
+      "name": "VentureBeat — AI",
+      "url": "https://venturebeat.com/category/ai/",
+      "feedUrl": "https://venturebeat.com/category/ai/feed/",
+      "notes": "Reputable independent tech-news outlet, AI-focused category feed. Verified live 2026-08-14 (valid RSS 2.0, real items)."
+    },
+    {
+      "id": "wired-ai",
+      "name": "Wired — Artificial Intelligence",
+      "url": "https://www.wired.com/tag/artificial-intelligence/",
+      "feedUrl": "https://www.wired.com/feed/tag/ai/latest/rss",
+      "notes": "Reputable independent tech-news outlet, AI-focused tag feed. Verified live 2026-08-14 (valid RSS 2.0, real items)."
+    },
+    {
+      "id": "anthropic-research",
+      "name": "Anthropic — Research",
+      "url": "https://www.anthropic.com/research",
+      "feedUrl": "https://www.anthropic.com/research",
+      "notes": "Official company research hub, distinct from anthropic-news (product/company announcements) above. No discoverable RSS/Atom feed as of 2026-08-14 — feedUrl reuses the hub page like anthropic-news; expect this source to fail closed in a live run until Anthropic ships a feed."
+    },
+    {
+      "id": "rundown-ai",
+      "name": "The Rundown AI",
+      "url": "https://www.therundown.ai/",
+      "feedUrl": "https://www.therundown.ai/",
+      "notes": "Reputable independent AI newsletter. No discoverable RSS/Atom feed as of 2026-08-14 (checked the homepage's own <link rel=alternate> tags and common beehiiv/rss paths, none resolved) — feedUrl reuses the homepage; expect this source to fail closed in a live run until a feed is found or published."
+    },
+    {
+      "id": "tldr-ai",
+      "name": "TLDR AI",
+      "url": "https://tldr.tech/ai",
+      "feedUrl": "https://tldr.tech/api/rss/ai",
+      "notes": "Reputable independent AI newsletter. Verified live 2026-08-14 (valid RSS 2.0, real items)."
+    },
+    {
+      "id": "the-neuron",
+      "name": "The Neuron",
+      "url": "https://www.theneurondaily.com/",
+      "feedUrl": "https://rss.beehiiv.com/feeds/N4eCstxvgX.xml",
+      "notes": "Reputable independent AI newsletter (beehiiv-hosted). Feed URL discovered from the homepage's own <link rel=alternate> tag. Verified live 2026-08-14 (valid RSS 2.0, real items)."
+    },
+    {
+      "id": "forbes-ai-innovation",
+      "name": "Forbes — Innovation",
+      "url": "https://www.forbes.com/innovation/",
+      "feedUrl": "https://www.forbes.com/innovation/feed/",
+      "notes": "Reputable general-interest outlet's Innovation channel (Forbes has no separate dedicated AI-only feed as of 2026-08-14 — this is the closest matching real feed to Henry's named 'Forbes AI and Innovation Channel'; covers AI stories alongside broader innovation coverage). Verified live 2026-08-14 (valid RSS 2.0, real items)."
+    },
+    {
+      "id": "stanford-hai",
+      "name": "Stanford HAI",
+      "url": "https://hai.stanford.edu/news",
+      "feedUrl": "https://hai.stanford.edu/news",
+      "notes": "Reputable academic AI institute (Stanford Institute for Human-Centered AI). No discoverable RSS/Atom feed as of 2026-08-14 (checked its own pages and common /rss.xml, /feed paths — those return the site's HTML shell, not XML) — feedUrl reuses the news hub page; expect this source to fail closed in a live run until Stanford HAI ships a feed."
+    },
+    {
+      "id": "huggingface-blog",
+      "name": "Hugging Face — Blog",
+      "url": "https://huggingface.co/blog",
+      "feedUrl": "https://huggingface.co/blog/feed.xml",
+      "notes": "Official company blog, high-volume (hundreds of historical posts) — scripts/refresh-today.js's fetchAllowlistedItems perSourceLimit keeps a live run to only this source's most recent items, not its full archive. Verified live 2026-08-14 (valid RSS 2.0, real items)."
+    },
+    {
+      "id": "nvidia-tech-blog",
+      "name": "NVIDIA — Technical Blog",
+      "url": "https://developer.nvidia.com/blog",
+      "feedUrl": "https://developer.nvidia.com/blog/feed",
+      "notes": "Official company technical blog, high-volume — same perSourceLimit note as huggingface-blog applies. Verified live 2026-08-14 (valid Atom feed, real items)."
+    },
+    {
+      "id": "the-gradient",
+      "name": "The Gradient",
+      "url": "https://thegradient.pub/",
+      "feedUrl": "https://thegradient.pub/rss/",
+      "notes": "Reputable independent AI research/commentary publication. Verified live 2026-08-14 (valid RSS 2.0, real items)."
     }
   ]
 }

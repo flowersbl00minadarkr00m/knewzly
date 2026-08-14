@@ -1,3 +1,17 @@
 node_modules/
 *.log
 .DS_Store
+
+# Agent/SDD internals — not part of the shipped app
+.ai/
+.claude/
+.pi/
+.playwright-cli/
+output/
+POST-PLAN.md
+
+# Unrelated documentary production assets (not the F01 web app)
+artifacts/
+scripts/build_narration_v2_beat_sheet.ps1
+scripts/build_seedance_handoff_v2.ps1
+scripts/build_seedance_reference_animatic.ps1

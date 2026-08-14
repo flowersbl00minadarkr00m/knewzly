@@ -1,6 +1,666 @@
 {
-  "_note": "Real production file, seeded pre-launch. The scheduled CI news-refresh job (T10, scripts/refresh-today.js) has not actually run against live sources yet — this honestly reflects that: freshnessState 'no_data', zero stories, rather than fabricating placeholder news. Once T10's cron job runs for real, it will overwrite this file with genuine fetched content. Discovered as a real cross-task integration gap while fixing T6: any code loading real content/ (not content/fixtures/) needs this file to exist at all, even pre-launch.",
-  "lastUpdated": "2026-08-11T00:00:00Z",
-  "freshnessState": "no_data",
-  "stories": []
+  "lastUpdated": "2026-08-14T12:27:11.615Z",
+  "freshnessState": "error",
+  "stories": [
+    {
+      "id": "https://www.theverge.com/?p=980160",
+      "category": "models",
+      "headline": "Apple trained its own AI model for China with help from Alibaba",
+      "source": {
+        "name": "The Verge — Artificial Intelligence",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/980160/apple-intelligence-china-custom-ai-model-alibaba",
+        "publishedDate": "2026-08-14"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "6a74b89762c67abb9111bd59",
+      "category": "safety-governance",
+      "headline": "People Are ‘Marrying’ Chatbots. These Lawmakers Want to Stop Them",
+      "source": {
+        "name": "Wired — Artificial Intelligence",
+        "url": "https://www.wired.com/story/people-are-marrying-chatbots-these-lawmakers-want-to-stop-them/",
+        "publishedDate": "2026-08-14"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theneurondaily.com/p/google-openai-deepseek-dropped-models-today",
+      "category": "models",
+      "headline": "😺 Google, OpenAI, DeepSeek dropped models today",
+      "source": {
+        "name": "The Neuron",
+        "url": "https://www.theneurondaily.com/p/google-openai-deepseek-dropped-models-today",
+        "publishedDate": "2026-08-14"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6a7db2c325f29a24cc220aa6",
+      "category": "research",
+      "headline": "The Biggest Physical AI Opportunity Isn't A Robot",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/councils/forbestechcouncil/2026/08/14/the-biggest-physical-ai-opportunity-isnt-a-robot/",
+        "publishedDate": "2026-08-14"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6a7e2465dfb59bfc7d85ea9c",
+      "category": "labor",
+      "headline": "Higher-Level Skills Software Engineers Need In The AI Era",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/councils/forbestechcouncil/2026/08/14/higher-level-skills-software-engineers-need-in-the-ai-era/",
+        "publishedDate": "2026-08-14"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6a7dae93cbd672d18f85b96e",
+      "category": "research",
+      "headline": "AI Adoption Moves At The Speed Of Trust For SMEs",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/councils/forbestechcouncil/2026/08/14/ai-adoption-moves-at-the-speed-of-trust-for-smes/",
+        "publishedDate": "2026-08-14"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6a7dadb5553676bf3ea67120",
+      "category": "labor",
+      "headline": "Things AI Still Can't Screen For When You're Hiring Engineers",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/councils/forbestechcouncil/2026/08/14/things-ai-still-cant-screen-for-when-youre-hiring-engineers/",
+        "publishedDate": "2026-08-14"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.technologyreview.com/?p=1141904",
+      "category": "safety-governance",
+      "headline": "Flock is tightening its rules in response to a growing surveillance backlash",
+      "source": {
+        "name": "MIT Technology Review — Artificial Intelligence",
+        "url": "https://www.technologyreview.com/2026/08/13/1141904/flock-is-tightening-its-rules-in-response-to-a-growing-surveillance-backlash/",
+        "publishedDate": "2026-08-13"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.technologyreview.com/?p=1141410",
+      "category": "research",
+      "headline": "How kids feel about AI, in their own words",
+      "source": {
+        "name": "MIT Technology Review — Artificial Intelligence",
+        "url": "https://www.technologyreview.com/2026/08/13/1141410/how-kids-feel-about-ai-own-words/",
+        "publishedDate": "2026-08-13"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://openai.com/index/builders-guide-to-gpt-5-6",
+      "category": "models",
+      "headline": "The builder’s guide to GPT‑5.6",
+      "source": {
+        "name": "OpenAI — News",
+        "url": "https://openai.com/index/builders-guide-to-gpt-5-6",
+        "publishedDate": "2026-08-13"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://openai.com/index/previewing-ultrafast",
+      "category": "models",
+      "headline": "Previewing Ultrafast mode: GPT-5.6 Sol at up to 14X the speed",
+      "source": {
+        "name": "OpenAI — News",
+        "url": "https://openai.com/index/previewing-ultrafast",
+        "publishedDate": "2026-08-13"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://deepmind.google/blog/introducing-gemini-3-7-flash/",
+      "category": "models",
+      "headline": "Introducing Gemini 3.7 Flash",
+      "source": {
+        "name": "Google DeepMind — Blog",
+        "url": "https://deepmind.google/blog/introducing-gemini-3-7-flash/",
+        "publishedDate": "2026-08-13"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3152760",
+      "category": "models",
+      "headline": "Writer introduces new AI model and upgraded harness to contain token costs",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/08/13/writer-introduces-new-ai-model-and-upgraded-harness-to-contain-token-costs/",
+        "publishedDate": "2026-08-13"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3152875",
+      "category": "models",
+      "headline": "OpenAI introduces &#8216;Ultrafast,&#8217; a new mode that makes GPT-5.6 Sol work at 14x the speed",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/08/13/openai-introduces-ultrafast-a-new-mode-that-makes-gpt-5-6-sol-work-at-14x-the-speed/",
+        "publishedDate": "2026-08-13"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3152914",
+      "category": "ai-lifecycle",
+      "headline": "IBM partners with OpenAI to bolster enterprise AI push",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/08/13/ibm-partners-with-openai-to-bolster-enterprise-ai-push/",
+        "publishedDate": "2026-08-13"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3152849",
+      "category": "safety-governance",
+      "headline": "Anthropic set AI agents loose on the same task. They started a turf war.",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/08/13/anthropic-set-ai-agents-loose-on-the-same-task-they-started-a-turf-war/",
+        "publishedDate": "2026-08-13"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3152748",
+      "category": "ai-lifecycle",
+      "headline": "Microsoft kills off unsuccessful AI features while merging its separate Copilot apps",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/08/13/microsoft-kills-off-unsuccessful-ai-features-while-merging-its-separate-copilot-apps/",
+        "publishedDate": "2026-08-13"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3152223",
+      "category": "compute-energy",
+      "headline": "Nvidia&#8217;s new $500B plan is risky but brilliant, especially for aging GPUs",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/08/13/nvidias-new-500b-plan-is-risky-but-brilliant-especially-for-aging-gpus/",
+        "publishedDate": "2026-08-13"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theverge.com/?p=979871",
+      "category": "ai-lifecycle",
+      "headline": "Microsoft’s Clippy-like Mico character is no longer the face of Copilot",
+      "source": {
+        "name": "The Verge — Artificial Intelligence",
+        "url": "https://www.theverge.com/tech/979871/microsoft-copilot-mico-retired",
+        "publishedDate": "2026-08-13"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theverge.com/?p=979345",
+      "category": "models",
+      "headline": "Suno is trying to look more like a real music production tool",
+      "source": {
+        "name": "The Verge — Artificial Intelligence",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/979345/suno-studio-2-0-midi-chatbot-custom-effects",
+        "publishedDate": "2026-08-13"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theverge.com/?p=977994",
+      "category": "research",
+      "headline": "I looked inside an AI generated movie, and the best parts were all human",
+      "source": {
+        "name": "The Verge — Artificial Intelligence",
+        "url": "https://www.theverge.com/entertainment/977994/higgsfield-ai-cully-hill-boys-black-list",
+        "publishedDate": "2026-08-13"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theverge.com/?p=979466",
+      "category": "ai-lifecycle",
+      "headline": "Microsoft is combining its Copilot apps ahead of a ‘super app’",
+      "source": {
+        "name": "The Verge — Artificial Intelligence",
+        "url": "https://www.theverge.com/tech/979466/microsoft-copilot-365-app-unified-experience",
+        "publishedDate": "2026-08-13"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "6a7cfc8e45debd0b63663f75",
+      "category": "safety-governance",
+      "headline": "The Safety Reckoning Inside OpenAI",
+      "source": {
+        "name": "Wired — Artificial Intelligence",
+        "url": "https://www.wired.com/story/openai-safety-security-ai-agents-culture/",
+        "publishedDate": "2026-08-13"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "6a7ccb31f8503d5e8d3678fc",
+      "category": "safety-governance",
+      "headline": "Mark Zuckerberg’s AI Manifesto Is 6,500 Words—and Barely Says Anything",
+      "source": {
+        "name": "Wired — Artificial Intelligence",
+        "url": "https://www.wired.com/story/mark-zuckerbergs-ai-manifesto-is-6500-words-and-barely-says-anything/",
+        "publishedDate": "2026-08-13"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "6a7a2a8913d9a5bbede86a45",
+      "category": "research",
+      "headline": "There’s a Fatty Liver Epidemic. AI Could Help Get Ahead of It",
+      "source": {
+        "name": "Wired — Artificial Intelligence",
+        "url": "https://www.wired.com/story/fatty-liver-disease-ai-detection-cancer/",
+        "publishedDate": "2026-08-13"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://tldr.tech/ai/2026-08-13",
+      "category": "models",
+      "headline": "Claude Chrome Cowork 🌐, Grok 4.6 🚀, DeepSeek v4-Pro-0813 🧠",
+      "source": {
+        "name": "TLDR AI",
+        "url": "https://tldr.tech/ai/2026-08-13",
+        "publishedDate": "2026-08-13"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theneurondaily.com/p/grok-4-6-is-gpt-5-6-level-and-built-for-agents-that-don-t-quit",
+      "category": "models",
+      "headline": "😺 Grok 4.6 is GPT 5.6 level and built for agents that don't quit",
+      "source": {
+        "name": "The Neuron",
+        "url": "https://www.theneurondaily.com/p/grok-4-6-is-gpt-5-6-level-and-built-for-agents-that-don-t-quit",
+        "publishedDate": "2026-08-13"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop",
+      "category": "ai-lifecycle",
+      "headline": "Record, train, and deploy from one place with Strands Agents, LeRobot, and Hugging Face Storage Buckets",
+      "source": {
+        "name": "Hugging Face — Blog",
+        "url": "https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop",
+        "publishedDate": "2026-08-13"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://huggingface.co/blog/icml-2026-open-reproductions",
+      "category": "research",
+      "headline": "What We Learned by Reproducing 2,200 papers from ICML",
+      "source": {
+        "name": "Hugging Face — Blog",
+        "url": "https://huggingface.co/blog/icml-2026-open-reproductions",
+        "publishedDate": "2026-08-13"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.technologyreview.com/?p=1141032",
+      "category": "research",
+      "headline": "Scaling AI agents with trustworthy data",
+      "source": {
+        "name": "MIT Technology Review — Artificial Intelligence",
+        "url": "https://www.technologyreview.com/2026/08/12/1141032/scaling-ai-agents-with-trustworthy-data/",
+        "publishedDate": "2026-08-12"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://openai.com/index/how-enterprises-put-ai-to-work",
+      "category": "ai-lifecycle",
+      "headline": "From assistance to execution: How enterprises put AI to work",
+      "source": {
+        "name": "OpenAI — News",
+        "url": "https://openai.com/index/how-enterprises-put-ai-to-work",
+        "publishedDate": "2026-08-12"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://openai.com/index/ringcentral",
+      "category": "ai-lifecycle",
+      "headline": "How RingCentral builds AI-native work from engineering to ops",
+      "source": {
+        "name": "OpenAI — News",
+        "url": "https://openai.com/index/ringcentral",
+        "publishedDate": "2026-08-12"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://deepmind.google/blog/putting-sign-language-ai-into-users-hands/",
+      "category": "research",
+      "headline": "Putting sign language AI into users’ hands",
+      "source": {
+        "name": "Google DeepMind — Blog",
+        "url": "https://deepmind.google/blog/putting-sign-language-ai-into-users-hands/",
+        "publishedDate": "2026-08-12"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theverge.com/?p=979112",
+      "category": "safety-governance",
+      "headline": "Twitch streamers can now opt out from training Amazon’s AI",
+      "source": {
+        "name": "The Verge — Artificial Intelligence",
+        "url": "https://www.theverge.com/tech/979112/twitch-streamers-can-now-opt-out-from-training-amazons-ai",
+        "publishedDate": "2026-08-12"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "6a7b7aabe4e29f02b8c0d64f",
+      "category": "safety-governance",
+      "headline": "The White House Is Going to Expand Its AI Policy",
+      "source": {
+        "name": "Wired — Artificial Intelligence",
+        "url": "https://www.wired.com/story/the-white-house-is-going-to-expand-its-ai-policy/",
+        "publishedDate": "2026-08-12"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "6a763a712f828e528da6c06f",
+      "category": "safety-governance",
+      "headline": "Rogue AI Agents Aren’t Evil. They’re Just Eager to Please",
+      "source": {
+        "name": "Wired — Artificial Intelligence",
+        "url": "https://www.wired.com/story/rogue-ai-is-just-misunderstood/",
+        "publishedDate": "2026-08-12"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theneurondaily.com/p/watch-ai-can-write-dna-now-what-could-go-wrong",
+      "category": "research",
+      "headline": "😺 Watch: AI can write DNA now. What could go wrong?",
+      "source": {
+        "name": "The Neuron",
+        "url": "https://www.theneurondaily.com/p/watch-ai-can-write-dna-now-what-could-go-wrong",
+        "publishedDate": "2026-08-12"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theneurondaily.com/p/openai-claude-and-gemini-s-reasoning-got-cracked",
+      "category": "safety-governance",
+      "headline": "😺 OpenAI, Claude, and Gemini's reasoning got cracked",
+      "source": {
+        "name": "The Neuron",
+        "url": "https://www.theneurondaily.com/p/openai-claude-and-gemini-s-reasoning-got-cracked",
+        "publishedDate": "2026-08-12"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://huggingface.co/blog/allenai/olmoearth-embeddings",
+      "category": "models",
+      "headline": "Introducing OlmoEarth embeddings: Custom embedding exports from OlmoEarth Studio for downstream analysis",
+      "source": {
+        "name": "Hugging Face — Blog",
+        "url": "https://huggingface.co/blog/allenai/olmoearth-embeddings",
+        "publishedDate": "2026-08-12"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-3b",
+      "category": "models",
+      "headline": "LFM2.5-VL-3B for Better and Faster Vision Capabilities for the Edge",
+      "source": {
+        "name": "Hugging Face — Blog",
+        "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-3b",
+        "publishedDate": "2026-08-12"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://developer.nvidia.com/blog/?p=121211",
+      "category": "models",
+      "headline": "Serve Qwen3.8-2.4T-A95B, a 2.4T-Parameter Model, with Configurable Reasoning on NVIDIA GB300 NVL72",
+      "source": {
+        "name": "NVIDIA — Technical Blog",
+        "url": "https://developer.nvidia.com/blog/serve-qwen3-8-2-4t-a95b-a-2-4t-parameter-model-with-configurable-reasoning-on-nvidia-gb300-nvl72/",
+        "publishedDate": "2026-08-12"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://developer.nvidia.com/blog/?p=121028",
+      "category": "compute-energy",
+      "headline": "How to Choose Full-Stack Observability for NVIDIA AI Factories",
+      "source": {
+        "name": "NVIDIA — Technical Blog",
+        "url": "https://developer.nvidia.com/blog/how-to-choose-full-stack-observability-for-nvidia-ai-factories/",
+        "publishedDate": "2026-08-12"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://openai.com/index/testing-ads-in-chatgpt",
+      "category": "ai-lifecycle",
+      "headline": "Testing ads in ChatGPT",
+      "source": {
+        "name": "OpenAI — News",
+        "url": "https://openai.com/index/testing-ads-in-chatgpt",
+        "publishedDate": "2026-08-11"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://openai.com/index/daybreak-models-are-now-available-on-aws",
+      "category": "models",
+      "headline": "Daybreak models are now available on AWS",
+      "source": {
+        "name": "OpenAI — News",
+        "url": "https://openai.com/index/daybreak-models-are-now-available-on-aws",
+        "publishedDate": "2026-08-11"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://tldr.tech/ai/2026-08-11",
+      "category": "models",
+      "headline": "Muse Glimmer ✨, OpenAI Cyber 🛡️, Claude vs Riemann Hypothesis 🧠",
+      "source": {
+        "name": "TLDR AI",
+        "url": "https://tldr.tech/ai/2026-08-11",
+        "publishedDate": "2026-08-11"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://huggingface.co/blog/ibm-research/altk-evolve-sldd",
+      "category": "ai-lifecycle",
+      "headline": "Thinking of ACE? We Can Do It with Fewer Tokens",
+      "source": {
+        "name": "Hugging Face — Blog",
+        "url": "https://huggingface.co/blog/ibm-research/altk-evolve-sldd",
+        "publishedDate": "2026-08-11"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://developer.nvidia.com/blog/?p=121110",
+      "category": "ai-lifecycle",
+      "headline": "NVIDIA JetPack 7.2.1 Adds Agentic Video Skills and T3000 Emulation",
+      "source": {
+        "name": "NVIDIA — Technical Blog",
+        "url": "https://developer.nvidia.com/blog/nvidia-jetpack-7-2-1-adds-agentic-video-skills-and-t3000-emulation/",
+        "publishedDate": "2026-08-11"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://developer.nvidia.com/blog/?p=120873",
+      "category": "models",
+      "headline": "NVIDIA Nemotron 3.5 Lightning Delivers Fast, Accurate Specialized Task Execution for Long-Running Agents",
+      "source": {
+        "name": "NVIDIA — Technical Blog",
+        "url": "https://developer.nvidia.com/blog/nvidia-nemotron-3-5-lightning-delivers-fast-accurate-specialized-task-execution-for-long-running-agents/",
+        "publishedDate": "2026-08-11"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://developer.nvidia.com/blog/?p=120999",
+      "category": "ai-lifecycle",
+      "headline": "Route AI Agent Workloads Across Models with NVIDIA NeMo Switchyard",
+      "source": {
+        "name": "NVIDIA — Technical Blog",
+        "url": "https://developer.nvidia.com/blog/route-ai-agent-workloads-across-models-with-nvidia-nemo-switchyard/",
+        "publishedDate": "2026-08-11"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.technologyreview.com/?p=1141511",
+      "category": "models",
+      "headline": "These startups are chasing the next big thing in LLMs",
+      "source": {
+        "name": "MIT Technology Review — Artificial Intelligence",
+        "url": "https://www.technologyreview.com/2026/08/10/1141511/these-startups-are-chasing-the-next-big-thing-in-llms/",
+        "publishedDate": "2026-08-10"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.technologyreview.com/?p=1141597",
+      "category": "research",
+      "headline": "AI professors are negotiating the new realities of academic research",
+      "source": {
+        "name": "MIT Technology Review — Artificial Intelligence",
+        "url": "https://www.technologyreview.com/2026/08/10/1141597/ai-professors-are-negotiating-the-new-realities-of-academic-research/",
+        "publishedDate": "2026-08-10"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.technologyreview.com/?p=1141384",
+      "category": "research",
+      "headline": "AI for science needs reasoning, not just data",
+      "source": {
+        "name": "MIT Technology Review — Artificial Intelligence",
+        "url": "https://www.technologyreview.com/2026/08/10/1141384/ai-agents-for-science/",
+        "publishedDate": "2026-08-10"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://openai.com/index/building-an-ai-native-finance-function",
+      "category": "ai-lifecycle",
+      "headline": "What building an AI-native finance function taught me",
+      "source": {
+        "name": "OpenAI — News",
+        "url": "https://openai.com/index/building-an-ai-native-finance-function",
+        "publishedDate": "2026-08-10"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://news.microsoft.com/source/?p=25414",
+      "category": "ai-lifecycle",
+      "headline": "How to build an AI agent: A simple guide for anyone",
+      "source": {
+        "name": "Microsoft — AI news",
+        "url": "https://news.microsoft.com/signal/articles/how-to-build-an-ai-agent-guide/",
+        "publishedDate": "2026-08-10"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://tldr.tech/ai/2026-08-10",
+      "category": "ai-lifecycle",
+      "headline": "OpenAI Astra pause 🚨, Claude Code cross-session 🤖, how Cursor Router works 🔀",
+      "source": {
+        "name": "TLDR AI",
+        "url": "https://tldr.tech/ai/2026-08-10",
+        "publishedDate": "2026-08-10"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theneurondaily.com/p/claude-hacked-a-gym-website",
+      "category": "safety-governance",
+      "headline": "😺 Claude hacked a gym website",
+      "source": {
+        "name": "The Neuron",
+        "url": "https://www.theneurondaily.com/p/claude-hacked-a-gym-website",
+        "publishedDate": "2026-08-10"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://huggingface.co/blog/nvidia/magpie-tts-multilingual-voice-agents",
+      "category": "ai-lifecycle",
+      "headline": "Build Low-Latency Multilingual Voice Agents: Open Weights & Full Deployment Control with NVIDIA Magpie TTS",
+      "source": {
+        "name": "Hugging Face — Blog",
+        "url": "https://huggingface.co/blog/nvidia/magpie-tts-multilingual-voice-agents",
+        "publishedDate": "2026-08-10"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://huggingface.co/blog/MultiverseComputingCAI/efficient-knowledge-distillation",
+      "category": "ai-lifecycle",
+      "headline": "Making Knowledge Distillation Cheap Enough to Run at Scale",
+      "source": {
+        "name": "Hugging Face — Blog",
+        "url": "https://huggingface.co/blog/MultiverseComputingCAI/efficient-knowledge-distillation",
+        "publishedDate": "2026-08-10"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://huggingface.co/blog/muse-glimmer",
+      "category": "models",
+      "headline": "Meta is back with Muse Glimmer: local, agentic, multimodal, and open source",
+      "source": {
+        "name": "Hugging Face — Blog",
+        "url": "https://huggingface.co/blog/muse-glimmer",
+        "publishedDate": "2026-08-10"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://developer.nvidia.com/blog/?p=121045",
+      "category": "ai-lifecycle",
+      "headline": "Run Local Agentic AI Workflows with Meta’s Muse Glimmer on NVIDIA",
+      "source": {
+        "name": "NVIDIA — Technical Blog",
+        "url": "https://developer.nvidia.com/blog/run-local-agentic-ai-workflows-with-metas-muse-glimmer-on-nvidia/",
+        "publishedDate": "2026-08-10"
+      },
+      "traceToAnchors": []
+    }
+  ]
 }

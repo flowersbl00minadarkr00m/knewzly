@@ -118,6 +118,14 @@ h1 {
   color: var(--ink-soft);
   font: italic 1.05rem/1.5 var(--display);
 }
+.atlas-nav-link {
+  margin: 0.9rem 0 0;
+  font: 800 0.85rem/1.4 var(--utility);
+}
+.atlas-nav-link a {
+  color: var(--accent);
+  text-underline-offset: 0.16rem;
+}
 
 .atlas-caption {
   display: flex;
@@ -602,6 +610,191 @@ body.drawer-open { overflow: hidden; }
   background: var(--paper-raised);
   border-left: 4px solid var(--accent);
   font: 700 0.82rem/1.45 var(--utility);
+}
+
+/* T11 2026-08-12 follow-up: T7 shipped these controls functional but
+   explicitly unstyled ("outside T7's Owned Surfaces"), deferring sizing to
+   this task. An independent gauntlet review caught that T11 had declared
+   NFR-002 "fully closed" without ever actually adding this — design.md §10
+   requires non-inline interactive controls >=44x44 CSS px, naming
+   export/import triggers by name. Every color pair here reuses one of T3's
+   already-computed >=7:1 token pairs (see file header) — no new token. */
+.export-import-controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.8rem;
+  margin: 0.8rem clamp(1rem, 2.8vw, 2.4rem) 0;
+}
+#export-progress-button,
+.export-import-controls label[for="import-progress-input"] {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  min-width: 44px;
+  padding: 0.6rem 1rem;
+  color: var(--ink);
+  background: var(--paper-raised);
+  border: 1px solid var(--ink-soft);
+  border-radius: 4px;
+  cursor: pointer;
+  font: 700 0.85rem/1.2 var(--utility);
+}
+#export-progress-button:hover,
+.export-import-controls label[for="import-progress-input"]:hover {
+  background: var(--paper);
+}
+#import-progress-input {
+  /* The visible, clickable control is the <label> above (already >=44px);
+     the native file input stays present and keyboard-reachable for
+     assistive tech and drag/drop, not visually hidden or removed. */
+  min-height: 44px;
+}
+.import-prompt-merge,
+.import-prompt-overwrite,
+.import-prompt-cancel {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  min-width: 44px;
+  margin: 0.3rem 0.5rem 0.3rem 0;
+  padding: 0.6rem 1rem;
+  color: var(--ink);
+  background: var(--paper-raised);
+  border: 1px solid var(--ink-soft);
+  border-radius: 4px;
+  cursor: pointer;
+  font: 700 0.85rem/1.2 var(--utility);
+}
+.import-prompt-merge:hover,
+.import-prompt-overwrite:hover,
+.import-prompt-cancel:hover {
+  background: var(--paper);
+}
+
+/* Constellation view (2026-08-13): a view-toggle alternative to T3's
+   TimelineCanvas, added per Henry's request, formalizing the non-binding
+   spike at artifacts/planning/knowledge-constellation/prototype.html. Same
+   token pairs as the rest of this file — no new colors introduced. */
+.view-toggle {
+  display: flex;
+  gap: 0.6rem;
+  margin: 0.9rem clamp(1rem, 2.8vw, 2.4rem) 0.6rem;
+}
+.view-toggle button {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  padding: 0.5rem 1.1rem;
+  color: var(--ink);
+  background: var(--paper-raised);
+  border: 1px solid var(--ink-soft);
+  border-radius: 4px;
+  cursor: pointer;
+  font: 700 0.85rem/1.2 var(--utility);
+}
+.view-toggle button:hover { background: var(--paper); }
+.view-toggle button[aria-pressed="true"] {
+  color: var(--inverse);
+  background: var(--accent);
+  border-color: var(--accent);
+}
+
+.constellation-viewport {
+  position: relative;
+  width: 100%;
+  height: clamp(420px, 62vh, 720px);
+  background: var(--paper);
+  border: 1px solid var(--rule-faint);
+  border-radius: 4px;
+  overflow: hidden;
+}
+.constellation-svg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+.constellation-svg .edge {
+  stroke: var(--accent-soft);
+  stroke-width: 1.4;
+  opacity: 0.55;
+  transition: opacity 0.2s ease;
+}
+.constellation-svg .edge[data-confidence="contested"],
+.constellation-svg .edge.edge-interpretation,
+.constellation-svg .edge.edge-conceptual-analogy {
+  stroke-dasharray: 5 4;
+}
+.constellation-svg .edge.is-dimmed { opacity: 0.1; }
+.constellation-svg .node-circle {
+  fill: var(--accent);
+  stroke: var(--paper);
+  stroke-width: 2;
+  transition: fill 0.15s ease, r 0.15s ease, stroke-width 0.15s ease;
+}
+.constellation-svg .node-circle.is-active,
+.constellation-svg .node-circle.is-focused,
+.constellation-svg .node-circle.is-hovered {
+  fill: var(--focus);
+  stroke: var(--ink);
+}
+.constellation-svg .node-circle.is-hovered {
+  r: 13px;
+  stroke-width: 3;
+}
+.constellation-svg .node-label {
+  fill: var(--ink);
+  font: 700 0.62rem/1 var(--utility);
+  pointer-events: none;
+}
+@media (prefers-reduced-motion: reduce) {
+  .constellation-svg .node-circle { transition: fill 0.01ms, r 0.01ms, stroke-width 0.01ms; }
+}
+
+/* Real HTML buttons overlaid on top of the decorative (aria-hidden) SVG —
+   a <button> inside an SVG <foreignObject> failed real keyboard-Tab checks
+   during the prototype spike, so the accessible surface lives here instead. */
+.node-buttons-overlay {
+  position: absolute;
+  inset: 0;
+}
+.node-btn {
+  position: absolute;
+  width: 28px;
+  height: 28px;
+  min-width: 44px;
+  min-height: 44px;
+  transform: translate(-50%, -50%);
+  background: transparent;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  padding: 0;
+}
+
+.constellation-legend {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 0.3rem 1rem;
+  margin-left: 0.4rem;
+}
+.constellation-legend > div {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+.legend-swatch.edge-fact,
+.legend-swatch.edge-interpretation,
+.legend-swatch.edge-conceptual-analogy {
+  display: inline-block;
+  width: 1.4rem;
+  height: 0;
+  border-top: 3px solid var(--accent-soft);
+}
+.legend-swatch.edge-interpretation,
+.legend-swatch.edge-conceptual-analogy {
+  border-top-style: dashed;
 }
 
 @media (max-width: 720px) {

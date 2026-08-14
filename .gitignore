@@ -15,3 +15,6 @@ artifacts/
 scripts/build_narration_v2_beat_sheet.ps1
 scripts/build_seedance_handoff_v2.ps1
 scripts/build_seedance_reference_animatic.ps1
+
+.vercel
+.env*

@@ -1,0 +1,14 @@
+# Agent/SDD internals and unrelated documentary-production assets — never
+# part of the deployed static site. Mirrors .gitignore's exclusions so a
+# deploy from the repo root never uploads them, even though .gitignore
+# itself doesn't apply to `vercel deploy`.
+.ai
+.claude
+.pi
+.playwright-cli
+output
+POST-PLAN.md
+artifacts
+node_modules
+test
+.git

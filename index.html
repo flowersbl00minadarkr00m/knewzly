@@ -6,26 +6,304 @@
   <meta name="color-scheme" content="light dark">
   <title>Knewzly — Global History Atlas (pilot)</title>
   <style>
-    :root { --paper: #f7f3e8; --ink: #1b2433; --ink-soft: #3a4658; --accent: #163a5f; }
-    @media (prefers-color-scheme: dark) { :root { --paper: #161d27; --ink: #f2ede0; --ink-soft: #c9cdd6; --accent: #9ac7e8; } }
-    body { margin: 0; min-height: 100vh; display: flex; align-items: center; justify-content: center; background: var(--paper); color: var(--ink); font-family: Georgia, "Times New Roman", Times, serif; }
-    main { max-width: 640px; padding: 2rem; }
-    h1 { font-size: 2.2rem; margin-bottom: 0.4rem; }
-    p { color: var(--ink-soft); line-height: 1.5; }
-    .links { display: flex; gap: 1rem; margin-top: 1.5rem; flex-wrap: wrap; }
-    a.card { flex: 1; min-width: 220px; padding: 1rem 1.2rem; border: 1px solid var(--ink-soft); border-radius: 6px; color: var(--ink); text-decoration: none; }
-    a.card:hover { background: var(--accent); color: var(--paper); }
-    a.card strong { display: block; font-size: 1.1rem; margin-bottom: 0.3rem; }
+    /* Same token vocabulary as atlas.css/today.html (D-014's precedent) —
+       the landing page reads as one system with the rest of the app, not a
+       third visual language. */
+    :root {
+      --paper: #f7f3e8;
+      --paper-deep: #ece5d2;
+      --ink: #1b2433;
+      --ink-soft: #3a4658;
+      --rule: #6b7684;
+      --rule-faint: #b7bfc7;
+      --accent: #163a5f;
+      --accent-soft: #244f76;
+      --shadow: rgba(22, 42, 64, 0.15);
+      --display: Georgia, "Times New Roman", Times, serif;
+      --utility: "Arial Narrow", "Helvetica Neue", Arial, sans-serif;
+      /* Background motif — derived from --ink-soft/--accent at low opacity,
+         named separately so the motif's intensity can be tuned without
+         touching the text-color tokens above. */
+      --k-line: rgba(58, 70, 88, 0.16);
+      --k-dot: rgba(58, 70, 88, 0.32);
+      --k-dot-anchor: rgba(22, 58, 95, 0.55);
+      --k-axis: rgba(58, 70, 88, 0.4);
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --paper: #161d27;
+        --paper-deep: #10151d;
+        --ink: #f2ede0;
+        --ink-soft: #c9cdd6;
+        --rule: #7c8794;
+        --rule-faint: #445162;
+        --accent: #9ac7e8;
+        --accent-soft: #b6d9f1;
+        --shadow: rgba(0, 0, 0, 0.34);
+        --k-line: rgba(201, 205, 214, 0.14);
+        --k-dot: rgba(201, 205, 214, 0.3);
+        --k-dot-anchor: rgba(154, 199, 232, 0.75);
+        --k-axis: rgba(201, 205, 214, 0.38);
+      }
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      color: var(--ink);
+      background: var(--paper);
+      font-family: var(--display);
+      position: relative;
+      overflow-x: hidden;
+    }
+
+    /* --- Background: a constellation of the atlas's own connective
+       structure (echoes src/constellation-view.js's force-graph, D-010),
+       grounded by a real timeline axis using the atlas's own earliest
+       real anchor dates (D-011) — not generic decoration, the shape of
+       this app's actual content. Fixed, full-bleed, decorative only. --- */
+    .k-bg {
+      position: fixed;
+      inset: 0;
+      z-index: 0;
+      pointer-events: none;
+    }
+    .k-bg svg { width: 100%; height: 100%; display: block; }
+    .k-line { stroke: var(--k-line); stroke-width: 1; }
+    .k-dot { fill: var(--k-dot); }
+    .k-dot-anchor {
+      fill: var(--k-dot-anchor);
+      transform-origin: center;
+      transform-box: fill-box;
+      animation: k-pulse 5.5s ease-in-out infinite;
+    }
+    @keyframes k-pulse {
+      0%, 100% { opacity: 0.55; transform: scale(1); }
+      50% { opacity: 1; transform: scale(1.45); }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .k-dot-anchor { animation: none; opacity: 0.85; }
+    }
+
+    .k-axis-line { stroke: var(--k-axis); stroke-width: 1.5; }
+    .k-tick { stroke: var(--k-axis); stroke-width: 1.5; }
+    .k-tick-label {
+      fill: var(--ink-soft);
+      font-family: var(--utility);
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      opacity: 0.75;
+    }
+
+    /* --- Foreground content: an opaque "paper" panel over the motif, so
+       every rendered text/background pair is the exact same solid
+       ink-on-paper contrast as before — the motif never touches text. --- */
+    .wrap {
+      position: relative;
+      z-index: 1;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem 1.25rem;
+    }
+
+    main {
+      max-width: 640px;
+      width: 100%;
+      padding: clamp(1.75rem, 4vw, 3rem);
+      background: var(--paper);
+      box-shadow: 0 24px 64px var(--shadow);
+      border-top: 5px double var(--ink);
+      text-align: center;
+    }
+
+    .eyebrow {
+      display: block;
+      font: 700 0.72rem/1 var(--utility);
+      letter-spacing: 0.35em;
+      text-transform: uppercase;
+      color: var(--ink-soft);
+      margin-bottom: 0.9rem;
+    }
+
+    h1 {
+      margin: 0 0 0.5rem;
+      font: 900 clamp(2.6rem, 8vw, 4.2rem)/0.95 var(--display);
+      letter-spacing: -0.03em;
+    }
+
+    p.dek {
+      margin: 0 auto;
+      max-width: 34ch;
+      color: var(--ink-soft);
+      line-height: 1.55;
+      font-size: 1.05rem;
+    }
+
+    .links {
+      display: flex;
+      gap: 1rem;
+      margin-top: 1.75rem;
+      flex-wrap: wrap;
+      text-align: left;
+    }
+    a.card {
+      flex: 1;
+      min-width: 220px;
+      padding: 1rem 1.2rem;
+      border: 1px solid var(--rule-faint);
+      color: var(--ink);
+      text-decoration: none;
+      transition: background-color 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+    }
+    a.card:hover, a.card:focus-visible {
+      background: var(--accent);
+      border-color: var(--accent);
+      color: var(--paper);
+    }
+    a.card:focus-visible { outline: 3px solid var(--accent-soft); outline-offset: 3px; }
+    a.card strong {
+      display: block;
+      font: 700 0.7rem/1 var(--utility);
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      margin-bottom: 0.45rem;
+    }
+    a.card span { display: block; font-size: 0.92rem; line-height: 1.4; }
   </style>
 </head>
 <body>
-  <main>
-    <h1>Knewzly</h1>
-    <p>The Global History Atlas — an F01 pilot slice. Browse a curated spine of AI/computing history, read typed relationships between events, and see current news traced back to its historical origin.</p>
-    <div class="links">
-      <a class="card" href="atlas.html"><strong>The Atlas →</strong> Timeline, anchors, relationships, visited progress, export/import.</a>
-      <a class="card" href="today.html"><strong>Today →</strong> Current AI news, traced to where it came from.</a>
-    </div>
-  </main>
+  <div class="k-bg" aria-hidden="true">
+    <svg viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice">
+      <g>
+      <line x1="133.5" y1="208.6" x2="152.8" y2="142.9" class="k-line"/>
+      <line x1="133.5" y1="208.6" x2="132.9" y2="129.6" class="k-line"/>
+      <line x1="214.2" y1="258.1" x2="133.5" y2="208.6" class="k-line"/>
+      <line x1="214.2" y1="258.1" x2="299.3" y2="192.3" class="k-line"/>
+      <line x1="152.8" y1="142.9" x2="132.9" y2="129.6" class="k-line"/>
+      <line x1="749.9" y1="340.3" x2="694.8" y2="369.8" class="k-line"/>
+      <line x1="749.9" y1="340.3" x2="682.9" y2="321.4" class="k-line"/>
+      <line x1="346.5" y1="450.8" x2="401.8" y2="396.0" class="k-line"/>
+      <line x1="346.5" y1="450.8" x2="294.9" y2="332.7" class="k-line"/>
+      <line x1="511.3" y1="501.8" x2="472.5" y2="480.3" class="k-line"/>
+      <line x1="511.3" y1="501.8" x2="554.6" y2="377.2" class="k-line"/>
+      <line x1="1018.7" y1="61.2" x2="988.0" y2="56.3" class="k-line"/>
+      <line x1="1018.7" y1="61.2" x2="1023.8" y2="137.1" class="k-line"/>
+      <line x1="682.9" y1="321.4" x2="694.8" y2="369.8" class="k-line"/>
+      <line x1="682.9" y1="321.4" x2="565.1" y2="336.9" class="k-line"/>
+      <line x1="1583.8" y1="20.8" x2="1569.1" y2="163.8" class="k-line"/>
+      <line x1="914.8" y1="540.7" x2="940.0" y2="549.5" class="k-line"/>
+      <line x1="914.8" y1="540.7" x2="1065.9" y2="563.0" class="k-line"/>
+      <line x1="565.1" y1="336.9" x2="554.6" y2="377.2" class="k-line"/>
+      <line x1="565.1" y1="336.9" x2="494.5" y2="298.8" class="k-line"/>
+      <line x1="1208.7" y1="492.5" x2="1217.5" y2="442.7" class="k-line"/>
+      <line x1="1208.7" y1="492.5" x2="1184.3" y2="436.6" class="k-line"/>
+      <line x1="1184.3" y1="436.6" x2="1186.3" y2="405.5" class="k-line"/>
+      <line x1="1184.3" y1="436.6" x2="1217.5" y2="442.7" class="k-line"/>
+      <line x1="213.2" y1="565.9" x2="346.5" y2="450.8" class="k-line"/>
+      <line x1="881.5" y1="167.8" x2="841.3" y2="153.3" class="k-line"/>
+      <line x1="881.5" y1="167.8" x2="811.7" y2="153.6" class="k-line"/>
+      <line x1="811.7" y1="153.6" x2="841.3" y2="153.3" class="k-line"/>
+      <line x1="811.7" y1="153.6" x2="954.8" y2="116.6" class="k-line"/>
+      <line x1="120.5" y1="9.6" x2="132.9" y2="129.6" class="k-line"/>
+      <line x1="120.5" y1="9.6" x2="152.8" y2="142.9" class="k-line"/>
+      <line x1="1023.8" y1="137.1" x2="954.8" y2="116.6" class="k-line"/>
+      <line x1="1023.8" y1="137.1" x2="988.0" y2="56.3" class="k-line"/>
+      <line x1="1102.9" y1="635.0" x2="1065.9" y2="563.0" class="k-line"/>
+      <line x1="1102.9" y1="635.0" x2="1221.5" y2="582.4" class="k-line"/>
+      <line x1="472.5" y1="480.3" x2="401.8" y2="396.0" class="k-line"/>
+      <line x1="752.4" y1="576.4" x2="914.8" y2="540.7" class="k-line"/>
+      <line x1="752.4" y1="576.4" x2="940.0" y2="549.5" class="k-line"/>
+      <line x1="1275.5" y1="353.5" x2="1186.3" y2="405.5" class="k-line"/>
+      <line x1="1275.5" y1="353.5" x2="1217.5" y2="442.7" class="k-line"/>
+      <line x1="490.2" y1="294.7" x2="494.5" y2="298.8" class="k-line"/>
+      <line x1="954.8" y1="116.6" x2="988.0" y2="56.3" class="k-line"/>
+      <line x1="294.9" y1="332.7" x2="214.2" y2="258.1" class="k-line"/>
+      <line x1="294.9" y1="332.7" x2="401.8" y2="396.0" class="k-line"/>
+      <line x1="402.3" y1="264.0" x2="490.2" y2="294.7" class="k-line"/>
+      <line x1="402.3" y1="264.0" x2="494.5" y2="298.8" class="k-line"/>
+      <line x1="1221.5" y1="582.4" x2="1208.7" y2="492.5" class="k-line"/>
+      <line x1="921.5" y1="343.1" x2="1042.4" y2="274.4" class="k-line"/>
+      <line x1="921.5" y1="343.1" x2="749.9" y2="340.3" class="k-line"/>
+      <line x1="1065.9" y1="563.0" x2="940.0" y2="549.5" class="k-line"/>
+      <circle cx="133.5" cy="208.6" r="1.72" class="k-dot"/>
+      <circle cx="214.2" cy="258.1" r="2.05" class="k-dot"/>
+      <circle cx="152.8" cy="142.9" r="2.32" class="k-dot"/>
+      <circle cx="749.9" cy="340.3" r="3.60" class="k-dot k-dot-anchor" style="animation-delay:4.94s"/>
+      <circle cx="454.9" cy="2.4" r="2.46" class="k-dot"/>
+      <circle cx="346.5" cy="450.8" r="2.18" class="k-dot"/>
+      <circle cx="511.3" cy="501.8" r="2.43" class="k-dot"/>
+      <circle cx="1018.7" cy="61.2" r="2.01" class="k-dot"/>
+      <circle cx="682.9" cy="321.4" r="1.80" class="k-dot"/>
+      <circle cx="1583.8" cy="20.8" r="1.66" class="k-dot"/>
+      <circle cx="1464.3" cy="599.0" r="2.41" class="k-dot"/>
+      <circle cx="914.8" cy="540.7" r="3.60" class="k-dot k-dot-anchor" style="animation-delay:4.68s"/>
+      <circle cx="565.1" cy="336.9" r="2.36" class="k-dot"/>
+      <circle cx="1208.7" cy="492.5" r="2.23" class="k-dot"/>
+      <circle cx="1184.3" cy="436.6" r="2.18" class="k-dot"/>
+      <circle cx="213.2" cy="565.9" r="2.58" class="k-dot"/>
+      <circle cx="881.5" cy="167.8" r="2.18" class="k-dot"/>
+      <circle cx="811.7" cy="153.6" r="1.76" class="k-dot"/>
+      <circle cx="1217.5" cy="442.7" r="2.04" class="k-dot"/>
+      <circle cx="120.5" cy="9.6" r="3.60" class="k-dot k-dot-anchor" style="animation-delay:4.41s"/>
+      <circle cx="1023.8" cy="137.1" r="1.70" class="k-dot"/>
+      <circle cx="1186.3" cy="405.5" r="1.89" class="k-dot"/>
+      <circle cx="1482.9" cy="384.4" r="2.24" class="k-dot"/>
+      <circle cx="1102.9" cy="635.0" r="1.82" class="k-dot"/>
+      <circle cx="1167.8" cy="107.7" r="2.60" class="k-dot"/>
+      <circle cx="472.5" cy="480.3" r="1.69" class="k-dot"/>
+      <circle cx="841.3" cy="153.3" r="1.84" class="k-dot"/>
+      <circle cx="752.4" cy="576.4" r="3.60" class="k-dot k-dot-anchor" style="animation-delay:2.55s"/>
+      <circle cx="132.9" cy="129.6" r="1.84" class="k-dot"/>
+      <circle cx="1275.5" cy="353.5" r="1.69" class="k-dot"/>
+      <circle cx="490.2" cy="294.7" r="2.66" class="k-dot"/>
+      <circle cx="494.5" cy="298.8" r="1.61" class="k-dot"/>
+      <circle cx="954.8" cy="116.6" r="1.93" class="k-dot"/>
+      <circle cx="1569.1" cy="163.8" r="2.36" class="k-dot"/>
+      <circle cx="294.9" cy="332.7" r="2.49" class="k-dot"/>
+      <circle cx="402.3" cy="264.0" r="2.66" class="k-dot"/>
+      <circle cx="1221.5" cy="582.4" r="2.67" class="k-dot"/>
+      <circle cx="921.5" cy="343.1" r="2.52" class="k-dot"/>
+      <circle cx="940.0" cy="549.5" r="3.60" class="k-dot k-dot-anchor" style="animation-delay:5.71s"/>
+      <circle cx="988.0" cy="56.3" r="2.60" class="k-dot"/>
+      <circle cx="299.3" cy="192.3" r="2.47" class="k-dot"/>
+      <circle cx="554.6" cy="377.2" r="2.27" class="k-dot"/>
+      <circle cx="1042.4" cy="274.4" r="2.26" class="k-dot"/>
+      <circle cx="1065.9" cy="563.0" r="2.43" class="k-dot"/>
+      <circle cx="694.8" cy="369.8" r="2.01" class="k-dot"/>
+      <circle cx="401.8" cy="396.0" r="1.62" class="k-dot"/>
+      </g>
+      <!-- The atlas's own earliest real anchors (D-011) ground the
+           constellation in an actual timeline, not just abstract dots. -->
+      <g>
+        <line x1="80" y1="756" x2="1520" y2="756" class="k-axis-line"/>
+        <line x1="185" y1="748" x2="185" y2="764" class="k-tick"/>
+        <text x="185" y="788" text-anchor="middle" class="k-tick-label">1945</text>
+        <line x1="565" y1="748" x2="565" y2="764" class="k-tick"/>
+        <text x="565" y="788" text-anchor="middle" class="k-tick-label">1979</text>
+        <line x1="1040" y1="748" x2="1040" y2="764" class="k-tick"/>
+        <text x="1040" y="788" text-anchor="middle" class="k-tick-label">2022</text>
+        <line x1="1420" y1="748" x2="1420" y2="764" class="k-tick"/>
+        <text x="1420" y="788" text-anchor="middle" class="k-tick-label">NOW</text>
+      </g>
+    </svg>
+  </div>
+
+  <div class="wrap">
+    <main>
+      <span class="eyebrow">Knewzly</span>
+      <h1>Knewzly</h1>
+      <p class="dek">History, connected — then traced forward to what's happening now.</p>
+      <div class="links">
+        <a class="card" href="atlas.html"><strong>The Atlas →</strong><span>Timeline, anchors, relationships, visited progress, export/import.</span></a>
+        <a class="card" href="today.html"><strong>Today →</strong><span>Current AI news, traced to where it came from.</span></a>
+      </div>
+    </main>
+  </div>
 </body>
 </html>

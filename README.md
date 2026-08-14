@@ -2,7 +2,7 @@
 
 Explore AI/innovation history as one connected timeline across regions, then trace today's AI news back to the historical event it descends from.
 
-[Docs](docs/) · [License](LICENSE)
+[**Live demo**](https://knewzly-global-history-atlas.vercel.app) · [Docs](docs/) · [License](LICENSE)
 
 ![The Global History Atlas timeline, showing philosophy and regional lanes of historical anchors](docs/assets/atlas-hero.jpg)
 

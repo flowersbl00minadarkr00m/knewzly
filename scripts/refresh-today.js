@@ -28,6 +28,8 @@ export const FRESHNESS_THRESHOLDS_HOURS = {
   fresh: 24, // <= 24h old -> fresh
   stale: 72, // <= 72h old -> stale; older -> very_stale
 };
+const MAX_FEED_BYTES = 2 * 1024 * 1024;
+const MAX_LINK_CHARS = 2048;
 
 // Numeric rank used for the min() reduction: higher = fresher. min() across
 // sources means the *lowest* rank wins, i.e. the whole slice is only as
@@ -139,7 +141,13 @@ export function reduceFreshness(sourceFreshnessStates) {
  * @returns {string[]} errors; empty array means the candidate is publishable
  */
 export function validateForPublish(todayStories, anchors) {
-  return validateContent({ anchors, todayStories });
+  const errors = validateContent({ anchors, todayStories });
+  for (const [index, story] of (todayStories?.stories ?? []).entries()) {
+    if (story?.source?.url && !normalizeHttpsUrl(story.source.url)) {
+      errors.push(`todayStories.stories[${index}].source.url must be a public HTTPS URL`);
+    }
+  }
+  return errors;
 }
 
 /**
@@ -210,19 +218,22 @@ export function buildTodayStories(rawItems, anchors, opts = {}) {
 
   const freshnessState = reduceFreshness(Object.values(perSourceFreshness));
 
-  const stories = kept.map((item) => ({
-    id: item.id,
-    category: item.category,
-    headline: item.headline,
-    ...(item.dek ? { dek: item.dek } : {}),
-    source: {
-      name: item.sourceName,
-      ...(item.url ? { url: item.url } : {}),
-      publishedDate: item.publishedDate.slice(0, 10),
-    },
-    traceToAnchors: item.traceToAnchors ?? [],
-    ...(item.traceLabel ? { traceLabel: item.traceLabel } : {}),
-  }));
+  const stories = kept.map((item) => {
+    const sourceUrl = normalizeHttpsUrl(item.url);
+    return {
+      id: item.id,
+      category: item.category,
+      headline: item.headline,
+      ...(item.dek ? { dek: item.dek } : {}),
+      source: {
+        name: item.sourceName,
+        ...(sourceUrl ? { url: sourceUrl } : {}),
+        publishedDate: item.publishedDate.slice(0, 10),
+      },
+      traceToAnchors: item.traceToAnchors ?? [],
+      ...(item.traceLabel ? { traceLabel: item.traceLabel } : {}),
+    };
+  });
 
   const todayStories = {
     lastUpdated: now.toISOString(),
@@ -278,6 +289,23 @@ export function mergeReviewQueue(existingQueue, rawItems, keywordMap, opts = {})
     .filter((item) => !existingIds.has(item.id))
     .map((item) => buildReviewQueueEntry(item, keywordMap, opts));
   return [...(existingQueue ?? []), ...newEntries];
+}
+
+/**
+ * Selects the queue state for this run. Local curation runs include newly
+ * fetched candidates. The scheduled publisher deliberately processes only
+ * the versioned queue so unreviewed network content cannot be committed to
+ * the default branch and reviewed entries can be consumed exactly once.
+ */
+export function prepareReviewQueue(
+  existingQueue,
+  rawItems,
+  keywordMap,
+  { includeFetchedCandidates = true } = {}
+) {
+  return includeFetchedCandidates
+    ? mergeReviewQueue(existingQueue, rawItems, keywordMap)
+    : [...(existingQueue ?? [])];
 }
 
 // --- Impure edges (not covered by node:test; require network/filesystem) --
@@ -379,18 +407,20 @@ export function parseFeedItems(xml, source) {
   for (const block of blocks) {
     const title = extractTag(block, 'title');
     if (!title) continue; // no headline, nothing usable to show
-    const link = isAtom ? extractAtomLink(block) : extractTag(block, 'link');
+    const rawLink = isAtom ? extractAtomLink(block) : extractTag(block, 'link');
+    const link = normalizeHttpsUrl(rawLink);
     const pubRaw = extractTag(block, isAtom ? 'published' : 'pubDate') || extractTag(block, 'updated');
     const parsedPub = pubRaw ? new Date(pubRaw) : null;
     const publishedDate = parsedPub && !Number.isNaN(parsedPub.getTime()) ? parsedPub.toISOString() : undefined;
-    const guid = extractTag(block, isAtom ? 'id' : 'guid');
+    const guid = extractTag(block, isAtom ? 'id' : 'guid')?.trim().slice(0, 512);
+    const headline = decodeEntities(title.trim()).slice(0, 300);
 
     items.push({
       sourceId: source.id,
       sourceName: source.name,
       id: guid || link || `${source.id}-${items.length}`,
-      headline: decodeEntities(title.trim()),
-      ...(link ? { url: link.trim() } : {}),
+      headline,
+      ...(link ? { url: link } : {}),
       ...(publishedDate ? { publishedDate } : {}),
     });
   }
@@ -417,6 +447,20 @@ function decodeEntities(s) {
     .replace(/&gt;/g, '>')
     .replace(/&quot;/g, '"')
     .replace(/&#39;/g, "'");
+}
+
+/** Returns a normalized public HTTPS URL or undefined for unsafe input. */
+export function normalizeHttpsUrl(raw) {
+  if (typeof raw !== 'string') return undefined;
+  const candidate = decodeEntities(raw.trim());
+  if (!candidate || candidate.length > MAX_LINK_CHARS) return undefined;
+  try {
+    const url = new URL(candidate);
+    if (url.protocol !== 'https:' || url.username || url.password) return undefined;
+    return url.toString();
+  } catch {
+    return undefined;
+  }
 }
 
 /**
@@ -454,12 +498,12 @@ export function sortItemsByRecency(items) {
  * old unbounded behavior exactly (existing callers/tests are unaffected).
  *
  * @param {{sources: Array<{id: string, name: string, feedUrl?: string}>}} allowlist
- * @param {{ fetchImpl?: typeof fetch, timeoutMs?: number, perSourceLimit?: number }} [opts]
+ * @param {{ fetchImpl?: typeof fetch, timeoutMs?: number, perSourceLimit?: number, maxFeedBytes?: number }} [opts]
  * @returns {Promise<Array<object>>}
  */
 export async function fetchAllowlistedItems(
   allowlist,
-  { fetchImpl = fetch, timeoutMs = 10000, perSourceLimit } = {}
+  { fetchImpl = fetch, timeoutMs = 10000, perSourceLimit, maxFeedBytes = MAX_FEED_BYTES } = {}
 ) {
   const perSource = await Promise.all(
     (allowlist?.sources ?? []).map(async (source) => {
@@ -467,15 +511,29 @@ export async function fetchAllowlistedItems(
         console.warn(`refresh-today: ${source.id} has no feedUrl configured, skipping`);
         return [];
       }
+      const feedUrl = normalizeHttpsUrl(source.feedUrl);
+      if (!feedUrl) {
+        console.warn(`refresh-today: ${source.id} has an invalid or non-HTTPS feedUrl, skipping`);
+        return [];
+      }
       const controller = new AbortController();
       const timer = setTimeout(() => controller.abort(), timeoutMs);
       try {
-        const res = await fetchImpl(source.feedUrl, { signal: controller.signal });
+        const res = await fetchImpl(feedUrl, { signal: controller.signal, redirect: 'error' });
         if (!res.ok) {
           console.warn(`refresh-today: ${source.id} returned HTTP ${res.status}, skipping this source for this run`);
           return [];
         }
+        const declaredBytes = Number(res.headers?.get?.('content-length'));
+        if (Number.isFinite(declaredBytes) && declaredBytes > maxFeedBytes) {
+          console.warn(`refresh-today: ${source.id} feed exceeds the response limit, skipping`);
+          return [];
+        }
         const xml = await res.text();
+        if (Buffer.byteLength(xml, 'utf8') > maxFeedBytes) {
+          console.warn(`refresh-today: ${source.id} feed exceeds the response limit, skipping`);
+          return [];
+        }
         const items = parseFeedItems(xml, source);
         return perSourceLimit ? sortItemsByRecency(items).slice(0, perSourceLimit) : items;
       } catch (err) {
@@ -543,6 +601,7 @@ export async function publishTodayStories(
 // --- CLI entry point ------------------------------------------------------
 
 async function main() {
+  const publishReviewedOnly = process.argv.includes('--publish-reviewed-only');
   const allowlist = await readAllowlist();
   const anchorsRaw = await readFile(new URL('../content/anchors.json', import.meta.url), 'utf-8').catch(
     () => null
@@ -564,7 +623,9 @@ async function main() {
     readReviewQueue(),
     readKeywordMap(),
   ]);
-  const mergedQueue = mergeReviewQueue(existingQueue, rawItems, keywordMap);
+  const mergedQueue = prepareReviewQueue(existingQueue, rawItems, keywordMap, {
+    includeFetchedCandidates: !publishReviewedOnly,
+  });
 
   // Anything already reviewed (from a prior run, edited by hand) gets
   // applied now: captured as a correction into the keyword map, then

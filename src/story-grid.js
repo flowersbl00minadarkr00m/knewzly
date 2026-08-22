@@ -53,7 +53,7 @@ export function createStoryCard(story) {
     const link = document.createElement('a');
     link.href = src.url;
     link.target = '_blank';
-    link.rel = 'noreferrer';
+    link.rel = 'noopener noreferrer';
     link.textContent = sourceText;
     source.appendChild(link);
   } else {

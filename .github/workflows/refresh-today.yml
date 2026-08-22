@@ -3,11 +3,11 @@
 # publishing static JSON, not a running backend service. No Edge Functions,
 # no Redis, no relay service (TD-004).
 #
-# NOTE: scripts/refresh-today.js's fetchAllowlistedItems() is currently a
-# stub (no live source integration was built in T10 — see the task report
-# for why a live dry-run wasn't attempted in the sandboxed dev session).
-# This workflow is syntactically complete and will run once that stub is
-# replaced with a real per-source fetch/parse implementation.
+# The refresh script fetches only the reviewed allowlist, bounds each source,
+# validates the generated JSON, and preserves the existing file if every
+# source fails. Only entries already marked reviewed in the versioned queue
+# can reach today-stories.json; newly fetched candidates are not committed by
+# this workflow.
 
 name: Refresh Today panel content
 
@@ -22,29 +22,37 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: refresh-today
+  cancel-in-progress: false
+
 jobs:
   refresh-today:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
 
       - name: Set up Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
         with:
           node-version: '20'
 
-      - name: Run news-refresh pipeline
-        run: node scripts/refresh-today.js
+      - name: Test the news pipeline
+        run: npm test
 
-      - name: Commit updated today-stories.json if changed
+      - name: Run news-refresh pipeline
+        run: node scripts/refresh-today.js --publish-reviewed-only
+
+      - name: Commit reviewed publication state if changed
         run: |
-          if git diff --quiet -- content/today-stories.json; then
-            echo "No changes to content/today-stories.json — nothing to commit."
+          if git diff --quiet -- content/today-stories.json content/review-queue.json content/category-keywords.json; then
+            echo "No reviewed publication changes — nothing to commit."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add content/today-stories.json
-          git commit -m "chore: refresh today-stories.json [skip ci]"
+          git add content/today-stories.json content/review-queue.json content/category-keywords.json
+          git commit -m "chore: publish reviewed Today content [skip ci]"
           git push

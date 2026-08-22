@@ -20,6 +20,8 @@ import {
   sortItemsByRecency,
   buildReviewQueue,
   mergeReviewQueue,
+  normalizeHttpsUrl,
+  prepareReviewQueue,
 } from '../scripts/refresh-today.js';
 
 const NOW = new Date('2026-08-10T12:00:00.000Z');
@@ -426,6 +428,28 @@ test('parseFeedItems: returned items never carry category or traceToAnchors — 
   }
 });
 
+test('parseFeedItems: unsafe or non-HTTPS story links are omitted rather than rendered as anchors', () => {
+  const unsafeFeed = `<rss><channel>
+    <item><title>Script link</title><link>javascript:alert(1)</link><pubDate>Mon, 10 Aug 2026 06:00:00 GMT</pubDate></item>
+    <item><title>Plain HTTP link</title><link>http://example.com/story</link><pubDate>Mon, 10 Aug 2026 06:00:00 GMT</pubDate></item>
+  </channel></rss>`;
+  const items = parseFeedItems(unsafeFeed, { id: 'unsafe', name: 'Unsafe Fixture' });
+  assert.equal(items.length, 2);
+  assert.ok(items.every((item) => !('url' in item)));
+  assert.equal(normalizeHttpsUrl('https://example.com/story?a=1&amp;b=2'), 'https://example.com/story?a=1&b=2');
+  assert.equal(normalizeHttpsUrl('https://user:pass@example.com/story'), undefined);
+});
+
+test('buildTodayStories and validateForPublish enforce HTTPS even for manually reviewed queue data', () => {
+  const unsafe = makeItem({ url: 'javascript:alert(1)' });
+  const built = buildTodayStories([unsafe], FIXTURE_ANCHORS, { now: NOW });
+  assert.equal('url' in built.todayStories.stories[0].source, false);
+
+  const manuallyEdited = structuredClone(built.todayStories);
+  manuallyEdited.stories[0].source.url = 'http://example.com/story';
+  assert.ok(validateForPublish(manuallyEdited, FIXTURE_ANCHORS).some((error) => error.includes('public HTTPS URL')));
+});
+
 // --- fetchAllowlistedItems: real fetch+parse, per-source failure isolation
 // (fake fetchImpl only — no real network call in tests)
 
@@ -470,6 +494,25 @@ test('fetchAllowlistedItems: one source failing (network error, non-2xx) does no
 test('fetchAllowlistedItems: an empty allowlist resolves to an empty array, not an error', async () => {
   const items = await fetchAllowlistedItems({ sources: [] }, { fetchImpl: async () => ({ ok: true, text: async () => '' }) });
   assert.deepEqual(items, []);
+});
+
+test('fetchAllowlistedItems: rejects non-HTTPS sources, redirects, and oversized feed bodies', async () => {
+  const calls = [];
+  const allowlist = {
+    sources: [
+      { id: 'insecure', name: 'Insecure', feedUrl: 'http://example.com/feed' },
+      { id: 'oversized', name: 'Oversized', feedUrl: 'https://large.example.com/feed' },
+    ],
+  };
+  const fetchImpl = async (url, options) => {
+    calls.push({ url, options });
+    return { ok: true, text: async () => RSS_FIXTURE + 'x'.repeat(100) };
+  };
+
+  const items = await fetchAllowlistedItems(allowlist, { fetchImpl, maxFeedBytes: 10 });
+  assert.deepEqual(items, []);
+  assert.equal(calls.length, 1, 'the non-HTTPS feed is rejected before fetch');
+  assert.equal(calls[0].options.redirect, 'error');
 });
 
 // 2026-08-14: real allowlist expansion surfaced feeds (official blog
@@ -573,4 +616,18 @@ test('mergeReviewQueue: an empty existing queue just becomes the fresh entries',
   const merged = mergeReviewQueue([], raw, KEYWORD_MAP);
   assert.equal(merged.length, 1);
   assert.equal(merged[0].id, 'x');
+});
+
+test('prepareReviewQueue: scheduled publication consumes only the versioned human-reviewed queue', () => {
+  const existing = [
+    { id: 'reviewed', headline: 'Approved story', category: 'labor', traceToAnchors: [], reviewed: true },
+  ];
+  const fetched = [{ id: 'network-candidate', headline: 'Unreviewed network content' }];
+  const prepared = prepareReviewQueue(existing, fetched, KEYWORD_MAP, {
+    includeFetchedCandidates: false,
+  });
+
+  assert.deepEqual(prepared, existing);
+  assert.notEqual(prepared, existing, 'the caller receives an independent queue array');
+  assert.equal(prepared.some((entry) => entry.id === 'network-candidate'), false);
 });

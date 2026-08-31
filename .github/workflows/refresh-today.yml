@@ -3,11 +3,10 @@
 # publishing static JSON, not a running backend service. No Edge Functions,
 # no Redis, no relay service (TD-004).
 #
-# The refresh script fetches only the reviewed allowlist, bounds each source,
-# validates the generated JSON, and preserves the existing file if every
-# source fails. Only entries already marked reviewed in the versioned queue
-# can reach today-stories.json; newly fetched candidates are not committed by
-# this workflow.
+# The refresh script fetches only the reviewed source allowlist, bounds each
+# source, and automatically publishes only recent, valid, confidently
+# categorized stories. Malformed, undated, old, or unclassified candidates
+# remain excluded, and the existing file is preserved if nothing qualifies.
 
 name: Refresh Today panel content
 
@@ -43,12 +42,12 @@ jobs:
         run: npm test
 
       - name: Run news-refresh pipeline
-        run: node scripts/refresh-today.js --publish-reviewed-only
+        run: node scripts/refresh-today.js --auto-publish-approved
 
-      - name: Commit reviewed publication state if changed
+      - name: Commit publication state if changed
         run: |
           if git diff --quiet -- content/today-stories.json content/review-queue.json content/category-keywords.json; then
-            echo "No reviewed publication changes — nothing to commit."
+            echo "No publication changes — nothing to commit."
             exit 0
           fi
           git config user.name "github-actions[bot]"

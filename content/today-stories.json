@@ -1,7 +1,73 @@
 {
-  "lastUpdated": "2026-08-14T12:27:11.615Z",
-  "freshnessState": "error",
+  "lastUpdated": "2026-08-31T23:46:36.896Z",
+  "freshnessState": "fresh",
   "stories": [
+    {
+      "id": "https://www.technologyreview.com/?p=1143180",
+      "category": "safety-governance",
+      "headline": "The Hugging Face hack could indicate cultural issues at OpenAI",
+      "source": {
+        "name": "MIT Technology Review — Artificial Intelligence",
+        "url": "https://www.technologyreview.com/2026/08/31/1143180/hugging-face-hack-could-indicate-cultural-issues-at-openai/",
+        "publishedDate": "2026-08-31"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3158688",
+      "category": "models",
+      "headline": "Meeting note-taker Circleback adds a free tier to attract more customers",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/08/31/meeting-notetaker-circleback-adds-a-free-tier-to-attract-more-customers/",
+        "publishedDate": "2026-08-31"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theverge.com/?p=986682",
+      "category": "safety-governance",
+      "headline": "ChatGPT to face tougher regulation in the EU",
+      "source": {
+        "name": "The Verge — Artificial Intelligence",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/986682/openai-chatgpt-eu-dsa",
+        "publishedDate": "2026-08-31"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://developer.nvidia.com/blog/?p=121899",
+      "category": "ai-lifecycle",
+      "headline": "Scale AV Perception Across Vehicle Platforms with NVIDIA Omniverse NuRec",
+      "source": {
+        "name": "NVIDIA — Technical Blog",
+        "url": "https://developer.nvidia.com/blog/scale-av-perception-across-vehicle-platforms-with-nvidia-omniverse-nurec/",
+        "publishedDate": "2026-08-31"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3158648",
+      "category": "models",
+      "headline": "Musk&#8217;s faster path to more gas turbines comes with pollution problem",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/08/30/musks-faster-path-to-more-gas-turbines-comes-with-pollution-problem/",
+        "publishedDate": "2026-08-30"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theneurondaily.com/p/anthropic-wants-claude-operating-real-lab-gear",
+      "category": "models",
+      "headline": "😺 Anthropic wants Claude operating real lab gear",
+      "source": {
+        "name": "The Neuron",
+        "url": "https://www.theneurondaily.com/p/anthropic-wants-claude-operating-real-lab-gear",
+        "publishedDate": "2026-08-30"
+      },
+      "traceToAnchors": []
+    },
     {
       "id": "https://www.theverge.com/?p=980160",
       "category": "models",
@@ -592,72 +658,6 @@
       "source": {
         "name": "Microsoft — AI news",
         "url": "https://news.microsoft.com/signal/articles/how-to-build-an-ai-agent-guide/",
-        "publishedDate": "2026-08-10"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://tldr.tech/ai/2026-08-10",
-      "category": "ai-lifecycle",
-      "headline": "OpenAI Astra pause 🚨, Claude Code cross-session 🤖, how Cursor Router works 🔀",
-      "source": {
-        "name": "TLDR AI",
-        "url": "https://tldr.tech/ai/2026-08-10",
-        "publishedDate": "2026-08-10"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theneurondaily.com/p/claude-hacked-a-gym-website",
-      "category": "safety-governance",
-      "headline": "😺 Claude hacked a gym website",
-      "source": {
-        "name": "The Neuron",
-        "url": "https://www.theneurondaily.com/p/claude-hacked-a-gym-website",
-        "publishedDate": "2026-08-10"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://huggingface.co/blog/nvidia/magpie-tts-multilingual-voice-agents",
-      "category": "ai-lifecycle",
-      "headline": "Build Low-Latency Multilingual Voice Agents: Open Weights & Full Deployment Control with NVIDIA Magpie TTS",
-      "source": {
-        "name": "Hugging Face — Blog",
-        "url": "https://huggingface.co/blog/nvidia/magpie-tts-multilingual-voice-agents",
-        "publishedDate": "2026-08-10"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://huggingface.co/blog/MultiverseComputingCAI/efficient-knowledge-distillation",
-      "category": "ai-lifecycle",
-      "headline": "Making Knowledge Distillation Cheap Enough to Run at Scale",
-      "source": {
-        "name": "Hugging Face — Blog",
-        "url": "https://huggingface.co/blog/MultiverseComputingCAI/efficient-knowledge-distillation",
-        "publishedDate": "2026-08-10"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://huggingface.co/blog/muse-glimmer",
-      "category": "models",
-      "headline": "Meta is back with Muse Glimmer: local, agentic, multimodal, and open source",
-      "source": {
-        "name": "Hugging Face — Blog",
-        "url": "https://huggingface.co/blog/muse-glimmer",
-        "publishedDate": "2026-08-10"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://developer.nvidia.com/blog/?p=121045",
-      "category": "ai-lifecycle",
-      "headline": "Run Local Agentic AI Workflows with Meta’s Muse Glimmer on NVIDIA",
-      "source": {
-        "name": "NVIDIA — Technical Blog",
-        "url": "https://developer.nvidia.com/blog/run-local-agentic-ai-workflows-with-metas-muse-glimmer-on-nvidia/",
         "publishedDate": "2026-08-10"
       },
       "traceToAnchors": []

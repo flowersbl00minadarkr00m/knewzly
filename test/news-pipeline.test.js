@@ -22,6 +22,7 @@ import {
   mergeReviewQueue,
   normalizeHttpsUrl,
   prepareReviewQueue,
+  selectAutoPublishableItems,
 } from '../scripts/refresh-today.js';
 
 const NOW = new Date('2026-08-10T12:00:00.000Z');
@@ -630,4 +631,53 @@ test('prepareReviewQueue: scheduled publication consumes only the versioned huma
   assert.deepEqual(prepared, existing);
   assert.notEqual(prepared, existing, 'the caller receives an independent queue array');
   assert.equal(prepared.some((entry) => entry.id === 'network-candidate'), false);
+});
+
+test('selectAutoPublishableItems: approved-source automation publishes only recent, confidently categorized stories', () => {
+  const now = new Date('2026-08-31T20:00:00.000Z');
+  const raw = [
+    {
+      id: 'recent-confident',
+      sourceId: 'approved-source',
+      sourceName: 'Approved Source',
+      headline: 'Kenyan gig worker dispute',
+      publishedDate: '2026-08-31T18:00:00.000Z',
+      url: 'https://example.com/recent',
+    },
+    {
+      id: 'recent-unclassified',
+      sourceId: 'approved-source',
+      sourceName: 'Approved Source',
+      headline: 'Unrelated headline',
+      publishedDate: '2026-08-31T17:00:00.000Z',
+      url: 'https://example.com/unclassified',
+    },
+    {
+      id: 'old-confident',
+      sourceId: 'approved-source',
+      sourceName: 'Approved Source',
+      headline: 'Kenyan gig worker dispute',
+      publishedDate: '2026-08-30T08:00:00.000Z',
+      url: 'https://example.com/old',
+    },
+    {
+      id: 'future-confident',
+      sourceId: 'approved-source',
+      sourceName: 'Approved Source',
+      headline: 'Kenyan gig worker dispute',
+      publishedDate: '2026-09-01T18:00:00.000Z',
+      url: 'https://example.com/future',
+    },
+  ];
+
+  const result = selectAutoPublishableItems(raw, KEYWORD_MAP, { now });
+
+  assert.deepEqual(result.readyItems.map((item) => item.id), ['recent-confident']);
+  assert.equal(result.readyItems[0].category, 'labor');
+  assert.deepEqual(result.readyItems[0].traceToAnchors, [], 'automation must not invent a historical trace');
+  assert.equal(result.stats.fetchedCount, 4);
+  assert.equal(result.stats.publishableCount, 1);
+  assert.equal(result.stats.tooOldCount, 1);
+  assert.equal(result.stats.unclassifiedCount, 1);
+  assert.equal(result.stats.invalidDateCount, 1);
 });

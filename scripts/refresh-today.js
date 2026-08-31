@@ -308,6 +308,49 @@ export function prepareReviewQueue(
     : [...(existingQueue ?? [])];
 }
 
+/**
+ * Selects stories that can be published automatically from the already
+ * reviewed source allowlist. Automatic publication is intentionally stricter
+ * than the manual queue: a story needs a valid recent publication date and a
+ * confident category match. Historical traces are never inferred here.
+ *
+ * @param {object[]} rawItems
+ * @param {object} keywordMap
+ * @param {{ now?: Date, maxAgeHours?: number }} [opts]
+ * @returns {{ readyItems: object[], stats: object }}
+ */
+export function selectAutoPublishableItems(
+  rawItems,
+  keywordMap,
+  { now = new Date(), maxAgeHours = 24 } = {}
+) {
+  const fetchedCount = (rawItems ?? []).length;
+  const { kept, dropped } = gatePubdates(rawItems, { now });
+  const cutoff = now.getTime() - maxAgeHours * 60 * 60 * 1000;
+  const recent = kept.filter((item) => new Date(item.publishedDate).getTime() >= cutoff);
+  const tooOldCount = kept.length - recent.length;
+  const categorized = buildReviewQueue(recent, keywordMap);
+  const publishable = categorized.filter((item) => item.category);
+
+  const readyItems = publishable.map((item) => ({
+    ...item,
+    // A keyword match may suggest an anchor, but automatic publication must
+    // not turn that suggestion into a factual historical-trace claim.
+    traceToAnchors: [],
+  }));
+
+  return {
+    readyItems,
+    stats: {
+      fetchedCount,
+      publishableCount: readyItems.length,
+      tooOldCount,
+      unclassifiedCount: recent.length - readyItems.length,
+      invalidDateCount: dropped.length,
+    },
+  };
+}
+
 // --- Impure edges (not covered by node:test; require network/filesystem) --
 
 /**
@@ -602,6 +645,7 @@ export async function publishTodayStories(
 
 async function main() {
   const publishReviewedOnly = process.argv.includes('--publish-reviewed-only');
+  const autoPublishApproved = process.argv.includes('--auto-publish-approved');
   const allowlist = await readAllowlist();
   const anchorsRaw = await readFile(new URL('../content/anchors.json', import.meta.url), 'utf-8').catch(
     () => null
@@ -623,26 +667,43 @@ async function main() {
     readReviewQueue(),
     readKeywordMap(),
   ]);
-  const mergedQueue = prepareReviewQueue(existingQueue, rawItems, keywordMap, {
-    includeFetchedCandidates: !publishReviewedOnly,
-  });
+  let readyItems;
+  let remainingQueue;
+  let updatedKeywordMap;
+  let autoPublishStats;
 
-  // Anything already reviewed (from a prior run, edited by hand) gets
-  // applied now: captured as a correction into the keyword map, then
-  // handed to the normal validate-before-publish pipeline. Nothing here
-  // bypasses validateForPublish — an incompletely reviewed entry simply
-  // isn't "ready" and stays in the queue.
-  const { readyItems, remainingQueue, keywordMap: updatedKeywordMap } = applyReviewedQueue(
-    mergedQueue,
-    keywordMap
-  );
+  if (autoPublishApproved) {
+    const selected = selectAutoPublishableItems(rawItems, keywordMap);
+    readyItems = selected.readyItems;
+    autoPublishStats = selected.stats;
+    // Automatic publication is gated by the reviewed source allowlist and
+    // strict date/category checks. It does not mutate or consume the manual
+    // review queue, which remains available for local editorial curation.
+    remainingQueue = existingQueue;
+    updatedKeywordMap = keywordMap;
+  } else {
+    const mergedQueue = prepareReviewQueue(existingQueue, rawItems, keywordMap, {
+      includeFetchedCandidates: !publishReviewedOnly,
+    });
+
+    // Anything already reviewed (from a prior run, edited by hand) gets
+    // applied now: captured as a correction into the keyword map, then
+    // handed to the normal validate-before-publish pipeline.
+    ({ readyItems, remainingQueue, keywordMap: updatedKeywordMap } = applyReviewedQueue(
+      mergedQueue,
+      keywordMap
+    ));
+  }
 
   await Promise.all([writeReviewQueue(remainingQueue), writeKeywordMap(updatedKeywordMap)]);
 
   if (readyItems.length === 0) {
+    const automaticSummary = autoPublishStats
+      ? ` (${autoPublishStats.tooOldCount} too old, ${autoPublishStats.unclassifiedCount} unclassified, ${autoPublishStats.invalidDateCount} invalid date)`
+      : '';
     console.log(
       `refresh-today: fetched ${rawItems.length} item(s), queue now has ${remainingQueue.length} ` +
-        `awaiting review, nothing ready to publish this run.`
+        `awaiting review, nothing ready to publish this run.${automaticSummary}`
     );
     return;
   }
@@ -655,10 +716,18 @@ async function main() {
   // the full `rawItems` fetched this run, plus every allowlisted source id
   // (so a source that returned literally zero items, not even a droppable
   // one, still counts), independent of what's actually ready to publish.
-  const result = buildTodayStories(readyItems, anchors, {
-    freshnessSourceItems: rawItems,
-    expectedSourceIds: allowlist.sources.map((s) => s.id),
-  });
+  const result = autoPublishApproved
+    ? buildTodayStories(readyItems, anchors, {
+        // The banner reports the freshness of what was actually selected for
+        // publication. A broken optional source is logged and isolated rather
+        // than making otherwise-current published news claim a job failure.
+        freshnessSourceItems: readyItems,
+        expectedSourceIds: [...new Set(readyItems.map((item) => item.sourceId))],
+      })
+    : buildTodayStories(readyItems, anchors, {
+        freshnessSourceItems: rawItems,
+        expectedSourceIds: allowlist.sources.map((s) => s.id),
+      });
   if (result.errors.length > 0) {
     console.error(
       `refresh-today: ${readyItems.length} reviewed item(s) failed final validation, not publishing:\n` +
@@ -693,7 +762,10 @@ async function main() {
   console.log(
     `refresh-today: published ${finalTodayStories.stories.length} stories (${result.todayStories.stories.length} new this run), ` +
       `freshnessState=${finalTodayStories.freshnessState}, dropped=${result.stats.droppedCount}, ` +
-      `queue now has ${remainingQueue.length} awaiting review`
+      `queue now has ${remainingQueue.length} awaiting review` +
+      (autoPublishStats
+        ? `; automatic selection: ${autoPublishStats.publishableCount}/${autoPublishStats.fetchedCount} publishable, ${autoPublishStats.tooOldCount} too old, ${autoPublishStats.unclassifiedCount} unclassified`
+        : '')
   );
 }
 

@@ -11,10 +11,10 @@
  * @param {HTMLElement} container
  * @param {Array<{id: string, label: string}>} categories
  * @param {string} activeId
- * @param {(id: string, triggeredFromFocusedChip: boolean) => void} onSelect
- * @param {boolean} [restoreActiveFocus=false]
+ * @param {(id: string) => void} onSelect
  */
-export function renderSectionNav(container, categories, activeId, onSelect, restoreActiveFocus = false) {
+export function renderSectionNav(container, categories, activeId, onSelect) {
+  const restoreActiveFocus = Array.from(container.children).includes(document.activeElement);
   container.innerHTML = '';
   container.setAttribute('role', 'toolbar');
   container.setAttribute('aria-label', 'Filter stories by category');
@@ -28,7 +28,7 @@ export function renderSectionNav(container, categories, activeId, onSelect, rest
     button.textContent = label;
     button.setAttribute('aria-pressed', String(id === activeId));
     if (id === activeId) activeButton = button;
-    button.addEventListener('click', () => onSelect(id, document.activeElement === button));
+    button.addEventListener('click', () => onSelect(id));
     container.appendChild(button);
   }
 

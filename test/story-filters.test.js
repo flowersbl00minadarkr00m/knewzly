@@ -164,10 +164,10 @@ test('renderSectionNav', async (t) => {
   await t.test('a focused chip restores focus to its active replacement after filtering', () => {
     const container = new FakeElement('nav');
     let activeId = 'all';
-    const render = (restoreActiveFocus = false) => renderSectionNav(container, categories, activeId, (id, triggeredFromFocusedChip) => {
+    const render = () => renderSectionNav(container, categories, activeId, (id) => {
       activeId = id;
-      render(triggeredFromFocusedChip);
-    }, restoreActiveFocus);
+      render();
+    });
 
     render();
     const models = container.children.find((button) => button.dataset.filter === 'models');
@@ -176,13 +176,26 @@ test('renderSectionNav', async (t) => {
 
     const replacement = container.children.find((button) => button.dataset.filter === 'models');
     assert.equal(document.activeElement, replacement);
+
+    render();
+    const delayedReplacement = container.children.find((button) => button.dataset.filter === 'models');
+    assert.equal(document.activeElement, delayedReplacement);
   });
 
   await t.test('an initial or non-focused render does not steal focus', () => {
     document.activeElement = null;
     const container = new FakeElement('nav');
-    renderSectionNav(container, categories, 'all', () => {}, false);
+    renderSectionNav(container, categories, 'all', () => {});
     assert.equal(document.activeElement, null);
+  });
+
+  await t.test('a rerender does not steal focus from an external element', () => {
+    const container = new FakeElement('nav');
+    const external = new FakeElement('a');
+    renderSectionNav(container, categories, 'all', () => {});
+    external.focus();
+    renderSectionNav(container, categories, 'models', () => {});
+    assert.equal(document.activeElement, external);
   });
 
   await t.test('re-rendering replaces the previous chips rather than appending to them', () => {

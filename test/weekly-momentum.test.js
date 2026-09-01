@@ -330,6 +330,16 @@ test('the publication gate rejects timestamp and unjustified status mutations wh
   wrongUnavailableCoverageBasis.entries[0].signals.coverage.basis = 'gdelt_sample';
   assert.ok(validateWeeklyLedger(wrongUnavailableCoverageBasis, todayStories).some((error) => error.includes('GDELT-unavailable observed coverage must identify canonical_today_sources basis')));
 
+  for (const state of ['provider_unavailable', 'not_observed', 'not_configured']) {
+    const unavailableCoverageInsteadOfBaseline = structuredClone(degradedSupply);
+    unavailableCoverageInsteadOfBaseline.entries[0].signals.coverage = { state };
+    assert.ok(
+      validateWeeklyLedger(unavailableCoverageInsteadOfBaseline, todayStories)
+        .some((error) => error.includes('GDELT-unavailable populated edition requires observed canonical_today_sources coverage')),
+      `GDELT-unavailable populated edition must reject ${state} coverage`,
+    );
+  }
+
   const mismatchedLeadTimestamp = structuredClone(valid);
   mismatchedLeadTimestamp.entries[0].publishedAt = '2026-08-31T11:00:00.000Z';
   assert.ok(validateWeeklyLedger(mismatchedLeadTimestamp, todayStories).some((error) => error.includes('does not match canonical Today lead published timestamp')));
@@ -355,6 +365,49 @@ test('the publication gate rejects timestamp and unjustified status mutations wh
   const freshWithSevenEntries = structuredClone(limitedSupply);
   freshWithSevenEntries.status = 'fresh';
   assert.ok(validateWeeklyLedger(freshWithSevenEntries, limitedSupplyStories).some((error) => error.includes('fresh requires at least eight entries')));
+});
+
+test('the publication gate permits unavailable only for both-core failure or no eligible Today stories', () => {
+  const todayStories = {
+    stories: Array.from({ length: 8 }, (_, index) => story(
+      `unavailable-${index}`,
+      index < 4 ? 'models' : 'research',
+      `Specific unavailable-state result ${index}`,
+      '2026-08-31T12:00:00.000Z',
+    )),
+  };
+  const healthy = buildWeeklyLedger({ todayStories, now: NOW });
+  assert.equal(healthy.status, 'fresh');
+
+  const healthyUnavailable = structuredClone(healthy);
+  healthyUnavailable.status = 'unavailable';
+  healthyUnavailable.entries = [];
+  assert.ok(validateWeeklyLedger(healthyUnavailable, todayStories).some((error) => error.includes('unavailable requires both core providers unavailable or no eligible Today stories')));
+
+  const oneProviderDegraded = buildWeeklyLedger({
+    todayStories,
+    now: NOW,
+    providerStates: { gdelt: { status: 'unavailable' }, hackerNews: { status: 'ok' } },
+  });
+  assert.equal(oneProviderDegraded.status, 'partial');
+  assert.equal(oneProviderDegraded.entries.length, 8);
+  const degradedUnavailable = structuredClone(oneProviderDegraded);
+  degradedUnavailable.status = 'unavailable';
+  degradedUnavailable.entries = [];
+  assert.ok(validateWeeklyLedger(degradedUnavailable, todayStories).some((error) => error.includes('unavailable requires both core providers unavailable or no eligible Today stories')));
+
+  const bothFailed = buildWeeklyLedger({
+    todayStories,
+    now: NOW,
+    providerStates: { gdelt: { status: 'unavailable' }, hackerNews: { status: 'unavailable' } },
+  });
+  assert.equal(bothFailed.status, 'unavailable');
+  assert.deepEqual(validateWeeklyLedger(bothFailed, todayStories), []);
+
+  const noEligibleStories = { stories: [story('expired', 'research', 'Expired result', '2026-08-24T17:59:59.999Z')] };
+  const noEligible = buildWeeklyLedger({ todayStories: noEligibleStories, now: NOW });
+  assert.equal(noEligible.status, 'unavailable');
+  assert.deepEqual(validateWeeklyLedger(noEligible, noEligibleStories), []);
 });
 
 test('the publication gate requires every entry signal state to agree with its provider state', () => {

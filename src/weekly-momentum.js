@@ -308,11 +308,19 @@ function crossReferenceErrors(document, todayStories) {
   }
   const gdeltStatus = document?.providers?.gdelt?.status;
   const hackerNewsStatus = document?.providers?.hackerNews?.status;
+  const eligibleTodayStoriesInWindow = windowEnd
+    ? eligibleTodayStories({ stories: canonicalStories }, { now: windowEnd }).length
+    : 0;
   if (document?.status === 'fresh' && (gdeltStatus !== 'ok' || hackerNewsStatus !== 'ok')) {
     errors.push('fresh requires both core providers to be ok');
   }
   if (document?.status === 'partial' && gdeltStatus !== 'ok' && hackerNewsStatus !== 'ok') {
     errors.push('partial requires at least one core provider to be ok');
+  }
+  if (document?.status === 'unavailable'
+    && eligibleTodayStoriesInWindow > 0
+    && !(gdeltStatus === 'unavailable' && hackerNewsStatus === 'unavailable')) {
+    errors.push('unavailable requires both core providers unavailable or no eligible Today stories');
   }
   const entries = Array.isArray(document?.entries) ? document.entries : [];
   if (document?.status === 'fresh' && entries.length < 8) {
@@ -336,6 +344,10 @@ function crossReferenceErrors(document, todayStories) {
       errors.push(`entry publishedAt "${entry.publishedAt}" is outside the declared window`);
     }
     const coverage = entry?.signals?.coverage;
+    if (gdeltStatus === 'unavailable' && entries.length > 0
+      && (coverage?.state !== 'observed' || coverage.basis !== 'canonical_today_sources')) {
+      errors.push('GDELT-unavailable populated edition requires observed canonical_today_sources coverage');
+    }
     if (gdeltStatus === 'ok' && coverage?.state === 'observed' && coverage.basis !== 'gdelt_sample') {
       errors.push('GDELT-ok observed coverage must identify gdelt_sample basis');
     }

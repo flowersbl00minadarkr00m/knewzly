@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
   "methodologyVersion": "weekly-momentum-v1",
-  "windowStart": "2026-08-25T15:57:40.447Z",
-  "windowEnd": "2026-09-01T15:57:40.447Z",
-  "lastAttemptedAt": "2026-09-01T15:57:40.447Z",
-  "lastSuccessfulAt": "2026-09-01T15:57:40.447Z",
+  "windowStart": "2026-08-25T18:11:07.653Z",
+  "windowEnd": "2026-09-01T18:11:07.653Z",
+  "lastAttemptedAt": "2026-09-01T18:11:07.653Z",
+  "lastSuccessfulAt": "2026-09-01T18:11:07.653Z",
   "status": "partial",
   "providers": {
     "gdelt": {
@@ -12,7 +12,7 @@
     },
     "hackerNews": {
       "status": "ok",
-      "sampledAt": "2026-09-01T15:57:40.447Z",
+      "sampledAt": "2026-09-01T18:11:07.653Z",
       "itemCount": 199
     },
     "bluesky": {
@@ -28,7 +28,7 @@
       ],
       "category": "research",
       "publishedAt": "2026-09-01T00:00:00.000Z",
-      "momentumScore": 0.42119093397099067,
+      "momentumScore": 0.41740824028240414,
       "signals": {
         "coverage": {
           "state": "observed",
@@ -43,7 +43,7 @@
         },
         "recency": {
           "state": "observed",
-          "ageHours": 15.961235277777778
+          "ageHours": 18.185459166666668
         },
         "bluesky": {
           "state": "not_configured"
@@ -58,7 +58,7 @@
       ],
       "category": "ai-lifecycle",
       "publishedAt": "2026-09-01T00:00:00.000Z",
-      "momentumScore": 0.42119093397099067,
+      "momentumScore": 0.41740824028240414,
       "signals": {
         "coverage": {
           "state": "observed",
@@ -73,7 +73,7 @@
         },
         "recency": {
           "state": "observed",
-          "ageHours": 15.961235277777778
+          "ageHours": 18.185459166666668
         },
         "bluesky": {
           "state": "not_configured"
@@ -88,7 +88,7 @@
       ],
       "category": "research",
       "publishedAt": "2026-09-01T00:00:00.000Z",
-      "momentumScore": 0.42119093397099067,
+      "momentumScore": 0.41740824028240414,
       "signals": {
         "coverage": {
           "state": "observed",
@@ -103,7 +103,7 @@
         },
         "recency": {
           "state": "observed",
-          "ageHours": 15.961235277777778
+          "ageHours": 18.185459166666668
         },
         "bluesky": {
           "state": "not_configured"
@@ -118,7 +118,7 @@
       ],
       "category": "safety-governance",
       "publishedAt": "2026-09-01T00:00:00.000Z",
-      "momentumScore": 0.42119093397099067,
+      "momentumScore": 0.41740824028240414,
       "signals": {
         "coverage": {
           "state": "observed",
@@ -133,7 +133,7 @@
         },
         "recency": {
           "state": "observed",
-          "ageHours": 15.961235277777778
+          "ageHours": 18.185459166666668
         },
         "bluesky": {
           "state": "not_configured"
@@ -142,20 +142,20 @@
     },
     {
       "rank": 5,
-      "leadStoryId": "https://huggingface.co/blog/webgpu-kernels",
+      "leadStoryId": "content_6a96fa2dc5595142174ceb18",
       "memberStoryIds": [
-        "https://huggingface.co/blog/webgpu-kernels"
+        "content_6a96fa2dc5595142174ceb18"
       ],
-      "category": "safety-governance",
+      "category": "research",
       "publishedAt": "2026-09-01T00:00:00.000Z",
-      "momentumScore": 0.42119093397099067,
+      "momentumScore": 0.41740824028240414,
       "signals": {
         "coverage": {
           "state": "observed",
           "basis": "canonical_today_sources",
           "independentOutletCount": 1,
           "sampledDomains": [
-            "huggingface.co"
+            "forbes.com"
           ]
         },
         "hackerNews": {
@@ -163,7 +163,7 @@
         },
         "recency": {
           "state": "observed",
-          "ageHours": 15.961235277777778
+          "ageHours": 18.185459166666668
         },
         "bluesky": {
           "state": "not_configured"
@@ -172,20 +172,20 @@
     },
     {
       "rank": 6,
-      "leadStoryId": "https://techcrunch.com/?p=3159543",
+      "leadStoryId": "https://deepmind.google/blog/introducing-agentic-video-in-gemini/",
       "memberStoryIds": [
-        "https://techcrunch.com/?p=3159543"
+        "https://deepmind.google/blog/introducing-agentic-video-in-gemini/"
       ],
       "category": "models",
       "publishedAt": "2026-09-01T00:00:00.000Z",
-      "momentumScore": 0.42119093397099067,
+      "momentumScore": 0.41740824028240414,
       "signals": {
         "coverage": {
           "state": "observed",
           "basis": "canonical_today_sources",
           "independentOutletCount": 1,
           "sampledDomains": [
-            "techcrunch.com"
+            "deepmind.google"
           ]
         },
         "hackerNews": {
@@ -193,7 +193,7 @@
         },
         "recency": {
           "state": "observed",
-          "ageHours": 15.961235277777778
+          "ageHours": 18.185459166666668
         },
         "bluesky": {
           "state": "not_configured"
@@ -202,48 +202,13 @@
     },
     {
       "rank": 7,
-      "leadStoryId": "https://www.theverge.com/?p=986682",
+      "leadStoryId": "https://developer.nvidia.com/blog/?p=121995",
       "memberStoryIds": [
-        "https://www.theverge.com/?p=986682"
-      ],
-      "category": "safety-governance",
-      "publishedAt": "2026-08-31T00:00:00.000Z",
-      "momentumScore": 0.406313459374312,
-      "signals": {
-        "coverage": {
-          "state": "observed",
-          "basis": "canonical_today_sources",
-          "independentOutletCount": 1,
-          "sampledDomains": [
-            "theverge.com"
-          ]
-        },
-        "hackerNews": {
-          "state": "observed",
-          "points": 25,
-          "comments": 16,
-          "itemIds": [
-            49510517
-          ]
-        },
-        "recency": {
-          "state": "observed",
-          "ageHours": 39.961235277777774
-        },
-        "bluesky": {
-          "state": "not_configured"
-        }
-      }
-    },
-    {
-      "rank": 8,
-      "leadStoryId": "https://developer.nvidia.com/blog/?p=121899",
-      "memberStoryIds": [
-        "https://developer.nvidia.com/blog/?p=121899"
+        "https://developer.nvidia.com/blog/?p=121995"
       ],
       "category": "ai-lifecycle",
-      "publishedAt": "2026-08-31T00:00:00.000Z",
-      "momentumScore": 0.38037460744037843,
+      "publishedAt": "2026-09-01T00:00:00.000Z",
+      "momentumScore": 0.41740824028240414,
       "signals": {
         "coverage": {
           "state": "observed",
@@ -258,7 +223,37 @@
         },
         "recency": {
           "state": "observed",
-          "ageHours": 39.961235277777774
+          "ageHours": 18.185459166666668
+        },
+        "bluesky": {
+          "state": "not_configured"
+        }
+      }
+    },
+    {
+      "rank": 8,
+      "leadStoryId": "https://huggingface.co/blog/webgpu-kernels",
+      "memberStoryIds": [
+        "https://huggingface.co/blog/webgpu-kernels"
+      ],
+      "category": "safety-governance",
+      "publishedAt": "2026-09-01T00:00:00.000Z",
+      "momentumScore": 0.41740824028240414,
+      "signals": {
+        "coverage": {
+          "state": "observed",
+          "basis": "canonical_today_sources",
+          "independentOutletCount": 1,
+          "sampledDomains": [
+            "huggingface.co"
+          ]
+        },
+        "hackerNews": {
+          "state": "not_observed"
+        },
+        "recency": {
+          "state": "observed",
+          "ageHours": 18.185459166666668
         },
         "bluesky": {
           "state": "not_configured"
@@ -267,20 +262,20 @@
     },
     {
       "rank": 9,
-      "leadStoryId": "https://techcrunch.com/?p=3158688",
+      "leadStoryId": "https://openai.com/index/ai-native-company-workflows",
       "memberStoryIds": [
-        "https://techcrunch.com/?p=3158688"
+        "https://openai.com/index/ai-native-company-workflows"
       ],
-      "category": "models",
-      "publishedAt": "2026-08-31T00:00:00.000Z",
-      "momentumScore": 0.38037460744037843,
+      "category": "ai-lifecycle",
+      "publishedAt": "2026-09-01T00:00:00.000Z",
+      "momentumScore": 0.41740824028240414,
       "signals": {
         "coverage": {
           "state": "observed",
           "basis": "canonical_today_sources",
           "independentOutletCount": 1,
           "sampledDomains": [
-            "techcrunch.com"
+            "openai.com"
           ]
         },
         "hackerNews": {
@@ -288,7 +283,7 @@
         },
         "recency": {
           "state": "observed",
-          "ageHours": 39.961235277777774
+          "ageHours": 18.185459166666668
         },
         "bluesky": {
           "state": "not_configured"
@@ -297,43 +292,13 @@
     },
     {
       "rank": 10,
-      "leadStoryId": "https://www.technologyreview.com/?p=1143180",
+      "leadStoryId": "https://techcrunch.com/?p=3159529",
       "memberStoryIds": [
-        "https://www.technologyreview.com/?p=1143180"
+        "https://techcrunch.com/?p=3159529"
       ],
-      "category": "safety-governance",
-      "publishedAt": "2026-08-31T00:00:00.000Z",
-      "momentumScore": 0.38037460744037843,
-      "signals": {
-        "coverage": {
-          "state": "observed",
-          "basis": "canonical_today_sources",
-          "independentOutletCount": 1,
-          "sampledDomains": [
-            "technologyreview.com"
-          ]
-        },
-        "hackerNews": {
-          "state": "not_observed"
-        },
-        "recency": {
-          "state": "observed",
-          "ageHours": 39.961235277777774
-        },
-        "bluesky": {
-          "state": "not_configured"
-        }
-      }
-    },
-    {
-      "rank": 11,
-      "leadStoryId": "https://techcrunch.com/?p=3158648",
-      "memberStoryIds": [
-        "https://techcrunch.com/?p=3158648"
-      ],
-      "category": "models",
-      "publishedAt": "2026-08-30T00:00:00.000Z",
-      "momentumScore": 0.33955828090976614,
+      "category": "ai-lifecycle",
+      "publishedAt": "2026-09-01T00:00:00.000Z",
+      "momentumScore": 0.41740824028240414,
       "signals": {
         "coverage": {
           "state": "observed",
@@ -348,7 +313,37 @@
         },
         "recency": {
           "state": "observed",
-          "ageHours": 63.961235277777774
+          "ageHours": 18.185459166666668
+        },
+        "bluesky": {
+          "state": "not_configured"
+        }
+      }
+    },
+    {
+      "rank": 11,
+      "leadStoryId": "https://techcrunch.com/?p=3159543",
+      "memberStoryIds": [
+        "https://techcrunch.com/?p=3159543"
+      ],
+      "category": "models",
+      "publishedAt": "2026-09-01T00:00:00.000Z",
+      "momentumScore": 0.41740824028240414,
+      "signals": {
+        "coverage": {
+          "state": "observed",
+          "basis": "canonical_today_sources",
+          "independentOutletCount": 1,
+          "sampledDomains": [
+            "techcrunch.com"
+          ]
+        },
+        "hackerNews": {
+          "state": "not_observed"
+        },
+        "recency": {
+          "state": "observed",
+          "ageHours": 18.185459166666668
         },
         "bluesky": {
           "state": "not_configured"
@@ -357,20 +352,20 @@
     },
     {
       "rank": 12,
-      "leadStoryId": "https://www.theneurondaily.com/p/anthropic-wants-claude-operating-real-lab-gear",
+      "leadStoryId": "https://www.theverge.com/?p=986378",
       "memberStoryIds": [
-        "https://www.theneurondaily.com/p/anthropic-wants-claude-operating-real-lab-gear"
+        "https://www.theverge.com/?p=986378"
       ],
-      "category": "models",
-      "publishedAt": "2026-08-30T00:00:00.000Z",
-      "momentumScore": 0.33955828090976614,
+      "category": "compute-energy",
+      "publishedAt": "2026-09-01T00:00:00.000Z",
+      "momentumScore": 0.41740824028240414,
       "signals": {
         "coverage": {
           "state": "observed",
           "basis": "canonical_today_sources",
           "independentOutletCount": 1,
           "sampledDomains": [
-            "theneurondaily.com"
+            "theverge.com"
           ]
         },
         "hackerNews": {
@@ -378,7 +373,7 @@
         },
         "recency": {
           "state": "observed",
-          "ageHours": 63.961235277777774
+          "ageHours": 18.185459166666668
         },
         "bluesky": {
           "state": "not_configured"

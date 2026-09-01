@@ -6,13 +6,6 @@
 // (T10, design.md §6). Nothing in this module or anywhere else in the
 // frontend ever writes to it — ContentLoader only reads.
 
-// Ajv is a Node-side publication/content-check dependency, not a browser
-// asset in this no-bundler app. Keep the browser reader loadable while Node
-// content checks use the same canonical validator as the publication script.
-const validateTodayStories = typeof process !== 'undefined' && process.versions?.node
-  ? (await import('./today-stories-validator.js')).validateTodayStories
-  : null;
-
 /**
  * Default reader for browser use: fetch() against a relative/absolute path.
  * @param {string} path
@@ -53,9 +46,10 @@ const REQUIRED_RELATIONSHIP_FIELDS = ['id', 'from', 'to', 'type', 'confidence', 
 
 /**
  * @param {{anchors: {anchors: any[]}, relationships?: {relationships: any[]}, todayStories?: {stories: any[]}}} content
+ * @param {{validateToday?: (todayStories: object, anchors: object) => string[]}} [opts]
  * @returns {string[]} error messages; empty array means valid
  */
-export function validateContent({ anchors, relationships, todayStories }) {
+export function validateContent({ anchors, relationships, todayStories }, { validateToday } = {}) {
   const errors = [];
   const anchorList = anchors?.anchors ?? [];
   const anchorIds = new Set(anchorList.map((a) => a.id));
@@ -87,8 +81,8 @@ export function validateContent({ anchors, relationships, todayStories }) {
   }
 
   if (todayStories) {
-    if (validateTodayStories) {
-      errors.push(...validateTodayStories(todayStories, anchors));
+    if (validateToday) {
+      errors.push(...validateToday(todayStories, anchors));
     }
   }
 

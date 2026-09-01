@@ -15,6 +15,7 @@
 
 import { readFile, writeFile } from 'node:fs/promises';
 import { validateContent } from '../src/content-loader.js';
+import { validateTodayStories } from '../src/today-stories-validator.js';
 import { buildReviewQueueEntry, applyReviewedQueue } from './categorize-story.js';
 
 // --- Freshness taxonomy (design.md §5/§6, TD-004) ----------------------
@@ -141,7 +142,7 @@ export function reduceFreshness(sourceFreshnessStates) {
  * @returns {string[]} errors; empty array means the candidate is publishable
  */
 export function validateForPublish(todayStories, anchors) {
-  return validateContent({ anchors, todayStories });
+  return validateContent({ anchors, todayStories }, { validateToday: validateTodayStories });
 }
 
 /**

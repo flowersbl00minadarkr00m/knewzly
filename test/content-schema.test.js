@@ -4,7 +4,7 @@ import { readFile } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { loadContent, validateContent } from '../src/content-loader.js';
-import { validateTodayStories } from '../src/today-stories-validator.js';
+import { validateTodayStories, validateTodayStoriesSchema } from '../src/today-stories-validator.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const FIXTURES = path.join(__dirname, '..', 'content', 'fixtures');
@@ -57,19 +57,16 @@ describe('T1: content schema + ContentLoader + validator', () => {
   });
 
   test('validator flags an invalid freshnessState', () => {
-    const errors = validateContent({
-      anchors: { anchors: [] },
-      relationships: { relationships: [] },
-      todayStories: { freshnessState: 'not-a-real-state', stories: [] },
-    });
+    const errors = validateTodayStories(
+      { freshnessState: 'not-a-real-state', stories: [] },
+      { anchors: [] }
+    );
     assert.ok(errors.some((e) => e.includes('freshnessState')));
   });
 
   test('validator flags a today-story tracing to a nonexistent anchor', () => {
-    const errors = validateContent({
-      anchors: { anchors: [{ id: 'real-anchor' }] },
-      relationships: { relationships: [] },
-      todayStories: {
+    const errors = validateTodayStories(
+      {
         freshnessState: 'fresh',
         stories: [
           {
@@ -81,7 +78,8 @@ describe('T1: content schema + ContentLoader + validator', () => {
           },
         ],
       },
-    });
+      { anchors: [{ id: 'real-anchor' }] }
+    );
     assert.ok(errors.some((e) => e.includes('nonexistent-anchor')));
   });
 
@@ -107,8 +105,14 @@ describe('T1: content schema + ContentLoader + validator', () => {
       }],
     };
     const anchors = { anchors: [{ id: 'real-anchor' }] };
+    assert.deepEqual(
+      validateTodayStoriesSchema({ ...valid, lastUpdated: '2026-08-31T23:59:59.123+05:30' }),
+      [],
+      'fractional-second timestamps with valid offsets remain accepted'
+    );
     const mutations = [
       { mutate: (candidate) => { candidate.stories = {}; }, label: 'stories type' },
+      { mutate: (candidate) => { candidate.lastUpdated = '2026-08-31T24:00:00Z'; }, label: 'lastUpdated time' },
       { mutate: (candidate) => { delete candidate.stories[0].headline; }, label: 'required story field' },
       { mutate: (candidate) => { candidate.stories[0].source.publishedDate = '2026-02-30'; }, label: 'source date' },
       { mutate: (candidate) => { candidate.freshnessState = 'live'; }, label: 'freshness enum' },

@@ -14,10 +14,21 @@ function isIsoDate(value) {
 }
 
 function isIsoDateTime(value) {
-  return typeof value === 'string' &&
-    /^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(?:\.\d+)?(?:Z|[+-]\d{2}:\d{2})$/.test(value) &&
-    isIsoDate(value.slice(0, 10)) &&
-    !Number.isNaN(Date.parse(value));
+  if (typeof value !== 'string') return false;
+  const match = /^(\d{4}-\d{2}-\d{2})T(\d{2}):(\d{2}):(\d{2})(?:\.\d+)?(?:Z|[+-](\d{2}):(\d{2}))$/.exec(value);
+  if (!match) return false;
+
+  const [, date, hour, minute, second, offsetHour, offsetMinute] = match;
+  if (
+    Number(hour) > 23 ||
+    Number(minute) > 59 ||
+    Number(second) > 59 ||
+    (offsetHour !== undefined && (Number(offsetHour) > 23 || Number(offsetMinute) > 59))
+  ) {
+    return false;
+  }
+
+  return isIsoDate(date) && !Number.isNaN(Date.parse(value));
 }
 
 function isPublicHttpsUrl(value) {

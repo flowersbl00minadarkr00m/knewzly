@@ -6,6 +6,7 @@
 .claude
 .pi
 .playwright-cli
+.codex-worktrees
 output
 POST-PLAN.md
 artifacts

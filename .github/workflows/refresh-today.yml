@@ -38,6 +38,9 @@ jobs:
         with:
           node-version: '20'
 
+      - name: Install locked dependencies
+        run: npm ci
+
       - name: Test the news pipeline
         run: npm test
 

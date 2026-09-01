@@ -28,6 +28,15 @@ import { applyReviewedQueue } from '../scripts/categorize-story.js';
 
 test('scheduled workflow publishes the Weekly Ledger in the same commit boundary as Today', async () => {
   const workflow = await readFileFs(new URL('../.github/workflows/refresh-today.yml', import.meta.url), 'utf8');
+  const installIndex = workflow.indexOf('run: npm ci');
+  const testIndex = workflow.indexOf('run: npm test');
+  const todayPublishIndex = workflow.indexOf('run: node scripts/refresh-today.js --auto-publish-approved');
+  const weeklyPublishIndex = workflow.indexOf('run: node scripts/refresh-popular-this-week.js');
+
+  assert.ok(installIndex >= 0, 'the scheduled workflow installs locked dependencies');
+  assert.ok(installIndex < testIndex, 'dependency installation precedes the test gate');
+  assert.ok(installIndex < todayPublishIndex, 'dependency installation precedes Today publication');
+  assert.ok(installIndex < weeklyPublishIndex, 'dependency installation precedes Weekly Ledger publication');
   assert.match(workflow, /node scripts\/refresh-popular-this-week\.js/);
   assert.match(workflow, /content\/popular-this-week\.json/);
   assert.match(workflow, /publish Today and Weekly Ledger content/);

@@ -306,7 +306,7 @@ export function applyReviewedQueue(queueEntries, keywordMap) {
   const remainingQueue = [];
 
   for (const entry of queueEntries ?? []) {
-    const isComplete = entry.reviewed && entry.category;
+    const isComplete = entry.reviewed === true && entry.category;
     if (!isComplete) {
       remainingQueue.push(entry);
       continue;

@@ -24,6 +24,7 @@ import {
   prepareReviewQueue,
   selectAutoPublishableItems,
 } from '../scripts/refresh-today.js';
+import { applyReviewedQueue } from '../scripts/categorize-story.js';
 
 const NOW = new Date('2026-08-10T12:00:00.000Z');
 
@@ -473,8 +474,9 @@ test('buildTodayStories and validateForPublish enforce HTTPS even for manually r
 // --- fetchAllowlistedItems: real fetch+parse, per-source failure isolation
 // (fake fetchImpl only — no real network call in tests)
 
-test('fetchAllowlistedItems: aggregates parsed items across sources that succeed', async () => {
+test('fetchAllowlistedItems: aggregates parsed items across literally reviewed sources that succeed', async () => {
   const allowlist = {
+    reviewed: true,
     sources: [
       { id: 'a', name: 'Source A', feedUrl: 'https://a.example.com/feed' },
       { id: 'b', name: 'Source B', feedUrl: 'https://b.example.com/feed' },
@@ -491,8 +493,55 @@ test('fetchAllowlistedItems: aggregates parsed items across sources that succeed
   assert.ok(items.some((i) => i.sourceId === 'b'));
 });
 
+test('scheduled auto publication: only a literally reviewed allowlist source is fetched or selected', async () => {
+  const nonApprovals = [false, 'false', 'true', 1, null, undefined];
+  const now = new Date('2026-08-31T20:00:00.000Z');
+  const source = { id: 'literal-true', name: 'Literal true', feedUrl: 'https://literal-true.example.com/feed' };
+  const requestedUrls = [];
+  const fetchImpl = async (url) => {
+    requestedUrls.push(url);
+    return { ok: true, text: async () => RSS_FIXTURE };
+  };
+  const fetched = await fetchAllowlistedItems({ reviewed: true, sources: [source] }, { fetchImpl });
+  assert.deepEqual(requestedUrls, ['https://literal-true.example.com/feed']);
+  assert.ok(fetched.every((item) => item.sourceId === 'literal-true'));
+
+  const directCandidate = {
+    id: 'candidate-literal-true',
+    sourceId: source.id,
+    sourceName: source.name,
+    headline: 'Kenyan gig worker dispute',
+    publishedDate: '2026-08-31T18:00:00.000Z',
+    url: 'https://example.com/literal-true',
+  };
+  for (const reviewed of nonApprovals) {
+    const allowlist = { sources: [source] };
+    if (reviewed !== undefined) allowlist.reviewed = reviewed;
+    const blockedFetched = await fetchAllowlistedItems(allowlist, { fetchImpl });
+    const blockedSelected = selectAutoPublishableItems([directCandidate], KEYWORD_MAP, { now, allowlist });
+    assert.deepEqual(blockedFetched, []);
+    assert.deepEqual(blockedSelected.readyItems, []);
+  }
+  assert.equal(requestedUrls.length, 1, 'non-literal approval markers never reach fetchImpl');
+  const selected = selectAutoPublishableItems([directCandidate], KEYWORD_MAP, {
+    now,
+    allowlist: { reviewed: true, sources: [source] },
+  });
+  assert.deepEqual(selected.readyItems.map((item) => item.sourceId), ['literal-true']);
+
+  const result = buildTodayStories(selected.readyItems, FIXTURE_ANCHORS, { now });
+  const dir = await mkdtemp(join(tmpdir(), 'knewzly-t16-auto-'));
+  const outPath = join(dir, 'today-stories.json');
+  await publishTodayStories(result, outPath, FIXTURE_ANCHORS);
+  const published = JSON.parse(await readFileFs(outPath, 'utf-8'));
+  assert.equal(published.stories.length, 1);
+  assert.equal(published.stories[0].source.url, 'https://example.com/literal-true');
+  await rm(dir, { recursive: true, force: true });
+});
+
 test('fetchAllowlistedItems: one source failing (network error, non-2xx) does not abort the others or throw', async () => {
   const allowlist = {
+    reviewed: true,
     sources: [
       { id: 'broken-network', name: 'Broken', feedUrl: 'https://broken.example.com/feed' },
       { id: 'broken-http', name: 'Broken HTTP', feedUrl: 'https://http-fail.example.com/feed' },
@@ -519,6 +568,7 @@ test('fetchAllowlistedItems: an empty allowlist resolves to an empty array, not 
 test('fetchAllowlistedItems: rejects non-HTTPS sources, redirects, and oversized feed bodies', async () => {
   const calls = [];
   const allowlist = {
+    reviewed: true,
     sources: [
       { id: 'insecure', name: 'Insecure', feedUrl: 'http://example.com/feed' },
       { id: 'oversized', name: 'Oversized', feedUrl: 'https://large.example.com/feed' },
@@ -550,7 +600,7 @@ const MANY_DATED_ITEMS_FEED = `<?xml version="1.0"?>
 </channel></rss>`;
 
 test('fetchAllowlistedItems: perSourceLimit keeps only the N most recent items per source, undated last', async () => {
-  const allowlist = { sources: [{ id: 'prolific', name: 'Prolific', feedUrl: 'https://prolific.example.com/feed' }] };
+  const allowlist = { reviewed: true, sources: [{ id: 'prolific', name: 'Prolific', feedUrl: 'https://prolific.example.com/feed' }] };
   const fetchImpl = async () => ({ ok: true, text: async () => MANY_DATED_ITEMS_FEED });
 
   const uncapped = await fetchAllowlistedItems(allowlist, { fetchImpl });
@@ -563,6 +613,7 @@ test('fetchAllowlistedItems: perSourceLimit keeps only the N most recent items p
 
 test('fetchAllowlistedItems: perSourceLimit applies independently per source', async () => {
   const allowlist = {
+    reviewed: true,
     sources: [
       { id: 'prolific', name: 'Prolific', feedUrl: 'https://prolific.example.com/feed' },
       { id: 'sparse', name: 'Sparse', feedUrl: 'https://sparse.example.com/feed' },
@@ -652,6 +703,20 @@ test('prepareReviewQueue: scheduled publication consumes only the versioned huma
   assert.equal(prepared.some((entry) => entry.id === 'network-candidate'), false);
 });
 
+test('manual queue: a literally reviewed, complete entry reaches the validated publication write', async () => {
+  const queue = [
+    makeItem({ id: 'manual-literal-true', category: 'labor', traceToAnchors: [], reviewed: true }),
+  ];
+  const { readyItems } = applyReviewedQueue(queue, KEYWORD_MAP);
+  const result = buildTodayStories(readyItems, FIXTURE_ANCHORS, { now: NOW });
+  const dir = await mkdtemp(join(tmpdir(), 'knewzly-t16-manual-'));
+  const outPath = join(dir, 'today-stories.json');
+  await publishTodayStories(result, outPath, FIXTURE_ANCHORS);
+  const published = JSON.parse(await readFileFs(outPath, 'utf-8'));
+  assert.deepEqual(published.stories.map((item) => item.id), ['manual-literal-true']);
+  await rm(dir, { recursive: true, force: true });
+});
+
 test('selectAutoPublishableItems: approved-source automation publishes only recent, confidently categorized stories', () => {
   const now = new Date('2026-08-31T20:00:00.000Z');
   const raw = [
@@ -689,7 +754,10 @@ test('selectAutoPublishableItems: approved-source automation publishes only rece
     },
   ];
 
-  const result = selectAutoPublishableItems(raw, KEYWORD_MAP, { now });
+  const result = selectAutoPublishableItems(raw, KEYWORD_MAP, {
+    now,
+    allowlist: { reviewed: true, sources: [{ id: 'approved-source' }] },
+  });
 
   assert.deepEqual(result.readyItems.map((item) => item.id), ['recent-confident']);
   assert.equal(result.readyItems[0].category, 'labor');

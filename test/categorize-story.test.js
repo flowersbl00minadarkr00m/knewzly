@@ -215,6 +215,33 @@ test('applyReviewedQueue', async (t) => {
     assert.deepEqual(remainingQueue.map((i) => i.id), ['unreviewed-1', 'reviewed-but-incomplete']);
   });
 
+  await t.test('requires literal Boolean true for manual publication eligibility', () => {
+    const nonApprovals = [false, 'false', 'true', 1, null, undefined];
+    const queue = [
+      ...nonApprovals.map((reviewed, index) => ({
+        id: `not-approved-${index}`,
+        headline: 'Categorized but not literally reviewed',
+        category: 'labor',
+        traceToAnchors: [],
+        ...(reviewed === undefined ? {} : { reviewed }),
+      })),
+      {
+        id: 'literal-true',
+        headline: 'Literally reviewed and categorized',
+        category: 'labor',
+        traceToAnchors: [],
+        reviewed: true,
+      },
+    ];
+
+    const { readyItems, remainingQueue } = applyReviewedQueue(queue, KEYWORD_MAP);
+    assert.deepEqual(readyItems.map((item) => item.id), ['literal-true']);
+    assert.deepEqual(
+      remainingQueue.map((item) => item.id),
+      nonApprovals.map((_, index) => `not-approved-${index}`)
+    );
+  });
+
   await t.test('folds every ready item\'s correction into one accumulated keyword map', () => {
     const queue = [
       { id: '1', headline: 'gig worker dispute over payment terms', category: 'labor', traceToAnchors: ['kenyalabor'], categoryConfidence: 1, anchorConfidence: 1, threshold: 1, reviewed: true },

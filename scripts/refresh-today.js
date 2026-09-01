@@ -311,16 +311,17 @@ export function prepareReviewQueue(
  *
  * @param {object[]} rawItems
  * @param {object} keywordMap
- * @param {{ now?: Date, maxAgeHours?: number }} [opts]
+ * @param {{ now?: Date, maxAgeHours?: number, allowlist?: {reviewed?: boolean, sources?: Array<{id: string}>} }} [opts]
  * @returns {{ readyItems: object[], stats: object }}
  */
 export function selectAutoPublishableItems(
   rawItems,
   keywordMap,
-  { now = new Date(), maxAgeHours = 24 } = {}
+  { now = new Date(), maxAgeHours = 24, allowlist } = {}
 ) {
   const fetchedCount = (rawItems ?? []).length;
-  const { kept, dropped } = gatePubdates(rawItems, { now });
+  const reviewedSourceItems = allowlist?.reviewed === true ? rawItems ?? [] : [];
+  const { kept, dropped } = gatePubdates(reviewedSourceItems, { now });
   const cutoff = now.getTime() - maxAgeHours * 60 * 60 * 1000;
   const recent = kept.filter((item) => new Date(item.publishedDate).getTime() >= cutoff);
   const tooOldCount = kept.length - recent.length;
@@ -535,7 +536,7 @@ export function sortItemsByRecency(items) {
  * history this run considers "current." Omitted/undefined preserves the
  * old unbounded behavior exactly (existing callers/tests are unaffected).
  *
- * @param {{sources: Array<{id: string, name: string, feedUrl?: string}>}} allowlist
+ * @param {{reviewed?: boolean, sources: Array<{id: string, name: string, feedUrl?: string}>}} allowlist
  * @param {{ fetchImpl?: typeof fetch, timeoutMs?: number, perSourceLimit?: number, maxFeedBytes?: number }} [opts]
  * @returns {Promise<Array<object>>}
  */
@@ -543,6 +544,10 @@ export async function fetchAllowlistedItems(
   allowlist,
   { fetchImpl = fetch, timeoutMs = 10000, perSourceLimit, maxFeedBytes = MAX_FEED_BYTES } = {}
 ) {
+  if (allowlist?.reviewed !== true) {
+    console.warn('refresh-today: source allowlist is not literally reviewed, skipping all sources');
+    return [];
+  }
   const perSource = await Promise.all(
     (allowlist?.sources ?? []).map(async (source) => {
       if (!source.feedUrl) {
@@ -671,7 +676,7 @@ async function main() {
   let autoPublishStats;
 
   if (autoPublishApproved) {
-    const selected = selectAutoPublishableItems(rawItems, keywordMap);
+    const selected = selectAutoPublishableItems(rawItems, keywordMap, { allowlist });
     readyItems = selected.readyItems;
     autoPublishStats = selected.stats;
     // Automatic publication is gated by the reviewed source allowlist and

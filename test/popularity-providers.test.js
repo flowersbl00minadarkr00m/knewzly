@@ -8,6 +8,7 @@ import {
   fetchJsonBounded,
 } from '../src/popularity-providers.js';
 import { buildWeeklyLedger } from '../src/weekly-momentum.js';
+import { refreshPopularThisWeek } from '../scripts/refresh-popular-this-week.js';
 
 const NOW = '2026-08-31T18:00:00.000Z';
 const gdeltFixture = JSON.parse(await readFile(new URL('../content/fixtures/providers/gdelt.json', import.meta.url), 'utf8'));
@@ -146,6 +147,32 @@ test('HN beststories or item-request failures are unavailable rather than health
   assert.equal(allFailed.status, 'unavailable');
   assert.equal(allFailed.items.length, 0);
   assert.equal(allFailed.itemStates.failed, 2);
+});
+
+test('all malformed HN items are unavailable and combine with unavailable GDELT into an empty unavailable document', async () => {
+  const hackerNews = await fetchHackerNewsEvidence({
+    now: NOW,
+    fetchImpl: async (url) => String(url).endsWith('beststories.json')
+      ? jsonResponse([1, 2])
+      : jsonResponse({ id: Number(String(url).match(/item\/(\d+)\.json/)?.[1]), type: 'story', time: 1788177600, title: 42, score: 0, descendants: 0 }),
+  });
+  assert.equal(hackerNews.status, 'unavailable');
+  assert.equal(hackerNews.itemStates.malformed, 2);
+  assert.equal(hackerNews.items.length, 0);
+
+  const result = await refreshPopularThisWeek({
+    now: NOW,
+    dryRun: true,
+    todayStories: {
+      stories: [{
+        id: 'canonical-story', category: 'models', headline: 'Atlas model release',
+        source: { name: 'Canonical', url: 'https://canonical.example/atlas', publishedDate: '2026-08-31T12:00:00.000Z' },
+      }],
+    },
+    providerResults: { gdelt: { status: 'unavailable', articles: [] }, hackerNews },
+  });
+  assert.equal(result.document.status, 'unavailable');
+  assert.deepEqual(result.document.entries, []);
 });
 
 test('shared network reader rejects non-HTTPS URLs before a request is made', async () => {

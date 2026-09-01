@@ -211,7 +211,9 @@ export async function fetchHackerNewsEvidence({
   });
   const itemStates = { accepted: 0, dead: 0, wrongType: 0, outsideWindow: 0, unsafeUrl: 0, malformed: 0, failed: 0 };
   for (const { state } of states) itemStates[state] += 1;
-  const complete = itemStates.failed === 0;
+  // An HTTP response with an invalid item contract is not usable HN evidence:
+  // keep its explicit state for operations, but fail it closed for publication.
+  const complete = itemStates.failed === 0 && itemStates.malformed === 0;
   return {
     status: complete ? 'ok' : 'unavailable',
     sampledAt,

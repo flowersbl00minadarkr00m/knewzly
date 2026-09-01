@@ -1,7 +1,18 @@
 {
-  "lastUpdated": "2026-09-01T03:13:06.836Z",
+  "lastUpdated": "2026-09-01T07:44:57.352Z",
   "freshnessState": "fresh",
   "stories": [
+    {
+      "id": "content_6a964d826a0c53a20a42fd28",
+      "category": "safety-governance",
+      "headline": "Why Nvidia’s Hugging Face Acquisition Signals AI’s Full Ecosystem Play",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/sites/geruiwang/2026/09/01/why-nvidias-hugging-face-acquisition-signals-ais-full-ecosystem-play/",
+        "publishedDate": "2026-09-01"
+      },
+      "traceToAnchors": []
+    },
     {
       "id": "https://www.technologyreview.com/?p=1143180",
       "category": "safety-governance",
@@ -647,17 +658,6 @@
       "source": {
         "name": "OpenAI — News",
         "url": "https://openai.com/index/building-an-ai-native-finance-function",
-        "publishedDate": "2026-08-10"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://news.microsoft.com/source/?p=25414",
-      "category": "ai-lifecycle",
-      "headline": "How to build an AI agent: A simple guide for anyone",
-      "source": {
-        "name": "Microsoft — AI news",
-        "url": "https://news.microsoft.com/signal/articles/how-to-build-an-ai-agent-guide/",
         "publishedDate": "2026-08-10"
       },
       "traceToAnchors": []

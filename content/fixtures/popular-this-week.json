@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "methodologyVersion": "weekly-momentum-v1",
+  "windowStart": "2026-08-24T18:00:00.000Z",
+  "windowEnd": "2026-08-31T18:00:00.000Z",
+  "lastAttemptedAt": "2026-08-31T18:00:00.000Z",
+  "lastSuccessfulAt": "2026-08-31T18:00:00.000Z",
+  "status": "fresh",
+  "providers": {
+    "gdelt": { "status": "ok", "sampledAt": "2026-08-31T17:59:20.000Z", "queryCount": 6 },
+    "hackerNews": { "status": "ok", "sampledAt": "2026-08-31T17:59:45.000Z", "itemCount": 300 },
+    "bluesky": { "status": "not_configured" }
+  },
+  "entries": [
+    {
+      "rank": 1,
+      "leadStoryId": "fixture-story-turing",
+      "memberStoryIds": ["fixture-story-turing"],
+      "category": "research",
+      "publishedAt": "2026-08-31T10:00:00.000Z",
+      "momentumScore": 0.82,
+      "signals": {
+        "coverage": {
+          "state": "observed",
+          "independentOutletCount": 14,
+          "sampledDomains": ["fixture.example", "example.org"]
+        },
+        "hackerNews": {
+          "state": "observed",
+          "points": 624,
+          "comments": 183,
+          "itemIds": [49500000]
+        },
+        "recency": { "state": "observed", "ageHours": 8 },
+        "bluesky": { "state": "not_configured" }
+      }
+    }
+  ]
+}

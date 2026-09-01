@@ -85,8 +85,8 @@ export function joinWeeklyLedger(weeklyDocument, todayStories) {
   return { resolved, unresolved };
 }
 
-export function filterWeeklyLedger(entries, category = 'All') {
-  if (!category || category === 'All') return entries;
+export function filterWeeklyLedger(entries, category = 'all') {
+  if (!category || String(category).toLowerCase() === 'all') return entries;
   return entries.filter(({ entry }) => entry.category === category);
 }
 
@@ -196,7 +196,7 @@ function renderSurface(container) {
  * outside `container`, so a missing weekly document cannot disturb Today.
  */
 export function renderWeeklyLedger(container, weeklyDocument, todayStories, {
-  category = 'All',
+  category = 'all',
   now = new Date(),
   atlasPath = 'atlas.html',
   diagnostics = console,
@@ -236,7 +236,7 @@ export function renderWeeklyLedger(container, weeklyDocument, todayStories, {
   }
 
   const filtered = filterWeeklyLedger(joined.resolved, category);
-  status.textContent = category && category !== 'All'
+  status.textContent = category && String(category).toLowerCase() !== 'all'
     ? `Showing ${filtered.length} weekly entries in ${category}.`
     : `Showing ${filtered.length} weekly entries.`;
   if (filtered.length === 0) {

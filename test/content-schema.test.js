@@ -5,6 +5,8 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { loadContent, loadWeeklyLedger, validateContent } from '../src/content-loader.js';
 import { validateTodayStories, validateTodayStoriesSchema } from '../src/today-stories-validator.js';
+import { ALL_CATEGORIES_ID } from '../src/story-filters.js';
+import { filterWeeklyLedger } from '../src/weekly-ledger.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const FIXTURES = path.join(__dirname, '..', 'content', 'fixtures');
@@ -39,6 +41,16 @@ describe('T1: content schema + ContentLoader + validator', () => {
       throw new Error('weekly publication unavailable');
     } });
     assert.equal(unavailable, null);
+  });
+
+  test('Weekly Ledger accepts Today\'s lowercase all sentinel without hiding its entries', () => {
+    const entries = [
+      { entry: { rank: 1, category: 'models' } },
+      { entry: { rank: 2, category: 'research' } },
+    ];
+    assert.equal(ALL_CATEGORIES_ID, 'all');
+    assert.deepEqual(filterWeeklyLedger(entries, ALL_CATEGORIES_ID), entries);
+    assert.deepEqual(filterWeeklyLedger(entries, 'models'), [entries[0]]);
   });
 
   test('valid anchor and relationship fixtures pass validateContent with zero errors', async () => {

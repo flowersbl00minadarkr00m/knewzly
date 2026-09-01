@@ -384,7 +384,7 @@
     import { wireTraceToOrigin } from './src/trace-to-origin.js';
     import { getAvailableCategories, filterStoriesByCategory, ALL_CATEGORIES_ID } from './src/story-filters.js';
     import { renderSectionNav } from './src/section-nav.js';
-    import { effectiveLedgerState, joinWeeklyLedger, renderWeeklyLedger } from './src/weekly-ledger.js';
+    import { effectiveLedgerState, filterWeeklyLedger, joinWeeklyLedger, renderWeeklyLedger } from './src/weekly-ledger.js';
 
     // Real content/today-stories.json now exists (seeded pre-launch by T12,
     // freshnessState: no_data until T10's CI job actually runs). Defaults to
@@ -415,10 +415,11 @@
       wireTraceToOrigin(container, stories);
     }
 
-    function weeklyStoryIdsForCurrentEdition() {
+    function weeklyStoryIdsForCurrentEdition(category) {
       if (!weeklyDocument || effectiveLedgerState(weeklyDocument).status === 'unavailable') return new Set();
       const { resolved } = joinWeeklyLedger(weeklyDocument, { stories: allStories });
-      return new Set(resolved.flatMap(({ entry }) => [entry.leadStoryId, ...(entry.memberStoryIds || [])]));
+      const visibleLedgerEntries = filterWeeklyLedger(resolved, category);
+      return new Set(visibleLedgerEntries.flatMap(({ entry }) => [entry.leadStoryId, ...(entry.memberStoryIds || [])]));
     }
 
     // FR-014/D-013: filtering is a client-side re-render over the same
@@ -430,7 +431,7 @@
         renderFiltered();
       });
       const filtered = filterStoriesByCategory(allStories, activeCategory);
-      const weeklyStoryIds = weeklyStoryIdsForCurrentEdition();
+      const weeklyStoryIds = weeklyStoryIdsForCurrentEdition(activeCategory);
       const regularStories = filtered.filter((story) => !weeklyStoryIds.has(story.id));
       renderRegularGrid(gridEl, regularStories.slice(0, 3));
       renderWeeklyLedger(ledgerEl, weeklyDocument, { stories: allStories }, { category: activeCategory });

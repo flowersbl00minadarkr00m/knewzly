@@ -63,6 +63,10 @@ describe('T1: content schema + ContentLoader + validator', () => {
       page,
       /#story-grid > \.story-card,\s*#story-grid-after-ledger > \.story-card\s*\{\s*grid-column: auto;\s*min-width: 0;/,
     );
+    assert.match(
+      page,
+      /\.story-card-headline\s*\{[^}]*overflow-wrap: anywhere;/s,
+    );
   });
 
   test('valid anchor and relationship fixtures pass validateContent with zero errors', async () => {

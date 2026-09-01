@@ -309,6 +309,27 @@ test('the publication gate rejects timestamp and unjustified status mutations wh
   const valid = buildWeeklyLedger({ todayStories, now: NOW });
   assert.equal(valid.status, 'fresh');
 
+  const missingCoverageBasis = structuredClone(valid);
+  delete missingCoverageBasis.entries[0].signals.coverage.basis;
+  assert.ok(validateWeeklyLedger(missingCoverageBasis, todayStories).some((error) => error.includes("must have required property 'basis'")));
+
+  const wrongAvailableCoverageBasis = structuredClone(valid);
+  wrongAvailableCoverageBasis.entries[0].signals.coverage.basis = 'canonical_today_sources';
+  assert.ok(validateWeeklyLedger(wrongAvailableCoverageBasis, todayStories).some((error) => error.includes('GDELT-ok observed coverage must identify gdelt_sample basis')));
+
+  const degradedSupply = buildWeeklyLedger({
+    todayStories,
+    now: NOW,
+    providerStates: { gdelt: { status: 'unavailable' }, hackerNews: { status: 'ok' } },
+  });
+  assert.equal(degradedSupply.status, 'partial');
+  assert.equal(degradedSupply.entries.length, 8);
+  assert.deepEqual(validateWeeklyLedger(degradedSupply, todayStories), []);
+
+  const wrongUnavailableCoverageBasis = structuredClone(degradedSupply);
+  wrongUnavailableCoverageBasis.entries[0].signals.coverage.basis = 'gdelt_sample';
+  assert.ok(validateWeeklyLedger(wrongUnavailableCoverageBasis, todayStories).some((error) => error.includes('GDELT-unavailable observed coverage must identify canonical_today_sources basis')));
+
   const mismatchedLeadTimestamp = structuredClone(valid);
   mismatchedLeadTimestamp.entries[0].publishedAt = '2026-08-31T11:00:00.000Z';
   assert.ok(validateWeeklyLedger(mismatchedLeadTimestamp, todayStories).some((error) => error.includes('does not match canonical Today lead published timestamp')));
@@ -325,9 +346,15 @@ test('the publication gate rejects timestamp and unjustified status mutations wh
   unjustifiedPartial.status = 'partial';
   assert.ok(validateWeeklyLedger(unjustifiedPartial, todayStories).some((error) => error.includes('partial with eight or more entries requires a degraded core provider')));
 
-  const limitedSupply = buildWeeklyLedger({ todayStories: { stories: [todayStories.stories[0]] }, now: NOW });
+  const limitedSupplyStories = { stories: todayStories.stories.slice(0, 7) };
+  const limitedSupply = buildWeeklyLedger({ todayStories: limitedSupplyStories, now: NOW });
   assert.equal(limitedSupply.status, 'partial');
-  assert.deepEqual(validateWeeklyLedger(limitedSupply, { stories: [todayStories.stories[0]] }), []);
+  assert.equal(limitedSupply.entries.length, 7);
+  assert.deepEqual(validateWeeklyLedger(limitedSupply, limitedSupplyStories), []);
+
+  const freshWithSevenEntries = structuredClone(limitedSupply);
+  freshWithSevenEntries.status = 'fresh';
+  assert.ok(validateWeeklyLedger(freshWithSevenEntries, limitedSupplyStories).some((error) => error.includes('fresh requires at least eight entries')));
 });
 
 test('the publication gate requires every entry signal state to agree with its provider state', () => {

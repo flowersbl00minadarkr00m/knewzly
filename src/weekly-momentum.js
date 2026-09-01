@@ -315,6 +315,9 @@ function crossReferenceErrors(document, todayStories) {
     errors.push('partial requires at least one core provider to be ok');
   }
   const entries = Array.isArray(document?.entries) ? document.entries : [];
+  if (document?.status === 'fresh' && entries.length < 8) {
+    errors.push('fresh requires at least eight entries');
+  }
   if (document?.status === 'partial' && entries.length >= 8 && gdeltStatus === 'ok' && hackerNewsStatus === 'ok') {
     errors.push('partial with eight or more entries requires a degraded core provider');
   }
@@ -331,6 +334,10 @@ function crossReferenceErrors(document, todayStories) {
     }
     if (publishedAt && windowStart && windowEnd && (publishedAt < windowStart || publishedAt > windowEnd)) {
       errors.push(`entry publishedAt "${entry.publishedAt}" is outside the declared window`);
+    }
+    const coverage = entry?.signals?.coverage;
+    if (gdeltStatus === 'ok' && coverage?.state === 'observed' && coverage.basis !== 'gdelt_sample') {
+      errors.push('GDELT-ok observed coverage must identify gdelt_sample basis');
     }
     for (const [providerName, signalName] of [['gdelt', 'coverage'], ['hackerNews', 'hackerNews'], ['bluesky', 'bluesky']]) {
       const providerStatus = document?.providers?.[providerName]?.status;

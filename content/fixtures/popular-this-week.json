@@ -22,6 +22,7 @@
       "signals": {
         "coverage": {
           "state": "observed",
+          "basis": "gdelt_sample",
           "independentOutletCount": 14,
           "sampledDomains": ["fixture.example", "example.org"]
         },

@@ -56,8 +56,8 @@ jobs:
             echo "No publication changes — nothing to commit."
             exit 0
           fi
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.name "flowersbl00minadarkr00m"
+          git config user.email "25645848+flowersbl00minadarkr00m@users.noreply.github.com"
           git add content/today-stories.json content/popular-this-week.json content/review-queue.json content/category-keywords.json
-          git commit -m "chore: publish Today and Weekly Ledger content [skip ci]"
+          git commit -m "chore: publish Today and Weekly Ledger content"
           git push

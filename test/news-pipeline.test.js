@@ -45,6 +45,44 @@ test('scheduled workflow publishes the Weekly Ledger in the same commit boundary
   assert.match(workflow, /publish Today and Weekly Ledger content/);
 });
 
+test('scheduled publication commit is owner-attributable and deployment-trigger-compatible', async () => {
+  const workflow = await readFileFs(new URL('../.github/workflows/refresh-today.yml', import.meta.url), 'utf8');
+  const todayPublishIndex = workflow.indexOf('run: node scripts/refresh-today.js --auto-publish-approved');
+  const weeklyPublishIndex = workflow.indexOf('run: node scripts/refresh-popular-this-week.js');
+  const noChangeIndex = workflow.indexOf('if git diff --quiet --');
+  const noChangeExitIndex = workflow.indexOf('exit 0', noChangeIndex);
+  const ownerNameIndex = workflow.indexOf('git config user.name');
+  const ownerEmailIndex = workflow.indexOf('git config user.email');
+  const stageIndex = workflow.indexOf('git add content/today-stories.json content/popular-this-week.json content/review-queue.json content/category-keywords.json');
+  const commitIndex = workflow.indexOf('git commit -m');
+  const pushIndex = workflow.indexOf('git push');
+  const configuredName = workflow.match(/git config user\.name "([^"]+)"/)?.[1];
+  const configuredEmail = workflow.match(/git config user\.email "([^"]+)"/)?.[1];
+  const commitMessage = workflow.match(/git commit -m "([^"]+)"/)?.[1];
+
+  assert.deepEqual(
+    { configuredName, configuredEmail, commitMessage },
+    {
+      configuredName: 'flowersbl00minadarkr00m',
+      configuredEmail: '25645848+flowersbl00minadarkr00m@users.noreply.github.com',
+      commitMessage: 'chore: publish Today and Weekly Ledger content',
+    },
+    'generated commits must be attributable to the Vercel team owner and observable by deployment automation',
+  );
+  assert.doesNotMatch(workflow, /\[skip ci\]/i);
+  assert.ok(todayPublishIndex >= 0 && todayPublishIndex < weeklyPublishIndex, 'Today publishes before the Weekly Ledger');
+  assert.ok(weeklyPublishIndex < noChangeIndex, 'both publication steps finish before the no-change boundary');
+  assert.ok(noChangeIndex < noChangeExitIndex, 'the no-change boundary retains its early exit');
+  assert.ok(noChangeExitIndex < ownerNameIndex, 'the no-change early exit precedes commit configuration');
+  assert.ok(ownerNameIndex < ownerEmailIndex, 'the owner identity is fully configured before staging');
+  assert.ok(ownerEmailIndex < stageIndex, 'the owner identity is configured before atomic staging');
+  assert.ok(stageIndex < commitIndex, 'Today and Weekly Ledger state are staged before commit');
+  assert.ok(commitIndex < pushIndex, 'the publication commit is created before push');
+  assert.equal((workflow.match(/^\s*git add\b/gm) ?? []).length, 1, 'publication state is staged atomically');
+  assert.equal((workflow.match(/^\s*git commit\b/gm) ?? []).length, 1, 'publication uses one commit boundary');
+  assert.equal((workflow.match(/^\s*git push\b/gm) ?? []).length, 1, 'publication uses one push boundary');
+});
+
 const NOW = new Date('2026-08-10T12:00:00.000Z');
 
 const FIXTURE_ANCHORS = {

@@ -329,7 +329,12 @@
       .masthead h1 { font-size: clamp(2.8rem, 17vw, 5rem); }
       .edition-line { flex-direction: column; gap: 0.2rem; }
       #story-grid,
-      #story-grid-after-ledger { grid-template-columns: 1fr; }
+      #story-grid-after-ledger { grid-template-columns: minmax(0, 1fr); }
+      #story-grid > .story-card,
+      #story-grid-after-ledger > .story-card {
+        grid-column: auto;
+        min-width: 0;
+      }
       .story-card,
       .story-card:nth-child(2n),
       .story-card:nth-child(3n) { border-right: 0; border-top: 1px solid var(--rule); padding: 1rem 0; }

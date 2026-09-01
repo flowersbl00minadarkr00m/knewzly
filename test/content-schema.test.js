@@ -53,6 +53,18 @@ describe('T1: content schema + ContentLoader + validator', () => {
     assert.deepEqual(filterWeeklyLedger(entries, 'models'), [entries[0]]);
   });
 
+  test('narrow Today grids reset story-card spans before and after the Weekly Ledger', async () => {
+    const page = await readFile(path.join(__dirname, '..', 'today.html'), 'utf-8');
+    assert.match(
+      page,
+      /#story-grid,\s*#story-grid-after-ledger\s*\{\s*grid-template-columns: minmax\(0, 1fr\);/,
+    );
+    assert.match(
+      page,
+      /#story-grid > \.story-card,\s*#story-grid-after-ledger > \.story-card\s*\{\s*grid-column: auto;\s*min-width: 0;/,
+    );
+  });
+
   test('valid anchor and relationship fixtures pass validateContent with zero errors', async () => {
     const content = await loadContent({ basePath: 'content/', reader: fsReader(FIXTURES) });
     const errors = validateContent({ anchors: content.anchors, relationships: content.relationships });

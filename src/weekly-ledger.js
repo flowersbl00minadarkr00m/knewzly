@@ -125,7 +125,9 @@ function renderEvidence(article, signals = {}) {
   evidence.className = 'weekly-ledger-evidence weekly-ledger-wrap-anywhere';
   const coverage = signals.coverage;
   appendText(evidence, 'li', '', coverage?.state === 'observed'
-    ? `Observed sampled coverage: ${coverage.independentOutletCount} independent outlets.`
+    ? coverage.basis === 'canonical_today_sources'
+      ? `Canonical Today source baseline: ${coverage.independentOutletCount} distinct source domain${coverage.independentOutletCount === 1 ? '' : 's'}.`
+      : `Observed sampled coverage: ${coverage.independentOutletCount} independent outlets.`
     : `Sampled coverage: ${readableState(coverage?.state)}.`);
   const hackerNews = signals.hackerNews;
   appendText(evidence, 'li', '', hackerNews?.state === 'observed'

@@ -61,6 +61,20 @@ test('an unavailable refresh retains only the previous successful timestamp as c
   assert.deepEqual(result.document.entries, []);
 });
 
+test('a future previous-success timestamp is not carried into an earlier refresh window', async () => {
+  const dir = await mkdtemp(join(tmpdir(), 'knewzly-weekly-'));
+  const output = join(dir, 'popular-this-week.json');
+  await writeFile(output, JSON.stringify({ lastSuccessfulAt: '2026-09-01T18:00:00.000Z' }));
+  const result = await refreshPopularThisWeek({
+    todayStories,
+    now: NOW,
+    outputPath: output,
+    dryRun: true,
+    providerResults: { gdelt: { status: 'unavailable', articles: [] }, hackerNews: { status: 'unavailable', items: [] } },
+  });
+  assert.equal(result.document.lastSuccessfulAt, undefined);
+});
+
 test('dry-run performs provider reads but never writes the output bytes', async () => {
   const dir = await mkdtemp(join(tmpdir(), 'knewzly-weekly-'));
   const output = join(dir, 'popular-this-week.json');

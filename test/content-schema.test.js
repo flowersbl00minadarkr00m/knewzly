@@ -69,6 +69,13 @@ describe('T1: content schema + ContentLoader + validator', () => {
     );
   });
 
+  test('Today page copy makes historical trace actions conditional', async () => {
+    const page = await readFile(path.join(__dirname, '..', 'today.html'), 'utf-8');
+    assert.match(page, /Trace actions appear only where an approved historical connection exists\./);
+    assert.doesNotMatch(page, /Every story traces to a real historical anchor/);
+    assert.doesNotMatch(page, /Current AI news, traced to where it came from/);
+  });
+
   test('valid anchor and relationship fixtures pass validateContent with zero errors', async () => {
     const content = await loadContent({ basePath: 'content/', reader: fsReader(FIXTURES) });
     const errors = validateContent({ anchors: content.anchors, relationships: content.relationships });

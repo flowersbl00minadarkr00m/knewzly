@@ -18,6 +18,14 @@ async function readPreviousLastSuccessfulAt(path) {
   }
 }
 
+function usablePreviousLastSuccessfulAt(value, now) {
+  if (typeof value !== 'string') return undefined;
+  const previous = new Date(value);
+  const attempted = new Date(now);
+  if (Number.isNaN(previous.valueOf()) || Number.isNaN(attempted.valueOf()) || previous > attempted) return undefined;
+  return value;
+}
+
 function providerState(result, countField) {
   return result?.status === 'ok'
     ? { status: 'ok', sampledAt: result.sampledAt, [countField]: result[countField] ?? 0 }
@@ -88,7 +96,10 @@ export async function refreshPopularThisWeek({
   const [gdelt, hackerNews] = providerResults
     ? [providerResults.gdelt, providerResults.hackerNews]
     : await Promise.all([fetchGdeltEvidence({ fetchImpl, now }), fetchHackerNewsEvidence({ fetchImpl, now })]);
-  const previousLastSuccessfulAt = await readPreviousLastSuccessfulAt(outputPath);
+  const previousLastSuccessfulAt = usablePreviousLastSuccessfulAt(
+    await readPreviousLastSuccessfulAt(outputPath),
+    now,
+  );
   const document = buildWeeklyLedger({
     todayStories,
     gdeltResults: gdelt?.articles ?? [],

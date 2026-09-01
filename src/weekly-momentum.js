@@ -225,9 +225,14 @@ function buildSignals(cluster, evidence, providerStates, now) {
       if (domain) domains.add(domain);
     }
   }
-  const coverage = providerStates.gdelt.status === 'ok'
-    ? { state: 'observed', independentOutletCount: domains.size, sampledDomains: [...domains].sort().slice(0, 5) }
-    : { state: providerStates.gdelt.status === 'not_configured' ? 'not_configured' : 'provider_unavailable' };
+  const coverage = providerStates.gdelt.status === 'not_configured'
+    ? { state: 'not_configured' }
+    : {
+        state: 'observed',
+        basis: providerStates.gdelt.status === 'ok' ? 'gdelt_sample' : 'canonical_today_sources',
+        independentOutletCount: domains.size,
+        sampledDomains: [...domains].sort().slice(0, 5),
+      };
   const hnById = new Map();
   for (const item of evidence.hackerNews) if (Number.isInteger(item?.id) && !hnById.has(item.id)) hnById.set(item.id, item);
   const hnItems = [...hnById.values()].sort((first, second) => first.id - second.id);
@@ -294,7 +299,13 @@ function crossReferenceErrors(document, todayStories) {
   const memberOwners = new Map();
   const windowStart = asDate(document?.windowStart);
   const windowEnd = asDate(document?.windowEnd);
+  const lastAttemptedAt = asDate(document?.lastAttemptedAt);
+  const lastSuccessfulAt = asDate(document?.lastSuccessfulAt);
   if (windowStart && windowEnd && windowStart >= windowEnd) errors.push('windowStart must be before windowEnd');
+  if (lastAttemptedAt && windowEnd && lastAttemptedAt.valueOf() !== windowEnd.valueOf()) errors.push('lastAttemptedAt must equal windowEnd');
+  if (lastSuccessfulAt && ((lastAttemptedAt && lastSuccessfulAt > lastAttemptedAt) || (windowEnd && lastSuccessfulAt > windowEnd))) {
+    errors.push('lastSuccessfulAt must not be later than lastAttemptedAt or windowEnd');
+  }
   const gdeltStatus = document?.providers?.gdelt?.status;
   const hackerNewsStatus = document?.providers?.hackerNews?.status;
   if (document?.status === 'fresh' && (gdeltStatus !== 'ok' || hackerNewsStatus !== 'ok')) {
@@ -304,6 +315,9 @@ function crossReferenceErrors(document, todayStories) {
     errors.push('partial requires at least one core provider to be ok');
   }
   const entries = Array.isArray(document?.entries) ? document.entries : [];
+  if (document?.status === 'partial' && entries.length >= 8 && gdeltStatus === 'ok' && hackerNewsStatus === 'ok') {
+    errors.push('partial with eight or more entries requires a degraded core provider');
+  }
   entries.forEach((entry) => {
     if (!canonicalIds.has(entry.leadStoryId)) errors.push(`entry leadStoryId "${entry.leadStoryId}" does not resolve to Today content`);
     const leadStory = storiesById.get(entry.leadStoryId);
@@ -311,13 +325,20 @@ function crossReferenceErrors(document, todayStories) {
       errors.push(`entry category "${entry.category}" does not match canonical Today lead category "${leadStory.category}"`);
     }
     const publishedAt = asDate(entry.publishedAt);
+    const canonicalPublishedAt = leadStory && sourcePublishedAt(leadStory);
+    if (publishedAt && canonicalPublishedAt && publishedAt.valueOf() !== canonicalPublishedAt.valueOf()) {
+      errors.push(`entry publishedAt "${entry.publishedAt}" does not match canonical Today lead published timestamp`);
+    }
     if (publishedAt && windowStart && windowEnd && (publishedAt < windowStart || publishedAt > windowEnd)) {
       errors.push(`entry publishedAt "${entry.publishedAt}" is outside the declared window`);
     }
     for (const [providerName, signalName] of [['gdelt', 'coverage'], ['hackerNews', 'hackerNews'], ['bluesky', 'bluesky']]) {
       const providerStatus = document?.providers?.[providerName]?.status;
       const signalState = entry?.signals?.[signalName]?.state;
-      if (providerStatus === 'unavailable' && signalState !== 'provider_unavailable') {
+      const canonicalTodayCoverage = providerName === 'gdelt'
+        && signalState === 'observed'
+        && entry?.signals?.coverage?.basis === 'canonical_today_sources';
+      if (providerStatus === 'unavailable' && signalState !== 'provider_unavailable' && !canonicalTodayCoverage) {
         errors.push(`provider ${providerName} status unavailable requires ${signalName} state provider_unavailable`);
       }
       if (providerStatus === 'not_configured' && signalState !== 'not_configured') {
@@ -334,6 +355,21 @@ function crossReferenceErrors(document, todayStories) {
       const previousOwner = memberOwners.get(storyId);
       if (previousOwner !== undefined && previousOwner !== entry.rank) errors.push(`entry memberStoryId "${storyId}" appears in multiple clusters`);
       memberOwners.set(storyId, entry.rank);
+    }
+    if (gdeltStatus === 'unavailable' && entry?.signals?.coverage?.state === 'observed') {
+      const coverage = entry.signals.coverage;
+      const canonicalDomains = [...new Set(memberStoryIds
+        .map((storyId) => hostnameFromUrl(storiesById.get(storyId)?.source?.url))
+        .filter(Boolean))].sort();
+      if (coverage.basis !== 'canonical_today_sources') {
+        errors.push('GDELT-unavailable observed coverage must identify canonical_today_sources basis');
+      }
+      if (coverage.independentOutletCount !== canonicalDomains.length) {
+        errors.push('canonical Today coverage count must equal distinct member-source domains');
+      }
+      if (JSON.stringify(coverage.sampledDomains) !== JSON.stringify(canonicalDomains.slice(0, 5))) {
+        errors.push('canonical Today coverage sampledDomains must match member-source domains');
+      }
     }
     if (ranks.has(entry.rank)) errors.push(`entry rank ${entry.rank} is duplicated`);
     ranks.add(entry.rank);

@@ -54,7 +54,7 @@
     },
     "coverageSignal": {
       "oneOf": [
-        { "type": "object", "additionalProperties": false, "required": ["state", "independentOutletCount", "sampledDomains"], "properties": { "state": { "const": "observed" }, "independentOutletCount": { "type": "integer", "minimum": 0 }, "sampledDomains": { "type": "array", "maxItems": 5, "items": { "type": "string", "minLength": 1 } } } },
+        { "type": "object", "additionalProperties": false, "required": ["state", "independentOutletCount", "sampledDomains"], "properties": { "state": { "const": "observed" }, "basis": { "enum": ["gdelt_sample", "canonical_today_sources"] }, "independentOutletCount": { "type": "integer", "minimum": 0 }, "sampledDomains": { "type": "array", "maxItems": 5, "items": { "type": "string", "minLength": 1 } } } },
         { "type": "object", "additionalProperties": false, "required": ["state"], "properties": { "state": { "enum": ["not_observed", "provider_unavailable", "not_configured"] } } }
       ]
     },

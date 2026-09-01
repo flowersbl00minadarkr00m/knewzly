@@ -104,6 +104,22 @@ test('Weekly Ledger degrades unresolved references and shows explicit missing ev
   assert.match(diagnostics.messages[0], /1 unresolved/i);
 });
 
+test('Weekly Ledger names canonical Today-source coverage when GDELT is unavailable', async () => {
+  const { renderWeeklyLedger } = await import('../src/weekly-ledger.js');
+  const document = await fixture();
+  document.status = 'partial';
+  document.providers.gdelt.status = 'unavailable';
+  document.entries[0].signals.coverage = {
+    state: 'observed', basis: 'canonical_today_sources', independentOutletCount: 1, sampledDomains: ['example.test'],
+  };
+  const { container } = root();
+  renderWeeklyLedger(container, document, todayStories(), { now: '2026-08-31T20:00:00.000Z' });
+
+  assert.match(container.textContent, /GDELT: unavailable/);
+  assert.match(container.textContent, /Canonical Today source baseline: 1 distinct source domain/);
+  assert.doesNotMatch(container.textContent, /Observed sampled coverage: 1 independent outlets/);
+});
+
 test('Weekly Ledger requires every member reference to resolve before rendering an entry', async () => {
   const { renderWeeklyLedger } = await import('../src/weekly-ledger.js');
   const document = await fixture();

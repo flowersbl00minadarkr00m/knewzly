@@ -70,6 +70,7 @@ test('buildWeeklyLedger: representative fixture clusters canonical Today stories
       signals: {
         coverage: {
           state: 'observed',
+          basis: 'gdelt_sample',
           independentOutletCount: 4,
           sampledDomains: ['canonical.example', 'coverage-one.example', 'coverage-three.example', 'coverage-two.example'],
         },
@@ -133,7 +134,7 @@ test('missing HN evidence is distinct from observed zero and its score is renorm
   assert.ok(missing.entries[0].momentumScore > observedZero.entries[0].momentumScore);
 });
 
-test('provider failure produces explicit partial evidence and both core failures produce unavailable output', () => {
+test('GDELT unavailability retains canonical Today-source baseline coverage without inventing provider evidence', () => {
   const todayStories = { stories: [story('provider-story', 'research', 'A sufficiently specific research result', '2026-08-31T12:00:00.000Z')] };
   const partial = buildWeeklyLedger({
     todayStories,
@@ -141,7 +142,41 @@ test('provider failure produces explicit partial evidence and both core failures
     providerStates: { gdelt: { status: 'unavailable' }, hackerNews: { status: 'ok' } },
   });
   assert.equal(partial.status, 'partial');
-  assert.deepEqual(partial.entries[0].signals.coverage, { state: 'provider_unavailable' });
+  assert.equal(partial.providers.gdelt.status, 'unavailable');
+  assert.deepEqual(partial.entries[0].signals.coverage, {
+    state: 'observed', basis: 'canonical_today_sources', independentOutletCount: 1, sampledDomains: ['provider-story.example'],
+  });
+  assert.notEqual(partial.entries[0].momentumScore, 1 - partial.entries[0].signals.recency.ageHours / 168, 'fallback coverage participates in renormalized scoring');
+});
+
+test('seven-row GDELT fallback retains canonical source coverage instead of recency-only ranking', () => {
+  const todayStories = {
+    stories: Array.from({ length: 7 }, (_, index) => story(
+      `baseline-${index}`,
+      index % 2 ? 'models' : 'research',
+      ['Aardvark', 'Beacon', 'Cipher', 'Delta', 'Ember', 'Fjord', 'Galaxy'][index],
+      '2026-08-31T12:00:00.000Z',
+    )),
+  };
+  const partial = buildWeeklyLedger({
+    todayStories,
+    now: NOW,
+    providerStates: { gdelt: { status: 'unavailable' }, hackerNews: { status: 'ok' } },
+  });
+  assert.equal(partial.status, 'partial');
+  assert.equal(partial.entries.length, 7);
+  assert.equal(partial.providers.gdelt.status, 'unavailable');
+  for (const entry of partial.entries) {
+    assert.equal(entry.signals.coverage.state, 'observed');
+    assert.equal(entry.signals.coverage.basis, 'canonical_today_sources');
+    assert.equal(entry.signals.coverage.independentOutletCount, 1);
+    assert.notEqual(entry.momentumScore, 1 - entry.signals.recency.ageHours / 168, 'baseline coverage prevents recency-only scoring');
+  }
+  assert.deepEqual(validateWeeklyLedger(partial, todayStories), []);
+});
+
+test('both core provider failures remain unavailable and preserve the previous successful timestamp', () => {
+  const todayStories = { stories: [story('provider-story', 'research', 'A sufficiently specific research result', '2026-08-31T12:00:00.000Z')] };
   const unavailable = buildWeeklyLedger({
     todayStories,
     now: NOW,
@@ -151,6 +186,7 @@ test('provider failure produces explicit partial evidence and both core failures
   assert.equal(unavailable.status, 'unavailable');
   assert.deepEqual(unavailable.entries, []);
   assert.equal(unavailable.lastSuccessfulAt, '2026-08-30T18:00:00.000Z');
+  assert.deepEqual(validateWeeklyLedger(unavailable, todayStories), []);
 });
 
 test('selection caps a well-supplied category at 40% without padding to twelve', () => {
@@ -259,6 +295,39 @@ test('the publication gate rejects contradictory relational state against canoni
   const duplicatedMember = structuredClone(valid);
   duplicatedMember.entries[1].memberStoryIds = [duplicatedMember.entries[1].leadStoryId, duplicatedMember.entries[0].leadStoryId];
   assert.ok(validateWeeklyLedger(duplicatedMember, todayStories).some((error) => error.includes('appears in multiple clusters')));
+});
+
+test('the publication gate rejects timestamp and unjustified status mutations while retaining truthful partial states', () => {
+  const todayStories = {
+    stories: Array.from({ length: 8 }, (_, index) => story(
+      `gate-${index}`,
+      index < 4 ? 'models' : 'research',
+      `Specific gate result number ${index}`,
+      '2026-08-31T12:00:00.000Z',
+    )),
+  };
+  const valid = buildWeeklyLedger({ todayStories, now: NOW });
+  assert.equal(valid.status, 'fresh');
+
+  const mismatchedLeadTimestamp = structuredClone(valid);
+  mismatchedLeadTimestamp.entries[0].publishedAt = '2026-08-31T11:00:00.000Z';
+  assert.ok(validateWeeklyLedger(mismatchedLeadTimestamp, todayStories).some((error) => error.includes('does not match canonical Today lead published timestamp')));
+
+  const mismatchedAttempt = structuredClone(valid);
+  mismatchedAttempt.lastAttemptedAt = '2026-08-31T17:59:59.000Z';
+  assert.ok(validateWeeklyLedger(mismatchedAttempt, todayStories).some((error) => error.includes('lastAttemptedAt must equal windowEnd')));
+
+  const laterSuccessful = structuredClone(valid);
+  laterSuccessful.lastSuccessfulAt = '2026-08-31T18:00:00.001Z';
+  assert.ok(validateWeeklyLedger(laterSuccessful, todayStories).some((error) => error.includes('lastSuccessfulAt must not be later than lastAttemptedAt or windowEnd')));
+
+  const unjustifiedPartial = structuredClone(valid);
+  unjustifiedPartial.status = 'partial';
+  assert.ok(validateWeeklyLedger(unjustifiedPartial, todayStories).some((error) => error.includes('partial with eight or more entries requires a degraded core provider')));
+
+  const limitedSupply = buildWeeklyLedger({ todayStories: { stories: [todayStories.stories[0]] }, now: NOW });
+  assert.equal(limitedSupply.status, 'partial');
+  assert.deepEqual(validateWeeklyLedger(limitedSupply, { stories: [todayStories.stories[0]] }), []);
 });
 
 test('the publication gate requires every entry signal state to agree with its provider state', () => {

@@ -189,6 +189,16 @@ test('renderSectionNav', async (t) => {
     assert.equal(document.activeElement, null);
   });
 
+  await t.test('an async-like rerender preserves an inactive chip\'s navigation position', () => {
+    const container = new FakeElement('nav');
+    renderSectionNav(container, categories, 'all', () => {});
+    container.children.find((button) => button.dataset.filter === 'models').focus();
+
+    renderSectionNav(container, categories, 'all', () => {});
+
+    assert.equal(document.activeElement, container.children.find((button) => button.dataset.filter === 'models'));
+  });
+
   await t.test('a rerender does not steal focus from an external element', () => {
     const container = new FakeElement('nav');
     const external = new FakeElement('a');

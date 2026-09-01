@@ -28,6 +28,7 @@ import { applyReviewedQueue } from '../scripts/categorize-story.js';
 
 test('scheduled workflow publishes the Weekly Ledger in the same commit boundary as Today', async () => {
   const workflow = await readFileFs(new URL('../.github/workflows/refresh-today.yml', import.meta.url), 'utf8');
+  const ciWorkflow = await readFileFs(new URL('../.github/workflows/ci.yml', import.meta.url), 'utf8');
   const installIndex = workflow.indexOf('run: npm ci');
   const testIndex = workflow.indexOf('run: npm test');
   const todayPublishIndex = workflow.indexOf('run: node scripts/refresh-today.js --auto-publish-approved');
@@ -37,6 +38,8 @@ test('scheduled workflow publishes the Weekly Ledger in the same commit boundary
   assert.ok(installIndex < testIndex, 'dependency installation precedes the test gate');
   assert.ok(installIndex < todayPublishIndex, 'dependency installation precedes Today publication');
   assert.ok(installIndex < weeklyPublishIndex, 'dependency installation precedes Weekly Ledger publication');
+  assert.ok(ciWorkflow.indexOf('run: npm ci') >= 0, 'CI installs locked dependencies');
+  assert.ok(ciWorkflow.indexOf('run: npm ci') < ciWorkflow.indexOf('run: npm test'), 'CI installs dependencies before tests');
   assert.match(workflow, /node scripts\/refresh-popular-this-week\.js/);
   assert.match(workflow, /content\/popular-this-week\.json/);
   assert.match(workflow, /publish Today and Weekly Ledger content/);

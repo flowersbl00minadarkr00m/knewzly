@@ -1,0 +1,12 @@
+{
+  "articles": [
+    {
+      "url": "https://coverage.example/atlas?utm_source=fixture",
+      "title": "Atlas model release draws coverage",
+      "seendate": "20260831T120000Z",
+      "domain": "coverage.example",
+      "language": "English",
+      "sourcecountry": "United States"
+    }
+  ]
+}

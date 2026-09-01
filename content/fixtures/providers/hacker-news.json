@@ -1,0 +1,24 @@
+{
+  "beststories": [101, 102],
+  "items": {
+    "101": {
+      "id": 101,
+      "type": "story",
+      "time": 1788177600,
+      "title": "Atlas model release draws coverage",
+      "url": "https://coverage.example/atlas",
+      "score": 42,
+      "descendants": 7
+    },
+    "102": {
+      "id": 102,
+      "type": "story",
+      "dead": true,
+      "time": 1788177600,
+      "title": "Deleted story",
+      "url": "https://coverage.example/dead",
+      "score": 1,
+      "descendants": 0
+    }
+  }
+}

@@ -118,10 +118,12 @@ class FakeElement {
   }
   set innerHTML(v) { this.children = []; this._text = ''; }
   addEventListener(type, fn) { (this._listeners[type] ??= []).push(fn); }
+  focus() { document.activeElement = this; }
   click() { (this._listeners.click || []).forEach((fn) => fn()); }
 }
 
 globalThis.document = {
+  activeElement: null,
   createElement(tag) { return new FakeElement(tag); },
 };
 
@@ -157,6 +159,30 @@ test('renderSectionNav', async (t) => {
     renderSectionNav(container, categories, 'all', (id) => selected.push(id));
     container.children.find((b) => b.dataset.filter === 'research').click();
     assert.deepEqual(selected, ['research']);
+  });
+
+  await t.test('a focused chip restores focus to its active replacement after filtering', () => {
+    const container = new FakeElement('nav');
+    let activeId = 'all';
+    const render = (restoreActiveFocus = false) => renderSectionNav(container, categories, activeId, (id, triggeredFromFocusedChip) => {
+      activeId = id;
+      render(triggeredFromFocusedChip);
+    }, restoreActiveFocus);
+
+    render();
+    const models = container.children.find((button) => button.dataset.filter === 'models');
+    models.focus();
+    models.click();
+
+    const replacement = container.children.find((button) => button.dataset.filter === 'models');
+    assert.equal(document.activeElement, replacement);
+  });
+
+  await t.test('an initial or non-focused render does not steal focus', () => {
+    document.activeElement = null;
+    const container = new FakeElement('nav');
+    renderSectionNav(container, categories, 'all', () => {}, false);
+    assert.equal(document.activeElement, null);
   });
 
   await t.test('re-rendering replaces the previous chips rather than appending to them', () => {

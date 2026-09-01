@@ -430,12 +430,12 @@
 
     // FR-014/D-013: filtering is a client-side re-render over the same
     // already-loaded stories — no re-fetch, no server round-trip.
-    function renderFiltered() {
+    function renderFiltered(restoreActiveFilterFocus = false) {
       const categories = getAvailableCategories(allStories);
-      renderSectionNav(navEl, categories, activeCategory, (id) => {
+      renderSectionNav(navEl, categories, activeCategory, (id, triggeredFromFocusedChip) => {
         activeCategory = id;
-        renderFiltered();
-      });
+        renderFiltered(triggeredFromFocusedChip);
+      }, restoreActiveFilterFocus);
       const filtered = filterStoriesByCategory(allStories, activeCategory);
       const weeklyStoryIds = weeklyStoryIdsForCurrentEdition(activeCategory);
       const regularStories = filtered.filter((story) => !weeklyStoryIds.has(story.id));

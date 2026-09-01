@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-01T10:59:09.196Z",
+  "lastUpdated": "2026-09-01T15:57:40.335Z",
   "freshnessState": "fresh",
   "stories": [
     {
@@ -9,6 +9,61 @@
       "source": {
         "name": "Forbes — Innovation",
         "url": "https://www.forbes.com/sites/geruiwang/2026/09/01/why-nvidias-hugging-face-acquisition-signals-ais-full-ecosystem-play/",
+        "publishedDate": "2026-09-01"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3159543",
+      "category": "models",
+      "headline": "AIR raises $50M to help companies vet the skills and add-ons AI agents use",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/09/01/air-raises-50m-to-help-companies-vet-the-skills-and-add-ons-ai-agents-use/",
+        "publishedDate": "2026-09-01"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "6a9582ab4bec28bfced5a370",
+      "category": "research",
+      "headline": "Sonos Ace Ultra, Beam Ultra, Sonos Fabric, and a New App: Everything Sonos Just Announced",
+      "source": {
+        "name": "Wired — Artificial Intelligence",
+        "url": "https://www.wired.com/story/sonos-has-new-devices-a-new-os-and-yes-a-new-app/",
+        "publishedDate": "2026-09-01"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6a95ede00953f2568e4a7eb8",
+      "category": "research",
+      "headline": "Broad AI Adoption Built Fluency, Agents Demand Focus",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/councils/forbestechcouncil/2026/09/01/broad-ai-adoption-built-fluency-agents-demand-focus/",
+        "publishedDate": "2026-09-01"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6a95ed1cb7bf83eb7dd7e88c",
+      "category": "ai-lifecycle",
+      "headline": "How Agentic AI Is Coming For The Seat, Not The System",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/councils/forbestechcouncil/2026/09/01/how-agentic-ai-is-coming-for-the-seat-not-the-system/",
+        "publishedDate": "2026-09-01"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://huggingface.co/blog/webgpu-kernels",
+      "category": "safety-governance",
+      "headline": "Introducing @huggingface/kernels: 200+ WebGPU Kernels for Local AI",
+      "source": {
+        "name": "Hugging Face — Blog",
+        "url": "https://huggingface.co/blog/webgpu-kernels",
         "publishedDate": "2026-09-01"
       },
       "traceToAnchors": []
@@ -604,61 +659,6 @@
         "name": "NVIDIA — Technical Blog",
         "url": "https://developer.nvidia.com/blog/nvidia-nemotron-3-5-lightning-delivers-fast-accurate-specialized-task-execution-for-long-running-agents/",
         "publishedDate": "2026-08-11"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://developer.nvidia.com/blog/?p=120999",
-      "category": "ai-lifecycle",
-      "headline": "Route AI Agent Workloads Across Models with NVIDIA NeMo Switchyard",
-      "source": {
-        "name": "NVIDIA — Technical Blog",
-        "url": "https://developer.nvidia.com/blog/route-ai-agent-workloads-across-models-with-nvidia-nemo-switchyard/",
-        "publishedDate": "2026-08-11"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.technologyreview.com/?p=1141511",
-      "category": "models",
-      "headline": "These startups are chasing the next big thing in LLMs",
-      "source": {
-        "name": "MIT Technology Review — Artificial Intelligence",
-        "url": "https://www.technologyreview.com/2026/08/10/1141511/these-startups-are-chasing-the-next-big-thing-in-llms/",
-        "publishedDate": "2026-08-10"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.technologyreview.com/?p=1141597",
-      "category": "research",
-      "headline": "AI professors are negotiating the new realities of academic research",
-      "source": {
-        "name": "MIT Technology Review — Artificial Intelligence",
-        "url": "https://www.technologyreview.com/2026/08/10/1141597/ai-professors-are-negotiating-the-new-realities-of-academic-research/",
-        "publishedDate": "2026-08-10"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.technologyreview.com/?p=1141384",
-      "category": "research",
-      "headline": "AI for science needs reasoning, not just data",
-      "source": {
-        "name": "MIT Technology Review — Artificial Intelligence",
-        "url": "https://www.technologyreview.com/2026/08/10/1141384/ai-agents-for-science/",
-        "publishedDate": "2026-08-10"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://openai.com/index/building-an-ai-native-finance-function",
-      "category": "ai-lifecycle",
-      "headline": "What building an AI-native finance function taught me",
-      "source": {
-        "name": "OpenAI — News",
-        "url": "https://openai.com/index/building-an-ai-native-finance-function",
-        "publishedDate": "2026-08-10"
       },
       "traceToAnchors": []
     }

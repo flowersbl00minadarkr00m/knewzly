@@ -160,11 +160,14 @@ test('selection caps a well-supplied category at 40% without padding to twelve',
     ...Array.from({ length: 3 }, (_, index) => rankedEntry(`labor-${index}`, 'labor', 80 - index)),
   ];
   const selected = selectDiverseEntries(entries);
-  const counts = Object.groupBy(selected, (entry) => entry.category);
+  const counts = selected.reduce((byCategory, entry) => {
+    byCategory[entry.category] = (byCategory[entry.category] || 0) + 1;
+    return byCategory;
+  }, Object.create(null));
   assert.equal(selected.length, 10);
-  assert.equal(counts.models.length, 4);
-  assert.equal(counts.research.length, 3);
-  assert.equal(counts.labor.length, 3);
+  assert.equal(counts.models, 4);
+  assert.equal(counts.research, 3);
+  assert.equal(counts.labor, 3);
 });
 
 test('selection relaxes only for a scarce alternative category to retain eight eligible clusters', () => {

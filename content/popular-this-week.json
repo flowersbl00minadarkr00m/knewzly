@@ -1,0 +1,179 @@
+{
+  "schemaVersion": 1,
+  "methodologyVersion": "weekly-momentum-v1",
+  "windowStart": "2026-08-25T06:56:29.830Z",
+  "windowEnd": "2026-09-01T06:56:29.830Z",
+  "lastAttemptedAt": "2026-09-01T06:56:29.830Z",
+  "lastSuccessfulAt": "2026-09-01T06:56:29.830Z",
+  "status": "partial",
+  "providers": {
+    "gdelt": {
+      "status": "unavailable"
+    },
+    "hackerNews": {
+      "status": "ok",
+      "sampledAt": "2026-09-01T06:56:29.830Z",
+      "itemCount": 199
+    },
+    "bluesky": {
+      "status": "not_configured"
+    }
+  },
+  "entries": [
+    {
+      "rank": 1,
+      "leadStoryId": "https://developer.nvidia.com/blog/?p=121899",
+      "memberStoryIds": [
+        "https://developer.nvidia.com/blog/?p=121899"
+      ],
+      "category": "ai-lifecycle",
+      "publishedAt": "2026-08-31T00:00:00.000Z",
+      "momentumScore": 0.8158236937830687,
+      "signals": {
+        "coverage": {
+          "state": "provider_unavailable"
+        },
+        "hackerNews": {
+          "state": "not_observed"
+        },
+        "recency": {
+          "state": "observed",
+          "ageHours": 30.941619444444445
+        },
+        "bluesky": {
+          "state": "not_configured"
+        }
+      }
+    },
+    {
+      "rank": 2,
+      "leadStoryId": "https://techcrunch.com/?p=3158688",
+      "memberStoryIds": [
+        "https://techcrunch.com/?p=3158688"
+      ],
+      "category": "models",
+      "publishedAt": "2026-08-31T00:00:00.000Z",
+      "momentumScore": 0.8158236937830687,
+      "signals": {
+        "coverage": {
+          "state": "provider_unavailable"
+        },
+        "hackerNews": {
+          "state": "not_observed"
+        },
+        "recency": {
+          "state": "observed",
+          "ageHours": 30.941619444444445
+        },
+        "bluesky": {
+          "state": "not_configured"
+        }
+      }
+    },
+    {
+      "rank": 3,
+      "leadStoryId": "https://www.technologyreview.com/?p=1143180",
+      "memberStoryIds": [
+        "https://www.technologyreview.com/?p=1143180"
+      ],
+      "category": "safety-governance",
+      "publishedAt": "2026-08-31T00:00:00.000Z",
+      "momentumScore": 0.8158236937830687,
+      "signals": {
+        "coverage": {
+          "state": "provider_unavailable"
+        },
+        "hackerNews": {
+          "state": "not_observed"
+        },
+        "recency": {
+          "state": "observed",
+          "ageHours": 30.941619444444445
+        },
+        "bluesky": {
+          "state": "not_configured"
+        }
+      }
+    },
+    {
+      "rank": 4,
+      "leadStoryId": "https://techcrunch.com/?p=3158648",
+      "memberStoryIds": [
+        "https://techcrunch.com/?p=3158648"
+      ],
+      "category": "models",
+      "publishedAt": "2026-08-30T00:00:00.000Z",
+      "momentumScore": 0.6729665509259259,
+      "signals": {
+        "coverage": {
+          "state": "provider_unavailable"
+        },
+        "hackerNews": {
+          "state": "not_observed"
+        },
+        "recency": {
+          "state": "observed",
+          "ageHours": 54.94161944444444
+        },
+        "bluesky": {
+          "state": "not_configured"
+        }
+      }
+    },
+    {
+      "rank": 5,
+      "leadStoryId": "https://www.theneurondaily.com/p/anthropic-wants-claude-operating-real-lab-gear",
+      "memberStoryIds": [
+        "https://www.theneurondaily.com/p/anthropic-wants-claude-operating-real-lab-gear"
+      ],
+      "category": "models",
+      "publishedAt": "2026-08-30T00:00:00.000Z",
+      "momentumScore": 0.6729665509259259,
+      "signals": {
+        "coverage": {
+          "state": "provider_unavailable"
+        },
+        "hackerNews": {
+          "state": "not_observed"
+        },
+        "recency": {
+          "state": "observed",
+          "ageHours": 54.94161944444444
+        },
+        "bluesky": {
+          "state": "not_configured"
+        }
+      }
+    },
+    {
+      "rank": 6,
+      "leadStoryId": "https://www.theverge.com/?p=986682",
+      "memberStoryIds": [
+        "https://www.theverge.com/?p=986682"
+      ],
+      "category": "safety-governance",
+      "publishedAt": "2026-08-31T00:00:00.000Z",
+      "momentumScore": 0.6022922552552621,
+      "signals": {
+        "coverage": {
+          "state": "provider_unavailable"
+        },
+        "hackerNews": {
+          "state": "observed",
+          "points": 24,
+          "comments": 15,
+          "itemIds": [
+            49510517
+          ]
+        },
+        "recency": {
+          "state": "observed",
+          "ageHours": 30.941619444444445
+        },
+        "bluesky": {
+          "state": "not_configured"
+        }
+      }
+    }
+  ]
+}

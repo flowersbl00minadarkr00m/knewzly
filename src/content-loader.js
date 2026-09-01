@@ -37,6 +37,19 @@ export async function loadContent({ basePath = 'content/', reader = fetchReader 
   return { anchors, relationships, todayStories };
 }
 
+/**
+ * Loads the independently published Weekly Ledger edition. A missing or
+ * failed weekly file is intentionally non-fatal: Today remains usable and
+ * its caller can render the ledger's truthful unavailable state.
+ */
+export async function loadWeeklyLedger({ basePath = 'content/', reader = fetchReader } = {}) {
+  try {
+    return await reader(`${basePath}popular-this-week.json`);
+  } catch {
+    return null;
+  }
+}
+
 // --- Validation -------------------------------------------------------
 // Anchor and relationship checks remain local; Today validation delegates to
 // the executable JSON Schema in today-stories-validator.js.

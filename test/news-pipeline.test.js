@@ -26,6 +26,13 @@ import {
 } from '../scripts/refresh-today.js';
 import { applyReviewedQueue } from '../scripts/categorize-story.js';
 
+test('scheduled workflow publishes the Weekly Ledger in the same commit boundary as Today', async () => {
+  const workflow = await readFileFs(new URL('../.github/workflows/refresh-today.yml', import.meta.url), 'utf8');
+  assert.match(workflow, /node scripts\/refresh-popular-this-week\.js/);
+  assert.match(workflow, /content\/popular-this-week\.json/);
+  assert.match(workflow, /publish Today and Weekly Ledger content/);
+});
+
 const NOW = new Date('2026-08-10T12:00:00.000Z');
 
 const FIXTURE_ANCHORS = {

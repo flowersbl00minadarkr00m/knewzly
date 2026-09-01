@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { loadContent, validateContent } from '../src/content-loader.js';
+import { loadContent, loadWeeklyLedger, validateContent } from '../src/content-loader.js';
 import { validateTodayStories, validateTodayStoriesSchema } from '../src/today-stories-validator.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -25,6 +25,20 @@ describe('T1: content schema + ContentLoader + validator', () => {
     assert.ok(Array.isArray(content.anchors.anchors), 'anchors.anchors should be an array');
     assert.ok(Array.isArray(content.relationships.relationships), 'relationships.relationships should be an array');
     assert.ok(Array.isArray(content.todayStories.stories), 'todayStories.stories should be an array');
+  });
+
+  test('optional Weekly Ledger loading is isolated from the required Today content contract', async () => {
+    const weekly = { status: 'fresh', entries: [] };
+    const loaded = await loadWeeklyLedger({ reader: async (path) => {
+      assert.equal(path, 'content/popular-this-week.json');
+      return weekly;
+    } });
+    assert.deepEqual(loaded, weekly);
+
+    const unavailable = await loadWeeklyLedger({ reader: async () => {
+      throw new Error('weekly publication unavailable');
+    } });
+    assert.equal(unavailable, null);
   });
 
   test('valid anchor and relationship fixtures pass validateContent with zero errors', async () => {

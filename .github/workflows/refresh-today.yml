@@ -44,14 +44,17 @@ jobs:
       - name: Run news-refresh pipeline
         run: node scripts/refresh-today.js --auto-publish-approved
 
+      - name: Publish Weekly Ledger edition
+        run: node scripts/refresh-popular-this-week.js
+
       - name: Commit publication state if changed
         run: |
-          if git diff --quiet -- content/today-stories.json content/review-queue.json content/category-keywords.json; then
+          if git diff --quiet -- content/today-stories.json content/popular-this-week.json content/review-queue.json content/category-keywords.json; then
             echo "No publication changes — nothing to commit."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add content/today-stories.json content/review-queue.json content/category-keywords.json
-          git commit -m "chore: publish reviewed Today content [skip ci]"
+          git add content/today-stories.json content/popular-this-week.json content/review-queue.json content/category-keywords.json
+          git commit -m "chore: publish Today and Weekly Ledger content [skip ci]"
           git push

@@ -5,6 +5,7 @@
   "description": "Documented contract for content/today-stories.json. Written only by the scheduled CI news-refresh job (T10) — never by the frontend at runtime (design.md §6).",
   "type": "object",
   "required": ["lastUpdated", "freshnessState", "stories"],
+  "additionalProperties": false,
   "properties": {
     "lastUpdated": { "type": "string", "format": "date-time" },
     "freshnessState": {
@@ -21,27 +22,28 @@
     "story": {
       "type": "object",
       "required": ["id", "category", "headline", "source", "traceToAnchors"],
+      "additionalProperties": false,
       "properties": {
-        "id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
-        "category": { "type": "string" },
+        "id": { "type": "string", "anyOf": [{ "pattern": "^[a-z0-9_-]+$" }, { "format": "https-url" }] },
+        "category": { "type": "string", "minLength": 1 },
         "headline": { "type": "string", "minLength": 1 },
-        "dek": { "type": "string" },
+        "dek": { "type": "string", "minLength": 1 },
         "source": {
           "type": "object",
-          "required": ["name", "publishedDate"],
+          "required": ["name", "url", "publishedDate"],
+          "additionalProperties": false,
           "properties": {
-            "name": { "type": "string" },
-            "url": { "type": "string" },
-            "publishedDate": { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$" }
+            "name": { "type": "string", "minLength": 1 },
+            "url": { "type": "string", "format": "https-url" },
+            "publishedDate": { "type": "string", "format": "date" }
           }
         },
         "traceToAnchors": {
           "type": "array",
-          "items": { "type": "string" },
-          "minItems": 1,
+          "items": { "type": "string", "minLength": 1 },
           "description": "Each entry must resolve to a real anchors.json id — checked by the validator."
         },
-        "traceLabel": { "type": "string" }
+        "traceLabel": { "type": "string", "minLength": 1 }
       }
     }
   }

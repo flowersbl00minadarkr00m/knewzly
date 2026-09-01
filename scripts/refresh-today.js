@@ -141,13 +141,7 @@ export function reduceFreshness(sourceFreshnessStates) {
  * @returns {string[]} errors; empty array means the candidate is publishable
  */
 export function validateForPublish(todayStories, anchors) {
-  const errors = validateContent({ anchors, todayStories });
-  for (const [index, story] of (todayStories?.stories ?? []).entries()) {
-    if (story?.source?.url && !normalizeHttpsUrl(story.source.url)) {
-      errors.push(`todayStories.stories[${index}].source.url must be a public HTTPS URL`);
-    }
-  }
-  return errors;
+  return validateContent({ anchors, todayStories });
 }
 
 /**
@@ -626,15 +620,18 @@ export function mergePublishedStories(existingStories, newStories, { cap = 30 } 
  *
  * @param {{ todayStories: object, errors: string[] }} result
  * @param {string} [outPath]
+ * @param {object} [anchors]
  */
 export async function publishTodayStories(
   result,
-  outPath = new URL('../content/today-stories.json', import.meta.url)
+  outPath = new URL('../content/today-stories.json', import.meta.url),
+  anchors = { anchors: [] }
 ) {
-  if (result.errors.length > 0) {
+  const errors = [...new Set([...(result?.errors ?? []), ...validateForPublish(result?.todayStories, anchors)])];
+  if (errors.length > 0) {
     throw new Error(
-      `publishTodayStories: refusing to publish, ${result.errors.length} validation error(s):\n` +
-        result.errors.join('\n')
+      `publishTodayStories: refusing to publish, ${errors.length} validation error(s):\n` +
+        errors.join('\n')
     );
   }
   await writeFile(outPath, JSON.stringify(result.todayStories, null, 2) + '\n', 'utf-8');
@@ -758,7 +755,7 @@ async function main() {
     process.exitCode = 1;
     return;
   }
-  await publishTodayStories({ todayStories: finalTodayStories, errors: [] });
+  await publishTodayStories({ todayStories: finalTodayStories, errors: [] }, undefined, anchors);
   console.log(
     `refresh-today: published ${finalTodayStories.stories.length} stories (${result.todayStories.stories.length} new this run), ` +
       `freshnessState=${finalTodayStories.freshnessState}, dropped=${result.stats.droppedCount}, ` +

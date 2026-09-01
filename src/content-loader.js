@@ -6,6 +6,13 @@
 // (T10, design.md §6). Nothing in this module or anywhere else in the
 // frontend ever writes to it — ContentLoader only reads.
 
+// Ajv is a Node-side publication/content-check dependency, not a browser
+// asset in this no-bundler app. Keep the browser reader loadable while Node
+// content checks use the same canonical validator as the publication script.
+const validateTodayStories = typeof process !== 'undefined' && process.versions?.node
+  ? (await import('./today-stories-validator.js')).validateTodayStories
+  : null;
+
 /**
  * Default reader for browser use: fetch() against a relative/absolute path.
  * @param {string} path
@@ -38,13 +45,11 @@ export async function loadContent({ basePath = 'content/', reader = fetchReader 
 }
 
 // --- Validation -------------------------------------------------------
-// Hand-written checks, not a schema-validation library — the *.schema.json
-// files alongside content/ are documentation contracts; these functions are
-// what actually enforces them, per TD-001's zero-new-dependency posture.
+// Anchor and relationship checks remain local; Today validation delegates to
+// the executable JSON Schema in today-stories-validator.js.
 
 const REQUIRED_ANCHOR_FIELDS = ['id', 'title', 'date', 'lane', 'story', 'claimType', 'confidence', 'source'];
 const REQUIRED_RELATIONSHIP_FIELDS = ['id', 'from', 'to', 'type', 'confidence', 'claimType', 'label'];
-const REQUIRED_STORY_FIELDS = ['id', 'category', 'headline', 'source', 'traceToAnchors'];
 
 /**
  * @param {{anchors: {anchors: any[]}, relationships?: {relationships: any[]}, todayStories?: {stories: any[]}}} content
@@ -82,24 +87,8 @@ export function validateContent({ anchors, relationships, todayStories }) {
   }
 
   if (todayStories) {
-    const storyList = todayStories.stories ?? [];
-    for (const story of storyList) {
-      for (const field of REQUIRED_STORY_FIELDS) {
-        if (story[field] === undefined || story[field] === null) {
-          errors.push(`today-story "${story.id ?? '(no id)'}" is missing required field "${field}"`);
-        }
-      }
-      if (story.source && (!story.source.name || !story.source.publishedDate)) {
-        errors.push(`today-story "${story.id ?? '(no id)'}" has an incomplete source (needs name + publishedDate)`);
-      }
-      for (const anchorId of story.traceToAnchors ?? []) {
-        if (!anchorIds.has(anchorId)) {
-          errors.push(`today-story "${story.id}" has traceToAnchors entry "${anchorId}" which does not resolve to any anchor id`);
-        }
-      }
-    }
-    if (!['fresh', 'stale', 'very_stale', 'no_data', 'error'].includes(todayStories.freshnessState)) {
-      errors.push(`today-stories.json has an invalid freshnessState: "${todayStories.freshnessState}"`);
+    if (validateTodayStories) {
+      errors.push(...validateTodayStories(todayStories, anchors));
     }
   }
 

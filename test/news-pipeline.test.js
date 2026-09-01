@@ -41,6 +41,7 @@ function makeItem(overrides = {}) {
     sourceName: 'Fixture Source',
     category: 'ai-policy',
     headline: 'Fixture headline',
+    url: 'https://example.com/story-1',
     publishedDate: '2026-08-10T06:00:00.000Z', // 6h before NOW -> fresh
     traceToAnchors: ['anchor-a'],
     ...overrides,
@@ -164,7 +165,7 @@ test('validateForPublish: a valid today-stories candidate passes with zero error
         id: 'story-1',
         category: 'ai-policy',
         headline: 'Valid headline',
-        source: { name: 'Fixture Source', publishedDate: '2026-08-10' },
+        source: { name: 'Fixture Source', url: 'https://example.com/story-1', publishedDate: '2026-08-10' },
         traceToAnchors: ['anchor-a'],
       },
     ],
@@ -331,13 +332,31 @@ test('publishTodayStories: refuses to write a candidate that failed validation (
   await rm(dir, { recursive: true, force: true });
 });
 
+test('publishTodayStories: revalidates candidates so an invalid result with no reported errors is never written', async () => {
+  const dir = await mkdtemp(join(tmpdir(), 'knewzly-t15-'));
+  const outPath = join(dir, 'today-stories.json');
+  const invalidResult = {
+    todayStories: {
+      lastUpdated: NOW.toISOString(),
+      freshnessState: 'fresh',
+      stories: [{ id: 'story-1', category: 'ai-policy', headline: 'Missing source and traces' }],
+    },
+    errors: [],
+  };
+
+  await assert.rejects(() => publishTodayStories(invalidResult, outPath, FIXTURE_ANCHORS), /refusing to publish/);
+  await assert.rejects(() => readFileFs(outPath), /ENOENT/);
+
+  await rm(dir, { recursive: true, force: true });
+});
+
 test('publishTodayStories: writes a valid candidate to disk', async () => {
   const dir = await mkdtemp(join(tmpdir(), 'knewzly-t10-'));
   const outPath = join(dir, 'today-stories.json');
   const items = [makeItem({ id: 'story-1', publishedDate: '2026-08-10T06:00:00.000Z' })];
   const result = buildTodayStories(items, FIXTURE_ANCHORS, { now: NOW });
 
-  await publishTodayStories(result, outPath);
+  await publishTodayStories(result, outPath, FIXTURE_ANCHORS);
   const written = JSON.parse(await readFileFs(outPath, 'utf-8'));
   assert.equal(written.freshnessState, 'fresh');
   assert.equal(written.stories.length, 1);

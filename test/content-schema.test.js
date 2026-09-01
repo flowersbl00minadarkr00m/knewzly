@@ -4,6 +4,7 @@ import { readFile } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { loadContent, validateContent } from '../src/content-loader.js';
+import { validateTodayStories } from '../src/today-stories-validator.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const FIXTURES = path.join(__dirname, '..', 'content', 'fixtures');
@@ -26,9 +27,9 @@ describe('T1: content schema + ContentLoader + validator', () => {
     assert.ok(Array.isArray(content.todayStories.stories), 'todayStories.stories should be an array');
   });
 
-  test('valid fixture set passes validateContent with zero errors', async () => {
+  test('valid anchor and relationship fixtures pass validateContent with zero errors', async () => {
     const content = await loadContent({ basePath: 'content/', reader: fsReader(FIXTURES) });
-    const errors = validateContent(content);
+    const errors = validateContent({ anchors: content.anchors, relationships: content.relationships });
     assert.deepEqual(errors, [], `expected no validation errors, got: ${JSON.stringify(errors, null, 2)}`);
   });
 
@@ -82,5 +83,43 @@ describe('T1: content schema + ContentLoader + validator', () => {
       },
     });
     assert.ok(errors.some((e) => e.includes('nonexistent-anchor')));
+  });
+
+  test('canonical Today validator accepts current production-shaped URL IDs and empty traces', async () => {
+    const root = path.join(__dirname, '..', 'content');
+    const [anchors, todayStories] = await Promise.all([
+      readFile(path.join(root, 'anchors.json'), 'utf-8').then(JSON.parse),
+      readFile(path.join(root, 'today-stories.json'), 'utf-8').then(JSON.parse),
+    ]);
+    assert.deepEqual(validateTodayStories(todayStories, anchors), []);
+  });
+
+  test('canonical Today validator rejects structural mutations and dangling non-empty traces', () => {
+    const valid = {
+      lastUpdated: '2026-08-31T23:47:49.525Z',
+      freshnessState: 'fresh',
+      stories: [{
+        id: 'https://example.com/feed/123',
+        category: 'research',
+        headline: 'A valid story',
+        source: { name: 'Example', url: 'https://example.com/story', publishedDate: '2026-08-31' },
+        traceToAnchors: [],
+      }],
+    };
+    const anchors = { anchors: [{ id: 'real-anchor' }] };
+    const mutations = [
+      { mutate: (candidate) => { candidate.stories = {}; }, label: 'stories type' },
+      { mutate: (candidate) => { delete candidate.stories[0].headline; }, label: 'required story field' },
+      { mutate: (candidate) => { candidate.stories[0].source.publishedDate = '2026-02-30'; }, label: 'source date' },
+      { mutate: (candidate) => { candidate.freshnessState = 'live'; }, label: 'freshness enum' },
+      { mutate: (candidate) => { candidate.stories[0].source.url = 'http://example.com/story'; }, label: 'HTTPS source URL' },
+      { mutate: (candidate) => { candidate.stories[0].traceToAnchors = ['missing-anchor']; }, label: 'dangling trace' },
+    ];
+
+    for (const { mutate, label } of mutations) {
+      const candidate = structuredClone(valid);
+      mutate(candidate);
+      assert.ok(validateTodayStories(candidate, anchors).length > 0, `expected ${label} mutation to fail`);
+    }
   });
 });

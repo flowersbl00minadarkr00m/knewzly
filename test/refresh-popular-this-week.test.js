@@ -32,6 +32,20 @@ test('one provider failure builds a partial candidate without passing third-part
   assert.deepEqual(unavailable.document.entries, []);
 });
 
+test('incomplete GDELT plus an unavailable HN sample cannot become a fresh or partial publication', async () => {
+  const result = await refreshPopularThisWeek({
+    todayStories,
+    now: NOW,
+    dryRun: true,
+    providerResults: {
+      gdelt: { status: 'unavailable', attemptedQueries: 6, successfulQueries: 1, articles: [{ url: 'https://coverage.example/atlas', title: 'Atlas model release', domain: 'coverage.example' }] },
+      hackerNews: { status: 'unavailable', sampledIds: 2, successfulItemRequests: 0, items: [], itemStates: { failed: 2 } },
+    },
+  });
+  assert.equal(result.document.status, 'unavailable');
+  assert.deepEqual(result.document.entries, []);
+});
+
 test('an unavailable refresh retains only the previous successful timestamp as context, never stale entries', async () => {
   const dir = await mkdtemp(join(tmpdir(), 'knewzly-weekly-'));
   const output = join(dir, 'popular-this-week.json');

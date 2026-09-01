@@ -32,15 +32,26 @@ function summarize({ document, gdelt, hackerNews, todayStories }) {
     candidates: eligible.length,
     clusters: clusters.length,
     selected: document.entries.length,
-    gdelt: { status: gdelt.status, articles: gdelt.articles?.length ?? 0, queries: gdelt.queryCount ?? 0 },
-    hackerNews: { status: hackerNews.status, items: hackerNews.items?.length ?? 0, dropped: Object.entries(hackerNews.itemStates ?? {}).filter(([key]) => key !== 'accepted').reduce((total, [, value]) => total + value, 0) },
+    gdelt: {
+      status: gdelt.status,
+      articles: gdelt.itemStates?.accepted ?? gdelt.articles?.length ?? 0,
+      attemptedQueries: gdelt.attemptedQueries ?? gdelt.queryCount ?? 0,
+      successfulQueries: gdelt.successfulQueries ?? gdelt.queryCount ?? 0,
+    },
+    hackerNews: {
+      status: hackerNews.status,
+      items: hackerNews.itemStates?.accepted ?? hackerNews.items?.length ?? 0,
+      attemptedItems: hackerNews.sampledIds ?? 0,
+      successfulItems: hackerNews.successfulItemRequests ?? hackerNews.sampledIds ?? 0,
+      dropped: Object.entries(hackerNews.itemStates ?? {}).filter(([key]) => key !== 'accepted').reduce((total, [, value]) => total + value, 0),
+    },
   };
 }
 
 export function formatProviderSummary(summary) {
   return `popular-week: status=${summary.status} candidates=${summary.candidates} clusters=${summary.clusters} selected=${summary.selected}\n` +
-    `gdelt=${summary.gdelt.status} articles=${summary.gdelt.articles} queries=${summary.gdelt.queries} ` +
-    `hn=${summary.hackerNews.status} items=${summary.hackerNews.items} dropped=${summary.hackerNews.dropped}`;
+    `gdelt=${summary.gdelt.status} articles=${summary.gdelt.articles} queries=${summary.gdelt.successfulQueries}/${summary.gdelt.attemptedQueries} ` +
+    `hn=${summary.hackerNews.status} items=${summary.hackerNews.items} requests=${summary.hackerNews.successfulItems}/${summary.hackerNews.attemptedItems} dropped=${summary.hackerNews.dropped}`;
 }
 
 /** Validates first, then writes a same-directory temporary file and atomically renames it into place. */

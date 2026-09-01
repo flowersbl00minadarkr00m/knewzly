@@ -96,7 +96,7 @@ function normalizeGdeltArticle(article) {
   const title = safeString(article?.title);
   const seendate = safeString(article?.seendate);
   if (!url || !title || !seendate) return undefined;
-  const domain = safeString(article?.domain)?.toLowerCase().replace(/^www\./, '') ?? hostFromUrl(url);
+  const domain = hostFromUrl(url);
   return {
     url,
     title,
@@ -128,14 +128,18 @@ export async function fetchGdeltEvidence({
   });
   const settled = await Promise.allSettled(requests);
   const successes = settled.filter((result) => result.status === 'fulfilled');
-  const articles = successes.flatMap((result) => result.value.accepted);
+  const acceptedArticles = successes.flatMap((result) => result.value.accepted);
   const rejectedArticles = successes.reduce((count, result) => count + result.value.rejected, 0);
   const failedQueries = settled.length - successes.length;
+  const complete = successes.length === GDELT_QUERIES.length;
   return {
-    status: successes.length ? 'ok' : 'unavailable',
-    ...(successes.length ? { sampledAt, queryCount: GDELT_QUERIES.length } : {}),
-    articles,
-    itemStates: { accepted: articles.length, rejected: rejectedArticles, failedQueries },
+    status: complete ? 'ok' : 'unavailable',
+    sampledAt,
+    ...(complete ? { queryCount: GDELT_QUERIES.length } : {}),
+    attemptedQueries: GDELT_QUERIES.length,
+    successfulQueries: successes.length,
+    articles: complete ? acceptedArticles : [],
+    itemStates: { accepted: acceptedArticles.length, rejected: rejectedArticles, failedQueries },
   };
 }
 
@@ -207,12 +211,14 @@ export async function fetchHackerNewsEvidence({
   });
   const itemStates = { accepted: 0, dead: 0, wrongType: 0, outsideWindow: 0, unsafeUrl: 0, malformed: 0, failed: 0 };
   for (const { state } of states) itemStates[state] += 1;
+  const complete = itemStates.failed === 0;
   return {
-    status: 'ok',
+    status: complete ? 'ok' : 'unavailable',
     sampledAt,
-    itemCount: itemStates.accepted,
+    ...(complete ? { itemCount: itemStates.accepted } : {}),
     sampledIds: sampledIds.length,
-    items: states.filter(({ state }) => state === 'accepted').map(({ item }) => item),
+    successfulItemRequests: sampledIds.length - itemStates.failed,
+    items: complete ? states.filter(({ state }) => state === 'accepted').map(({ item }) => item) : [],
     itemStates,
   };
 }

@@ -7,6 +7,7 @@ import {
   fetchHackerNewsEvidence,
   fetchJsonBounded,
 } from '../src/popularity-providers.js';
+import { buildWeeklyLedger } from '../src/weekly-momentum.js';
 
 const NOW = '2026-08-31T18:00:00.000Z';
 const gdeltFixture = JSON.parse(await readFile(new URL('../content/fixtures/providers/gdelt.json', import.meta.url), 'utf8'));
@@ -50,15 +51,47 @@ test('GDELT returns unavailable for timeout, non-2xx, redirect, oversized, malfo
   }
 });
 
-test('GDELT keeps successful query evidence when other query requests fail', async () => {
+test('GDELT marks five-of-six query failures unavailable and reports attempted versus successful counts truthfully', async () => {
   let call = 0;
   const result = await fetchGdeltEvidence({
     now: NOW,
     fetchImpl: async () => (++call === 1 ? jsonResponse(gdeltFixture) : new Response('{}', { status: 500 })),
   });
-  assert.equal(result.status, 'ok');
-  assert.equal(result.articles.length, 1);
+  assert.equal(result.status, 'unavailable');
+  assert.equal(result.articles.length, 0);
+  assert.equal(result.attemptedQueries, 6);
+  assert.equal(result.successfulQueries, 1);
   assert.equal(result.itemStates.failedQueries, 5);
+});
+
+test('GDELT derives coverage domains from canonical URLs, so spoofed response domains cannot inflate breadth', async () => {
+  let call = 0;
+  const result = await fetchGdeltEvidence({
+    now: NOW,
+    fetchImpl: async () => jsonResponse({
+      articles: [{
+        ...gdeltFixture.articles[0],
+        url: 'https://same-host.example/atlas',
+        title: 'Atlas model release',
+        domain: `spoof-${++call}.example`,
+      }],
+    }),
+  });
+  assert.equal(result.status, 'ok');
+  assert.ok(result.articles.every((article) => article.domain === 'same-host.example'));
+  const document = buildWeeklyLedger({
+    now: NOW,
+    gdeltResults: result.articles,
+    hackerNewsItems: [],
+    providerStates: { gdelt: { status: 'ok', sampledAt: NOW, queryCount: 6 }, hackerNews: { status: 'unavailable' } },
+    todayStories: {
+      stories: [{
+        id: 'canonical-story', category: 'models', headline: 'Atlas model release',
+        source: { name: 'Canonical', url: 'https://canonical.example/atlas', publishedDate: '2026-08-31T12:00:00.000Z' },
+      }],
+    },
+  });
+  assert.equal(document.entries[0].signals.coverage.independentOutletCount, 2);
 });
 
 test('HN caps beststories at 300, fetches with concurrency ten, filters unsafe/out-of-window/dead records, and labels item states', async () => {
@@ -91,7 +124,7 @@ test('HN caps beststories at 300, fetches with concurrency ten, filters unsafe/o
   assert.deepEqual(Object.keys(result.items[0]).sort(), ['descendants', 'id', 'score', 'title', 'url']);
 });
 
-test('HN beststories failure is unavailable, but per-item failures remain an available partial sample', async () => {
+test('HN beststories or item-request failures are unavailable rather than healthy partial samples', async () => {
   const unavailable = await fetchHackerNewsEvidence({ fetchImpl: async () => new Response('{}', { status: 500 }), now: NOW });
   assert.equal(unavailable.status, 'unavailable');
 
@@ -101,11 +134,55 @@ test('HN beststories failure is unavailable, but per-item failures remain an ava
       ? jsonResponse([1, 2])
       : String(url).includes('/1.json') ? jsonResponse({ ...hnFixture.items['101'], id: 1 }) : new Response('{}', { status: 500 }),
   });
-  assert.equal(partial.status, 'ok');
-  assert.equal(partial.items.length, 1);
+  assert.equal(partial.status, 'unavailable');
+  assert.equal(partial.items.length, 0);
   assert.equal(partial.itemStates.failed, 1);
+  assert.equal(partial.successfulItemRequests, 1);
+
+  const allFailed = await fetchHackerNewsEvidence({
+    now: NOW,
+    fetchImpl: async (url) => String(url).endsWith('beststories.json') ? jsonResponse([1, 2]) : new Response('{}', { status: 500 }),
+  });
+  assert.equal(allFailed.status, 'unavailable');
+  assert.equal(allFailed.items.length, 0);
+  assert.equal(allFailed.itemStates.failed, 2);
 });
 
 test('shared network reader rejects non-HTTPS URLs before a request is made', async () => {
   await assert.rejects(fetchJsonBounded('http://example.test/nope', { fetchImpl: async () => { throw new Error('must not fetch'); } }), /HTTPS/);
+});
+
+test('shared network reader aborts a genuinely hung fetch at the configured timeout', async () => {
+  let aborted = false;
+  await assert.rejects(
+    fetchJsonBounded('https://example.test/hung', {
+      timeoutMs: 10,
+      fetchImpl: (_url, { signal }) => new Promise((_, reject) => signal.addEventListener('abort', () => {
+        aborted = true;
+        reject(new DOMException('request timed out', 'AbortError'));
+      }, { once: true })),
+    }),
+    /timed out/,
+  );
+  assert.equal(aborted, true);
+});
+
+test('shared network reader cancels a chunked response that exceeds the limit without content-length', async () => {
+  let cancelled = false;
+  const stream = new ReadableStream({
+    pull(controller) {
+      controller.enqueue(new Uint8Array(8));
+    },
+    cancel() {
+      cancelled = true;
+    },
+  });
+  await assert.rejects(
+    fetchJsonBounded('https://example.test/chunked', {
+      maxBytes: 12,
+      fetchImpl: async () => new Response(stream, { status: 200, headers: { 'content-type': 'application/json' } }),
+    }),
+    /exceeds 12 byte limit/,
+  );
+  assert.equal(cancelled, true);
 });

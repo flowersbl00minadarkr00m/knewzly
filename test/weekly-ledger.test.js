@@ -72,6 +72,8 @@ test('Weekly Ledger joins only canonical Today stories into an ordered, source-a
   assert.equal(section.getAttribute('data-weekly-ledger-state'), 'fresh');
   assert.equal(section.querySelector('h2').textContent, 'Popular This Week');
   assert.equal(section.querySelector('details').querySelector('summary').textContent, 'How this weekly momentum list is built');
+  assert.match(section.textContent, /Last attempted update: 2026-08-31T18:00:00.000Z/);
+  assert.match(section.textContent, /Last successful update: 2026-08-31T18:00:00.000Z/);
   const item = section.querySelector('li');
   assert.equal(item.querySelector('article').getAttribute('data-global-rank'), '1');
   assert.match(item.textContent, /Rank 1/);
@@ -102,6 +104,29 @@ test('Weekly Ledger degrades unresolved references and shows explicit missing ev
   assert.match(diagnostics.messages[0], /1 unresolved/i);
 });
 
+test('Weekly Ledger requires every member reference to resolve before rendering an entry', async () => {
+  const { renderWeeklyLedger } = await import('../src/weekly-ledger.js');
+  const document = await fixture();
+  document.entries[0].memberStoryIds.push('missing-member-story');
+  const diagnostics = { messages: [], warn(message) { this.messages.push(message); } };
+  const { container } = root();
+  renderWeeklyLedger(container, document, todayStories(), { now: '2026-08-31T20:00:00.000Z', diagnostics });
+
+  assert.equal(container.querySelector('section').getAttribute('data-weekly-ledger-state'), 'unavailable');
+  assert.equal(container.querySelectorAll('ol').length, 0);
+  assert.match(diagnostics.messages[0], /missing-member-story/);
+});
+
+test('Weekly Ledger visibly exposes both update timestamps for a published partial edition', async () => {
+  const { renderWeeklyLedger } = await import('../src/weekly-ledger.js');
+  const document = await fixture();
+  document.status = 'partial';
+  const { container } = root();
+  renderWeeklyLedger(container, document, todayStories(), { now: '2026-08-31T20:00:00.000Z' });
+  assert.match(container.textContent, /Last attempted update: 2026-08-31T18:00:00.000Z/);
+  assert.match(container.textContent, /Last successful update: 2026-08-31T18:00:00.000Z/);
+});
+
 test('Weekly Ledger filter keeps global ranks, preserves no-trace stories, and announces scoped empty states politely', async () => {
   const { renderWeeklyLedger } = await import('../src/weekly-ledger.js');
   const document = await fixture();
@@ -115,12 +140,15 @@ test('Weekly Ledger filter keeps global ranks, preserves no-trace stories, and a
   assert.equal(status.textContent, 'Showing 1 weekly entries in policy.');
   const article = container.querySelector('article');
   assert.equal(article.getAttribute('data-global-rank'), '4');
+  assert.equal(container.querySelector('ol').children[0].value, 4, 'the semantic ordered-list value remains the global rank');
   assert.match(article.textContent, /verylongunbrokentokenfortheledgerwithoutanyspaces/);
   assert.match(article.className, /weekly-ledger-wrap-anywhere/);
   assert.equal(article.querySelector('.weekly-ledger-trace'), null, 'an honest no-trace story has no invented action');
 
   renderWeeklyLedger(container, document, todayStories(), { now: '2026-08-31T20:00:00.000Z', category: 'compute' });
-  assert.equal(container.querySelector('[aria-live="polite"]').textContent, 'Showing 0 weekly entries in compute.');
+  const updatedStatus = container.querySelector('[aria-live="polite"]');
+  assert.strictEqual(updatedStatus, status, 'an already-mounted live region is updated rather than replaced');
+  assert.equal(updatedStatus.textContent, 'Showing 0 weekly entries in compute.');
   assert.match(container.textContent, /No weekly entries are available in compute/);
   assert.equal(container.querySelectorAll('ol').length, 0);
 });
@@ -148,8 +176,16 @@ test('Weekly Ledger leaves all DOM outside the supplied container untouched and 
   const { document, container } = root();
   const outside = document.createElement('p');
   outside.textContent = 'Today content remains intact';
-  renderWeeklyLedger(container, await fixture(), todayStories(), { now: '2026-08-31T20:00:00.000Z' });
+  const originalFetch = globalThis.fetch;
+  let fetchCalls = 0;
+  globalThis.fetch = () => { fetchCalls += 1; throw new Error('renderer must not fetch'); };
+  try {
+    renderWeeklyLedger(container, await fixture(), todayStories(), { now: '2026-08-31T20:00:00.000Z' });
+  } finally {
+    globalThis.fetch = originalFetch;
+  }
   assert.equal(outside.textContent, 'Today content remains intact');
+  assert.equal(fetchCalls, 0);
 });
 
 test('Weekly Ledger treats an empty published edition as unavailable instead of a blank ranking', async () => {

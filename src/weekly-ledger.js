@@ -5,6 +5,7 @@
 import { traceAnchorUrl } from './trace-to-origin.js';
 
 const HOURS = 60 * 60 * 1000;
+const renderSurfaces = new WeakMap();
 
 function asDate(value) {
   const date = new Date(value);
@@ -72,12 +73,14 @@ export function joinWeeklyLedger(weeklyDocument, todayStories) {
   const unresolved = [];
 
   for (const entry of entries) {
-    const story = byId.get(entry?.leadStoryId);
-    if (!story) {
-      unresolved.push(entry?.leadStoryId ?? '(missing leadStoryId)');
+    const memberStoryIds = Array.isArray(entry?.memberStoryIds) ? entry.memberStoryIds : ['(missing memberStoryIds)'];
+    const referenceIds = [entry?.leadStoryId ?? '(missing leadStoryId)', ...memberStoryIds];
+    const unresolvedForEntry = [...new Set(referenceIds.filter((storyId) => !byId.has(storyId)))];
+    if (unresolvedForEntry.length) {
+      unresolved.push(...unresolvedForEntry);
       continue;
     }
-    resolved.push({ entry, story });
+    resolved.push({ entry, story: byId.get(entry.leadStoryId) });
   }
   return { resolved, unresolved };
 }
@@ -108,6 +111,15 @@ function renderProviderStatus(section, providers, state) {
   if (state === 'partial') appendText(section, 'p', 'weekly-ledger-degraded', 'Partial weekly momentum — reduced evidence basis. Available rankings use only observed evidence.');
 }
 
+function renderRefreshContext(section, weeklyDocument) {
+  appendText(
+    section,
+    'p',
+    'weekly-ledger-refresh-context',
+    `Last attempted update: ${weeklyDocument?.lastAttemptedAt ?? 'unknown'}. Last successful update: ${weeklyDocument?.lastSuccessfulAt ?? 'unknown'}.`,
+  );
+}
+
 function renderEvidence(article, signals = {}) {
   const evidence = article.ownerDocument.createElement('ul');
   evidence.className = 'weekly-ledger-evidence weekly-ledger-wrap-anywhere';
@@ -131,6 +143,8 @@ function renderEvidence(article, signals = {}) {
 function renderEntry(list, { entry, story }, atlasPath) {
   const item = list.ownerDocument.createElement('li');
   item.className = 'weekly-ledger-item';
+  item.value = Number(entry.rank);
+  item.setAttribute('value', String(entry.rank));
   const article = list.ownerDocument.createElement('article');
   article.className = 'weekly-ledger-entry weekly-ledger-wrap-anywhere';
   article.setAttribute('data-global-rank', String(entry.rank));
@@ -156,6 +170,27 @@ function renderEntry(list, { entry, story }, atlasPath) {
   list.appendChild(item);
 }
 
+function renderSurface(container) {
+  let surface = renderSurfaces.get(container);
+  if (surface) return surface;
+
+  const section = container.ownerDocument.createElement('section');
+  const metadata = container.ownerDocument.createElement('div');
+  metadata.className = 'weekly-ledger-metadata';
+  const status = container.ownerDocument.createElement('p');
+  status.className = 'weekly-ledger-filter-status';
+  status.setAttribute('aria-live', 'polite');
+  const body = container.ownerDocument.createElement('div');
+  body.className = 'weekly-ledger-body';
+  section.appendChild(metadata);
+  section.appendChild(status);
+  section.appendChild(body);
+  container.replaceChildren(section);
+  surface = { section, metadata, status, body };
+  renderSurfaces.set(container, surface);
+  return surface;
+}
+
 /**
  * Renders an isolated ledger. It performs no fetches and never reads or writes
  * outside `container`, so a missing weekly document cannot disturb Today.
@@ -170,34 +205,33 @@ export function renderWeeklyLedger(container, weeklyDocument, todayStories, {
   if (!container?.ownerDocument) return null;
   const freshness = effectiveLedgerState(weeklyDocument, { now });
   const joined = joinWeeklyLedger(weeklyDocument, todayStories);
-  if (joined.unresolved.length) diagnostics?.warn?.(`Weekly Ledger skipped ${joined.unresolved.length} unresolved Today reference${joined.unresolved.length === 1 ? '' : 's'}.`);
+  if (joined.unresolved.length) diagnostics?.warn?.(`Weekly Ledger skipped ${joined.unresolved.length} unresolved Today reference${joined.unresolved.length === 1 ? '' : 's'}: ${joined.unresolved.join(', ')}.`);
 
   let state = freshness.status;
   if (state !== 'unavailable' && joined.resolved.length === 0) state = 'unavailable';
   else if (state === 'fresh' && joined.unresolved.length) state = 'partial';
 
-  container.replaceChildren();
-  const section = container.ownerDocument.createElement('section');
+  const { section, metadata, status, body } = renderSurface(container);
+  metadata.replaceChildren();
+  body.replaceChildren();
   section.className = `weekly-ledger weekly-ledger--${state}${reducedMotion ? ' weekly-ledger--reduced-motion' : ''}`;
   section.setAttribute('data-weekly-ledger-state', state);
   section.setAttribute('data-reduced-motion', String(Boolean(reducedMotion)));
-  appendText(section, 'p', 'weekly-ledger-kicker', 'Weekly momentum · rolling 7 days');
-  appendText(section, 'h2', 'weekly-ledger-heading', 'Popular This Week');
-  renderMethodology(section, weeklyDocument);
-  renderProviderStatus(section, weeklyDocument?.providers, state);
+  appendText(metadata, 'p', 'weekly-ledger-kicker', 'Weekly momentum · rolling 7 days');
+  appendText(metadata, 'h2', 'weekly-ledger-heading', 'Popular This Week');
+  renderMethodology(metadata, weeklyDocument);
+  renderProviderStatus(metadata, weeklyDocument?.providers, state);
+  renderRefreshContext(metadata, weeklyDocument);
   if (freshness.reason === 'older-than-12-hours') {
-    appendText(section, 'p', 'weekly-ledger-aging', `This edition was last attempted at ${weeklyDocument.lastAttemptedAt}; it is more than 12 hours old, so it is shown as partial.`);
+    appendText(metadata, 'p', 'weekly-ledger-aging', `This edition was last attempted at ${weeklyDocument.lastAttemptedAt}; it is more than 12 hours old, so it is shown as partial.`);
   }
 
-  const status = appendText(section, 'p', 'weekly-ledger-filter-status', '', '');
-  status.setAttribute('aria-live', 'polite');
   if (state === 'unavailable') {
     const unavailable = freshness.reason === 'older-than-24-hours'
       ? 'Weekly momentum is unavailable because this edition is older than 24 hours. Rankings are hidden until a fresh edition is available.'
       : 'Weekly momentum is unavailable. Rankings are hidden until a trustworthy edition is available.';
     status.textContent = unavailable;
-    appendText(section, 'p', 'weekly-ledger-unavailable', `Last attempted update: ${weeklyDocument?.lastAttemptedAt ?? 'unknown'}. Last successful update: ${weeklyDocument?.lastSuccessfulAt ?? 'unknown'}.`);
-    container.appendChild(section);
+    appendText(body, 'p', 'weekly-ledger-unavailable', 'A new trustworthy edition is needed before rankings can return.');
     return { state, renderedEntries: 0, unresolvedIds: joined.unresolved };
   }
 
@@ -206,15 +240,13 @@ export function renderWeeklyLedger(container, weeklyDocument, todayStories, {
     ? `Showing ${filtered.length} weekly entries in ${category}.`
     : `Showing ${filtered.length} weekly entries.`;
   if (filtered.length === 0) {
-    appendText(section, 'p', 'weekly-ledger-empty', `No weekly entries are available in ${category}.`);
-    container.appendChild(section);
+    appendText(body, 'p', 'weekly-ledger-empty', `No weekly entries are available in ${category}.`);
     return { state, renderedEntries: 0, unresolvedIds: joined.unresolved };
   }
 
   const list = section.ownerDocument.createElement('ol');
   list.className = 'weekly-ledger-list';
   filtered.forEach((joinedEntry) => renderEntry(list, joinedEntry, atlasPath));
-  section.appendChild(list);
-  container.appendChild(section);
+  body.appendChild(list);
   return { state, renderedEntries: filtered.length, unresolvedIds: joined.unresolved };
 }

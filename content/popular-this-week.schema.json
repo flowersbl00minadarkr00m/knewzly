@@ -1,0 +1,91 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "knewzly:content/popular-this-week.schema.json",
+  "title": "Knewzly Popular This Week publication",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "methodologyVersion", "windowStart", "windowEnd", "lastAttemptedAt", "status", "providers", "entries"],
+  "properties": {
+    "schemaVersion": { "const": 1 },
+    "methodologyVersion": { "const": "weekly-momentum-v1" },
+    "windowStart": { "$ref": "#/$defs/utcTimestamp" },
+    "windowEnd": { "$ref": "#/$defs/utcTimestamp" },
+    "lastAttemptedAt": { "$ref": "#/$defs/utcTimestamp" },
+    "lastSuccessfulAt": { "$ref": "#/$defs/utcTimestamp" },
+    "status": { "enum": ["fresh", "partial", "unavailable"] },
+    "providers": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["gdelt", "hackerNews", "bluesky"],
+      "properties": {
+        "gdelt": { "$ref": "#/$defs/gdeltProvider" },
+        "hackerNews": { "$ref": "#/$defs/hackerNewsProvider" },
+        "bluesky": { "$ref": "#/$defs/blueskyProvider" }
+      }
+    },
+    "entries": {
+      "type": "array",
+      "maxItems": 12,
+      "items": { "$ref": "#/$defs/entry" }
+    }
+  },
+  "allOf": [
+    { "if": { "properties": { "status": { "const": "unavailable" } } }, "then": { "properties": { "entries": { "type": "array", "maxItems": 0 } } } },
+    { "if": { "properties": { "status": { "const": "fresh" } } }, "then": { "properties": { "entries": { "type": "array", "minItems": 8 }, "lastSuccessfulAt": { "$ref": "#/$defs/utcTimestamp" } }, "required": ["lastSuccessfulAt"] } },
+    { "if": { "properties": { "status": { "const": "partial" } } }, "then": { "properties": { "entries": { "type": "array", "minItems": 1 }, "lastSuccessfulAt": { "$ref": "#/$defs/utcTimestamp" } }, "required": ["lastSuccessfulAt"] } }
+  ],
+  "$defs": {
+    "utcTimestamp": { "type": "string", "format": "date-time", "pattern": "Z$" },
+    "providerStatus": { "enum": ["ok", "unavailable", "not_configured"] },
+    "gdeltProvider": {
+      "type": "object", "additionalProperties": false, "required": ["status"],
+      "properties": { "status": { "$ref": "#/$defs/providerStatus" }, "sampledAt": { "$ref": "#/$defs/utcTimestamp" }, "queryCount": { "type": "integer", "minimum": 0 } },
+      "allOf": [{ "if": { "properties": { "status": { "const": "ok" } } }, "then": { "properties": { "sampledAt": { "$ref": "#/$defs/utcTimestamp" } }, "required": ["sampledAt"] } }]
+    },
+    "hackerNewsProvider": {
+      "type": "object", "additionalProperties": false, "required": ["status"],
+      "properties": { "status": { "$ref": "#/$defs/providerStatus" }, "sampledAt": { "$ref": "#/$defs/utcTimestamp" }, "itemCount": { "type": "integer", "minimum": 0 } },
+      "allOf": [{ "if": { "properties": { "status": { "const": "ok" } } }, "then": { "properties": { "sampledAt": { "$ref": "#/$defs/utcTimestamp" } }, "required": ["sampledAt"] } }]
+    },
+    "blueskyProvider": {
+      "type": "object", "additionalProperties": false, "required": ["status"],
+      "properties": { "status": { "$ref": "#/$defs/providerStatus" }, "sampledAt": { "$ref": "#/$defs/utcTimestamp" } },
+      "allOf": [{ "if": { "properties": { "status": { "const": "ok" } } }, "then": { "properties": { "sampledAt": { "$ref": "#/$defs/utcTimestamp" } }, "required": ["sampledAt"] } }]
+    },
+    "coverageSignal": {
+      "oneOf": [
+        { "type": "object", "additionalProperties": false, "required": ["state", "independentOutletCount", "sampledDomains"], "properties": { "state": { "const": "observed" }, "independentOutletCount": { "type": "integer", "minimum": 0 }, "sampledDomains": { "type": "array", "maxItems": 5, "items": { "type": "string", "minLength": 1 } } } },
+        { "type": "object", "additionalProperties": false, "required": ["state"], "properties": { "state": { "enum": ["not_observed", "provider_unavailable", "not_configured"] } } }
+      ]
+    },
+    "hackerNewsSignal": {
+      "oneOf": [
+        { "type": "object", "additionalProperties": false, "required": ["state", "points", "comments", "itemIds"], "properties": { "state": { "const": "observed" }, "points": { "type": "integer", "minimum": 0 }, "comments": { "type": "integer", "minimum": 0 }, "itemIds": { "type": "array", "maxItems": 5, "uniqueItems": true, "items": { "type": "integer", "minimum": 0 } } } },
+        { "type": "object", "additionalProperties": false, "required": ["state"], "properties": { "state": { "enum": ["not_observed", "provider_unavailable", "not_configured"] } } }
+      ]
+    },
+    "recencySignal": { "type": "object", "additionalProperties": false, "required": ["state", "ageHours"], "properties": { "state": { "const": "observed" }, "ageHours": { "type": "number", "minimum": 0, "maximum": 168 } } },
+    "blueskySignal": {
+      "oneOf": [
+        { "type": "object", "additionalProperties": false, "required": ["state", "interactions"], "properties": { "state": { "const": "observed" }, "interactions": { "type": "integer", "minimum": 0 } } },
+        { "type": "object", "additionalProperties": false, "required": ["state"], "properties": { "state": { "enum": ["not_observed", "provider_unavailable", "not_configured"] } } }
+      ]
+    },
+    "entry": {
+      "type": "object", "additionalProperties": false,
+      "required": ["rank", "leadStoryId", "memberStoryIds", "category", "publishedAt", "momentumScore", "signals"],
+      "properties": {
+        "rank": { "type": "integer", "minimum": 1 },
+        "leadStoryId": { "type": "string", "minLength": 1 },
+        "memberStoryIds": { "type": "array", "minItems": 1, "uniqueItems": true, "items": { "type": "string", "minLength": 1 } },
+        "category": { "type": "string", "minLength": 1 },
+        "publishedAt": { "$ref": "#/$defs/utcTimestamp" },
+        "momentumScore": { "type": "number", "minimum": 0, "maximum": 1 },
+        "signals": {
+          "type": "object", "additionalProperties": false, "required": ["coverage", "hackerNews", "recency", "bluesky"],
+          "properties": { "coverage": { "$ref": "#/$defs/coverageSignal" }, "hackerNews": { "$ref": "#/$defs/hackerNewsSignal" }, "recency": { "$ref": "#/$defs/recencySignal" }, "bluesky": { "$ref": "#/$defs/blueskySignal" } }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "queries": [
+    { "category": "models", "query": "(artificial intelligence OR AI) (model OR models OR LLM)" },
+    { "category": "safety-governance", "query": "(artificial intelligence OR AI) (safety OR regulation OR governance)" },
+    { "category": "research", "query": "(artificial intelligence OR AI) (research OR benchmark OR science)" },
+    { "category": "ai-lifecycle", "query": "(artificial intelligence OR AI) (deployment OR enterprise OR adoption)" },
+    { "category": "labor", "query": "(artificial intelligence OR AI) (work OR jobs OR labor)" },
+    { "category": "compute-energy", "query": "(artificial intelligence OR AI) (compute OR chips OR energy)" }
+  ],
+  "matching": {
+    "cluster": {
+      "maxHoursApart": 72,
+      "minimumSubstantiveTokenOverlap": 4,
+      "minimumJaccardSimilarity": 0.68
+    },
+    "hackerNewsMinimumJaccardSimilarity": 0.75,
+    "trackingParameters": ["fbclid", "gclid", "mc_cid", "mc_eid", "ref", "source", "utm_campaign", "utm_content", "utm_medium", "utm_source", "utm_term"]
+  },
+  "scoring": {
+    "coverageWeight": 0.5,
+    "hackerNewsWeight": 0.3,
+    "recencyWeight": 0.2,
+    "coverageOutletCap": 20,
+    "hackerNewsPointsCap": 1000,
+    "hackerNewsCommentsCap": 500
+  }
+}

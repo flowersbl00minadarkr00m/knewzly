@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-02T15:50:55.917Z",
+  "lastUpdated": "2026-09-02T20:26:03.057Z",
   "freshnessState": "fresh",
   "stories": [
     {
@@ -42,6 +42,116 @@
       "source": {
         "name": "TechCrunch — Artificial Intelligence",
         "url": "https://techcrunch.com/2026/09/02/openai-faces-30-more-lawsuits-tied-to-tumbler-ridge-shooting/",
+        "publishedDate": "2026-09-02"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/",
+      "category": "models",
+      "headline": "Introducing Gemini 3.8 Flash and 3.8 Flash Cyber",
+      "source": {
+        "name": "Google DeepMind — Blog",
+        "url": "https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/",
+        "publishedDate": "2026-09-02"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3160225",
+      "category": "safety-governance",
+      "headline": "OpenAI’s new reasoning technique alarms AI safety experts",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/09/02/openais-new-reasoning-technique-alarms-ai-safety-experts/",
+        "publishedDate": "2026-09-02"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3160050",
+      "category": "safety-governance",
+      "headline": "US government sides with OpenAI on issue of training LLMs on copyrighted material",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/09/02/u-s-government-sides-with-openai-on-issue-of-training-llms-on-copyrighted-material/",
+        "publishedDate": "2026-09-02"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theverge.com/?p=988742",
+      "category": "models",
+      "headline": "Google says its new Gemini 3.8 Flash model ‘works harder’ but might cost more",
+      "source": {
+        "name": "The Verge — Artificial Intelligence",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/988742/google-gemini-3-8-flash",
+        "publishedDate": "2026-09-02"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theverge.com/?p=988334",
+      "category": "safety-governance",
+      "headline": "Researchers fear safety disaster ahead of OpenAI&#8217;s Astra release",
+      "source": {
+        "name": "The Verge — Artificial Intelligence",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/988334/openai-astra-ai-monitoring-safety",
+        "publishedDate": "2026-09-02"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theverge.com/?p=988344",
+      "category": "safety-governance",
+      "headline": "The Trump administration is supporting OpenAI in the NYT copyright lawsuit",
+      "source": {
+        "name": "The Verge — Artificial Intelligence",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/988344/trump-administration-new-york-times-openai-lawsuit",
+        "publishedDate": "2026-09-02"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "6a98445d5b3846267183e587",
+      "category": "safety-governance",
+      "headline": "Trump Administration Sides With OpenAI in New York Times Copyright Lawsuit",
+      "source": {
+        "name": "Wired — Artificial Intelligence",
+        "url": "https://www.wired.com/story/trump-administration-sides-with-ai-giants-new-york-times-lawsuit/",
+        "publishedDate": "2026-09-02"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "6a9583dc88d28650c32558cc",
+      "category": "ai-lifecycle",
+      "headline": "These Russian Mathematicians Taught AI Models How to Talk to Each Other Without Using Words",
+      "source": {
+        "name": "Wired — Artificial Intelligence",
+        "url": "https://www.wired.com/story/russian-startup-mostik-ai-models-communication/",
+        "publishedDate": "2026-09-02"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6a98549715d879f26b4ad3a3",
+      "category": "research",
+      "headline": "Here’s A $32 Million Bet That Robots Don’t Need A Billion Dollars Of Real-World Data",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/sites/johnkoetsier/2026/09/02/heres-a-32m-bet-that-robots-dont-need-a-billion-dollars-of-real-world-data/",
+        "publishedDate": "2026-09-02"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://developer.nvidia.com/blog/?p=122024",
+      "category": "models",
+      "headline": "Co-Designing AI Models Using Speculative Decoding for Faster LLM Inference",
+      "source": {
+        "name": "NVIDIA — Technical Blog",
+        "url": "https://developer.nvidia.com/blog/co-designing-ai-models-using-speculative-decoding-for-faster-llm-inference/",
         "publishedDate": "2026-09-02"
       },
       "traceToAnchors": []
@@ -549,116 +659,6 @@
         "name": "Wired — Artificial Intelligence",
         "url": "https://www.wired.com/story/openai-safety-security-ai-agents-culture/",
         "publishedDate": "2026-08-13"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "6a7ccb31f8503d5e8d3678fc",
-      "category": "safety-governance",
-      "headline": "Mark Zuckerberg’s AI Manifesto Is 6,500 Words—and Barely Says Anything",
-      "source": {
-        "name": "Wired — Artificial Intelligence",
-        "url": "https://www.wired.com/story/mark-zuckerbergs-ai-manifesto-is-6500-words-and-barely-says-anything/",
-        "publishedDate": "2026-08-13"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "6a7a2a8913d9a5bbede86a45",
-      "category": "research",
-      "headline": "There’s a Fatty Liver Epidemic. AI Could Help Get Ahead of It",
-      "source": {
-        "name": "Wired — Artificial Intelligence",
-        "url": "https://www.wired.com/story/fatty-liver-disease-ai-detection-cancer/",
-        "publishedDate": "2026-08-13"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://tldr.tech/ai/2026-08-13",
-      "category": "models",
-      "headline": "Claude Chrome Cowork 🌐, Grok 4.6 🚀, DeepSeek v4-Pro-0813 🧠",
-      "source": {
-        "name": "TLDR AI",
-        "url": "https://tldr.tech/ai/2026-08-13",
-        "publishedDate": "2026-08-13"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theneurondaily.com/p/grok-4-6-is-gpt-5-6-level-and-built-for-agents-that-don-t-quit",
-      "category": "models",
-      "headline": "😺 Grok 4.6 is GPT 5.6 level and built for agents that don't quit",
-      "source": {
-        "name": "The Neuron",
-        "url": "https://www.theneurondaily.com/p/grok-4-6-is-gpt-5-6-level-and-built-for-agents-that-don-t-quit",
-        "publishedDate": "2026-08-13"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop",
-      "category": "ai-lifecycle",
-      "headline": "Record, train, and deploy from one place with Strands Agents, LeRobot, and Hugging Face Storage Buckets",
-      "source": {
-        "name": "Hugging Face — Blog",
-        "url": "https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop",
-        "publishedDate": "2026-08-13"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://huggingface.co/blog/icml-2026-open-reproductions",
-      "category": "research",
-      "headline": "What We Learned by Reproducing 2,200 papers from ICML",
-      "source": {
-        "name": "Hugging Face — Blog",
-        "url": "https://huggingface.co/blog/icml-2026-open-reproductions",
-        "publishedDate": "2026-08-13"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.technologyreview.com/?p=1141032",
-      "category": "research",
-      "headline": "Scaling AI agents with trustworthy data",
-      "source": {
-        "name": "MIT Technology Review — Artificial Intelligence",
-        "url": "https://www.technologyreview.com/2026/08/12/1141032/scaling-ai-agents-with-trustworthy-data/",
-        "publishedDate": "2026-08-12"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://openai.com/index/how-enterprises-put-ai-to-work",
-      "category": "ai-lifecycle",
-      "headline": "From assistance to execution: How enterprises put AI to work",
-      "source": {
-        "name": "OpenAI — News",
-        "url": "https://openai.com/index/how-enterprises-put-ai-to-work",
-        "publishedDate": "2026-08-12"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://openai.com/index/ringcentral",
-      "category": "ai-lifecycle",
-      "headline": "How RingCentral builds AI-native work from engineering to ops",
-      "source": {
-        "name": "OpenAI — News",
-        "url": "https://openai.com/index/ringcentral",
-        "publishedDate": "2026-08-12"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://deepmind.google/blog/putting-sign-language-ai-into-users-hands/",
-      "category": "research",
-      "headline": "Putting sign language AI into users’ hands",
-      "source": {
-        "name": "Google DeepMind — Blog",
-        "url": "https://deepmind.google/blog/putting-sign-language-ai-into-users-hands/",
-        "publishedDate": "2026-08-12"
       },
       "traceToAnchors": []
     }

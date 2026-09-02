@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-02T10:28:11.247Z",
+  "lastUpdated": "2026-09-02T15:50:55.917Z",
   "freshnessState": "fresh",
   "stories": [
     {
@@ -20,6 +20,28 @@
       "source": {
         "name": "Forbes — Innovation",
         "url": "https://www.forbes.com/sites/frankracioppi/2026/09/02/science-podcasts-separate-fact-from-fiction-in-a-maha-world/",
+        "publishedDate": "2026-09-02"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3160035",
+      "category": "ai-lifecycle",
+      "headline": "HiddenLayer nabs $100M as enterprises rush to secure their AI deployments",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/09/02/hiddenlayer-nabs-100m-as-enterprises-rush-to-secure-their-ai-deployments/",
+        "publishedDate": "2026-09-02"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3159950",
+      "category": "safety-governance",
+      "headline": "OpenAI faces 30 more lawsuits tied to Tumbler Ridge shooting",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/09/02/openai-faces-30-more-lawsuits-tied-to-tumbler-ridge-shooting/",
         "publishedDate": "2026-09-02"
       },
       "traceToAnchors": []
@@ -636,28 +658,6 @@
       "source": {
         "name": "Google DeepMind — Blog",
         "url": "https://deepmind.google/blog/putting-sign-language-ai-into-users-hands/",
-        "publishedDate": "2026-08-12"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theverge.com/?p=979112",
-      "category": "safety-governance",
-      "headline": "Twitch streamers can now opt out from training Amazon’s AI",
-      "source": {
-        "name": "The Verge — Artificial Intelligence",
-        "url": "https://www.theverge.com/tech/979112/twitch-streamers-can-now-opt-out-from-training-amazons-ai",
-        "publishedDate": "2026-08-12"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "6a7b7aabe4e29f02b8c0d64f",
-      "category": "safety-governance",
-      "headline": "The White House Is Going to Expand Its AI Policy",
-      "source": {
-        "name": "Wired — Artificial Intelligence",
-        "url": "https://www.wired.com/story/the-white-house-is-going-to-expand-its-ai-policy/",
         "publishedDate": "2026-08-12"
       },
       "traceToAnchors": []

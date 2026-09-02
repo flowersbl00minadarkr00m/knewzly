@@ -1,7 +1,29 @@
 {
-  "lastUpdated": "2026-09-02T02:31:37.644Z",
+  "lastUpdated": "2026-09-02T10:28:11.247Z",
   "freshnessState": "fresh",
   "stories": [
+    {
+      "id": "https://www.theneurondaily.com/p/anthropic-launched-fable-5-1-and-now-the-agents-cost-less",
+      "category": "models",
+      "headline": "😺Anthropic launched Fable 5.1: and now, the agents cost less",
+      "source": {
+        "name": "The Neuron",
+        "url": "https://www.theneurondaily.com/p/anthropic-launched-fable-5-1-and-now-the-agents-cost-less",
+        "publishedDate": "2026-09-02"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6a82e4590e16a9b0e01de6d4",
+      "category": "research",
+      "headline": "Science Podcasts Separate Fact From Fiction In A MAHA World",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/sites/frankracioppi/2026/09/02/science-podcasts-separate-fact-from-fiction-in-a-maha-world/",
+        "publishedDate": "2026-09-02"
+      },
+      "traceToAnchors": []
+    },
     {
       "id": "content_6a964d826a0c53a20a42fd28",
       "category": "safety-governance",
@@ -636,28 +658,6 @@
       "source": {
         "name": "Wired — Artificial Intelligence",
         "url": "https://www.wired.com/story/the-white-house-is-going-to-expand-its-ai-policy/",
-        "publishedDate": "2026-08-12"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "6a763a712f828e528da6c06f",
-      "category": "safety-governance",
-      "headline": "Rogue AI Agents Aren’t Evil. They’re Just Eager to Please",
-      "source": {
-        "name": "Wired — Artificial Intelligence",
-        "url": "https://www.wired.com/story/rogue-ai-is-just-misunderstood/",
-        "publishedDate": "2026-08-12"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theneurondaily.com/p/watch-ai-can-write-dna-now-what-could-go-wrong",
-      "category": "research",
-      "headline": "😺 Watch: AI can write DNA now. What could go wrong?",
-      "source": {
-        "name": "The Neuron",
-        "url": "https://www.theneurondaily.com/p/watch-ai-can-write-dna-now-what-could-go-wrong",
         "publishedDate": "2026-08-12"
       },
       "traceToAnchors": []

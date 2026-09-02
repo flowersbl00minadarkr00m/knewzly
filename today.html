@@ -6,6 +6,7 @@
   <meta name="color-scheme" content="light dark">
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
   <title>Knewzly — Today</title>
+  <link rel="stylesheet" href="styles/site-nav.css">
   <style>
     :root {
       --paper: #f6f1e3;
@@ -58,16 +59,6 @@
     a { color: inherit; }
     a:hover { color: var(--spot); }
     :focus-visible { outline: 3px solid var(--focus); outline-offset: 3px; }
-
-    .concept-banner {
-      padding: 0.55rem 1rem;
-      color: var(--inverse);
-      background: var(--spot);
-      font: 700 0.75rem/1.2 var(--utility);
-      letter-spacing: 0.14em;
-      text-align: center;
-      text-transform: uppercase;
-    }
 
     .paper {
       width: min(1200px, calc(100% - 2rem));
@@ -356,7 +347,13 @@
   </style>
 </head>
 <body>
-  <div class="concept-banner">Knewzly — Today panel (F01 pilot slice)</div>
+  <nav class="site-nav" aria-label="Primary">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="today.html" aria-current="page">Today</a></li>
+      <li><a href="atlas.html">History Atlas</a></li>
+    </ul>
+  </nav>
 
   <main class="paper" id="top">
     <header class="masthead">
@@ -378,7 +375,7 @@
     <section id="story-grid-after-ledger" aria-label="Today's stories after the Weekly Ledger"></section>
 
     <footer class="folio">
-      <span>Knewzly — Global History Atlas (F01 pilot)</span>
+      <span>Knewzly — Global History Atlas</span>
       <a href="atlas.html">Go to the Atlas →</a>
     </footer>
   </main>

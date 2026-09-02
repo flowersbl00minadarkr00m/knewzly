@@ -13,3 +13,10 @@ artifacts
 node_modules
 test
 .git
+
+# Maintainer-local History Inbox — never part of the public artifact
+tools
+scripts
+.knewzly
+src/history-authoring.js
+src/history-content-validator.js

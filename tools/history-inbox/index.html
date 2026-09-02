@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <title>History Inbox — local maintainer tool</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ctext y='.9em' font-size='52'%3E%E2%8C%9B%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="/styles/atlas.css">
+  <link rel="stylesheet" href="history-inbox.css">
+</head>
+<body>
+  <header class="inbox-header">
+    <p class="eyebrow">Maintainer-local tool</p>
+    <h1>History Inbox</h1>
+    <p>Capture and review a historical anchor locally. Nothing here is public or historically verified merely because its structure passes.</p>
+  </header>
+
+  <main>
+    <section class="inbox-panel draft-picker" aria-labelledby="drafts-heading">
+      <div>
+        <h2 id="drafts-heading">Local drafts</h2>
+        <p>Drafts stay in <code>.knewzly/history-inbox.json</code> on this machine.</p>
+      </div>
+      <label for="draft-select">Open a draft</label>
+      <select id="draft-select">
+        <option value="">New draft</option>
+      </select>
+      <button id="new-draft" type="button">Start new draft</button>
+    </section>
+
+    <div id="read-only-notice" class="notice notice-error" role="alert" hidden></div>
+    <div id="status" class="notice" role="status" aria-live="polite">Loading local Inbox…</div>
+
+    <section id="error-summary" class="error-summary" role="alert" tabindex="-1" aria-labelledby="error-heading" hidden>
+      <h2 id="error-heading">Check these fields</h2>
+      <ul id="error-list"></ul>
+    </section>
+
+    <form id="draft-form" novalidate>
+      <input id="draft-id" type="hidden">
+
+      <fieldset>
+        <legend>Capture</legend>
+        <p class="section-help">These three fields are enough to save an explicitly incomplete draft.</p>
+        <label for="capture-working-title">Working title</label>
+        <input id="capture-working-title" autocomplete="off" aria-describedby="error-capture-working-title">
+        <p id="error-capture-working-title" class="field-error"></p>
+
+        <label for="capture-why">Why it matters</label>
+        <textarea id="capture-why" rows="4" aria-describedby="error-capture-why"></textarea>
+        <p id="error-capture-why" class="field-error"></p>
+
+        <label for="capture-source-urls">Source URLs <span class="label-note">one HTTPS URL per line</span></label>
+        <textarea id="capture-source-urls" rows="3" inputmode="url" aria-describedby="error-capture-source-urls"></textarea>
+        <p id="error-capture-source-urls" class="field-error"></p>
+      </fieldset>
+
+      <fieldset>
+        <legend>Anchor</legend>
+        <p class="section-help">Complete every required field before preview or promotion.</p>
+        <div class="field-grid">
+          <div>
+            <label for="anchor-id">Stable ID</label>
+            <input id="anchor-id" autocomplete="off" placeholder="lowercase-kebab-case" aria-describedby="error-anchor-id">
+            <p id="error-anchor-id" class="field-error"></p>
+          </div>
+          <div>
+            <label for="anchor-title">Learner-facing title</label>
+            <input id="anchor-title" autocomplete="off" aria-describedby="error-anchor-title">
+            <p id="error-anchor-title" class="field-error"></p>
+          </div>
+          <div>
+            <label for="anchor-date-display">Displayed date</label>
+            <input id="anchor-date-display" autocomplete="off" placeholder="2026 or 1936 / 1950" aria-describedby="error-anchor-date-display">
+            <p id="error-anchor-date-display" class="field-error"></p>
+          </div>
+          <div>
+            <label for="anchor-date-sort">Sortable year</label>
+            <input id="anchor-date-sort" type="number" step="1" inputmode="numeric" aria-describedby="error-anchor-date-sort">
+            <p id="error-anchor-date-sort" class="field-error"></p>
+          </div>
+          <div>
+            <label for="anchor-lane">Lane</label>
+            <select id="anchor-lane" aria-describedby="error-anchor-lane"></select>
+            <p id="error-anchor-lane" class="field-error"></p>
+          </div>
+          <div>
+            <label for="anchor-claim-type">Claim type</label>
+            <select id="anchor-claim-type" aria-describedby="error-anchor-claim-type"></select>
+            <p id="error-anchor-claim-type" class="field-error"></p>
+          </div>
+          <div>
+            <label for="anchor-confidence">Confidence</label>
+            <select id="anchor-confidence" aria-describedby="error-anchor-confidence"></select>
+            <p id="error-anchor-confidence" class="field-error"></p>
+          </div>
+        </div>
+
+        <label for="anchor-story">Learner-readable story</label>
+        <textarea id="anchor-story" rows="7" aria-describedby="error-anchor-story"></textarea>
+        <p id="error-anchor-story" class="field-error"></p>
+
+        <div class="field-grid">
+          <div>
+            <label for="anchor-people">People <span class="label-note">one per line</span></label>
+            <textarea id="anchor-people" rows="3"></textarea>
+          </div>
+          <div>
+            <label for="anchor-topics">Topics <span class="label-note">one per line</span></label>
+            <textarea id="anchor-topics" rows="3"></textarea>
+          </div>
+          <div>
+            <label for="anchor-themes">Themes <span class="label-note">one per line, optional</span></label>
+            <textarea id="anchor-themes" rows="3"></textarea>
+          </div>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Source</legend>
+        <div class="field-grid">
+          <div>
+            <label for="source-label">Source label</label>
+            <input id="source-label" autocomplete="off" aria-describedby="error-source-label">
+            <p id="error-source-label" class="field-error"></p>
+          </div>
+          <div>
+            <label for="source-url">Canonical HTTPS URL</label>
+            <input id="source-url" type="url" inputmode="url" aria-describedby="error-source-url">
+            <p id="error-source-url" class="field-error"></p>
+          </div>
+          <div>
+            <label for="source-accessed-date">Accessed date</label>
+            <input id="source-accessed-date" type="date" aria-describedby="error-source-accessed-date">
+            <p id="error-source-accessed-date" class="field-error"></p>
+          </div>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Relationships</legend>
+        <p class="section-help">Optional. Add only relationships you have reviewed; the Inbox never infers them.</p>
+        <div id="relationship-list"></div>
+        <button id="add-relationship" type="button">Add relationship</button>
+      </fieldset>
+
+      <div class="form-actions">
+        <button id="save-draft" type="submit">Save local draft</button>
+        <button id="preview-draft" type="button">Validate and preview</button>
+        <button id="discard-draft" class="danger-button" type="button">Discard draft</button>
+      </div>
+    </form>
+
+    <section id="preview-section" class="inbox-panel preview-section" aria-labelledby="preview-heading" hidden>
+      <p class="draft-label">Draft preview — not published</p>
+      <h2 id="preview-heading">Preview through production renderers</h2>
+      <p>This proves content structure and placement only. It does not independently verify the historical claim.</p>
+
+      <section class="preview-block" aria-labelledby="drawer-preview-heading">
+        <h3 id="drawer-preview-heading">Drawer preview</h3>
+        <article class="drawer-preview">
+          <p id="preview-drawer-label" class="draft-label"></p>
+          <h4 id="preview-drawer-title"></h4>
+          <p id="preview-drawer-meta"></p>
+          <p id="preview-drawer-story"></p>
+          <h5>People</h5><ul id="preview-drawer-people"></ul>
+          <h5>Topics</h5><ul id="preview-drawer-topics"></ul>
+          <h5>Source and confidence</h5><p id="preview-drawer-source"></p>
+          <h5>Relationships</h5><ul id="preview-drawer-relationships"></ul>
+        </article>
+      </section>
+
+      <section class="preview-block" aria-labelledby="timeline-preview-heading">
+        <h3 id="timeline-preview-heading">Timeline preview</h3>
+        <p class="draft-label">Draft preview — not published</p>
+        <div id="preview-timeline" class="timeline-shell preview-scroll"></div>
+      </section>
+
+      <section class="preview-block" aria-labelledby="constellation-preview-heading">
+        <h3 id="constellation-preview-heading">Constellation preview</h3>
+        <p class="draft-label">Draft preview — not published</p>
+        <div class="constellation-wrap">
+          <svg id="preview-constellation-svg"></svg>
+          <div id="preview-constellation-overlay" class="constellation-overlay"></div>
+        </div>
+        <div id="preview-constellation-legend"></div>
+      </section>
+
+      <section class="preview-block" aria-labelledby="text-preview-heading">
+        <h3 id="text-preview-heading">Complete textual preview and diff</h3>
+        <pre id="preview-text" tabindex="0"></pre>
+      </section>
+
+      <section class="promotion" aria-labelledby="promotion-heading">
+        <h3 id="promotion-heading">Promotion</h3>
+        <p>Promotion updates only the two canonical content files. It never commits, pushes, or deploys.</p>
+        <label class="confirmation" for="promotion-confirmed">
+          <input id="promotion-confirmed" type="checkbox">
+          I reviewed this draft, source, relationship, preview, and exact affected records.
+        </label>
+        <button id="promote-draft" type="button" disabled>Promote into local canonical content</button>
+      </section>
+    </section>
+
+    <section id="promotion-receipt" class="inbox-panel promotion-receipt" tabindex="-1" aria-labelledby="receipt-heading" hidden>
+      <p class="eyebrow">Local promotion complete</p>
+      <h2 id="receipt-heading">Promotion receipt</h2>
+      <p>Canonical files changed locally only. Review the exact repository diff before any commit or push.</p>
+      <dl>
+        <div><dt>Transaction ID</dt><dd id="transaction-id"></dd></div>
+        <div><dt>Draft ID</dt><dd id="receipt-draft-id"></dd></div>
+        <div><dt>Promoted at</dt><dd id="promoted-at"></dd></div>
+        <div><dt>Anchor IDs</dt><dd id="anchor-ids"></dd></div>
+        <div><dt>Relationship IDs</dt><dd id="relationship-ids"></dd></div>
+        <div><dt>Changed paths</dt><dd id="changed-paths"></dd></div>
+        <div><dt>Recovery backup</dt><dd id="backup-location"></dd></div>
+      </dl>
+      <p id="promotion-instructions"></p>
+    </section>
+  </main>
+
+  <template id="relationship-template">
+    <fieldset class="relationship-row">
+      <legend>Relationship</legend>
+      <div class="field-grid">
+        <div><label>ID <input data-field="id" autocomplete="off"></label><p class="field-error" data-error="id"></p></div>
+        <div><label>From <input data-field="from" list="anchor-options" autocomplete="off"></label><p class="field-error" data-error="from"></p></div>
+        <div><label>To <input data-field="to" list="anchor-options" autocomplete="off"></label><p class="field-error" data-error="to"></p></div>
+        <div><label>Type <select data-field="type"></select></label><p class="field-error" data-error="type"></p></div>
+        <div><label>Confidence <select data-field="confidence"></select></label><p class="field-error" data-error="confidence"></p></div>
+        <div><label>Claim type <select data-field="claimType"></select></label><p class="field-error" data-error="claimType"></p></div>
+      </div>
+      <label>Connection statement <textarea data-field="label" rows="3"></textarea></label>
+      <p class="field-error" data-error="label"></p>
+      <button class="remove-relationship danger-button" type="button">Remove relationship</button>
+    </fieldset>
+  </template>
+  <datalist id="anchor-options"></datalist>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>

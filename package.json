@@ -5,6 +5,7 @@
   "type": "module",
   "description": "Knewzly — history-first global insight engine for AI/innovation history (F01 Global History Atlas).",
   "scripts": {
+    "history:inbox": "node scripts/history-inbox-server.js --open",
     "test": "node --test"
   },
   "devDependencies": {

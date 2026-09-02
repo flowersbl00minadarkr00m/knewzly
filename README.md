@@ -28,6 +28,22 @@ python -m http.server 8000
 
 Open `http://localhost:8000/atlas.html` for the timeline, or `http://localhost:8000/today.html` for the news panel.
 
+## Local History Inbox
+
+Maintainers can capture and prepare a new Atlas anchor through a private, loopback-only browser tool:
+
+```bash
+npm run history:inbox
+```
+
+Open only the random-token URL printed by the command. Incomplete drafts and transaction backups remain on this machine under `.knewzly/history-inbox.json` and `.knewzly/history-inbox-backups/`; both paths are ignored by Git and excluded from Vercel.
+
+The Inbox checks structure, allowed vocabularies, source attribution, and relationship references. A passing preview does not mean a historical claim is independently verified. Review the source and learner-facing wording yourself.
+
+Promotion changes only `content/anchors.json` and `content/relationships.json` after explicit confirmation. Afterward, inspect `git diff`, run `npm test`, and only then commit and push through the ordinary reviewed release process. The Inbox never commits, pushes, deploys, fetches sources, or embeds repository/deployment credentials.
+
+If promotion reports manual recovery, stop the Inbox and restore the named files from the reported `.knewzly/history-inbox-backups/<transaction-id>/` directory before restarting. See [the architecture guide](docs/architecture.md#local-history-inbox) for the transaction and recovery boundary.
+
 ![The Today panel in its newspaper layout, with category filter chips](docs/assets/today-newspaper.jpg)
 
 ## How it works

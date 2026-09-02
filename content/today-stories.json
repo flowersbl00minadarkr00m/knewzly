@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-01T20:26:13.333Z",
+  "lastUpdated": "2026-09-02T02:31:37.644Z",
   "freshnessState": "fresh",
   "stories": [
     {
@@ -141,6 +141,50 @@
       "source": {
         "name": "NVIDIA — Technical Blog",
         "url": "https://developer.nvidia.com/blog/building-an-adaptive-agentic-cybersecurity-system-with-nvidia-nemotron/",
+        "publishedDate": "2026-09-01"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3159905",
+      "category": "models",
+      "headline": "Google&#8217;s Android update tackles motion sickness, accessibility, and more",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/09/01/googles-android-update-tackles-motion-sickness-accessibility-and-more/",
+        "publishedDate": "2026-09-01"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theverge.com/?p=987429",
+      "category": "models",
+      "headline": "Google needs Hollywood more than the studios need AI",
+      "source": {
+        "name": "The Verge — Artificial Intelligence",
+        "url": "https://www.theverge.com/tech/987429/google-needs-hollywood-more-than-the-studios-need-ai",
+        "publishedDate": "2026-09-01"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theverge.com/?p=987830",
+      "category": "models",
+      "headline": "Anthropic launches Claude Fable 5.1 and says it&#8217;s up to 45 percent cheaper for agentic work",
+      "source": {
+        "name": "The Verge — Artificial Intelligence",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/987830/anthropic-claude-fable-mythos-5-1",
+        "publishedDate": "2026-09-01"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theverge.com/?p=987695",
+      "category": "safety-governance",
+      "headline": "OpenAI delayed its new model’s development after the Hugging Face hack",
+      "source": {
+        "name": "The Verge — Artificial Intelligence",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/987695/openai-astra-unreleased-model-cybersecurity-delay",
         "publishedDate": "2026-09-01"
       },
       "traceToAnchors": []
@@ -614,50 +658,6 @@
       "source": {
         "name": "The Neuron",
         "url": "https://www.theneurondaily.com/p/watch-ai-can-write-dna-now-what-could-go-wrong",
-        "publishedDate": "2026-08-12"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theneurondaily.com/p/openai-claude-and-gemini-s-reasoning-got-cracked",
-      "category": "safety-governance",
-      "headline": "😺 OpenAI, Claude, and Gemini's reasoning got cracked",
-      "source": {
-        "name": "The Neuron",
-        "url": "https://www.theneurondaily.com/p/openai-claude-and-gemini-s-reasoning-got-cracked",
-        "publishedDate": "2026-08-12"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://huggingface.co/blog/allenai/olmoearth-embeddings",
-      "category": "models",
-      "headline": "Introducing OlmoEarth embeddings: Custom embedding exports from OlmoEarth Studio for downstream analysis",
-      "source": {
-        "name": "Hugging Face — Blog",
-        "url": "https://huggingface.co/blog/allenai/olmoearth-embeddings",
-        "publishedDate": "2026-08-12"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-3b",
-      "category": "models",
-      "headline": "LFM2.5-VL-3B for Better and Faster Vision Capabilities for the Edge",
-      "source": {
-        "name": "Hugging Face — Blog",
-        "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-3b",
-        "publishedDate": "2026-08-12"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://developer.nvidia.com/blog/?p=121211",
-      "category": "models",
-      "headline": "Serve Qwen3.8-2.4T-A95B, a 2.4T-Parameter Model, with Configurable Reasoning on NVIDIA GB300 NVL72",
-      "source": {
-        "name": "NVIDIA — Technical Blog",
-        "url": "https://developer.nvidia.com/blog/serve-qwen3-8-2-4t-a95b-a-2-4t-parameter-model-with-configurable-reasoning-on-nvidia-gb300-nvl72/",
         "publishedDate": "2026-08-12"
       },
       "traceToAnchors": []

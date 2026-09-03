@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-03T02:38:53.602Z",
+  "lastUpdated": "2026-09-03T10:34:29.431Z",
   "freshnessState": "fresh",
   "stories": [
     {
@@ -20,6 +20,28 @@
       "source": {
         "name": "Forbes — Innovation",
         "url": "https://www.forbes.com/sites/paulbaier/2026/09/02/four-reasons-openais-security-breach-should-worry-you/",
+        "publishedDate": "2026-09-03"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theneurondaily.com/p/gemini-3-8-and-muse-spark-1-3-go-head-to-head-for-third-place",
+      "category": "models",
+      "headline": "😺 Gemini 3.8 and Muse Spark 1.3 go head to head for third place",
+      "source": {
+        "name": "The Neuron",
+        "url": "https://www.theneurondaily.com/p/gemini-3-8-and-muse-spark-1-3-go-head-to-head-for-third-place",
+        "publishedDate": "2026-09-03"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6a98659d48bbd8379d70bf01",
+      "category": "ai-lifecycle",
+      "headline": "Anker Unveils THUS AI Chip Across Five Audio Models At IFA 2026",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/sites/marksparrow/2026/09/03/anker-unveils-thus-ai-chip-across-five-audio-models-at-ifa-2026/",
         "publishedDate": "2026-09-03"
       },
       "traceToAnchors": []
@@ -636,28 +658,6 @@
       "source": {
         "name": "TechCrunch — Artificial Intelligence",
         "url": "https://techcrunch.com/2026/08/13/anthropic-set-ai-agents-loose-on-the-same-task-they-started-a-turf-war/",
-        "publishedDate": "2026-08-13"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3152748",
-      "category": "ai-lifecycle",
-      "headline": "Microsoft kills off unsuccessful AI features while merging its separate Copilot apps",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/08/13/microsoft-kills-off-unsuccessful-ai-features-while-merging-its-separate-copilot-apps/",
-        "publishedDate": "2026-08-13"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3152223",
-      "category": "compute-energy",
-      "headline": "Nvidia&#8217;s new $500B plan is risky but brilliant, especially for aging GPUs",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/08/13/nvidias-new-500b-plan-is-risky-but-brilliant-especially-for-aging-gpus/",
         "publishedDate": "2026-08-13"
       },
       "traceToAnchors": []

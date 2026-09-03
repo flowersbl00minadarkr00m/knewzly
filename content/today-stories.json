@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-03T15:40:13.969Z",
+  "lastUpdated": "2026-09-03T20:24:49.215Z",
   "freshnessState": "fresh",
   "stories": [
     {
@@ -130,6 +130,39 @@
       "source": {
         "name": "Hugging Face — Blog",
         "url": "https://huggingface.co/blog/grpo-with-trl-ifstruct",
+        "publishedDate": "2026-09-03"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3160480",
+      "category": "models",
+      "headline": "OpenAI launches Astra, its powerful (and controversial) new model",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/09/03/openai-launches-astra-its-powerful-and-controversial-new-model/",
+        "publishedDate": "2026-09-03"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theverge.com/?p=989435",
+      "category": "compute-energy",
+      "headline": "Nvidia launches free tool that links idle computers into a personal AI data center",
+      "source": {
+        "name": "The Verge — Artificial Intelligence",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/989435/nvidia-pair-personal-ai-router-home-local-llm-compute-tool-rtx-macbook",
+        "publishedDate": "2026-09-03"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://developer.nvidia.com/blog/?p=121926",
+      "category": "ai-lifecycle",
+      "headline": "NVIDIA PAIR Virtual Inference Router Expands Available Compute on Your Local Network",
+      "source": {
+        "name": "NVIDIA — Technical Blog",
+        "url": "https://developer.nvidia.com/blog/nvidia-pair-virtual-inference-router-expands-available-compute-on-your-local-network/",
         "publishedDate": "2026-09-03"
       },
       "traceToAnchors": []
@@ -626,39 +659,6 @@
         "name": "Forbes — Innovation",
         "url": "https://www.forbes.com/councils/forbestechcouncil/2026/08/14/higher-level-skills-software-engineers-need-in-the-ai-era/",
         "publishedDate": "2026-08-14"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6a7dae93cbd672d18f85b96e",
-      "category": "research",
-      "headline": "AI Adoption Moves At The Speed Of Trust For SMEs",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/councils/forbestechcouncil/2026/08/14/ai-adoption-moves-at-the-speed-of-trust-for-smes/",
-        "publishedDate": "2026-08-14"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6a7dadb5553676bf3ea67120",
-      "category": "labor",
-      "headline": "Things AI Still Can't Screen For When You're Hiring Engineers",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/councils/forbestechcouncil/2026/08/14/things-ai-still-cant-screen-for-when-youre-hiring-engineers/",
-        "publishedDate": "2026-08-14"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.technologyreview.com/?p=1141904",
-      "category": "safety-governance",
-      "headline": "Flock is tightening its rules in response to a growing surveillance backlash",
-      "source": {
-        "name": "MIT Technology Review — Artificial Intelligence",
-        "url": "https://www.technologyreview.com/2026/08/13/1141904/flock-is-tightening-its-rules-in-response-to-a-growing-surveillance-backlash/",
-        "publishedDate": "2026-08-13"
       },
       "traceToAnchors": []
     }

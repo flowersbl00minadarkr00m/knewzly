@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-03T10:34:29.431Z",
+  "lastUpdated": "2026-09-03T15:40:13.969Z",
   "freshnessState": "fresh",
   "stories": [
     {
@@ -42,6 +42,94 @@
       "source": {
         "name": "Forbes — Innovation",
         "url": "https://www.forbes.com/sites/marksparrow/2026/09/03/anker-unveils-thus-ai-chip-across-five-audio-models-at-ifa-2026/",
+        "publishedDate": "2026-09-03"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3160347",
+      "category": "safety-governance",
+      "headline": "Nvidia confirms it will buy Hugging Face for $12.9 billion",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/09/03/nvidia-confirms-it-will-buy-hugging-face-for-12-9-billion/",
+        "publishedDate": "2026-09-03"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theverge.com/?p=989503",
+      "category": "models",
+      "headline": "ChatGPT, Grok, and Claude all went down at the same time",
+      "source": {
+        "name": "The Verge — Artificial Intelligence",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/989503/chatgpt-grok-claude-outage-down",
+        "publishedDate": "2026-09-03"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theverge.com/?p=988921",
+      "category": "models",
+      "headline": "Google says its AI weather model is getting better",
+      "source": {
+        "name": "The Verge — Artificial Intelligence",
+        "url": "https://www.theverge.com/tech/988921/weather-forecast-ai-model-google-satellite-update",
+        "publishedDate": "2026-09-03"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theverge.com/?p=985474",
+      "category": "safety-governance",
+      "headline": "Nvidia is buying Hugging Face for almost $13 billion",
+      "source": {
+        "name": "The Verge — Artificial Intelligence",
+        "url": "https://www.theverge.com/tech/985474/nvidia-buying-hugging-face-deal",
+        "publishedDate": "2026-09-03"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "6a906b97096f095c67a177d0",
+      "category": "safety-governance",
+      "headline": "Nvidia’s Hugging Face Acquisition Is a $12.9 Billion Bet on Open-Source AI",
+      "source": {
+        "name": "Wired — Artificial Intelligence",
+        "url": "https://www.wired.com/story/nvidias-hugging-face-acquisition-is-a-dollar129-billion-bet-on-open-source-ai/",
+        "publishedDate": "2026-09-03"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://tldr.tech/ai/2026-09-03",
+      "category": "models",
+      "headline": "Muse Spark 1.3 ✨, Gemini 3.8 Flash ⚡, intelligence vs cost 📊",
+      "source": {
+        "name": "TLDR AI",
+        "url": "https://tldr.tech/ai/2026-09-03",
+        "publishedDate": "2026-09-03"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6a920a1b3056886400308452",
+      "category": "research",
+      "headline": "Market Expansion Is High Priority. The Wrong Data Makes It High Risk.",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/sites/garydrenik/2026/09/03/market-expansion-is-high-priority-the-wrong-data-makes-it-high-risk/",
+        "publishedDate": "2026-09-03"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://huggingface.co/blog/grpo-with-trl-ifstruct",
+      "category": "models",
+      "headline": "Fine-tuning a 350M Model for Better Structured Outputs in 100 GRPO Steps",
+      "source": {
+        "name": "Hugging Face — Blog",
+        "url": "https://huggingface.co/blog/grpo-with-trl-ifstruct",
         "publishedDate": "2026-09-03"
       },
       "traceToAnchors": []
@@ -570,94 +658,6 @@
       "source": {
         "name": "MIT Technology Review — Artificial Intelligence",
         "url": "https://www.technologyreview.com/2026/08/13/1141904/flock-is-tightening-its-rules-in-response-to-a-growing-surveillance-backlash/",
-        "publishedDate": "2026-08-13"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.technologyreview.com/?p=1141410",
-      "category": "research",
-      "headline": "How kids feel about AI, in their own words",
-      "source": {
-        "name": "MIT Technology Review — Artificial Intelligence",
-        "url": "https://www.technologyreview.com/2026/08/13/1141410/how-kids-feel-about-ai-own-words/",
-        "publishedDate": "2026-08-13"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://openai.com/index/builders-guide-to-gpt-5-6",
-      "category": "models",
-      "headline": "The builder’s guide to GPT‑5.6",
-      "source": {
-        "name": "OpenAI — News",
-        "url": "https://openai.com/index/builders-guide-to-gpt-5-6",
-        "publishedDate": "2026-08-13"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://openai.com/index/previewing-ultrafast",
-      "category": "models",
-      "headline": "Previewing Ultrafast mode: GPT-5.6 Sol at up to 14X the speed",
-      "source": {
-        "name": "OpenAI — News",
-        "url": "https://openai.com/index/previewing-ultrafast",
-        "publishedDate": "2026-08-13"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://deepmind.google/blog/introducing-gemini-3-7-flash/",
-      "category": "models",
-      "headline": "Introducing Gemini 3.7 Flash",
-      "source": {
-        "name": "Google DeepMind — Blog",
-        "url": "https://deepmind.google/blog/introducing-gemini-3-7-flash/",
-        "publishedDate": "2026-08-13"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3152760",
-      "category": "models",
-      "headline": "Writer introduces new AI model and upgraded harness to contain token costs",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/08/13/writer-introduces-new-ai-model-and-upgraded-harness-to-contain-token-costs/",
-        "publishedDate": "2026-08-13"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3152875",
-      "category": "models",
-      "headline": "OpenAI introduces &#8216;Ultrafast,&#8217; a new mode that makes GPT-5.6 Sol work at 14x the speed",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/08/13/openai-introduces-ultrafast-a-new-mode-that-makes-gpt-5-6-sol-work-at-14x-the-speed/",
-        "publishedDate": "2026-08-13"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3152914",
-      "category": "ai-lifecycle",
-      "headline": "IBM partners with OpenAI to bolster enterprise AI push",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/08/13/ibm-partners-with-openai-to-bolster-enterprise-ai-push/",
-        "publishedDate": "2026-08-13"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3152849",
-      "category": "safety-governance",
-      "headline": "Anthropic set AI agents loose on the same task. They started a turf war.",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/08/13/anthropic-set-ai-agents-loose-on-the-same-task-they-started-a-turf-war/",
         "publishedDate": "2026-08-13"
       },
       "traceToAnchors": []

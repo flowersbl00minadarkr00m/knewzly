@@ -1,7 +1,29 @@
 {
-  "lastUpdated": "2026-09-02T20:26:03.057Z",
+  "lastUpdated": "2026-09-03T02:38:53.602Z",
   "freshnessState": "fresh",
   "stories": [
+    {
+      "id": "6a98b7478c9d6f1d2a0923d6",
+      "category": "models",
+      "headline": "Meta Pushes Its New AI Agent on Employees—but Eases Off on Tokenmaxxing",
+      "source": {
+        "name": "Wired — Artificial Intelligence",
+        "url": "https://www.wired.com/story/meta-pushes-its-new-ai-agent-on-employees-but-eases-off-on-tokenmaxxing/",
+        "publishedDate": "2026-09-03"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6a98caca2f02f0fc388a9175",
+      "category": "safety-governance",
+      "headline": "Four Reasons OpenAI's Security Breach Should Worry You",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/sites/paulbaier/2026/09/02/four-reasons-openais-security-breach-should-worry-you/",
+        "publishedDate": "2026-09-03"
+      },
+      "traceToAnchors": []
+    },
     {
       "id": "https://www.theneurondaily.com/p/anthropic-launched-fable-5-1-and-now-the-agents-cost-less",
       "category": "models",
@@ -152,6 +174,39 @@
       "source": {
         "name": "NVIDIA — Technical Blog",
         "url": "https://developer.nvidia.com/blog/co-designing-ai-models-using-speculative-decoding-for-faster-llm-inference/",
+        "publishedDate": "2026-09-02"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://openai.com/index/atv-big-air-tour",
+      "category": "ai-lifecycle",
+      "headline": "ATV Big Air Tour turned 3 days of work into 3 hours with ChatGPT",
+      "source": {
+        "name": "OpenAI — News",
+        "url": "https://openai.com/index/atv-big-air-tour",
+        "publishedDate": "2026-09-02"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3137969",
+      "category": "research",
+      "headline": "The Builders Stage brings practical strategies for scaling startups to TechCrunch Disrupt 2026",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/09/02/the-builders-stage-brings-practical-strategies-for-scaling-startups-to-techcrunch-disrupt-2026/",
+        "publishedDate": "2026-09-02"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3149903",
+      "category": "ai-lifecycle",
+      "headline": "TechCrunch Disrupt 2026’s new Real World AI Stage features Nvidia, robots, and extinct animals",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/09/02/techcrunch-disrupt-2026s-new-real-world-ai-stage-features-nvidia-robots-and-extinct-animals/",
         "publishedDate": "2026-09-02"
       },
       "traceToAnchors": []
@@ -603,61 +658,6 @@
       "source": {
         "name": "TechCrunch — Artificial Intelligence",
         "url": "https://techcrunch.com/2026/08/13/nvidias-new-500b-plan-is-risky-but-brilliant-especially-for-aging-gpus/",
-        "publishedDate": "2026-08-13"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theverge.com/?p=979871",
-      "category": "ai-lifecycle",
-      "headline": "Microsoft’s Clippy-like Mico character is no longer the face of Copilot",
-      "source": {
-        "name": "The Verge — Artificial Intelligence",
-        "url": "https://www.theverge.com/tech/979871/microsoft-copilot-mico-retired",
-        "publishedDate": "2026-08-13"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theverge.com/?p=979345",
-      "category": "models",
-      "headline": "Suno is trying to look more like a real music production tool",
-      "source": {
-        "name": "The Verge — Artificial Intelligence",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/979345/suno-studio-2-0-midi-chatbot-custom-effects",
-        "publishedDate": "2026-08-13"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theverge.com/?p=977994",
-      "category": "research",
-      "headline": "I looked inside an AI generated movie, and the best parts were all human",
-      "source": {
-        "name": "The Verge — Artificial Intelligence",
-        "url": "https://www.theverge.com/entertainment/977994/higgsfield-ai-cully-hill-boys-black-list",
-        "publishedDate": "2026-08-13"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theverge.com/?p=979466",
-      "category": "ai-lifecycle",
-      "headline": "Microsoft is combining its Copilot apps ahead of a ‘super app’",
-      "source": {
-        "name": "The Verge — Artificial Intelligence",
-        "url": "https://www.theverge.com/tech/979466/microsoft-copilot-365-app-unified-experience",
-        "publishedDate": "2026-08-13"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "6a7cfc8e45debd0b63663f75",
-      "category": "safety-governance",
-      "headline": "The Safety Reckoning Inside OpenAI",
-      "source": {
-        "name": "Wired — Artificial Intelligence",
-        "url": "https://www.wired.com/story/openai-safety-security-ai-agents-culture/",
         "publishedDate": "2026-08-13"
       },
       "traceToAnchors": []

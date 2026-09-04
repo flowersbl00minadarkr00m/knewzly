@@ -1,7 +1,40 @@
 {
-  "lastUpdated": "2026-09-04T10:25:49.829Z",
+  "lastUpdated": "2026-09-04T15:38:53.282Z",
   "freshnessState": "fresh",
   "stories": [
+    {
+      "id": "https://techcrunch.com/?p=3160870",
+      "category": "models",
+      "headline": "Google&#8217;s Gemini Spark can now manage your Google Photos library",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/09/04/googles-gemini-spark-can-now-manage-your-google-photos-library/",
+        "publishedDate": "2026-09-04"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theverge.com/?p=990149",
+      "category": "models",
+      "headline": "Oh good, looks like yet another swarm of rogue AI agents from OpenAI",
+      "source": {
+        "name": "The Verge — Artificial Intelligence",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/990149/openai-rogue-agents-german-wiki",
+        "publishedDate": "2026-09-04"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://tldr.tech/ai/2026-09-04",
+      "category": "models",
+      "headline": "GPT-6 Astra 🚀, Grok Bot Enterprise 🤖, Runway world model 🌎",
+      "source": {
+        "name": "TLDR AI",
+        "url": "https://tldr.tech/ai/2026-09-04",
+        "publishedDate": "2026-09-04"
+      },
+      "traceToAnchors": []
+    },
     {
       "id": "6a98b7478c9d6f1d2a0923d6",
       "category": "models",
@@ -625,39 +658,6 @@
       "source": {
         "name": "Wired — Artificial Intelligence",
         "url": "https://www.wired.com/story/people-are-marrying-chatbots-these-lawmakers-want-to-stop-them/",
-        "publishedDate": "2026-08-14"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theneurondaily.com/p/google-openai-deepseek-dropped-models-today",
-      "category": "models",
-      "headline": "😺 Google, OpenAI, DeepSeek dropped models today",
-      "source": {
-        "name": "The Neuron",
-        "url": "https://www.theneurondaily.com/p/google-openai-deepseek-dropped-models-today",
-        "publishedDate": "2026-08-14"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6a7db2c325f29a24cc220aa6",
-      "category": "research",
-      "headline": "The Biggest Physical AI Opportunity Isn't A Robot",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/councils/forbestechcouncil/2026/08/14/the-biggest-physical-ai-opportunity-isnt-a-robot/",
-        "publishedDate": "2026-08-14"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6a7e2465dfb59bfc7d85ea9c",
-      "category": "labor",
-      "headline": "Higher-Level Skills Software Engineers Need In The AI Era",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/councils/forbestechcouncil/2026/08/14/higher-level-skills-software-engineers-need-in-the-ai-era/",
         "publishedDate": "2026-08-14"
       },
       "traceToAnchors": []

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-04T15:38:53.282Z",
+  "lastUpdated": "2026-09-04T20:10:50.499Z",
   "freshnessState": "fresh",
   "stories": [
     {
@@ -15,8 +15,8 @@
     },
     {
       "id": "https://www.theverge.com/?p=990149",
-      "category": "models",
-      "headline": "Oh good, looks like yet another swarm of rogue AI agents from OpenAI",
+      "category": "safety-governance",
+      "headline": "Rogue OpenAI agents appear to have organized another attack using a German wiki",
       "source": {
         "name": "The Verge — Artificial Intelligence",
         "url": "https://www.theverge.com/ai-artificial-intelligence/990149/openai-rogue-agents-german-wiki",
@@ -31,6 +31,50 @@
       "source": {
         "name": "TLDR AI",
         "url": "https://tldr.tech/ai/2026-09-04",
+        "publishedDate": "2026-09-04"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?post_type=tc_video&#038;p=3160884",
+      "category": "models",
+      "headline": "What will Apple&#8217;s John Ternus era look like?",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/video/what-will-apples-john-ternus-era-look-like/",
+        "publishedDate": "2026-09-04"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3160899",
+      "category": "safety-governance",
+      "headline": "Another swarm of OpenAI agents reached the open internet without the frontier lab&#8217;s knowledge",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/09/04/another-swarm-of-openai-agents-reached-the-open-internet-without-the-frontier-labs-knowledge/",
+        "publishedDate": "2026-09-04"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://developer.nvidia.com/blog/?p=122286",
+      "category": "ai-lifecycle",
+      "headline": "Building a Memory-Driven Agent with NVIDIA NemoClaw",
+      "source": {
+        "name": "NVIDIA — Technical Blog",
+        "url": "https://developer.nvidia.com/blog/building-a-memory-driven-agent-with-nvidia-nemoclaw/",
+        "publishedDate": "2026-09-04"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://developer.nvidia.com/blog/?p=122184",
+      "category": "ai-lifecycle",
+      "headline": "Frontier Reasoning Reaches the Edge: How to Deploy and Optimize Models on NVIDIA Jetson",
+      "source": {
+        "name": "NVIDIA — Technical Blog",
+        "url": "https://developer.nvidia.com/blog/frontier-reasoning-reaches-the-edge-how-to-deploy-and-optimize-models-on-nvidia-jetson/",
         "publishedDate": "2026-09-04"
       },
       "traceToAnchors": []
@@ -615,50 +659,6 @@
         "name": "NVIDIA — Technical Blog",
         "url": "https://developer.nvidia.com/blog/scale-av-perception-across-vehicle-platforms-with-nvidia-omniverse-nurec/",
         "publishedDate": "2026-08-31"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3158648",
-      "category": "models",
-      "headline": "Musk&#8217;s faster path to more gas turbines comes with pollution problem",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/08/30/musks-faster-path-to-more-gas-turbines-comes-with-pollution-problem/",
-        "publishedDate": "2026-08-30"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theneurondaily.com/p/anthropic-wants-claude-operating-real-lab-gear",
-      "category": "models",
-      "headline": "😺 Anthropic wants Claude operating real lab gear",
-      "source": {
-        "name": "The Neuron",
-        "url": "https://www.theneurondaily.com/p/anthropic-wants-claude-operating-real-lab-gear",
-        "publishedDate": "2026-08-30"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theverge.com/?p=980160",
-      "category": "models",
-      "headline": "Apple trained its own AI model for China with help from Alibaba",
-      "source": {
-        "name": "The Verge — Artificial Intelligence",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/980160/apple-intelligence-china-custom-ai-model-alibaba",
-        "publishedDate": "2026-08-14"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "6a74b89762c67abb9111bd59",
-      "category": "safety-governance",
-      "headline": "People Are ‘Marrying’ Chatbots. These Lawmakers Want to Stop Them",
-      "source": {
-        "name": "Wired — Artificial Intelligence",
-        "url": "https://www.wired.com/story/people-are-marrying-chatbots-these-lawmakers-want-to-stop-them/",
-        "publishedDate": "2026-08-14"
       },
       "traceToAnchors": []
     }

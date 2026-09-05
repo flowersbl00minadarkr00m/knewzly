@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-05T09:52:01.852Z",
+  "lastUpdated": "2026-09-05T14:26:22.638Z",
   "freshnessState": "fresh",
   "stories": [
     {
@@ -9,6 +9,28 @@
       "source": {
         "name": "Forbes — Innovation",
         "url": "https://www.forbes.com/sites/jamesmorris/2026/09/05/how-formula-e-gen4-could-shape-nissans-next-generation-of-evs/",
+        "publishedDate": "2026-09-05"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "6a9acd6e4c28b30a706b709a",
+      "category": "safety-governance",
+      "headline": "OpenAI Agents Hacked Another Website",
+      "source": {
+        "name": "Wired — Artificial Intelligence",
+        "url": "https://www.wired.com/story/security-news-this-week-openai-agents-hacked-another-website/",
+        "publishedDate": "2026-09-05"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6a9b5c6d1cb1d10d79cbb123",
+      "category": "models",
+      "headline": "C-Suite Lessons From The AI Outage That Hit ChatGPT, Claude And Grok",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/sites/sandycarter/2026/09/05/c-suite-lessons-from-the-ai-outage-that-hit-chatgpt-claude-and-grok/",
         "publishedDate": "2026-09-05"
       },
       "traceToAnchors": []
@@ -637,28 +659,6 @@
         "name": "The Verge — Artificial Intelligence",
         "url": "https://www.theverge.com/ai-artificial-intelligence/987695/openai-astra-unreleased-model-cybersecurity-delay",
         "publishedDate": "2026-09-01"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.technologyreview.com/?p=1143180",
-      "category": "safety-governance",
-      "headline": "The Hugging Face hack could indicate cultural issues at OpenAI",
-      "source": {
-        "name": "MIT Technology Review — Artificial Intelligence",
-        "url": "https://www.technologyreview.com/2026/08/31/1143180/hugging-face-hack-could-indicate-cultural-issues-at-openai/",
-        "publishedDate": "2026-08-31"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3158688",
-      "category": "models",
-      "headline": "Meeting note-taker Circleback adds a free tier to attract more customers",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/08/31/meeting-notetaker-circleback-adds-a-free-tier-to-attract-more-customers/",
-        "publishedDate": "2026-08-31"
       },
       "traceToAnchors": []
     }

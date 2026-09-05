@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-05T14:26:22.638Z",
+  "lastUpdated": "2026-09-05T19:49:53.760Z",
   "freshnessState": "fresh",
   "stories": [
     {
@@ -31,6 +31,17 @@
       "source": {
         "name": "Forbes — Innovation",
         "url": "https://www.forbes.com/sites/sandycarter/2026/09/05/c-suite-lessons-from-the-ai-outage-that-hit-chatgpt-claude-and-grok/",
+        "publishedDate": "2026-09-05"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3161045",
+      "category": "models",
+      "headline": "Hikers rescued after using Google Gemini for planning",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/09/05/hikers-rescued-after-using-google-gemini-for-planning/",
         "publishedDate": "2026-09-05"
       },
       "traceToAnchors": []
@@ -647,17 +658,6 @@
       "source": {
         "name": "The Verge — Artificial Intelligence",
         "url": "https://www.theverge.com/ai-artificial-intelligence/987830/anthropic-claude-fable-mythos-5-1",
-        "publishedDate": "2026-09-01"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theverge.com/?p=987695",
-      "category": "safety-governance",
-      "headline": "OpenAI delayed its new model’s development after the Hugging Face hack",
-      "source": {
-        "name": "The Verge — Artificial Intelligence",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/987695/openai-astra-unreleased-model-cybersecurity-delay",
         "publishedDate": "2026-09-01"
       },
       "traceToAnchors": []

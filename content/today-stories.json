@@ -1,7 +1,18 @@
 {
-  "lastUpdated": "2026-09-05T02:36:23.168Z",
+  "lastUpdated": "2026-09-05T09:52:01.852Z",
   "freshnessState": "fresh",
   "stories": [
+    {
+      "id": "content_6a9b357cf20a813faa0bfa0e",
+      "category": "research",
+      "headline": "How Formula E GEN4 Could Shape Nissan’s Next Generation Of EVs",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/sites/jamesmorris/2026/09/05/how-formula-e-gen4-could-shape-nissans-next-generation-of-evs/",
+        "publishedDate": "2026-09-05"
+      },
+      "traceToAnchors": []
+    },
     {
       "id": "https://techcrunch.com/?p=3160870",
       "category": "models",
@@ -647,17 +658,6 @@
       "source": {
         "name": "TechCrunch — Artificial Intelligence",
         "url": "https://techcrunch.com/2026/08/31/meeting-notetaker-circleback-adds-a-free-tier-to-attract-more-customers/",
-        "publishedDate": "2026-08-31"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theverge.com/?p=986682",
-      "category": "safety-governance",
-      "headline": "ChatGPT to face tougher regulation in the EU",
-      "source": {
-        "name": "The Verge — Artificial Intelligence",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/986682/openai-chatgpt-eu-dsa",
         "publishedDate": "2026-08-31"
       },
       "traceToAnchors": []

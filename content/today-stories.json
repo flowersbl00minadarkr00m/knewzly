@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-06T14:48:30.040Z",
+  "lastUpdated": "2026-09-06T19:54:04.993Z",
   "freshnessState": "fresh",
   "stories": [
     {
@@ -9,6 +9,39 @@
       "source": {
         "name": "Wired — Artificial Intelligence",
         "url": "https://www.wired.com/story/why-china-is-still-the-bogeyman-for-data-center-enthusiasts/",
+        "publishedDate": "2026-09-06"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://openai.com/index/research-acceleration-view-inside-openai",
+      "category": "research",
+      "headline": "Research acceleration: The view inside OpenAI",
+      "source": {
+        "name": "OpenAI — News",
+        "url": "https://openai.com/index/research-acceleration-view-inside-openai",
+        "publishedDate": "2026-09-06"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theneurondaily.com/p/openai-linked-agents-hijacked-german-wiki",
+      "category": "safety-governance",
+      "headline": "😿 OpenAI-linked agents found a way around “read only”",
+      "source": {
+        "name": "The Neuron",
+        "url": "https://www.theneurondaily.com/p/openai-linked-agents-hijacked-german-wiki",
+        "publishedDate": "2026-09-06"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6a9a20326cc19bfb30ee0878",
+      "category": "models",
+      "headline": "What To Watch This Weekend: New Shows And Movies To Stream On Netflix, Hulu, Prime Video, Apple TV And More",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/sites/erikkain/2026/09/06/what-to-watch-this-weekend-new-shows-and-movies-to-stream-on-netflix-hulu-prime-video-apple-tv-and-more/",
         "publishedDate": "2026-09-06"
       },
       "traceToAnchors": []
@@ -625,39 +658,6 @@
       "source": {
         "name": "Forbes — Innovation",
         "url": "https://www.forbes.com/sites/paultassi/2026/09/01/the-best-rotten-tomatoes-scored-movie-of-2026-is-getting-overlooked/",
-        "publishedDate": "2026-09-01"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://developer.nvidia.com/blog/?p=121995",
-      "category": "ai-lifecycle",
-      "headline": "Building an Adaptive Agentic Cybersecurity System with NVIDIA Nemotron",
-      "source": {
-        "name": "NVIDIA — Technical Blog",
-        "url": "https://developer.nvidia.com/blog/building-an-adaptive-agentic-cybersecurity-system-with-nvidia-nemotron/",
-        "publishedDate": "2026-09-01"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3159905",
-      "category": "models",
-      "headline": "Google&#8217;s Android update tackles motion sickness, accessibility, and more",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/09/01/googles-android-update-tackles-motion-sickness-accessibility-and-more/",
-        "publishedDate": "2026-09-01"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theverge.com/?p=987429",
-      "category": "models",
-      "headline": "Google needs Hollywood more than the studios need AI",
-      "source": {
-        "name": "The Verge — Artificial Intelligence",
-        "url": "https://www.theverge.com/tech/987429/google-needs-hollywood-more-than-the-studios-need-ai",
         "publishedDate": "2026-09-01"
       },
       "traceToAnchors": []

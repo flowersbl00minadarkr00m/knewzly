@@ -1,7 +1,18 @@
 {
-  "lastUpdated": "2026-09-06T02:33:13.180Z",
+  "lastUpdated": "2026-09-06T10:09:11.747Z",
   "freshnessState": "fresh",
   "stories": [
+    {
+      "id": "6a9841fc882152f5a8e0044d",
+      "category": "research",
+      "headline": "Why China Is the Bogeyman Data Center Enthusiasts Just Can't Quit",
+      "source": {
+        "name": "Wired — Artificial Intelligence",
+        "url": "https://www.wired.com/story/why-china-is-still-the-bogeyman-for-data-center-enthusiasts/",
+        "publishedDate": "2026-09-06"
+      },
+      "traceToAnchors": []
+    },
     {
       "id": "content_6a9b357cf20a813faa0bfa0e",
       "category": "research",
@@ -647,17 +658,6 @@
       "source": {
         "name": "The Verge — Artificial Intelligence",
         "url": "https://www.theverge.com/tech/987429/google-needs-hollywood-more-than-the-studios-need-ai",
-        "publishedDate": "2026-09-01"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theverge.com/?p=987830",
-      "category": "models",
-      "headline": "Anthropic launches Claude Fable 5.1 and says it&#8217;s up to 45 percent cheaper for agentic work",
-      "source": {
-        "name": "The Verge — Artificial Intelligence",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/987830/anthropic-claude-fable-mythos-5-1",
         "publishedDate": "2026-09-01"
       },
       "traceToAnchors": []

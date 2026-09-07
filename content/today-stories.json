@@ -1,7 +1,18 @@
 {
-  "lastUpdated": "2026-09-07T02:31:12.539Z",
+  "lastUpdated": "2026-09-07T11:24:20.314Z",
   "freshnessState": "fresh",
   "stories": [
+    {
+      "id": "6a985e26ae63a30d70e113b7",
+      "category": "models",
+      "headline": "Whispering Complaints Into Your Phone May Be the Future of Customer Feedback",
+      "source": {
+        "name": "Wired — Artificial Intelligence",
+        "url": "https://www.wired.com/story/whispering-complaints-into-your-phone-may-be-the-future-of-customer-feedback/",
+        "publishedDate": "2026-09-07"
+      },
+      "traceToAnchors": []
+    },
     {
       "id": "6a9841fc882152f5a8e0044d",
       "category": "research",
@@ -647,17 +658,6 @@
       "source": {
         "name": "The Verge — Artificial Intelligence",
         "url": "https://www.theverge.com/tech/987423/google-pics-ai-image-editor-generator",
-        "publishedDate": "2026-09-01"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theverge.com/?p=986378",
-      "category": "compute-energy",
-      "headline": "Nvidia&#8217;s controversial DLSS 5 arrives September 3rd and requires serious GPU horsepower",
-      "source": {
-        "name": "The Verge — Artificial Intelligence",
-        "url": "https://www.theverge.com/tech/986378/nvidia-dlss-5-launch-nba-2k27",
         "publishedDate": "2026-09-01"
       },
       "traceToAnchors": []

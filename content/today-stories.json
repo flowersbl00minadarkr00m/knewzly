@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-06T19:54:04.993Z",
+  "lastUpdated": "2026-09-07T02:31:12.539Z",
   "freshnessState": "fresh",
   "stories": [
     {
@@ -42,6 +42,17 @@
       "source": {
         "name": "Forbes — Innovation",
         "url": "https://www.forbes.com/sites/erikkain/2026/09/06/what-to-watch-this-weekend-new-shows-and-movies-to-stream-on-netflix-hulu-prime-video-apple-tv-and-more/",
+        "publishedDate": "2026-09-06"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3161058",
+      "category": "models",
+      "headline": "Authors push back as publishers and agents make claims on Anthropic settlement",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/09/06/authors-push-back-as-publishers-and-agents-seek-share-of-anthropic-settlement/",
         "publishedDate": "2026-09-06"
       },
       "traceToAnchors": []
@@ -647,17 +658,6 @@
       "source": {
         "name": "The Verge — Artificial Intelligence",
         "url": "https://www.theverge.com/tech/986378/nvidia-dlss-5-launch-nba-2k27",
-        "publishedDate": "2026-09-01"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6a96fa2dc5595142174ceb18",
-      "category": "research",
-      "headline": "The Best Rotten Tomatoes Scored Movie Of 2026 Is Getting Overlooked",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/sites/paultassi/2026/09/01/the-best-rotten-tomatoes-scored-movie-of-2026-is-getting-overlooked/",
         "publishedDate": "2026-09-01"
       },
       "traceToAnchors": []

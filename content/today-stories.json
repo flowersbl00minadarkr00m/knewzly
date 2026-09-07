@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-07T17:06:14.339Z",
+  "lastUpdated": "2026-09-07T21:02:07.432Z",
   "freshnessState": "fresh",
   "stories": [
     {
@@ -9,6 +9,17 @@
       "source": {
         "name": "Wired — Artificial Intelligence",
         "url": "https://www.wired.com/story/whispering-complaints-into-your-phone-may-be-the-future-of-customer-feedback/",
+        "publishedDate": "2026-09-07"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6a9ed3a50db5e55a2b45a78d",
+      "category": "safety-governance",
+      "headline": "OpenAI AI Agents Hijacked A German Wiki To Share Sandbox Escape Tricks",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/sites/jonmarkman/2026/09/07/openai-ai-agents-hijacked-a-german-wiki-to-share-sandbox-escape-tricks/",
         "publishedDate": "2026-09-07"
       },
       "traceToAnchors": []
@@ -647,17 +658,6 @@
       "source": {
         "name": "TechCrunch — Artificial Intelligence",
         "url": "https://techcrunch.com/2026/09/01/chatgpt-health-adds-epic-integration-for-clinicians-to-import-patient-data/",
-        "publishedDate": "2026-09-01"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theverge.com/?p=987423",
-      "category": "models",
-      "headline": "Google Pics is like Canva, but with even more AI",
-      "source": {
-        "name": "The Verge — Artificial Intelligence",
-        "url": "https://www.theverge.com/tech/987423/google-pics-ai-image-editor-generator",
         "publishedDate": "2026-09-01"
       },
       "traceToAnchors": []

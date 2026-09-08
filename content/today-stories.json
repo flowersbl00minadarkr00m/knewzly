@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-08T10:28:18.000Z",
+  "lastUpdated": "2026-09-08T15:52:13.139Z",
   "freshnessState": "fresh",
   "stories": [
     {
@@ -9,6 +9,61 @@
       "source": {
         "name": "Forbes — Innovation",
         "url": "https://www.forbes.com/sites/jamiehailstone/2026/09/08/benefits-of-joint-action-on-climate-and-clean-air-highlighted-in-new-study/",
+        "publishedDate": "2026-09-08"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6a98549715d879f26b4ad3a3",
+      "category": "research",
+      "headline": "Here’s A $32 Million Bet That Robots Don’t Need A Billion Dollars Of Real-World Data",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/sites/johnkoetsier/2026/09/08/heres-a-32-million-bet-that-robots-dont-need-a-billion-dollars-of-real-world-data/",
+        "publishedDate": "2026-09-08"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.technologyreview.com/?p=1142088",
+      "category": "ai-lifecycle",
+      "headline": "This AI entrepreneur is developing agents that can plan ahead for the unexpected",
+      "source": {
+        "name": "MIT Technology Review — Artificial Intelligence",
+        "url": "https://www.technologyreview.com/2026/09/08/1142088/danijar-hafner-developing-plan-ahead-agents/",
+        "publishedDate": "2026-09-08"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://tldr.tech/ai/2026-09-08",
+      "category": "models",
+      "headline": "OpenAI managed agents 🤖, TPU inference ⚡, Anthropic $517B compute 💰",
+      "source": {
+        "name": "TLDR AI",
+        "url": "https://tldr.tech/ai/2026-09-08",
+        "publishedDate": "2026-09-08"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6aa018ec52c1921a6d0a370f",
+      "category": "research",
+      "headline": "A Great Angelina Jolie Action Movie Rockets Up Netflix’s Top 10 List",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/sites/paultassi/2026/09/08/a-great-angelina-jolie-action-movie-rockets-up-netflixs-top-10-list/",
+        "publishedDate": "2026-09-08"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6a99ed3cf314289ba01f5617",
+      "category": "ai-lifecycle",
+      "headline": "Why Agentic AI Is The Next Frontier Of Cloud Cost Optimization",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/councils/forbestechcouncil/2026/09/08/why-agentic-ai-is-the-next-frontier-of-cloud-cost-optimization/",
         "publishedDate": "2026-09-08"
       },
       "traceToAnchors": []
@@ -520,17 +575,6 @@
       "traceToAnchors": []
     },
     {
-      "id": "content_6a98549715d879f26b4ad3a3",
-      "category": "research",
-      "headline": "Here’s A $32 Million Bet That Robots Don’t Need A Billion Dollars Of Real-World Data",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/sites/johnkoetsier/2026/09/02/heres-a-32m-bet-that-robots-dont-need-a-billion-dollars-of-real-world-data/",
-        "publishedDate": "2026-09-02"
-      },
-      "traceToAnchors": []
-    },
-    {
       "id": "https://developer.nvidia.com/blog/?p=122024",
       "category": "models",
       "headline": "Co-Designing AI Models Using Speculative Decoding for Faster LLM Inference",
@@ -614,50 +658,6 @@
       "source": {
         "name": "Forbes — Innovation",
         "url": "https://www.forbes.com/councils/forbestechcouncil/2026/09/01/broad-ai-adoption-built-fluency-agents-demand-focus/",
-        "publishedDate": "2026-09-01"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6a95ed1cb7bf83eb7dd7e88c",
-      "category": "ai-lifecycle",
-      "headline": "How Agentic AI Is Coming For The Seat, Not The System",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/councils/forbestechcouncil/2026/09/01/how-agentic-ai-is-coming-for-the-seat-not-the-system/",
-        "publishedDate": "2026-09-01"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://huggingface.co/blog/webgpu-kernels",
-      "category": "safety-governance",
-      "headline": "Introducing @huggingface/kernels: 200+ WebGPU Kernels for Local AI",
-      "source": {
-        "name": "Hugging Face — Blog",
-        "url": "https://huggingface.co/blog/webgpu-kernels",
-        "publishedDate": "2026-09-01"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://openai.com/index/ai-native-company-workflows",
-      "category": "ai-lifecycle",
-      "headline": "How AI-native companies turn workflows into operating capability",
-      "source": {
-        "name": "OpenAI — News",
-        "url": "https://openai.com/index/ai-native-company-workflows",
-        "publishedDate": "2026-09-01"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://deepmind.google/blog/introducing-agentic-video-in-gemini/",
-      "category": "models",
-      "headline": "Introducing agentic video understanding with Gemini",
-      "source": {
-        "name": "Google DeepMind — Blog",
-        "url": "https://deepmind.google/blog/introducing-agentic-video-in-gemini/",
         "publishedDate": "2026-09-01"
       },
       "traceToAnchors": []

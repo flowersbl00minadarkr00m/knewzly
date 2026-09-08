@@ -1,7 +1,18 @@
 {
-  "lastUpdated": "2026-09-08T02:44:06.455Z",
+  "lastUpdated": "2026-09-08T10:28:18.000Z",
   "freshnessState": "fresh",
   "stories": [
+    {
+      "id": "content_6a9e801048766a89cba37b78",
+      "category": "research",
+      "headline": "Benefits Of Joint Action On Climate And Clean Air Highlighted In New Study",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/sites/jamiehailstone/2026/09/08/benefits-of-joint-action-on-climate-and-clean-air-highlighted-in-new-study/",
+        "publishedDate": "2026-09-08"
+      },
+      "traceToAnchors": []
+    },
     {
       "id": "6a985e26ae63a30d70e113b7",
       "category": "models",
@@ -647,17 +658,6 @@
       "source": {
         "name": "Google DeepMind — Blog",
         "url": "https://deepmind.google/blog/introducing-agentic-video-in-gemini/",
-        "publishedDate": "2026-09-01"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3159529",
-      "category": "ai-lifecycle",
-      "headline": "ChatGPT Health adds Epic integration for clinicians to import patient data",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/09/01/chatgpt-health-adds-epic-integration-for-clinicians-to-import-patient-data/",
         "publishedDate": "2026-09-01"
       },
       "traceToAnchors": []

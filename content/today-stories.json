@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-09T10:39:01.809Z",
+  "lastUpdated": "2026-09-09T15:48:03.264Z",
   "freshnessState": "fresh",
   "stories": [
     {
@@ -31,6 +31,28 @@
       "source": {
         "name": "Forbes — Innovation",
         "url": "https://www.forbes.com/sites/bernardmarr/2026/09/09/ai-girlfriends-are-reaching-children-and-we-need-to-talk-about-what-that-could-mean-for-boys/",
+        "publishedDate": "2026-09-09"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3161574",
+      "category": "safety-governance",
+      "headline": "Sequoia doubles down on Cymphony as AI agents create new enterprise security risks",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/09/09/sequoia-doubles-down-on-cymphony-as-ai-agents-create-new-enterprise-security-risks/",
+        "publishedDate": "2026-09-09"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3161803",
+      "category": "models",
+      "headline": "Suno replaces its AI models with a new one trained on licensed music as copyright suits pile up",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/09/09/suno-replaces-its-ai-models-with-a-new-one-trained-on-licensed-music-as-copyright-suits-pile-up/",
         "publishedDate": "2026-09-09"
       },
       "traceToAnchors": []
@@ -636,28 +658,6 @@
       "source": {
         "name": "The Verge — Artificial Intelligence",
         "url": "https://www.theverge.com/ai-artificial-intelligence/988334/openai-astra-ai-monitoring-safety",
-        "publishedDate": "2026-09-02"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theverge.com/?p=988344",
-      "category": "safety-governance",
-      "headline": "The Trump administration is supporting OpenAI in the NYT copyright lawsuit",
-      "source": {
-        "name": "The Verge — Artificial Intelligence",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/988344/trump-administration-new-york-times-openai-lawsuit",
-        "publishedDate": "2026-09-02"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "6a98445d5b3846267183e587",
-      "category": "safety-governance",
-      "headline": "Trump Administration Sides With OpenAI in New York Times Copyright Lawsuit",
-      "source": {
-        "name": "Wired — Artificial Intelligence",
-        "url": "https://www.wired.com/story/trump-administration-sides-with-ai-giants-new-york-times-lawsuit/",
         "publishedDate": "2026-09-02"
       },
       "traceToAnchors": []

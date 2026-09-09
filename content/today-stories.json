@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-09T02:43:51.283Z",
+  "lastUpdated": "2026-09-09T10:39:01.809Z",
   "freshnessState": "fresh",
   "stories": [
     {
@@ -9,6 +9,28 @@
       "source": {
         "name": "Forbes — Innovation",
         "url": "https://www.forbes.com/sites/timothypapandreou/2026/09/08/the-applied-ai-reset-rebuilding-how-we-live-and-work/",
+        "publishedDate": "2026-09-09"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theverge.com/?p=991927",
+      "category": "research",
+      "headline": "Worried Anthropic researchers warn that AI &#8216;could kill all humans&#8217;",
+      "source": {
+        "name": "The Verge — Artificial Intelligence",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/991927/anthropic-ai-kill-all-humans",
+        "publishedDate": "2026-09-09"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6aa0f01350e94aeca01bb5bb",
+      "category": "safety-governance",
+      "headline": "AI Girlfriends Are Reaching Children, And We Need To Talk About What That Could Mean For Boys",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/sites/bernardmarr/2026/09/09/ai-girlfriends-are-reaching-children-and-we-need-to-talk-about-what-that-could-mean-for-boys/",
         "publishedDate": "2026-09-09"
       },
       "traceToAnchors": []
@@ -636,28 +658,6 @@
       "source": {
         "name": "Wired — Artificial Intelligence",
         "url": "https://www.wired.com/story/trump-administration-sides-with-ai-giants-new-york-times-lawsuit/",
-        "publishedDate": "2026-09-02"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "6a9583dc88d28650c32558cc",
-      "category": "ai-lifecycle",
-      "headline": "These Russian Mathematicians Taught AI Models How to Talk to Each Other Without Using Words",
-      "source": {
-        "name": "Wired — Artificial Intelligence",
-        "url": "https://www.wired.com/story/russian-startup-mostik-ai-models-communication/",
-        "publishedDate": "2026-09-02"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://developer.nvidia.com/blog/?p=122024",
-      "category": "models",
-      "headline": "Co-Designing AI Models Using Speculative Decoding for Faster LLM Inference",
-      "source": {
-        "name": "NVIDIA — Technical Blog",
-        "url": "https://developer.nvidia.com/blog/co-designing-ai-models-using-speculative-decoding-for-faster-llm-inference/",
         "publishedDate": "2026-09-02"
       },
       "traceToAnchors": []

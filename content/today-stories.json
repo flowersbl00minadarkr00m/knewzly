@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-10T10:27:06.689Z",
+  "lastUpdated": "2026-09-10T15:43:09.080Z",
   "freshnessState": "fresh",
   "stories": [
     {
@@ -9,6 +9,72 @@
       "source": {
         "name": "Forbes — Innovation",
         "url": "https://www.forbes.com/sites/johnarcher/2026/09/09/awol-vision-unveils-worlds-first-4k-120hz-ust-projector-with-optical-shift-and-a-fully-customizable-design/",
+        "publishedDate": "2026-09-10"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theverge.com/?p=993391",
+      "category": "ai-lifecycle",
+      "headline": "Meta’s Muse AI works and creeps me out",
+      "source": {
+        "name": "The Verge — Artificial Intelligence",
+        "url": "https://www.theverge.com/tech/993391/meta-muse-ai-hands-on",
+        "publishedDate": "2026-09-10"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://tldr.tech/ai/2026-09-10",
+      "category": "models",
+      "headline": "DeepSeek Flash v4.1 🤖, Siri AI 📱, Anthropic AI economics 📈",
+      "source": {
+        "name": "TLDR AI",
+        "url": "https://tldr.tech/ai/2026-09-10",
+        "publishedDate": "2026-09-10"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6aa16521aaf26e0bbb19cd87",
+      "category": "ai-lifecycle",
+      "headline": "Agent Security Is Not AI Governance: Why Conflating The Two Is A Risk Enterprises Can't Afford",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/councils/forbestechcouncil/2026/09/10/agent-security-is-not-ai-governance-why-conflating-the-two-is-a-risk-enterprises-cant-afford/",
+        "publishedDate": "2026-09-10"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6aa1645250e94aeca01bb5c5",
+      "category": "models",
+      "headline": "​Cybersecurity's Tip Of The Spear: Eight Capabilities You Cannot Afford To Assume Are Working",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/councils/forbestechcouncil/2026/09/10/cybersecuritys-tip-of-the-spear-eight-capabilities-you-cannot-afford-to-assume-are-working/",
+        "publishedDate": "2026-09-10"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6a7f3c770724b61e65cba9a1",
+      "category": "ai-lifecycle",
+      "headline": "Nvidia And d-Matrix Announce Collaboration Roadmap For Fast Inference",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/sites/karlfreund/2026/09/10/nvidia-and-d-matrix-announce-collaboration-roadmap-for-fast-inference/",
+        "publishedDate": "2026-09-10"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://huggingface.co/blog/gradio-workflow-1111",
+      "category": "ai-lifecycle",
+      "headline": "Rebuilding AUTOMATIC1111 with Gradio Workflow",
+      "source": {
+        "name": "Hugging Face — Blog",
+        "url": "https://huggingface.co/blog/gradio-workflow-1111",
         "publishedDate": "2026-09-10"
       },
       "traceToAnchors": []
@@ -593,72 +659,6 @@
         "name": "Hugging Face — Blog",
         "url": "https://huggingface.co/blog/grpo-with-trl-ifstruct",
         "publishedDate": "2026-09-03"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3160480",
-      "category": "models",
-      "headline": "OpenAI launches Astra, its powerful (and controversial) new model",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/09/03/openai-launches-astra-its-powerful-and-controversial-new-model/",
-        "publishedDate": "2026-09-03"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theverge.com/?p=989435",
-      "category": "compute-energy",
-      "headline": "Nvidia launches free tool that links idle computers into a personal AI data center",
-      "source": {
-        "name": "The Verge — Artificial Intelligence",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/989435/nvidia-pair-personal-ai-router-home-local-llm-compute-tool-rtx-macbook",
-        "publishedDate": "2026-09-03"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://developer.nvidia.com/blog/?p=121926",
-      "category": "ai-lifecycle",
-      "headline": "NVIDIA PAIR Virtual Inference Router Expands Available Compute on Your Local Network",
-      "source": {
-        "name": "NVIDIA — Technical Blog",
-        "url": "https://developer.nvidia.com/blog/nvidia-pair-virtual-inference-router-expands-available-compute-on-your-local-network/",
-        "publishedDate": "2026-09-03"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theneurondaily.com/p/anthropic-launched-fable-5-1-and-now-the-agents-cost-less",
-      "category": "models",
-      "headline": "😺Anthropic launched Fable 5.1: and now, the agents cost less",
-      "source": {
-        "name": "The Neuron",
-        "url": "https://www.theneurondaily.com/p/anthropic-launched-fable-5-1-and-now-the-agents-cost-less",
-        "publishedDate": "2026-09-02"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6a82e4590e16a9b0e01de6d4",
-      "category": "research",
-      "headline": "Science Podcasts Separate Fact From Fiction In A MAHA World",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/sites/frankracioppi/2026/09/02/science-podcasts-separate-fact-from-fiction-in-a-maha-world/",
-        "publishedDate": "2026-09-02"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3160035",
-      "category": "ai-lifecycle",
-      "headline": "HiddenLayer nabs $100M as enterprises rush to secure their AI deployments",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/09/02/hiddenlayer-nabs-100m-as-enterprises-rush-to-secure-their-ai-deployments/",
-        "publishedDate": "2026-09-02"
       },
       "traceToAnchors": []
     }

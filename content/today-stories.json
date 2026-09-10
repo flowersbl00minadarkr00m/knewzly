@@ -1,7 +1,18 @@
 {
-  "lastUpdated": "2026-09-09T20:19:03.052Z",
+  "lastUpdated": "2026-09-10T02:45:48.501Z",
   "freshnessState": "fresh",
   "stories": [
+    {
+      "id": "content_6aa1fa5cb119f8b0830ba980",
+      "category": "models",
+      "headline": "AWOL Vision Unveils World’s First 4K 120Hz UST Projector With Optical Shift—And A Fully Customizable Design",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/sites/johnarcher/2026/09/09/awol-vision-unveils-worlds-first-4k-120hz-ust-projector-with-optical-shift-and-a-fully-customizable-design/",
+        "publishedDate": "2026-09-10"
+      },
+      "traceToAnchors": []
+    },
     {
       "id": "content_6aa00771617d11c02a159255",
       "category": "ai-lifecycle",
@@ -64,6 +75,50 @@
       "source": {
         "name": "TechCrunch — Artificial Intelligence",
         "url": "https://techcrunch.com/2026/09/09/everything-apple-announced-at-its-fall-iphone-event-from-the-foldable-iphone-duo-to-an-always-listening-apple-watch/",
+        "publishedDate": "2026-09-09"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://openai.com/index/ai-policy-window",
+      "category": "safety-governance",
+      "headline": "The AI policy window is open. We need to act.",
+      "source": {
+        "name": "OpenAI — News",
+        "url": "https://openai.com/index/ai-policy-window",
+        "publishedDate": "2026-09-09"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3162041",
+      "category": "compute-energy",
+      "headline": "Massachusetts hits data centers with new clean power rules",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/09/09/massachusetts-hits-data-centers-with-new-clean-power-rules/",
+        "publishedDate": "2026-09-09"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theverge.com/?p=991977",
+      "category": "models",
+      "headline": "Suno releases its first AI music model made with record industry help",
+      "source": {
+        "name": "The Verge — Artificial Intelligence",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/991977/suno-releases-its-first-ai-music-model-made-with-record-industry-help",
+        "publishedDate": "2026-09-09"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "6aa18ecc989080f6e79c9e38",
+      "category": "research",
+      "headline": "The AI Researcher Who Just Quit Anthropic Says It’s ‘Crunch Time for Humanity’",
+      "source": {
+        "name": "Wired — Artificial Intelligence",
+        "url": "https://www.wired.com/story/anthropic-researcher-quits-jacob-coxon-ai-fears-humanity/",
         "publishedDate": "2026-09-09"
       },
       "traceToAnchors": []
@@ -603,61 +658,6 @@
       "source": {
         "name": "TechCrunch — Artificial Intelligence",
         "url": "https://techcrunch.com/2026/09/02/hiddenlayer-nabs-100m-as-enterprises-rush-to-secure-their-ai-deployments/",
-        "publishedDate": "2026-09-02"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3159950",
-      "category": "safety-governance",
-      "headline": "OpenAI faces 30 more lawsuits tied to Tumbler Ridge shooting",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/09/02/openai-faces-30-more-lawsuits-tied-to-tumbler-ridge-shooting/",
-        "publishedDate": "2026-09-02"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/",
-      "category": "models",
-      "headline": "Introducing Gemini 3.8 Flash and 3.8 Flash Cyber",
-      "source": {
-        "name": "Google DeepMind — Blog",
-        "url": "https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/",
-        "publishedDate": "2026-09-02"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3160225",
-      "category": "safety-governance",
-      "headline": "OpenAI’s new reasoning technique alarms AI safety experts",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/09/02/openais-new-reasoning-technique-alarms-ai-safety-experts/",
-        "publishedDate": "2026-09-02"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3160050",
-      "category": "safety-governance",
-      "headline": "US government sides with OpenAI on issue of training LLMs on copyrighted material",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/09/02/u-s-government-sides-with-openai-on-issue-of-training-llms-on-copyrighted-material/",
-        "publishedDate": "2026-09-02"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theverge.com/?p=988742",
-      "category": "models",
-      "headline": "Google says its new Gemini 3.8 Flash model ‘works harder’ but might cost more",
-      "source": {
-        "name": "The Verge — Artificial Intelligence",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/988742/google-gemini-3-8-flash",
         "publishedDate": "2026-09-02"
       },
       "traceToAnchors": []

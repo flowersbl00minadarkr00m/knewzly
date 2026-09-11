@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-10T20:21:06.418Z",
+  "lastUpdated": "2026-09-11T02:39:01.285Z",
   "freshnessState": "fresh",
   "stories": [
     {
@@ -119,6 +119,17 @@
       "source": {
         "name": "NVIDIA — Technical Blog",
         "url": "https://developer.nvidia.com/blog/how-full-stack-nim-optimizations-deliver-2-5x-more-users-on-nemotron-3-ultra/",
+        "publishedDate": "2026-09-10"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3162919",
+      "category": "models",
+      "headline": "Anthropic details distillation campaigns from Alibaba, Moonshot AI, and DeepSeek",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/09/10/anthropic-details-distillation-campaigns-from-alibaba-moonshot-ai-and-deepseek/",
         "publishedDate": "2026-09-10"
       },
       "traceToAnchors": []
@@ -647,17 +658,6 @@
       "source": {
         "name": "The Verge — Artificial Intelligence",
         "url": "https://www.theverge.com/tech/988921/weather-forecast-ai-model-google-satellite-update",
-        "publishedDate": "2026-09-03"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theverge.com/?p=985474",
-      "category": "safety-governance",
-      "headline": "Nvidia is buying Hugging Face for almost $13 billion",
-      "source": {
-        "name": "The Verge — Artificial Intelligence",
-        "url": "https://www.theverge.com/tech/985474/nvidia-buying-hugging-face-deal",
         "publishedDate": "2026-09-03"
       },
       "traceToAnchors": []

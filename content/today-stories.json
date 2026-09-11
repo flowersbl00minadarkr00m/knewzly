@@ -1,7 +1,29 @@
 {
-  "lastUpdated": "2026-09-11T02:39:01.285Z",
+  "lastUpdated": "2026-09-11T10:29:26.534Z",
   "freshnessState": "fresh",
   "stories": [
+    {
+      "id": "6aa1ae63f598338e8d128f12",
+      "category": "research",
+      "headline": "Why So Many AI Researchers Think the Machines Could Kill Everyone",
+      "source": {
+        "name": "Wired — Artificial Intelligence",
+        "url": "https://www.wired.com/story/why-so-many-ai-researchers-think-the-machines-could-kill-everyone/",
+        "publishedDate": "2026-09-11"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theneurondaily.com/p/did-openai-just-speedrun-another-millennium-problem",
+      "category": "research",
+      "headline": "😺 Did OpenAI just speedrun another Millennium problem?!",
+      "source": {
+        "name": "The Neuron",
+        "url": "https://www.theneurondaily.com/p/did-openai-just-speedrun-another-millennium-problem",
+        "publishedDate": "2026-09-11"
+      },
+      "traceToAnchors": []
+    },
     {
       "id": "content_6aa1fa5cb119f8b0830ba980",
       "category": "models",
@@ -636,28 +658,6 @@
       "source": {
         "name": "TechCrunch — Artificial Intelligence",
         "url": "https://techcrunch.com/2026/09/03/nvidia-confirms-it-will-buy-hugging-face-for-12-9-billion/",
-        "publishedDate": "2026-09-03"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theverge.com/?p=989503",
-      "category": "models",
-      "headline": "ChatGPT, Grok, and Claude all went down at the same time",
-      "source": {
-        "name": "The Verge — Artificial Intelligence",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/989503/chatgpt-grok-claude-outage-down",
-        "publishedDate": "2026-09-03"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theverge.com/?p=988921",
-      "category": "models",
-      "headline": "Google says its AI weather model is getting better",
-      "source": {
-        "name": "The Verge — Artificial Intelligence",
-        "url": "https://www.theverge.com/tech/988921/weather-forecast-ai-model-google-satellite-update",
         "publishedDate": "2026-09-03"
       },
       "traceToAnchors": []

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-11T15:44:32.420Z",
+  "lastUpdated": "2026-09-11T20:21:29.758Z",
   "freshnessState": "fresh",
   "stories": [
     {
@@ -42,6 +42,72 @@
       "source": {
         "name": "Forbes — Innovation",
         "url": "https://www.forbes.com/councils/forbestechcouncil/2026/09/11/the-next-ai-breakthrough-isnt-smarter-models-its-something-the-industry-forgot-to-build/",
+        "publishedDate": "2026-09-11"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://openai.com/index/scaling-storage-one-billion-users-part-one",
+      "category": "research",
+      "headline": "Rapidly scaling online storage to serve over 1 billion ChatGPT users",
+      "source": {
+        "name": "OpenAI — News",
+        "url": "https://openai.com/index/scaling-storage-one-billion-users-part-one",
+        "publishedDate": "2026-09-11"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3163102",
+      "category": "ai-lifecycle",
+      "headline": "Nscale adds former OpenAI exec Fidji Simo to its board ahead of potential IPO",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/09/11/nscale-adds-former-openai-exec-fidji-simo-to-its-board-ahead-of-potential-ipo/",
+        "publishedDate": "2026-09-11"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theverge.com/?p=994064",
+      "category": "models",
+      "headline": "Anthropic spent this week in hot water over cybersecurity",
+      "source": {
+        "name": "The Verge — Artificial Intelligence",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/994064/anthropic-spent-this-week-in-hot-water-over-cybersecurity",
+        "publishedDate": "2026-09-11"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "6aa40fffad39288c906c2baf",
+      "category": "safety-governance",
+      "headline": "Meta Sued Over Training Data for Its AI and Face-Recognition Systems",
+      "source": {
+        "name": "Wired — Artificial Intelligence",
+        "url": "https://www.wired.com/story/meta-sued-over-training-data-for-its-ai-and-face-recognition-systems/",
+        "publishedDate": "2026-09-11"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6aa1a5870d0f9bd3386a07f2",
+      "category": "research",
+      "headline": "Why The Best Apps Are Built On Behavioral Data, Not Just User Feedback",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/councils/forbestechcouncil/2026/09/11/why-the-best-apps-are-built-on-behavioral-data-not-just-user-feedback/",
+        "publishedDate": "2026-09-11"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6aa2fcd5531f3a2fb71b1aa0",
+      "category": "research",
+      "headline": "Where Quantum Technology Could Deliver Practical Value First",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/councils/forbestechcouncil/2026/09/11/where-quantum-technology-could-deliver-practical-value-first/",
         "publishedDate": "2026-09-11"
       },
       "traceToAnchors": []
@@ -593,72 +659,6 @@
         "name": "TechCrunch — Artificial Intelligence",
         "url": "https://techcrunch.com/2026/09/04/another-swarm-of-openai-agents-reached-the-open-internet-without-the-frontier-labs-knowledge/",
         "publishedDate": "2026-09-04"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://developer.nvidia.com/blog/?p=122286",
-      "category": "ai-lifecycle",
-      "headline": "Building a Memory-Driven Agent with NVIDIA NemoClaw",
-      "source": {
-        "name": "NVIDIA — Technical Blog",
-        "url": "https://developer.nvidia.com/blog/building-a-memory-driven-agent-with-nvidia-nemoclaw/",
-        "publishedDate": "2026-09-04"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://developer.nvidia.com/blog/?p=122184",
-      "category": "ai-lifecycle",
-      "headline": "Frontier Reasoning Reaches the Edge: How to Deploy and Optimize Models on NVIDIA Jetson",
-      "source": {
-        "name": "NVIDIA — Technical Blog",
-        "url": "https://developer.nvidia.com/blog/frontier-reasoning-reaches-the-edge-how-to-deploy-and-optimize-models-on-nvidia-jetson/",
-        "publishedDate": "2026-09-04"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3160997",
-      "category": "safety-governance",
-      "headline": "OpenAI&#8217;s rogue agents keep escaping, with no formal process to investigate them",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/09/04/openais-rogue-agents-keep-escaping-with-no-formal-process-to-investigate-them/",
-        "publishedDate": "2026-09-04"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "6a98b7478c9d6f1d2a0923d6",
-      "category": "models",
-      "headline": "Meta Pushes Its New AI Agent on Employees—but Eases Off on Tokenmaxxing",
-      "source": {
-        "name": "Wired — Artificial Intelligence",
-        "url": "https://www.wired.com/story/meta-pushes-its-new-ai-agent-on-employees-but-eases-off-on-tokenmaxxing/",
-        "publishedDate": "2026-09-03"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6a98caca2f02f0fc388a9175",
-      "category": "safety-governance",
-      "headline": "Four Reasons OpenAI's Security Breach Should Worry You",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/sites/paulbaier/2026/09/02/four-reasons-openais-security-breach-should-worry-you/",
-        "publishedDate": "2026-09-03"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theneurondaily.com/p/gemini-3-8-and-muse-spark-1-3-go-head-to-head-for-third-place",
-      "category": "models",
-      "headline": "😺 Gemini 3.8 and Muse Spark 1.3 go head to head for third place",
-      "source": {
-        "name": "The Neuron",
-        "url": "https://www.theneurondaily.com/p/gemini-3-8-and-muse-spark-1-3-go-head-to-head-for-third-place",
-        "publishedDate": "2026-09-03"
       },
       "traceToAnchors": []
     }

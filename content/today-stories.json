@@ -1,7 +1,29 @@
 {
-  "lastUpdated": "2026-09-12T02:48:35.797Z",
+  "lastUpdated": "2026-09-12T09:57:33.744Z",
   "freshnessState": "fresh",
   "stories": [
+    {
+      "id": "content_6aa43bb72e5782eb20c5f005",
+      "category": "safety-governance",
+      "headline": "Mollick Writes About Agent Swarms And Hugging Face Debacle",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/sites/johnwerner/2026/09/12/mollick-writes-about-agent-swarms-and-hugging-face-debacle/",
+        "publishedDate": "2026-09-12"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6aa4c183c328db4e1a8245a7",
+      "category": "models",
+      "headline": "Looking Back On Both ‘Metroid Fusion’ And ‘Metroid: Zero Mission’",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/sites/olliebarder/2026/09/11/looking-back-on-both-metroid-fusion-and--metroid-zero-mission/",
+        "publishedDate": "2026-09-12"
+      },
+      "traceToAnchors": []
+    },
     {
       "id": "6aa1ae63f598338e8d128f12",
       "category": "research",
@@ -636,28 +658,6 @@
       "source": {
         "name": "TLDR AI",
         "url": "https://tldr.tech/ai/2026-09-04",
-        "publishedDate": "2026-09-04"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?post_type=tc_video&#038;p=3160884",
-      "category": "models",
-      "headline": "What will Apple&#8217;s John Ternus era look like?",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/video/what-will-apples-john-ternus-era-look-like/",
-        "publishedDate": "2026-09-04"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3160899",
-      "category": "safety-governance",
-      "headline": "Another swarm of OpenAI agents reached the open internet without the frontier lab&#8217;s knowledge",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/09/04/another-swarm-of-openai-agents-reached-the-open-internet-without-the-frontier-labs-knowledge/",
         "publishedDate": "2026-09-04"
       },
       "traceToAnchors": []

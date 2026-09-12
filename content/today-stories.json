@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-12T14:52:46.046Z",
+  "lastUpdated": "2026-09-12T20:04:55.186Z",
   "freshnessState": "fresh",
   "stories": [
     {
@@ -31,6 +31,17 @@
       "source": {
         "name": "The Verge — Artificial Intelligence",
         "url": "https://www.theverge.com/ai-artificial-intelligence/994112/ai-data-center-pollution-health-epa",
+        "publishedDate": "2026-09-12"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6aa595847cff6046f2c45684",
+      "category": "safety-governance",
+      "headline": "The Benefits And Risks Every Business Leader Needs To Understand About AI",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/sites/chuckbrooks/2026/09/12/the-benefits-and-risks-every-business-leader-needs-to-understand-about-ai/",
         "publishedDate": "2026-09-12"
       },
       "traceToAnchors": []
@@ -647,17 +658,6 @@
       "source": {
         "name": "TechCrunch — Artificial Intelligence",
         "url": "https://techcrunch.com/2026/09/04/googles-gemini-spark-can-now-manage-your-google-photos-library/",
-        "publishedDate": "2026-09-04"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theverge.com/?p=990149",
-      "category": "safety-governance",
-      "headline": "Rogue OpenAI agents appear to have organized another attack using a German wiki",
-      "source": {
-        "name": "The Verge — Artificial Intelligence",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/990149/openai-rogue-agents-german-wiki",
         "publishedDate": "2026-09-04"
       },
       "traceToAnchors": []

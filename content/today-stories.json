@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-12T09:57:33.744Z",
+  "lastUpdated": "2026-09-12T14:52:46.046Z",
   "freshnessState": "fresh",
   "stories": [
     {
@@ -20,6 +20,17 @@
       "source": {
         "name": "Forbes — Innovation",
         "url": "https://www.forbes.com/sites/olliebarder/2026/09/11/looking-back-on-both-metroid-fusion-and--metroid-zero-mission/",
+        "publishedDate": "2026-09-12"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theverge.com/?p=994112",
+      "category": "compute-energy",
+      "headline": "Trump is giving data centers a pass to pollute",
+      "source": {
+        "name": "The Verge — Artificial Intelligence",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/994112/ai-data-center-pollution-health-epa",
         "publishedDate": "2026-09-12"
       },
       "traceToAnchors": []
@@ -647,17 +658,6 @@
       "source": {
         "name": "The Verge — Artificial Intelligence",
         "url": "https://www.theverge.com/ai-artificial-intelligence/990149/openai-rogue-agents-german-wiki",
-        "publishedDate": "2026-09-04"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://tldr.tech/ai/2026-09-04",
-      "category": "models",
-      "headline": "GPT-6 Astra 🚀, Grok Bot Enterprise 🤖, Runway world model 🌎",
-      "source": {
-        "name": "TLDR AI",
-        "url": "https://tldr.tech/ai/2026-09-04",
         "publishedDate": "2026-09-04"
       },
       "traceToAnchors": []

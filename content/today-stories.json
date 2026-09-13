@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-12T20:04:55.186Z",
+  "lastUpdated": "2026-09-13T02:46:39.518Z",
   "freshnessState": "fresh",
   "stories": [
     {
@@ -42,6 +42,17 @@
       "source": {
         "name": "Forbes — Innovation",
         "url": "https://www.forbes.com/sites/chuckbrooks/2026/09/12/the-benefits-and-risks-every-business-leader-needs-to-understand-about-ai/",
+        "publishedDate": "2026-09-12"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6aa42c0b714a99172bcd168b",
+      "category": "models",
+      "headline": "What To Watch This Weekend: New Shows And Movies To Stream On Netflix, Hulu, Prime Video, Apple TV And More",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/sites/erikkain/2026/09/12/what-to-watch-this-weekend-new-shows-and-movies-to-stream-on-netflix-hulu-prime-video-apple-tv-and-more/",
         "publishedDate": "2026-09-12"
       },
       "traceToAnchors": []
@@ -648,17 +659,6 @@
         "name": "TechCrunch — Artificial Intelligence",
         "url": "https://techcrunch.com/2026/09/05/hikers-rescued-after-using-google-gemini-for-planning/",
         "publishedDate": "2026-09-05"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3160870",
-      "category": "models",
-      "headline": "Google&#8217;s Gemini Spark can now manage your Google Photos library",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/09/04/googles-gemini-spark-can-now-manage-your-google-photos-library/",
-        "publishedDate": "2026-09-04"
       },
       "traceToAnchors": []
     }

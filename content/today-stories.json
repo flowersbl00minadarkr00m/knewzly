@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-14T17:30:03.731Z",
+  "lastUpdated": "2026-09-14T21:20:28.269Z",
   "freshnessState": "fresh",
   "stories": [
     {
@@ -86,6 +86,17 @@
       "source": {
         "name": "Forbes — Innovation",
         "url": "https://www.forbes.com/sites/jonmarkman/2026/09/14/apples-first-2nm-iphone-joins-a-chip-race-it-is-paying-more-to-lead/",
+        "publishedDate": "2026-09-14"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theverge.com/?p=995079",
+      "category": "research",
+      "headline": "Jensen Huang puts Trump on speakerphone onstage to announce robots won’t take over the world",
+      "source": {
+        "name": "The Verge — Artificial Intelligence",
+        "url": "https://www.theverge.com/tech/995079/president-donald-trump-calls-nvidia-ceo-jensen-huang-all-in-summit",
         "publishedDate": "2026-09-14"
       },
       "traceToAnchors": []
@@ -648,17 +659,6 @@
         "name": "Forbes — Innovation",
         "url": "https://www.forbes.com/sites/jonmarkman/2026/09/07/openai-ai-agents-hijacked-a-german-wiki-to-share-sandbox-escape-tricks/",
         "publishedDate": "2026-09-07"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "6a9841fc882152f5a8e0044d",
-      "category": "research",
-      "headline": "Why China Is the Bogeyman Data Center Enthusiasts Just Can't Quit",
-      "source": {
-        "name": "Wired — Artificial Intelligence",
-        "url": "https://www.wired.com/story/why-china-is-still-the-bogeyman-for-data-center-enthusiasts/",
-        "publishedDate": "2026-09-06"
       },
       "traceToAnchors": []
     }

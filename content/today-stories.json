@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-14T11:34:40.936Z",
+  "lastUpdated": "2026-09-14T17:30:03.731Z",
   "freshnessState": "fresh",
   "stories": [
     {
@@ -20,6 +20,72 @@
       "source": {
         "name": "Forbes — Innovation",
         "url": "https://www.forbes.com/councils/forbestechcouncil/2026/09/14/the-unmade-decision-what-your-infrastructure-chooses-when-you-havent/",
+        "publishedDate": "2026-09-14"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.technologyreview.com/?p=1144037",
+      "category": "safety-governance",
+      "headline": "AI agents blew the whistle on their cheating colleagues",
+      "source": {
+        "name": "MIT Technology Review — Artificial Intelligence",
+        "url": "https://www.technologyreview.com/2026/09/14/1144037/ai-agents-blew-whistle-o-cheating-colleagues/",
+        "publishedDate": "2026-09-14"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3162850",
+      "category": "models",
+      "headline": "Fashion app Daydream uses Apple Intelligence to help you shop the outfits in your camera roll",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/09/14/fashion-discovery-app-daydream-uses-apple-intelligence-to-help-you-shop-the-outfits-saved-in-your-camera-roll/",
+        "publishedDate": "2026-09-14"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3163598",
+      "category": "ai-lifecycle",
+      "headline": "Microsoft&#8217;s new AI &#8216;code of conduct&#8217; tells models not to hack systems or trick humans",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/09/14/microsofts-new-ai-code-of-conduct-tells-models-not-to-hack-systems-or-trick-humans/",
+        "publishedDate": "2026-09-14"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3163060",
+      "category": "ai-lifecycle",
+      "headline": "Superhuman acquires YC-backed notetaker Fathom as productivity platforms push for agentic work",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/09/14/superhuman-acquires-yc-backed-notetaker-fathom-as-productivity-platforms-push-for-agentic-work/",
+        "publishedDate": "2026-09-14"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theverge.com/?p=994566",
+      "category": "safety-governance",
+      "headline": "Microsoft says ‘people matter more than AI’ following safety concerns",
+      "source": {
+        "name": "The Verge — Artificial Intelligence",
+        "url": "https://www.theverge.com/news/994566/microsoft-humanist-ai-code-of-conduct",
+        "publishedDate": "2026-09-14"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6aa7f7aba5b109946d83dcfc",
+      "category": "models",
+      "headline": "Apple's First 2nm IPhone Joins A Chip Race It Is Paying More To Lead",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/sites/jonmarkman/2026/09/14/apples-first-2nm-iphone-joins-a-chip-race-it-is-paying-more-to-lead/",
         "publishedDate": "2026-09-14"
       },
       "traceToAnchors": []
@@ -593,72 +659,6 @@
         "name": "Wired — Artificial Intelligence",
         "url": "https://www.wired.com/story/why-china-is-still-the-bogeyman-for-data-center-enthusiasts/",
         "publishedDate": "2026-09-06"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://openai.com/index/research-acceleration-view-inside-openai",
-      "category": "research",
-      "headline": "Research acceleration: The view inside OpenAI",
-      "source": {
-        "name": "OpenAI — News",
-        "url": "https://openai.com/index/research-acceleration-view-inside-openai",
-        "publishedDate": "2026-09-06"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theneurondaily.com/p/openai-linked-agents-hijacked-german-wiki",
-      "category": "safety-governance",
-      "headline": "😿 OpenAI-linked agents found a way around “read only”",
-      "source": {
-        "name": "The Neuron",
-        "url": "https://www.theneurondaily.com/p/openai-linked-agents-hijacked-german-wiki",
-        "publishedDate": "2026-09-06"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6a9a20326cc19bfb30ee0878",
-      "category": "models",
-      "headline": "What To Watch This Weekend: New Shows And Movies To Stream On Netflix, Hulu, Prime Video, Apple TV And More",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/sites/erikkain/2026/09/06/what-to-watch-this-weekend-new-shows-and-movies-to-stream-on-netflix-hulu-prime-video-apple-tv-and-more/",
-        "publishedDate": "2026-09-06"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3161058",
-      "category": "models",
-      "headline": "Authors push back as publishers and agents make claims on Anthropic settlement",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/09/06/authors-push-back-as-publishers-and-agents-seek-share-of-anthropic-settlement/",
-        "publishedDate": "2026-09-06"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6a9b357cf20a813faa0bfa0e",
-      "category": "research",
-      "headline": "How Formula E GEN4 Could Shape Nissan’s Next Generation Of EVs",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/sites/jamesmorris/2026/09/05/how-formula-e-gen4-could-shape-nissans-next-generation-of-evs/",
-        "publishedDate": "2026-09-05"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "6a9acd6e4c28b30a706b709a",
-      "category": "safety-governance",
-      "headline": "OpenAI Agents Hacked Another Website",
-      "source": {
-        "name": "Wired — Artificial Intelligence",
-        "url": "https://www.wired.com/story/security-news-this-week-openai-agents-hacked-another-website/",
-        "publishedDate": "2026-09-05"
       },
       "traceToAnchors": []
     }

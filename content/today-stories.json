@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-15T16:06:10.179Z",
+  "lastUpdated": "2026-09-15T20:47:21.865Z",
   "freshnessState": "fresh",
   "stories": [
     {
@@ -86,6 +86,94 @@
       "source": {
         "name": "NVIDIA — Technical Blog",
         "url": "https://developer.nvidia.com/blog/scaling-federated-learning-across-docker-kubernetes-and-slurm-with-nvidia-flare/",
+        "publishedDate": "2026-09-15"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/",
+      "category": "models",
+      "headline": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
+      "source": {
+        "name": "Google DeepMind — Blog",
+        "url": "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/",
+        "publishedDate": "2026-09-15"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3164453",
+      "category": "models",
+      "headline": "Meta now lets AI agents handle the boring parts of WhatsApp Business setup",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/09/15/meta-now-lets-ai-agents-handle-the-boring-parts-of-whatsapp-business-setup/",
+        "publishedDate": "2026-09-15"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3164442",
+      "category": "research",
+      "headline": "US data centers could consume more natural gas than Germany and Japan combined by 2035",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/09/15/us-data-centers-could-consume-more-natural-gas-than-germany-and-japan-combined-by-2035/",
+        "publishedDate": "2026-09-15"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6aa98f5625987ab001a684bf",
+      "category": "models",
+      "headline": "The CPU Is Back Thanks To Agents, And What That Means For You",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/sites/sandycarter/2026/09/15/the-cpu-is-back-thanks-to-agents-and-what-that-means-for-you/",
+        "publishedDate": "2026-09-15"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6aa982104ae02f2955596d39",
+      "category": "models",
+      "headline": "Better Cybersecurity Should Be Responsible For Containing AI Threats",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/sites/chuckbrooks/2026/09/15/better-cybersecurity-should-be-responsible-for-containing-ai-threats/",
+        "publishedDate": "2026-09-15"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6aa46132cc1e90012b7e7d4d",
+      "category": "research",
+      "headline": "Signs Your Software Is No Longer Delivering Value",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/councils/forbestechcouncil/2026/09/15/signs-your-software-is-no-longer-delivering-value/",
+        "publishedDate": "2026-09-15"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6aa88e587e6733f7e8dccac7",
+      "category": "models",
+      "headline": "Anthropic Puts Claude On Small Business Sales After 900,000 Installs",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/sites/boazsobrado/2026/09/15/anthropic-puts-claude-on-small-business-sales-after-900000-installs/",
+        "publishedDate": "2026-09-15"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://developer.nvidia.com/blog/?p=122482",
+      "category": "ai-lifecycle",
+      "headline": "How NVIDIA Groq 3 LPX Deterministic Execution Drives Power-Efficient High-Interactivity Inference on NVIDIA Vera Rubin",
+      "source": {
+        "name": "NVIDIA — Technical Blog",
+        "url": "https://developer.nvidia.com/blog/how-nvidia-groq-3-lpx-deterministic-execution-drives-power-efficient-high-interactivity-inference-on-nvidia-vera-rubin/",
         "publishedDate": "2026-09-15"
       },
       "traceToAnchors": []
@@ -571,94 +659,6 @@
         "name": "OpenAI — News",
         "url": "https://openai.com/index/ai-policy-window",
         "publishedDate": "2026-09-09"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3162041",
-      "category": "compute-energy",
-      "headline": "Massachusetts hits data centers with new clean power rules",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/09/09/massachusetts-hits-data-centers-with-new-clean-power-rules/",
-        "publishedDate": "2026-09-09"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theverge.com/?p=991977",
-      "category": "models",
-      "headline": "Suno releases its first AI music model made with record industry help",
-      "source": {
-        "name": "The Verge — Artificial Intelligence",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/991977/suno-releases-its-first-ai-music-model-made-with-record-industry-help",
-        "publishedDate": "2026-09-09"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "6aa18ecc989080f6e79c9e38",
-      "category": "research",
-      "headline": "The AI Researcher Who Just Quit Anthropic Says It’s ‘Crunch Time for Humanity’",
-      "source": {
-        "name": "Wired — Artificial Intelligence",
-        "url": "https://www.wired.com/story/anthropic-researcher-quits-jacob-coxon-ai-fears-humanity/",
-        "publishedDate": "2026-09-09"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6a9e801048766a89cba37b78",
-      "category": "research",
-      "headline": "Benefits Of Joint Action On Climate And Clean Air Highlighted In New Study",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/sites/jamiehailstone/2026/09/08/benefits-of-joint-action-on-climate-and-clean-air-highlighted-in-new-study/",
-        "publishedDate": "2026-09-08"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6a98549715d879f26b4ad3a3",
-      "category": "research",
-      "headline": "Here’s A $32 Million Bet That Robots Don’t Need A Billion Dollars Of Real-World Data",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/sites/johnkoetsier/2026/09/08/heres-a-32-million-bet-that-robots-dont-need-a-billion-dollars-of-real-world-data/",
-        "publishedDate": "2026-09-08"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.technologyreview.com/?p=1142088",
-      "category": "ai-lifecycle",
-      "headline": "This AI entrepreneur is developing agents that can plan ahead for the unexpected",
-      "source": {
-        "name": "MIT Technology Review — Artificial Intelligence",
-        "url": "https://www.technologyreview.com/2026/09/08/1142088/danijar-hafner-developing-plan-ahead-agents/",
-        "publishedDate": "2026-09-08"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://tldr.tech/ai/2026-09-08",
-      "category": "models",
-      "headline": "OpenAI managed agents 🤖, TPU inference ⚡, Anthropic $517B compute 💰",
-      "source": {
-        "name": "TLDR AI",
-        "url": "https://tldr.tech/ai/2026-09-08",
-        "publishedDate": "2026-09-08"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6aa018ec52c1921a6d0a370f",
-      "category": "research",
-      "headline": "A Great Angelina Jolie Action Movie Rockets Up Netflix’s Top 10 List",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/sites/paultassi/2026/09/08/a-great-angelina-jolie-action-movie-rockets-up-netflixs-top-10-list/",
-        "publishedDate": "2026-09-08"
       },
       "traceToAnchors": []
     }

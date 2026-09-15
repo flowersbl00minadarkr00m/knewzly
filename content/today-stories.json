@@ -1,7 +1,18 @@
 {
-  "lastUpdated": "2026-09-15T03:03:29.179Z",
+  "lastUpdated": "2026-09-15T10:54:04.353Z",
   "freshnessState": "fresh",
   "stories": [
+    {
+      "id": "content_6aa511cff71b79bcbe178a77",
+      "category": "research",
+      "headline": "The AI Leader Mindset: A New Book Calls For Action",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/sites/johnwerner/2026/09/15/the-ai-leader-mindset-a-new-book-calls-for-action/",
+        "publishedDate": "2026-09-15"
+      },
+      "traceToAnchors": []
+    },
     {
       "id": "6a9585f1b479cd2d026f6fc0",
       "category": "safety-governance",
@@ -648,17 +659,6 @@
         "name": "Forbes — Innovation",
         "url": "https://www.forbes.com/sites/sabbirrangwala/2026/09/08/data--ai-feed-energize-and-clothe-the-worldsustainably/",
         "publishedDate": "2026-09-08"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "6a985e26ae63a30d70e113b7",
-      "category": "models",
-      "headline": "Whispering Complaints Into Your Phone May Be the Future of Customer Feedback",
-      "source": {
-        "name": "Wired — Artificial Intelligence",
-        "url": "https://www.wired.com/story/whispering-complaints-into-your-phone-may-be-the-future-of-customer-feedback/",
-        "publishedDate": "2026-09-07"
       },
       "traceToAnchors": []
     }

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-15T10:54:04.353Z",
+  "lastUpdated": "2026-09-15T16:06:10.179Z",
   "freshnessState": "fresh",
   "stories": [
     {
@@ -9,6 +9,83 @@
       "source": {
         "name": "Forbes — Innovation",
         "url": "https://www.forbes.com/sites/johnwerner/2026/09/15/the-ai-leader-mindset-a-new-book-calls-for-action/",
+        "publishedDate": "2026-09-15"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3164278",
+      "category": "models",
+      "headline": "OpenAI, Anthropic, Google have been in talks on AI safety for weeks",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/09/15/openai-anthropic-google-have-been-in-talks-on-ai-safety-for-weeks/",
+        "publishedDate": "2026-09-15"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3163310",
+      "category": "models",
+      "headline": "Early Anthropic hire, former METR COO have found a way to rein in rogue AI agents",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/09/15/early-anthropic-hire-former-metr-coo-have-found-a-way-to-rein-in-rogue-ai-agents/",
+        "publishedDate": "2026-09-15"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3163913",
+      "category": "ai-lifecycle",
+      "headline": "Salesforce and Nvidia&#8217;s new reasoning model is everything the AI labs should fear",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/09/15/salesforce-and-nvidias-new-reasoning-model-is-everything-the-ai-labs-should-fear/",
+        "publishedDate": "2026-09-15"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://tldr.tech/ai/2026-09-15",
+      "category": "safety-governance",
+      "headline": "Siri model swapping 🔄, Claude Money 💰, Hugging Face Tau 👨‍💻",
+      "source": {
+        "name": "TLDR AI",
+        "url": "https://tldr.tech/ai/2026-09-15",
+        "publishedDate": "2026-09-15"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6aa86d725bff535466834273",
+      "category": "ai-lifecycle",
+      "headline": "How To Build AI Skills That Scale Into Agents",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/councils/forbestechcouncil/2026/09/15/how-to-build-ai-skills-that-scale-into-agents/",
+        "publishedDate": "2026-09-15"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6aa339a4695a0605f7a48cfd",
+      "category": "models",
+      "headline": "How Better Data Helps AI Find Its Rhythm",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/sites/garydrenik/2026/09/15/how-better-data-helps-ai-find-its-rhythm/",
+        "publishedDate": "2026-09-15"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://developer.nvidia.com/blog/?p=122520",
+      "category": "ai-lifecycle",
+      "headline": "Scaling Federated Learning Across Docker, Kubernetes, and Slurm with NVIDIA FLARE",
+      "source": {
+        "name": "NVIDIA — Technical Blog",
+        "url": "https://developer.nvidia.com/blog/scaling-federated-learning-across-docker-kubernetes-and-slurm-with-nvidia-flare/",
         "publishedDate": "2026-09-15"
       },
       "traceToAnchors": []
@@ -581,83 +658,6 @@
       "source": {
         "name": "Forbes — Innovation",
         "url": "https://www.forbes.com/sites/paultassi/2026/09/08/a-great-angelina-jolie-action-movie-rockets-up-netflixs-top-10-list/",
-        "publishedDate": "2026-09-08"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6a99ed3cf314289ba01f5617",
-      "category": "ai-lifecycle",
-      "headline": "Why Agentic AI Is The Next Frontier Of Cloud Cost Optimization",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/councils/forbestechcouncil/2026/09/08/why-agentic-ai-is-the-next-frontier-of-cloud-cost-optimization/",
-        "publishedDate": "2026-09-08"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://openai.com/index/codex-quantum-computing-experiments",
-      "category": "models",
-      "headline": "How GPT-5.6 Sol helps run quantum computing experiments",
-      "source": {
-        "name": "OpenAI — News",
-        "url": "https://openai.com/index/codex-quantum-computing-experiments",
-        "publishedDate": "2026-09-08"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3161372",
-      "category": "models",
-      "headline": "Meta debuts its Muse AI agent. Will consumers trust it?",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/09/08/meta-debuts-its-muse-ai-agent-will-consumers-trust-it/",
-        "publishedDate": "2026-09-08"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theverge.com/?p=991216",
-      "category": "models",
-      "headline": "Meta bets on AI agent Muse to catch up in AI race",
-      "source": {
-        "name": "The Verge — Artificial Intelligence",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/991216/meta-bets-on-ai-agent-muse-to-catch-up-in-ai-race",
-        "publishedDate": "2026-09-08"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "6a9b2b6de2d6587d5e6b3c23",
-      "category": "models",
-      "headline": "Muse, Meta’s New Personal AI Agent, Needs You to Trust It",
-      "source": {
-        "name": "Wired — Artificial Intelligence",
-        "url": "https://www.wired.com/story/meta-releases-muse-a-personal-ai-agent-with-privacy-built-into-it/",
-        "publishedDate": "2026-09-08"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "6aa019df196e8ca64468263f",
-      "category": "research",
-      "headline": "OpenAI Just Claimed a Huge Math Discovery. Some Academics Are Crying Foul",
-      "source": {
-        "name": "Wired — Artificial Intelligence",
-        "url": "https://www.wired.com/story/openai-navier-stokes-math-discovery-academics/",
-        "publishedDate": "2026-09-08"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6a9995cc1b7cbf4e1dd4a4c7",
-      "category": "research",
-      "headline": "Data & AI Feed, Energize And Clothe The World - Sustainably",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/sites/sabbirrangwala/2026/09/08/data--ai-feed-energize-and-clothe-the-worldsustainably/",
         "publishedDate": "2026-09-08"
       },
       "traceToAnchors": []

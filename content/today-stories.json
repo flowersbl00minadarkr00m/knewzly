@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-14T21:20:28.269Z",
+  "lastUpdated": "2026-09-15T03:03:29.179Z",
   "freshnessState": "fresh",
   "stories": [
     {
@@ -97,6 +97,17 @@
       "source": {
         "name": "The Verge — Artificial Intelligence",
         "url": "https://www.theverge.com/tech/995079/president-donald-trump-calls-nvidia-ceo-jensen-huang-all-in-summit",
+        "publishedDate": "2026-09-14"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6aa8326d6bfcf1906f0e123e",
+      "category": "ai-lifecycle",
+      "headline": "Agentic AI In Insurance: From Pilot To Production At Scale",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/sites/delltechnologies/2026/09/14/agentic-ai-in-insurance-from-pilot-to-production-at-scale/",
         "publishedDate": "2026-09-14"
       },
       "traceToAnchors": []
@@ -647,17 +658,6 @@
       "source": {
         "name": "Wired — Artificial Intelligence",
         "url": "https://www.wired.com/story/whispering-complaints-into-your-phone-may-be-the-future-of-customer-feedback/",
-        "publishedDate": "2026-09-07"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6a9ed3a50db5e55a2b45a78d",
-      "category": "safety-governance",
-      "headline": "OpenAI AI Agents Hijacked A German Wiki To Share Sandbox Escape Tricks",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/sites/jonmarkman/2026/09/07/openai-ai-agents-hijacked-a-german-wiki-to-share-sandbox-escape-tricks/",
         "publishedDate": "2026-09-07"
       },
       "traceToAnchors": []

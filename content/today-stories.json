@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-16T10:43:46.452Z",
+  "lastUpdated": "2026-09-16T15:59:28.812Z",
   "freshnessState": "fresh",
   "stories": [
     {
@@ -9,6 +9,39 @@
       "source": {
         "name": "TechCrunch — Artificial Intelligence",
         "url": "https://techcrunch.com/2026/09/15/we-dont-need-ai-regulation-leave-safety-to-us-nvidias-jensen-huang-says/",
+        "publishedDate": "2026-09-16"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3164631",
+      "category": "ai-lifecycle",
+      "headline": "Robots are waiting for a ChatGPT moment: Nvidia’s Les Karpas explains why at TechCrunch Disrupt 2026",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/09/16/robots-are-waiting-for-a-chatgpt-moment-nvidias-les-karpas-explains-why-at-techcrunch-disrupt-2026/",
+        "publishedDate": "2026-09-16"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theverge.com/?p=995534",
+      "category": "safety-governance",
+      "headline": "A brief history of AI executives calling for regulation",
+      "source": {
+        "name": "The Verge — Artificial Intelligence",
+        "url": "https://www.theverge.com/policy/995534/a-brief-history-of-ai-executives-calling-for-regulation",
+        "publishedDate": "2026-09-16"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6aa99456ea0496f25293d403",
+      "category": "research",
+      "headline": "The Next Search War Isn't About Rankings—It's About AI Recommendations",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/councils/forbestechcouncil/2026/09/16/the-next-search-war-isnt-about-rankings-its-about-ai-recommendations/",
         "publishedDate": "2026-09-16"
       },
       "traceToAnchors": []
@@ -625,39 +658,6 @@
       "source": {
         "name": "Forbes — Innovation",
         "url": "https://www.forbes.com/sites/timothypapandreou/2026/09/08/the-applied-ai-reset-rebuilding-how-we-live-and-work/",
-        "publishedDate": "2026-09-09"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theverge.com/?p=991927",
-      "category": "research",
-      "headline": "Worried Anthropic researchers warn that AI &#8216;could kill all humans&#8217;",
-      "source": {
-        "name": "The Verge — Artificial Intelligence",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/991927/anthropic-ai-kill-all-humans",
-        "publishedDate": "2026-09-09"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6aa0f01350e94aeca01bb5bb",
-      "category": "safety-governance",
-      "headline": "AI Girlfriends Are Reaching Children, And We Need To Talk About What That Could Mean For Boys",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/sites/bernardmarr/2026/09/09/ai-girlfriends-are-reaching-children-and-we-need-to-talk-about-what-that-could-mean-for-boys/",
-        "publishedDate": "2026-09-09"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3161574",
-      "category": "safety-governance",
-      "headline": "Sequoia doubles down on Cymphony as AI agents create new enterprise security risks",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/09/09/sequoia-doubles-down-on-cymphony-as-ai-agents-create-new-enterprise-security-risks/",
         "publishedDate": "2026-09-09"
       },
       "traceToAnchors": []

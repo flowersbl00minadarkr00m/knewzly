@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-16T15:59:28.812Z",
+  "lastUpdated": "2026-09-16T20:47:00.948Z",
   "freshnessState": "fresh",
   "stories": [
     {
@@ -42,6 +42,72 @@
       "source": {
         "name": "Forbes — Innovation",
         "url": "https://www.forbes.com/councils/forbestechcouncil/2026/09/16/the-next-search-war-isnt-about-rankings-its-about-ai-recommendations/",
+        "publishedDate": "2026-09-16"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3164815",
+      "category": "models",
+      "headline": "Your AI agents can now control your Google Home devices",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/09/16/your-ai-agents-can-now-control-your-google-home-devices/",
+        "publishedDate": "2026-09-16"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3164745",
+      "category": "models",
+      "headline": "Anthropic merges Claude chat and Cowork in one interface",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/09/16/anthropic-merges-claude-chat-and-cowork-in-one-interface/",
+        "publishedDate": "2026-09-16"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theverge.com/?p=996310",
+      "category": "models",
+      "headline": "Google will now let any AI agent run your smart home",
+      "source": {
+        "name": "The Verge — Artificial Intelligence",
+        "url": "https://www.theverge.com/tech/996310/google-home-mcp-integration-agentic-ai-smart-home-price-release-date",
+        "publishedDate": "2026-09-16"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theverge.com/?p=996234",
+      "category": "models",
+      "headline": "Claude comes for Gemini with its own take on Docs and Slides",
+      "source": {
+        "name": "The Verge — Artificial Intelligence",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/996234/anthropic-one-claude-cowork-docs-slides",
+        "publishedDate": "2026-09-16"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://developer.nvidia.com/blog/?p=122604",
+      "category": "models",
+      "headline": "TensorRT Edge-LLM Completes the MLPerf Edge Agentic Benchmark 6.4x Faster on Jetson AGX Thor",
+      "source": {
+        "name": "NVIDIA — Technical Blog",
+        "url": "https://developer.nvidia.com/blog/tensorrt-edge-llm-completes-the-mlperf-edge-agentic-benchmark-6-4x-faster-on-jetson-agx-thor/",
+        "publishedDate": "2026-09-16"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://developer.nvidia.com/blog/?p=122428",
+      "category": "ai-lifecycle",
+      "headline": "Translating CUDA Tile Operations from Python to Rust Using Agentic AI",
+      "source": {
+        "name": "NVIDIA — Technical Blog",
+        "url": "https://developer.nvidia.com/blog/translating-cuda-tile-operations-from-python-to-rust-using-agentic-ai/",
         "publishedDate": "2026-09-16"
       },
       "traceToAnchors": []
@@ -593,72 +659,6 @@
         "name": "Hugging Face — Blog",
         "url": "https://huggingface.co/blog/gradio-workflow-1111",
         "publishedDate": "2026-09-10"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://openai.com/index/introducing-the-agents-api",
-      "category": "models",
-      "headline": "Introducing the Agents API",
-      "source": {
-        "name": "OpenAI — News",
-        "url": "https://openai.com/index/introducing-the-agents-api",
-        "publishedDate": "2026-09-10"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3162897",
-      "category": "models",
-      "headline": "Meta&#8217;s AI agent Muse is now the No. 2 app in the US",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/09/10/metas-ai-agent-muse-is-now-the-no-2-app-in-the-us/",
-        "publishedDate": "2026-09-10"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3162739",
-      "category": "models",
-      "headline": "Anthropic reveals rogue AI agents hate CAPTCHAs, just like you",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/09/10/anthropic-reveals-rogue-ai-agents-hate-captchas-just-like-you/",
-        "publishedDate": "2026-09-10"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://developer.nvidia.com/blog/?p=122372",
-      "category": "research",
-      "headline": "How Full-Stack NIM Optimizations Deliver 2.5x More Users on Nemotron 3 Ultra",
-      "source": {
-        "name": "NVIDIA — Technical Blog",
-        "url": "https://developer.nvidia.com/blog/how-full-stack-nim-optimizations-deliver-2-5x-more-users-on-nemotron-3-ultra/",
-        "publishedDate": "2026-09-10"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3162919",
-      "category": "models",
-      "headline": "Anthropic details distillation campaigns from Alibaba, Moonshot AI, and DeepSeek",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/09/10/anthropic-details-distillation-campaigns-from-alibaba-moonshot-ai-and-deepseek/",
-        "publishedDate": "2026-09-10"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6aa00771617d11c02a159255",
-      "category": "ai-lifecycle",
-      "headline": "The Applied AI Reset: Rebuilding How We Live And Work",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/sites/timothypapandreou/2026/09/08/the-applied-ai-reset-rebuilding-how-we-live-and-work/",
-        "publishedDate": "2026-09-09"
       },
       "traceToAnchors": []
     }

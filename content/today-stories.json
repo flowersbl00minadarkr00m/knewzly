@@ -1,7 +1,18 @@
 {
-  "lastUpdated": "2026-09-15T20:47:21.865Z",
+  "lastUpdated": "2026-09-16T02:59:55.135Z",
   "freshnessState": "fresh",
   "stories": [
+    {
+      "id": "https://techcrunch.com/?p=3164495",
+      "category": "safety-governance",
+      "headline": "We don&#8217;t need AI regulation — leave safety to us, Nvidia&#8217;s Jensen Huang says",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/09/15/we-dont-need-ai-regulation-leave-safety-to-us-nvidias-jensen-huang-says/",
+        "publishedDate": "2026-09-16"
+      },
+      "traceToAnchors": []
+    },
     {
       "id": "content_6aa511cff71b79bcbe178a77",
       "category": "research",
@@ -174,6 +185,28 @@
       "source": {
         "name": "NVIDIA — Technical Blog",
         "url": "https://developer.nvidia.com/blog/how-nvidia-groq-3-lpx-deterministic-execution-drives-power-efficient-high-interactivity-inference-on-nvidia-vera-rubin/",
+        "publishedDate": "2026-09-15"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3164506",
+      "category": "compute-energy",
+      "headline": "The AI data center boom is colliding with cities scarred by big industry",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/09/15/the-ai-data-center-boom-is-colliding-with-cities-scarred-by-big-industry/",
+        "publishedDate": "2026-09-15"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theverge.com/?p=995917",
+      "category": "compute-energy",
+      "headline": "AI and data centers are incredibly unpopular in every poll",
+      "source": {
+        "name": "The Verge — Artificial Intelligence",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/995917/data-center-nyt-midterm-poll-september",
         "publishedDate": "2026-09-15"
       },
       "traceToAnchors": []
@@ -625,39 +658,6 @@
       "source": {
         "name": "TechCrunch — Artificial Intelligence",
         "url": "https://techcrunch.com/2026/09/09/sequoia-doubles-down-on-cymphony-as-ai-agents-create-new-enterprise-security-risks/",
-        "publishedDate": "2026-09-09"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3161803",
-      "category": "models",
-      "headline": "Suno replaces its AI models with a new one trained on licensed music as copyright suits pile up",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/09/09/suno-replaces-its-ai-models-with-a-new-one-trained-on-licensed-music-as-copyright-suits-pile-up/",
-        "publishedDate": "2026-09-09"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3162222",
-      "category": "research",
-      "headline": "Everything Apple announced at its fall iPhone event, from the foldable iPhone Duo to an always-listening Apple Watch",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/09/09/everything-apple-announced-at-its-fall-iphone-event-from-the-foldable-iphone-duo-to-an-always-listening-apple-watch/",
-        "publishedDate": "2026-09-09"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://openai.com/index/ai-policy-window",
-      "category": "safety-governance",
-      "headline": "The AI policy window is open. We need to act.",
-      "source": {
-        "name": "OpenAI — News",
-        "url": "https://openai.com/index/ai-policy-window",
         "publishedDate": "2026-09-09"
       },
       "traceToAnchors": []

@@ -1,7 +1,29 @@
 {
-  "lastUpdated": "2026-09-17T03:03:15.725Z",
+  "lastUpdated": "2026-09-17T10:51:06.206Z",
   "freshnessState": "fresh",
   "stories": [
+    {
+      "id": "https://www.theneurondaily.com/p/openai-discloses-more-concerning-agent-behavior",
+      "category": "models",
+      "headline": "🙀 OpenAI discloses MORE “concerning” AGENT behavior",
+      "source": {
+        "name": "The Neuron",
+        "url": "https://www.theneurondaily.com/p/openai-discloses-more-concerning-agent-behavior",
+        "publishedDate": "2026-09-17"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6aab6c3ff9bdd22b7229bc3c",
+      "category": "safety-governance",
+      "headline": "OpenAI Agents Were Using Messaging Prior To Hugging Face Incident",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/sites/johnwerner/2026/09/17/openai-agents-were-using-messaging-prior-to-hugging-face-incident/",
+        "publishedDate": "2026-09-17"
+      },
+      "traceToAnchors": []
+    },
     {
       "id": "https://techcrunch.com/?p=3164495",
       "category": "safety-governance",
@@ -115,7 +137,7 @@
     {
       "id": "https://techcrunch.com/?p=3165204",
       "category": "compute-energy",
-      "headline": "Al Gore says the real AI risk isn&#8217;t data centers — it&#8217;s what industry leaders are warning about",
+      "headline": "Al Gore says the real AI risk isn&#8217;t data centers",
       "source": {
         "name": "TechCrunch — Artificial Intelligence",
         "url": "https://techcrunch.com/2026/09/16/al-gore-has-a-surprisingly-calm-take-on-the-ai-data-center-backlash/",
@@ -636,28 +658,6 @@
       "source": {
         "name": "Forbes — Innovation",
         "url": "https://www.forbes.com/sites/johnarcher/2026/09/09/awol-vision-unveils-worlds-first-4k-120hz-ust-projector-with-optical-shift-and-a-fully-customizable-design/",
-        "publishedDate": "2026-09-10"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theverge.com/?p=993391",
-      "category": "ai-lifecycle",
-      "headline": "Meta’s Muse AI works and creeps me out",
-      "source": {
-        "name": "The Verge — Artificial Intelligence",
-        "url": "https://www.theverge.com/tech/993391/meta-muse-ai-hands-on",
-        "publishedDate": "2026-09-10"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://tldr.tech/ai/2026-09-10",
-      "category": "models",
-      "headline": "DeepSeek Flash v4.1 🤖, Siri AI 📱, Anthropic AI economics 📈",
-      "source": {
-        "name": "TLDR AI",
-        "url": "https://tldr.tech/ai/2026-09-10",
         "publishedDate": "2026-09-10"
       },
       "traceToAnchors": []

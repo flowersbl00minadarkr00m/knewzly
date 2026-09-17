@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-17T10:51:06.206Z",
+  "lastUpdated": "2026-09-17T16:05:41.846Z",
   "freshnessState": "fresh",
   "stories": [
     {
@@ -20,6 +20,72 @@
       "source": {
         "name": "Forbes — Innovation",
         "url": "https://www.forbes.com/sites/johnwerner/2026/09/17/openai-agents-were-using-messaging-prior-to-hugging-face-incident/",
+        "publishedDate": "2026-09-17"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3165381",
+      "category": "models",
+      "headline": "Rival AI agents, Instinct and Meta&#8217;s Muse, both add the ability to make calls",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/09/17/rival-ai-agents-instinct-and-metas-muse-both-add-the-ability-to-make-calls/",
+        "publishedDate": "2026-09-17"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3165426",
+      "category": "models",
+      "headline": "Google, Nvidia, and Anthropic want Emerald AI to find space on the grid for more data centers",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/09/17/google-nvidia-and-anthropic-want-emerald-ai-to-find-space-on-the-grid-for-more-data-centers/",
+        "publishedDate": "2026-09-17"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theverge.com/?p=996412",
+      "category": "ai-lifecycle",
+      "headline": "Microsoft AI CEO says AI threats are real, and Anthropic is making it worse",
+      "source": {
+        "name": "The Verge — Artificial Intelligence",
+        "url": "https://www.theverge.com/podcast/996412/microsoft-ai-ceo-mustafa-suleyman-regulation-safety-anthropic-claude",
+        "publishedDate": "2026-09-17"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theverge.com/?p=996563",
+      "category": "research",
+      "headline": "Inside the suddenly explosive world of AI safety",
+      "source": {
+        "name": "The Verge — Artificial Intelligence",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/996563/ai-safety-research-metr-redwood-openai-anthropic",
+        "publishedDate": "2026-09-17"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://tldr.tech/ai/2026-09-17",
+      "category": "models",
+      "headline": "Claude + Cowork merge 🛠️, ChatGPT sponsored agents 💰, harness tax 🤖",
+      "source": {
+        "name": "TLDR AI",
+        "url": "https://tldr.tech/ai/2026-09-17",
+        "publishedDate": "2026-09-17"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6aaae5ff5360eb3fbb3826c8",
+      "category": "ai-lifecycle",
+      "headline": "How To Turn AI Agents Into A Full-Scale Workforce",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/councils/forbestechcouncil/2026/09/17/how-to-turn-ai-agents-into-a-full-scale-workforce/",
         "publishedDate": "2026-09-17"
       },
       "traceToAnchors": []
@@ -593,72 +659,6 @@
         "name": "OpenAI — News",
         "url": "https://openai.com/index/scaling-storage-one-billion-users-part-one",
         "publishedDate": "2026-09-11"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3163102",
-      "category": "ai-lifecycle",
-      "headline": "Nscale adds former OpenAI exec Fidji Simo to its board ahead of potential IPO",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/09/11/nscale-adds-former-openai-exec-fidji-simo-to-its-board-ahead-of-potential-ipo/",
-        "publishedDate": "2026-09-11"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theverge.com/?p=994064",
-      "category": "models",
-      "headline": "Anthropic spent this week in hot water over cybersecurity",
-      "source": {
-        "name": "The Verge — Artificial Intelligence",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/994064/anthropic-spent-this-week-in-hot-water-over-cybersecurity",
-        "publishedDate": "2026-09-11"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "6aa40fffad39288c906c2baf",
-      "category": "safety-governance",
-      "headline": "Meta Sued Over Training Data for Its AI and Face-Recognition Systems",
-      "source": {
-        "name": "Wired — Artificial Intelligence",
-        "url": "https://www.wired.com/story/meta-sued-over-training-data-for-its-ai-and-face-recognition-systems/",
-        "publishedDate": "2026-09-11"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6aa1a5870d0f9bd3386a07f2",
-      "category": "research",
-      "headline": "Why The Best Apps Are Built On Behavioral Data, Not Just User Feedback",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/councils/forbestechcouncil/2026/09/11/why-the-best-apps-are-built-on-behavioral-data-not-just-user-feedback/",
-        "publishedDate": "2026-09-11"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6aa2fcd5531f3a2fb71b1aa0",
-      "category": "research",
-      "headline": "Where Quantum Technology Could Deliver Practical Value First",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/councils/forbestechcouncil/2026/09/11/where-quantum-technology-could-deliver-practical-value-first/",
-        "publishedDate": "2026-09-11"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6aa1fa5cb119f8b0830ba980",
-      "category": "models",
-      "headline": "AWOL Vision Unveils World’s First 4K 120Hz UST Projector With Optical Shift—And A Fully Customizable Design",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/sites/johnarcher/2026/09/09/awol-vision-unveils-worlds-first-4k-120hz-ust-projector-with-optical-shift-and-a-fully-customizable-design/",
-        "publishedDate": "2026-09-10"
       },
       "traceToAnchors": []
     }

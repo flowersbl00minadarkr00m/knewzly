@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-17T16:05:41.846Z",
+  "lastUpdated": "2026-09-17T20:53:00.711Z",
   "freshnessState": "fresh",
   "stories": [
     {
@@ -86,6 +86,61 @@
       "source": {
         "name": "Forbes — Innovation",
         "url": "https://www.forbes.com/councils/forbestechcouncil/2026/09/17/how-to-turn-ai-agents-into-a-full-scale-workforce/",
+        "publishedDate": "2026-09-17"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3165739",
+      "category": "models",
+      "headline": "The fix for rogue AI agents could be more AI",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/09/17/the-fix-for-rogue-ai-agents-could-be-more-ai/",
+        "publishedDate": "2026-09-17"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3164863",
+      "category": "models",
+      "headline": "UN turns to Google to make its global data ready for AI agents",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/09/17/un-turns-to-google-to-make-its-global-data-ready-for-ai-agents/",
+        "publishedDate": "2026-09-17"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3165579",
+      "category": "safety-governance",
+      "headline": "Base Labs launches an open-weight AI safety partnership with Hugging Face and Goodfire",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/09/17/base-labs-launches-an-open-weight-ai-safety-partnership-with-hugging-face-and-goodfire/",
+        "publishedDate": "2026-09-17"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theverge.com/?p=997134",
+      "category": "models",
+      "headline": "Claude Code relaunches Projects to manage multiple AI agents in the cloud",
+      "source": {
+        "name": "The Verge — Artificial Intelligence",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/997134/anthropic-claude-code-projects",
+        "publishedDate": "2026-09-17"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6aab0364740a3afb3396d691",
+      "category": "research",
+      "headline": "Why ​Physical AI Needs A New Architecture To Scale",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/councils/forbestechcouncil/2026/09/17/why-physical-ai-needs-a-new-architecture-to-scale/",
         "publishedDate": "2026-09-17"
       },
       "traceToAnchors": []
@@ -604,61 +659,6 @@
         "name": "Forbes — Innovation",
         "url": "https://www.forbes.com/sites/chuckbrooks/2026/09/12/the-benefits-and-risks-every-business-leader-needs-to-understand-about-ai/",
         "publishedDate": "2026-09-12"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "6aa1ae63f598338e8d128f12",
-      "category": "research",
-      "headline": "Why So Many AI Researchers Think the Machines Could Kill Everyone",
-      "source": {
-        "name": "Wired — Artificial Intelligence",
-        "url": "https://www.wired.com/story/why-so-many-ai-researchers-think-the-machines-could-kill-everyone/",
-        "publishedDate": "2026-09-11"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theneurondaily.com/p/did-openai-just-speedrun-another-millennium-problem",
-      "category": "research",
-      "headline": "😺 Did OpenAI just speedrun another Millennium problem?!",
-      "source": {
-        "name": "The Neuron",
-        "url": "https://www.theneurondaily.com/p/did-openai-just-speedrun-another-millennium-problem",
-        "publishedDate": "2026-09-11"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://tldr.tech/ai/2026-09-11",
-      "category": "models",
-      "headline": "Agents API 🤖, Cognition SWE-2 👨‍💻, Muse Shared Agents 🧑‍🤝‍🧑",
-      "source": {
-        "name": "TLDR AI",
-        "url": "https://tldr.tech/ai/2026-09-11",
-        "publishedDate": "2026-09-11"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6aa18abc3f60e2c8b5730d98",
-      "category": "research",
-      "headline": "The Next AI Breakthrough Isn’t Smarter Models—It’s Something The Industry Forgot To Build",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/councils/forbestechcouncil/2026/09/11/the-next-ai-breakthrough-isnt-smarter-models-its-something-the-industry-forgot-to-build/",
-        "publishedDate": "2026-09-11"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://openai.com/index/scaling-storage-one-billion-users-part-one",
-      "category": "research",
-      "headline": "Rapidly scaling online storage to serve over 1 billion ChatGPT users",
-      "source": {
-        "name": "OpenAI — News",
-        "url": "https://openai.com/index/scaling-storage-one-billion-users-part-one",
-        "publishedDate": "2026-09-11"
       },
       "traceToAnchors": []
     }

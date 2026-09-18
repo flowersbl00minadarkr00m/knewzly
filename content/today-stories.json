@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-18T15:41:46.518Z",
+  "lastUpdated": "2026-09-18T20:18:11.403Z",
   "freshnessState": "fresh",
   "stories": [
     {
@@ -86,6 +86,72 @@
       "source": {
         "name": "Forbes — Innovation",
         "url": "https://www.forbes.com/sites/kateoflahertyuk/2026/09/18/ios-27-apple-just-gave-iphone-users-120-reasons-to-update-now/",
+        "publishedDate": "2026-09-18"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3166205",
+      "category": "models",
+      "headline": "Google&#8217;s new &#8216;CC&#8217; is an AI agent that helps families run their households",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/09/18/googles-new-cc-is-an-ai-agent-that-helps-families-run-their-households/",
+        "publishedDate": "2026-09-18"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3165970",
+      "category": "research",
+      "headline": "Open or closed AI? Nvidia&#8217;s Nader Khalil and Sydney Sykes take on one of the decisions shaping next-gen startups at TechCrunch Disrupt 2026",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/09/18/open-or-closed-ai-nvidias-nader-khalil-and-sydney-sykes-take-on-one-of-the-decisions-shaping-next-gen-startups-at-techcrunch-disrupt-2026/",
+        "publishedDate": "2026-09-18"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theverge.com/?p=997573",
+      "category": "research",
+      "headline": "Virginia governor creates an AI task force and moves to restrain data centers",
+      "source": {
+        "name": "The Verge — Artificial Intelligence",
+        "url": "https://www.theverge.com/policy/997573/virginia-governor-spanberger-data-center-ai-task-force",
+        "publishedDate": "2026-09-18"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theverge.com/?p=997444",
+      "category": "models",
+      "headline": "Security researchers used Claude to help them hack into OpenAI",
+      "source": {
+        "name": "The Verge — Artificial Intelligence",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/997444/openai-hack-claude-heif-heist",
+        "publishedDate": "2026-09-18"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6aad6534973e5619cf730e11",
+      "category": "models",
+      "headline": "Apple Loop: iIPhone 18 Pro Camera, iOS 27 Changes, M6 MacBook Benchmarks",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/sites/ewanspence/2026/09/18/apple-news-headlines-iphone-18-pro-camera-test-ios27-macos27-iphone-duo-m6-benchmarking/",
+        "publishedDate": "2026-09-18"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6aad8835cc4ef5c8701fe267",
+      "category": "research",
+      "headline": "Whoop It Up: Scaling A Supply Chain To Support Hypergrowth",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/sites/stevebanker/2026/09/18/whoop-it-up-scaling-a-supply-chain-to-support-hypergrowth/",
         "publishedDate": "2026-09-18"
       },
       "traceToAnchors": []
@@ -593,72 +659,6 @@
         "name": "NVIDIA — Technical Blog",
         "url": "https://developer.nvidia.com/blog/how-nvidia-groq-3-lpx-deterministic-execution-drives-power-efficient-high-interactivity-inference-on-nvidia-vera-rubin/",
         "publishedDate": "2026-09-15"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3164506",
-      "category": "compute-energy",
-      "headline": "The AI data center boom is colliding with cities scarred by big industry",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/09/15/the-ai-data-center-boom-is-colliding-with-cities-scarred-by-big-industry/",
-        "publishedDate": "2026-09-15"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theverge.com/?p=995917",
-      "category": "compute-energy",
-      "headline": "AI and data centers are incredibly unpopular in every poll",
-      "source": {
-        "name": "The Verge — Artificial Intelligence",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/995917/data-center-nyt-midterm-poll-september",
-        "publishedDate": "2026-09-15"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "6a9585f1b479cd2d026f6fc0",
-      "category": "safety-governance",
-      "headline": "‘I Like My Big Rat Wife’: Meet the People Using Chatbots to Write Custom Fiction",
-      "source": {
-        "name": "Wired — Artificial Intelligence",
-        "url": "https://www.wired.com/story/chatbot-generated-fiction-i-like-my-big-rat-wife/",
-        "publishedDate": "2026-09-14"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6aa4268f2729621fbbe8baaa",
-      "category": "compute-energy",
-      "headline": "The Unmade Decision: What Your Infrastructure Chooses When You Haven't",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/councils/forbestechcouncil/2026/09/14/the-unmade-decision-what-your-infrastructure-chooses-when-you-havent/",
-        "publishedDate": "2026-09-14"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.technologyreview.com/?p=1144037",
-      "category": "safety-governance",
-      "headline": "AI agents blew the whistle on their cheating colleagues",
-      "source": {
-        "name": "MIT Technology Review — Artificial Intelligence",
-        "url": "https://www.technologyreview.com/2026/09/14/1144037/ai-agents-blew-whistle-o-cheating-colleagues/",
-        "publishedDate": "2026-09-14"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3162850",
-      "category": "models",
-      "headline": "Fashion app Daydream uses Apple Intelligence to help you shop the outfits in your camera roll",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/09/14/fashion-discovery-app-daydream-uses-apple-intelligence-to-help-you-shop-the-outfits-saved-in-your-camera-roll/",
-        "publishedDate": "2026-09-14"
       },
       "traceToAnchors": []
     }

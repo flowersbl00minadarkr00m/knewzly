@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-18T02:51:12.285Z",
+  "lastUpdated": "2026-09-18T10:26:50.606Z",
   "freshnessState": "fresh",
   "stories": [
     {
@@ -9,6 +9,17 @@
       "source": {
         "name": "Forbes — Innovation",
         "url": "https://www.forbes.com/sites/ray-fernandez/2026/09/17/agentic-marketing-and-brand-safety-what-decision-makers-need-to-know/",
+        "publishedDate": "2026-09-18"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6aac65b4aa31b1b1280633ef",
+      "category": "research",
+      "headline": "New ‘Reinforcement Learning For Calibrated Decisions’ Makes AI Headlines But Look Past The Hype",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/sites/lanceeliot/2026/09/18/new-reinforcement-learning-for-calibrated-decisions-makes-ai-headlines-but-look-past-the-hype/",
         "publishedDate": "2026-09-18"
       },
       "traceToAnchors": []
@@ -648,17 +659,6 @@
         "name": "Forbes — Innovation",
         "url": "https://www.forbes.com/sites/delltechnologies/2026/09/14/agentic-ai-in-insurance-from-pilot-to-production-at-scale/",
         "publishedDate": "2026-09-14"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6aa42c0b714a99172bcd168b",
-      "category": "models",
-      "headline": "What To Watch This Weekend: New Shows And Movies To Stream On Netflix, Hulu, Prime Video, Apple TV And More",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/sites/erikkain/2026/09/13/what-to-watch-this-weekend-new-shows-and-movies-to-stream-on-netflix-hulu-prime-video-apple-tv-and-more/",
-        "publishedDate": "2026-09-13"
       },
       "traceToAnchors": []
     }

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-18T10:26:50.606Z",
+  "lastUpdated": "2026-09-18T15:41:46.518Z",
   "freshnessState": "fresh",
   "stories": [
     {
@@ -20,6 +20,72 @@
       "source": {
         "name": "Forbes — Innovation",
         "url": "https://www.forbes.com/sites/lanceeliot/2026/09/18/new-reinforcement-learning-for-calibrated-decisions-makes-ai-headlines-but-look-past-the-hype/",
+        "publishedDate": "2026-09-18"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3166065",
+      "category": "models",
+      "headline": "Meta&#8217;s Muse hits Mac, letting the AI take actions on your computer",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/09/18/metas-muse-hits-mac-letting-the-ai-take-actions-on-your-computer/",
+        "publishedDate": "2026-09-18"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3166021",
+      "category": "models",
+      "headline": "Researchers used Anthropic&#8217;s Claude to hack into OpenAI",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/09/18/researchers-used-anthropics-claude-to-hack-into-openai/",
+        "publishedDate": "2026-09-18"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "6aac1caf95452e2ba085c896",
+      "category": "compute-energy",
+      "headline": "Adopt This Data Center Plushie and Hear Its Piercing Scream",
+      "source": {
+        "name": "Wired — Artificial Intelligence",
+        "url": "https://www.wired.com/story/adopt-this-data-center-plushie-and-hear-its-piercing-scream/",
+        "publishedDate": "2026-09-18"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://tldr.tech/ai/2026-09-18",
+      "category": "models",
+      "headline": "Claude Projects v2 💼, Google family agent 👨‍👩‍👧‍👦,",
+      "source": {
+        "name": "TLDR AI",
+        "url": "https://tldr.tech/ai/2026-09-18",
+        "publishedDate": "2026-09-18"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6aac48783073ce8d32f0a4e6",
+      "category": "models",
+      "headline": "Presidents Trump and Xi’s AI Visions Could Not Be More Different",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/sites/timbajarin/2026/09/18/presidents-trump-and-xis-ai-visions-could-not-be-more-different/",
+        "publishedDate": "2026-09-18"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6aad40aa5c20550fb2579061",
+      "category": "research",
+      "headline": "iOS 27—Apple Just Gave iPhone Users 120 Reasons To Update Now",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/sites/kateoflahertyuk/2026/09/18/ios-27-apple-just-gave-iphone-users-120-reasons-to-update-now/",
         "publishedDate": "2026-09-18"
       },
       "traceToAnchors": []
@@ -592,72 +658,6 @@
       "source": {
         "name": "TechCrunch — Artificial Intelligence",
         "url": "https://techcrunch.com/2026/09/14/fashion-discovery-app-daydream-uses-apple-intelligence-to-help-you-shop-the-outfits-saved-in-your-camera-roll/",
-        "publishedDate": "2026-09-14"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3163598",
-      "category": "ai-lifecycle",
-      "headline": "Microsoft&#8217;s new AI &#8216;code of conduct&#8217; tells models not to hack systems or trick humans",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/09/14/microsofts-new-ai-code-of-conduct-tells-models-not-to-hack-systems-or-trick-humans/",
-        "publishedDate": "2026-09-14"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3163060",
-      "category": "ai-lifecycle",
-      "headline": "Superhuman acquires YC-backed notetaker Fathom as productivity platforms push for agentic work",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/09/14/superhuman-acquires-yc-backed-notetaker-fathom-as-productivity-platforms-push-for-agentic-work/",
-        "publishedDate": "2026-09-14"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theverge.com/?p=994566",
-      "category": "safety-governance",
-      "headline": "Microsoft says ‘people matter more than AI’ following safety concerns",
-      "source": {
-        "name": "The Verge — Artificial Intelligence",
-        "url": "https://www.theverge.com/news/994566/microsoft-humanist-ai-code-of-conduct",
-        "publishedDate": "2026-09-14"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6aa7f7aba5b109946d83dcfc",
-      "category": "models",
-      "headline": "Apple's First 2nm IPhone Joins A Chip Race It Is Paying More To Lead",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/sites/jonmarkman/2026/09/14/apples-first-2nm-iphone-joins-a-chip-race-it-is-paying-more-to-lead/",
-        "publishedDate": "2026-09-14"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theverge.com/?p=995079",
-      "category": "research",
-      "headline": "Jensen Huang puts Trump on speakerphone onstage to announce robots won’t take over the world",
-      "source": {
-        "name": "The Verge — Artificial Intelligence",
-        "url": "https://www.theverge.com/tech/995079/president-donald-trump-calls-nvidia-ceo-jensen-huang-all-in-summit",
-        "publishedDate": "2026-09-14"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6aa8326d6bfcf1906f0e123e",
-      "category": "ai-lifecycle",
-      "headline": "Agentic AI In Insurance: From Pilot To Production At Scale",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/sites/delltechnologies/2026/09/14/agentic-ai-in-insurance-from-pilot-to-production-at-scale/",
         "publishedDate": "2026-09-14"
       },
       "traceToAnchors": []

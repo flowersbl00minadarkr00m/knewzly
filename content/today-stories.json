@@ -1,7 +1,18 @@
 {
-  "lastUpdated": "2026-09-17T20:53:00.711Z",
+  "lastUpdated": "2026-09-18T02:51:12.285Z",
   "freshnessState": "fresh",
   "stories": [
+    {
+      "id": "content_6aac70523073ce8d32f0a4f5",
+      "category": "ai-lifecycle",
+      "headline": "Agentic Marketing And Brand Safety: What Decision-Makers Need To Know",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/sites/ray-fernandez/2026/09/17/agentic-marketing-and-brand-safety-what-decision-makers-need-to-know/",
+        "publishedDate": "2026-09-18"
+      },
+      "traceToAnchors": []
+    },
     {
       "id": "https://www.theneurondaily.com/p/openai-discloses-more-concerning-agent-behavior",
       "category": "models",
@@ -141,6 +152,39 @@
       "source": {
         "name": "Forbes — Innovation",
         "url": "https://www.forbes.com/councils/forbestechcouncil/2026/09/17/why-physical-ai-needs-a-new-architecture-to-scale/",
+        "publishedDate": "2026-09-17"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://openai.com/index/cooley-gopublic",
+      "category": "ai-lifecycle",
+      "headline": "How Cooley is accelerating IPO work with ChatGPT",
+      "source": {
+        "name": "OpenAI — News",
+        "url": "https://openai.com/index/cooley-gopublic",
+        "publishedDate": "2026-09-17"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3165830",
+      "category": "compute-energy",
+      "headline": "Crusoe raises $3.9B to build massive data centers and small modular &#8216;AI factories&#8217;",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/09/17/crusoe-raises-3-9b-to-build-massive-data-centers-and-small-modular-ai-factories/",
+        "publishedDate": "2026-09-17"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3165803",
+      "category": "models",
+      "headline": "Google DeepMind launches institute to widen the AGI debate",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/09/17/google-deepmind-launches-institute-to-widen-the-agi-debate/",
         "publishedDate": "2026-09-17"
       },
       "traceToAnchors": []
@@ -615,50 +659,6 @@
         "name": "Forbes — Innovation",
         "url": "https://www.forbes.com/sites/erikkain/2026/09/13/what-to-watch-this-weekend-new-shows-and-movies-to-stream-on-netflix-hulu-prime-video-apple-tv-and-more/",
         "publishedDate": "2026-09-13"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6aa43bb72e5782eb20c5f005",
-      "category": "safety-governance",
-      "headline": "Mollick Writes About Agent Swarms And Hugging Face Debacle",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/sites/johnwerner/2026/09/12/mollick-writes-about-agent-swarms-and-hugging-face-debacle/",
-        "publishedDate": "2026-09-12"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6aa4c183c328db4e1a8245a7",
-      "category": "models",
-      "headline": "Looking Back On Both ‘Metroid Fusion’ And ‘Metroid: Zero Mission’",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/sites/olliebarder/2026/09/11/looking-back-on-both-metroid-fusion-and--metroid-zero-mission/",
-        "publishedDate": "2026-09-12"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theverge.com/?p=994112",
-      "category": "compute-energy",
-      "headline": "Trump is giving data centers a pass to pollute",
-      "source": {
-        "name": "The Verge — Artificial Intelligence",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/994112/ai-data-center-pollution-health-epa",
-        "publishedDate": "2026-09-12"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6aa595847cff6046f2c45684",
-      "category": "safety-governance",
-      "headline": "The Benefits And Risks Every Business Leader Needs To Understand About AI",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/sites/chuckbrooks/2026/09/12/the-benefits-and-risks-every-business-leader-needs-to-understand-about-ai/",
-        "publishedDate": "2026-09-12"
       },
       "traceToAnchors": []
     }

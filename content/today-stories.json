@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-19T15:13:26.087Z",
+  "lastUpdated": "2026-09-19T19:56:25.508Z",
   "freshnessState": "fresh",
   "stories": [
     {
@@ -9,6 +9,28 @@
       "source": {
         "name": "TechCrunch — Artificial Intelligence",
         "url": "https://techcrunch.com/2026/09/19/vals-backed-by-andreessen-horowitz-is-looking-to-become-the-gold-standard-for-ai-benchmarking/",
+        "publishedDate": "2026-09-19"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3166647",
+      "category": "models",
+      "headline": "Google’s Gemini is the latest AI model to hack other companies",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/09/19/googles-gemini-is-the-latest-ai-model-to-hack-other-companies/",
+        "publishedDate": "2026-09-19"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theverge.com/?p=997795",
+      "category": "models",
+      "headline": "Gemini went rogue, hacked three companies, and Google hid it",
+      "source": {
+        "name": "The Verge — Artificial Intelligence",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/997795/google-gemini-rogue-ai-hack",
         "publishedDate": "2026-09-19"
       },
       "traceToAnchors": []
@@ -636,28 +658,6 @@
       "source": {
         "name": "TechCrunch — Artificial Intelligence",
         "url": "https://techcrunch.com/2026/09/15/us-data-centers-could-consume-more-natural-gas-than-germany-and-japan-combined-by-2035/",
-        "publishedDate": "2026-09-15"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6aa98f5625987ab001a684bf",
-      "category": "models",
-      "headline": "The CPU Is Back Thanks To Agents, And What That Means For You",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/sites/sandycarter/2026/09/15/the-cpu-is-back-thanks-to-agents-and-what-that-means-for-you/",
-        "publishedDate": "2026-09-15"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6aa982104ae02f2955596d39",
-      "category": "models",
-      "headline": "Better Cybersecurity Should Be Responsible For Containing AI Threats",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/sites/chuckbrooks/2026/09/15/better-cybersecurity-should-be-responsible-for-containing-ai-threats/",
         "publishedDate": "2026-09-15"
       },
       "traceToAnchors": []

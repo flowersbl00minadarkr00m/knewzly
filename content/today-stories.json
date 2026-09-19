@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-18T20:18:11.403Z",
+  "lastUpdated": "2026-09-19T02:49:30.590Z",
   "freshnessState": "fresh",
   "stories": [
     {
@@ -152,6 +152,28 @@
       "source": {
         "name": "Forbes — Innovation",
         "url": "https://www.forbes.com/sites/stevebanker/2026/09/18/whoop-it-up-scaling-a-supply-chain-to-support-hypergrowth/",
+        "publishedDate": "2026-09-18"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3166504",
+      "category": "research",
+      "headline": "A startup that builds other startups raised $100M and is all-in on physical AI",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/09/18/a-startup-that-builds-other-startups-raised-100m-and-is-all-in-on-physical-ai/",
+        "publishedDate": "2026-09-18"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6aad81c9cc4ef5c8701fe264",
+      "category": "models",
+      "headline": "What To Watch This Weekend: New Shows And Movies To Stream On Netflix, Hulu, Prime Video, Apple TV And More",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/sites/erikkain/2026/09/18/what-to-watch-this-weekend-new-shows-and-movies-to-stream-on-netflix-hulu-prime-video-apple-tv-and-more/",
         "publishedDate": "2026-09-18"
       },
       "traceToAnchors": []
@@ -636,28 +658,6 @@
       "source": {
         "name": "Forbes — Innovation",
         "url": "https://www.forbes.com/councils/forbestechcouncil/2026/09/15/signs-your-software-is-no-longer-delivering-value/",
-        "publishedDate": "2026-09-15"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6aa88e587e6733f7e8dccac7",
-      "category": "models",
-      "headline": "Anthropic Puts Claude On Small Business Sales After 900,000 Installs",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/sites/boazsobrado/2026/09/15/anthropic-puts-claude-on-small-business-sales-after-900000-installs/",
-        "publishedDate": "2026-09-15"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://developer.nvidia.com/blog/?p=122482",
-      "category": "ai-lifecycle",
-      "headline": "How NVIDIA Groq 3 LPX Deterministic Execution Drives Power-Efficient High-Interactivity Inference on NVIDIA Vera Rubin",
-      "source": {
-        "name": "NVIDIA — Technical Blog",
-        "url": "https://developer.nvidia.com/blog/how-nvidia-groq-3-lpx-deterministic-execution-drives-power-efficient-high-interactivity-inference-on-nvidia-vera-rubin/",
         "publishedDate": "2026-09-15"
       },
       "traceToAnchors": []

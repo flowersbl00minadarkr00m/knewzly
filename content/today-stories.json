@@ -1,7 +1,18 @@
 {
-  "lastUpdated": "2026-09-19T10:11:20.062Z",
+  "lastUpdated": "2026-09-19T15:13:26.087Z",
   "freshnessState": "fresh",
   "stories": [
+    {
+      "id": "https://techcrunch.com/?p=3161565",
+      "category": "models",
+      "headline": "Vals, backed by Andreessen Horowitz, is looking to become the gold standard for AI benchmarking",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/09/19/vals-backed-by-andreessen-horowitz-is-looking-to-become-the-gold-standard-for-ai-benchmarking/",
+        "publishedDate": "2026-09-19"
+      },
+      "traceToAnchors": []
+    },
     {
       "id": "content_6aac70523073ce8d32f0a4f5",
       "category": "ai-lifecycle",
@@ -647,17 +658,6 @@
       "source": {
         "name": "Forbes — Innovation",
         "url": "https://www.forbes.com/sites/chuckbrooks/2026/09/15/better-cybersecurity-should-be-responsible-for-containing-ai-threats/",
-        "publishedDate": "2026-09-15"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6aa46132cc1e90012b7e7d4d",
-      "category": "research",
-      "headline": "Signs Your Software Is No Longer Delivering Value",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/councils/forbestechcouncil/2026/09/15/signs-your-software-is-no-longer-delivering-value/",
         "publishedDate": "2026-09-15"
       },
       "traceToAnchors": []

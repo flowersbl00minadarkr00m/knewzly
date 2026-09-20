@@ -1,7 +1,29 @@
 {
-  "lastUpdated": "2026-09-20T10:29:56.086Z",
+  "lastUpdated": "2026-09-20T15:18:15.613Z",
   "freshnessState": "fresh",
   "stories": [
+    {
+      "id": "6aa95711718bdbe1c32c1f53",
+      "category": "models",
+      "headline": "Meta's Muse Is Better at Surveilling Than Helping Me",
+      "source": {
+        "name": "Wired — Artificial Intelligence",
+        "url": "https://www.wired.com/story/metas-muse-is-better-at-surveilling-than-helping-me/",
+        "publishedDate": "2026-09-20"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "6aad77e18ffbfab4b483ed15",
+      "category": "compute-energy",
+      "headline": "It’s Donald Trump Versus MAGA on Data Centers",
+      "source": {
+        "name": "Wired — Artificial Intelligence",
+        "url": "https://www.wired.com/story/donald-trump-versus-maga-on-data-centers/",
+        "publishedDate": "2026-09-20"
+      },
+      "traceToAnchors": []
+    },
     {
       "id": "https://techcrunch.com/?p=3161565",
       "category": "models",
@@ -636,28 +658,6 @@
       "source": {
         "name": "NVIDIA — Technical Blog",
         "url": "https://developer.nvidia.com/blog/scaling-federated-learning-across-docker-kubernetes-and-slurm-with-nvidia-flare/",
-        "publishedDate": "2026-09-15"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/",
-      "category": "models",
-      "headline": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
-      "source": {
-        "name": "Google DeepMind — Blog",
-        "url": "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/",
-        "publishedDate": "2026-09-15"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3164453",
-      "category": "models",
-      "headline": "Meta now lets AI agents handle the boring parts of WhatsApp Business setup",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/09/15/meta-now-lets-ai-agents-handle-the-boring-parts-of-whatsapp-business-setup/",
         "publishedDate": "2026-09-15"
       },
       "traceToAnchors": []

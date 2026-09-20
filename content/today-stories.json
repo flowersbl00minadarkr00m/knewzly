@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-19T19:56:25.508Z",
+  "lastUpdated": "2026-09-20T03:01:36.444Z",
   "freshnessState": "fresh",
   "stories": [
     {
@@ -31,6 +31,17 @@
       "source": {
         "name": "The Verge — Artificial Intelligence",
         "url": "https://www.theverge.com/ai-artificial-intelligence/997795/google-gemini-rogue-ai-hack",
+        "publishedDate": "2026-09-19"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theverge.com/?p=997833",
+      "category": "models",
+      "headline": "Meta’s Muse is creepy, but maybe not for the reasons you think",
+      "source": {
+        "name": "The Verge — Artificial Intelligence",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/997833/meta-muse-creepy",
         "publishedDate": "2026-09-19"
       },
       "traceToAnchors": []
@@ -647,17 +658,6 @@
       "source": {
         "name": "TechCrunch — Artificial Intelligence",
         "url": "https://techcrunch.com/2026/09/15/meta-now-lets-ai-agents-handle-the-boring-parts-of-whatsapp-business-setup/",
-        "publishedDate": "2026-09-15"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3164442",
-      "category": "research",
-      "headline": "US data centers could consume more natural gas than Germany and Japan combined by 2035",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/09/15/us-data-centers-could-consume-more-natural-gas-than-germany-and-japan-combined-by-2035/",
         "publishedDate": "2026-09-15"
       },
       "traceToAnchors": []

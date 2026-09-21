@@ -1,7 +1,40 @@
 {
-  "lastUpdated": "2026-09-21T02:58:43.018Z",
+  "lastUpdated": "2026-09-21T11:47:52.165Z",
   "freshnessState": "fresh",
   "stories": [
+    {
+      "id": "https://www.theverge.com/?p=998078",
+      "category": "models",
+      "headline": "Amazon doesn’t trust Meta’s Muse AI agent",
+      "source": {
+        "name": "The Verge — Artificial Intelligence",
+        "url": "https://www.theverge.com/tech/998078/amazon-blocks-meta-muse-ai-agent-shopping",
+        "publishedDate": "2026-09-21"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6aa1c22e9312b0cfc627cd50",
+      "category": "compute-energy",
+      "headline": "How Safe Is It To Live Near A Data Center?",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/sites/technology/article/are-data-centers-dangerous/",
+        "publishedDate": "2026-09-21"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6aad4367579d609566aa862d",
+      "category": "research",
+      "headline": "The AI Validation Bottleneck: Why 80% AI Adoption Has Not Made Software Delivery Faster",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/councils/forbestechcouncil/2026/09/21/the-ai-validation-bottleneck-why-80-ai-adoption-has-not-made-software-delivery-faster/",
+        "publishedDate": "2026-09-21"
+      },
+      "traceToAnchors": []
+    },
     {
       "id": "6aa95711718bdbe1c32c1f53",
       "category": "models",
@@ -625,39 +658,6 @@
       "source": {
         "name": "TLDR AI",
         "url": "https://tldr.tech/ai/2026-09-15",
-        "publishedDate": "2026-09-15"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6aa86d725bff535466834273",
-      "category": "ai-lifecycle",
-      "headline": "How To Build AI Skills That Scale Into Agents",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/councils/forbestechcouncil/2026/09/15/how-to-build-ai-skills-that-scale-into-agents/",
-        "publishedDate": "2026-09-15"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6aa339a4695a0605f7a48cfd",
-      "category": "models",
-      "headline": "How Better Data Helps AI Find Its Rhythm",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/sites/garydrenik/2026/09/15/how-better-data-helps-ai-find-its-rhythm/",
-        "publishedDate": "2026-09-15"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://developer.nvidia.com/blog/?p=122520",
-      "category": "ai-lifecycle",
-      "headline": "Scaling Federated Learning Across Docker, Kubernetes, and Slurm with NVIDIA FLARE",
-      "source": {
-        "name": "NVIDIA — Technical Blog",
-        "url": "https://developer.nvidia.com/blog/scaling-federated-learning-across-docker-kubernetes-and-slurm-with-nvidia-flare/",
         "publishedDate": "2026-09-15"
       },
       "traceToAnchors": []

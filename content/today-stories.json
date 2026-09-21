@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-09-21T11:47:52.165Z",
+  "lastUpdated": "2026-09-21T17:43:29.320Z",
   "freshnessState": "fresh",
   "stories": [
     {
       "id": "https://www.theverge.com/?p=998078",
       "category": "models",
-      "headline": "Amazon doesn’t trust Meta’s Muse AI agent",
+      "headline": "Amazon blocks Meta’s Muse AI agent",
       "source": {
         "name": "The Verge — Artificial Intelligence",
         "url": "https://www.theverge.com/tech/998078/amazon-blocks-meta-muse-ai-agent-shopping",
@@ -31,6 +31,50 @@
       "source": {
         "name": "Forbes — Innovation",
         "url": "https://www.forbes.com/councils/forbestechcouncil/2026/09/21/the-ai-validation-bottleneck-why-80-ai-adoption-has-not-made-software-delivery-faster/",
+        "publishedDate": "2026-09-21"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3166744",
+      "category": "research",
+      "headline": "Where will the next breakout startup come from? Benchmark’s full partnership weighs in at TechCrunch Disrupt 2026",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/09/21/where-will-the-next-breakout-startup-come-from-benchmarks-full-partnership-weighs-in-at-techcrunch-disrupt-2026/",
+        "publishedDate": "2026-09-21"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3166866",
+      "category": "models",
+      "headline": "Google&#8217;s $899 Googlebook is a bet that you&#8217;ll buy a new laptop for Gemini",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/09/21/googles-899-googlebook-is-a-bet-that-youll-buy-a-new-laptop-for-gemini/",
+        "publishedDate": "2026-09-21"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theverge.com/?p=996874",
+      "category": "research",
+      "headline": "Can John Ternus find Apple’s next big thing?",
+      "source": {
+        "name": "The Verge — Artificial Intelligence",
+        "url": "https://www.theverge.com/podcast/996874/apple-john-ternus-tim-cook-mark-gurman-future-ai-siri-iphone",
+        "publishedDate": "2026-09-21"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://tldr.tech/ai/2026-09-21",
+      "category": "models",
+      "headline": "Muse connectors 🤖, Meta SAM 3.1 🖼️, Gemini hacks companies 🔓",
+      "source": {
+        "name": "TLDR AI",
+        "url": "https://tldr.tech/ai/2026-09-21",
         "publishedDate": "2026-09-21"
       },
       "traceToAnchors": []
@@ -614,50 +658,6 @@
       "source": {
         "name": "Forbes — Innovation",
         "url": "https://www.forbes.com/sites/johnwerner/2026/09/15/the-ai-leader-mindset-a-new-book-calls-for-action/",
-        "publishedDate": "2026-09-15"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3164278",
-      "category": "models",
-      "headline": "OpenAI, Anthropic, Google have been in talks on AI safety for weeks",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/09/15/openai-anthropic-google-have-been-in-talks-on-ai-safety-for-weeks/",
-        "publishedDate": "2026-09-15"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3163310",
-      "category": "models",
-      "headline": "Early Anthropic hire, former METR COO have found a way to rein in rogue AI agents",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/09/15/early-anthropic-hire-former-metr-coo-have-found-a-way-to-rein-in-rogue-ai-agents/",
-        "publishedDate": "2026-09-15"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3163913",
-      "category": "ai-lifecycle",
-      "headline": "Salesforce and Nvidia&#8217;s new reasoning model is everything the AI labs should fear",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/09/15/salesforce-and-nvidias-new-reasoning-model-is-everything-the-ai-labs-should-fear/",
-        "publishedDate": "2026-09-15"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://tldr.tech/ai/2026-09-15",
-      "category": "safety-governance",
-      "headline": "Siri model swapping 🔄, Claude Money 💰, Hugging Face Tau 👨‍💻",
-      "source": {
-        "name": "TLDR AI",
-        "url": "https://tldr.tech/ai/2026-09-15",
         "publishedDate": "2026-09-15"
       },
       "traceToAnchors": []

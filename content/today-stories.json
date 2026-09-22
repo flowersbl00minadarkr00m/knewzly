@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-21T21:36:42.099Z",
+  "lastUpdated": "2026-09-22T02:58:40.273Z",
   "freshnessState": "fresh",
   "stories": [
     {
@@ -108,6 +108,28 @@
       "source": {
         "name": "The Verge — Artificial Intelligence",
         "url": "https://www.theverge.com/ai-artificial-intelligence/998453/california-ai-data-center-bills",
+        "publishedDate": "2026-09-21"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6ab1af7c2aba6090e86d2951",
+      "category": "research",
+      "headline": "Figure’s Billion-Dollar Physical AI Bet Delivered A 6X Jump In Robot Chore Success",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/sites/johnkoetsier/2026/09/21/figures-billion-dollar-physical-ai-bet-delivered-a-6x-jump-in-robot-chore-success/",
+        "publishedDate": "2026-09-21"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://developer.nvidia.com/blog/?p=122739",
+      "category": "ai-lifecycle",
+      "headline": "Simplifying Model Serving Across Multiple GPUs with NVIDIA TensorRT Multi-Device Integration in NVIDIA Dynamo-Triton",
+      "source": {
+        "name": "NVIDIA — Technical Blog",
+        "url": "https://developer.nvidia.com/blog/simplifying-model-serving-across-multiple-gpus-with-nvidia-tensorrt-multi-device-integration-in-nvidia-dynamo-triton/",
         "publishedDate": "2026-09-21"
       },
       "traceToAnchors": []
@@ -636,28 +658,6 @@
       "source": {
         "name": "NVIDIA — Technical Blog",
         "url": "https://developer.nvidia.com/blog/translating-cuda-tile-operations-from-python-to-rust-using-agentic-ai/",
-        "publishedDate": "2026-09-16"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3165204",
-      "category": "compute-energy",
-      "headline": "Al Gore says the real AI risk isn&#8217;t data centers",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/09/16/al-gore-has-a-surprisingly-calm-take-on-the-ai-data-center-backlash/",
-        "publishedDate": "2026-09-16"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3165076",
-      "category": "safety-governance",
-      "headline": "Anthropic and OpenAI want to embed safety evaluators. Will they really be independent?",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/09/16/anthropic-and-openai-want-to-embed-safety-evaluators-will-they-really-be-independent/",
         "publishedDate": "2026-09-16"
       },
       "traceToAnchors": []

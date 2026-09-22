@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-22T10:49:59.158Z",
+  "lastUpdated": "2026-09-22T16:08:54.928Z",
   "freshnessState": "fresh",
   "stories": [
     {
@@ -31,6 +31,83 @@
       "source": {
         "name": "Hugging Face — Blog",
         "url": "https://huggingface.co/blog/omlx",
+        "publishedDate": "2026-09-22"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3167451",
+      "category": "research",
+      "headline": "AstroForge is putting AI in command of its next spacecraft",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/09/22/astroforge-is-putting-ai-in-command-of-its-next-spacecraft/",
+        "publishedDate": "2026-09-22"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3167216",
+      "category": "compute-energy",
+      "headline": "Everyone can find a reason to dislike data center construction",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/09/22/everyone-can-find-a-reason-to-dislike-data-center-construction/",
+        "publishedDate": "2026-09-22"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theverge.com/?p=998679",
+      "category": "models",
+      "headline": "Meta patches Muse exploit that let attackers control the AI agent",
+      "source": {
+        "name": "The Verge — Artificial Intelligence",
+        "url": "https://www.theverge.com/tech/998679/meta-muse-patch-zero-day-exploit-ai-agent",
+        "publishedDate": "2026-09-22"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "6ab132184889b7f47da96288",
+      "category": "models",
+      "headline": "Rabbit Is Back, This Time With an AI Agent App",
+      "source": {
+        "name": "Wired — Artificial Intelligence",
+        "url": "https://www.wired.com/story/rabbit-r1-os3-jesse-lyu/",
+        "publishedDate": "2026-09-22"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6ab27af5155cee2e8ed0ebde",
+      "category": "research",
+      "headline": "Are We Measuring Innovations By The Wrong Scorecard? New Research Says We May Be.",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/sites/dougmelville/2026/09/22/are-we-measuring-innovations-by-the-wrong-scorecard-new-research-says-we-may-be/",
+        "publishedDate": "2026-09-22"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://developer.nvidia.com/blog/?p=122769",
+      "category": "models",
+      "headline": "What’s New for Game Developers: DLSS 5 with 3D-Guided Neural Rendering, NVIDIA ACE Updates, and New RTX Kit Capabilities",
+      "source": {
+        "name": "NVIDIA — Technical Blog",
+        "url": "https://developer.nvidia.com/blog/whats-new-for-game-developers-dlss-5-with-3d-guided-neural-rendering-nvidia-ace-updates-and-new-rtx-kit-capabilities/",
+        "publishedDate": "2026-09-22"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://developer.nvidia.com/blog/?p=122571",
+      "category": "ai-lifecycle",
+      "headline": "Accelerating a ROS 2 Node with an AI Agent and NVIDIA Isaac ROS",
+      "source": {
+        "name": "NVIDIA — Technical Blog",
+        "url": "https://developer.nvidia.com/blog/accelerating-a-ros-2-node-with-an-ai-agent-and-nvidia-isaac-ros/",
         "publishedDate": "2026-09-22"
       },
       "traceToAnchors": []
@@ -582,83 +659,6 @@
         "name": "TechCrunch — Artificial Intelligence",
         "url": "https://techcrunch.com/2026/09/17/google-deepmind-launches-institute-to-widen-the-agi-debate/",
         "publishedDate": "2026-09-17"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3164495",
-      "category": "safety-governance",
-      "headline": "We don&#8217;t need AI regulation — leave safety to us, Nvidia&#8217;s Jensen Huang says",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/09/15/we-dont-need-ai-regulation-leave-safety-to-us-nvidias-jensen-huang-says/",
-        "publishedDate": "2026-09-16"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3164631",
-      "category": "ai-lifecycle",
-      "headline": "Robots are waiting for a ChatGPT moment: Nvidia’s Les Karpas explains why at TechCrunch Disrupt 2026",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/09/16/robots-are-waiting-for-a-chatgpt-moment-nvidias-les-karpas-explains-why-at-techcrunch-disrupt-2026/",
-        "publishedDate": "2026-09-16"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theverge.com/?p=995534",
-      "category": "safety-governance",
-      "headline": "A brief history of AI executives calling for regulation",
-      "source": {
-        "name": "The Verge — Artificial Intelligence",
-        "url": "https://www.theverge.com/policy/995534/a-brief-history-of-ai-executives-calling-for-regulation",
-        "publishedDate": "2026-09-16"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6aa99456ea0496f25293d403",
-      "category": "research",
-      "headline": "The Next Search War Isn't About Rankings—It's About AI Recommendations",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/councils/forbestechcouncil/2026/09/16/the-next-search-war-isnt-about-rankings-its-about-ai-recommendations/",
-        "publishedDate": "2026-09-16"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3164815",
-      "category": "models",
-      "headline": "Your AI agents can now control your Google Home devices",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/09/16/your-ai-agents-can-now-control-your-google-home-devices/",
-        "publishedDate": "2026-09-16"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3164745",
-      "category": "models",
-      "headline": "Anthropic merges Claude chat and Cowork in one interface",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/09/16/anthropic-merges-claude-chat-and-cowork-in-one-interface/",
-        "publishedDate": "2026-09-16"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theverge.com/?p=996310",
-      "category": "models",
-      "headline": "Google will now let any AI agent run your smart home",
-      "source": {
-        "name": "The Verge — Artificial Intelligence",
-        "url": "https://www.theverge.com/tech/996310/google-home-mcp-integration-agentic-ai-smart-home-price-release-date",
-        "publishedDate": "2026-09-16"
       },
       "traceToAnchors": []
     }

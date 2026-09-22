@@ -1,7 +1,40 @@
 {
-  "lastUpdated": "2026-09-22T02:58:40.273Z",
+  "lastUpdated": "2026-09-22T10:49:59.158Z",
   "freshnessState": "fresh",
   "stories": [
+    {
+      "id": "https://www.theneurondaily.com/p/amazon-blocked-meta-s-muse-from-shopping",
+      "category": "models",
+      "headline": "😺 Amazon blocked Meta’s Muse from shopping",
+      "source": {
+        "name": "The Neuron",
+        "url": "https://www.theneurondaily.com/p/amazon-blocked-meta-s-muse-from-shopping",
+        "publishedDate": "2026-09-22"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6ab147f9466e493befbd639f",
+      "category": "research",
+      "headline": "​Why Self-Serve Data Is The Next Member Service Battleground",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/councils/forbestechcouncil/2026/09/22/why-self-serve-data-is-the-next-member-service-battleground/",
+        "publishedDate": "2026-09-22"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://huggingface.co/blog/omlx",
+      "category": "safety-governance",
+      "headline": "Jun Kim, oMLX creator and maintainer, joins Hugging Face to support the MLX community",
+      "source": {
+        "name": "Hugging Face — Blog",
+        "url": "https://huggingface.co/blog/omlx",
+        "publishedDate": "2026-09-22"
+      },
+      "traceToAnchors": []
+    },
     {
       "id": "https://www.theverge.com/?p=998078",
       "category": "models",
@@ -625,39 +658,6 @@
       "source": {
         "name": "The Verge — Artificial Intelligence",
         "url": "https://www.theverge.com/tech/996310/google-home-mcp-integration-agentic-ai-smart-home-price-release-date",
-        "publishedDate": "2026-09-16"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theverge.com/?p=996234",
-      "category": "models",
-      "headline": "Claude comes for Gemini with its own take on Docs and Slides",
-      "source": {
-        "name": "The Verge — Artificial Intelligence",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/996234/anthropic-one-claude-cowork-docs-slides",
-        "publishedDate": "2026-09-16"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://developer.nvidia.com/blog/?p=122604",
-      "category": "models",
-      "headline": "TensorRT Edge-LLM Completes the MLPerf Edge Agentic Benchmark 6.4x Faster on Jetson AGX Thor",
-      "source": {
-        "name": "NVIDIA — Technical Blog",
-        "url": "https://developer.nvidia.com/blog/tensorrt-edge-llm-completes-the-mlperf-edge-agentic-benchmark-6-4x-faster-on-jetson-agx-thor/",
-        "publishedDate": "2026-09-16"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://developer.nvidia.com/blog/?p=122428",
-      "category": "ai-lifecycle",
-      "headline": "Translating CUDA Tile Operations from Python to Rust Using Agentic AI",
-      "source": {
-        "name": "NVIDIA — Technical Blog",
-        "url": "https://developer.nvidia.com/blog/translating-cuda-tile-operations-from-python-to-rust-using-agentic-ai/",
         "publishedDate": "2026-09-16"
       },
       "traceToAnchors": []

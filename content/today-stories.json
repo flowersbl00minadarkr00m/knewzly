@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-22T16:08:54.928Z",
+  "lastUpdated": "2026-09-22T20:47:29.313Z",
   "freshnessState": "fresh",
   "stories": [
     {
@@ -108,6 +108,105 @@
       "source": {
         "name": "NVIDIA — Technical Blog",
         "url": "https://developer.nvidia.com/blog/accelerating-a-ros-2-node-with-an-ai-agent-and-nvidia-isaac-ros/",
+        "publishedDate": "2026-09-22"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://openai.com/index/introducing-gpt-6-sol-and-luna",
+      "category": "models",
+      "headline": "Introducing GPT-6 Sol and Luna",
+      "source": {
+        "name": "OpenAI — News",
+        "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna",
+        "publishedDate": "2026-09-22"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3167713",
+      "category": "models",
+      "headline": "Meta admits Muse&#8217;s likeness to OpenClaw isn&#8217;t a coincidence",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/09/22/meta-admits-muses-likeness-to-openclaw-isnt-a-coincidence/",
+        "publishedDate": "2026-09-22"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3167633",
+      "category": "models",
+      "headline": "OpenAI launches GPT-6 Sol and Luna, boasting lower cost and fewer mistakes",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/09/22/openai-launches-gpt-6-sol-and-luna/",
+        "publishedDate": "2026-09-22"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theverge.com/?p=998813",
+      "category": "models",
+      "headline": "Andreessen Horowitz is launching an ‘academy’ with no homework and partnerships with Palantir, Google, and Meta",
+      "source": {
+        "name": "The Verge — Artificial Intelligence",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/998813/andreessen-horowitz-ai-academy",
+        "publishedDate": "2026-09-22"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theverge.com/?p=998868",
+      "category": "models",
+      "headline": "Anthropic launches Claude Opus 5.5 with stricter safeguards for cybersecurity",
+      "source": {
+        "name": "The Verge — Artificial Intelligence",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/998868/anthropic-claude-opus-5-5-cybersecurity",
+        "publishedDate": "2026-09-22"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theneurondaily.com/p/gpt-6-sol-luna-vs-claude-opus-5-5-live",
+      "category": "models",
+      "headline": "😺 GPT-6 Sol / Luna vs. Claude Opus 5.5 LIVE",
+      "source": {
+        "name": "The Neuron",
+        "url": "https://www.theneurondaily.com/p/gpt-6-sol-luna-vs-claude-opus-5-5-live",
+        "publishedDate": "2026-09-22"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6ab27ac7155cee2e8ed0ebdd",
+      "category": "research",
+      "headline": "What Would An IRL “Pluribus” Hive Mind Mean For The World?",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/sites/weskilgore/2026/09/22/what-would-an-irl-pluribus-hive-mind-mean-for-the-world/",
+        "publishedDate": "2026-09-22"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://developer.nvidia.com/blog/?p=122756",
+      "category": "ai-lifecycle",
+      "headline": "Enabling Private High-Performance Production AI Inference with NVIDIA Confidential Computing",
+      "source": {
+        "name": "NVIDIA — Technical Blog",
+        "url": "https://developer.nvidia.com/blog/enabling-private-high-performance-production-ai-inference-with-nvidia-confidential-computing/",
+        "publishedDate": "2026-09-22"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://developer.nvidia.com/blog/?p=122765",
+      "category": "ai-lifecycle",
+      "headline": "Topology-Aware Workload Scheduling with NVIDIA Topograph",
+      "source": {
+        "name": "NVIDIA — Technical Blog",
+        "url": "https://developer.nvidia.com/blog/topology-aware-workload-scheduling-with-nvidia-topograph/",
         "publishedDate": "2026-09-22"
       },
       "traceToAnchors": []
@@ -559,105 +658,6 @@
       "source": {
         "name": "TLDR AI",
         "url": "https://tldr.tech/ai/2026-09-17",
-        "publishedDate": "2026-09-17"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6aaae5ff5360eb3fbb3826c8",
-      "category": "ai-lifecycle",
-      "headline": "How To Turn AI Agents Into A Full-Scale Workforce",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/councils/forbestechcouncil/2026/09/17/how-to-turn-ai-agents-into-a-full-scale-workforce/",
-        "publishedDate": "2026-09-17"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3165739",
-      "category": "models",
-      "headline": "The fix for rogue AI agents could be more AI",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/09/17/the-fix-for-rogue-ai-agents-could-be-more-ai/",
-        "publishedDate": "2026-09-17"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3164863",
-      "category": "models",
-      "headline": "UN turns to Google to make its global data ready for AI agents",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/09/17/un-turns-to-google-to-make-its-global-data-ready-for-ai-agents/",
-        "publishedDate": "2026-09-17"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3165579",
-      "category": "safety-governance",
-      "headline": "Base Labs launches an open-weight AI safety partnership with Hugging Face and Goodfire",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/09/17/base-labs-launches-an-open-weight-ai-safety-partnership-with-hugging-face-and-goodfire/",
-        "publishedDate": "2026-09-17"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theverge.com/?p=997134",
-      "category": "models",
-      "headline": "Claude Code relaunches Projects to manage multiple AI agents in the cloud",
-      "source": {
-        "name": "The Verge — Artificial Intelligence",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/997134/anthropic-claude-code-projects",
-        "publishedDate": "2026-09-17"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6aab0364740a3afb3396d691",
-      "category": "research",
-      "headline": "Why ​Physical AI Needs A New Architecture To Scale",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/councils/forbestechcouncil/2026/09/17/why-physical-ai-needs-a-new-architecture-to-scale/",
-        "publishedDate": "2026-09-17"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://openai.com/index/cooley-gopublic",
-      "category": "ai-lifecycle",
-      "headline": "How Cooley is accelerating IPO work with ChatGPT",
-      "source": {
-        "name": "OpenAI — News",
-        "url": "https://openai.com/index/cooley-gopublic",
-        "publishedDate": "2026-09-17"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3165830",
-      "category": "compute-energy",
-      "headline": "Crusoe raises $3.9B to build massive data centers and small modular &#8216;AI factories&#8217;",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/09/17/crusoe-raises-3-9b-to-build-massive-data-centers-and-small-modular-ai-factories/",
-        "publishedDate": "2026-09-17"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3165803",
-      "category": "models",
-      "headline": "Google DeepMind launches institute to widen the AGI debate",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/09/17/google-deepmind-launches-institute-to-widen-the-agi-debate/",
         "publishedDate": "2026-09-17"
       },
       "traceToAnchors": []

@@ -1,7 +1,40 @@
 {
-  "lastUpdated": "2026-09-23T02:58:52.614Z",
+  "lastUpdated": "2026-09-23T10:39:01.996Z",
   "freshnessState": "fresh",
   "stories": [
+    {
+      "id": "https://www.theneurondaily.com/p/gpt-6-sol-vs-claude-opus-5-5",
+      "category": "models",
+      "headline": "😺 GPT-6 Sol vs Claude Opus 5.5",
+      "source": {
+        "name": "The Neuron",
+        "url": "https://www.theneurondaily.com/p/gpt-6-sol-vs-claude-opus-5-5",
+        "publishedDate": "2026-09-23"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6ab394ca6156371085524288",
+      "category": "ai-lifecycle",
+      "headline": "Inside CrowdStrike’s Move To Secure Enterprise Agentic AI",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/sites/stevemcdowell/2026/09/23/inside-crowdstrikes-move-to-secure-enterprise-agentic-ai/",
+        "publishedDate": "2026-09-23"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6ab285eb67e642894d28720d",
+      "category": "research",
+      "headline": "Just 10% Of World’s Oceans Designated For Conservation, Study Finds",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/sites/jamiehailstone/2026/09/23/just-10-of-worlds-oceans-designated-for-conservation-study-finds/",
+        "publishedDate": "2026-09-23"
+      },
+      "traceToAnchors": []
+    },
     {
       "id": "https://www.theneurondaily.com/p/amazon-blocked-meta-s-muse-from-shopping",
       "category": "models",
@@ -625,39 +658,6 @@
       "source": {
         "name": "TechCrunch — Artificial Intelligence",
         "url": "https://techcrunch.com/2026/09/17/rival-ai-agents-instinct-and-metas-muse-both-add-the-ability-to-make-calls/",
-        "publishedDate": "2026-09-17"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3165426",
-      "category": "models",
-      "headline": "Google, Nvidia, and Anthropic want Emerald AI to find space on the grid for more data centers",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/09/17/google-nvidia-and-anthropic-want-emerald-ai-to-find-space-on-the-grid-for-more-data-centers/",
-        "publishedDate": "2026-09-17"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theverge.com/?p=996412",
-      "category": "ai-lifecycle",
-      "headline": "Microsoft AI CEO says AI threats are real, and Anthropic is making it worse",
-      "source": {
-        "name": "The Verge — Artificial Intelligence",
-        "url": "https://www.theverge.com/podcast/996412/microsoft-ai-ceo-mustafa-suleyman-regulation-safety-anthropic-claude",
-        "publishedDate": "2026-09-17"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theverge.com/?p=996563",
-      "category": "research",
-      "headline": "Inside the suddenly explosive world of AI safety",
-      "source": {
-        "name": "The Verge — Artificial Intelligence",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/996563/ai-safety-research-metr-redwood-openai-anthropic",
         "publishedDate": "2026-09-17"
       },
       "traceToAnchors": []

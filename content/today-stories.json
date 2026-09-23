@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-23T10:39:01.996Z",
+  "lastUpdated": "2026-09-23T15:58:12.212Z",
   "freshnessState": "fresh",
   "stories": [
     {
@@ -31,6 +31,28 @@
       "source": {
         "name": "Forbes — Innovation",
         "url": "https://www.forbes.com/sites/jamiehailstone/2026/09/23/just-10-of-worlds-oceans-designated-for-conservation-study-finds/",
+        "publishedDate": "2026-09-23"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "6ab2afc756b93c0e50ac09dc",
+      "category": "models",
+      "headline": "Meta’s Muse AI Assistant Rolled Out With a Serious Security Flaw",
+      "source": {
+        "name": "Wired — Artificial Intelligence",
+        "url": "https://www.wired.com/story/metas-muse-ai-agent-zero-day/",
+        "publishedDate": "2026-09-23"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6ab17e1934f3b81f31625a91",
+      "category": "ai-lifecycle",
+      "headline": "To Fight AI-Powered Attackers, Enterprises Need Agentic Defense.",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/sites/reliaquest/2026/09/23/to-fight-ai-powered-attackers-enterprises-need-agentic-defense/",
         "publishedDate": "2026-09-23"
       },
       "traceToAnchors": []
@@ -636,28 +658,6 @@
       "source": {
         "name": "The Neuron",
         "url": "https://www.theneurondaily.com/p/openai-discloses-more-concerning-agent-behavior",
-        "publishedDate": "2026-09-17"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6aab6c3ff9bdd22b7229bc3c",
-      "category": "safety-governance",
-      "headline": "OpenAI Agents Were Using Messaging Prior To Hugging Face Incident",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/sites/johnwerner/2026/09/17/openai-agents-were-using-messaging-prior-to-hugging-face-incident/",
-        "publishedDate": "2026-09-17"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3165381",
-      "category": "models",
-      "headline": "Rival AI agents, Instinct and Meta&#8217;s Muse, both add the ability to make calls",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/09/17/rival-ai-agents-instinct-and-metas-muse-both-add-the-ability-to-make-calls/",
         "publishedDate": "2026-09-17"
       },
       "traceToAnchors": []

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-22T20:47:29.313Z",
+  "lastUpdated": "2026-09-23T02:58:52.614Z",
   "freshnessState": "fresh",
   "stories": [
     {
@@ -207,6 +207,17 @@
       "source": {
         "name": "NVIDIA — Technical Blog",
         "url": "https://developer.nvidia.com/blog/topology-aware-workload-scheduling-with-nvidia-topograph/",
+        "publishedDate": "2026-09-22"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://openai.com/index/better-prompt-caching-for-gpt-6",
+      "category": "models",
+      "headline": "Better prompt caching for GPT-6",
+      "source": {
+        "name": "OpenAI — News",
+        "url": "https://openai.com/index/better-prompt-caching-for-gpt-6",
         "publishedDate": "2026-09-22"
       },
       "traceToAnchors": []
@@ -647,17 +658,6 @@
       "source": {
         "name": "The Verge — Artificial Intelligence",
         "url": "https://www.theverge.com/ai-artificial-intelligence/996563/ai-safety-research-metr-redwood-openai-anthropic",
-        "publishedDate": "2026-09-17"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://tldr.tech/ai/2026-09-17",
-      "category": "models",
-      "headline": "Claude + Cowork merge 🛠️, ChatGPT sponsored agents 💰, harness tax 🤖",
-      "source": {
-        "name": "TLDR AI",
-        "url": "https://tldr.tech/ai/2026-09-17",
         "publishedDate": "2026-09-17"
       },
       "traceToAnchors": []

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-23T15:58:12.212Z",
+  "lastUpdated": "2026-09-23T20:59:28.417Z",
   "freshnessState": "fresh",
   "stories": [
     {
@@ -53,6 +53,105 @@
       "source": {
         "name": "Forbes — Innovation",
         "url": "https://www.forbes.com/sites/reliaquest/2026/09/23/to-fight-ai-powered-attackers-enterprises-need-agentic-defense/",
+        "publishedDate": "2026-09-23"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.technologyreview.com/?p=1144940",
+      "category": "research",
+      "headline": "The AI Hype Index: AI loves cheating",
+      "source": {
+        "name": "MIT Technology Review — Artificial Intelligence",
+        "url": "https://www.technologyreview.com/2026/09/23/1144940/ai-hype-index-ai-loves-cheating/",
+        "publishedDate": "2026-09-23"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://openai.com/index/ringg",
+      "category": "models",
+      "headline": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
+      "source": {
+        "name": "OpenAI — News",
+        "url": "https://openai.com/index/ringg",
+        "publishedDate": "2026-09-23"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://openai.com/index/airbnb-gpt-6-astra",
+      "category": "models",
+      "headline": "Airbnb widens access to GPT-6 Astra and OpenAI frontier models",
+      "source": {
+        "name": "OpenAI — News",
+        "url": "https://openai.com/index/airbnb-gpt-6-astra",
+        "publishedDate": "2026-09-23"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3168173",
+      "category": "ai-lifecycle",
+      "headline": "ChatGPT mobile app gets voice-based agentic features",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/09/23/chatgpt-mobile-app-gets-voice-based-agentic-features/",
+        "publishedDate": "2026-09-23"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theverge.com/?p=999526",
+      "category": "models",
+      "headline": "Meta’s AI agent is a cute little guy who’s great at spending my money",
+      "source": {
+        "name": "The Verge — Artificial Intelligence",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/999526/meta-muse-ai-agent-hands-on-shopping",
+        "publishedDate": "2026-09-23"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theverge.com/?p=999412",
+      "category": "compute-energy",
+      "headline": "Data centers are black boxes, but California wants to change that",
+      "source": {
+        "name": "The Verge — Artificial Intelligence",
+        "url": "https://www.theverge.com/policy/999412/data-center-water-electricity-disclosure-bills",
+        "publishedDate": "2026-09-23"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "6ab15565c9d4d635b849c984",
+      "category": "safety-governance",
+      "headline": "AI Agents Teamed Up to Cheat at Blackjack. Their Collusion Is Getting Harder to Spot",
+      "source": {
+        "name": "Wired — Artificial Intelligence",
+        "url": "https://www.wired.com/story/ai-agent-collusion-card-counting-secrets/",
+        "publishedDate": "2026-09-23"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://huggingface.co/blog/nvidia/how-to-use-nvidia-warp-and-mjwarp",
+      "category": "ai-lifecycle",
+      "headline": "How to Use NVIDIA Warp and MjWarp to Accelerate Robotics Simulation and Learning Workflows",
+      "source": {
+        "name": "Hugging Face — Blog",
+        "url": "https://huggingface.co/blog/nvidia/how-to-use-nvidia-warp-and-mjwarp",
+        "publishedDate": "2026-09-23"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://developer.nvidia.com/blog/?p=122823",
+      "category": "ai-lifecycle",
+      "headline": "Validate GPU Cluster Readiness Before AI Workloads Land",
+      "source": {
+        "name": "NVIDIA — Technical Blog",
+        "url": "https://developer.nvidia.com/blog/validate-gpu-cluster-readiness-before-ai-workloads-land/",
         "publishedDate": "2026-09-23"
       },
       "traceToAnchors": []
@@ -560,105 +659,6 @@
         "name": "Forbes — Innovation",
         "url": "https://www.forbes.com/sites/kateoflahertyuk/2026/09/18/ios-27-apple-just-gave-iphone-users-120-reasons-to-update-now/",
         "publishedDate": "2026-09-18"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3166205",
-      "category": "models",
-      "headline": "Google&#8217;s new &#8216;CC&#8217; is an AI agent that helps families run their households",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/09/18/googles-new-cc-is-an-ai-agent-that-helps-families-run-their-households/",
-        "publishedDate": "2026-09-18"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3165970",
-      "category": "research",
-      "headline": "Open or closed AI? Nvidia&#8217;s Nader Khalil and Sydney Sykes take on one of the decisions shaping next-gen startups at TechCrunch Disrupt 2026",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/09/18/open-or-closed-ai-nvidias-nader-khalil-and-sydney-sykes-take-on-one-of-the-decisions-shaping-next-gen-startups-at-techcrunch-disrupt-2026/",
-        "publishedDate": "2026-09-18"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theverge.com/?p=997573",
-      "category": "research",
-      "headline": "Virginia governor creates an AI task force and moves to restrain data centers",
-      "source": {
-        "name": "The Verge — Artificial Intelligence",
-        "url": "https://www.theverge.com/policy/997573/virginia-governor-spanberger-data-center-ai-task-force",
-        "publishedDate": "2026-09-18"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theverge.com/?p=997444",
-      "category": "models",
-      "headline": "Security researchers used Claude to help them hack into OpenAI",
-      "source": {
-        "name": "The Verge — Artificial Intelligence",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/997444/openai-hack-claude-heif-heist",
-        "publishedDate": "2026-09-18"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6aad6534973e5619cf730e11",
-      "category": "models",
-      "headline": "Apple Loop: iIPhone 18 Pro Camera, iOS 27 Changes, M6 MacBook Benchmarks",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/sites/ewanspence/2026/09/18/apple-news-headlines-iphone-18-pro-camera-test-ios27-macos27-iphone-duo-m6-benchmarking/",
-        "publishedDate": "2026-09-18"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6aad8835cc4ef5c8701fe267",
-      "category": "research",
-      "headline": "Whoop It Up: Scaling A Supply Chain To Support Hypergrowth",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/sites/stevebanker/2026/09/18/whoop-it-up-scaling-a-supply-chain-to-support-hypergrowth/",
-        "publishedDate": "2026-09-18"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3166504",
-      "category": "research",
-      "headline": "A startup that builds other startups raised $100M and is all-in on physical AI",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/09/18/a-startup-that-builds-other-startups-raised-100m-and-is-all-in-on-physical-ai/",
-        "publishedDate": "2026-09-18"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6aad81c9cc4ef5c8701fe264",
-      "category": "models",
-      "headline": "What To Watch This Weekend: New Shows And Movies To Stream On Netflix, Hulu, Prime Video, Apple TV And More",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/sites/erikkain/2026/09/18/what-to-watch-this-weekend-new-shows-and-movies-to-stream-on-netflix-hulu-prime-video-apple-tv-and-more/",
-        "publishedDate": "2026-09-18"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theneurondaily.com/p/openai-discloses-more-concerning-agent-behavior",
-      "category": "models",
-      "headline": "🙀 OpenAI discloses MORE “concerning” AGENT behavior",
-      "source": {
-        "name": "The Neuron",
-        "url": "https://www.theneurondaily.com/p/openai-discloses-more-concerning-agent-behavior",
-        "publishedDate": "2026-09-17"
       },
       "traceToAnchors": []
     }

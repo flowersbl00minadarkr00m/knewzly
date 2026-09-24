@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-24T16:21:33.582Z",
+  "lastUpdated": "2026-09-24T21:03:43.983Z",
   "freshnessState": "fresh",
   "stories": [
     {
@@ -174,6 +174,83 @@
       "source": {
         "name": "Hugging Face — Blog",
         "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-dspark",
+        "publishedDate": "2026-09-24"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3169077",
+      "category": "compute-energy",
+      "headline": "Oracle sends force majeure notice on its New Mexico Stargate data center",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/09/24/oracle-sends-force-majeure-notice-on-its-new-mexico-stargate-data-center/",
+        "publishedDate": "2026-09-24"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3169009",
+      "category": "models",
+      "headline": "Meta&#8217;s Muse Charm looks like a Tamagotchi, but it&#8217;s tapping into a much newer trend",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/09/24/metas-muse-charm-looks-like-a-tamagotchi-but-its-tapping-into-a-much-newer-trend/",
+        "publishedDate": "2026-09-24"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3168895",
+      "category": "models",
+      "headline": "Google Photos &#8216;Clueless&#8217;-inspired virtual closet is now available on Android and iOS",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/09/24/google-photos-clueless-inspired-virtual-closet-is-now-available-on-android-and-ios/",
+        "publishedDate": "2026-09-24"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theverge.com/?p=1000328",
+      "category": "models",
+      "headline": "Gemini 3.8 Live with Live Avatar gives Google&#8217;s AI a face",
+      "source": {
+        "name": "The Verge — Artificial Intelligence",
+        "url": "https://www.theverge.com/tech/1000328/google-gemini-ai-live-avatar-face",
+        "publishedDate": "2026-09-24"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theverge.com/?p=1000180",
+      "category": "models",
+      "headline": "Muse sure looks a lot like OpenClaw",
+      "source": {
+        "name": "The Verge — Artificial Intelligence",
+        "url": "https://www.theverge.com/report/1000180/muse-openclaw-instinct-lookalike",
+        "publishedDate": "2026-09-24"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theverge.com/?p=999999",
+      "category": "models",
+      "headline": "It’s sinister that Meta’s Muse AI mascot is so cute",
+      "source": {
+        "name": "The Verge — Artificial Intelligence",
+        "url": "https://www.theverge.com/column/999999/optimizer-meta-muse-ai-cute",
+        "publishedDate": "2026-09-24"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theneurondaily.com/p/live-gpt-6-sol-vs-claude-opus-5-5-round-2",
+      "category": "models",
+      "headline": "😺 LIVE IN 5: GPT-6 Sol vs. Claude Opus 5.5",
+      "source": {
+        "name": "The Neuron",
+        "url": "https://www.theneurondaily.com/p/live-gpt-6-sol-vs-claude-opus-5-5-round-2",
         "publishedDate": "2026-09-24"
       },
       "traceToAnchors": []
@@ -582,83 +659,6 @@
         "name": "NVIDIA — Technical Blog",
         "url": "https://developer.nvidia.com/blog/enabling-private-high-performance-production-ai-inference-with-nvidia-confidential-computing/",
         "publishedDate": "2026-09-22"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://developer.nvidia.com/blog/?p=122765",
-      "category": "ai-lifecycle",
-      "headline": "Topology-Aware Workload Scheduling with NVIDIA Topograph",
-      "source": {
-        "name": "NVIDIA — Technical Blog",
-        "url": "https://developer.nvidia.com/blog/topology-aware-workload-scheduling-with-nvidia-topograph/",
-        "publishedDate": "2026-09-22"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://openai.com/index/better-prompt-caching-for-gpt-6",
-      "category": "models",
-      "headline": "Better prompt caching for GPT-6",
-      "source": {
-        "name": "OpenAI — News",
-        "url": "https://openai.com/index/better-prompt-caching-for-gpt-6",
-        "publishedDate": "2026-09-22"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theverge.com/?p=998078",
-      "category": "models",
-      "headline": "Amazon blocks Meta’s Muse AI agent",
-      "source": {
-        "name": "The Verge — Artificial Intelligence",
-        "url": "https://www.theverge.com/tech/998078/amazon-blocks-meta-muse-ai-agent-shopping",
-        "publishedDate": "2026-09-21"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6aa1c22e9312b0cfc627cd50",
-      "category": "compute-energy",
-      "headline": "How Safe Is It To Live Near A Data Center?",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/sites/technology/article/are-data-centers-dangerous/",
-        "publishedDate": "2026-09-21"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6aad4367579d609566aa862d",
-      "category": "research",
-      "headline": "The AI Validation Bottleneck: Why 80% AI Adoption Has Not Made Software Delivery Faster",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/councils/forbestechcouncil/2026/09/21/the-ai-validation-bottleneck-why-80-ai-adoption-has-not-made-software-delivery-faster/",
-        "publishedDate": "2026-09-21"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3166744",
-      "category": "research",
-      "headline": "Where will the next breakout startup come from? Benchmark’s full partnership weighs in at TechCrunch Disrupt 2026",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/09/21/where-will-the-next-breakout-startup-come-from-benchmarks-full-partnership-weighs-in-at-techcrunch-disrupt-2026/",
-        "publishedDate": "2026-09-21"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3166866",
-      "category": "models",
-      "headline": "Google&#8217;s $899 Googlebook is a bet that you&#8217;ll buy a new laptop for Gemini",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/09/21/googles-899-googlebook-is-a-bet-that-youll-buy-a-new-laptop-for-gemini/",
-        "publishedDate": "2026-09-21"
       },
       "traceToAnchors": []
     }

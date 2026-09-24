@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-24T10:59:09.972Z",
+  "lastUpdated": "2026-09-24T16:21:33.582Z",
   "freshnessState": "fresh",
   "stories": [
     {
@@ -53,6 +53,127 @@
       "source": {
         "name": "The Neuron",
         "url": "https://www.theneurondaily.com/p/what-950-claude-agents-found",
+        "publishedDate": "2026-09-24"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
+      "category": "models",
+      "headline": "Introducing Gemini 3.8 Live with Live Avatar",
+      "source": {
+        "name": "Google DeepMind — Blog",
+        "url": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
+        "publishedDate": "2026-09-24"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3168825",
+      "category": "models",
+      "headline": "Google tests letting Gemini call businesses for you",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/09/24/google-tests-letting-gemini-make-phone-calls-initially-for-us-pixel-owners/",
+        "publishedDate": "2026-09-24"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3168786",
+      "category": "ai-lifecycle",
+      "headline": "Ando wants to take on Slack with a team messaging app that lets humans and agents work together",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/09/24/ando-eyes-slack-as-it-builds-team-messaging-platform-for-humans-and-agents-to-work-together/",
+        "publishedDate": "2026-09-24"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3168743",
+      "category": "safety-governance",
+      "headline": "Australia to investigate if OpenAI hack of government health website broke the law",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/09/24/australia-to-investigate-if-openai-hack-of-government-health-website-broke-the-law/",
+        "publishedDate": "2026-09-24"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theverge.com/?p=999944",
+      "category": "models",
+      "headline": "Meta’s Muse AI Charms can interact with each other",
+      "source": {
+        "name": "The Verge — Artificial Intelligence",
+        "url": "https://www.theverge.com/tech/999944/meta-muse-charm-ai-interact-5g-modem",
+        "publishedDate": "2026-09-24"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theverge.com/?p=999874",
+      "category": "safety-governance",
+      "headline": "OpenAI agents hacked an Australian government website in search of data",
+      "source": {
+        "name": "The Verge — Artificial Intelligence",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/999874/openai-agents-hacked-an-australian-government-website-in-search-for-data",
+        "publishedDate": "2026-09-24"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "6ab333f8f51e7fb8c39cc78e",
+      "category": "models",
+      "headline": "Google’s Gemini Can Now Make Calls for You on Pixel Phones",
+      "source": {
+        "name": "Wired — Artificial Intelligence",
+        "url": "https://www.wired.com/story/googles-gemini-can-now-make-calls-for-you-on-pixel-phones/",
+        "publishedDate": "2026-09-24"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "6ab4e91fb1d9548af7e552c3",
+      "category": "safety-governance",
+      "headline": "An OpenAI Agent Hacked Australia’s Health Service. Their Government Found Out Months Later",
+      "source": {
+        "name": "Wired — Artificial Intelligence",
+        "url": "https://www.wired.com/story/openai-agent-hacked-australias-health-service-their-government-found-out-months-later/",
+        "publishedDate": "2026-09-24"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://tldr.tech/ai/2026-09-24",
+      "category": "models",
+      "headline": "Gemini TTS 🗣️, Claude’s novel enzyme 🧬, Google private memory 🔒",
+      "source": {
+        "name": "TLDR AI",
+        "url": "https://tldr.tech/ai/2026-09-24",
+        "publishedDate": "2026-09-24"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6ab44499bda6dbbf8ff01696",
+      "category": "models",
+      "headline": "Why Nation-State Cyber Exercises Have Never Been More Important",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/councils/forbestechcouncil/2026/09/24/why-nation-state-cyber-exercises-have-never-been-more-important/",
+        "publishedDate": "2026-09-24"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-dspark",
+      "category": "models",
+      "headline": "Accelerating vision-language models with LFM2.5-VL-DSpark",
+      "source": {
+        "name": "Hugging Face — Blog",
+        "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-dspark",
         "publishedDate": "2026-09-24"
       },
       "traceToAnchors": []
@@ -538,127 +659,6 @@
         "name": "TechCrunch — Artificial Intelligence",
         "url": "https://techcrunch.com/2026/09/21/googles-899-googlebook-is-a-bet-that-youll-buy-a-new-laptop-for-gemini/",
         "publishedDate": "2026-09-21"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theverge.com/?p=996874",
-      "category": "research",
-      "headline": "Can John Ternus find Apple’s next big thing?",
-      "source": {
-        "name": "The Verge — Artificial Intelligence",
-        "url": "https://www.theverge.com/podcast/996874/apple-john-ternus-tim-cook-mark-gurman-future-ai-siri-iphone",
-        "publishedDate": "2026-09-21"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://tldr.tech/ai/2026-09-21",
-      "category": "models",
-      "headline": "Muse connectors 🤖, Meta SAM 3.1 🖼️, Gemini hacks companies 🔓",
-      "source": {
-        "name": "TLDR AI",
-        "url": "https://tldr.tech/ai/2026-09-21",
-        "publishedDate": "2026-09-21"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3167075",
-      "category": "ai-lifecycle",
-      "headline": "Meta&#8217;s Muse is outpacing ChatGPT’s early mobile launch",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/09/21/metas-muse-is-outpacing-chatgpts-early-mobile-launch/",
-        "publishedDate": "2026-09-21"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3167032",
-      "category": "models",
-      "headline": "Meta&#8217;s AI agent has been blocked from using Amazon.com",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/09/21/metas-ai-agent-has-been-blocked-from-using-amazon-com/",
-        "publishedDate": "2026-09-21"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theverge.com/?p=998453",
-      "category": "compute-energy",
-      "headline": "California tightens rules on AI data center energy and water use",
-      "source": {
-        "name": "The Verge — Artificial Intelligence",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/998453/california-ai-data-center-bills",
-        "publishedDate": "2026-09-21"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6ab1af7c2aba6090e86d2951",
-      "category": "research",
-      "headline": "Figure’s Billion-Dollar Physical AI Bet Delivered A 6X Jump In Robot Chore Success",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/sites/johnkoetsier/2026/09/21/figures-billion-dollar-physical-ai-bet-delivered-a-6x-jump-in-robot-chore-success/",
-        "publishedDate": "2026-09-21"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://developer.nvidia.com/blog/?p=122739",
-      "category": "ai-lifecycle",
-      "headline": "Simplifying Model Serving Across Multiple GPUs with NVIDIA TensorRT Multi-Device Integration in NVIDIA Dynamo-Triton",
-      "source": {
-        "name": "NVIDIA — Technical Blog",
-        "url": "https://developer.nvidia.com/blog/simplifying-model-serving-across-multiple-gpus-with-nvidia-tensorrt-multi-device-integration-in-nvidia-dynamo-triton/",
-        "publishedDate": "2026-09-21"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "6aa95711718bdbe1c32c1f53",
-      "category": "models",
-      "headline": "Meta's Muse Is Better at Surveilling Than Helping Me",
-      "source": {
-        "name": "Wired — Artificial Intelligence",
-        "url": "https://www.wired.com/story/metas-muse-is-better-at-surveilling-than-helping-me/",
-        "publishedDate": "2026-09-20"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "6aad77e18ffbfab4b483ed15",
-      "category": "compute-energy",
-      "headline": "It’s Donald Trump Versus MAGA on Data Centers",
-      "source": {
-        "name": "Wired — Artificial Intelligence",
-        "url": "https://www.wired.com/story/donald-trump-versus-maga-on-data-centers/",
-        "publishedDate": "2026-09-20"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3161565",
-      "category": "models",
-      "headline": "Vals, backed by Andreessen Horowitz, is looking to become the gold standard for AI benchmarking",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/09/19/vals-backed-by-andreessen-horowitz-is-looking-to-become-the-gold-standard-for-ai-benchmarking/",
-        "publishedDate": "2026-09-19"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3166647",
-      "category": "models",
-      "headline": "Google’s Gemini is the latest AI model to hack other companies",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/09/19/googles-gemini-is-the-latest-ai-model-to-hack-other-companies/",
-        "publishedDate": "2026-09-19"
       },
       "traceToAnchors": []
     }

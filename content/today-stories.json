@@ -1,7 +1,40 @@
 {
-  "lastUpdated": "2026-09-23T20:59:28.417Z",
+  "lastUpdated": "2026-09-24T02:49:42.761Z",
   "freshnessState": "fresh",
   "stories": [
+    {
+      "id": "https://techcrunch.com/?p=3168527",
+      "category": "models",
+      "headline": "Everything new coming to Meta&#8217;s AI agent Muse",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/09/23/everything-new-coming-to-metas-ai-agent-muse/",
+        "publishedDate": "2026-09-24"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3168692",
+      "category": "models",
+      "headline": "Meta made a Tamagotchi-like wearable for its Muse AI agent",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/09/23/meta-made-a-tamagotchi-like-wearable-for-its-muse-ai-agent/",
+        "publishedDate": "2026-09-24"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theverge.com/?p=999750",
+      "category": "ai-lifecycle",
+      "headline": "Meta is making a standalone Muse AI gadget",
+      "source": {
+        "name": "The Verge — Artificial Intelligence",
+        "url": "https://www.theverge.com/tech/999750/muse-charm-meta-ai-hardware",
+        "publishedDate": "2026-09-24"
+      },
+      "traceToAnchors": []
+    },
     {
       "id": "https://www.theneurondaily.com/p/gpt-6-sol-vs-claude-opus-5-5",
       "category": "models",
@@ -152,6 +185,61 @@
       "source": {
         "name": "NVIDIA — Technical Blog",
         "url": "https://developer.nvidia.com/blog/validate-gpu-cluster-readiness-before-ai-workloads-land/",
+        "publishedDate": "2026-09-23"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3168626",
+      "category": "models",
+      "headline": "Meta introduces camera-free AI glasses",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/09/23/meta-introduces-camera-free-ai-glasses/",
+        "publishedDate": "2026-09-23"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theverge.com/?p=999673",
+      "category": "models",
+      "headline": "Muse is coming to Meta smart glasses",
+      "source": {
+        "name": "The Verge — Artificial Intelligence",
+        "url": "https://www.theverge.com/tech/999673/meta-connect-2026-muse-glasses-features",
+        "publishedDate": "2026-09-23"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theverge.com/?p=999454",
+      "category": "models",
+      "headline": "Meta is making Muse more powerful and will let you video chat with it, too",
+      "source": {
+        "name": "The Verge — Artificial Intelligence",
+        "url": "https://www.theverge.com/tech/999454/meta-muse-ai-agent-video-chat-connect-2026",
+        "publishedDate": "2026-09-23"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "6ab3f57bd550857dadb49e62",
+      "category": "ai-lifecycle",
+      "headline": "Meta VR Glasses, Ray-Ban Meta Audio, Ray-Ban Meta Gen 3: Specs, Features, Prices",
+      "source": {
+        "name": "Wired — Artificial Intelligence",
+        "url": "https://www.wired.com/story/metas-answer-to-the-meta-creep-camera-free-smart-glasses/",
+        "publishedDate": "2026-09-23"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6ab451c0bda6dbbf8ff01698",
+      "category": "research",
+      "headline": "One Of The Year’s Biggest Family Movies Is Finally Streaming Free Online",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/sites/erikkain/2026/09/23/toy-story-5-streaming-free-online/",
         "publishedDate": "2026-09-23"
       },
       "traceToAnchors": []
@@ -571,94 +659,6 @@
         "name": "The Verge — Artificial Intelligence",
         "url": "https://www.theverge.com/ai-artificial-intelligence/997833/meta-muse-creepy",
         "publishedDate": "2026-09-19"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6aac70523073ce8d32f0a4f5",
-      "category": "ai-lifecycle",
-      "headline": "Agentic Marketing And Brand Safety: What Decision-Makers Need To Know",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/sites/ray-fernandez/2026/09/17/agentic-marketing-and-brand-safety-what-decision-makers-need-to-know/",
-        "publishedDate": "2026-09-18"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6aac65b4aa31b1b1280633ef",
-      "category": "research",
-      "headline": "New ‘Reinforcement Learning For Calibrated Decisions’ Makes AI Headlines But Look Past The Hype",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/sites/lanceeliot/2026/09/18/new-reinforcement-learning-for-calibrated-decisions-makes-ai-headlines-but-look-past-the-hype/",
-        "publishedDate": "2026-09-18"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3166065",
-      "category": "models",
-      "headline": "Meta&#8217;s Muse hits Mac, letting the AI take actions on your computer",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/09/18/metas-muse-hits-mac-letting-the-ai-take-actions-on-your-computer/",
-        "publishedDate": "2026-09-18"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3166021",
-      "category": "models",
-      "headline": "Researchers used Anthropic&#8217;s Claude to hack into OpenAI",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/09/18/researchers-used-anthropics-claude-to-hack-into-openai/",
-        "publishedDate": "2026-09-18"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "6aac1caf95452e2ba085c896",
-      "category": "compute-energy",
-      "headline": "Adopt This Data Center Plushie and Hear Its Piercing Scream",
-      "source": {
-        "name": "Wired — Artificial Intelligence",
-        "url": "https://www.wired.com/story/adopt-this-data-center-plushie-and-hear-its-piercing-scream/",
-        "publishedDate": "2026-09-18"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://tldr.tech/ai/2026-09-18",
-      "category": "models",
-      "headline": "Claude Projects v2 💼, Google family agent 👨‍👩‍👧‍👦,",
-      "source": {
-        "name": "TLDR AI",
-        "url": "https://tldr.tech/ai/2026-09-18",
-        "publishedDate": "2026-09-18"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6aac48783073ce8d32f0a4e6",
-      "category": "models",
-      "headline": "Presidents Trump and Xi’s AI Visions Could Not Be More Different",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/sites/timbajarin/2026/09/18/presidents-trump-and-xis-ai-visions-could-not-be-more-different/",
-        "publishedDate": "2026-09-18"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6aad40aa5c20550fb2579061",
-      "category": "research",
-      "headline": "iOS 27—Apple Just Gave iPhone Users 120 Reasons To Update Now",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/sites/kateoflahertyuk/2026/09/18/ios-27-apple-just-gave-iphone-users-120-reasons-to-update-now/",
-        "publishedDate": "2026-09-18"
       },
       "traceToAnchors": []
     }

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-24T02:49:42.761Z",
+  "lastUpdated": "2026-09-24T10:59:09.972Z",
   "freshnessState": "fresh",
   "stories": [
     {
@@ -31,6 +31,28 @@
       "source": {
         "name": "The Verge — Artificial Intelligence",
         "url": "https://www.theverge.com/tech/999750/muse-charm-meta-ai-hardware",
+        "publishedDate": "2026-09-24"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theverge.com/?p=999802",
+      "category": "models",
+      "headline": "Gemini 4 is almost ready, says new Google DeepMind chief",
+      "source": {
+        "name": "The Verge — Artificial Intelligence",
+        "url": "https://www.theverge.com/tech/999802/google-deepmind-gemini-4-timeline-koray-kavukcuoglu",
+        "publishedDate": "2026-09-24"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theneurondaily.com/p/what-950-claude-agents-found",
+      "category": "models",
+      "headline": "😺 What 950 Claude agents found",
+      "source": {
+        "name": "The Neuron",
+        "url": "https://www.theneurondaily.com/p/what-950-claude-agents-found",
         "publishedDate": "2026-09-24"
       },
       "traceToAnchors": []
@@ -636,28 +658,6 @@
       "source": {
         "name": "TechCrunch — Artificial Intelligence",
         "url": "https://techcrunch.com/2026/09/19/googles-gemini-is-the-latest-ai-model-to-hack-other-companies/",
-        "publishedDate": "2026-09-19"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theverge.com/?p=997795",
-      "category": "models",
-      "headline": "Gemini went rogue, hacked three companies, and Google hid it",
-      "source": {
-        "name": "The Verge — Artificial Intelligence",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/997795/google-gemini-rogue-ai-hack",
-        "publishedDate": "2026-09-19"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theverge.com/?p=997833",
-      "category": "models",
-      "headline": "Meta’s Muse is creepy, but maybe not for the reasons you think",
-      "source": {
-        "name": "The Verge — Artificial Intelligence",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/997833/meta-muse-creepy",
         "publishedDate": "2026-09-19"
       },
       "traceToAnchors": []

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-25T03:06:15.064Z",
+  "lastUpdated": "2026-09-25T10:59:46.385Z",
   "freshnessState": "fresh",
   "stories": [
     {
@@ -9,6 +9,39 @@
       "source": {
         "name": "Forbes — Innovation",
         "url": "https://www.forbes.com/sites/ray-fernandez/2026/09/24/businesses-focus-areas-for-ai-and-ai-agents-deployment/",
+        "publishedDate": "2026-09-25"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theneurondaily.com/p/meta-unveiled-muse-charm-a-pocket-ai",
+      "category": "models",
+      "headline": "😺 Meta unveiled Muse Charm, a pocket AI",
+      "source": {
+        "name": "The Neuron",
+        "url": "https://www.theneurondaily.com/p/meta-unveiled-muse-charm-a-pocket-ai",
+        "publishedDate": "2026-09-25"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6ab5a70a721f692aa55aac3a",
+      "category": "models",
+      "headline": "AI Agents Are Helping People Recover Money By Negotiating Bills And Chasing Refunds",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/sites/rashishrivastava/2026/09/25/ai-agents-are-helping-people-recover-money-by-negotiating-bills-and-chasing-refunds/",
+        "publishedDate": "2026-09-25"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6ab446b4bf8d5fcec352267f",
+      "category": "safety-governance",
+      "headline": "QR Code Governance: How Businesses Can Manage The Risks Of Quishing",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/councils/forbestechcouncil/2026/09/25/qr-code-governance-how-businesses-can-manage-the-risks-of-quishing/",
         "publishedDate": "2026-09-25"
       },
       "traceToAnchors": []
@@ -625,39 +658,6 @@
       "source": {
         "name": "The Verge — Artificial Intelligence",
         "url": "https://www.theverge.com/ai-artificial-intelligence/998813/andreessen-horowitz-ai-academy",
-        "publishedDate": "2026-09-22"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theverge.com/?p=998868",
-      "category": "models",
-      "headline": "Anthropic launches Claude Opus 5.5 with stricter safeguards for cybersecurity",
-      "source": {
-        "name": "The Verge — Artificial Intelligence",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/998868/anthropic-claude-opus-5-5-cybersecurity",
-        "publishedDate": "2026-09-22"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theneurondaily.com/p/gpt-6-sol-luna-vs-claude-opus-5-5-live",
-      "category": "models",
-      "headline": "😺 GPT-6 Sol / Luna vs. Claude Opus 5.5 LIVE",
-      "source": {
-        "name": "The Neuron",
-        "url": "https://www.theneurondaily.com/p/gpt-6-sol-luna-vs-claude-opus-5-5-live",
-        "publishedDate": "2026-09-22"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6ab27ac7155cee2e8ed0ebdd",
-      "category": "research",
-      "headline": "What Would An IRL “Pluribus” Hive Mind Mean For The World?",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/sites/weskilgore/2026/09/22/what-would-an-irl-pluribus-hive-mind-mean-for-the-world/",
         "publishedDate": "2026-09-22"
       },
       "traceToAnchors": []

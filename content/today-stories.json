@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-25T10:59:46.385Z",
+  "lastUpdated": "2026-09-25T16:22:15.623Z",
   "freshnessState": "fresh",
   "stories": [
     {
@@ -42,6 +42,39 @@
       "source": {
         "name": "Forbes — Innovation",
         "url": "https://www.forbes.com/councils/forbestechcouncil/2026/09/25/qr-code-governance-how-businesses-can-manage-the-risks-of-quishing/",
+        "publishedDate": "2026-09-25"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3169621",
+      "category": "models",
+      "headline": "Meta is putting its muscle behind Muse as the AI app takes off",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/09/25/meta-is-putting-its-muscle-behind-muse-as-the-ai-app-takes-off/",
+        "publishedDate": "2026-09-25"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://tldr.tech/ai/2026-09-25",
+      "category": "models",
+      "headline": "ChatGPT Pro Max 🤖, Muse realtime avatar 🎭, DeepSeek $1B ARR 💰",
+      "source": {
+        "name": "TLDR AI",
+        "url": "https://tldr.tech/ai/2026-09-25",
+        "publishedDate": "2026-09-25"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6ab57524d01e840c6f324e60",
+      "category": "research",
+      "headline": "Why Medical Record Review Needs To Move Beyond The Rearview Mirror",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/councils/forbestechcouncil/2026/09/25/why-medical-record-review-needs-to-move-beyond-the-rearview-mirror/",
         "publishedDate": "2026-09-25"
       },
       "traceToAnchors": []
@@ -625,39 +658,6 @@
       "source": {
         "name": "OpenAI — News",
         "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna",
-        "publishedDate": "2026-09-22"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3167713",
-      "category": "models",
-      "headline": "Meta admits Muse&#8217;s likeness to OpenClaw isn&#8217;t a coincidence",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/09/22/meta-admits-muses-likeness-to-openclaw-isnt-a-coincidence/",
-        "publishedDate": "2026-09-22"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3167633",
-      "category": "models",
-      "headline": "OpenAI launches GPT-6 Sol and Luna, boasting lower cost and fewer mistakes",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/09/22/openai-launches-gpt-6-sol-and-luna/",
-        "publishedDate": "2026-09-22"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theverge.com/?p=998813",
-      "category": "models",
-      "headline": "Andreessen Horowitz is launching an ‘academy’ with no homework and partnerships with Palantir, Google, and Meta",
-      "source": {
-        "name": "The Verge — Artificial Intelligence",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/998813/andreessen-horowitz-ai-academy",
         "publishedDate": "2026-09-22"
       },
       "traceToAnchors": []

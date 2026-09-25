@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-25T16:22:15.623Z",
+  "lastUpdated": "2026-09-25T21:00:41.772Z",
   "freshnessState": "fresh",
   "stories": [
     {
@@ -75,6 +75,72 @@
       "source": {
         "name": "Forbes — Innovation",
         "url": "https://www.forbes.com/councils/forbestechcouncil/2026/09/25/why-medical-record-review-needs-to-move-beyond-the-rearview-mirror/",
+        "publishedDate": "2026-09-25"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3170007",
+      "category": "ai-lifecycle",
+      "headline": "Meta opens early access program for new Muse features",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/09/25/meta-opens-early-access-program-for-new-muse-features/",
+        "publishedDate": "2026-09-25"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?post_type=tc_podcast&#038;p=3169914",
+      "category": "models",
+      "headline": "Meta’s Muse just stole the AI spotlight from OpenAI and Anthropic",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/podcast/metas-muse-just-stole-the-ai-spotlight-from-openai-and-anthropic/",
+        "publishedDate": "2026-09-25"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theverge.com/?p=1000784",
+      "category": "models",
+      "headline": "Meta makes the Muse filesystem even more accessible",
+      "source": {
+        "name": "The Verge — Artificial Intelligence",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1000784/meta-muse-filesystem",
+        "publishedDate": "2026-09-25"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theverge.com/?p=1000321",
+      "category": "models",
+      "headline": "Can Apple Home’s AI camera features outsmart Amazon’s and Google’s? I put them to the test",
+      "source": {
+        "name": "The Verge — Artificial Intelligence",
+        "url": "https://www.theverge.com/tech/1000321/apple-intelligence-home-security-camera-amazon-ring-alexa-google-nest-gemini-home-review",
+        "publishedDate": "2026-09-25"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theverge.com/?p=1000532",
+      "category": "ai-lifecycle",
+      "headline": "Microsoft thinks its new Copilot ‘super app’ will be as influential as Office",
+      "source": {
+        "name": "The Verge — Artificial Intelligence",
+        "url": "https://www.theverge.com/news/1000532/microsoft-copilot-super-app-chat-coding-autopilot",
+        "publishedDate": "2026-09-25"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6ab6a73ad01e840c6f324e9c",
+      "category": "models",
+      "headline": "What To Watch This Weekend: New Shows And Movies To Stream On Netflix, Hulu, Prime Video, Apple TV And More",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/sites/erikkain/2026/09/25/what-to-watch-this-weekend-new-shows-and-movies-to-stream-on-netflix-hulu-prime-video-apple-tv-and-more/",
         "publishedDate": "2026-09-25"
       },
       "traceToAnchors": []
@@ -592,72 +658,6 @@
       "source": {
         "name": "TechCrunch — Artificial Intelligence",
         "url": "https://techcrunch.com/2026/09/22/everyone-can-find-a-reason-to-dislike-data-center-construction/",
-        "publishedDate": "2026-09-22"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theverge.com/?p=998679",
-      "category": "models",
-      "headline": "Meta patches Muse exploit that let attackers control the AI agent",
-      "source": {
-        "name": "The Verge — Artificial Intelligence",
-        "url": "https://www.theverge.com/tech/998679/meta-muse-patch-zero-day-exploit-ai-agent",
-        "publishedDate": "2026-09-22"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "6ab132184889b7f47da96288",
-      "category": "models",
-      "headline": "Rabbit Is Back, This Time With an AI Agent App",
-      "source": {
-        "name": "Wired — Artificial Intelligence",
-        "url": "https://www.wired.com/story/rabbit-r1-os3-jesse-lyu/",
-        "publishedDate": "2026-09-22"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6ab27af5155cee2e8ed0ebde",
-      "category": "research",
-      "headline": "Are We Measuring Innovations By The Wrong Scorecard? New Research Says We May Be.",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/sites/dougmelville/2026/09/22/are-we-measuring-innovations-by-the-wrong-scorecard-new-research-says-we-may-be/",
-        "publishedDate": "2026-09-22"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://developer.nvidia.com/blog/?p=122769",
-      "category": "models",
-      "headline": "What’s New for Game Developers: DLSS 5 with 3D-Guided Neural Rendering, NVIDIA ACE Updates, and New RTX Kit Capabilities",
-      "source": {
-        "name": "NVIDIA — Technical Blog",
-        "url": "https://developer.nvidia.com/blog/whats-new-for-game-developers-dlss-5-with-3d-guided-neural-rendering-nvidia-ace-updates-and-new-rtx-kit-capabilities/",
-        "publishedDate": "2026-09-22"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://developer.nvidia.com/blog/?p=122571",
-      "category": "ai-lifecycle",
-      "headline": "Accelerating a ROS 2 Node with an AI Agent and NVIDIA Isaac ROS",
-      "source": {
-        "name": "NVIDIA — Technical Blog",
-        "url": "https://developer.nvidia.com/blog/accelerating-a-ros-2-node-with-an-ai-agent-and-nvidia-isaac-ros/",
-        "publishedDate": "2026-09-22"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://openai.com/index/introducing-gpt-6-sol-and-luna",
-      "category": "models",
-      "headline": "Introducing GPT-6 Sol and Luna",
-      "source": {
-        "name": "OpenAI — News",
-        "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna",
         "publishedDate": "2026-09-22"
       },
       "traceToAnchors": []

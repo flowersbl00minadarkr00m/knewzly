@@ -1,7 +1,18 @@
 {
-  "lastUpdated": "2026-09-24T21:03:43.983Z",
+  "lastUpdated": "2026-09-25T03:06:15.064Z",
   "freshnessState": "fresh",
   "stories": [
+    {
+      "id": "content_6ab5d087d39ce0f7bced983c",
+      "category": "ai-lifecycle",
+      "headline": "Businesses Focus Areas For AI And AI Agents Deployment",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/sites/ray-fernandez/2026/09/24/businesses-focus-areas-for-ai-and-ai-agents-deployment/",
+        "publishedDate": "2026-09-25"
+      },
+      "traceToAnchors": []
+    },
     {
       "id": "https://techcrunch.com/?p=3168527",
       "category": "models",
@@ -647,17 +658,6 @@
       "source": {
         "name": "Forbes — Innovation",
         "url": "https://www.forbes.com/sites/weskilgore/2026/09/22/what-would-an-irl-pluribus-hive-mind-mean-for-the-world/",
-        "publishedDate": "2026-09-22"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://developer.nvidia.com/blog/?p=122756",
-      "category": "ai-lifecycle",
-      "headline": "Enabling Private High-Performance Production AI Inference with NVIDIA Confidential Computing",
-      "source": {
-        "name": "NVIDIA — Technical Blog",
-        "url": "https://developer.nvidia.com/blog/enabling-private-high-performance-production-ai-inference-with-nvidia-confidential-computing/",
         "publishedDate": "2026-09-22"
       },
       "traceToAnchors": []

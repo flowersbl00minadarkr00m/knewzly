@@ -1,7 +1,18 @@
 {
-  "lastUpdated": "2026-09-26T03:10:00.230Z",
+  "lastUpdated": "2026-09-26T10:41:50.548Z",
   "freshnessState": "fresh",
   "stories": [
+    {
+      "id": "6ab67d95c4da8f2e1f68c67c",
+      "category": "models",
+      "headline": "Meta’s Muse Is Adults-Only. Why Does It Look Like a Kids’ Toy?",
+      "source": {
+        "name": "Wired — Artificial Intelligence",
+        "url": "https://www.wired.com/story/meta-muse-is-adults-only-why-does-it-look-like-a-cute-kids-toy/",
+        "publishedDate": "2026-09-26"
+      },
+      "traceToAnchors": []
+    },
     {
       "id": "content_6ab5d087d39ce0f7bced983c",
       "category": "ai-lifecycle",
@@ -647,17 +658,6 @@
       "source": {
         "name": "The Neuron",
         "url": "https://www.theneurondaily.com/p/amazon-blocked-meta-s-muse-from-shopping",
-        "publishedDate": "2026-09-22"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6ab147f9466e493befbd639f",
-      "category": "research",
-      "headline": "​Why Self-Serve Data Is The Next Member Service Battleground",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/councils/forbestechcouncil/2026/09/22/why-self-serve-data-is-the-next-member-service-battleground/",
         "publishedDate": "2026-09-22"
       },
       "traceToAnchors": []

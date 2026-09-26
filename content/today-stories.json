@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-25T21:00:41.772Z",
+  "lastUpdated": "2026-09-26T03:10:00.230Z",
   "freshnessState": "fresh",
   "stories": [
     {
@@ -141,6 +141,39 @@
       "source": {
         "name": "Forbes — Innovation",
         "url": "https://www.forbes.com/sites/erikkain/2026/09/25/what-to-watch-this-weekend-new-shows-and-movies-to-stream-on-netflix-hulu-prime-video-apple-tv-and-more/",
+        "publishedDate": "2026-09-25"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3170030",
+      "category": "compute-energy",
+      "headline": "Crusoe abandons $1.25B plan to use Boom turbines at AI data centers",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/09/25/crusoe-abandons-1-25b-plan-to-use-boom-turbines-at-ai-data-centers/",
+        "publishedDate": "2026-09-25"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3170070",
+      "category": "ai-lifecycle",
+      "headline": "Unsecured OpenAI agents posted 53 user images on the internet without the lab&#8217;s knowledge",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/09/25/unsecured-openai-agents-posted-53-user-images-on-the-internet-without-the-labs-knowledge/",
+        "publishedDate": "2026-09-25"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6ab6e49b9fc9d6a3751e6565",
+      "category": "research",
+      "headline": "Biggest-Ever Cal Athletics Sponsorship Deal Comes Via $190 Billion Company Started By Berkeley Researchers",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/sites/richardnieva/2026/09/25/databricks-berkeley-deal/",
         "publishedDate": "2026-09-25"
       },
       "traceToAnchors": []
@@ -625,39 +658,6 @@
       "source": {
         "name": "Forbes — Innovation",
         "url": "https://www.forbes.com/councils/forbestechcouncil/2026/09/22/why-self-serve-data-is-the-next-member-service-battleground/",
-        "publishedDate": "2026-09-22"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://huggingface.co/blog/omlx",
-      "category": "safety-governance",
-      "headline": "Jun Kim, oMLX creator and maintainer, joins Hugging Face to support the MLX community",
-      "source": {
-        "name": "Hugging Face — Blog",
-        "url": "https://huggingface.co/blog/omlx",
-        "publishedDate": "2026-09-22"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3167451",
-      "category": "research",
-      "headline": "AstroForge is putting AI in command of its next spacecraft",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/09/22/astroforge-is-putting-ai-in-command-of-its-next-spacecraft/",
-        "publishedDate": "2026-09-22"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3167216",
-      "category": "compute-energy",
-      "headline": "Everyone can find a reason to dislike data center construction",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/09/22/everyone-can-find-a-reason-to-dislike-data-center-construction/",
         "publishedDate": "2026-09-22"
       },
       "traceToAnchors": []

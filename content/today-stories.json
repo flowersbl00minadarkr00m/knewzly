@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-27T11:15:19.879Z",
+  "lastUpdated": "2026-09-27T16:15:46.359Z",
   "freshnessState": "fresh",
   "stories": [
     {
@@ -9,6 +9,39 @@
       "source": {
         "name": "TechCrunch — Artificial Intelligence",
         "url": "https://techcrunch.com/2026/09/26/google-tests-buying-from-walmart-owned-flipkart-through-gemini-and-ai-mode-in-india/",
+        "publishedDate": "2026-09-27"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6ab6a73ad01e840c6f324e9c",
+      "category": "models",
+      "headline": "What To Watch This Weekend: New Shows And Movies To Stream On Netflix, Hulu, Prime Video, Apple TV And More",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/sites/erikkain/2026/09/27/what-to-watch-this-weekend-new-shows-and-movies-to-stream-on-netflix-hulu-prime-video-apple-tv-and-more/",
+        "publishedDate": "2026-09-27"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6ab91311bb40ba70e8516220",
+      "category": "models",
+      "headline": "Meta’s Muse AI Agent Tests Who Controls Digital Distribution",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/sites/maureenkerr/2026/09/27/metas-muse-ai-agent-tests-who-controls-digital-distribution/",
+        "publishedDate": "2026-09-27"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6ab88f5d2fa0cdb070f5ffdf",
+      "category": "safety-governance",
+      "headline": "AI Agent Spam Grows As OpenAI’s Agents And Others Overstep Boundaries",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/sites/sandycarter/2026/09/27/ai-agent-spam-grows-as-openais-agents-and-others-overstep-boundaries/",
         "publishedDate": "2026-09-27"
       },
       "traceToAnchors": []
@@ -174,17 +207,6 @@
       "source": {
         "name": "The Verge — Artificial Intelligence",
         "url": "https://www.theverge.com/news/1000532/microsoft-copilot-super-app-chat-coding-autopilot",
-        "publishedDate": "2026-09-25"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6ab6a73ad01e840c6f324e9c",
-      "category": "models",
-      "headline": "What To Watch This Weekend: New Shows And Movies To Stream On Netflix, Hulu, Prime Video, Apple TV And More",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/sites/erikkain/2026/09/25/what-to-watch-this-weekend-new-shows-and-movies-to-stream-on-netflix-hulu-prime-video-apple-tv-and-more/",
         "publishedDate": "2026-09-25"
       },
       "traceToAnchors": []
@@ -636,28 +658,6 @@
       "source": {
         "name": "TechCrunch — Artificial Intelligence",
         "url": "https://techcrunch.com/2026/09/23/meta-introduces-camera-free-ai-glasses/",
-        "publishedDate": "2026-09-23"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theverge.com/?p=999673",
-      "category": "models",
-      "headline": "Muse is coming to Meta smart glasses",
-      "source": {
-        "name": "The Verge — Artificial Intelligence",
-        "url": "https://www.theverge.com/tech/999673/meta-connect-2026-muse-glasses-features",
-        "publishedDate": "2026-09-23"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theverge.com/?p=999454",
-      "category": "models",
-      "headline": "Meta is making Muse more powerful and will let you video chat with it, too",
-      "source": {
-        "name": "The Verge — Artificial Intelligence",
-        "url": "https://www.theverge.com/tech/999454/meta-muse-ai-agent-video-chat-connect-2026",
         "publishedDate": "2026-09-23"
       },
       "traceToAnchors": []

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-28T12:43:18.846Z",
+  "lastUpdated": "2026-09-28T22:52:40.398Z",
   "freshnessState": "fresh",
   "stories": [
     {
@@ -75,6 +75,116 @@
       "source": {
         "name": "NVIDIA — Technical Blog",
         "url": "https://developer.nvidia.com/blog/add-runtime-controls-to-ai-agents-with-nvidia-openshell/",
+        "publishedDate": "2026-09-28"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.technologyreview.com/?p=1145230",
+      "category": "research",
+      "headline": "When can we say AI made a scientific discovery?",
+      "source": {
+        "name": "MIT Technology Review — Artificial Intelligence",
+        "url": "https://www.technologyreview.com/2026/09/28/1145230/when-can-we-say-ai-made-a-scientific-discovery/",
+        "publishedDate": "2026-09-28"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://openai.com/index/basis-tax-workbook-with-astra",
+      "category": "models",
+      "headline": "Basis completes a tax workbook 2x faster with GPT-6 Astra",
+      "source": {
+        "name": "OpenAI — News",
+        "url": "https://openai.com/index/basis-tax-workbook-with-astra",
+        "publishedDate": "2026-09-28"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3170647",
+      "category": "models",
+      "headline": "Nvidia launches new platform for reining in rogue AI agents",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/09/28/nvidia-launches-new-platform-for-reining-in-rogue-ai-agents/",
+        "publishedDate": "2026-09-28"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3170644",
+      "category": "models",
+      "headline": "Anthropic releases Sonnet 5.5, which it calls a significantly cheaper, faster work partner",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/09/28/anthropic-releases-sonnet-5-5-which-it-calls-a-significantly-cheaper-faster-work-partner/",
+        "publishedDate": "2026-09-28"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3170736",
+      "category": "models",
+      "headline": "Google is killing off Gemini&#8217;s Gems in favor of &#8216;skills&#8217;",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/09/28/google-is-killing-off-geminis-gems-in-favor-of-skills/",
+        "publishedDate": "2026-09-28"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3170653",
+      "category": "models",
+      "headline": "Meta launches enterprise AI platform, hires MongoDB CEO to lead new initiative",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/09/28/meta-launches-enterprise-ai-platform-hires-mongodb-ceo-to-lead-new-initiative/",
+        "publishedDate": "2026-09-28"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theverge.com/?p=1001590",
+      "category": "safety-governance",
+      "headline": "OpenAI’s AI agents need to catch up",
+      "source": {
+        "name": "The Verge — Artificial Intelligence",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1001590/openai-devday-2026-aeon-ai-agent",
+        "publishedDate": "2026-09-28"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theverge.com/?p=1001287",
+      "category": "ai-lifecycle",
+      "headline": "Nvidia says its new AI safety platform can contain rogue agents within ‘milliseconds’",
+      "source": {
+        "name": "The Verge — Artificial Intelligence",
+        "url": "https://www.theverge.com/tech/1001287/nvidia-ai-safety-platform-rogue-agents",
+        "publishedDate": "2026-09-28"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://tldr.tech/ai/2026-09-28",
+      "category": "safety-governance",
+      "headline": "Muse manifesto 📜, OpenAI training pause 🚨, trading compute 🤝",
+      "source": {
+        "name": "TLDR AI",
+        "url": "https://tldr.tech/ai/2026-09-28",
+        "publishedDate": "2026-09-28"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6ab978ecd01e840c6f324f11",
+      "category": "compute-energy",
+      "headline": "Data Centers Need To Go Somewhere. AI-Powered Maps Show Where.",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/sites/esri/2026/09/28/data-centers-need-to-go-somewhere-ai-powered-maps-show-where/",
         "publishedDate": "2026-09-28"
       },
       "traceToAnchors": []
@@ -549,116 +659,6 @@
         "name": "TechCrunch — Artificial Intelligence",
         "url": "https://techcrunch.com/2026/09/24/google-photos-clueless-inspired-virtual-closet-is-now-available-on-android-and-ios/",
         "publishedDate": "2026-09-24"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theverge.com/?p=1000328",
-      "category": "models",
-      "headline": "Gemini 3.8 Live with Live Avatar gives Google&#8217;s AI a face",
-      "source": {
-        "name": "The Verge — Artificial Intelligence",
-        "url": "https://www.theverge.com/tech/1000328/google-gemini-ai-live-avatar-face",
-        "publishedDate": "2026-09-24"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theverge.com/?p=1000180",
-      "category": "models",
-      "headline": "Muse sure looks a lot like OpenClaw",
-      "source": {
-        "name": "The Verge — Artificial Intelligence",
-        "url": "https://www.theverge.com/report/1000180/muse-openclaw-instinct-lookalike",
-        "publishedDate": "2026-09-24"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theverge.com/?p=999999",
-      "category": "models",
-      "headline": "It’s sinister that Meta’s Muse AI mascot is so cute",
-      "source": {
-        "name": "The Verge — Artificial Intelligence",
-        "url": "https://www.theverge.com/column/999999/optimizer-meta-muse-ai-cute",
-        "publishedDate": "2026-09-24"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theneurondaily.com/p/live-gpt-6-sol-vs-claude-opus-5-5-round-2",
-      "category": "models",
-      "headline": "😺 LIVE IN 5: GPT-6 Sol vs. Claude Opus 5.5",
-      "source": {
-        "name": "The Neuron",
-        "url": "https://www.theneurondaily.com/p/live-gpt-6-sol-vs-claude-opus-5-5-round-2",
-        "publishedDate": "2026-09-24"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theneurondaily.com/p/gpt-6-sol-vs-claude-opus-5-5",
-      "category": "models",
-      "headline": "😺 GPT-6 Sol vs Claude Opus 5.5",
-      "source": {
-        "name": "The Neuron",
-        "url": "https://www.theneurondaily.com/p/gpt-6-sol-vs-claude-opus-5-5",
-        "publishedDate": "2026-09-23"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6ab394ca6156371085524288",
-      "category": "ai-lifecycle",
-      "headline": "Inside CrowdStrike’s Move To Secure Enterprise Agentic AI",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/sites/stevemcdowell/2026/09/23/inside-crowdstrikes-move-to-secure-enterprise-agentic-ai/",
-        "publishedDate": "2026-09-23"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6ab285eb67e642894d28720d",
-      "category": "research",
-      "headline": "Just 10% Of World’s Oceans Designated For Conservation, Study Finds",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/sites/jamiehailstone/2026/09/23/just-10-of-worlds-oceans-designated-for-conservation-study-finds/",
-        "publishedDate": "2026-09-23"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "6ab2afc756b93c0e50ac09dc",
-      "category": "models",
-      "headline": "Meta’s Muse AI Assistant Rolled Out With a Serious Security Flaw",
-      "source": {
-        "name": "Wired — Artificial Intelligence",
-        "url": "https://www.wired.com/story/metas-muse-ai-agent-zero-day/",
-        "publishedDate": "2026-09-23"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6ab17e1934f3b81f31625a91",
-      "category": "ai-lifecycle",
-      "headline": "To Fight AI-Powered Attackers, Enterprises Need Agentic Defense.",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/sites/reliaquest/2026/09/23/to-fight-ai-powered-attackers-enterprises-need-agentic-defense/",
-        "publishedDate": "2026-09-23"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.technologyreview.com/?p=1144940",
-      "category": "research",
-      "headline": "The AI Hype Index: AI loves cheating",
-      "source": {
-        "name": "MIT Technology Review — Artificial Intelligence",
-        "url": "https://www.technologyreview.com/2026/09/23/1144940/ai-hype-index-ai-loves-cheating/",
-        "publishedDate": "2026-09-23"
       },
       "traceToAnchors": []
     }

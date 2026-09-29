@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-28T22:52:40.398Z",
+  "lastUpdated": "2026-09-29T03:51:46.882Z",
   "freshnessState": "fresh",
   "stories": [
     {
@@ -185,6 +185,17 @@
       "source": {
         "name": "Forbes — Innovation",
         "url": "https://www.forbes.com/sites/esri/2026/09/28/data-centers-need-to-go-somewhere-ai-powered-maps-show-where/",
+        "publishedDate": "2026-09-28"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3171035",
+      "category": "safety-governance",
+      "headline": "OpenAI reportedly ditches model over safety concerns",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/09/28/openai-reportedly-ditches-model-over-safety-concerns/",
         "publishedDate": "2026-09-28"
       },
       "traceToAnchors": []
@@ -647,17 +658,6 @@
       "source": {
         "name": "TechCrunch — Artificial Intelligence",
         "url": "https://techcrunch.com/2026/09/24/metas-muse-charm-looks-like-a-tamagotchi-but-its-tapping-into-a-much-newer-trend/",
-        "publishedDate": "2026-09-24"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3168895",
-      "category": "models",
-      "headline": "Google Photos &#8216;Clueless&#8217;-inspired virtual closet is now available on Android and iOS",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/09/24/google-photos-clueless-inspired-virtual-closet-is-now-available-on-android-and-ios/",
         "publishedDate": "2026-09-24"
       },
       "traceToAnchors": []

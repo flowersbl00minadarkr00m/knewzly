@@ -1,7 +1,51 @@
 {
-  "lastUpdated": "2026-09-29T03:51:46.882Z",
+  "lastUpdated": "2026-09-29T11:59:52.308Z",
   "freshnessState": "fresh",
   "stories": [
+    {
+      "id": "6abb6e1ea8fe438aac4deedb",
+      "category": "safety-governance",
+      "headline": "OpenAI Delays Release of Latest Model Over Safety Concerns",
+      "source": {
+        "name": "Wired — Artificial Intelligence",
+        "url": "https://www.wired.com/story/openai-delays-release-of-latest-model-over-safety-concerns/",
+        "publishedDate": "2026-09-29"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6aba6d4e452577ba34e1fbab",
+      "category": "ai-lifecycle",
+      "headline": "The Evolution Of Voice Agents: How They Work And Why You Could See Them Everywhere",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/councils/forbestechcouncil/2026/09/29/the-evolution-of-voice-agents-how-they-work-and-why-you-could-see-them-everywhere/",
+        "publishedDate": "2026-09-29"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6aba6c34d281db3aa69dda29",
+      "category": "research",
+      "headline": "​The AI Consumption Trap: Why Your Enterprise Is Measuring The Wrong Thing",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/councils/forbestechcouncil/2026/09/29/the-ai-consumption-trap-why-your-enterprise-is-measuring-the-wrong-thing/",
+        "publishedDate": "2026-09-29"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6abb83fa89e94d95ca27c0de",
+      "category": "research",
+      "headline": "Justin Gaethje Stops Ilia Topuria Narrative, Names Next Opponent",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/sites/brianmazique/2026/09/29/justin-gaethje-stops-ilia-topuria-narrative-names-next-opponent/",
+        "publishedDate": "2026-09-29"
+      },
+      "traceToAnchors": []
+    },
     {
       "id": "6aba2ec22122500d82923825",
       "category": "safety-governance",
@@ -196,6 +240,17 @@
       "source": {
         "name": "TechCrunch — Artificial Intelligence",
         "url": "https://techcrunch.com/2026/09/28/openai-reportedly-ditches-model-over-safety-concerns/",
+        "publishedDate": "2026-09-28"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://openai.com/index/towards-safety-cases-for-frontier-ai-training",
+      "category": "safety-governance",
+      "headline": "Towards safety cases for frontier AI training",
+      "source": {
+        "name": "OpenAI — News",
+        "url": "https://openai.com/index/towards-safety-cases-for-frontier-ai-training",
         "publishedDate": "2026-09-28"
       },
       "traceToAnchors": []
@@ -603,61 +658,6 @@
       "source": {
         "name": "Wired — Artificial Intelligence",
         "url": "https://www.wired.com/story/openai-agent-hacked-australias-health-service-their-government-found-out-months-later/",
-        "publishedDate": "2026-09-24"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://tldr.tech/ai/2026-09-24",
-      "category": "models",
-      "headline": "Gemini TTS 🗣️, Claude’s novel enzyme 🧬, Google private memory 🔒",
-      "source": {
-        "name": "TLDR AI",
-        "url": "https://tldr.tech/ai/2026-09-24",
-        "publishedDate": "2026-09-24"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6ab44499bda6dbbf8ff01696",
-      "category": "models",
-      "headline": "Why Nation-State Cyber Exercises Have Never Been More Important",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/councils/forbestechcouncil/2026/09/24/why-nation-state-cyber-exercises-have-never-been-more-important/",
-        "publishedDate": "2026-09-24"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-dspark",
-      "category": "models",
-      "headline": "Accelerating vision-language models with LFM2.5-VL-DSpark",
-      "source": {
-        "name": "Hugging Face — Blog",
-        "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-dspark",
-        "publishedDate": "2026-09-24"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3169077",
-      "category": "compute-energy",
-      "headline": "Oracle sends force majeure notice on its New Mexico Stargate data center",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/09/24/oracle-sends-force-majeure-notice-on-its-new-mexico-stargate-data-center/",
-        "publishedDate": "2026-09-24"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3169009",
-      "category": "models",
-      "headline": "Meta&#8217;s Muse Charm looks like a Tamagotchi, but it&#8217;s tapping into a much newer trend",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/09/24/metas-muse-charm-looks-like-a-tamagotchi-but-its-tapping-into-a-much-newer-trend/",
         "publishedDate": "2026-09-24"
       },
       "traceToAnchors": []

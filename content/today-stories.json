@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-29T11:59:52.308Z",
+  "lastUpdated": "2026-09-29T18:01:06.723Z",
   "freshnessState": "fresh",
   "stories": [
     {
@@ -42,6 +42,127 @@
       "source": {
         "name": "Forbes — Innovation",
         "url": "https://www.forbes.com/sites/brianmazique/2026/09/29/justin-gaethje-stops-ilia-topuria-narrative-names-next-opponent/",
+        "publishedDate": "2026-09-29"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3171280",
+      "category": "ai-lifecycle",
+      "headline": "OpenAI takes on Microsoft with the launch of what feels a whole lot like ChatGPT&#8217;s own office suite",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/09/29/openai-takes-on-microsoft-with-the-launch-of-what-feels-a-whole-lot-like-chatgpts-own-office-suite/",
+        "publishedDate": "2026-09-29"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3171209",
+      "category": "models",
+      "headline": "OpenAI launches Dots, its bubbly agentic avatar",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/09/29/openai-launches-dots-its-bubbly-agentic-avatar/",
+        "publishedDate": "2026-09-29"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3171312",
+      "category": "safety-governance",
+      "headline": "OpenAI expands ChatGPT&#8217;s plugins with app-like interfaces and automations",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/09/29/openai-expands-chatgpts-plugins-with-app-like-interfaces-and-automations/",
+        "publishedDate": "2026-09-29"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3171292",
+      "category": "models",
+      "headline": "OpenAI launches GPT-6.1 Sol, says it nearly matches GPT-6 Astra and costs less",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/09/29/openai-launches-gpt-6-1-sol-says-it-nearly-matches-gpt-6-astra-and-costs-less/",
+        "publishedDate": "2026-09-29"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3171268",
+      "category": "ai-lifecycle",
+      "headline": "OpenAI gives Codex reusable cloud environments that work across devices",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/09/29/openai-gives-codex-reusable-cloud-environments-that-work-across-devices/",
+        "publishedDate": "2026-09-29"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theverge.com/?p=1001886",
+      "category": "models",
+      "headline": "Meta&#8217;s Muse AI sent a YouTuber’s address to a stranger",
+      "source": {
+        "name": "The Verge — Artificial Intelligence",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1001886/meta-muse-ai-facebook-marketplace-security-concerns",
+        "publishedDate": "2026-09-29"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "6abbc49d41517308a6383d32",
+      "category": "models",
+      "headline": "OpenAI’s Dots Are Always-On AI Agents—and Its Answer to Meta’s Muse",
+      "source": {
+        "name": "Wired — Artificial Intelligence",
+        "url": "https://www.wired.com/story/openai-dots-always-on-ai-agents-that-proactively-help/",
+        "publishedDate": "2026-09-29"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://tldr.tech/ai/2026-09-29",
+      "category": "models",
+      "headline": "Claude Sonnet 5.5 🧠, Anthropic IPO leaks 📝, AMD buys World Labs 💰",
+      "source": {
+        "name": "TLDR AI",
+        "url": "https://tldr.tech/ai/2026-09-29",
+        "publishedDate": "2026-09-29"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6abbe2645eb54f098d8ee55d",
+      "category": "research",
+      "headline": "15 Great Movies Leaving Netflix This Week — Watch Them Before They’re Gone",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/sites/erikkain/2026/09/29/15-great-movies-leaving-netflix-this-week/",
+        "publishedDate": "2026-09-29"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6abbd9c8ac36920a18c98023",
+      "category": "research",
+      "headline": "Everything Coming To Netflix In October 2026, And What To Watch",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/sites/erikkain/2026/09/29/everything-coming-to-netflix-october-2026/",
+        "publishedDate": "2026-09-29"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://huggingface.co/blog/MultiverseComputingCAI/getting-the-source-right-not-just-the-fact-source",
+      "category": "research",
+      "headline": "Getting the Source Right, Not Just the Fact: Source-Aware Verification for MCP Agents",
+      "source": {
+        "name": "Hugging Face — Blog",
+        "url": "https://huggingface.co/blog/MultiverseComputingCAI/getting-the-source-right-not-just-the-fact-source",
         "publishedDate": "2026-09-29"
       },
       "traceToAnchors": []
@@ -537,127 +658,6 @@
       "source": {
         "name": "TechCrunch — Artificial Intelligence",
         "url": "https://techcrunch.com/2026/09/23/meta-made-a-tamagotchi-like-wearable-for-its-muse-ai-agent/",
-        "publishedDate": "2026-09-24"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theverge.com/?p=999750",
-      "category": "ai-lifecycle",
-      "headline": "Meta is making a standalone Muse AI gadget",
-      "source": {
-        "name": "The Verge — Artificial Intelligence",
-        "url": "https://www.theverge.com/tech/999750/muse-charm-meta-ai-hardware",
-        "publishedDate": "2026-09-24"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theverge.com/?p=999802",
-      "category": "models",
-      "headline": "Gemini 4 is almost ready, says new Google DeepMind chief",
-      "source": {
-        "name": "The Verge — Artificial Intelligence",
-        "url": "https://www.theverge.com/tech/999802/google-deepmind-gemini-4-timeline-koray-kavukcuoglu",
-        "publishedDate": "2026-09-24"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theneurondaily.com/p/what-950-claude-agents-found",
-      "category": "models",
-      "headline": "😺 What 950 Claude agents found",
-      "source": {
-        "name": "The Neuron",
-        "url": "https://www.theneurondaily.com/p/what-950-claude-agents-found",
-        "publishedDate": "2026-09-24"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
-      "category": "models",
-      "headline": "Introducing Gemini 3.8 Live with Live Avatar",
-      "source": {
-        "name": "Google DeepMind — Blog",
-        "url": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
-        "publishedDate": "2026-09-24"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3168825",
-      "category": "models",
-      "headline": "Google tests letting Gemini call businesses for you",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/09/24/google-tests-letting-gemini-make-phone-calls-initially-for-us-pixel-owners/",
-        "publishedDate": "2026-09-24"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3168786",
-      "category": "ai-lifecycle",
-      "headline": "Ando wants to take on Slack with a team messaging app that lets humans and agents work together",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/09/24/ando-eyes-slack-as-it-builds-team-messaging-platform-for-humans-and-agents-to-work-together/",
-        "publishedDate": "2026-09-24"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3168743",
-      "category": "safety-governance",
-      "headline": "Australia to investigate if OpenAI hack of government health website broke the law",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/09/24/australia-to-investigate-if-openai-hack-of-government-health-website-broke-the-law/",
-        "publishedDate": "2026-09-24"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theverge.com/?p=999944",
-      "category": "models",
-      "headline": "Meta’s Muse AI Charms can interact with each other",
-      "source": {
-        "name": "The Verge — Artificial Intelligence",
-        "url": "https://www.theverge.com/tech/999944/meta-muse-charm-ai-interact-5g-modem",
-        "publishedDate": "2026-09-24"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theverge.com/?p=999874",
-      "category": "safety-governance",
-      "headline": "OpenAI agents hacked an Australian government website in search of data",
-      "source": {
-        "name": "The Verge — Artificial Intelligence",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/999874/openai-agents-hacked-an-australian-government-website-in-search-for-data",
-        "publishedDate": "2026-09-24"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "6ab333f8f51e7fb8c39cc78e",
-      "category": "models",
-      "headline": "Google’s Gemini Can Now Make Calls for You on Pixel Phones",
-      "source": {
-        "name": "Wired — Artificial Intelligence",
-        "url": "https://www.wired.com/story/googles-gemini-can-now-make-calls-for-you-on-pixel-phones/",
-        "publishedDate": "2026-09-24"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "6ab4e91fb1d9548af7e552c3",
-      "category": "safety-governance",
-      "headline": "An OpenAI Agent Hacked Australia’s Health Service. Their Government Found Out Months Later",
-      "source": {
-        "name": "Wired — Artificial Intelligence",
-        "url": "https://www.wired.com/story/openai-agent-hacked-australias-health-service-their-government-found-out-months-later/",
         "publishedDate": "2026-09-24"
       },
       "traceToAnchors": []

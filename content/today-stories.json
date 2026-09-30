@@ -1,7 +1,95 @@
 {
-  "lastUpdated": "2026-09-30T11:48:24.271Z",
+  "lastUpdated": "2026-09-30T17:28:49.190Z",
   "freshnessState": "fresh",
   "stories": [
+    {
+      "id": "https://techcrunch.com/?p=3172182",
+      "category": "models",
+      "headline": "Meta disputes claim that Muse read a user&#8217;s private messages without permission",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/09/30/meta-disputes-claim-that-muse-read-a-users-private-messages-without-permission/",
+        "publishedDate": "2026-09-30"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3172181",
+      "category": "models",
+      "headline": "DoorDash launches an AI agent you can text to order food",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/09/30/doordash-launches-an-ai-agent-you-can-text-to-order-food/",
+        "publishedDate": "2026-09-30"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3172103",
+      "category": "safety-governance",
+      "headline": "Restate lands $20M as the need for durable infrastructure increases with AI agents",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/09/30/restate-lands-20m-as-the-need-for-durable-infrastructure-increases-with-ai-agents/",
+        "publishedDate": "2026-09-30"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3171595",
+      "category": "research",
+      "headline": "3 days left to exhibit: Turn visibility into your next opportunity at TechCrunch Disrupt 2026",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/09/30/3-days-left-to-exhibit-at-techcrunch-disrupt-2026-2/",
+        "publishedDate": "2026-09-30"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theverge.com/?p=1002636",
+      "category": "safety-governance",
+      "headline": "Here&#8217;s what AI leaders are saying about Trump’s new safety plan",
+      "source": {
+        "name": "The Verge — Artificial Intelligence",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1002636/ai-execs-trump-self-policing-deal-comments",
+        "publishedDate": "2026-09-30"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theverge.com/?post_type=vm_stream&#038;p=1002671",
+      "category": "models",
+      "headline": "All the latest news on Meta’s cute, creepy Muse AI agent",
+      "source": {
+        "name": "The Verge — Artificial Intelligence",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1002671/meta-muse-ai",
+        "publishedDate": "2026-09-30"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theverge.com/?p=1002584",
+      "category": "safety-governance",
+      "headline": "Here’s how tech leaders will self-police AI safety under Trump’s deal",
+      "source": {
+        "name": "The Verge — Artificial Intelligence",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1002584/trump-us-ai-safety-deal-self-regulation-tech-execs",
+        "publishedDate": "2026-09-30"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://developer.nvidia.com/blog/?p=123038",
+      "category": "models",
+      "headline": "Tracing Agent Harness Behavior with NVIDIA NeMo Relay",
+      "source": {
+        "name": "NVIDIA — Technical Blog",
+        "url": "https://developer.nvidia.com/blog/tracing-agent-harness-behavior-with-nvidia-nemo-relay/",
+        "publishedDate": "2026-09-30"
+      },
+      "traceToAnchors": []
+    },
     {
       "id": "6abb6e1ea8fe438aac4deedb",
       "category": "safety-governance",
@@ -570,94 +658,6 @@
       "source": {
         "name": "Forbes — Innovation",
         "url": "https://www.forbes.com/sites/rashishrivastava/2026/09/25/ai-agents-are-helping-people-recover-money-by-negotiating-bills-and-chasing-refunds/",
-        "publishedDate": "2026-09-25"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6ab446b4bf8d5fcec352267f",
-      "category": "safety-governance",
-      "headline": "QR Code Governance: How Businesses Can Manage The Risks Of Quishing",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/councils/forbestechcouncil/2026/09/25/qr-code-governance-how-businesses-can-manage-the-risks-of-quishing/",
-        "publishedDate": "2026-09-25"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3169621",
-      "category": "models",
-      "headline": "Meta is putting its muscle behind Muse as the AI app takes off",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/09/25/meta-is-putting-its-muscle-behind-muse-as-the-ai-app-takes-off/",
-        "publishedDate": "2026-09-25"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://tldr.tech/ai/2026-09-25",
-      "category": "models",
-      "headline": "ChatGPT Pro Max 🤖, Muse realtime avatar 🎭, DeepSeek $1B ARR 💰",
-      "source": {
-        "name": "TLDR AI",
-        "url": "https://tldr.tech/ai/2026-09-25",
-        "publishedDate": "2026-09-25"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6ab57524d01e840c6f324e60",
-      "category": "research",
-      "headline": "Why Medical Record Review Needs To Move Beyond The Rearview Mirror",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/councils/forbestechcouncil/2026/09/25/why-medical-record-review-needs-to-move-beyond-the-rearview-mirror/",
-        "publishedDate": "2026-09-25"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3170007",
-      "category": "ai-lifecycle",
-      "headline": "Meta opens early access program for new Muse features",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/09/25/meta-opens-early-access-program-for-new-muse-features/",
-        "publishedDate": "2026-09-25"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?post_type=tc_podcast&#038;p=3169914",
-      "category": "models",
-      "headline": "Meta’s Muse just stole the AI spotlight from OpenAI and Anthropic",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/podcast/metas-muse-just-stole-the-ai-spotlight-from-openai-and-anthropic/",
-        "publishedDate": "2026-09-25"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theverge.com/?p=1000784",
-      "category": "models",
-      "headline": "Meta makes the Muse filesystem even more accessible",
-      "source": {
-        "name": "The Verge — Artificial Intelligence",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/1000784/meta-muse-filesystem",
-        "publishedDate": "2026-09-25"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theverge.com/?p=1000321",
-      "category": "models",
-      "headline": "Can Apple Home’s AI camera features outsmart Amazon’s and Google’s? I put them to the test",
-      "source": {
-        "name": "The Verge — Artificial Intelligence",
-        "url": "https://www.theverge.com/tech/1000321/apple-intelligence-home-security-camera-amazon-ring-alexa-google-nest-gemini-home-review",
         "publishedDate": "2026-09-25"
       },
       "traceToAnchors": []

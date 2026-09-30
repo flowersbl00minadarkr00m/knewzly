@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-30T17:28:49.190Z",
+  "lastUpdated": "2026-09-30T21:47:35.911Z",
   "freshnessState": "fresh",
   "stories": [
     {
@@ -86,6 +86,61 @@
       "source": {
         "name": "NVIDIA — Technical Blog",
         "url": "https://developer.nvidia.com/blog/tracing-agent-harness-behavior-with-nvidia-nemo-relay/",
+        "publishedDate": "2026-09-30"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3172428",
+      "category": "models",
+      "headline": "Valor, Atreides, and Sequoia back AI startup Flow Engineering at $750M valuation",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/09/30/valor-atreides-and-sequoia-back-ai-startup-flow-engineering-at-750m-valuation/",
+        "publishedDate": "2026-09-30"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3172187",
+      "category": "models",
+      "headline": "OpenAI&#8217;s Jev clone could help the frontier lab stop its swarming agents",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/09/30/openais-jev-clone-could-help-the-frontier-lab-stop-its-swarming-agents/",
+        "publishedDate": "2026-09-30"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theverge.com/?p=1002980",
+      "category": "models",
+      "headline": "Google announces Gemini 4 and says it&#8217;s so capable that only &#8216;trusted cyber defenders&#8217; can have it right now",
+      "source": {
+        "name": "The Verge — Artificial Intelligence",
+        "url": "https://www.theverge.com/tech/1002980/google-gemini-4-argon",
+        "publishedDate": "2026-09-30"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "6abd2716b729f64a710059c9",
+      "category": "safety-governance",
+      "headline": "Trump’s AI Safety ‘Accord’ Is a Fancy Pinky-Swear",
+      "source": {
+        "name": "Wired — Artificial Intelligence",
+        "url": "https://www.wired.com/story/trumps-ai-safety-accord-is-a-fancy-pinky-swear/",
+        "publishedDate": "2026-09-30"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6abd4b28c63fea94d4b6e35d",
+      "category": "ai-lifecycle",
+      "headline": "AMD Unveils Ross Agentic AI To Accelerate Embedded Engineering",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/sites/marcochiappetta/2026/09/30/amd-unveils-ross-agentic-ai-to-accelerate-embedded-engineering/",
         "publishedDate": "2026-09-30"
       },
       "traceToAnchors": []
@@ -604,61 +659,6 @@
         "name": "Wired — Artificial Intelligence",
         "url": "https://www.wired.com/story/meta-muse-is-adults-only-why-does-it-look-like-a-cute-kids-toy/",
         "publishedDate": "2026-09-26"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theverge.com/?p=1001049",
-      "category": "safety-governance",
-      "headline": "OpenAI pauses training of its ‘most capable models’",
-      "source": {
-        "name": "The Verge — Artificial Intelligence",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/1001049/openai-training-pause",
-        "publishedDate": "2026-09-26"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6ab7e7932fa0cdb070f5ffc0",
-      "category": "models",
-      "headline": "Forget The Next MacBook Pro, Apple Has Something Much More Desirable",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/sites/ewanspence/2026/09/26/macbook-ultra-oled-touchscreen-pricing-strategy/",
-        "publishedDate": "2026-09-26"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6ab5d087d39ce0f7bced983c",
-      "category": "ai-lifecycle",
-      "headline": "Businesses Focus Areas For AI And AI Agents Deployment",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/sites/ray-fernandez/2026/09/24/businesses-focus-areas-for-ai-and-ai-agents-deployment/",
-        "publishedDate": "2026-09-25"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theneurondaily.com/p/meta-unveiled-muse-charm-a-pocket-ai",
-      "category": "models",
-      "headline": "😺 Meta unveiled Muse Charm, a pocket AI",
-      "source": {
-        "name": "The Neuron",
-        "url": "https://www.theneurondaily.com/p/meta-unveiled-muse-charm-a-pocket-ai",
-        "publishedDate": "2026-09-25"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6ab5a70a721f692aa55aac3a",
-      "category": "models",
-      "headline": "AI Agents Are Helping People Recover Money By Negotiating Bills And Chasing Refunds",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/sites/rashishrivastava/2026/09/25/ai-agents-are-helping-people-recover-money-by-negotiating-bills-and-chasing-refunds/",
-        "publishedDate": "2026-09-25"
       },
       "traceToAnchors": []
     }

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-29T18:01:06.723Z",
+  "lastUpdated": "2026-09-30T03:39:54.892Z",
   "freshnessState": "fresh",
   "stories": [
     {
@@ -163,6 +163,72 @@
       "source": {
         "name": "Hugging Face — Blog",
         "url": "https://huggingface.co/blog/MultiverseComputingCAI/getting-the-source-right-not-just-the-fact-source",
+        "publishedDate": "2026-09-29"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://openai.com/index/introducing-gpt-6-1-sol",
+      "category": "models",
+      "headline": "Introducing GPT-6.1 Sol",
+      "source": {
+        "name": "OpenAI — News",
+        "url": "https://openai.com/index/introducing-gpt-6-1-sol",
+        "publishedDate": "2026-09-29"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3171020",
+      "category": "ai-lifecycle",
+      "headline": "Here&#8217;s why OpenAI is absent from Nvidia&#8217;s industry-wide effort to end rogue AI agents",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/09/29/heres-why-openai-is-absent-from-nvidias-industry-wide-effort-to-end-rogue-ai-agents/",
+        "publishedDate": "2026-09-29"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theverge.com/?p=1002033",
+      "category": "models",
+      "headline": "OpenAI launches Dots, its Muse competitor",
+      "source": {
+        "name": "The Verge — Artificial Intelligence",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1002033/openai-dots-launch-muse-competitor",
+        "publishedDate": "2026-09-29"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "6abbb69b2122500d82924ae7",
+      "category": "safety-governance",
+      "headline": "OpenAI Gets Sued Over the Hugging Face Hack",
+      "source": {
+        "name": "Wired — Artificial Intelligence",
+        "url": "https://www.wired.com/story/openai-sued-over-the-hugging-face-hack/",
+        "publishedDate": "2026-09-29"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://developer.nvidia.com/blog/?p=123036",
+      "category": "ai-lifecycle",
+      "headline": "AI Native by Design: Lessons Learned from Building NVIDIA TensorRT Model Connect",
+      "source": {
+        "name": "NVIDIA — Technical Blog",
+        "url": "https://developer.nvidia.com/blog/ai-native-by-design-lessons-learned-from-building-nvidia-tensorrt-model-connect/",
+        "publishedDate": "2026-09-29"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://developer.nvidia.com/blog/?p=123017",
+      "category": "ai-lifecycle",
+      "headline": "Lower the Cost of Building and Running Visual AI Agents with NVIDIA VSS Blueprint 3.3",
+      "source": {
+        "name": "NVIDIA — Technical Blog",
+        "url": "https://developer.nvidia.com/blog/lower-the-cost-of-building-and-running-visual-ai-agents-with-nvidia-vss-blueprint-3-3/",
         "publishedDate": "2026-09-29"
       },
       "traceToAnchors": []
@@ -593,72 +659,6 @@
         "name": "The Verge — Artificial Intelligence",
         "url": "https://www.theverge.com/tech/1000321/apple-intelligence-home-security-camera-amazon-ring-alexa-google-nest-gemini-home-review",
         "publishedDate": "2026-09-25"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theverge.com/?p=1000532",
-      "category": "ai-lifecycle",
-      "headline": "Microsoft thinks its new Copilot ‘super app’ will be as influential as Office",
-      "source": {
-        "name": "The Verge — Artificial Intelligence",
-        "url": "https://www.theverge.com/news/1000532/microsoft-copilot-super-app-chat-coding-autopilot",
-        "publishedDate": "2026-09-25"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3170030",
-      "category": "compute-energy",
-      "headline": "Crusoe abandons $1.25B plan to use Boom turbines at AI data centers",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/09/25/crusoe-abandons-1-25b-plan-to-use-boom-turbines-at-ai-data-centers/",
-        "publishedDate": "2026-09-25"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3170070",
-      "category": "ai-lifecycle",
-      "headline": "Unsecured OpenAI agents posted 53 user images on the internet without the lab&#8217;s knowledge",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/09/25/unsecured-openai-agents-posted-53-user-images-on-the-internet-without-the-labs-knowledge/",
-        "publishedDate": "2026-09-25"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6ab6e49b9fc9d6a3751e6565",
-      "category": "research",
-      "headline": "Biggest-Ever Cal Athletics Sponsorship Deal Comes Via $190 Billion Company Started By Berkeley Researchers",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/sites/richardnieva/2026/09/25/databricks-berkeley-deal/",
-        "publishedDate": "2026-09-25"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3168527",
-      "category": "models",
-      "headline": "Everything new coming to Meta&#8217;s AI agent Muse",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/09/23/everything-new-coming-to-metas-ai-agent-muse/",
-        "publishedDate": "2026-09-24"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3168692",
-      "category": "models",
-      "headline": "Meta made a Tamagotchi-like wearable for its Muse AI agent",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/09/23/meta-made-a-tamagotchi-like-wearable-for-its-muse-ai-agent/",
-        "publishedDate": "2026-09-24"
       },
       "traceToAnchors": []
     }

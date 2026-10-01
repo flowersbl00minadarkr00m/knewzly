@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-01T12:17:46.407Z",
+  "lastUpdated": "2026-10-01T22:15:36.194Z",
   "freshnessState": "fresh",
   "stories": [
     {
@@ -9,6 +9,116 @@
       "source": {
         "name": "Forbes — Innovation",
         "url": "https://www.forbes.com/sites/joemckendrick/2026/09/30/we-keep-missing-the-most-important-point-about-ai-adoption/",
+        "publishedDate": "2026-10-01"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://openai.com/index/the-den-family-social",
+      "category": "ai-lifecycle",
+      "headline": "The Den frees up 10-15 hours a week to grow with ChatGPT Work",
+      "source": {
+        "name": "OpenAI — News",
+        "url": "https://openai.com/index/the-den-family-social",
+        "publishedDate": "2026-10-01"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3172737",
+      "category": "safety-governance",
+      "headline": "OpenAI cuts ties with 3 safety researchers, WSJ reports",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/10/01/openai-cuts-ties-with-three-safety-researchers-wsj-reports/",
+        "publishedDate": "2026-10-01"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3172101",
+      "category": "safety-governance",
+      "headline": "Brian Chesky interview: AI agents need their own operating system",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/10/01/brian-chesky-interview-ai-agents-need-their-own-operating-system/",
+        "publishedDate": "2026-10-01"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theverge.com/?p=1003756",
+      "category": "models",
+      "headline": "Google’s new Guided Vision feature can help you read the fine print",
+      "source": {
+        "name": "The Verge — Artificial Intelligence",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1003756/google-gemini-live-guided-vision",
+        "publishedDate": "2026-10-01"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theverge.com/?p=1003399",
+      "category": "models",
+      "headline": "OpenAI’s new agent is a shot at Meta — but can it compete with free?",
+      "source": {
+        "name": "The Verge — Artificial Intelligence",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1003399/meta-openai-ai-agents-muse-dots-battle",
+        "publishedDate": "2026-10-01"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theverge.com/?p=1002851",
+      "category": "research",
+      "headline": "Inside our months-long investigation into Kevin O’Leary’s Utah data center debacle",
+      "source": {
+        "name": "The Verge — Artificial Intelligence",
+        "url": "https://www.theverge.com/podcast/1002851/utah-ai-data-center-stratos-kevin-oleary-investigation-backlash",
+        "publishedDate": "2026-10-01"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "6abd69a2aa33d107855886da",
+      "category": "safety-governance",
+      "headline": "Trump’s ‘Morally Binding’ AI ‘Accord,’ the Rise of AI Agents, and Extremists on the Ballot",
+      "source": {
+        "name": "Wired — Artificial Intelligence",
+        "url": "https://www.wired.com/story/uncanny-valley-podcast-trumps-pinky-swear-ai-safety-accord-an-ai-agent-worth-the-risk/",
+        "publishedDate": "2026-10-01"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6abdce5dcd9db22be494d8aa",
+      "category": "research",
+      "headline": "The 10 Best Movies New To Netflix In October 2026 And What To Watch",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/sites/erikkain/2026/10/01/netflix-10-best-movies-october-2026/",
+        "publishedDate": "2026-10-01"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://developer.nvidia.com/blog/?p=123148",
+      "category": "ai-lifecycle",
+      "headline": "Build Applications on NVIDIA BlueField Faster with NVIDIA DOCA Agent Skills",
+      "source": {
+        "name": "NVIDIA — Technical Blog",
+        "url": "https://developer.nvidia.com/blog/build-applications-on-nvidia-bluefield-faster-with-nvidia-doca-agent-skills/",
+        "publishedDate": "2026-10-01"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://developer.nvidia.com/blog/?p=123027",
+      "category": "ai-lifecycle",
+      "headline": "Build Local AI Apps with C++ and NVIDIA TensorRT RTX Samples",
+      "source": {
+        "name": "NVIDIA — Technical Blog",
+        "url": "https://developer.nvidia.com/blog/build-local-ai-apps-with-c-and-nvidia-tensorrt-rtx-samples/",
         "publishedDate": "2026-10-01"
       },
       "traceToAnchors": []
@@ -549,116 +659,6 @@
         "name": "The Verge — Artificial Intelligence",
         "url": "https://www.theverge.com/ai-artificial-intelligence/1001590/openai-devday-2026-aeon-ai-agent",
         "publishedDate": "2026-09-28"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theverge.com/?p=1001287",
-      "category": "ai-lifecycle",
-      "headline": "Nvidia says its new AI safety platform can contain rogue agents within ‘milliseconds’",
-      "source": {
-        "name": "The Verge — Artificial Intelligence",
-        "url": "https://www.theverge.com/tech/1001287/nvidia-ai-safety-platform-rogue-agents",
-        "publishedDate": "2026-09-28"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://tldr.tech/ai/2026-09-28",
-      "category": "safety-governance",
-      "headline": "Muse manifesto 📜, OpenAI training pause 🚨, trading compute 🤝",
-      "source": {
-        "name": "TLDR AI",
-        "url": "https://tldr.tech/ai/2026-09-28",
-        "publishedDate": "2026-09-28"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6ab978ecd01e840c6f324f11",
-      "category": "compute-energy",
-      "headline": "Data Centers Need To Go Somewhere. AI-Powered Maps Show Where.",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/sites/esri/2026/09/28/data-centers-need-to-go-somewhere-ai-powered-maps-show-where/",
-        "publishedDate": "2026-09-28"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3171035",
-      "category": "safety-governance",
-      "headline": "OpenAI reportedly ditches model over safety concerns",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/09/28/openai-reportedly-ditches-model-over-safety-concerns/",
-        "publishedDate": "2026-09-28"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://openai.com/index/towards-safety-cases-for-frontier-ai-training",
-      "category": "safety-governance",
-      "headline": "Towards safety cases for frontier AI training",
-      "source": {
-        "name": "OpenAI — News",
-        "url": "https://openai.com/index/towards-safety-cases-for-frontier-ai-training",
-        "publishedDate": "2026-09-28"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3170226",
-      "category": "models",
-      "headline": "Google tests buying from Walmart-owned Flipkart through Gemini and AI Mode in India",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/09/26/google-tests-buying-from-walmart-owned-flipkart-through-gemini-and-ai-mode-in-india/",
-        "publishedDate": "2026-09-27"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6ab6a73ad01e840c6f324e9c",
-      "category": "models",
-      "headline": "What To Watch This Weekend: New Shows And Movies To Stream On Netflix, Hulu, Prime Video, Apple TV And More",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/sites/erikkain/2026/09/27/what-to-watch-this-weekend-new-shows-and-movies-to-stream-on-netflix-hulu-prime-video-apple-tv-and-more/",
-        "publishedDate": "2026-09-27"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6ab91311bb40ba70e8516220",
-      "category": "models",
-      "headline": "Meta’s Muse AI Agent Tests Who Controls Digital Distribution",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/sites/maureenkerr/2026/09/27/metas-muse-ai-agent-tests-who-controls-digital-distribution/",
-        "publishedDate": "2026-09-27"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6ab88f5d2fa0cdb070f5ffdf",
-      "category": "safety-governance",
-      "headline": "AI Agent Spam Grows As OpenAI’s Agents And Others Overstep Boundaries",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/sites/sandycarter/2026/09/27/ai-agent-spam-grows-as-openais-agents-and-others-overstep-boundaries/",
-        "publishedDate": "2026-09-27"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3170334",
-      "category": "models",
-      "headline": "Can Muse overcome Meta’s trust issues?",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/09/27/can-muse-overcome-metas-trust-issues/",
-        "publishedDate": "2026-09-27"
       },
       "traceToAnchors": []
     }

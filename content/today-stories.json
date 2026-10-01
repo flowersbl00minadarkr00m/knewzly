@@ -1,7 +1,18 @@
 {
-  "lastUpdated": "2026-09-30T21:47:35.911Z",
+  "lastUpdated": "2026-10-01T03:45:36.550Z",
   "freshnessState": "fresh",
   "stories": [
+    {
+      "id": "content_6abbd7e0d392bcbcb165df32",
+      "category": "research",
+      "headline": "We Keep Missing The Most Important Point About AI Adoption",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/sites/joemckendrick/2026/09/30/we-keep-missing-the-most-important-point-about-ai-adoption/",
+        "publishedDate": "2026-10-01"
+      },
+      "traceToAnchors": []
+    },
     {
       "id": "https://techcrunch.com/?p=3172182",
       "category": "models",
@@ -141,6 +152,17 @@
       "source": {
         "name": "Forbes — Innovation",
         "url": "https://www.forbes.com/sites/marcochiappetta/2026/09/30/amd-unveils-ross-agentic-ai-to-accelerate-embedded-engineering/",
+        "publishedDate": "2026-09-30"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3172532",
+      "category": "models",
+      "headline": "Google releases Gemini 4 Argon, called its most powerful model yet",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/09/30/google-releases-gemini-4-argon-called-its-most-powerful-model-yet/",
         "publishedDate": "2026-09-30"
       },
       "traceToAnchors": []
@@ -637,28 +659,6 @@
         "name": "TechCrunch — Artificial Intelligence",
         "url": "https://techcrunch.com/2026/09/27/can-muse-overcome-metas-trust-issues/",
         "publishedDate": "2026-09-27"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theverge.com/?p=1001178",
-      "category": "safety-governance",
-      "headline": "OpenAI agents tried to ‘bruteforce’ a UN website",
-      "source": {
-        "name": "The Verge — Artificial Intelligence",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/1001178/openai-agents-bruteforce-un-website",
-        "publishedDate": "2026-09-27"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "6ab67d95c4da8f2e1f68c67c",
-      "category": "models",
-      "headline": "Meta’s Muse Is Adults-Only. Why Does It Look Like a Kids’ Toy?",
-      "source": {
-        "name": "Wired — Artificial Intelligence",
-        "url": "https://www.wired.com/story/meta-muse-is-adults-only-why-does-it-look-like-a-cute-kids-toy/",
-        "publishedDate": "2026-09-26"
       },
       "traceToAnchors": []
     }

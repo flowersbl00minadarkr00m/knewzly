@@ -1,7 +1,51 @@
 {
-  "lastUpdated": "2026-10-02T03:44:23.493Z",
+  "lastUpdated": "2026-10-02T11:46:18.346Z",
   "freshnessState": "fresh",
   "stories": [
+    {
+      "id": "6abc2709de4260e1edbea50e",
+      "category": "research",
+      "headline": "A Flaw in ChatGPT’s Mac App Could Have Let Hackers Grab Sensitive Data",
+      "source": {
+        "name": "Wired — Artificial Intelligence",
+        "url": "https://www.wired.com/story/a-flaw-in-chatgpts-mac-app-could-have-let-hackers-grab-sensitive-data/",
+        "publishedDate": "2026-10-02"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6abd6e8fca21236904437d93",
+      "category": "research",
+      "headline": "Inside The Trillions Being Spent On The AI Data Center Buildout",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/sites/giacomotognini/2026/10/02/inside-the-trillions-being-spent-on-the-ai-data-center-buildout/",
+        "publishedDate": "2026-10-02"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6abd73047490ebdcc4c878ad",
+      "category": "research",
+      "headline": "Who Owns The Learning? Private Equity’s Next Governance Problem Is Portfolio Intelligence",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/councils/forbestechcouncil/2026/10/02/who-owns-the-learning-private-equitys-next-governance-problem-is-portfolio-intelligence/",
+        "publishedDate": "2026-10-02"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata",
+      "category": "safety-governance",
+      "headline": "AutoSynthData: Generating Training Data for Enterprise Agents",
+      "source": {
+        "name": "Hugging Face — Blog",
+        "url": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata",
+        "publishedDate": "2026-10-02"
+      },
+      "traceToAnchors": []
+    },
     {
       "id": "content_6abbd7e0d392bcbcb165df32",
       "category": "research",
@@ -614,50 +658,6 @@
       "source": {
         "name": "TechCrunch — Artificial Intelligence",
         "url": "https://techcrunch.com/2026/09/28/nvidia-launches-new-platform-for-reining-in-rogue-ai-agents/",
-        "publishedDate": "2026-09-28"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3170644",
-      "category": "models",
-      "headline": "Anthropic releases Sonnet 5.5, which it calls a significantly cheaper, faster work partner",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/09/28/anthropic-releases-sonnet-5-5-which-it-calls-a-significantly-cheaper-faster-work-partner/",
-        "publishedDate": "2026-09-28"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3170736",
-      "category": "models",
-      "headline": "Google is killing off Gemini&#8217;s Gems in favor of &#8216;skills&#8217;",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/09/28/google-is-killing-off-geminis-gems-in-favor-of-skills/",
-        "publishedDate": "2026-09-28"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3170653",
-      "category": "models",
-      "headline": "Meta launches enterprise AI platform, hires MongoDB CEO to lead new initiative",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/09/28/meta-launches-enterprise-ai-platform-hires-mongodb-ceo-to-lead-new-initiative/",
-        "publishedDate": "2026-09-28"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theverge.com/?p=1001590",
-      "category": "safety-governance",
-      "headline": "OpenAI’s AI agents need to catch up",
-      "source": {
-        "name": "The Verge — Artificial Intelligence",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/1001590/openai-devday-2026-aeon-ai-agent",
         "publishedDate": "2026-09-28"
       },
       "traceToAnchors": []

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-03T10:59:43.954Z",
+  "lastUpdated": "2026-10-03T15:36:17.328Z",
   "freshnessState": "fresh",
   "stories": [
     {
@@ -20,6 +20,28 @@
       "source": {
         "name": "Forbes — Innovation",
         "url": "https://www.forbes.com/sites/stevenwolfepereira/2026/10/02/your-ai-agents-can-write-code-can-they-understand-your-business/",
+        "publishedDate": "2026-10-03"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theverge.com/?p=1004408",
+      "category": "safety-governance",
+      "headline": "An OpenAI safety employee has quit and is sounding the alarm",
+      "source": {
+        "name": "The Verge — Artificial Intelligence",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1004408/openai-safety-quits-sounding-the-alarm",
+        "publishedDate": "2026-10-03"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6ac0ef2b9c7cd01e667b75e0",
+      "category": "research",
+      "headline": "1 Thing You Need More Than Happiness To Feel Truly Fulfilled, By A Psychologist",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/sites/traversmark/2026/10/03/1-thing-you-need-more-than-happiness-to-feel-truly-fulfilled-by-a-psychologist/",
         "publishedDate": "2026-10-03"
       },
       "traceToAnchors": []
@@ -636,28 +658,6 @@
       "source": {
         "name": "The Verge — Artificial Intelligence",
         "url": "https://www.theverge.com/ai-artificial-intelligence/1002033/openai-dots-launch-muse-competitor",
-        "publishedDate": "2026-09-29"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "6abbb69b2122500d82924ae7",
-      "category": "safety-governance",
-      "headline": "OpenAI Gets Sued Over the Hugging Face Hack",
-      "source": {
-        "name": "Wired — Artificial Intelligence",
-        "url": "https://www.wired.com/story/openai-sued-over-the-hugging-face-hack/",
-        "publishedDate": "2026-09-29"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://developer.nvidia.com/blog/?p=123036",
-      "category": "ai-lifecycle",
-      "headline": "AI Native by Design: Lessons Learned from Building NVIDIA TensorRT Model Connect",
-      "source": {
-        "name": "NVIDIA — Technical Blog",
-        "url": "https://developer.nvidia.com/blog/ai-native-by-design-lessons-learned-from-building-nvidia-tensorrt-model-connect/",
         "publishedDate": "2026-09-29"
       },
       "traceToAnchors": []

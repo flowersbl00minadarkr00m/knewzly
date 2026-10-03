@@ -1,7 +1,29 @@
 {
-  "lastUpdated": "2026-10-02T21:44:17.934Z",
+  "lastUpdated": "2026-10-03T03:29:07.348Z",
   "freshnessState": "fresh",
   "stories": [
+    {
+      "id": "https://techcrunch.com/?p=3173444",
+      "category": "models",
+      "headline": "Meta wants your next gadget to be Muse-infused",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/10/02/meta-wants-you-to-build-your-own-muse-gadget/",
+        "publishedDate": "2026-10-03"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6ac04c3bed2de2d9371ea104",
+      "category": "research",
+      "headline": "Your AI Agents Can Write Code. Can They Understand Your Business?",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/sites/stevenwolfepereira/2026/10/02/your-ai-agents-can-write-code-can-they-understand-your-business/",
+        "publishedDate": "2026-10-03"
+      },
+      "traceToAnchors": []
+    },
     {
       "id": "6abc2709de4260e1edbea50e",
       "category": "research",
@@ -637,28 +659,6 @@
         "name": "NVIDIA — Technical Blog",
         "url": "https://developer.nvidia.com/blog/ai-native-by-design-lessons-learned-from-building-nvidia-tensorrt-model-connect/",
         "publishedDate": "2026-09-29"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://developer.nvidia.com/blog/?p=123017",
-      "category": "ai-lifecycle",
-      "headline": "Lower the Cost of Building and Running Visual AI Agents with NVIDIA VSS Blueprint 3.3",
-      "source": {
-        "name": "NVIDIA — Technical Blog",
-        "url": "https://developer.nvidia.com/blog/lower-the-cost-of-building-and-running-visual-ai-agents-with-nvidia-vss-blueprint-3-3/",
-        "publishedDate": "2026-09-29"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "6aba2ec22122500d82923825",
-      "category": "safety-governance",
-      "headline": "OpenAI Pauses Training Its Most Powerful Models After Rogue Agents Target Government",
-      "source": {
-        "name": "Wired — Artificial Intelligence",
-        "url": "https://www.wired.com/story/openai-pauses-training-most-powerful-models-after-rogue-agents-target-government/",
-        "publishedDate": "2026-09-28"
       },
       "traceToAnchors": []
     }

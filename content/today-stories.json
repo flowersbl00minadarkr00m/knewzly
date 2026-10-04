@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-04T16:20:08.952Z",
+  "lastUpdated": "2026-10-04T20:47:31.922Z",
   "freshnessState": "fresh",
   "stories": [
     {
@@ -9,6 +9,17 @@
       "source": {
         "name": "Wired — Artificial Intelligence",
         "url": "https://www.wired.com/story/rural-data-centers-are-in-for-a-big-federal-tax-break/",
+        "publishedDate": "2026-10-04"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6ac27dc68c95bb61954fb6d4",
+      "category": "models",
+      "headline": "Spy Versus Spy, Patent Versus Patent: China Files More Patents",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/sites/viviantoh/2026/10/04/spy-versus-spy-patent-versus-patent-china-files-more-patents/",
         "publishedDate": "2026-10-04"
       },
       "traceToAnchors": []
@@ -647,17 +658,6 @@
       "source": {
         "name": "Forbes — Innovation",
         "url": "https://www.forbes.com/sites/erikkain/2026/09/29/everything-coming-to-netflix-october-2026/",
-        "publishedDate": "2026-09-29"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://huggingface.co/blog/MultiverseComputingCAI/getting-the-source-right-not-just-the-fact-source",
-      "category": "research",
-      "headline": "Getting the Source Right, Not Just the Fact: Source-Aware Verification for MCP Agents",
-      "source": {
-        "name": "Hugging Face — Blog",
-        "url": "https://huggingface.co/blog/MultiverseComputingCAI/getting-the-source-right-not-just-the-fact-source",
         "publishedDate": "2026-09-29"
       },
       "traceToAnchors": []

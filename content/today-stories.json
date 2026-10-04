@@ -1,7 +1,18 @@
 {
-  "lastUpdated": "2026-10-04T03:57:19.196Z",
+  "lastUpdated": "2026-10-04T11:41:38.629Z",
   "freshnessState": "fresh",
   "stories": [
+    {
+      "id": "6abe5cae9828a5714cf83d72",
+      "category": "compute-energy",
+      "headline": "Rural Data Centers Are in for a Big Federal Tax Break",
+      "source": {
+        "name": "Wired — Artificial Intelligence",
+        "url": "https://www.wired.com/story/rural-data-centers-are-in-for-a-big-federal-tax-break/",
+        "publishedDate": "2026-10-04"
+      },
+      "traceToAnchors": []
+    },
     {
       "id": "https://techcrunch.com/?p=3173444",
       "category": "models",
@@ -647,17 +658,6 @@
       "source": {
         "name": "Hugging Face — Blog",
         "url": "https://huggingface.co/blog/MultiverseComputingCAI/getting-the-source-right-not-just-the-fact-source",
-        "publishedDate": "2026-09-29"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://openai.com/index/introducing-gpt-6-1-sol",
-      "category": "models",
-      "headline": "Introducing GPT-6.1 Sol",
-      "source": {
-        "name": "OpenAI — News",
-        "url": "https://openai.com/index/introducing-gpt-6-1-sol",
         "publishedDate": "2026-09-29"
       },
       "traceToAnchors": []

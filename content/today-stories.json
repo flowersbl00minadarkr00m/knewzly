@@ -1,7 +1,18 @@
 {
-  "lastUpdated": "2026-10-05T03:42:00.186Z",
+  "lastUpdated": "2026-10-05T13:24:24.931Z",
   "freshnessState": "fresh",
   "stories": [
+    {
+      "id": "content_6abe90d6193447989e6c6693",
+      "category": "safety-governance",
+      "headline": "AI Agents Will Need Money: Why Stablecoins Could Become The Native Payment Layer For AI",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/councils/forbestechcouncil/2026/10/05/ai-agents-will-need-money-why-stablecoins-could-become-the-native-payment-layer-for-ai/",
+        "publishedDate": "2026-10-05"
+      },
+      "traceToAnchors": []
+    },
     {
       "id": "6abe5cae9828a5714cf83d72",
       "category": "compute-energy",
@@ -647,17 +658,6 @@
       "source": {
         "name": "Forbes — Innovation",
         "url": "https://www.forbes.com/sites/erikkain/2026/09/29/15-great-movies-leaving-netflix-this-week/",
-        "publishedDate": "2026-09-29"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6abbd9c8ac36920a18c98023",
-      "category": "research",
-      "headline": "Everything Coming To Netflix In October 2026, And What To Watch",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/sites/erikkain/2026/09/29/everything-coming-to-netflix-october-2026/",
         "publishedDate": "2026-09-29"
       },
       "traceToAnchors": []

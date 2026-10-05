@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-05T13:24:24.931Z",
+  "lastUpdated": "2026-10-05T23:37:57.795Z",
   "freshnessState": "fresh",
   "stories": [
     {
@@ -9,6 +9,50 @@
       "source": {
         "name": "Forbes — Innovation",
         "url": "https://www.forbes.com/councils/forbestechcouncil/2026/10/05/ai-agents-will-need-money-why-stablecoins-could-become-the-native-payment-layer-for-ai/",
+        "publishedDate": "2026-10-05"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.technologyreview.com/?p=1145580",
+      "category": "ai-lifecycle",
+      "headline": "Connecting AI agents to enterprise knowledge",
+      "source": {
+        "name": "MIT Technology Review — Artificial Intelligence",
+        "url": "https://www.technologyreview.com/2026/10/05/1145580/connecting-ai-agents-to-enterprise-knowledge/",
+        "publishedDate": "2026-10-05"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.technologyreview.com/?p=1143813",
+      "category": "ai-lifecycle",
+      "headline": "Bringing predictive analytics to the agentic AI era",
+      "source": {
+        "name": "MIT Technology Review — Artificial Intelligence",
+        "url": "https://www.technologyreview.com/2026/10/05/1143813/bringing-predictive-analytics-to-the-agentic-ai-era/",
+        "publishedDate": "2026-10-05"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theverge.com/?p=1004286",
+      "category": "safety-governance",
+      "headline": "Sen. Adam Schiff on AI regulation, free speech, and impeaching Trump one more time",
+      "source": {
+        "name": "The Verge — Artificial Intelligence",
+        "url": "https://www.theverge.com/podcast/1004286/senator-adam-schiff-ai-trump-regulation-corruption",
+        "publishedDate": "2026-10-05"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://tldr.tech/ai/2026-10-05",
+      "category": "models",
+      "headline": "Prime Inference 📈, agent population 📈, Claude academy 🎓",
+      "source": {
+        "name": "TLDR AI",
+        "url": "https://tldr.tech/ai/2026-10-05",
         "publishedDate": "2026-10-05"
       },
       "traceToAnchors": []
@@ -614,50 +658,6 @@
       "source": {
         "name": "TechCrunch — Artificial Intelligence",
         "url": "https://techcrunch.com/2026/09/29/openai-gives-codex-reusable-cloud-environments-that-work-across-devices/",
-        "publishedDate": "2026-09-29"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theverge.com/?p=1001886",
-      "category": "models",
-      "headline": "Meta&#8217;s Muse AI sent a YouTuber’s address to a stranger",
-      "source": {
-        "name": "The Verge — Artificial Intelligence",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/1001886/meta-muse-ai-facebook-marketplace-security-concerns",
-        "publishedDate": "2026-09-29"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "6abbc49d41517308a6383d32",
-      "category": "models",
-      "headline": "OpenAI’s Dots Are Always-On AI Agents—and Its Answer to Meta’s Muse",
-      "source": {
-        "name": "Wired — Artificial Intelligence",
-        "url": "https://www.wired.com/story/openai-dots-always-on-ai-agents-that-proactively-help/",
-        "publishedDate": "2026-09-29"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://tldr.tech/ai/2026-09-29",
-      "category": "models",
-      "headline": "Claude Sonnet 5.5 🧠, Anthropic IPO leaks 📝, AMD buys World Labs 💰",
-      "source": {
-        "name": "TLDR AI",
-        "url": "https://tldr.tech/ai/2026-09-29",
-        "publishedDate": "2026-09-29"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6abbe2645eb54f098d8ee55d",
-      "category": "research",
-      "headline": "15 Great Movies Leaving Netflix This Week — Watch Them Before They’re Gone",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/sites/erikkain/2026/09/29/15-great-movies-leaving-netflix-this-week/",
         "publishedDate": "2026-09-29"
       },
       "traceToAnchors": []

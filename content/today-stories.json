@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-06T12:38:26.296Z",
+  "lastUpdated": "2026-10-06T22:12:20.143Z",
   "freshnessState": "fresh",
   "stories": [
     {
@@ -20,6 +20,50 @@
       "source": {
         "name": "Forbes — Innovation",
         "url": "https://www.forbes.com/councils/forbestechcouncil/2026/10/06/context-engineering-decides-whether-your-ai-testing-agents-are-useful/",
+        "publishedDate": "2026-10-06"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3174440",
+      "category": "safety-governance",
+      "headline": "The next hurdle for AI agents: getting websites to let them in",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/10/06/the-next-hurdle-for-ai-agents-getting-websites-to-let-them-in/",
+        "publishedDate": "2026-10-06"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3174443",
+      "category": "models",
+      "headline": "Anthropic is giving startups a free year of Claude Team and $1,000 in credits",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/10/06/anthropic-gives-startups-a-free-year-of-enterprise-service-and-1000-in-token-credits/",
+        "publishedDate": "2026-10-06"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theverge.com/?p=1005451",
+      "category": "models",
+      "headline": "Google is about to remove free access to Gemini Flash and Pro",
+      "source": {
+        "name": "The Verge — Artificial Intelligence",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1005451/google-gemini-free-flash-lite-only",
+        "publishedDate": "2026-10-06"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://developer.nvidia.com/blog/?p=123253",
+      "category": "ai-lifecycle",
+      "headline": "How DOCA GPUNetIO Unifies GPU-Initiated Networking Across the NVIDIA Software Stack",
+      "source": {
+        "name": "NVIDIA — Technical Blog",
+        "url": "https://developer.nvidia.com/blog/doca-gpunetio-gda-ki-unified-gpu-networking/",
         "publishedDate": "2026-10-06"
       },
       "traceToAnchors": []
@@ -614,50 +658,6 @@
       "source": {
         "name": "Forbes — Innovation",
         "url": "https://www.forbes.com/councils/forbestechcouncil/2026/09/29/the-ai-consumption-trap-why-your-enterprise-is-measuring-the-wrong-thing/",
-        "publishedDate": "2026-09-29"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6abb83fa89e94d95ca27c0de",
-      "category": "research",
-      "headline": "Justin Gaethje Stops Ilia Topuria Narrative, Names Next Opponent",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/sites/brianmazique/2026/09/29/justin-gaethje-stops-ilia-topuria-narrative-names-next-opponent/",
-        "publishedDate": "2026-09-29"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3171280",
-      "category": "ai-lifecycle",
-      "headline": "OpenAI takes on Microsoft with the launch of what feels a whole lot like ChatGPT&#8217;s own office suite",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/09/29/openai-takes-on-microsoft-with-the-launch-of-what-feels-a-whole-lot-like-chatgpts-own-office-suite/",
-        "publishedDate": "2026-09-29"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3171209",
-      "category": "models",
-      "headline": "OpenAI launches Dots, its bubbly agentic avatar",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/09/29/openai-launches-dots-its-bubbly-agentic-avatar/",
-        "publishedDate": "2026-09-29"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3171312",
-      "category": "safety-governance",
-      "headline": "OpenAI expands ChatGPT&#8217;s plugins with app-like interfaces and automations",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/09/29/openai-expands-chatgpts-plugins-with-app-like-interfaces-and-automations/",
         "publishedDate": "2026-09-29"
       },
       "traceToAnchors": []

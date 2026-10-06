@@ -1,7 +1,29 @@
 {
-  "lastUpdated": "2026-10-06T04:30:10.432Z",
+  "lastUpdated": "2026-10-06T12:38:26.296Z",
   "freshnessState": "fresh",
   "stories": [
+    {
+      "id": "content_6ac39c1d85c62e8b19ad4ab3",
+      "category": "models",
+      "headline": "Three Reasons Your Chief AI Officer May Soon Look More Like Your Head Of HR",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/councils/forbestechcouncil/2026/10/06/three-reasons-your-chief-ai-officer-may-soon-look-more-like-your-head-of-hr/",
+        "publishedDate": "2026-10-06"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6ac01340954f14c16b4bc479",
+      "category": "ai-lifecycle",
+      "headline": "Context Engineering Decides Whether Your AI Testing Agents Are Useful",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/councils/forbestechcouncil/2026/10/06/context-engineering-decides-whether-your-ai-testing-agents-are-useful/",
+        "publishedDate": "2026-10-06"
+      },
+      "traceToAnchors": []
+    },
     {
       "id": "content_6abe90d6193447989e6c6693",
       "category": "safety-governance",
@@ -636,28 +658,6 @@
       "source": {
         "name": "TechCrunch — Artificial Intelligence",
         "url": "https://techcrunch.com/2026/09/29/openai-expands-chatgpts-plugins-with-app-like-interfaces-and-automations/",
-        "publishedDate": "2026-09-29"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3171292",
-      "category": "models",
-      "headline": "OpenAI launches GPT-6.1 Sol, says it nearly matches GPT-6 Astra and costs less",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/09/29/openai-launches-gpt-6-1-sol-says-it-nearly-matches-gpt-6-astra-and-costs-less/",
-        "publishedDate": "2026-09-29"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3171268",
-      "category": "ai-lifecycle",
-      "headline": "OpenAI gives Codex reusable cloud environments that work across devices",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/09/29/openai-gives-codex-reusable-cloud-environments-that-work-across-devices/",
         "publishedDate": "2026-09-29"
       },
       "traceToAnchors": []

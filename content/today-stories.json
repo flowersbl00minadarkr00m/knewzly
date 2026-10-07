@@ -1,7 +1,29 @@
 {
-  "lastUpdated": "2026-10-07T03:55:51.341Z",
+  "lastUpdated": "2026-10-07T12:32:09.355Z",
   "freshnessState": "fresh",
   "stories": [
+    {
+      "id": "https://www.theverge.com/?p=1005726",
+      "category": "research",
+      "headline": "AI could upend food delivery",
+      "source": {
+        "name": "The Verge — Artificial Intelligence",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1005726/doordash-ai-agentic-food-delivery-bites",
+        "publishedDate": "2026-10-07"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6ac4f1f915322a23b6d3e50a",
+      "category": "research",
+      "headline": "The Real AI Adoption Gap Has Nothing To Do With Access",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/councils/forbestechcouncil/2026/10/07/the-real-ai-adoption-gap-has-nothing-to-do-with-access/",
+        "publishedDate": "2026-10-07"
+      },
+      "traceToAnchors": []
+    },
     {
       "id": "content_6ac39c1d85c62e8b19ad4ab3",
       "category": "models",
@@ -637,28 +659,6 @@
         "name": "TechCrunch — Artificial Intelligence",
         "url": "https://techcrunch.com/2026/09/30/google-releases-gemini-4-argon-called-its-most-powerful-model-yet/",
         "publishedDate": "2026-09-30"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "6abb6e1ea8fe438aac4deedb",
-      "category": "safety-governance",
-      "headline": "OpenAI Delays Release of Latest Model Over Safety Concerns",
-      "source": {
-        "name": "Wired — Artificial Intelligence",
-        "url": "https://www.wired.com/story/openai-delays-release-of-latest-model-over-safety-concerns/",
-        "publishedDate": "2026-09-29"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6aba6d4e452577ba34e1fbab",
-      "category": "ai-lifecycle",
-      "headline": "The Evolution Of Voice Agents: How They Work And Why You Could See Them Everywhere",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/councils/forbestechcouncil/2026/09/29/the-evolution-of-voice-agents-how-they-work-and-why-you-could-see-them-everywhere/",
-        "publishedDate": "2026-09-29"
       },
       "traceToAnchors": []
     }

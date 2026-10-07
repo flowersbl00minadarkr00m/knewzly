@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-07T12:32:09.355Z",
+  "lastUpdated": "2026-10-07T22:33:53.972Z",
   "freshnessState": "fresh",
   "stories": [
     {
@@ -20,6 +20,105 @@
       "source": {
         "name": "Forbes — Innovation",
         "url": "https://www.forbes.com/councils/forbestechcouncil/2026/10/07/the-real-ai-adoption-gap-has-nothing-to-do-with-access/",
+        "publishedDate": "2026-10-07"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3175337",
+      "category": "research",
+      "headline": "Nous Research confirms it hit $1.5B valuation, launches AI agents for business users",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/10/07/nous-research-confirms-it-hit-1-5b-valuation-launches-ai-agents-for-business-users/",
+        "publishedDate": "2026-10-07"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3175292",
+      "category": "ai-lifecycle",
+      "headline": "Microsoft releases new Nvidia-chip AI PCs with revamped Windows 11",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/10/07/microsoft-releases-new-nvidia-chip-ai-pcs-with-revamped-windows-11/",
+        "publishedDate": "2026-10-07"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3175232",
+      "category": "models",
+      "headline": "Meta&#8217;s Muse launches on iPad just a month after its mobile debut",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/10/07/metas-muse-launches-on-ipad-just-a-month-after-its-mobile-debut/",
+        "publishedDate": "2026-10-07"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3175177",
+      "category": "ai-lifecycle",
+      "headline": "Meta rolls out new AI tools to detect ads that secretly lead to child sexual abuse material",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/10/07/meta-rolls-out-new-ai-tools-to-detect-ads-that-secretly-lead-to-child-sexual-abuse-material/",
+        "publishedDate": "2026-10-07"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theverge.com/?p=1007113",
+      "category": "ai-lifecycle",
+      "headline": "Microsoft is giving Copilot more control over Windows and your files",
+      "source": {
+        "name": "The Verge — Artificial Intelligence",
+        "url": "https://www.theverge.com/tech/1007113/microsoft-windows-copilot-ai-control-search-hybrid-intelligence",
+        "publishedDate": "2026-10-07"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theverge.com/?p=1006813",
+      "category": "models",
+      "headline": "Muse launches on the iPad",
+      "source": {
+        "name": "The Verge — Artificial Intelligence",
+        "url": "https://www.theverge.com/tech/1006813/muse-ai-agent-ios-app-ipad-support",
+        "publishedDate": "2026-10-07"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6ac65d235ac9cdb8c9550197",
+      "category": "research",
+      "headline": "Inside Raj Shamani's Bid To Build YouTube's Biggest Podcast",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/sites/ianshepherd/2026/10/07/inside-raj-shamanis-bid-to-build-youtubes-biggest-podcast/",
+        "publishedDate": "2026-10-07"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6ac675f3482de62613d74765",
+      "category": "research",
+      "headline": "One Year On: Inside ARCHION’s Next Chapter For FUSO And HINO",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/sites/sarwantsingh/2026/10/07/one-year-on-inside-archions-next-chapter-for-fuso-and-hino/",
+        "publishedDate": "2026-10-07"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://developer.nvidia.com/blog/?p=123156",
+      "category": "compute-energy",
+      "headline": "Scaling Decision Optimization to 100 Million Variables and Beyond with mPDLP in NVIDIA cuOpt",
+      "source": {
+        "name": "NVIDIA — Technical Blog",
+        "url": "https://developer.nvidia.com/blog/scaling-decision-optimization-to-100-million-variables-and-beyond-with-mpdlp-in-nvidia-cuopt/",
         "publishedDate": "2026-10-07"
       },
       "traceToAnchors": []
@@ -559,105 +658,6 @@
       "source": {
         "name": "The Verge — Artificial Intelligence",
         "url": "https://www.theverge.com/ai-artificial-intelligence/1002636/ai-execs-trump-self-policing-deal-comments",
-        "publishedDate": "2026-09-30"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theverge.com/?post_type=vm_stream&#038;p=1002671",
-      "category": "models",
-      "headline": "All the latest news on Meta’s cute, creepy Muse AI agent",
-      "source": {
-        "name": "The Verge — Artificial Intelligence",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/1002671/meta-muse-ai",
-        "publishedDate": "2026-09-30"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theverge.com/?p=1002584",
-      "category": "safety-governance",
-      "headline": "Here’s how tech leaders will self-police AI safety under Trump’s deal",
-      "source": {
-        "name": "The Verge — Artificial Intelligence",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/1002584/trump-us-ai-safety-deal-self-regulation-tech-execs",
-        "publishedDate": "2026-09-30"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://developer.nvidia.com/blog/?p=123038",
-      "category": "models",
-      "headline": "Tracing Agent Harness Behavior with NVIDIA NeMo Relay",
-      "source": {
-        "name": "NVIDIA — Technical Blog",
-        "url": "https://developer.nvidia.com/blog/tracing-agent-harness-behavior-with-nvidia-nemo-relay/",
-        "publishedDate": "2026-09-30"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3172428",
-      "category": "models",
-      "headline": "Valor, Atreides, and Sequoia back AI startup Flow Engineering at $750M valuation",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/09/30/valor-atreides-and-sequoia-back-ai-startup-flow-engineering-at-750m-valuation/",
-        "publishedDate": "2026-09-30"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3172187",
-      "category": "models",
-      "headline": "OpenAI&#8217;s Jev clone could help the frontier lab stop its swarming agents",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/09/30/openais-jev-clone-could-help-the-frontier-lab-stop-its-swarming-agents/",
-        "publishedDate": "2026-09-30"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theverge.com/?p=1002980",
-      "category": "models",
-      "headline": "Google announces Gemini 4 and says it&#8217;s so capable that only &#8216;trusted cyber defenders&#8217; can have it right now",
-      "source": {
-        "name": "The Verge — Artificial Intelligence",
-        "url": "https://www.theverge.com/tech/1002980/google-gemini-4-argon",
-        "publishedDate": "2026-09-30"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "6abd2716b729f64a710059c9",
-      "category": "safety-governance",
-      "headline": "Trump’s AI Safety ‘Accord’ Is a Fancy Pinky-Swear",
-      "source": {
-        "name": "Wired — Artificial Intelligence",
-        "url": "https://www.wired.com/story/trumps-ai-safety-accord-is-a-fancy-pinky-swear/",
-        "publishedDate": "2026-09-30"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6abd4b28c63fea94d4b6e35d",
-      "category": "ai-lifecycle",
-      "headline": "AMD Unveils Ross Agentic AI To Accelerate Embedded Engineering",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/sites/marcochiappetta/2026/09/30/amd-unveils-ross-agentic-ai-to-accelerate-embedded-engineering/",
-        "publishedDate": "2026-09-30"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3172532",
-      "category": "models",
-      "headline": "Google releases Gemini 4 Argon, called its most powerful model yet",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/09/30/google-releases-gemini-4-argon-called-its-most-powerful-model-yet/",
         "publishedDate": "2026-09-30"
       },
       "traceToAnchors": []

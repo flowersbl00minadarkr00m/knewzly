@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-06T22:12:20.143Z",
+  "lastUpdated": "2026-10-07T03:55:51.341Z",
   "freshnessState": "fresh",
   "stories": [
     {
@@ -64,6 +64,17 @@
       "source": {
         "name": "NVIDIA — Technical Blog",
         "url": "https://developer.nvidia.com/blog/doca-gpunetio-gda-ki-unified-gpu-networking/",
+        "publishedDate": "2026-10-06"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://openai.com/index/jump-trading",
+      "category": "research",
+      "headline": "How Jump Trading is scaling quant research with ChatGPT",
+      "source": {
+        "name": "OpenAI — News",
+        "url": "https://openai.com/index/jump-trading",
         "publishedDate": "2026-10-06"
       },
       "traceToAnchors": []
@@ -647,17 +658,6 @@
       "source": {
         "name": "Forbes — Innovation",
         "url": "https://www.forbes.com/councils/forbestechcouncil/2026/09/29/the-evolution-of-voice-agents-how-they-work-and-why-you-could-see-them-everywhere/",
-        "publishedDate": "2026-09-29"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6aba6c34d281db3aa69dda29",
-      "category": "research",
-      "headline": "​The AI Consumption Trap: Why Your Enterprise Is Measuring The Wrong Thing",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/councils/forbestechcouncil/2026/09/29/the-ai-consumption-trap-why-your-enterprise-is-measuring-the-wrong-thing/",
         "publishedDate": "2026-09-29"
       },
       "traceToAnchors": []

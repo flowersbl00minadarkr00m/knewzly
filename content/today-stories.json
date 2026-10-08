@@ -1,7 +1,18 @@
 {
-  "lastUpdated": "2026-10-08T04:09:14.442Z",
+  "lastUpdated": "2026-10-08T12:41:07.908Z",
   "freshnessState": "fresh",
   "stories": [
+    {
+      "id": "https://www.theneurondaily.com/p/october-08-thursday",
+      "category": "ai-lifecycle",
+      "headline": "😺 ChatGPT's GPT-6 now builds calculators",
+      "source": {
+        "name": "The Neuron",
+        "url": "https://www.theneurondaily.com/p/october-08-thursday",
+        "publishedDate": "2026-10-08"
+      },
+      "traceToAnchors": []
+    },
     {
       "id": "https://www.theverge.com/?p=1005726",
       "category": "research",
@@ -647,17 +658,6 @@
       "source": {
         "name": "TechCrunch — Artificial Intelligence",
         "url": "https://techcrunch.com/2026/09/30/3-days-left-to-exhibit-at-techcrunch-disrupt-2026-2/",
-        "publishedDate": "2026-09-30"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theverge.com/?p=1002636",
-      "category": "safety-governance",
-      "headline": "Here&#8217;s what AI leaders are saying about Trump’s new safety plan",
-      "source": {
-        "name": "The Verge — Artificial Intelligence",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/1002636/ai-execs-trump-self-policing-deal-comments",
         "publishedDate": "2026-09-30"
       },
       "traceToAnchors": []

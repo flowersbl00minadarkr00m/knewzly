@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-09T12:28:08.588Z",
+  "lastUpdated": "2026-10-09T22:09:11.330Z",
   "freshnessState": "fresh",
   "stories": [
     {
@@ -9,6 +9,72 @@
       "source": {
         "name": "The Verge — Artificial Intelligence",
         "url": "https://www.theverge.com/ai-artificial-intelligence/1008604/openai-defends-decision-fire-safety-researchers",
+        "publishedDate": "2026-10-09"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?post_type=tc_video&#038;p=3176138",
+      "category": "compute-energy",
+      "headline": "Amazon and others are done keeping data center deals secret. Is it enough to build trust?",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/video/amazon-and-others-are-done-keeping-data-center-deals-secret-is-it-enough-to-build-trust/",
+        "publishedDate": "2026-10-09"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?post_type=tc_podcast&#038;p=3176135",
+      "category": "safety-governance",
+      "headline": "Amazon drops data center NDAs, and AI agents want your credit card",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/podcast/amazon-drops-data-center-ndas-and-ai-agents-want-your-credit-card/",
+        "publishedDate": "2026-10-09"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theverge.com/?p=1008726",
+      "category": "safety-governance",
+      "headline": "&#8216;Pure insanity&#8217;: Mathematicians will need years to make sense of OpenAI&#8217;s latest drop",
+      "source": {
+        "name": "The Verge — Artificial Intelligence",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1008726/openai-mathematics-solutions-chaos",
+        "publishedDate": "2026-10-09"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theverge.com/?p=1008254",
+      "category": "models",
+      "headline": "Instinct was the buzziest AI agent around — can it survive Muse?",
+      "source": {
+        "name": "The Verge — Artificial Intelligence",
+        "url": "https://www.theverge.com/tech/1008254/instinct-agent-ai-hands-on-muse-dots",
+        "publishedDate": "2026-10-09"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://tldr.tech/ai/2026-10-09",
+      "category": "models",
+      "headline": "GPT-6.1 Ultrafast ⚡, Gemini universal agent 🤖, speculative decoding 🧠",
+      "source": {
+        "name": "TLDR AI",
+        "url": "https://tldr.tech/ai/2026-10-09",
+        "publishedDate": "2026-10-09"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6ac9071e4243eea6517f69cc",
+      "category": "models",
+      "headline": "What To Watch This Weekend: New Shows And Movies To Stream On Netflix, Hulu, Prime Video, Apple TV And More",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/sites/erikkain/2026/10/09/what-to-watch-this-weekend-new-shows-and-movies-to-stream-on-netflix-hulu-prime-video-apple-tv-and-more/",
         "publishedDate": "2026-10-09"
       },
       "traceToAnchors": []
@@ -593,72 +659,6 @@
         "name": "Forbes — Innovation",
         "url": "https://www.forbes.com/sites/erikkain/2026/10/02/netflix-10-best-movies-october-2026/",
         "publishedDate": "2026-10-02"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3173313",
-      "category": "safety-governance",
-      "headline": "Apple says it&#8217;s tightening macOS &#8216;Full Disk Access&#8217; controls due to new risks from AI agents",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/10/02/apple-says-its-tightening-macos-full-disk-access-controls-due-to-new-risks-from-ai-agents/",
-        "publishedDate": "2026-10-02"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theverge.com/?p=1004330",
-      "category": "models",
-      "headline": "Meta open sources code to let you make Muse AI gadgets",
-      "source": {
-        "name": "The Verge — Artificial Intelligence",
-        "url": "https://www.theverge.com/tech/1004330/meta-muse-ai-gadgets-home-link",
-        "publishedDate": "2026-10-02"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theverge.com/?p=1004295",
-      "category": "models",
-      "headline": "Apple will limit Mac disk access as AI agents ‘substantially’ increase risk",
-      "source": {
-        "name": "The Verge — Artificial Intelligence",
-        "url": "https://www.theverge.com/tech/1004295/apple-limit-mac-disk-access-ai-agents",
-        "publishedDate": "2026-10-02"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6abff5bfa9271549544f66cc",
-      "category": "models",
-      "headline": "What To Watch This Weekend: New Shows And Movies To Stream On Netflix, Hulu, Prime Video, Apple TV And More",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/sites/erikkain/2026/10/02/what-to-watch-this-weekend-new-shows-and-movies-to-stream-on-netflix-hulu-prime-video-apple-tv-and-more/",
-        "publishedDate": "2026-10-02"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6abbd7e0d392bcbcb165df32",
-      "category": "research",
-      "headline": "We Keep Missing The Most Important Point About AI Adoption",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/sites/joemckendrick/2026/09/30/we-keep-missing-the-most-important-point-about-ai-adoption/",
-        "publishedDate": "2026-10-01"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://openai.com/index/the-den-family-social",
-      "category": "ai-lifecycle",
-      "headline": "The Den frees up 10-15 hours a week to grow with ChatGPT Work",
-      "source": {
-        "name": "OpenAI — News",
-        "url": "https://openai.com/index/the-den-family-social",
-        "publishedDate": "2026-10-01"
       },
       "traceToAnchors": []
     }

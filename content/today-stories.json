@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-08T22:46:23.122Z",
+  "lastUpdated": "2026-10-09T04:14:34.402Z",
   "freshnessState": "fresh",
   "stories": [
     {
@@ -108,6 +108,28 @@
       "source": {
         "name": "NVIDIA — Technical Blog",
         "url": "https://developer.nvidia.com/blog/building-reliable-data-analytics-agents-lessons-from-the-kdd-cup/",
+        "publishedDate": "2026-10-08"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theverge.com/?p=1008521",
+      "category": "models",
+      "headline": "Anthropic launches free AI security scans for open-source projects",
+      "source": {
+        "name": "The Verge — Artificial Intelligence",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1008521/anthropic-open-source-oss-scanner",
+        "publishedDate": "2026-10-08"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6ac810f17e3a9cce7a0ebebe",
+      "category": "models",
+      "headline": "What Can Agentic Cybersecurity Do And 2027 CISO Budgets",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/sites/ray-fernandez/2026/10/08/what-can-agentic-cybersecurity-do-and-2027-ciso-budgets/",
         "publishedDate": "2026-10-08"
       },
       "traceToAnchors": []
@@ -636,28 +658,6 @@
       "source": {
         "name": "TechCrunch — Artificial Intelligence",
         "url": "https://techcrunch.com/2026/10/01/openai-cuts-ties-with-three-safety-researchers-wsj-reports/",
-        "publishedDate": "2026-10-01"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3172101",
-      "category": "safety-governance",
-      "headline": "Brian Chesky interview: AI agents need their own operating system",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/10/01/brian-chesky-interview-ai-agents-need-their-own-operating-system/",
-        "publishedDate": "2026-10-01"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theverge.com/?p=1003756",
-      "category": "models",
-      "headline": "Google’s new Guided Vision feature can help you read the fine print",
-      "source": {
-        "name": "The Verge — Artificial Intelligence",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/1003756/google-gemini-live-guided-vision",
         "publishedDate": "2026-10-01"
       },
       "traceToAnchors": []

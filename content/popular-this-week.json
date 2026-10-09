@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
   "methodologyVersion": "weekly-momentum-v1",
-  "windowStart": "2026-10-01T22:46:30.395Z",
-  "windowEnd": "2026-10-08T22:46:30.395Z",
-  "lastAttemptedAt": "2026-10-08T22:46:30.395Z",
-  "lastSuccessfulAt": "2026-10-08T22:46:30.395Z",
+  "windowStart": "2026-10-02T04:14:41.817Z",
+  "windowEnd": "2026-10-09T04:14:41.817Z",
+  "lastAttemptedAt": "2026-10-09T04:14:41.817Z",
+  "lastSuccessfulAt": "2026-10-09T04:14:41.817Z",
   "status": "partial",
   "providers": {
     "gdelt": {
@@ -12,7 +12,7 @@
     },
     "hackerNews": {
       "status": "ok",
-      "sampledAt": "2026-10-08T22:46:30.395Z",
+      "sampledAt": "2026-10-09T04:14:41.817Z",
       "itemCount": 199
     },
     "bluesky": {
@@ -28,7 +28,7 @@
       ],
       "category": "models",
       "publishedAt": "2026-10-08T00:00:00.000Z",
-      "momentumScore": 0.48264017889222405,
+      "momentumScore": 0.48148269586481884,
       "signals": {
         "coverage": {
           "state": "observed",
@@ -40,15 +40,15 @@
         },
         "hackerNews": {
           "state": "observed",
-          "points": 61,
-          "comments": 129,
+          "points": 67,
+          "comments": 154,
           "itemIds": [
             50008565
           ]
         },
         "recency": {
           "state": "observed",
-          "ageHours": 22.775109722222222
+          "ageHours": 28.244949166666668
         },
         "bluesky": {
           "state": "not_configured"
@@ -57,13 +57,43 @@
     },
     {
       "rank": 2,
+      "leadStoryId": "content_6ac810f17e3a9cce7a0ebebe",
+      "memberStoryIds": [
+        "content_6ac810f17e3a9cce7a0ebebe"
+      ],
+      "category": "models",
+      "publishedAt": "2026-10-08T00:00:00.000Z",
+      "momentumScore": 0.40030026409192787,
+      "signals": {
+        "coverage": {
+          "state": "observed",
+          "basis": "canonical_today_sources",
+          "independentOutletCount": 1,
+          "sampledDomains": [
+            "forbes.com"
+          ]
+        },
+        "hackerNews": {
+          "state": "not_observed"
+        },
+        "recency": {
+          "state": "observed",
+          "ageHours": 28.244949166666668
+        },
+        "bluesky": {
+          "state": "not_configured"
+        }
+      }
+    },
+    {
+      "rank": 3,
       "leadStoryId": "https://developer.nvidia.com/blog/?p=123426",
       "memberStoryIds": [
         "https://developer.nvidia.com/blog/?p=123426"
       ],
       "category": "ai-lifecycle",
       "publishedAt": "2026-10-08T00:00:00.000Z",
-      "momentumScore": 0.40960271212669735,
+      "momentumScore": 0.40030026409192787,
       "signals": {
         "coverage": {
           "state": "observed",
@@ -78,7 +108,7 @@
         },
         "recency": {
           "state": "observed",
-          "ageHours": 22.775109722222222
+          "ageHours": 28.244949166666668
         },
         "bluesky": {
           "state": "not_configured"
@@ -86,14 +116,14 @@
       }
     },
     {
-      "rank": 3,
+      "rank": 4,
       "leadStoryId": "https://openai.com/index/oracle",
       "memberStoryIds": [
         "https://openai.com/index/oracle"
       ],
       "category": "ai-lifecycle",
       "publishedAt": "2026-10-08T00:00:00.000Z",
-      "momentumScore": 0.40960271212669735,
+      "momentumScore": 0.40030026409192787,
       "signals": {
         "coverage": {
           "state": "observed",
@@ -108,37 +138,7 @@
         },
         "recency": {
           "state": "observed",
-          "ageHours": 22.775109722222222
-        },
-        "bluesky": {
-          "state": "not_configured"
-        }
-      }
-    },
-    {
-      "rank": 4,
-      "leadStoryId": "https://techcrunch.com/?p=3175776",
-      "memberStoryIds": [
-        "https://techcrunch.com/?p=3175776"
-      ],
-      "category": "models",
-      "publishedAt": "2026-10-08T00:00:00.000Z",
-      "momentumScore": 0.40960271212669735,
-      "signals": {
-        "coverage": {
-          "state": "observed",
-          "basis": "canonical_today_sources",
-          "independentOutletCount": 1,
-          "sampledDomains": [
-            "techcrunch.com"
-          ]
-        },
-        "hackerNews": {
-          "state": "not_observed"
-        },
-        "recency": {
-          "state": "observed",
-          "ageHours": 22.775109722222222
+          "ageHours": 28.244949166666668
         },
         "bluesky": {
           "state": "not_configured"
@@ -147,13 +147,13 @@
     },
     {
       "rank": 5,
-      "leadStoryId": "https://techcrunch.com/?p=3175894",
+      "leadStoryId": "https://techcrunch.com/?p=3175776",
       "memberStoryIds": [
-        "https://techcrunch.com/?p=3175894"
+        "https://techcrunch.com/?p=3175776"
       ],
-      "category": "safety-governance",
+      "category": "models",
       "publishedAt": "2026-10-08T00:00:00.000Z",
-      "momentumScore": 0.40960271212669735,
+      "momentumScore": 0.40030026409192787,
       "signals": {
         "coverage": {
           "state": "observed",
@@ -168,7 +168,7 @@
         },
         "recency": {
           "state": "observed",
-          "ageHours": 22.775109722222222
+          "ageHours": 28.244949166666668
         },
         "bluesky": {
           "state": "not_configured"
@@ -177,13 +177,43 @@
     },
     {
       "rank": 6,
+      "leadStoryId": "https://techcrunch.com/?p=3175894",
+      "memberStoryIds": [
+        "https://techcrunch.com/?p=3175894"
+      ],
+      "category": "safety-governance",
+      "publishedAt": "2026-10-08T00:00:00.000Z",
+      "momentumScore": 0.40030026409192787,
+      "signals": {
+        "coverage": {
+          "state": "observed",
+          "basis": "canonical_today_sources",
+          "independentOutletCount": 1,
+          "sampledDomains": [
+            "techcrunch.com"
+          ]
+        },
+        "hackerNews": {
+          "state": "not_observed"
+        },
+        "recency": {
+          "state": "observed",
+          "ageHours": 28.244949166666668
+        },
+        "bluesky": {
+          "state": "not_configured"
+        }
+      }
+    },
+    {
+      "rank": 7,
       "leadStoryId": "https://tldr.tech/ai/2026-10-08",
       "memberStoryIds": [
         "https://tldr.tech/ai/2026-10-08"
       ],
       "category": "models",
       "publishedAt": "2026-10-08T00:00:00.000Z",
-      "momentumScore": 0.40960271212669735,
+      "momentumScore": 0.40030026409192787,
       "signals": {
         "coverage": {
           "state": "observed",
@@ -198,7 +228,7 @@
         },
         "recency": {
           "state": "observed",
-          "ageHours": 22.775109722222222
+          "ageHours": 28.244949166666668
         },
         "bluesky": {
           "state": "not_configured"
@@ -206,14 +236,14 @@
       }
     },
     {
-      "rank": 7,
+      "rank": 8,
       "leadStoryId": "https://www.theneurondaily.com/p/october-08-thursday",
       "memberStoryIds": [
         "https://www.theneurondaily.com/p/october-08-thursday"
       ],
       "category": "ai-lifecycle",
       "publishedAt": "2026-10-08T00:00:00.000Z",
-      "momentumScore": 0.40960271212669735,
+      "momentumScore": 0.40030026409192787,
       "signals": {
         "coverage": {
           "state": "observed",
@@ -228,37 +258,7 @@
         },
         "recency": {
           "state": "observed",
-          "ageHours": 22.775109722222222
-        },
-        "bluesky": {
-          "state": "not_configured"
-        }
-      }
-    },
-    {
-      "rank": 8,
-      "leadStoryId": "https://www.theverge.com/?p=1007408",
-      "memberStoryIds": [
-        "https://www.theverge.com/?p=1007408"
-      ],
-      "category": "models",
-      "publishedAt": "2026-10-08T00:00:00.000Z",
-      "momentumScore": 0.40960271212669735,
-      "signals": {
-        "coverage": {
-          "state": "observed",
-          "basis": "canonical_today_sources",
-          "independentOutletCount": 1,
-          "sampledDomains": [
-            "theverge.com"
-          ]
-        },
-        "hackerNews": {
-          "state": "not_observed"
-        },
-        "recency": {
-          "state": "observed",
-          "ageHours": 22.775109722222222
+          "ageHours": 28.244949166666668
         },
         "bluesky": {
           "state": "not_configured"
@@ -273,7 +273,7 @@
       ],
       "category": "safety-governance",
       "publishedAt": "2026-10-08T00:00:00.000Z",
-      "momentumScore": 0.40960271212669735,
+      "momentumScore": 0.40030026409192787,
       "signals": {
         "coverage": {
           "state": "observed",
@@ -288,7 +288,7 @@
         },
         "recency": {
           "state": "observed",
-          "ageHours": 22.775109722222222
+          "ageHours": 28.244949166666668
         },
         "bluesky": {
           "state": "not_configured"
@@ -303,7 +303,7 @@
       ],
       "category": "research",
       "publishedAt": "2026-10-07T00:00:00.000Z",
-      "momentumScore": 0.3687863855960852,
+      "momentumScore": 0.35948393756131564,
       "signals": {
         "coverage": {
           "state": "observed",
@@ -318,7 +318,7 @@
         },
         "recency": {
           "state": "observed",
-          "ageHours": 46.775109722222226
+          "ageHours": 52.244949166666665
         },
         "bluesky": {
           "state": "not_configured"
@@ -333,7 +333,7 @@
       ],
       "category": "research",
       "publishedAt": "2026-10-07T00:00:00.000Z",
-      "momentumScore": 0.3687863855960852,
+      "momentumScore": 0.35948393756131564,
       "signals": {
         "coverage": {
           "state": "observed",
@@ -348,7 +348,7 @@
         },
         "recency": {
           "state": "observed",
-          "ageHours": 46.775109722222226
+          "ageHours": 52.244949166666665
         },
         "bluesky": {
           "state": "not_configured"
@@ -363,7 +363,7 @@
       ],
       "category": "research",
       "publishedAt": "2026-10-07T00:00:00.000Z",
-      "momentumScore": 0.3687863855960852,
+      "momentumScore": 0.35948393756131564,
       "signals": {
         "coverage": {
           "state": "observed",
@@ -378,7 +378,7 @@
         },
         "recency": {
           "state": "observed",
-          "ageHours": 46.775109722222226
+          "ageHours": 52.244949166666665
         },
         "bluesky": {
           "state": "not_configured"

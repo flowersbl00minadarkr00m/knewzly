@@ -1,7 +1,18 @@
 {
-  "lastUpdated": "2026-10-09T04:14:34.402Z",
+  "lastUpdated": "2026-10-09T12:28:08.588Z",
   "freshnessState": "fresh",
   "stories": [
+    {
+      "id": "https://www.theverge.com/?p=1008604",
+      "category": "safety-governance",
+      "headline": "OpenAI doubles down on decision to fire three AI safety researchers",
+      "source": {
+        "name": "The Verge — Artificial Intelligence",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1008604/openai-defends-decision-fire-safety-researchers",
+        "publishedDate": "2026-10-09"
+      },
+      "traceToAnchors": []
+    },
     {
       "id": "https://www.theneurondaily.com/p/october-08-thursday",
       "category": "ai-lifecycle",
@@ -647,17 +658,6 @@
       "source": {
         "name": "OpenAI — News",
         "url": "https://openai.com/index/the-den-family-social",
-        "publishedDate": "2026-10-01"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3172737",
-      "category": "safety-governance",
-      "headline": "OpenAI cuts ties with 3 safety researchers, WSJ reports",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/10/01/openai-cuts-ties-with-three-safety-researchers-wsj-reports/",
         "publishedDate": "2026-10-01"
       },
       "traceToAnchors": []

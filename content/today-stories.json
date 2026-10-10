@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-10T03:59:38.319Z",
+  "lastUpdated": "2026-10-10T11:47:04.401Z",
   "freshnessState": "fresh",
   "stories": [
     {
@@ -9,6 +9,17 @@
       "source": {
         "name": "TechCrunch — Artificial Intelligence",
         "url": "https://techcrunch.com/2026/10/09/anthropic-cant-reliably-control-its-ai-agents-its-cutting-off-its-internal-evals-from-the-live-internet-instead/",
+        "publishedDate": "2026-10-10"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6a99fb88f314289ba01f5618",
+      "category": "research",
+      "headline": "Advances In The AI-Mind-Body Psychophysiological Connection Require These Vital Research Pursuits",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/sites/lanceeliot/2026/10/10/advances-in-the-ai-mind-body-psychophysiological-connection-require-these-vital-research-pursuits/",
         "publishedDate": "2026-10-10"
       },
       "traceToAnchors": []
@@ -647,17 +658,6 @@
       "source": {
         "name": "Forbes — Innovation",
         "url": "https://www.forbes.com/sites/paulnoble/2026/10/02/tariffs-a-look-back-at-a-wild-12-months-and-the-lens-forward/",
-        "publishedDate": "2026-10-02"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6abfc6dba9271549544f66bf",
-      "category": "research",
-      "headline": "Netflix’s Best New Movie To Watch Lands A 100% Rotten Tomatoes Score",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/sites/paultassi/2026/10/02/netflixs-best-new-movie-to-watch-lands-a-100-rotten-tomatoes-score/",
         "publishedDate": "2026-10-02"
       },
       "traceToAnchors": []

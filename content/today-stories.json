@@ -1,7 +1,18 @@
 {
-  "lastUpdated": "2026-10-09T22:09:11.330Z",
+  "lastUpdated": "2026-10-10T03:59:38.319Z",
   "freshnessState": "fresh",
   "stories": [
+    {
+      "id": "https://techcrunch.com/?p=3176323",
+      "category": "models",
+      "headline": "Anthropic can&#8217;t reliably control its AI agents. It&#8217;s cutting off its internal evals from the live internet instead",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/10/09/anthropic-cant-reliably-control-its-ai-agents-its-cutting-off-its-internal-evals-from-the-live-internet-instead/",
+        "publishedDate": "2026-10-10"
+      },
+      "traceToAnchors": []
+    },
     {
       "id": "https://www.theverge.com/?p=1008604",
       "category": "safety-governance",
@@ -647,17 +658,6 @@
       "source": {
         "name": "Forbes — Innovation",
         "url": "https://www.forbes.com/sites/paultassi/2026/10/02/netflixs-best-new-movie-to-watch-lands-a-100-rotten-tomatoes-score/",
-        "publishedDate": "2026-10-02"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6abdce5dcd9db22be494d8aa",
-      "category": "research",
-      "headline": "The 15 Best Movies New To Netflix In October 2026 And What To Watch",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/sites/erikkain/2026/10/02/netflix-10-best-movies-october-2026/",
         "publishedDate": "2026-10-02"
       },
       "traceToAnchors": []

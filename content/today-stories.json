@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-10T16:50:21.365Z",
+  "lastUpdated": "2026-10-10T21:02:49.278Z",
   "freshnessState": "fresh",
   "stories": [
     {
@@ -20,6 +20,17 @@
       "source": {
         "name": "Forbes — Innovation",
         "url": "https://www.forbes.com/sites/lanceeliot/2026/10/10/advances-in-the-ai-mind-body-psychophysiological-connection-require-these-vital-research-pursuits/",
+        "publishedDate": "2026-10-10"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6ac9071e4243eea6517f69cc",
+      "category": "models",
+      "headline": "What To Watch This Weekend: New Shows And Movies To Stream On Netflix, Hulu, Prime Video, Apple TV And More",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/sites/erikkain/2026/10/10/what-to-watch-this-weekend-new-shows-and-movies-to-stream-on-netflix-hulu-prime-video-apple-tv-and-more/",
         "publishedDate": "2026-10-10"
       },
       "traceToAnchors": []
@@ -86,17 +97,6 @@
       "source": {
         "name": "TLDR AI",
         "url": "https://tldr.tech/ai/2026-10-09",
-        "publishedDate": "2026-10-09"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6ac9071e4243eea6517f69cc",
-      "category": "models",
-      "headline": "What To Watch This Weekend: New Shows And Movies To Stream On Netflix, Hulu, Prime Video, Apple TV And More",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/sites/erikkain/2026/10/09/what-to-watch-this-weekend-new-shows-and-movies-to-stream-on-netflix-hulu-prime-video-apple-tv-and-more/",
         "publishedDate": "2026-10-09"
       },
       "traceToAnchors": []

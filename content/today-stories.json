@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-10T21:02:49.278Z",
+  "lastUpdated": "2026-10-11T03:34:20.779Z",
   "freshnessState": "fresh",
   "stories": [
     {
@@ -31,6 +31,28 @@
       "source": {
         "name": "Forbes — Innovation",
         "url": "https://www.forbes.com/sites/erikkain/2026/10/10/what-to-watch-this-weekend-new-shows-and-movies-to-stream-on-netflix-hulu-prime-video-apple-tv-and-more/",
+        "publishedDate": "2026-10-10"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3176448",
+      "category": "ai-lifecycle",
+      "headline": "Microsoft’s Satya Nadella says AI models need an ‘emergency brake’",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/10/10/microsofts-satya-nadella-says-ai-models-need-an-emergency-brake/",
+        "publishedDate": "2026-10-10"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6acaa312d9338882282a3f54",
+      "category": "models",
+      "headline": "Anthropic Believes So Heartily In AI Consciousness That They Are Banning Humans From Being Cruel Toward AI Claude",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/sites/lanceeliot/2026/10/10/anthropic-believes-so-heartily-in-ai-consciousness-that-they-are-banning-humans-from-being-cruel-toward-ai-claude/",
         "publishedDate": "2026-10-10"
       },
       "traceToAnchors": []
@@ -636,28 +658,6 @@
       "source": {
         "name": "The Verge — Artificial Intelligence",
         "url": "https://www.theverge.com/tech/1003929/amazon-ai-data-center-blog-warning",
-        "publishedDate": "2026-10-02"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://tldr.tech/ai/2026-10-02",
-      "category": "safety-governance",
-      "headline": "Decision models 🤖, Claude-shaped science 🧪, OpenAI safety firings 🚨",
-      "source": {
-        "name": "TLDR AI",
-        "url": "https://tldr.tech/ai/2026-10-02",
-        "publishedDate": "2026-10-02"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6abfc2b492cba3a6cd133f7a",
-      "category": "models",
-      "headline": "Tariffs: A Look Back At A Wild 12 Months And The Lens Forward",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/sites/paulnoble/2026/10/02/tariffs-a-look-back-at-a-wild-12-months-and-the-lens-forward/",
         "publishedDate": "2026-10-02"
       },
       "traceToAnchors": []

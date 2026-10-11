@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
   "methodologyVersion": "weekly-momentum-v1",
-  "windowStart": "2026-10-04T17:35:55.616Z",
-  "windowEnd": "2026-10-11T17:35:55.616Z",
-  "lastAttemptedAt": "2026-10-11T17:35:55.616Z",
-  "lastSuccessfulAt": "2026-10-11T17:35:55.616Z",
+  "windowStart": "2026-10-04T21:23:53.363Z",
+  "windowEnd": "2026-10-11T21:23:53.363Z",
+  "lastAttemptedAt": "2026-10-11T21:23:53.363Z",
+  "lastSuccessfulAt": "2026-10-11T21:23:53.363Z",
   "status": "partial",
   "providers": {
     "gdelt": {
@@ -12,7 +12,7 @@
     },
     "hackerNews": {
       "status": "ok",
-      "sampledAt": "2026-10-11T17:35:55.616Z",
+      "sampledAt": "2026-10-11T21:23:53.363Z",
       "itemCount": 199
     },
     "bluesky": {
@@ -28,7 +28,7 @@
       ],
       "category": "models",
       "publishedAt": "2026-10-11T00:00:00.000Z",
-      "momentumScore": 0.41840599018792185,
+      "momentumScore": 0.4119444694963119,
       "signals": {
         "coverage": {
           "state": "observed",
@@ -43,7 +43,7 @@
         },
         "recency": {
           "state": "observed",
-          "ageHours": 17.598782222222223
+          "ageHours": 21.39815638888889
         },
         "bluesky": {
           "state": "not_configured"
@@ -58,7 +58,7 @@
       ],
       "category": "compute-energy",
       "publishedAt": "2026-10-11T00:00:00.000Z",
-      "momentumScore": 0.41840599018792185,
+      "momentumScore": 0.4119444694963119,
       "signals": {
         "coverage": {
           "state": "observed",
@@ -73,7 +73,7 @@
         },
         "recency": {
           "state": "observed",
-          "ageHours": 17.598782222222223
+          "ageHours": 21.39815638888889
         },
         "bluesky": {
           "state": "not_configured"
@@ -88,7 +88,7 @@
       ],
       "category": "research",
       "publishedAt": "2026-10-10T00:00:00.000Z",
-      "momentumScore": 0.3775896636573096,
+      "momentumScore": 0.3711281429656996,
       "signals": {
         "coverage": {
           "state": "observed",
@@ -103,7 +103,7 @@
         },
         "recency": {
           "state": "observed",
-          "ageHours": 41.59878222222222
+          "ageHours": 45.398156388888886
         },
         "bluesky": {
           "state": "not_configured"
@@ -118,7 +118,7 @@
       ],
       "category": "models",
       "publishedAt": "2026-10-10T00:00:00.000Z",
-      "momentumScore": 0.3775896636573096,
+      "momentumScore": 0.3711281429656996,
       "signals": {
         "coverage": {
           "state": "observed",
@@ -133,7 +133,7 @@
         },
         "recency": {
           "state": "observed",
-          "ageHours": 41.59878222222222
+          "ageHours": 45.398156388888886
         },
         "bluesky": {
           "state": "not_configured"
@@ -148,7 +148,7 @@
       ],
       "category": "models",
       "publishedAt": "2026-10-10T00:00:00.000Z",
-      "momentumScore": 0.3775896636573096,
+      "momentumScore": 0.3711281429656996,
       "signals": {
         "coverage": {
           "state": "observed",
@@ -163,7 +163,7 @@
         },
         "recency": {
           "state": "observed",
-          "ageHours": 41.59878222222222
+          "ageHours": 45.398156388888886
         },
         "bluesky": {
           "state": "not_configured"
@@ -178,7 +178,7 @@
       ],
       "category": "ai-lifecycle",
       "publishedAt": "2026-10-10T00:00:00.000Z",
-      "momentumScore": 0.3775896636573096,
+      "momentumScore": 0.3711281429656996,
       "signals": {
         "coverage": {
           "state": "observed",
@@ -193,7 +193,7 @@
         },
         "recency": {
           "state": "observed",
-          "ageHours": 41.59878222222222
+          "ageHours": 45.398156388888886
         },
         "bluesky": {
           "state": "not_configured"
@@ -208,7 +208,7 @@
       ],
       "category": "safety-governance",
       "publishedAt": "2026-10-09T00:00:00.000Z",
-      "momentumScore": 0.3367733371266973,
+      "momentumScore": 0.3303118164350874,
       "signals": {
         "coverage": {
           "state": "observed",
@@ -223,7 +223,7 @@
         },
         "recency": {
           "state": "observed",
-          "ageHours": 65.59878222222223
+          "ageHours": 69.39815638888889
         },
         "bluesky": {
           "state": "not_configured"
@@ -238,7 +238,7 @@
       ],
       "category": "compute-energy",
       "publishedAt": "2026-10-09T00:00:00.000Z",
-      "momentumScore": 0.3367733371266973,
+      "momentumScore": 0.3303118164350874,
       "signals": {
         "coverage": {
           "state": "observed",
@@ -253,7 +253,7 @@
         },
         "recency": {
           "state": "observed",
-          "ageHours": 65.59878222222223
+          "ageHours": 69.39815638888889
         },
         "bluesky": {
           "state": "not_configured"
@@ -268,7 +268,7 @@
       ],
       "category": "models",
       "publishedAt": "2026-10-09T00:00:00.000Z",
-      "momentumScore": 0.3367733371266973,
+      "momentumScore": 0.3303118164350874,
       "signals": {
         "coverage": {
           "state": "observed",
@@ -283,7 +283,7 @@
         },
         "recency": {
           "state": "observed",
-          "ageHours": 65.59878222222223
+          "ageHours": 69.39815638888889
         },
         "bluesky": {
           "state": "not_configured"
@@ -298,7 +298,7 @@
       ],
       "category": "safety-governance",
       "publishedAt": "2026-10-09T00:00:00.000Z",
-      "momentumScore": 0.3367733371266973,
+      "momentumScore": 0.3303118164350874,
       "signals": {
         "coverage": {
           "state": "observed",
@@ -313,7 +313,7 @@
         },
         "recency": {
           "state": "observed",
-          "ageHours": 65.59878222222223
+          "ageHours": 69.39815638888889
         },
         "bluesky": {
           "state": "not_configured"
@@ -328,7 +328,7 @@
       ],
       "category": "safety-governance",
       "publishedAt": "2026-10-09T00:00:00.000Z",
-      "momentumScore": 0.3367733371266973,
+      "momentumScore": 0.3303118164350874,
       "signals": {
         "coverage": {
           "state": "observed",
@@ -343,7 +343,7 @@
         },
         "recency": {
           "state": "observed",
-          "ageHours": 65.59878222222223
+          "ageHours": 69.39815638888889
         },
         "bluesky": {
           "state": "not_configured"
@@ -358,7 +358,7 @@
       ],
       "category": "ai-lifecycle",
       "publishedAt": "2026-10-08T00:00:00.000Z",
-      "momentumScore": 0.2959570105960851,
+      "momentumScore": 0.2894954899044751,
       "signals": {
         "coverage": {
           "state": "observed",
@@ -373,7 +373,7 @@
         },
         "recency": {
           "state": "observed",
-          "ageHours": 89.59878222222223
+          "ageHours": 93.39815638888889
         },
         "bluesky": {
           "state": "not_configured"

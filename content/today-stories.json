@@ -1,7 +1,29 @@
 {
-  "lastUpdated": "2026-10-11T11:59:20.611Z",
+  "lastUpdated": "2026-10-11T17:35:48.948Z",
   "freshnessState": "fresh",
   "stories": [
+    {
+      "id": "content_6ac9071e4243eea6517f69cc",
+      "category": "models",
+      "headline": "What To Watch This Weekend: New Shows And Movies To Stream On Netflix, Hulu, Prime Video, Apple TV And More",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/sites/erikkain/2026/10/11/what-to-watch-this-weekend-new-shows-and-movies-to-stream-on-netflix-hulu-prime-video-apple-tv-and-more/",
+        "publishedDate": "2026-10-11"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3176460",
+      "category": "compute-energy",
+      "headline": "Can the AI industry persuade data center opponents by getting rid of NDAs?",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/10/11/can-the-ai-industry-persuade-data-center-opponents-by-getting-rid-of-ndas/",
+        "publishedDate": "2026-10-11"
+      },
+      "traceToAnchors": []
+    },
     {
       "id": "https://techcrunch.com/?p=3176323",
       "category": "models",
@@ -20,17 +42,6 @@
       "source": {
         "name": "Forbes — Innovation",
         "url": "https://www.forbes.com/sites/lanceeliot/2026/10/10/advances-in-the-ai-mind-body-psychophysiological-connection-require-these-vital-research-pursuits/",
-        "publishedDate": "2026-10-10"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6ac9071e4243eea6517f69cc",
-      "category": "models",
-      "headline": "What To Watch This Weekend: New Shows And Movies To Stream On Netflix, Hulu, Prime Video, Apple TV And More",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/sites/erikkain/2026/10/10/what-to-watch-this-weekend-new-shows-and-movies-to-stream-on-netflix-hulu-prime-video-apple-tv-and-more/",
         "publishedDate": "2026-10-10"
       },
       "traceToAnchors": []
@@ -647,17 +658,6 @@
       "source": {
         "name": "OpenAI — News",
         "url": "https://openai.com/index/practical-guide-building-gpt-6",
-        "publishedDate": "2026-10-02"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theverge.com/?p=1003929",
-      "category": "research",
-      "headline": "Amazon writes scary blog warning communities not to block data centers",
-      "source": {
-        "name": "The Verge — Artificial Intelligence",
-        "url": "https://www.theverge.com/tech/1003929/amazon-ai-data-center-blog-warning",
         "publishedDate": "2026-10-02"
       },
       "traceToAnchors": []

@@ -1,7 +1,29 @@
 {
-  "lastUpdated": "2026-10-12T03:58:25.256Z",
+  "lastUpdated": "2026-10-12T14:13:54.350Z",
   "freshnessState": "fresh",
   "stories": [
+    {
+      "id": "https://www.theverge.com/?p=1009465",
+      "category": "compute-energy",
+      "headline": "Microsoft’s new AI chip makes it less reliant on Nvidia’s GPUs",
+      "source": {
+        "name": "The Verge — Artificial Intelligence",
+        "url": "https://www.theverge.com/news/1009465/microsoft-maia-300-chip-improvements-rollout",
+        "publishedDate": "2026-10-12"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6ac8f6d54243eea6517f69b6",
+      "category": "safety-governance",
+      "headline": "Do We Need Smart Contracts When We Have AI Agents?",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/councils/forbestechcouncil/2026/10/12/do-we-need-smart-contracts-when-we-have-ai-agents/",
+        "publishedDate": "2026-10-12"
+      },
+      "traceToAnchors": []
+    },
     {
       "id": "content_6ac9071e4243eea6517f69cc",
       "category": "models",
@@ -636,28 +658,6 @@
       "source": {
         "name": "Forbes — Innovation",
         "url": "https://www.forbes.com/councils/forbestechcouncil/2026/10/02/who-owns-the-learning-private-equitys-next-governance-problem-is-portfolio-intelligence/",
-        "publishedDate": "2026-10-02"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata",
-      "category": "safety-governance",
-      "headline": "AutoSynthData: Generating Training Data for Enterprise Agents",
-      "source": {
-        "name": "Hugging Face — Blog",
-        "url": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata",
-        "publishedDate": "2026-10-02"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://openai.com/index/practical-guide-building-gpt-6",
-      "category": "models",
-      "headline": "A model guide for the GPT-6 family",
-      "source": {
-        "name": "OpenAI — News",
-        "url": "https://openai.com/index/practical-guide-building-gpt-6",
         "publishedDate": "2026-10-02"
       },
       "traceToAnchors": []

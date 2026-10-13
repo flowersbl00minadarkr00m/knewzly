@@ -1,7 +1,73 @@
 {
-  "lastUpdated": "2026-10-13T00:03:37.859Z",
+  "lastUpdated": "2026-10-13T13:24:09.269Z",
   "freshnessState": "fresh",
   "stories": [
+    {
+      "id": "https://www.technologyreview.com/?p=1145755",
+      "category": "research",
+      "headline": "AI labs are buying data from dead startups to train their models",
+      "source": {
+        "name": "MIT Technology Review — Artificial Intelligence",
+        "url": "https://www.technologyreview.com/2026/10/13/1145755/ai-labs-buying-data-from-dead-startups-to-train-models/",
+        "publishedDate": "2026-10-13"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3175284",
+      "category": "ai-lifecycle",
+      "headline": "Amex introduces a framework to prevent AI agents from making unauthorized purchases",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/10/13/amex-introduces-a-framework-to-prevent-ai-agents-from-making-unauthorized-purchases/",
+        "publishedDate": "2026-10-13"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theverge.com/?p=1009704",
+      "category": "models",
+      "headline": "Apple launches HomeView, its first smart display for the home",
+      "source": {
+        "name": "The Verge — Artificial Intelligence",
+        "url": "https://www.theverge.com/tech/1009704/apple-homeview-smart-display-first-look",
+        "publishedDate": "2026-10-13"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theneurondaily.com/p/meta-s-muse-wonder-is-here-priced-like-opus-ee30",
+      "category": "models",
+      "headline": "😺 Meta’s Muse Wonder is here, priced like Opus",
+      "source": {
+        "name": "The Neuron",
+        "url": "https://www.theneurondaily.com/p/meta-s-muse-wonder-is-here-priced-like-opus-ee30",
+        "publishedDate": "2026-10-13"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6acd073357cc1af9c50a13d3",
+      "category": "compute-energy",
+      "headline": "How AI Is Escaping The Data Center",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/councils/forbestechcouncil/2026/10/13/how-ai-is-escaping-the-data-center/",
+        "publishedDate": "2026-10-13"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6acd06b8f45abef0dab63b82",
+      "category": "research",
+      "headline": "Your AI’s Biggest Blind Spot Is The Data You Forgot You Had",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/councils/forbestechcouncil/2026/10/13/your-ais-biggest-blind-spot-is-the-data-you-forgot-you-had/",
+        "publishedDate": "2026-10-13"
+      },
+      "traceToAnchors": []
+    },
     {
       "id": "https://www.theverge.com/?p=1009465",
       "category": "compute-energy",
@@ -593,72 +659,6 @@
         "name": "The Verge — Artificial Intelligence",
         "url": "https://www.theverge.com/podcast/1004286/senator-adam-schiff-ai-trump-regulation-corruption",
         "publishedDate": "2026-10-05"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://tldr.tech/ai/2026-10-05",
-      "category": "models",
-      "headline": "Prime Inference 📈, agent population 📈, Claude academy 🎓",
-      "source": {
-        "name": "TLDR AI",
-        "url": "https://tldr.tech/ai/2026-10-05",
-        "publishedDate": "2026-10-05"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "6abe5cae9828a5714cf83d72",
-      "category": "compute-energy",
-      "headline": "Rural Data Centers Are in for a Big Federal Tax Break",
-      "source": {
-        "name": "Wired — Artificial Intelligence",
-        "url": "https://www.wired.com/story/rural-data-centers-are-in-for-a-big-federal-tax-break/",
-        "publishedDate": "2026-10-04"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6ac27dc68c95bb61954fb6d4",
-      "category": "models",
-      "headline": "Spy Versus Spy, Patent Versus Patent: China Files More Patents",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/sites/viviantoh/2026/10/04/spy-versus-spy-patent-versus-patent-china-files-more-patents/",
-        "publishedDate": "2026-10-04"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3173444",
-      "category": "models",
-      "headline": "Meta wants your next gadget to be Muse-infused",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/10/02/meta-wants-you-to-build-your-own-muse-gadget/",
-        "publishedDate": "2026-10-03"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6ac04c3bed2de2d9371ea104",
-      "category": "research",
-      "headline": "Your AI Agents Can Write Code. Can They Understand Your Business?",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/sites/stevenwolfepereira/2026/10/02/your-ai-agents-can-write-code-can-they-understand-your-business/",
-        "publishedDate": "2026-10-03"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theverge.com/?p=1004408",
-      "category": "safety-governance",
-      "headline": "An OpenAI safety employee has quit and is sounding the alarm",
-      "source": {
-        "name": "The Verge — Artificial Intelligence",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/1004408/openai-safety-quits-sounding-the-alarm",
-        "publishedDate": "2026-10-03"
       },
       "traceToAnchors": []
     }

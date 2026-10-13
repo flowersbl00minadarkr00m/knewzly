@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-12T14:13:54.350Z",
+  "lastUpdated": "2026-10-13T00:03:37.859Z",
   "freshnessState": "fresh",
   "stories": [
     {
@@ -20,6 +20,72 @@
       "source": {
         "name": "Forbes — Innovation",
         "url": "https://www.forbes.com/councils/forbestechcouncil/2026/10/12/do-we-need-smart-contracts-when-we-have-ai-agents/",
+        "publishedDate": "2026-10-12"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://news.microsoft.com/source/?p=26047",
+      "category": "models",
+      "headline": "Introducing Microsoft&#8217;s latest custom chip: Maia 300",
+      "source": {
+        "name": "Microsoft — AI news",
+        "url": "https://news.microsoft.com/maia-2026/",
+        "publishedDate": "2026-10-12"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3176752",
+      "category": "models",
+      "headline": "Meta releases its first frontier model, Muse Wonder",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/",
+        "publishedDate": "2026-10-12"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theverge.com/?p=1009479",
+      "category": "models",
+      "headline": "Meta has some Wonder Full new AI models",
+      "source": {
+        "name": "The Verge — Artificial Intelligence",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1009479/meta-muse-wonder-full-ai-model",
+        "publishedDate": "2026-10-12"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "6accf786c1f3b427f509b0cb",
+      "category": "models",
+      "headline": "Muse Wonder Puts Meta Back at the AI Frontier",
+      "source": {
+        "name": "Wired — Artificial Intelligence",
+        "url": "https://www.wired.com/story/muse-wonder-puts-meta-back-at-the-ai-frontier/",
+        "publishedDate": "2026-10-12"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6acd4f14f45abef0dab63ba9",
+      "category": "models",
+      "headline": "How Trust Helps Managers Balance Speed And Ethics In AI Deployment",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/sites/paulocarvao/2026/10/12/how-trust-helps-managers-balance-speed-and-ethics-in-ai-deployment/",
+        "publishedDate": "2026-10-12"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6acd3530f45abef0dab63b98",
+      "category": "models",
+      "headline": "Decisions, Decisions: A Guide To The New Wave Of AI Decision Models Besides Jev",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/sites/ronschmelzer/2026/10/12/decisions-decisions-a-guide-to-the-new-wave-of-ai-decision-models-besides-jev/",
         "publishedDate": "2026-10-12"
       },
       "traceToAnchors": []
@@ -593,72 +659,6 @@
         "name": "The Verge — Artificial Intelligence",
         "url": "https://www.theverge.com/ai-artificial-intelligence/1004408/openai-safety-quits-sounding-the-alarm",
         "publishedDate": "2026-10-03"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6ac0ef2b9c7cd01e667b75e0",
-      "category": "research",
-      "headline": "1 Thing You Need More Than Happiness To Feel Truly Fulfilled, By A Psychologist",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/sites/traversmark/2026/10/03/1-thing-you-need-more-than-happiness-to-feel-truly-fulfilled-by-a-psychologist/",
-        "publishedDate": "2026-10-03"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3173499",
-      "category": "safety-governance",
-      "headline": "OpenAI safety employee resigns, claiming the company’s ‘culture is broken’",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/10/03/openai-safety-employee-resigns-claiming-the-companys-culture-is-broken/",
-        "publishedDate": "2026-10-03"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6ac1385b85c62e8b19ad4aa4",
-      "category": "safety-governance",
-      "headline": "OpenAI Pioneers Common Workspace Called Space For Humans And Agents",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/sites/johnwerner/2026/10/03/openai-pioneers-common-workspace-called-space-for-humans-and-agents/",
-        "publishedDate": "2026-10-03"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "6abc2709de4260e1edbea50e",
-      "category": "research",
-      "headline": "A Flaw in ChatGPT’s Mac App Could Have Let Hackers Grab Sensitive Data",
-      "source": {
-        "name": "Wired — Artificial Intelligence",
-        "url": "https://www.wired.com/story/a-flaw-in-chatgpts-mac-app-could-have-let-hackers-grab-sensitive-data/",
-        "publishedDate": "2026-10-02"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6abd6e8fca21236904437d93",
-      "category": "research",
-      "headline": "Inside The Trillions Being Spent On The AI Data Center Buildout",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/sites/giacomotognini/2026/10/02/inside-the-trillions-being-spent-on-the-ai-data-center-buildout/",
-        "publishedDate": "2026-10-02"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6abd73047490ebdcc4c878ad",
-      "category": "research",
-      "headline": "Who Owns The Learning? Private Equity’s Next Governance Problem Is Portfolio Intelligence",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/councils/forbestechcouncil/2026/10/02/who-owns-the-learning-private-equitys-next-governance-problem-is-portfolio-intelligence/",
-        "publishedDate": "2026-10-02"
       },
       "traceToAnchors": []
     }

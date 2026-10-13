@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-13T13:24:09.269Z",
+  "lastUpdated": "2026-10-13T22:13:23.219Z",
   "freshnessState": "fresh",
   "stories": [
     {
@@ -64,6 +64,50 @@
       "source": {
         "name": "Forbes — Innovation",
         "url": "https://www.forbes.com/councils/forbestechcouncil/2026/10/13/your-ais-biggest-blind-spot-is-the-data-you-forgot-you-had/",
+        "publishedDate": "2026-10-13"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3176600",
+      "category": "ai-lifecycle",
+      "headline": "Google Play now lets anyone build private, vibe-coded apps that run on Android",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/10/13/google-play-now-supports-private-vibe-coded-apps-built-just-for-you/",
+        "publishedDate": "2026-10-13"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theverge.com/?p=1009862",
+      "category": "models",
+      "headline": "Google finally releases Gemini 4 Argon",
+      "source": {
+        "name": "The Verge — Artificial Intelligence",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1009862/google-releases-gemini-4-argon",
+        "publishedDate": "2026-10-13"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "6ace0d6cda1d099f16b1dae2",
+      "category": "safety-governance",
+      "headline": "OpenAI and Anthropic Tell British Lawmakers: Regulate Us",
+      "source": {
+        "name": "Wired — Artificial Intelligence",
+        "url": "https://www.wired.com/story/openai-and-anthropic-tell-british-lawmakers-regulate-us/",
+        "publishedDate": "2026-10-13"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://developer.nvidia.com/blog/?p=123309",
+      "category": "research",
+      "headline": "How to Rewrite Apache Spark UDFs for GPU Acceleration with AI Agents",
+      "source": {
+        "name": "NVIDIA — Technical Blog",
+        "url": "https://developer.nvidia.com/blog/rewrite-apache-spark-udfs-gpu-acceleration-ai-agents/",
         "publishedDate": "2026-10-13"
       },
       "traceToAnchors": []
@@ -615,50 +659,6 @@
         "name": "OpenAI — News",
         "url": "https://openai.com/index/jump-trading",
         "publishedDate": "2026-10-06"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6abe90d6193447989e6c6693",
-      "category": "safety-governance",
-      "headline": "AI Agents Will Need Money: Why Stablecoins Could Become The Native Payment Layer For AI",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/councils/forbestechcouncil/2026/10/05/ai-agents-will-need-money-why-stablecoins-could-become-the-native-payment-layer-for-ai/",
-        "publishedDate": "2026-10-05"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.technologyreview.com/?p=1145580",
-      "category": "ai-lifecycle",
-      "headline": "Connecting AI agents to enterprise knowledge",
-      "source": {
-        "name": "MIT Technology Review — Artificial Intelligence",
-        "url": "https://www.technologyreview.com/2026/10/05/1145580/connecting-ai-agents-to-enterprise-knowledge/",
-        "publishedDate": "2026-10-05"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.technologyreview.com/?p=1143813",
-      "category": "ai-lifecycle",
-      "headline": "Bringing predictive analytics to the agentic AI era",
-      "source": {
-        "name": "MIT Technology Review — Artificial Intelligence",
-        "url": "https://www.technologyreview.com/2026/10/05/1143813/bringing-predictive-analytics-to-the-agentic-ai-era/",
-        "publishedDate": "2026-10-05"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theverge.com/?p=1004286",
-      "category": "safety-governance",
-      "headline": "Sen. Adam Schiff on AI regulation, free speech, and impeaching Trump one more time",
-      "source": {
-        "name": "The Verge — Artificial Intelligence",
-        "url": "https://www.theverge.com/podcast/1004286/senator-adam-schiff-ai-trump-regulation-corruption",
-        "publishedDate": "2026-10-05"
       },
       "traceToAnchors": []
     }

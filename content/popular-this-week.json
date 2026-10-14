@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
   "methodologyVersion": "weekly-momentum-v1",
-  "windowStart": "2026-10-07T16:22:40.335Z",
-  "windowEnd": "2026-10-14T16:22:40.335Z",
-  "lastAttemptedAt": "2026-10-14T16:22:40.335Z",
-  "lastSuccessfulAt": "2026-10-14T16:22:40.335Z",
+  "windowStart": "2026-10-07T21:13:41.106Z",
+  "windowEnd": "2026-10-14T21:13:41.106Z",
+  "lastAttemptedAt": "2026-10-14T21:13:41.106Z",
+  "lastSuccessfulAt": "2026-10-14T21:13:41.106Z",
   "status": "partial",
   "providers": {
     "gdelt": {
@@ -12,7 +12,7 @@
     },
     "hackerNews": {
       "status": "ok",
-      "sampledAt": "2026-10-14T16:22:40.335Z",
+      "sampledAt": "2026-10-14T21:13:41.106Z",
       "itemCount": 199
     },
     "bluesky": {
@@ -22,193 +22,13 @@
   "entries": [
     {
       "rank": 1,
-      "leadStoryId": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/",
+      "leadStoryId": "6ace55f4b718d45618194c75",
       "memberStoryIds": [
-        "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/"
-      ],
-      "category": "models",
-      "publishedAt": "2026-10-14T00:00:00.000Z",
-      "momentumScore": 0.42048237010099815,
-      "signals": {
-        "coverage": {
-          "state": "observed",
-          "basis": "canonical_today_sources",
-          "independentOutletCount": 1,
-          "sampledDomains": [
-            "deepmind.google"
-          ]
-        },
-        "hackerNews": {
-          "state": "not_observed"
-        },
-        "recency": {
-          "state": "observed",
-          "ageHours": 16.377870833333333
-        },
-        "bluesky": {
-          "state": "not_configured"
-        }
-      }
-    },
-    {
-      "rank": 2,
-      "leadStoryId": "https://developer.nvidia.com/blog/?p=123574",
-      "memberStoryIds": [
-        "https://developer.nvidia.com/blog/?p=123574"
-      ],
-      "category": "ai-lifecycle",
-      "publishedAt": "2026-10-14T00:00:00.000Z",
-      "momentumScore": 0.42048237010099815,
-      "signals": {
-        "coverage": {
-          "state": "observed",
-          "basis": "canonical_today_sources",
-          "independentOutletCount": 1,
-          "sampledDomains": [
-            "developer.nvidia.com"
-          ]
-        },
-        "hackerNews": {
-          "state": "not_observed"
-        },
-        "recency": {
-          "state": "observed",
-          "ageHours": 16.377870833333333
-        },
-        "bluesky": {
-          "state": "not_configured"
-        }
-      }
-    },
-    {
-      "rank": 3,
-      "leadStoryId": "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic",
-      "memberStoryIds": [
-        "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic"
-      ],
-      "category": "ai-lifecycle",
-      "publishedAt": "2026-10-14T00:00:00.000Z",
-      "momentumScore": 0.42048237010099815,
-      "signals": {
-        "coverage": {
-          "state": "observed",
-          "basis": "canonical_today_sources",
-          "independentOutletCount": 1,
-          "sampledDomains": [
-            "openai.com"
-          ]
-        },
-        "hackerNews": {
-          "state": "not_observed"
-        },
-        "recency": {
-          "state": "observed",
-          "ageHours": 16.377870833333333
-        },
-        "bluesky": {
-          "state": "not_configured"
-        }
-      }
-    },
-    {
-      "rank": 4,
-      "leadStoryId": "https://openai.com/index/third-moment-research",
-      "memberStoryIds": [
-        "https://openai.com/index/third-moment-research"
+        "6ace55f4b718d45618194c75"
       ],
       "category": "research",
       "publishedAt": "2026-10-14T00:00:00.000Z",
-      "momentumScore": 0.42048237010099815,
-      "signals": {
-        "coverage": {
-          "state": "observed",
-          "basis": "canonical_today_sources",
-          "independentOutletCount": 1,
-          "sampledDomains": [
-            "openai.com"
-          ]
-        },
-        "hackerNews": {
-          "state": "not_observed"
-        },
-        "recency": {
-          "state": "observed",
-          "ageHours": 16.377870833333333
-        },
-        "bluesky": {
-          "state": "not_configured"
-        }
-      }
-    },
-    {
-      "rank": 5,
-      "leadStoryId": "https://techcrunch.com/?p=3173327",
-      "memberStoryIds": [
-        "https://techcrunch.com/?p=3173327"
-      ],
-      "category": "research",
-      "publishedAt": "2026-10-14T00:00:00.000Z",
-      "momentumScore": 0.42048237010099815,
-      "signals": {
-        "coverage": {
-          "state": "observed",
-          "basis": "canonical_today_sources",
-          "independentOutletCount": 1,
-          "sampledDomains": [
-            "techcrunch.com"
-          ]
-        },
-        "hackerNews": {
-          "state": "not_observed"
-        },
-        "recency": {
-          "state": "observed",
-          "ageHours": 16.377870833333333
-        },
-        "bluesky": {
-          "state": "not_configured"
-        }
-      }
-    },
-    {
-      "rank": 6,
-      "leadStoryId": "https://www.theneurondaily.com/p/google-launched-gemini-4-argon-tying-gpt-6-b85b",
-      "memberStoryIds": [
-        "https://www.theneurondaily.com/p/google-launched-gemini-4-argon-tying-gpt-6-b85b"
-      ],
-      "category": "models",
-      "publishedAt": "2026-10-14T00:00:00.000Z",
-      "momentumScore": 0.42048237010099815,
-      "signals": {
-        "coverage": {
-          "state": "observed",
-          "basis": "canonical_today_sources",
-          "independentOutletCount": 1,
-          "sampledDomains": [
-            "theneurondaily.com"
-          ]
-        },
-        "hackerNews": {
-          "state": "not_observed"
-        },
-        "recency": {
-          "state": "observed",
-          "ageHours": 16.377870833333333
-        },
-        "bluesky": {
-          "state": "not_configured"
-        }
-      }
-    },
-    {
-      "rank": 7,
-      "leadStoryId": "6ace0d6cda1d099f16b1dae2",
-      "memberStoryIds": [
-        "6ace0d6cda1d099f16b1dae2"
-      ],
-      "category": "safety-governance",
-      "publishedAt": "2026-10-13T00:00:00.000Z",
-      "momentumScore": 0.37966604357038597,
+      "momentumScore": 0.41223370655224534,
       "signals": {
         "coverage": {
           "state": "observed",
@@ -223,7 +43,7 @@
         },
         "recency": {
           "state": "observed",
-          "ageHours": 40.37787083333333
+          "ageHours": 21.228085
         },
         "bluesky": {
           "state": "not_configured"
@@ -231,14 +51,14 @@
       }
     },
     {
-      "rank": 8,
-      "leadStoryId": "content_6acd06b8f45abef0dab63b82",
+      "rank": 2,
+      "leadStoryId": "content_6acf948907038310f8c1eaef",
       "memberStoryIds": [
-        "content_6acd06b8f45abef0dab63b82"
+        "content_6acf948907038310f8c1eaef"
       ],
       "category": "research",
-      "publishedAt": "2026-10-13T00:00:00.000Z",
-      "momentumScore": 0.37966604357038597,
+      "publishedAt": "2026-10-14T00:00:00.000Z",
+      "momentumScore": 0.41223370655224534,
       "signals": {
         "coverage": {
           "state": "observed",
@@ -253,7 +73,7 @@
         },
         "recency": {
           "state": "observed",
-          "ageHours": 40.37787083333333
+          "ageHours": 21.228085
         },
         "bluesky": {
           "state": "not_configured"
@@ -261,14 +81,14 @@
       }
     },
     {
-      "rank": 9,
-      "leadStoryId": "content_6acd073357cc1af9c50a13d3",
+      "rank": 3,
+      "leadStoryId": "content_6acfb34043b3bab85c56edcd",
       "memberStoryIds": [
-        "content_6acd073357cc1af9c50a13d3"
+        "content_6acfb34043b3bab85c56edcd"
       ],
-      "category": "compute-energy",
-      "publishedAt": "2026-10-13T00:00:00.000Z",
-      "momentumScore": 0.37966604357038597,
+      "category": "ai-lifecycle",
+      "publishedAt": "2026-10-14T00:00:00.000Z",
+      "momentumScore": 0.41223370655224534,
       "signals": {
         "coverage": {
           "state": "observed",
@@ -283,7 +103,7 @@
         },
         "recency": {
           "state": "observed",
-          "ageHours": 40.37787083333333
+          "ageHours": 21.228085
         },
         "bluesky": {
           "state": "not_configured"
@@ -291,14 +111,44 @@
       }
     },
     {
-      "rank": 10,
-      "leadStoryId": "https://developer.nvidia.com/blog/?p=123309",
+      "rank": 4,
+      "leadStoryId": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/",
       "memberStoryIds": [
-        "https://developer.nvidia.com/blog/?p=123309"
+        "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/"
       ],
-      "category": "research",
-      "publishedAt": "2026-10-13T00:00:00.000Z",
-      "momentumScore": 0.37966604357038597,
+      "category": "models",
+      "publishedAt": "2026-10-14T00:00:00.000Z",
+      "momentumScore": 0.41223370655224534,
+      "signals": {
+        "coverage": {
+          "state": "observed",
+          "basis": "canonical_today_sources",
+          "independentOutletCount": 1,
+          "sampledDomains": [
+            "deepmind.google"
+          ]
+        },
+        "hackerNews": {
+          "state": "not_observed"
+        },
+        "recency": {
+          "state": "observed",
+          "ageHours": 21.228085
+        },
+        "bluesky": {
+          "state": "not_configured"
+        }
+      }
+    },
+    {
+      "rank": 5,
+      "leadStoryId": "https://developer.nvidia.com/blog/?p=123574",
+      "memberStoryIds": [
+        "https://developer.nvidia.com/blog/?p=123574"
+      ],
+      "category": "ai-lifecycle",
+      "publishedAt": "2026-10-14T00:00:00.000Z",
+      "momentumScore": 0.41223370655224534,
       "signals": {
         "coverage": {
           "state": "observed",
@@ -313,7 +163,157 @@
         },
         "recency": {
           "state": "observed",
-          "ageHours": 40.37787083333333
+          "ageHours": 21.228085
+        },
+        "bluesky": {
+          "state": "not_configured"
+        }
+      }
+    },
+    {
+      "rank": 6,
+      "leadStoryId": "https://openai.com/index/amp-beyond-coding",
+      "memberStoryIds": [
+        "https://openai.com/index/amp-beyond-coding"
+      ],
+      "category": "ai-lifecycle",
+      "publishedAt": "2026-10-14T00:00:00.000Z",
+      "momentumScore": 0.41223370655224534,
+      "signals": {
+        "coverage": {
+          "state": "observed",
+          "basis": "canonical_today_sources",
+          "independentOutletCount": 1,
+          "sampledDomains": [
+            "openai.com"
+          ]
+        },
+        "hackerNews": {
+          "state": "not_observed"
+        },
+        "recency": {
+          "state": "observed",
+          "ageHours": 21.228085
+        },
+        "bluesky": {
+          "state": "not_configured"
+        }
+      }
+    },
+    {
+      "rank": 7,
+      "leadStoryId": "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic",
+      "memberStoryIds": [
+        "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic"
+      ],
+      "category": "ai-lifecycle",
+      "publishedAt": "2026-10-14T00:00:00.000Z",
+      "momentumScore": 0.41223370655224534,
+      "signals": {
+        "coverage": {
+          "state": "observed",
+          "basis": "canonical_today_sources",
+          "independentOutletCount": 1,
+          "sampledDomains": [
+            "openai.com"
+          ]
+        },
+        "hackerNews": {
+          "state": "not_observed"
+        },
+        "recency": {
+          "state": "observed",
+          "ageHours": 21.228085
+        },
+        "bluesky": {
+          "state": "not_configured"
+        }
+      }
+    },
+    {
+      "rank": 8,
+      "leadStoryId": "https://openai.com/index/third-moment-research",
+      "memberStoryIds": [
+        "https://openai.com/index/third-moment-research"
+      ],
+      "category": "research",
+      "publishedAt": "2026-10-14T00:00:00.000Z",
+      "momentumScore": 0.41223370655224534,
+      "signals": {
+        "coverage": {
+          "state": "observed",
+          "basis": "canonical_today_sources",
+          "independentOutletCount": 1,
+          "sampledDomains": [
+            "openai.com"
+          ]
+        },
+        "hackerNews": {
+          "state": "not_observed"
+        },
+        "recency": {
+          "state": "observed",
+          "ageHours": 21.228085
+        },
+        "bluesky": {
+          "state": "not_configured"
+        }
+      }
+    },
+    {
+      "rank": 9,
+      "leadStoryId": "https://techcrunch.com/?p=3173327",
+      "memberStoryIds": [
+        "https://techcrunch.com/?p=3173327"
+      ],
+      "category": "research",
+      "publishedAt": "2026-10-14T00:00:00.000Z",
+      "momentumScore": 0.41223370655224534,
+      "signals": {
+        "coverage": {
+          "state": "observed",
+          "basis": "canonical_today_sources",
+          "independentOutletCount": 1,
+          "sampledDomains": [
+            "techcrunch.com"
+          ]
+        },
+        "hackerNews": {
+          "state": "not_observed"
+        },
+        "recency": {
+          "state": "observed",
+          "ageHours": 21.228085
+        },
+        "bluesky": {
+          "state": "not_configured"
+        }
+      }
+    },
+    {
+      "rank": 10,
+      "leadStoryId": "https://www.theneurondaily.com/p/google-launched-gemini-4-argon-tying-gpt-6-b85b",
+      "memberStoryIds": [
+        "https://www.theneurondaily.com/p/google-launched-gemini-4-argon-tying-gpt-6-b85b"
+      ],
+      "category": "models",
+      "publishedAt": "2026-10-14T00:00:00.000Z",
+      "momentumScore": 0.41223370655224534,
+      "signals": {
+        "coverage": {
+          "state": "observed",
+          "basis": "canonical_today_sources",
+          "independentOutletCount": 1,
+          "sampledDomains": [
+            "theneurondaily.com"
+          ]
+        },
+        "hackerNews": {
+          "state": "not_observed"
+        },
+        "recency": {
+          "state": "observed",
+          "ageHours": 21.228085
         },
         "bluesky": {
           "state": "not_configured"
@@ -322,20 +322,20 @@
     },
     {
       "rank": 11,
-      "leadStoryId": "https://techcrunch.com/?p=3175284",
+      "leadStoryId": "6ace0d6cda1d099f16b1dae2",
       "memberStoryIds": [
-        "https://techcrunch.com/?p=3175284"
+        "6ace0d6cda1d099f16b1dae2"
       ],
-      "category": "ai-lifecycle",
+      "category": "safety-governance",
       "publishedAt": "2026-10-13T00:00:00.000Z",
-      "momentumScore": 0.37966604357038597,
+      "momentumScore": 0.37141738002163305,
       "signals": {
         "coverage": {
           "state": "observed",
           "basis": "canonical_today_sources",
           "independentOutletCount": 1,
           "sampledDomains": [
-            "techcrunch.com"
+            "wired.com"
           ]
         },
         "hackerNews": {
@@ -343,7 +343,7 @@
         },
         "recency": {
           "state": "observed",
-          "ageHours": 40.37787083333333
+          "ageHours": 45.228085
         },
         "bluesky": {
           "state": "not_configured"
@@ -352,20 +352,20 @@
     },
     {
       "rank": 12,
-      "leadStoryId": "https://techcrunch.com/?p=3176600",
+      "leadStoryId": "content_6acd073357cc1af9c50a13d3",
       "memberStoryIds": [
-        "https://techcrunch.com/?p=3176600"
+        "content_6acd073357cc1af9c50a13d3"
       ],
-      "category": "ai-lifecycle",
+      "category": "compute-energy",
       "publishedAt": "2026-10-13T00:00:00.000Z",
-      "momentumScore": 0.37966604357038597,
+      "momentumScore": 0.37141738002163305,
       "signals": {
         "coverage": {
           "state": "observed",
           "basis": "canonical_today_sources",
           "independentOutletCount": 1,
           "sampledDomains": [
-            "techcrunch.com"
+            "forbes.com"
           ]
         },
         "hackerNews": {
@@ -373,7 +373,7 @@
         },
         "recency": {
           "state": "observed",
-          "ageHours": 40.37787083333333
+          "ageHours": 45.228085
         },
         "bluesky": {
           "state": "not_configured"

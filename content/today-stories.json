@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-14T16:22:32.855Z",
+  "lastUpdated": "2026-10-14T21:13:34.007Z",
   "freshnessState": "fresh",
   "stories": [
     {
@@ -64,6 +64,61 @@
       "source": {
         "name": "NVIDIA — Technical Blog",
         "url": "https://developer.nvidia.com/blog/optimizing-agent-reliability-and-tool-calling-efficiency-for-chip-design-using-nvidia-nemo-gym/",
+        "publishedDate": "2026-10-14"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://openai.com/index/amp-beyond-coding",
+      "category": "ai-lifecycle",
+      "headline": "Amp puts AI agents to work beyond code with OpenAI models",
+      "source": {
+        "name": "OpenAI — News",
+        "url": "https://openai.com/index/amp-beyond-coding",
+        "publishedDate": "2026-10-14"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theverge.com/?p=1011417",
+      "category": "research",
+      "headline": "Now that Character.AI is going bankrupt, what happens to all of its users&#8217; data?",
+      "source": {
+        "name": "The Verge — Artificial Intelligence",
+        "url": "https://www.theverge.com/policy/1011417/new-york-ag-characterai-bankruptcy",
+        "publishedDate": "2026-10-14"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "6ace55f4b718d45618194c75",
+      "category": "research",
+      "headline": "AI Came for Math. Now It’s Chasing the Rest of Science",
+      "source": {
+        "name": "Wired — Artificial Intelligence",
+        "url": "https://www.wired.com/story/ai-is-coming-for-science-next-watch-out/",
+        "publishedDate": "2026-10-14"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6acf948907038310f8c1eaef",
+      "category": "research",
+      "headline": "‘Infinite Demand For Robots:’ Inside Matter Venture Partners’ $450 Million Bet On Physical AI",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/sites/johnkoetsier/2026/10/14/infinite-demand-for-robots-inside-matter-venture-partners-450-million-bet-on-physical-ai/",
+        "publishedDate": "2026-10-14"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6acfb34043b3bab85c56edcd",
+      "category": "ai-lifecycle",
+      "headline": "How SolarWinds Used An AI Agent To 5x Its Software Engineering Output",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/sites/timkeary/2026/10/14/how-solarwinds-used-an-ai-agent-to-5x-its-software-engineering-output/",
         "publishedDate": "2026-10-14"
       },
       "traceToAnchors": []
@@ -603,61 +658,6 @@
       "source": {
         "name": "TechCrunch — Artificial Intelligence",
         "url": "https://techcrunch.com/2026/10/07/meta-rolls-out-new-ai-tools-to-detect-ads-that-secretly-lead-to-child-sexual-abuse-material/",
-        "publishedDate": "2026-10-07"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theverge.com/?p=1007113",
-      "category": "ai-lifecycle",
-      "headline": "Microsoft is giving Copilot more control over Windows and your files",
-      "source": {
-        "name": "The Verge — Artificial Intelligence",
-        "url": "https://www.theverge.com/tech/1007113/microsoft-windows-copilot-ai-control-search-hybrid-intelligence",
-        "publishedDate": "2026-10-07"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theverge.com/?p=1006813",
-      "category": "models",
-      "headline": "Muse launches on the iPad",
-      "source": {
-        "name": "The Verge — Artificial Intelligence",
-        "url": "https://www.theverge.com/tech/1006813/muse-ai-agent-ios-app-ipad-support",
-        "publishedDate": "2026-10-07"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6ac65d235ac9cdb8c9550197",
-      "category": "research",
-      "headline": "Inside Raj Shamani's Bid To Build YouTube's Biggest Podcast",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/sites/ianshepherd/2026/10/07/inside-raj-shamanis-bid-to-build-youtubes-biggest-podcast/",
-        "publishedDate": "2026-10-07"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6ac675f3482de62613d74765",
-      "category": "research",
-      "headline": "One Year On: Inside ARCHION’s Next Chapter For FUSO And HINO",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/sites/sarwantsingh/2026/10/07/one-year-on-inside-archions-next-chapter-for-fuso-and-hino/",
-        "publishedDate": "2026-10-07"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://developer.nvidia.com/blog/?p=123156",
-      "category": "compute-energy",
-      "headline": "Scaling Decision Optimization to 100 Million Variables and Beyond with mPDLP in NVIDIA cuOpt",
-      "source": {
-        "name": "NVIDIA — Technical Blog",
-        "url": "https://developer.nvidia.com/blog/scaling-decision-optimization-to-100-million-variables-and-beyond-with-mpdlp-in-nvidia-cuopt/",
         "publishedDate": "2026-10-07"
       },
       "traceToAnchors": []

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-14T11:02:10.502Z",
+  "lastUpdated": "2026-10-14T16:22:32.855Z",
   "freshnessState": "fresh",
   "stories": [
     {
@@ -31,6 +31,39 @@
       "source": {
         "name": "The Neuron",
         "url": "https://www.theneurondaily.com/p/google-launched-gemini-4-argon-tying-gpt-6-b85b",
+        "publishedDate": "2026-10-14"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://openai.com/index/third-moment-research",
+      "category": "research",
+      "headline": "How Third Moment Research runs 10,000 agents for 36+ hours",
+      "source": {
+        "name": "OpenAI — News",
+        "url": "https://openai.com/index/third-moment-research",
+        "publishedDate": "2026-10-14"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3173327",
+      "category": "research",
+      "headline": "Floqer&#8217;s AI agents research sales prospects so teams don&#8217;t have to",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/10/14/floqers-ai-agents-help-b2b-revenue-teams-research-customers/",
+        "publishedDate": "2026-10-14"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://developer.nvidia.com/blog/?p=123574",
+      "category": "ai-lifecycle",
+      "headline": "Optimizing Agent Reliability and Tool Calling Efficiency for Chip Design Using NVIDIA NeMo Gym",
+      "source": {
+        "name": "NVIDIA — Technical Blog",
+        "url": "https://developer.nvidia.com/blog/optimizing-agent-reliability-and-tool-calling-efficiency-for-chip-design-using-nvidia-nemo-gym/",
         "publishedDate": "2026-10-14"
       },
       "traceToAnchors": []
@@ -626,39 +659,6 @@
         "name": "NVIDIA — Technical Blog",
         "url": "https://developer.nvidia.com/blog/scaling-decision-optimization-to-100-million-variables-and-beyond-with-mpdlp-in-nvidia-cuopt/",
         "publishedDate": "2026-10-07"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6ac39c1d85c62e8b19ad4ab3",
-      "category": "models",
-      "headline": "Three Reasons Your Chief AI Officer May Soon Look More Like Your Head Of HR",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/councils/forbestechcouncil/2026/10/06/three-reasons-your-chief-ai-officer-may-soon-look-more-like-your-head-of-hr/",
-        "publishedDate": "2026-10-06"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6ac01340954f14c16b4bc479",
-      "category": "ai-lifecycle",
-      "headline": "Context Engineering Decides Whether Your AI Testing Agents Are Useful",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/councils/forbestechcouncil/2026/10/06/context-engineering-decides-whether-your-ai-testing-agents-are-useful/",
-        "publishedDate": "2026-10-06"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3174440",
-      "category": "safety-governance",
-      "headline": "The next hurdle for AI agents: getting websites to let them in",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/10/06/the-next-hurdle-for-ai-agents-getting-websites-to-let-them-in/",
-        "publishedDate": "2026-10-06"
       },
       "traceToAnchors": []
     }

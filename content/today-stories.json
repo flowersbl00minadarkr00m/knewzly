@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-13T22:13:23.219Z",
+  "lastUpdated": "2026-10-14T03:14:37.263Z",
   "freshnessState": "fresh",
   "stories": [
     {
@@ -108,6 +108,17 @@
       "source": {
         "name": "NVIDIA — Technical Blog",
         "url": "https://developer.nvidia.com/blog/rewrite-apache-spark-udfs-gpu-acceleration-ai-agents/",
+        "publishedDate": "2026-10-13"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theverge.com/?p=1010365",
+      "category": "models",
+      "headline": "Shopify opens its catalog up to more AI agents",
+      "source": {
+        "name": "The Verge — Artificial Intelligence",
+        "url": "https://www.theverge.com/news/1010365/shopify-opens-its-catalog-up-to-more-ai-agents",
         "publishedDate": "2026-10-13"
       },
       "traceToAnchors": []
@@ -647,17 +658,6 @@
       "source": {
         "name": "NVIDIA — Technical Blog",
         "url": "https://developer.nvidia.com/blog/doca-gpunetio-gda-ki-unified-gpu-networking/",
-        "publishedDate": "2026-10-06"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://openai.com/index/jump-trading",
-      "category": "research",
-      "headline": "How Jump Trading is scaling quant research with ChatGPT",
-      "source": {
-        "name": "OpenAI — News",
-        "url": "https://openai.com/index/jump-trading",
         "publishedDate": "2026-10-06"
       },
       "traceToAnchors": []

@@ -1,7 +1,40 @@
 {
-  "lastUpdated": "2026-10-14T03:14:37.263Z",
+  "lastUpdated": "2026-10-14T11:02:10.502Z",
   "freshnessState": "fresh",
   "stories": [
+    {
+      "id": "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic",
+      "category": "ai-lifecycle",
+      "headline": "The EU’s next chapter in AI is agentic",
+      "source": {
+        "name": "OpenAI — News",
+        "url": "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic",
+        "publishedDate": "2026-10-14"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/",
+      "category": "models",
+      "headline": "Google DeepMind and Singapore Government collaborate to build fine-tuned AI model for scam detection",
+      "source": {
+        "name": "Google DeepMind — Blog",
+        "url": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/",
+        "publishedDate": "2026-10-14"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theneurondaily.com/p/google-launched-gemini-4-argon-tying-gpt-6-b85b",
+      "category": "models",
+      "headline": "😸 Google launched Gemini 4 Argon, tying GPT-6",
+      "source": {
+        "name": "The Neuron",
+        "url": "https://www.theneurondaily.com/p/google-launched-gemini-4-argon-tying-gpt-6-b85b",
+        "publishedDate": "2026-10-14"
+      },
+      "traceToAnchors": []
+    },
     {
       "id": "https://www.technologyreview.com/?p=1145755",
       "category": "research",
@@ -625,39 +658,6 @@
       "source": {
         "name": "TechCrunch — Artificial Intelligence",
         "url": "https://techcrunch.com/2026/10/06/the-next-hurdle-for-ai-agents-getting-websites-to-let-them-in/",
-        "publishedDate": "2026-10-06"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3174443",
-      "category": "models",
-      "headline": "Anthropic is giving startups a free year of Claude Team and $1,000 in credits",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/10/06/anthropic-gives-startups-a-free-year-of-enterprise-service-and-1000-in-token-credits/",
-        "publishedDate": "2026-10-06"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theverge.com/?p=1005451",
-      "category": "models",
-      "headline": "Google is about to remove free access to Gemini Flash and Pro",
-      "source": {
-        "name": "The Verge — Artificial Intelligence",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/1005451/google-gemini-free-flash-lite-only",
-        "publishedDate": "2026-10-06"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://developer.nvidia.com/blog/?p=123253",
-      "category": "ai-lifecycle",
-      "headline": "How DOCA GPUNetIO Unifies GPU-Initiated Networking Across the NVIDIA Software Stack",
-      "source": {
-        "name": "NVIDIA — Technical Blog",
-        "url": "https://developer.nvidia.com/blog/doca-gpunetio-gda-ki-unified-gpu-networking/",
         "publishedDate": "2026-10-06"
       },
       "traceToAnchors": []

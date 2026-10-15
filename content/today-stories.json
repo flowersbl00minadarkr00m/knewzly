@@ -1,7 +1,29 @@
 {
-  "lastUpdated": "2026-10-15T02:53:15.996Z",
+  "lastUpdated": "2026-10-15T10:45:10.818Z",
   "freshnessState": "fresh",
   "stories": [
+    {
+      "id": "https://techcrunch.com/?p=3177541",
+      "category": "ai-lifecycle",
+      "headline": "Figma announces new features to define how agents work on its platform",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/10/14/figma-announces-new-features-to-define-how-agents-work-on-its-platform/",
+        "publishedDate": "2026-10-15"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6ad051ad43b3bab85c56ee02",
+      "category": "ai-lifecycle",
+      "headline": "The Future Of Agentic AI Has Arrived",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/sites/stevebanker/2026/10/15/the-future-of-agentic-ai-has-arrived/",
+        "publishedDate": "2026-10-15"
+      },
+      "traceToAnchors": []
+    },
     {
       "id": "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic",
       "category": "ai-lifecycle",
@@ -636,28 +658,6 @@
       "source": {
         "name": "Forbes — Innovation",
         "url": "https://www.forbes.com/councils/forbestechcouncil/2026/10/07/the-real-ai-adoption-gap-has-nothing-to-do-with-access/",
-        "publishedDate": "2026-10-07"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3175337",
-      "category": "research",
-      "headline": "Nous Research confirms it hit $1.5B valuation, launches AI agents for business users",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/10/07/nous-research-confirms-it-hit-1-5b-valuation-launches-ai-agents-for-business-users/",
-        "publishedDate": "2026-10-07"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3175292",
-      "category": "ai-lifecycle",
-      "headline": "Microsoft releases new Nvidia-chip AI PCs with revamped Windows 11",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/10/07/microsoft-releases-new-nvidia-chip-ai-pcs-with-revamped-windows-11/",
         "publishedDate": "2026-10-07"
       },
       "traceToAnchors": []

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-15T16:10:29.781Z",
+  "lastUpdated": "2026-10-15T20:51:45.746Z",
   "freshnessState": "fresh",
   "stories": [
     {
@@ -75,6 +75,94 @@
       "source": {
         "name": "NVIDIA — Technical Blog",
         "url": "https://developer.nvidia.com/blog/nvidia-nemotron-3-5-super-vl-powers-specialized-agents-with-multimodal-reasoning/",
+        "publishedDate": "2026-10-15"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3178309",
+      "category": "models",
+      "headline": "Meta launches an open-weight AI model that runs on Macs",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/10/15/meta-launches-an-open-weight-model-that-runs-on-macs/",
+        "publishedDate": "2026-10-15"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3178363",
+      "category": "safety-governance",
+      "headline": "Amazon devices chief Panos Panay sees a future where AI devices replace the need to use apps",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/10/15/amazon-devices-chief-panos-panay-sees-a-future-where-ai-devices-replace-the-need-to-use-apps/",
+        "publishedDate": "2026-10-15"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3178367",
+      "category": "models",
+      "headline": "Anthropic is letting METR researchers look under the hood with employee-level access",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/10/15/anthropic-is-letting-metr-researchers-look-under-the-hood-with-employee-level-access/",
+        "publishedDate": "2026-10-15"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theverge.com/?p=1012293",
+      "category": "models",
+      "headline": "Meta and Apple team up to make Muse AI models run better on Macs",
+      "source": {
+        "name": "The Verge — Artificial Intelligence",
+        "url": "https://www.theverge.com/news/1012293/meta-apple-muse-spark-open-ai-model-mlx",
+        "publishedDate": "2026-10-15"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theverge.com/?p=1011938",
+      "category": "research",
+      "headline": "Friends don&#8217;t let friends feed their data to AI agents",
+      "source": {
+        "name": "The Verge — Artificial Intelligence",
+        "url": "https://www.theverge.com/tech/1011938/muse-ai-data-friends-consent",
+        "publishedDate": "2026-10-15"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6ad0f69443b3bab85c56ee35",
+      "category": "models",
+      "headline": "This Robot Finishes Drywall 3X Faster Than Humans. Now It Has $20 Million To Learn More Trades",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/sites/johnkoetsier/2026/10/15/this-robot-finishes-drywall-3x-faster-than-humans-now-it-has-20-million-to-learn-more-trades/",
+        "publishedDate": "2026-10-15"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://huggingface.co/blog/meta-muse-spark-open",
+      "category": "models",
+      "headline": "Welcome Muse Spark Open: open-weight frontier multimodal mixture-of-experts model from Meta",
+      "source": {
+        "name": "Hugging Face — Blog",
+        "url": "https://huggingface.co/blog/meta-muse-spark-open",
+        "publishedDate": "2026-10-15"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://developer.nvidia.com/blog/?p=122698",
+      "category": "ai-lifecycle",
+      "headline": "Scale Agentic Coding Workflows with Meta’s Muse Spark Open on NVIDIA GB300 NVL72",
+      "source": {
+        "name": "NVIDIA — Technical Blog",
+        "url": "https://developer.nvidia.com/blog/scale-agentic-coding-workflows-with-metas-muse-spark-open-on-nvidia-gb300-nvl72/",
         "publishedDate": "2026-10-15"
       },
       "traceToAnchors": []
@@ -570,94 +658,6 @@
       "source": {
         "name": "The Neuron",
         "url": "https://www.theneurondaily.com/p/october-08-thursday",
-        "publishedDate": "2026-10-08"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://openai.com/index/oracle",
-      "category": "ai-lifecycle",
-      "headline": "How Oracle turns days of work into minutes with ChatGPT and Codex",
-      "source": {
-        "name": "OpenAI — News",
-        "url": "https://openai.com/index/oracle",
-        "publishedDate": "2026-10-08"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3175894",
-      "category": "safety-governance",
-      "headline": "Fired OpenAI safety researchers dispute misconduct claims, warn of chilling effect",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/10/08/fired-openai-safety-researchers-dispute-misconduct-claims-warn-of-chilling-effect/",
-        "publishedDate": "2026-10-08"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3175776",
-      "category": "models",
-      "headline": "Google brings agentic AI to Gemini, starting with businesses",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/10/08/google-brings-agentic-ai-to-gemini-starting-with-businesses/",
-        "publishedDate": "2026-10-08"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theverge.com/?p=1008198",
-      "category": "safety-governance",
-      "headline": "USA Today becomes the latest publisher to sue OpenAI",
-      "source": {
-        "name": "The Verge — Artificial Intelligence",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/1008198/usa-today-openai-copyright-lawsuit",
-        "publishedDate": "2026-10-08"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theverge.com/?p=1008100",
-      "category": "models",
-      "headline": "Anthropic bans ‘abusive or cruel behavior’ toward Claude",
-      "source": {
-        "name": "The Verge — Artificial Intelligence",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/1008100/anthropic-new-usage-policy-abuse-claude",
-        "publishedDate": "2026-10-08"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theverge.com/?p=1007904",
-      "category": "models",
-      "headline": "Google is launching a one-stop Gemini agent for your work tasks",
-      "source": {
-        "name": "The Verge — Artificial Intelligence",
-        "url": "https://www.theverge.com/tech/1007904/google-gemini-ai-agent-enterprise",
-        "publishedDate": "2026-10-08"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theverge.com/?p=1007408",
-      "category": "models",
-      "headline": "Can you trust Meta’s Muse or OpenAI’s Dots to run your life?",
-      "source": {
-        "name": "The Verge — Artificial Intelligence",
-        "url": "https://www.theverge.com/podcast/1007408/meta-muse-openai-dots-ai-agent-race-privacy-free",
-        "publishedDate": "2026-10-08"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://tldr.tech/ai/2026-10-08",
-      "category": "models",
-      "headline": "ChatGPT Intelligent UI 🧠, Claude Haiku 5.5 ⚡, Grok Bot 3rd party models 🤖",
-      "source": {
-        "name": "TLDR AI",
-        "url": "https://tldr.tech/ai/2026-10-08",
         "publishedDate": "2026-10-08"
       },
       "traceToAnchors": []

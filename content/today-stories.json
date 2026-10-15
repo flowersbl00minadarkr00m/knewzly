@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-14T21:13:34.007Z",
+  "lastUpdated": "2026-10-15T02:53:15.996Z",
   "freshnessState": "fresh",
   "stories": [
     {
@@ -119,6 +119,28 @@
       "source": {
         "name": "Forbes — Innovation",
         "url": "https://www.forbes.com/sites/timkeary/2026/10/14/how-solarwinds-used-an-ai-agent-to-5x-its-software-engineering-output/",
+        "publishedDate": "2026-10-14"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3177812",
+      "category": "safety-governance",
+      "headline": "Flock CEO says its microphones detect &#8216;just gunshots&#8217; — its website says different",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/10/14/flock-ceo-says-its-microphones-detect-just-gunshots-its-website-says-different/",
+        "publishedDate": "2026-10-14"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6ad0012443b3bab85c56edf8",
+      "category": "models",
+      "headline": "Unpacking Meta Muse Wonder And Muse Wonder Full",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/sites/johnwerner/2026/10/14/unpacking-meta-muse-wonder-and-muse-wonder-full/",
         "publishedDate": "2026-10-14"
       },
       "traceToAnchors": []
@@ -636,28 +658,6 @@
       "source": {
         "name": "TechCrunch — Artificial Intelligence",
         "url": "https://techcrunch.com/2026/10/07/microsoft-releases-new-nvidia-chip-ai-pcs-with-revamped-windows-11/",
-        "publishedDate": "2026-10-07"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3175232",
-      "category": "models",
-      "headline": "Meta&#8217;s Muse launches on iPad just a month after its mobile debut",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/10/07/metas-muse-launches-on-ipad-just-a-month-after-its-mobile-debut/",
-        "publishedDate": "2026-10-07"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3175177",
-      "category": "ai-lifecycle",
-      "headline": "Meta rolls out new AI tools to detect ads that secretly lead to child sexual abuse material",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/10/07/meta-rolls-out-new-ai-tools-to-detect-ads-that-secretly-lead-to-child-sexual-abuse-material/",
         "publishedDate": "2026-10-07"
       },
       "traceToAnchors": []

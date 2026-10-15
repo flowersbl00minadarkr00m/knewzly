@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-15T10:45:10.818Z",
+  "lastUpdated": "2026-10-15T16:10:29.781Z",
   "freshnessState": "fresh",
   "stories": [
     {
@@ -20,6 +20,61 @@
       "source": {
         "name": "Forbes — Innovation",
         "url": "https://www.forbes.com/sites/stevebanker/2026/10/15/the-future-of-agentic-ai-has-arrived/",
+        "publishedDate": "2026-10-15"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://news.microsoft.com/source/?p=26076",
+      "category": "models",
+      "headline": "Missed a lecture? This AI agent at Bar-Ilan University helps students catch up",
+      "source": {
+        "name": "Microsoft — AI news",
+        "url": "https://news.microsoft.com/source/emea/features/missed-a-lecture-this-ai-agent-at-bar-ilan-university-helps-students-catch-up/",
+        "publishedDate": "2026-10-15"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3178088",
+      "category": "models",
+      "headline": "Google’s Universal Cart shopping tool launches in the US",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/10/15/googles-universal-cart-shopping-tool-launches-in-the-us/",
+        "publishedDate": "2026-10-15"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theverge.com/?p=1011797",
+      "category": "models",
+      "headline": "Google launches its &#8216;universal&#8217; online shopping cart ahead of the holidays",
+      "source": {
+        "name": "The Verge — Artificial Intelligence",
+        "url": "https://www.theverge.com/tech/1011797/google-ai-universal-cart-shopping-tool-launch",
+        "publishedDate": "2026-10-15"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6ad00ab142ded464d60e5c92",
+      "category": "safety-governance",
+      "headline": "Straight Talk About Gun Safety Is Needed At Every Age",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/sites/arthurkellermann/2026/10/15/straight-talk-about-gun-safety-is-needed-at-every-age/",
+        "publishedDate": "2026-10-15"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://developer.nvidia.com/blog/?p=123590",
+      "category": "research",
+      "headline": "NVIDIA Nemotron 3.5 Super VL Powers Specialized Agents with Multimodal Reasoning",
+      "source": {
+        "name": "NVIDIA — Technical Blog",
+        "url": "https://developer.nvidia.com/blog/nvidia-nemotron-3-5-super-vl-powers-specialized-agents-with-multimodal-reasoning/",
         "publishedDate": "2026-10-15"
       },
       "traceToAnchors": []
@@ -604,61 +659,6 @@
         "name": "TLDR AI",
         "url": "https://tldr.tech/ai/2026-10-08",
         "publishedDate": "2026-10-08"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://developer.nvidia.com/blog/?p=123426",
-      "category": "ai-lifecycle",
-      "headline": "Building Reliable Data Analytics Agents: Lessons from the KDD Cup",
-      "source": {
-        "name": "NVIDIA — Technical Blog",
-        "url": "https://developer.nvidia.com/blog/building-reliable-data-analytics-agents-lessons-from-the-kdd-cup/",
-        "publishedDate": "2026-10-08"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theverge.com/?p=1008521",
-      "category": "models",
-      "headline": "Anthropic launches free AI security scans for open-source projects",
-      "source": {
-        "name": "The Verge — Artificial Intelligence",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/1008521/anthropic-open-source-oss-scanner",
-        "publishedDate": "2026-10-08"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6ac810f17e3a9cce7a0ebebe",
-      "category": "models",
-      "headline": "What Can Agentic Cybersecurity Do And 2027 CISO Budgets",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/sites/ray-fernandez/2026/10/08/what-can-agentic-cybersecurity-do-and-2027-ciso-budgets/",
-        "publishedDate": "2026-10-08"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theverge.com/?p=1005726",
-      "category": "research",
-      "headline": "AI could upend food delivery",
-      "source": {
-        "name": "The Verge — Artificial Intelligence",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/1005726/doordash-ai-agentic-food-delivery-bites",
-        "publishedDate": "2026-10-07"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6ac4f1f915322a23b6d3e50a",
-      "category": "research",
-      "headline": "The Real AI Adoption Gap Has Nothing To Do With Access",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/councils/forbestechcouncil/2026/10/07/the-real-ai-adoption-gap-has-nothing-to-do-with-access/",
-        "publishedDate": "2026-10-07"
       },
       "traceToAnchors": []
     }

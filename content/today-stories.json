@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-16T15:57:41.734Z",
+  "lastUpdated": "2026-10-16T20:25:13.515Z",
   "freshnessState": "fresh",
   "stories": [
     {
@@ -42,6 +42,61 @@
       "source": {
         "name": "Forbes — Innovation",
         "url": "https://www.forbes.com/sites/timbajarin/2026/10/16/apples-a20-pro-chip-is-more-than-a-benchmark-record/",
+        "publishedDate": "2026-10-16"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://openai.com/index/stack-overflow-chatgpt-plugin",
+      "category": "models",
+      "headline": "Stack Overflow for Agents triples signups with ChatGPT plugin",
+      "source": {
+        "name": "OpenAI — News",
+        "url": "https://openai.com/index/stack-overflow-chatgpt-plugin",
+        "publishedDate": "2026-10-16"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?post_type=tc_video&#038;p=3176211",
+      "category": "ai-lifecycle",
+      "headline": "An Nvidia insider-turned-VC on why robotics hasn’t hit its ChatGPT moment, yet",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/video/a-nvidia-insider-turned-vc-on-why-robotics-hasnt-hit-its-chatgpt-moment-yet/",
+        "publishedDate": "2026-10-16"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6ad16c533924f25c273091a2",
+      "category": "models",
+      "headline": "What To Watch This Weekend: New Shows And Movies To Stream On Netflix, Hulu, Prime Video, Apple TV And More",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/sites/erikkain/2026/10/16/what-to-watch-this-weekend-new-shows-and-movies-to-stream-on-netflix-hulu-prime-video-apple-tv-and-more/",
+        "publishedDate": "2026-10-16"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6ad25bde43b3bab85c56eec4",
+      "category": "ai-lifecycle",
+      "headline": "A Unified Data Plane For Agentic AI",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/sites/delltechnologies/2026/10/16/a-unified-data-plane-for-agentic-ai/",
+        "publishedDate": "2026-10-16"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6ad25a3243b3bab85c56eec3",
+      "category": "models",
+      "headline": "E Ink Debuts Kaleido 4 Color Screen For E-Readers: Faster Refresh And Video Playback",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/sites/davidphelan/2026/10/16/e-ink-debuts-kaleido-4-color-screen-for-e-readers-faster-refresh-and-video-playback/",
         "publishedDate": "2026-10-16"
       },
       "traceToAnchors": []
@@ -604,61 +659,6 @@
         "name": "TechCrunch — Artificial Intelligence",
         "url": "https://techcrunch.com/2026/10/09/anthropic-cant-reliably-control-its-ai-agents-its-cutting-off-its-internal-evals-from-the-live-internet-instead/",
         "publishedDate": "2026-10-10"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6a99fb88f314289ba01f5618",
-      "category": "research",
-      "headline": "Advances In The AI-Mind-Body Psychophysiological Connection Require These Vital Research Pursuits",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/sites/lanceeliot/2026/10/10/advances-in-the-ai-mind-body-psychophysiological-connection-require-these-vital-research-pursuits/",
-        "publishedDate": "2026-10-10"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3176448",
-      "category": "ai-lifecycle",
-      "headline": "Microsoft’s Satya Nadella says AI models need an ‘emergency brake’",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/10/10/microsofts-satya-nadella-says-ai-models-need-an-emergency-brake/",
-        "publishedDate": "2026-10-10"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6acaa312d9338882282a3f54",
-      "category": "models",
-      "headline": "Anthropic Believes So Heartily In AI Consciousness That They Are Banning Humans From Being Cruel Toward AI Claude",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/sites/lanceeliot/2026/10/10/anthropic-believes-so-heartily-in-ai-consciousness-that-they-are-banning-humans-from-being-cruel-toward-ai-claude/",
-        "publishedDate": "2026-10-10"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theverge.com/?p=1008604",
-      "category": "safety-governance",
-      "headline": "OpenAI doubles down on decision to fire three AI safety researchers",
-      "source": {
-        "name": "The Verge — Artificial Intelligence",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/1008604/openai-defends-decision-fire-safety-researchers",
-        "publishedDate": "2026-10-09"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?post_type=tc_video&#038;p=3176138",
-      "category": "compute-energy",
-      "headline": "Amazon and others are done keeping data center deals secret. Is it enough to build trust?",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/video/amazon-and-others-are-done-keeping-data-center-deals-secret-is-it-enough-to-build-trust/",
-        "publishedDate": "2026-10-09"
       },
       "traceToAnchors": []
     }

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-16T02:50:32.768Z",
+  "lastUpdated": "2026-10-16T10:32:32.279Z",
   "freshnessState": "fresh",
   "stories": [
     {
@@ -9,6 +9,17 @@
       "source": {
         "name": "Hugging Face — Blog",
         "url": "https://huggingface.co/blog/nvidia/scaling-indic-pretraining",
+        "publishedDate": "2026-10-16"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6ad1b91d43b3bab85c56eea0",
+      "category": "research",
+      "headline": "Insiders Warn Insurers’ Climate Retreat Could Spark 2008-Style Crash",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/sites/davidrvetter/2026/10/16/insiders-warn-insurers-climate-retreat-could-spark-2008-style-crash/",
         "publishedDate": "2026-10-16"
       },
       "traceToAnchors": []
@@ -647,17 +658,6 @@
       "source": {
         "name": "The Verge — Artificial Intelligence",
         "url": "https://www.theverge.com/ai-artificial-intelligence/1008726/openai-mathematics-solutions-chaos",
-        "publishedDate": "2026-10-09"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theverge.com/?p=1008254",
-      "category": "models",
-      "headline": "Instinct was the buzziest AI agent around — can it survive Muse?",
-      "source": {
-        "name": "The Verge — Artificial Intelligence",
-        "url": "https://www.theverge.com/tech/1008254/instinct-agent-ai-hands-on-muse-dots",
         "publishedDate": "2026-10-09"
       },
       "traceToAnchors": []

@@ -1,7 +1,18 @@
 {
-  "lastUpdated": "2026-10-15T20:51:45.746Z",
+  "lastUpdated": "2026-10-16T02:50:32.768Z",
   "freshnessState": "fresh",
   "stories": [
+    {
+      "id": "https://huggingface.co/blog/nvidia/scaling-indic-pretraining",
+      "category": "ai-lifecycle",
+      "headline": "Scaling Indic Pretraining: 2.8 Trillion Tokens and an Open Data Generation Pipeline",
+      "source": {
+        "name": "Hugging Face — Blog",
+        "url": "https://huggingface.co/blog/nvidia/scaling-indic-pretraining",
+        "publishedDate": "2026-10-16"
+      },
+      "traceToAnchors": []
+    },
     {
       "id": "https://techcrunch.com/?p=3177541",
       "category": "ai-lifecycle",
@@ -163,6 +174,17 @@
       "source": {
         "name": "NVIDIA — Technical Blog",
         "url": "https://developer.nvidia.com/blog/scale-agentic-coding-workflows-with-metas-muse-spark-open-on-nvidia-gb300-nvl72/",
+        "publishedDate": "2026-10-15"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "6acfb7fb7efaf68414339c74",
+      "category": "models",
+      "headline": "We Got Hot and Heavy With Meta’s Muse—and Baffled by Apple’s HomeView",
+      "source": {
+        "name": "Wired — Artificial Intelligence",
+        "url": "https://www.wired.com/story/uncanny-valley-podcast-we-got-hot-and-heavy-with-metas-muse-and-underwhelmed-by-apples-homeview/",
         "publishedDate": "2026-10-15"
       },
       "traceToAnchors": []
@@ -637,28 +659,6 @@
         "name": "The Verge — Artificial Intelligence",
         "url": "https://www.theverge.com/tech/1008254/instinct-agent-ai-hands-on-muse-dots",
         "publishedDate": "2026-10-09"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://tldr.tech/ai/2026-10-09",
-      "category": "models",
-      "headline": "GPT-6.1 Ultrafast ⚡, Gemini universal agent 🤖, speculative decoding 🧠",
-      "source": {
-        "name": "TLDR AI",
-        "url": "https://tldr.tech/ai/2026-10-09",
-        "publishedDate": "2026-10-09"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theneurondaily.com/p/october-08-thursday",
-      "category": "ai-lifecycle",
-      "headline": "😺 ChatGPT's GPT-6 now builds calculators",
-      "source": {
-        "name": "The Neuron",
-        "url": "https://www.theneurondaily.com/p/october-08-thursday",
-        "publishedDate": "2026-10-08"
       },
       "traceToAnchors": []
     }

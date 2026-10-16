@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-16T10:32:32.279Z",
+  "lastUpdated": "2026-10-16T15:57:41.734Z",
   "freshnessState": "fresh",
   "stories": [
     {
@@ -20,6 +20,28 @@
       "source": {
         "name": "Forbes — Innovation",
         "url": "https://www.forbes.com/sites/davidrvetter/2026/10/16/insiders-warn-insurers-climate-retreat-could-spark-2008-style-crash/",
+        "publishedDate": "2026-10-16"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://tldr.tech/ai/2026-10-16",
+      "category": "ai-lifecycle",
+      "headline": "Muse Spark Open ✨, Microsoft’s 3T param model 🧠, d1-ultra 💡",
+      "source": {
+        "name": "TLDR AI",
+        "url": "https://tldr.tech/ai/2026-10-16",
+        "publishedDate": "2026-10-16"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6ad11ad407038310f8c1eb63",
+      "category": "models",
+      "headline": "Apple’s A20 Pro Chip Is More Than A Benchmark Record",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/sites/timbajarin/2026/10/16/apples-a20-pro-chip-is-more-than-a-benchmark-record/",
         "publishedDate": "2026-10-16"
       },
       "traceToAnchors": []
@@ -636,28 +658,6 @@
       "source": {
         "name": "TechCrunch — Artificial Intelligence",
         "url": "https://techcrunch.com/video/amazon-and-others-are-done-keeping-data-center-deals-secret-is-it-enough-to-build-trust/",
-        "publishedDate": "2026-10-09"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?post_type=tc_podcast&#038;p=3176135",
-      "category": "safety-governance",
-      "headline": "Amazon drops data center NDAs, and AI agents want your credit card",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/podcast/amazon-drops-data-center-ndas-and-ai-agents-want-your-credit-card/",
-        "publishedDate": "2026-10-09"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theverge.com/?p=1008726",
-      "category": "safety-governance",
-      "headline": "&#8216;Pure insanity&#8217;: Mathematicians will need years to make sense of OpenAI&#8217;s latest drop",
-      "source": {
-        "name": "The Verge — Artificial Intelligence",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/1008726/openai-mathematics-solutions-chaos",
         "publishedDate": "2026-10-09"
       },
       "traceToAnchors": []

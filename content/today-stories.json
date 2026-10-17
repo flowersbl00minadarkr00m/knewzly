@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-17T14:50:45.566Z",
+  "lastUpdated": "2026-10-17T19:59:31.693Z",
   "freshnessState": "fresh",
   "stories": [
     {
@@ -20,6 +20,17 @@
       "source": {
         "name": "Forbes — Innovation",
         "url": "https://www.forbes.com/sites/joshuacohen/2026/10/17/trump-slams-pharma-and-insurers-but-rhetoric-outpaces-policy-impact/",
+        "publishedDate": "2026-10-17"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theverge.com/?p=1013409",
+      "category": "research",
+      "headline": "Meta removes language that may have allowed it to scrape news sites",
+      "source": {
+        "name": "The Verge — Artificial Intelligence",
+        "url": "https://www.theverge.com/tech/1013409/meta-removes-language-that-may-have-allowed-it-to-scrape-news-sites",
         "publishedDate": "2026-10-17"
       },
       "traceToAnchors": []
@@ -648,17 +659,6 @@
         "name": "Forbes — Innovation",
         "url": "https://www.forbes.com/sites/ronschmelzer/2026/10/12/decisions-decisions-a-guide-to-the-new-wave-of-ai-decision-models-besides-jev/",
         "publishedDate": "2026-10-12"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6ac9071e4243eea6517f69cc",
-      "category": "models",
-      "headline": "What To Watch This Weekend: New Shows And Movies To Stream On Netflix, Hulu, Prime Video, Apple TV And More",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/sites/erikkain/2026/10/11/what-to-watch-this-weekend-new-shows-and-movies-to-stream-on-netflix-hulu-prime-video-apple-tv-and-more/",
-        "publishedDate": "2026-10-11"
       },
       "traceToAnchors": []
     }

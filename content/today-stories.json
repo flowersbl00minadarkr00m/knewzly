@@ -1,7 +1,29 @@
 {
-  "lastUpdated": "2026-10-17T10:02:51.798Z",
+  "lastUpdated": "2026-10-17T14:50:45.566Z",
   "freshnessState": "fresh",
   "stories": [
+    {
+      "id": "https://www.theverge.com/?p=1013195",
+      "category": "safety-governance",
+      "headline": "Websites are closing their doors to AI agents",
+      "source": {
+        "name": "The Verge — Artificial Intelligence",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web",
+        "publishedDate": "2026-10-17"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6ab3f28dbda6dbbf8ff0168f",
+      "category": "safety-governance",
+      "headline": "Trump Slams Pharma And Insurers, But Rhetoric Outpaces Policy Impact",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/sites/joshuacohen/2026/10/17/trump-slams-pharma-and-insurers-but-rhetoric-outpaces-policy-impact/",
+        "publishedDate": "2026-10-17"
+      },
+      "traceToAnchors": []
+    },
     {
       "id": "https://huggingface.co/blog/nvidia/scaling-indic-pretraining",
       "category": "ai-lifecycle",
@@ -637,28 +659,6 @@
         "name": "Forbes — Innovation",
         "url": "https://www.forbes.com/sites/erikkain/2026/10/11/what-to-watch-this-weekend-new-shows-and-movies-to-stream-on-netflix-hulu-prime-video-apple-tv-and-more/",
         "publishedDate": "2026-10-11"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3176460",
-      "category": "compute-energy",
-      "headline": "Can the AI industry persuade data center opponents by getting rid of NDAs?",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/10/11/can-the-ai-industry-persuade-data-center-opponents-by-getting-rid-of-ndas/",
-        "publishedDate": "2026-10-11"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3176323",
-      "category": "models",
-      "headline": "Anthropic can&#8217;t reliably control its AI agents. It&#8217;s cutting off its internal evals from the live internet instead",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/10/09/anthropic-cant-reliably-control-its-ai-agents-its-cutting-off-its-internal-evals-from-the-live-internet-instead/",
-        "publishedDate": "2026-10-10"
       },
       "traceToAnchors": []
     }

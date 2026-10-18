@@ -1,7 +1,29 @@
 {
-  "lastUpdated": "2026-10-18T10:15:35.313Z",
+  "lastUpdated": "2026-10-18T15:16:02.368Z",
   "freshnessState": "fresh",
   "stories": [
+    {
+      "id": "6ad227480242af4ebffe6d0b",
+      "category": "models",
+      "headline": "OnlyFans Creators Are Pissed That Meta Lets Muse Talk Dirty",
+      "source": {
+        "name": "Wired — Artificial Intelligence",
+        "url": "https://www.wired.com/story/onlyfans-creators-are-pissed-that-meta-lets-muse-talk-dirty/",
+        "publishedDate": "2026-10-18"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "6abd21cd6366a0250b4ee426",
+      "category": "compute-energy",
+      "headline": "Data Centers Have a New PR Plan: Your Kid’s Field Trip",
+      "source": {
+        "name": "Wired — Artificial Intelligence",
+        "url": "https://www.wired.com/story/data-center-industry-is-trying-to-woo-kids/",
+        "publishedDate": "2026-10-18"
+      },
+      "traceToAnchors": []
+    },
     {
       "id": "https://www.theverge.com/?p=1013195",
       "category": "safety-governance",
@@ -636,28 +658,6 @@
       "source": {
         "name": "Microsoft — AI news",
         "url": "https://news.microsoft.com/maia-2026/",
-        "publishedDate": "2026-10-12"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3176752",
-      "category": "models",
-      "headline": "Meta releases its first frontier model, Muse Wonder",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/",
-        "publishedDate": "2026-10-12"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theverge.com/?p=1009479",
-      "category": "models",
-      "headline": "Meta has some Wonder Full new AI models",
-      "source": {
-        "name": "The Verge — Artificial Intelligence",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/1009479/meta-muse-wonder-full-ai-model",
         "publishedDate": "2026-10-12"
       },
       "traceToAnchors": []

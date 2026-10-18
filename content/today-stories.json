@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-17T19:59:31.693Z",
+  "lastUpdated": "2026-10-18T02:43:28.098Z",
   "freshnessState": "fresh",
   "stories": [
     {
@@ -31,6 +31,39 @@
       "source": {
         "name": "The Verge — Artificial Intelligence",
         "url": "https://www.theverge.com/tech/1013409/meta-removes-language-that-may-have-allowed-it-to-scrape-news-sites",
+        "publishedDate": "2026-10-17"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3178941",
+      "category": "research",
+      "headline": "Meta removes language that raised scraping and AI training concerns",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns/",
+        "publishedDate": "2026-10-17"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3178934",
+      "category": "models",
+      "headline": "Anthropic says its workforce has become less junior and is spending more time in meetings",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings/",
+        "publishedDate": "2026-10-17"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3178496",
+      "category": "models",
+      "headline": "Replit makes OpenAI its default over Anthropic, CEO says",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/",
         "publishedDate": "2026-10-17"
       },
       "traceToAnchors": []
@@ -625,39 +658,6 @@
       "source": {
         "name": "The Verge — Artificial Intelligence",
         "url": "https://www.theverge.com/ai-artificial-intelligence/1009479/meta-muse-wonder-full-ai-model",
-        "publishedDate": "2026-10-12"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "6accf786c1f3b427f509b0cb",
-      "category": "models",
-      "headline": "Muse Wonder Puts Meta Back at the AI Frontier",
-      "source": {
-        "name": "Wired — Artificial Intelligence",
-        "url": "https://www.wired.com/story/muse-wonder-puts-meta-back-at-the-ai-frontier/",
-        "publishedDate": "2026-10-12"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6acd4f14f45abef0dab63ba9",
-      "category": "models",
-      "headline": "How Trust Helps Managers Balance Speed And Ethics In AI Deployment",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/sites/paulocarvao/2026/10/12/how-trust-helps-managers-balance-speed-and-ethics-in-ai-deployment/",
-        "publishedDate": "2026-10-12"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6acd3530f45abef0dab63b98",
-      "category": "models",
-      "headline": "Decisions, Decisions: A Guide To The New Wave Of AI Decision Models Besides Jev",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/sites/ronschmelzer/2026/10/12/decisions-decisions-a-guide-to-the-new-wave-of-ai-decision-models-besides-jev/",
         "publishedDate": "2026-10-12"
       },
       "traceToAnchors": []

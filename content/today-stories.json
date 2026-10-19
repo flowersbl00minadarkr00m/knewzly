@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-19T02:56:35.261Z",
+  "lastUpdated": "2026-10-19T11:54:39.887Z",
   "freshnessState": "fresh",
   "stories": [
     {
@@ -9,6 +9,28 @@
       "source": {
         "name": "Forbes — Innovation",
         "url": "https://www.forbes.com/sites/ewanspence/2026/10/18/pixel-11-pro-long-term-experience-display-hilight-battery-camera-gemini-ai/",
+        "publishedDate": "2026-10-19"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6ad13e0a43b3bab85c56ee6e",
+      "category": "ai-lifecycle",
+      "headline": "​The Agentic Era Needs A Different Kind Of Memory",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/councils/forbestechcouncil/2026/10/19/the-agentic-era-needs-a-different-kind-of-memory/",
+        "publishedDate": "2026-10-19"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6ad121fa43b3bab85c56ee5b",
+      "category": "research",
+      "headline": "AI Data Center Efficiency: Looking Beyond Power Usage Effectiveness",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/councils/forbestechcouncil/2026/10/19/ai-data-center-efficiency-looking-beyond-power-usage-effectiveness/",
         "publishedDate": "2026-10-19"
       },
       "traceToAnchors": []
@@ -637,28 +659,6 @@
         "name": "The Verge — Artificial Intelligence",
         "url": "https://www.theverge.com/news/1010365/shopify-opens-its-catalog-up-to-more-ai-agents",
         "publishedDate": "2026-10-13"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theverge.com/?p=1009465",
-      "category": "compute-energy",
-      "headline": "Microsoft’s new AI chip makes it less reliant on Nvidia’s GPUs",
-      "source": {
-        "name": "The Verge — Artificial Intelligence",
-        "url": "https://www.theverge.com/news/1009465/microsoft-maia-300-chip-improvements-rollout",
-        "publishedDate": "2026-10-12"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6ac8f6d54243eea6517f69b6",
-      "category": "safety-governance",
-      "headline": "Do We Need Smart Contracts When We Have AI Agents?",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/councils/forbestechcouncil/2026/10/12/do-we-need-smart-contracts-when-we-have-ai-agents/",
-        "publishedDate": "2026-10-12"
       },
       "traceToAnchors": []
     }

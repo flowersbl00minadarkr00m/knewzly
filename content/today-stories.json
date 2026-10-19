@@ -1,7 +1,18 @@
 {
-  "lastUpdated": "2026-10-18T19:59:10.379Z",
+  "lastUpdated": "2026-10-19T02:56:35.261Z",
   "freshnessState": "fresh",
   "stories": [
+    {
+      "id": "content_6ad52bc243b3bab85c56ef33",
+      "category": "ai-lifecycle",
+      "headline": "Pixel 11 Pro: Why Agentic AI Can’t Hide Modest Hardware Upgrades",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/sites/ewanspence/2026/10/18/pixel-11-pro-long-term-experience-display-hilight-battery-camera-gemini-ai/",
+        "publishedDate": "2026-10-19"
+      },
+      "traceToAnchors": []
+    },
     {
       "id": "6ad227480242af4ebffe6d0b",
       "category": "models",
@@ -647,17 +658,6 @@
       "source": {
         "name": "Forbes — Innovation",
         "url": "https://www.forbes.com/councils/forbestechcouncil/2026/10/12/do-we-need-smart-contracts-when-we-have-ai-agents/",
-        "publishedDate": "2026-10-12"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://news.microsoft.com/source/?p=26047",
-      "category": "models",
-      "headline": "Introducing Microsoft&#8217;s latest custom chip: Maia 300",
-      "source": {
-        "name": "Microsoft — AI news",
-        "url": "https://news.microsoft.com/maia-2026/",
         "publishedDate": "2026-10-12"
       },
       "traceToAnchors": []

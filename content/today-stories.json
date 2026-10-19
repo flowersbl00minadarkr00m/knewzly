@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-19T11:54:39.887Z",
+  "lastUpdated": "2026-10-19T18:14:02.048Z",
   "freshnessState": "fresh",
   "stories": [
     {
@@ -31,6 +31,61 @@
       "source": {
         "name": "Forbes — Innovation",
         "url": "https://www.forbes.com/councils/forbestechcouncil/2026/10/19/ai-data-center-efficiency-looking-beyond-power-usage-effectiveness/",
+        "publishedDate": "2026-10-19"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3177977",
+      "category": "models",
+      "headline": "Nvidia launches new open models to run agents in the enterprise and on PCs",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/10/19/nvidia-launches-new-open-models-to-run-agents-in-the-enterprise-and-on-pcs/",
+        "publishedDate": "2026-10-19"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "6ad5f231be73e1c393ca6a84",
+      "category": "models",
+      "headline": "WhatsApp Help Pages Leaked Hidden Instructions for a Meta Chatbot",
+      "source": {
+        "name": "Wired — Artificial Intelligence",
+        "url": "https://www.wired.com/story/whatsapp-help-pages-leaked-hidden-instructions-for-a-meta-chatbot/",
+        "publishedDate": "2026-10-19"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://tldr.tech/ai/2026-10-19",
+      "category": "models",
+      "headline": "DeepSeek’s new Flash ⚡, Replit drops Anthropic 🔄, Anthropic’s workforce 💼",
+      "source": {
+        "name": "TLDR AI",
+        "url": "https://tldr.tech/ai/2026-10-19",
+        "publishedDate": "2026-10-19"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6ad63a3443b3bab85c56ef5f",
+      "category": "safety-governance",
+      "headline": "U.K. Auto Industry Needs Urgent Policy U-Turn To Survive",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/sites/neilwinton/2026/10/19/uk-auto-industry-needs-urgent-policy-u-turn-to-survive/",
+        "publishedDate": "2026-10-19"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://developer.nvidia.com/blog/?p=123793",
+      "category": "research",
+      "headline": "Accelerating Mamba-2 with High-Performance Forward Pass Kernels in NVIDIA CUDA Tile",
+      "source": {
+        "name": "NVIDIA — Technical Blog",
+        "url": "https://developer.nvidia.com/blog/accelerating-mamba-2-with-high-performance-forward-pass-kernels-in-nvidia-cuda-tile/",
         "publishedDate": "2026-10-19"
       },
       "traceToAnchors": []
@@ -603,61 +658,6 @@
       "source": {
         "name": "Forbes — Innovation",
         "url": "https://www.forbes.com/councils/forbestechcouncil/2026/10/13/your-ais-biggest-blind-spot-is-the-data-you-forgot-you-had/",
-        "publishedDate": "2026-10-13"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3176600",
-      "category": "ai-lifecycle",
-      "headline": "Google Play now lets anyone build private, vibe-coded apps that run on Android",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/10/13/google-play-now-supports-private-vibe-coded-apps-built-just-for-you/",
-        "publishedDate": "2026-10-13"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theverge.com/?p=1009862",
-      "category": "models",
-      "headline": "Google finally releases Gemini 4 Argon",
-      "source": {
-        "name": "The Verge — Artificial Intelligence",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/1009862/google-releases-gemini-4-argon",
-        "publishedDate": "2026-10-13"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "6ace0d6cda1d099f16b1dae2",
-      "category": "safety-governance",
-      "headline": "OpenAI and Anthropic Tell British Lawmakers: Regulate Us",
-      "source": {
-        "name": "Wired — Artificial Intelligence",
-        "url": "https://www.wired.com/story/openai-and-anthropic-tell-british-lawmakers-regulate-us/",
-        "publishedDate": "2026-10-13"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://developer.nvidia.com/blog/?p=123309",
-      "category": "research",
-      "headline": "How to Rewrite Apache Spark UDFs for GPU Acceleration with AI Agents",
-      "source": {
-        "name": "NVIDIA — Technical Blog",
-        "url": "https://developer.nvidia.com/blog/rewrite-apache-spark-udfs-gpu-acceleration-ai-agents/",
-        "publishedDate": "2026-10-13"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theverge.com/?p=1010365",
-      "category": "models",
-      "headline": "Shopify opens its catalog up to more AI agents",
-      "source": {
-        "name": "The Verge — Artificial Intelligence",
-        "url": "https://www.theverge.com/news/1010365/shopify-opens-its-catalog-up-to-more-ai-agents",
         "publishedDate": "2026-10-13"
       },
       "traceToAnchors": []

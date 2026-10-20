@@ -1,7 +1,51 @@
 {
-  "lastUpdated": "2026-10-20T10:50:12.443Z",
+  "lastUpdated": "2026-10-20T16:14:23.746Z",
   "freshnessState": "fresh",
   "stories": [
+    {
+      "id": "https://techcrunch.com/?p=3179571",
+      "category": "models",
+      "headline": "US orders federal agencies to remove China’s DeepSeek AI from their systems",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/10/20/us-orders-federal-agencies-to-remove-chinas-deepseek-ai-from-their-systems/",
+        "publishedDate": "2026-10-20"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://huggingface.co/blog/allenai/fairstress",
+      "category": "ai-lifecycle",
+      "headline": "FairStress: A deeper evaluation of fairness in LLM decision-making",
+      "source": {
+        "name": "Hugging Face — Blog",
+        "url": "https://huggingface.co/blog/allenai/fairstress",
+        "publishedDate": "2026-10-20"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://huggingface.co/blog/hf-torchtpu",
+      "category": "safety-governance",
+      "headline": "Hugging Face ❤️ TorchTPU: TPUs, Natively",
+      "source": {
+        "name": "Hugging Face — Blog",
+        "url": "https://huggingface.co/blog/hf-torchtpu",
+        "publishedDate": "2026-10-20"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://huggingface.co/blog/anylanguagemodel-1-0",
+      "category": "models",
+      "headline": "AnyLanguageModel 1.0: One Year of Local Models on Apple Platforms",
+      "source": {
+        "name": "Hugging Face — Blog",
+        "url": "https://huggingface.co/blog/anylanguagemodel-1-0",
+        "publishedDate": "2026-10-20"
+      },
+      "traceToAnchors": []
+    },
     {
       "id": "content_6ad52bc243b3bab85c56ef33",
       "category": "ai-lifecycle",
@@ -614,50 +658,6 @@
       "source": {
         "name": "Wired — Artificial Intelligence",
         "url": "https://www.wired.com/story/ai-is-coming-for-science-next-watch-out/",
-        "publishedDate": "2026-10-14"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6acf948907038310f8c1eaef",
-      "category": "research",
-      "headline": "‘Infinite Demand For Robots:’ Inside Matter Venture Partners’ $450 Million Bet On Physical AI",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/sites/johnkoetsier/2026/10/14/infinite-demand-for-robots-inside-matter-venture-partners-450-million-bet-on-physical-ai/",
-        "publishedDate": "2026-10-14"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6acfb34043b3bab85c56edcd",
-      "category": "ai-lifecycle",
-      "headline": "How SolarWinds Used An AI Agent To 5x Its Software Engineering Output",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/sites/timkeary/2026/10/14/how-solarwinds-used-an-ai-agent-to-5x-its-software-engineering-output/",
-        "publishedDate": "2026-10-14"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3177812",
-      "category": "safety-governance",
-      "headline": "Flock CEO says its microphones detect &#8216;just gunshots&#8217; — its website says different",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/10/14/flock-ceo-says-its-microphones-detect-just-gunshots-its-website-says-different/",
-        "publishedDate": "2026-10-14"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6ad0012443b3bab85c56edf8",
-      "category": "models",
-      "headline": "Unpacking Meta Muse Wonder And Muse Wonder Full",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/sites/johnwerner/2026/10/14/unpacking-meta-muse-wonder-and-muse-wonder-full/",
         "publishedDate": "2026-10-14"
       },
       "traceToAnchors": []

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-19T18:14:02.048Z",
+  "lastUpdated": "2026-10-20T03:06:21.494Z",
   "freshnessState": "fresh",
   "stories": [
     {
@@ -86,6 +86,72 @@
       "source": {
         "name": "NVIDIA — Technical Blog",
         "url": "https://developer.nvidia.com/blog/accelerating-mamba-2-with-high-performance-forward-pass-kernels-in-nvidia-cuda-tile/",
+        "publishedDate": "2026-10-19"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.technologyreview.com/?p=1147186",
+      "category": "models",
+      "headline": "Making the internet better for AI agents might make it worse for everyone else",
+      "source": {
+        "name": "MIT Technology Review — Artificial Intelligence",
+        "url": "https://www.technologyreview.com/2026/10/19/1147186/making-the-internet-better-for-ai-agents-might-make-it-worse-for-everyone-else/",
+        "publishedDate": "2026-10-19"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.technologyreview.com/?p=1147149",
+      "category": "research",
+      "headline": "“We were looking at it wrong”: The explosive claim that’s upended the AI world",
+      "source": {
+        "name": "MIT Technology Review — Artificial Intelligence",
+        "url": "https://www.technologyreview.com/2026/10/19/1147149/we-were-looking-at-it-wrong-the-explosive-claim-thats-upended-the-ai-world/",
+        "publishedDate": "2026-10-19"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3178312",
+      "category": "safety-governance",
+      "headline": "Embedded AI evaluators won&#8217;t be an easy solution, Hugging Face&#8217;s policy chief says",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/10/19/embedded-ai-evaluators-wont-be-an-easy-solution-hugging-faces-policy-chief-says/",
+        "publishedDate": "2026-10-19"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3179279",
+      "category": "ai-lifecycle",
+      "headline": "Microsoft says AI agents are like insider threats as &#8216;frontier models can&#8217;t be trusted&#8217;",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/10/19/microsoft-says-ai-agents-are-like-insider-threats-as-frontier-models-cant-be-trusted/",
+        "publishedDate": "2026-10-19"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6ad660d743b3bab85c56ef7c",
+      "category": "compute-energy",
+      "headline": "Robot Brains For 75 Cents/Hour? Former Nvidia Researchers Raise $90 Million",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/sites/johnkoetsier/2026/10/19/robot-brains-for-75-centshour-former-nvidia-researchers-raise-90-million/",
+        "publishedDate": "2026-10-19"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6ad6518db301973129a91d62",
+      "category": "research",
+      "headline": "‘Space Jellyfish’ Dazzle Skywatchers, More Could Be Coming",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/sites/lesliekatz/2026/10/19/space-jellyfish-dazzle-skywatchers-more-could-be-coming/",
         "publishedDate": "2026-10-19"
       },
       "traceToAnchors": []
@@ -593,72 +659,6 @@
         "name": "Forbes — Innovation",
         "url": "https://www.forbes.com/sites/johnwerner/2026/10/14/unpacking-meta-muse-wonder-and-muse-wonder-full/",
         "publishedDate": "2026-10-14"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.technologyreview.com/?p=1145755",
-      "category": "research",
-      "headline": "AI labs are buying data from dead startups to train their models",
-      "source": {
-        "name": "MIT Technology Review — Artificial Intelligence",
-        "url": "https://www.technologyreview.com/2026/10/13/1145755/ai-labs-buying-data-from-dead-startups-to-train-models/",
-        "publishedDate": "2026-10-13"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3175284",
-      "category": "ai-lifecycle",
-      "headline": "Amex introduces a framework to prevent AI agents from making unauthorized purchases",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/10/13/amex-introduces-a-framework-to-prevent-ai-agents-from-making-unauthorized-purchases/",
-        "publishedDate": "2026-10-13"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theverge.com/?p=1009704",
-      "category": "models",
-      "headline": "Apple launches HomeView, its first smart display for the home",
-      "source": {
-        "name": "The Verge — Artificial Intelligence",
-        "url": "https://www.theverge.com/tech/1009704/apple-homeview-smart-display-first-look",
-        "publishedDate": "2026-10-13"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theneurondaily.com/p/meta-s-muse-wonder-is-here-priced-like-opus-ee30",
-      "category": "models",
-      "headline": "😺 Meta’s Muse Wonder is here, priced like Opus",
-      "source": {
-        "name": "The Neuron",
-        "url": "https://www.theneurondaily.com/p/meta-s-muse-wonder-is-here-priced-like-opus-ee30",
-        "publishedDate": "2026-10-13"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6acd073357cc1af9c50a13d3",
-      "category": "compute-energy",
-      "headline": "How AI Is Escaping The Data Center",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/councils/forbestechcouncil/2026/10/13/how-ai-is-escaping-the-data-center/",
-        "publishedDate": "2026-10-13"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6acd06b8f45abef0dab63b82",
-      "category": "research",
-      "headline": "Your AI’s Biggest Blind Spot Is The Data You Forgot You Had",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/councils/forbestechcouncil/2026/10/13/your-ais-biggest-blind-spot-is-the-data-you-forgot-you-had/",
-        "publishedDate": "2026-10-13"
       },
       "traceToAnchors": []
     }

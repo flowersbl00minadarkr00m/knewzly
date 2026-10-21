@@ -1,7 +1,84 @@
 {
-  "lastUpdated": "2026-10-21T03:01:07.991Z",
+  "lastUpdated": "2026-10-21T11:02:36.098Z",
   "freshnessState": "fresh",
   "stories": [
+    {
+      "id": "6ad79c45a4cc6513f80c0b82",
+      "category": "compute-energy",
+      "headline": "Europe Wants Data Centers. Its Climate Goals Are Getting in The Way",
+      "source": {
+        "name": "Wired — Artificial Intelligence",
+        "url": "https://www.wired.com/story/europe-data-centers-climate-change/",
+        "publishedDate": "2026-10-21"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theneurondaily.com/p/meta-s-muse-made-shared-chats-searchable",
+      "category": "models",
+      "headline": "😺 Meta’s Muse made shared chats searchable",
+      "source": {
+        "name": "The Neuron",
+        "url": "https://www.theneurondaily.com/p/meta-s-muse-made-shared-chats-searchable",
+        "publishedDate": "2026-10-21"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6ad85568a5f459ded99390fb",
+      "category": "compute-energy",
+      "headline": "Nvidia Backs $164.5 Billion Of AI Data Centers To Keep GPUs Selling",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/sites/janakirammsv/2026/10/21/nvidia-backs-1645-billion-of-ai-data-centers-to-keep-gpus-selling/",
+        "publishedDate": "2026-10-21"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://developer.nvidia.com/blog/?p=123898",
+      "category": "ai-lifecycle",
+      "headline": "Inside NVIDIA Sentry: Secure AI Agents at Runtime",
+      "source": {
+        "name": "NVIDIA — Technical Blog",
+        "url": "https://developer.nvidia.com/blog/inside-nvidia-sentry-secure-ai-agents-at-runtime/",
+        "publishedDate": "2026-10-21"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://developer.nvidia.com/blog/?p=123932",
+      "category": "ai-lifecycle",
+      "headline": "How NVIDIA OpenShell Reference Architecture Secures and Governs AI Agent Workloads at Scale",
+      "source": {
+        "name": "NVIDIA — Technical Blog",
+        "url": "https://developer.nvidia.com/blog/how-nvidia-openshell-reference-architecture-secures-and-governs-ai-agent-workloads-at-scale/",
+        "publishedDate": "2026-10-21"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://developer.nvidia.com/blog/?p=123879",
+      "category": "models",
+      "headline": "Developing an AI Factory Digital Twin with an Agent-Assisted Workflow",
+      "source": {
+        "name": "NVIDIA — Technical Blog",
+        "url": "https://developer.nvidia.com/blog/developing-an-ai-factory-digital-twin-with-an-agent-assisted-workflow/",
+        "publishedDate": "2026-10-21"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://developer.nvidia.com/blog/?p=123892",
+      "category": "models",
+      "headline": "Achieve Productive AI Capacity Faster and More Predictably with NVIDIA DSX POD",
+      "source": {
+        "name": "NVIDIA — Technical Blog",
+        "url": "https://developer.nvidia.com/blog/achieve-productive-ai-capacity-faster-and-more-predictably-with-nvidia-dsx-pod/",
+        "publishedDate": "2026-10-21"
+      },
+      "traceToAnchors": []
+    },
     {
       "id": "https://techcrunch.com/?p=3179571",
       "category": "models",
@@ -581,83 +658,6 @@
       "source": {
         "name": "TechCrunch — Artificial Intelligence",
         "url": "https://techcrunch.com/2026/10/15/meta-launches-an-open-weight-model-that-runs-on-macs/",
-        "publishedDate": "2026-10-15"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3178363",
-      "category": "safety-governance",
-      "headline": "Amazon devices chief Panos Panay sees a future where AI devices replace the need to use apps",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/10/15/amazon-devices-chief-panos-panay-sees-a-future-where-ai-devices-replace-the-need-to-use-apps/",
-        "publishedDate": "2026-10-15"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3178367",
-      "category": "models",
-      "headline": "Anthropic is letting METR researchers look under the hood with employee-level access",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/10/15/anthropic-is-letting-metr-researchers-look-under-the-hood-with-employee-level-access/",
-        "publishedDate": "2026-10-15"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theverge.com/?p=1012293",
-      "category": "models",
-      "headline": "Meta and Apple team up to make Muse AI models run better on Macs",
-      "source": {
-        "name": "The Verge — Artificial Intelligence",
-        "url": "https://www.theverge.com/news/1012293/meta-apple-muse-spark-open-ai-model-mlx",
-        "publishedDate": "2026-10-15"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theverge.com/?p=1011938",
-      "category": "research",
-      "headline": "Friends don&#8217;t let friends feed their data to AI agents",
-      "source": {
-        "name": "The Verge — Artificial Intelligence",
-        "url": "https://www.theverge.com/tech/1011938/muse-ai-data-friends-consent",
-        "publishedDate": "2026-10-15"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6ad0f69443b3bab85c56ee35",
-      "category": "models",
-      "headline": "This Robot Finishes Drywall 3X Faster Than Humans. Now It Has $20 Million To Learn More Trades",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/sites/johnkoetsier/2026/10/15/this-robot-finishes-drywall-3x-faster-than-humans-now-it-has-20-million-to-learn-more-trades/",
-        "publishedDate": "2026-10-15"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://huggingface.co/blog/meta-muse-spark-open",
-      "category": "models",
-      "headline": "Welcome Muse Spark Open: open-weight frontier multimodal mixture-of-experts model from Meta",
-      "source": {
-        "name": "Hugging Face — Blog",
-        "url": "https://huggingface.co/blog/meta-muse-spark-open",
-        "publishedDate": "2026-10-15"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://developer.nvidia.com/blog/?p=122698",
-      "category": "ai-lifecycle",
-      "headline": "Scale Agentic Coding Workflows with Meta’s Muse Spark Open on NVIDIA GB300 NVL72",
-      "source": {
-        "name": "NVIDIA — Technical Blog",
-        "url": "https://developer.nvidia.com/blog/scale-agentic-coding-workflows-with-metas-muse-spark-open-on-nvidia-gb300-nvl72/",
         "publishedDate": "2026-10-15"
       },
       "traceToAnchors": []

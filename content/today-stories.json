@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-10-21T11:02:36.098Z",
+  "lastUpdated": "2026-10-21T16:29:14.672Z",
   "freshnessState": "fresh",
   "stories": [
     {
       "id": "6ad79c45a4cc6513f80c0b82",
       "category": "compute-energy",
-      "headline": "Europe Wants Data Centers. Its Climate Goals Are Getting in The Way",
+      "headline": "Europe Wants Data Centers. Its Climate Goals Are Getting in the Way",
       "source": {
         "name": "Wired — Artificial Intelligence",
         "url": "https://www.wired.com/story/europe-data-centers-climate-change/",
@@ -75,6 +75,83 @@
       "source": {
         "name": "NVIDIA — Technical Blog",
         "url": "https://developer.nvidia.com/blog/achieve-productive-ai-capacity-faster-and-more-predictably-with-nvidia-dsx-pod/",
+        "publishedDate": "2026-10-21"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://openai.com/index/openai-models-google-cloud",
+      "category": "models",
+      "headline": "OpenAI models are coming to Google Cloud",
+      "source": {
+        "name": "OpenAI — News",
+        "url": "https://openai.com/index/openai-models-google-cloud",
+        "publishedDate": "2026-10-21"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities",
+      "category": "safety-governance",
+      "headline": "Patch the Planet: global response coordination as agents uncover critical vulnerabilities",
+      "source": {
+        "name": "OpenAI — News",
+        "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities",
+        "publishedDate": "2026-10-21"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://openai.com/index/scaling-ai-research-for-complex-biological-data",
+      "category": "research",
+      "headline": "Using thousands of AI agents to uncover new leads in biological data",
+      "source": {
+        "name": "OpenAI — News",
+        "url": "https://openai.com/index/scaling-ai-research-for-complex-biological-data",
+        "publishedDate": "2026-10-21"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "6ad7d96421d5362b857b93a4",
+      "category": "models",
+      "headline": "A Design Flaw in Share Links Exposes Users’ Personal Conversations With Meta’s Muse",
+      "source": {
+        "name": "Wired — Artificial Intelligence",
+        "url": "https://www.wired.com/story/a-design-flaw-in-share-links-exposes-users-personal-conversations-with-meta-muse/",
+        "publishedDate": "2026-10-21"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://tldr.tech/ai/2026-10-21",
+      "category": "models",
+      "headline": "DeepSeek DeepInfer 🐋, PyTorch on TPUs ⚡, Ramp’s agent framework 👨‍💻",
+      "source": {
+        "name": "TLDR AI",
+        "url": "https://tldr.tech/ai/2026-10-21",
+        "publishedDate": "2026-10-21"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://huggingface.co/blog/ibm-granite/granite-speech-5",
+      "category": "models",
+      "headline": "Granite Speech 5.0: Transcribe, Translate, and Attribute more Accurately and Faster",
+      "source": {
+        "name": "Hugging Face — Blog",
+        "url": "https://huggingface.co/blog/ibm-granite/granite-speech-5",
+        "publishedDate": "2026-10-21"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://developer.nvidia.com/blog/?p=123747",
+      "category": "ai-lifecycle",
+      "headline": "Design Proteins with RFD4-Proteina Using Reward-Guided Inference-Time Search",
+      "source": {
+        "name": "NVIDIA — Technical Blog",
+        "url": "https://developer.nvidia.com/blog/design-proteins-with-rfd4-proteina-using-reward-guided-inference-time-search/",
         "publishedDate": "2026-10-21"
       },
       "traceToAnchors": []
@@ -581,83 +658,6 @@
       "source": {
         "name": "TechCrunch — Artificial Intelligence",
         "url": "https://techcrunch.com/2026/10/14/figma-announces-new-features-to-define-how-agents-work-on-its-platform/",
-        "publishedDate": "2026-10-15"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6ad051ad43b3bab85c56ee02",
-      "category": "ai-lifecycle",
-      "headline": "The Future Of Agentic AI Has Arrived",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/sites/stevebanker/2026/10/15/the-future-of-agentic-ai-has-arrived/",
-        "publishedDate": "2026-10-15"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://news.microsoft.com/source/?p=26076",
-      "category": "models",
-      "headline": "Missed a lecture? This AI agent at Bar-Ilan University helps students catch up",
-      "source": {
-        "name": "Microsoft — AI news",
-        "url": "https://news.microsoft.com/source/emea/features/missed-a-lecture-this-ai-agent-at-bar-ilan-university-helps-students-catch-up/",
-        "publishedDate": "2026-10-15"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3178088",
-      "category": "models",
-      "headline": "Google’s Universal Cart shopping tool launches in the US",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/10/15/googles-universal-cart-shopping-tool-launches-in-the-us/",
-        "publishedDate": "2026-10-15"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theverge.com/?p=1011797",
-      "category": "models",
-      "headline": "Google launches its &#8216;universal&#8217; online shopping cart ahead of the holidays",
-      "source": {
-        "name": "The Verge — Artificial Intelligence",
-        "url": "https://www.theverge.com/tech/1011797/google-ai-universal-cart-shopping-tool-launch",
-        "publishedDate": "2026-10-15"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6ad00ab142ded464d60e5c92",
-      "category": "safety-governance",
-      "headline": "Straight Talk About Gun Safety Is Needed At Every Age",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/sites/arthurkellermann/2026/10/15/straight-talk-about-gun-safety-is-needed-at-every-age/",
-        "publishedDate": "2026-10-15"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://developer.nvidia.com/blog/?p=123590",
-      "category": "research",
-      "headline": "NVIDIA Nemotron 3.5 Super VL Powers Specialized Agents with Multimodal Reasoning",
-      "source": {
-        "name": "NVIDIA — Technical Blog",
-        "url": "https://developer.nvidia.com/blog/nvidia-nemotron-3-5-super-vl-powers-specialized-agents-with-multimodal-reasoning/",
-        "publishedDate": "2026-10-15"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3178309",
-      "category": "models",
-      "headline": "Meta launches an open-weight AI model that runs on Macs",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/10/15/meta-launches-an-open-weight-model-that-runs-on-macs/",
         "publishedDate": "2026-10-15"
       },
       "traceToAnchors": []

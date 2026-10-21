@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-21T16:29:14.672Z",
+  "lastUpdated": "2026-10-21T21:09:14.824Z",
   "freshnessState": "fresh",
   "stories": [
     {
@@ -152,6 +152,72 @@
       "source": {
         "name": "NVIDIA — Technical Blog",
         "url": "https://developer.nvidia.com/blog/design-proteins-with-rfd4-proteina-using-reward-guided-inference-time-search/",
+        "publishedDate": "2026-10-21"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://openai.com/index/att-legal",
+      "category": "ai-lifecycle",
+      "headline": "How AT&T is rethinking in-house legal work with OpenAI",
+      "source": {
+        "name": "OpenAI — News",
+        "url": "https://openai.com/index/att-legal",
+        "publishedDate": "2026-10-21"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3180139",
+      "category": "safety-governance",
+      "headline": "While Amazon blocks AI agents, Walmart rolls out the welcome mat",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/10/21/while-amazon-blocks-ai-agents-walmart-rolls-out-the-welcome-mat/",
+        "publishedDate": "2026-10-21"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theverge.com/?p=1015843",
+      "category": "models",
+      "headline": "Anthropic takes on Muse with Claude Duet, its new AI agent",
+      "source": {
+        "name": "The Verge — Artificial Intelligence",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1015843/anthropic-claude-duet-ai-agent",
+        "publishedDate": "2026-10-21"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theverge.com/?p=1015281",
+      "category": "models",
+      "headline": "Conversational Gemini navigation comes to Apple CarPlay",
+      "source": {
+        "name": "The Verge — Artificial Intelligence",
+        "url": "https://www.theverge.com/transportation/1015281/gemini-ai-apple-carplay-voice-google-maps",
+        "publishedDate": "2026-10-21"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theverge.com/?p=1015316",
+      "category": "safety-governance",
+      "headline": "OpenAI says an AI agent lied about disabling its safety monitoring system",
+      "source": {
+        "name": "The Verge — Artificial Intelligence",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1015316/openai-ai-agent-disabling-monitoring-systems",
+        "publishedDate": "2026-10-21"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://huggingface.co/blog/nvidia/kumo-relational",
+      "category": "research",
+      "headline": "NVIDIA Kumo Relational Outperforms Supervised Machine Learning on Relational Data, No Training Required",
+      "source": {
+        "name": "Hugging Face — Blog",
+        "url": "https://huggingface.co/blog/nvidia/kumo-relational",
         "publishedDate": "2026-10-21"
       },
       "traceToAnchors": []
@@ -593,72 +659,6 @@
         "name": "Forbes — Innovation",
         "url": "https://www.forbes.com/sites/timbajarin/2026/10/16/apples-a20-pro-chip-is-more-than-a-benchmark-record/",
         "publishedDate": "2026-10-16"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://openai.com/index/stack-overflow-chatgpt-plugin",
-      "category": "models",
-      "headline": "Stack Overflow for Agents triples signups with ChatGPT plugin",
-      "source": {
-        "name": "OpenAI — News",
-        "url": "https://openai.com/index/stack-overflow-chatgpt-plugin",
-        "publishedDate": "2026-10-16"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?post_type=tc_video&#038;p=3176211",
-      "category": "ai-lifecycle",
-      "headline": "An Nvidia insider-turned-VC on why robotics hasn’t hit its ChatGPT moment, yet",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/video/a-nvidia-insider-turned-vc-on-why-robotics-hasnt-hit-its-chatgpt-moment-yet/",
-        "publishedDate": "2026-10-16"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6ad16c533924f25c273091a2",
-      "category": "models",
-      "headline": "What To Watch This Weekend: New Shows And Movies To Stream On Netflix, Hulu, Prime Video, Apple TV And More",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/sites/erikkain/2026/10/16/what-to-watch-this-weekend-new-shows-and-movies-to-stream-on-netflix-hulu-prime-video-apple-tv-and-more/",
-        "publishedDate": "2026-10-16"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6ad25bde43b3bab85c56eec4",
-      "category": "ai-lifecycle",
-      "headline": "A Unified Data Plane For Agentic AI",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/sites/delltechnologies/2026/10/16/a-unified-data-plane-for-agentic-ai/",
-        "publishedDate": "2026-10-16"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6ad25a3243b3bab85c56eec3",
-      "category": "models",
-      "headline": "E Ink Debuts Kaleido 4 Color Screen For E-Readers: Faster Refresh And Video Playback",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/sites/davidphelan/2026/10/16/e-ink-debuts-kaleido-4-color-screen-for-e-readers-faster-refresh-and-video-playback/",
-        "publishedDate": "2026-10-16"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3177541",
-      "category": "ai-lifecycle",
-      "headline": "Figma announces new features to define how agents work on its platform",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/10/14/figma-announces-new-features-to-define-how-agents-work-on-its-platform/",
-        "publishedDate": "2026-10-15"
       },
       "traceToAnchors": []
     }

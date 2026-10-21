@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-20T21:09:39.164Z",
+  "lastUpdated": "2026-10-21T03:01:07.991Z",
   "freshnessState": "fresh",
   "stories": [
     {
@@ -108,6 +108,50 @@
       "source": {
         "name": "Forbes — Innovation",
         "url": "https://www.forbes.com/sites/andrewwilliams/2026/10/20/garmin-forerunner-watch-accuracy-issue-highlighted-in-study/",
+        "publishedDate": "2026-10-20"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3179755",
+      "category": "safety-governance",
+      "headline": "Anthropic pitches AI safety bill that may block a model if 50+ people could be killed",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/10/20/anthropic-pitches-ai-safety-bill-that-may-block-a-model-if-50-people-could-be-killed/",
+        "publishedDate": "2026-10-20"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3179822",
+      "category": "safety-governance",
+      "headline": "Hugging Face CEO warns that Netflix&#8217;s OpenAI hack documentary isn&#8217;t accurate",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/10/20/hugging-face-ceo-warns-that-netflixs-openai-hack-documentary-isnt-accurate/",
+        "publishedDate": "2026-10-20"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theverge.com/?p=1014999",
+      "category": "models",
+      "headline": "Google’s more personalized Gemini AI is heading to your car",
+      "source": {
+        "name": "The Verge — Artificial Intelligence",
+        "url": "https://www.theverge.com/tech/1014999/google-gemini-ai-cars-android-auto",
+        "publishedDate": "2026-10-20"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6ad6823643b3bab85c56ef91",
+      "category": "research",
+      "headline": "Data Sovereignty Should Be Recognized Inside Enterprise Walls, Too",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/sites/joemckendrick/2026/10/20/data-sovereignty-should-be-recognized-inside-enterprise-walls-too/",
         "publishedDate": "2026-10-20"
       },
       "traceToAnchors": []
@@ -615,50 +659,6 @@
         "name": "NVIDIA — Technical Blog",
         "url": "https://developer.nvidia.com/blog/scale-agentic-coding-workflows-with-metas-muse-spark-open-on-nvidia-gb300-nvl72/",
         "publishedDate": "2026-10-15"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "6acfb7fb7efaf68414339c74",
-      "category": "models",
-      "headline": "We Got Hot and Heavy With Meta’s Muse—and Baffled by Apple’s HomeView",
-      "source": {
-        "name": "Wired — Artificial Intelligence",
-        "url": "https://www.wired.com/story/uncanny-valley-podcast-we-got-hot-and-heavy-with-metas-muse-and-underwhelmed-by-apples-homeview/",
-        "publishedDate": "2026-10-15"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic",
-      "category": "ai-lifecycle",
-      "headline": "The EU’s next chapter in AI is agentic",
-      "source": {
-        "name": "OpenAI — News",
-        "url": "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic",
-        "publishedDate": "2026-10-14"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/",
-      "category": "models",
-      "headline": "Google DeepMind and Singapore Government collaborate to build fine-tuned AI model for scam detection",
-      "source": {
-        "name": "Google DeepMind — Blog",
-        "url": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/",
-        "publishedDate": "2026-10-14"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theneurondaily.com/p/google-launched-gemini-4-argon-tying-gpt-6-b85b",
-      "category": "models",
-      "headline": "😸 Google launched Gemini 4 Argon, tying GPT-6",
-      "source": {
-        "name": "The Neuron",
-        "url": "https://www.theneurondaily.com/p/google-launched-gemini-4-argon-tying-gpt-6-b85b",
-        "publishedDate": "2026-10-14"
       },
       "traceToAnchors": []
     }

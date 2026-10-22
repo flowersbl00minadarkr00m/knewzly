@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-22T11:01:21.234Z",
+  "lastUpdated": "2026-10-22T16:29:49.806Z",
   "freshnessState": "fresh",
   "stories": [
     {
@@ -53,6 +53,94 @@
       "source": {
         "name": "Forbes — Innovation",
         "url": "https://www.forbes.com/sites/jamesmorris/2026/10/22/first-look-land-rover-freelander-is-back-but-bigger-than-ever-before/",
+        "publishedDate": "2026-10-22"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/",
+      "category": "research",
+      "headline": "Beyond tree cover: mapping the world’s forest types",
+      "source": {
+        "name": "Google DeepMind — Blog",
+        "url": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/",
+        "publishedDate": "2026-10-22"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3180196",
+      "category": "ai-lifecycle",
+      "headline": "Uber puts all 30,000 employees on ChatGPT Work",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/10/22/uber-puts-all-30000-employees-on-chatgpt-work/",
+        "publishedDate": "2026-10-22"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3180587",
+      "category": "models",
+      "headline": "Claude Duet app is Anthropic&#8217;s bet on agents",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/10/22/claude-duet-app-is-anthropics-bet-on-agents/",
+        "publishedDate": "2026-10-22"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theverge.com/?p=1016399",
+      "category": "research",
+      "headline": "1Password lets AI agents use your passwords without seeing them",
+      "source": {
+        "name": "The Verge — Artificial Intelligence",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1016399/1password-ai-agent-password-sign-in",
+        "publishedDate": "2026-10-22"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://tldr.tech/ai/2026-10-22",
+      "category": "models",
+      "headline": "Claude Duet 🤖, Anthropic API changes 👨‍💻, Recursive’s local model 💻",
+      "source": {
+        "name": "TLDR AI",
+        "url": "https://tldr.tech/ai/2026-10-22",
+        "publishedDate": "2026-10-22"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6ad92a29e9ef6418b24b2f11",
+      "category": "research",
+      "headline": "The Real Disruption In Mobility Isn't Technology—It's Everything Else",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/councils/forbestechcouncil/2026/10/22/the-real-disruption-in-mobility-isnt-technology-its-everything-else/",
+        "publishedDate": "2026-10-22"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://huggingface.co/blog/allenai/olmoearth-v1-3",
+      "category": "models",
+      "headline": "OlmoEarth v1.3: State-of-the-art embeddings for the whole planet",
+      "source": {
+        "name": "Hugging Face — Blog",
+        "url": "https://huggingface.co/blog/allenai/olmoearth-v1-3",
+        "publishedDate": "2026-10-22"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://developer.nvidia.com/blog/?p=123934",
+      "category": "ai-lifecycle",
+      "headline": "Running Frontier-Class AI Models Across 8 NVIDIA DGX Spark Nodes",
+      "source": {
+        "name": "NVIDIA — Technical Blog",
+        "url": "https://developer.nvidia.com/blog/running-frontier-class-ai-models-across-8-nvidia-dgx-spark-nodes/",
         "publishedDate": "2026-10-22"
       },
       "traceToAnchors": []
@@ -571,94 +659,6 @@
         "name": "MIT Technology Review — Artificial Intelligence",
         "url": "https://www.technologyreview.com/2026/10/19/1147186/making-the-internet-better-for-ai-agents-might-make-it-worse-for-everyone-else/",
         "publishedDate": "2026-10-19"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.technologyreview.com/?p=1147149",
-      "category": "research",
-      "headline": "“We were looking at it wrong”: The explosive claim that’s upended the AI world",
-      "source": {
-        "name": "MIT Technology Review — Artificial Intelligence",
-        "url": "https://www.technologyreview.com/2026/10/19/1147149/we-were-looking-at-it-wrong-the-explosive-claim-thats-upended-the-ai-world/",
-        "publishedDate": "2026-10-19"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3178312",
-      "category": "safety-governance",
-      "headline": "Embedded AI evaluators won&#8217;t be an easy solution, Hugging Face&#8217;s policy chief says",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/10/19/embedded-ai-evaluators-wont-be-an-easy-solution-hugging-faces-policy-chief-says/",
-        "publishedDate": "2026-10-19"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3179279",
-      "category": "ai-lifecycle",
-      "headline": "Microsoft says AI agents are like insider threats as &#8216;frontier models can&#8217;t be trusted&#8217;",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/10/19/microsoft-says-ai-agents-are-like-insider-threats-as-frontier-models-cant-be-trusted/",
-        "publishedDate": "2026-10-19"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6ad660d743b3bab85c56ef7c",
-      "category": "compute-energy",
-      "headline": "Robot Brains For 75 Cents/Hour? Former Nvidia Researchers Raise $90 Million",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/sites/johnkoetsier/2026/10/19/robot-brains-for-75-centshour-former-nvidia-researchers-raise-90-million/",
-        "publishedDate": "2026-10-19"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6ad6518db301973129a91d62",
-      "category": "research",
-      "headline": "‘Space Jellyfish’ Dazzle Skywatchers, More Could Be Coming",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/sites/lesliekatz/2026/10/19/space-jellyfish-dazzle-skywatchers-more-could-be-coming/",
-        "publishedDate": "2026-10-19"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "6ad227480242af4ebffe6d0b",
-      "category": "models",
-      "headline": "OnlyFans Creators Are Pissed That Meta Lets Muse Talk Dirty",
-      "source": {
-        "name": "Wired — Artificial Intelligence",
-        "url": "https://www.wired.com/story/onlyfans-creators-are-pissed-that-meta-lets-muse-talk-dirty/",
-        "publishedDate": "2026-10-18"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "6abd21cd6366a0250b4ee426",
-      "category": "compute-energy",
-      "headline": "Data Centers Have a New PR Plan: Your Kid’s Field Trip",
-      "source": {
-        "name": "Wired — Artificial Intelligence",
-        "url": "https://www.wired.com/story/data-center-industry-is-trying-to-woo-kids/",
-        "publishedDate": "2026-10-18"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theverge.com/?p=1013195",
-      "category": "safety-governance",
-      "headline": "Websites are closing their doors to AI agents",
-      "source": {
-        "name": "The Verge — Artificial Intelligence",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web",
-        "publishedDate": "2026-10-17"
       },
       "traceToAnchors": []
     }

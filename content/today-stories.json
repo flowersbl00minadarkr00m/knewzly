@@ -1,7 +1,18 @@
 {
-  "lastUpdated": "2026-10-21T21:09:14.824Z",
+  "lastUpdated": "2026-10-22T03:06:52.604Z",
   "freshnessState": "fresh",
   "stories": [
+    {
+      "id": "content_6ad910ed840caf732877f85b",
+      "category": "models",
+      "headline": "Epic Is Exploring Launching Clinical Agents To Handle “Routine Visits”",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/sites/saibala/2026/10/21/epic-is-exploring-launching-clinical-agents-to-handle-routine-visits/",
+        "publishedDate": "2026-10-22"
+      },
+      "traceToAnchors": []
+    },
     {
       "id": "6ad79c45a4cc6513f80c0b82",
       "category": "compute-energy",
@@ -218,6 +229,50 @@
       "source": {
         "name": "Hugging Face — Blog",
         "url": "https://huggingface.co/blog/nvidia/kumo-relational",
+        "publishedDate": "2026-10-21"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3180391",
+      "category": "models",
+      "headline": "Meta says Muse has over 10M users, with shopping a top activity",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/10/21/meta-says-muse-has-over-10m-users-with-shopping-a-top-activity/",
+        "publishedDate": "2026-10-21"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theverge.com/?p=1015958",
+      "category": "research",
+      "headline": "Data centers could erase decades of air quality gains",
+      "source": {
+        "name": "The Verge — Artificial Intelligence",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1015958/data-center-pollution-rising-report",
+        "publishedDate": "2026-10-21"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6ad9388819bf17d7c4065c42",
+      "category": "models",
+      "headline": "Why Enterprise AI Agents Require More Than A Technology Strategy",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/sites/davidchou/2026/10/21/why-enterprise-ai-agents-require-more-than-a-technology-strategy/",
+        "publishedDate": "2026-10-21"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6ad91bdeb7c9740673e0c4d6",
+      "category": "ai-lifecycle",
+      "headline": "Optimizing AI Workloads: Build For The Workload, Not The Hype",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/sites/delltechnologies/2026/10/21/optimizing-ai-workloads-build-for-the-workload-not-the-hype/",
         "publishedDate": "2026-10-21"
       },
       "traceToAnchors": []
@@ -604,61 +659,6 @@
         "name": "TechCrunch — Artificial Intelligence",
         "url": "https://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings/",
         "publishedDate": "2026-10-17"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3178496",
-      "category": "models",
-      "headline": "Replit makes OpenAI its default over Anthropic, CEO says",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/",
-        "publishedDate": "2026-10-17"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://huggingface.co/blog/nvidia/scaling-indic-pretraining",
-      "category": "ai-lifecycle",
-      "headline": "Scaling Indic Pretraining: 2.8 Trillion Tokens and an Open Data Generation Pipeline",
-      "source": {
-        "name": "Hugging Face — Blog",
-        "url": "https://huggingface.co/blog/nvidia/scaling-indic-pretraining",
-        "publishedDate": "2026-10-16"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6ad1b91d43b3bab85c56eea0",
-      "category": "research",
-      "headline": "Insiders Warn Insurers’ Climate Retreat Could Spark 2008-Style Crash",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/sites/davidrvetter/2026/10/16/insiders-warn-insurers-climate-retreat-could-spark-2008-style-crash/",
-        "publishedDate": "2026-10-16"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://tldr.tech/ai/2026-10-16",
-      "category": "ai-lifecycle",
-      "headline": "Muse Spark Open ✨, Microsoft’s 3T param model 🧠, d1-ultra 💡",
-      "source": {
-        "name": "TLDR AI",
-        "url": "https://tldr.tech/ai/2026-10-16",
-        "publishedDate": "2026-10-16"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6ad11ad407038310f8c1eb63",
-      "category": "models",
-      "headline": "Apple’s A20 Pro Chip Is More Than A Benchmark Record",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/sites/timbajarin/2026/10/16/apples-a20-pro-chip-is-more-than-a-benchmark-record/",
-        "publishedDate": "2026-10-16"
       },
       "traceToAnchors": []
     }

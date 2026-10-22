@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-22T16:29:49.806Z",
+  "lastUpdated": "2026-10-22T21:07:28.802Z",
   "freshnessState": "fresh",
   "stories": [
     {
@@ -141,6 +141,61 @@
       "source": {
         "name": "NVIDIA — Technical Blog",
         "url": "https://developer.nvidia.com/blog/running-frontier-class-ai-models-across-8-nvidia-dgx-spark-nodes/",
+        "publishedDate": "2026-10-22"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://openai.com/index/uber-chatgpt-work-rollout",
+      "category": "ai-lifecycle",
+      "headline": "Uber brings ChatGPT Work to all employees with OpenAI",
+      "source": {
+        "name": "OpenAI — News",
+        "url": "https://openai.com/index/uber-chatgpt-work-rollout",
+        "publishedDate": "2026-10-22"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3180727",
+      "category": "models",
+      "headline": "1Password launches a way for AI agents to log in on your behalf without seeing your password",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/10/22/1password-launches-a-way-for-ai-agents-to-log-in-on-your-behalf-without-seeing-your-password/",
+        "publishedDate": "2026-10-22"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theverge.com/?p=1017066",
+      "category": "models",
+      "headline": "Meta turns Muse sharing back on",
+      "source": {
+        "name": "The Verge — Artificial Intelligence",
+        "url": "https://www.theverge.com/tech/1017066/meta-muse-sharing-back-on-artifiacts",
+        "publishedDate": "2026-10-22"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theverge.com/?p=1016905",
+      "category": "models",
+      "headline": "In Meta’s version of the future, I’ll have my Muse call your Muse",
+      "source": {
+        "name": "The Verge — Artificial Intelligence",
+        "url": "https://www.theverge.com/tech/1016905/meta-earnings-fall-2026-muse-network",
+        "publishedDate": "2026-10-22"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://developer.nvidia.com/blog/?p=123962",
+      "category": "compute-energy",
+      "headline": "How to Read Data into GPU Memory in Python with NVIDIA GPUDirect Storage",
+      "source": {
+        "name": "NVIDIA — Technical Blog",
+        "url": "https://developer.nvidia.com/blog/how-to-read-data-into-gpu-memory-in-python-with-nvidia-gpudirect-storage/",
         "publishedDate": "2026-10-22"
       },
       "traceToAnchors": []
@@ -603,61 +658,6 @@
       "source": {
         "name": "TechCrunch — Artificial Intelligence",
         "url": "https://techcrunch.com/2026/10/19/nvidia-launches-new-open-models-to-run-agents-in-the-enterprise-and-on-pcs/",
-        "publishedDate": "2026-10-19"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "6ad5f231be73e1c393ca6a84",
-      "category": "models",
-      "headline": "WhatsApp Help Pages Leaked Hidden Instructions for a Meta Chatbot",
-      "source": {
-        "name": "Wired — Artificial Intelligence",
-        "url": "https://www.wired.com/story/whatsapp-help-pages-leaked-hidden-instructions-for-a-meta-chatbot/",
-        "publishedDate": "2026-10-19"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://tldr.tech/ai/2026-10-19",
-      "category": "models",
-      "headline": "DeepSeek’s new Flash ⚡, Replit drops Anthropic 🔄, Anthropic’s workforce 💼",
-      "source": {
-        "name": "TLDR AI",
-        "url": "https://tldr.tech/ai/2026-10-19",
-        "publishedDate": "2026-10-19"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6ad63a3443b3bab85c56ef5f",
-      "category": "safety-governance",
-      "headline": "U.K. Auto Industry Needs Urgent Policy U-Turn To Survive",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/sites/neilwinton/2026/10/19/uk-auto-industry-needs-urgent-policy-u-turn-to-survive/",
-        "publishedDate": "2026-10-19"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://developer.nvidia.com/blog/?p=123793",
-      "category": "research",
-      "headline": "Accelerating Mamba-2 with High-Performance Forward Pass Kernels in NVIDIA CUDA Tile",
-      "source": {
-        "name": "NVIDIA — Technical Blog",
-        "url": "https://developer.nvidia.com/blog/accelerating-mamba-2-with-high-performance-forward-pass-kernels-in-nvidia-cuda-tile/",
-        "publishedDate": "2026-10-19"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.technologyreview.com/?p=1147186",
-      "category": "models",
-      "headline": "Making the internet better for AI agents might make it worse for everyone else",
-      "source": {
-        "name": "MIT Technology Review — Artificial Intelligence",
-        "url": "https://www.technologyreview.com/2026/10/19/1147186/making-the-internet-better-for-ai-agents-might-make-it-worse-for-everyone-else/",
         "publishedDate": "2026-10-19"
       },
       "traceToAnchors": []

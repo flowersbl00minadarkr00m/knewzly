@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-22T03:06:52.604Z",
+  "lastUpdated": "2026-10-22T11:01:21.234Z",
   "freshnessState": "fresh",
   "stories": [
     {
@@ -9,6 +9,50 @@
       "source": {
         "name": "Forbes — Innovation",
         "url": "https://www.forbes.com/sites/saibala/2026/10/21/epic-is-exploring-launching-clinical-agents-to-handle-routine-visits/",
+        "publishedDate": "2026-10-22"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "6ad8f3de7f4e8c7bfb89b8b0",
+      "category": "safety-governance",
+      "headline": "Hugging Face’s New AI Biology Model Lets You Chat With DNA",
+      "source": {
+        "name": "Wired — Artificial Intelligence",
+        "url": "https://www.wired.com/story/hugging-face-new-ai-biology-model-chat-with-dna/",
+        "publishedDate": "2026-10-22"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6ad8e39740abd472a3d06175",
+      "category": "research",
+      "headline": "Beyond Test Scores: Rethinking Academic Achievement In The Age Of Predictive Learning",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/councils/forbestechcouncil/2026/10/22/beyond-test-scores-rethinking-academic-achievement-in-the-age-of-predictive-learning/",
+        "publishedDate": "2026-10-22"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6ad8e02da559fd5ac5a7396e",
+      "category": "models",
+      "headline": "​From Dashboard Builders To Agent Managers: The New Frontier For Data Teams",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/councils/forbestechcouncil/2026/10/22/from-dashboard-builders-to-agent-managers-the-new-frontier-for-data-teams/",
+        "publishedDate": "2026-10-22"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6ad9afacb7c9740673e0c4e9",
+      "category": "models",
+      "headline": "First Look: Land Rover Freelander Is Back But Bigger Than Ever Before",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/sites/jamesmorris/2026/10/22/first-look-land-rover-freelander-is-back-but-bigger-than-ever-before/",
         "publishedDate": "2026-10-22"
       },
       "traceToAnchors": []
@@ -614,50 +658,6 @@
       "source": {
         "name": "The Verge — Artificial Intelligence",
         "url": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web",
-        "publishedDate": "2026-10-17"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6ab3f28dbda6dbbf8ff0168f",
-      "category": "safety-governance",
-      "headline": "Trump Slams Pharma And Insurers, But Rhetoric Outpaces Policy Impact",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/sites/joshuacohen/2026/10/17/trump-slams-pharma-and-insurers-but-rhetoric-outpaces-policy-impact/",
-        "publishedDate": "2026-10-17"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theverge.com/?p=1013409",
-      "category": "research",
-      "headline": "Meta removes language that may have allowed it to scrape news sites",
-      "source": {
-        "name": "The Verge — Artificial Intelligence",
-        "url": "https://www.theverge.com/tech/1013409/meta-removes-language-that-may-have-allowed-it-to-scrape-news-sites",
-        "publishedDate": "2026-10-17"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3178941",
-      "category": "research",
-      "headline": "Meta removes language that raised scraping and AI training concerns",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns/",
-        "publishedDate": "2026-10-17"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3178934",
-      "category": "models",
-      "headline": "Anthropic says its workforce has become less junior and is spending more time in meetings",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings/",
         "publishedDate": "2026-10-17"
       },
       "traceToAnchors": []

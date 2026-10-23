@@ -1,7 +1,18 @@
 {
-  "lastUpdated": "2026-10-22T21:07:28.802Z",
+  "lastUpdated": "2026-10-23T03:03:47.712Z",
   "freshnessState": "fresh",
   "stories": [
+    {
+      "id": "https://techcrunch.com/?p=3181016",
+      "category": "research",
+      "headline": "Left alone with nothing to do, AI agents started playing",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/10/22/left-alone-with-nothing-to-do-ai-agents-started-playing/",
+        "publishedDate": "2026-10-23"
+      },
+      "traceToAnchors": []
+    },
     {
       "id": "content_6ad910ed840caf732877f85b",
       "category": "models",
@@ -196,6 +207,28 @@
       "source": {
         "name": "NVIDIA — Technical Blog",
         "url": "https://developer.nvidia.com/blog/how-to-read-data-into-gpu-memory-in-python-with-nvidia-gpudirect-storage/",
+        "publishedDate": "2026-10-22"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3180936",
+      "category": "ai-lifecycle",
+      "headline": "OpenAI working on new $30B raise at $1.25T valuation ahead of IPO",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/",
+        "publishedDate": "2026-10-22"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://huggingface.co/blog/microsoft/thinkingbox-training",
+      "category": "ai-lifecycle",
+      "headline": "Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox",
+      "source": {
+        "name": "Hugging Face — Blog",
+        "url": "https://huggingface.co/blog/microsoft/thinkingbox-training",
         "publishedDate": "2026-10-22"
       },
       "traceToAnchors": []
@@ -625,39 +658,6 @@
       "source": {
         "name": "Forbes — Innovation",
         "url": "https://www.forbes.com/sites/ewanspence/2026/10/18/pixel-11-pro-long-term-experience-display-hilight-battery-camera-gemini-ai/",
-        "publishedDate": "2026-10-19"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6ad13e0a43b3bab85c56ee6e",
-      "category": "ai-lifecycle",
-      "headline": "​The Agentic Era Needs A Different Kind Of Memory",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/councils/forbestechcouncil/2026/10/19/the-agentic-era-needs-a-different-kind-of-memory/",
-        "publishedDate": "2026-10-19"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6ad121fa43b3bab85c56ee5b",
-      "category": "research",
-      "headline": "AI Data Center Efficiency: Looking Beyond Power Usage Effectiveness",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/councils/forbestechcouncil/2026/10/19/ai-data-center-efficiency-looking-beyond-power-usage-effectiveness/",
-        "publishedDate": "2026-10-19"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3177977",
-      "category": "models",
-      "headline": "Nvidia launches new open models to run agents in the enterprise and on PCs",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/10/19/nvidia-launches-new-open-models-to-run-agents-in-the-enterprise-and-on-pcs/",
         "publishedDate": "2026-10-19"
       },
       "traceToAnchors": []

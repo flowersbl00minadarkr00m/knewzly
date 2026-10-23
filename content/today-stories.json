@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-23T16:19:27.978Z",
+  "lastUpdated": "2026-10-23T20:54:19.184Z",
   "freshnessState": "fresh",
   "stories": [
     {
@@ -64,6 +64,50 @@
       "source": {
         "name": "Forbes — Innovation",
         "url": "https://www.forbes.com/councils/forbestechcouncil/2026/10/23/who-will-your-ai-agent-work-for-when-everyone-wants-the-sale/",
+        "publishedDate": "2026-10-23"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
+      "category": "research",
+      "headline": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
+      "source": {
+        "name": "OpenAI — News",
+        "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
+        "publishedDate": "2026-10-23"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6adba50e8476997c34aad7ac",
+      "category": "models",
+      "headline": "Meta's Muse Could Transform Its AI Business. But Can It Make Money?",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/sites/chuckbrooks/2026/10/23/meta-muse-ai-business-model-profitability/",
+        "publishedDate": "2026-10-23"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://developer.nvidia.com/blog/?p=124139",
+      "category": "ai-lifecycle",
+      "headline": "Scaling NVIDIA TensorRT Performance Optimization Beyond a Single Build Route with the Global Performance Tuner, Part 2",
+      "source": {
+        "name": "NVIDIA — Technical Blog",
+        "url": "https://developer.nvidia.com/blog/scaling-nvidia-tensorrt-performance-optimization-beyond-a-single-build-route-with-the-global-performance-tuner-part-2/",
+        "publishedDate": "2026-10-23"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://developer.nvidia.com/blog/?p=124071",
+      "category": "ai-lifecycle",
+      "headline": "Scaling NVIDIA TensorRT Performance Optimization Beyond a Single Build Route with the Global Performance Tuner, Part 1",
+      "source": {
+        "name": "NVIDIA — Technical Blog",
+        "url": "https://developer.nvidia.com/blog/scaling-nvidia-tensorrt-performance-optimization-beyond-a-single-build-route-with-the-global-performance-tuner-part-1/",
         "publishedDate": "2026-10-23"
       },
       "traceToAnchors": []
@@ -614,50 +658,6 @@
       "source": {
         "name": "TechCrunch — Artificial Intelligence",
         "url": "https://techcrunch.com/2026/10/20/metas-muse-hits-10m-u-s-downloads-in-40-days-a-milestone-reached-by-only-11-other-apps/",
-        "publishedDate": "2026-10-20"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3179291",
-      "category": "research",
-      "headline": "Plants can speak using electricity, so this startup built an AI model to decipher their language",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/10/20/plants-can-speak-using-electricity-so-this-startup-built-an-ai-model-to-decipher-their-language/",
-        "publishedDate": "2026-10-20"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theverge.com/?p=1014627",
-      "category": "models",
-      "headline": "Meta pauses Muse sharing after researchers find AI chats on the web",
-      "source": {
-        "name": "The Verge — Artificial Intelligence",
-        "url": "https://www.theverge.com/tech/1014627/meta-muse-ai-sharing-ai-chats",
-        "publishedDate": "2026-10-20"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6ad7ca4ba7c97a4a94feb858",
-      "category": "research",
-      "headline": "Generative AI Gets Shaken Up By Next-Concept Modeling That Produces Concepts First And Words Second",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/sites/lanceeliot/2026/10/20/generative-ai-gets-shaken-up-by-next-concept-modeling-that-produces-concepts-first-and-words-second/",
-        "publishedDate": "2026-10-20"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6ad7c34f63a9c49ee0ac5c40",
-      "category": "research",
-      "headline": "Garmin Forerunner Watch Accuracy Issue Highlighted In Study",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/sites/andrewwilliams/2026/10/20/garmin-forerunner-watch-accuracy-issue-highlighted-in-study/",
         "publishedDate": "2026-10-20"
       },
       "traceToAnchors": []

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-23T10:54:36.440Z",
+  "lastUpdated": "2026-10-23T16:19:27.978Z",
   "freshnessState": "fresh",
   "stories": [
     {
@@ -20,6 +20,50 @@
       "source": {
         "name": "OpenAI — News",
         "url": "https://openai.com/index/openai-nask-ai-safety-security-partnership",
+        "publishedDate": "2026-10-23"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theverge.com/?p=1017450",
+      "category": "models",
+      "headline": "Meta delays new business terms after publisher pushback on AI scraping",
+      "source": {
+        "name": "The Verge — Artificial Intelligence",
+        "url": "https://www.theverge.com/tech/1017450/meta-business-terms-delayed-ai-scraping",
+        "publishedDate": "2026-10-23"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://tldr.tech/ai/2026-10-23",
+      "category": "models",
+      "headline": "OpenAI nears $1.25T 💰,  ☁️, 1Password for Agents 🔑, Gemini 3.5 Pro postmortem 🤖",
+      "source": {
+        "name": "TLDR AI",
+        "url": "https://tldr.tech/ai/2026-10-23",
+        "publishedDate": "2026-10-23"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6ada6e16a84572be3ac41cb7",
+      "category": "models",
+      "headline": "AI Cyber Defense Now Has To Move At Machine Speed",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/sites/heatherwishartsmith/2026/10/23/ai-cyber-defense-now-has-to-move-at-machine-speed/",
+        "publishedDate": "2026-10-23"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6ada781bc476547eb0b35823",
+      "category": "ai-lifecycle",
+      "headline": "Who Will Your AI Agent Work For When Everyone Wants The Sale?",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/councils/forbestechcouncil/2026/10/23/who-will-your-ai-agent-work-for-when-everyone-wants-the-sale/",
         "publishedDate": "2026-10-23"
       },
       "traceToAnchors": []
@@ -614,50 +658,6 @@
       "source": {
         "name": "Forbes — Innovation",
         "url": "https://www.forbes.com/sites/andrewwilliams/2026/10/20/garmin-forerunner-watch-accuracy-issue-highlighted-in-study/",
-        "publishedDate": "2026-10-20"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3179755",
-      "category": "safety-governance",
-      "headline": "Anthropic pitches AI safety bill that may block a model if 50+ people could be killed",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/10/20/anthropic-pitches-ai-safety-bill-that-may-block-a-model-if-50-people-could-be-killed/",
-        "publishedDate": "2026-10-20"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3179822",
-      "category": "safety-governance",
-      "headline": "Hugging Face CEO warns that Netflix&#8217;s OpenAI hack documentary isn&#8217;t accurate",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/10/20/hugging-face-ceo-warns-that-netflixs-openai-hack-documentary-isnt-accurate/",
-        "publishedDate": "2026-10-20"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theverge.com/?p=1014999",
-      "category": "models",
-      "headline": "Google’s more personalized Gemini AI is heading to your car",
-      "source": {
-        "name": "The Verge — Artificial Intelligence",
-        "url": "https://www.theverge.com/tech/1014999/google-gemini-ai-cars-android-auto",
-        "publishedDate": "2026-10-20"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6ad6823643b3bab85c56ef91",
-      "category": "research",
-      "headline": "Data Sovereignty Should Be Recognized Inside Enterprise Walls, Too",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/sites/joemckendrick/2026/10/20/data-sovereignty-should-be-recognized-inside-enterprise-walls-too/",
         "publishedDate": "2026-10-20"
       },
       "traceToAnchors": []

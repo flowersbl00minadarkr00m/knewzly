@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-23T03:03:47.712Z",
+  "lastUpdated": "2026-10-23T10:54:36.440Z",
   "freshnessState": "fresh",
   "stories": [
     {
@@ -9,6 +9,17 @@
       "source": {
         "name": "TechCrunch — Artificial Intelligence",
         "url": "https://techcrunch.com/2026/10/22/left-alone-with-nothing-to-do-ai-agents-started-playing/",
+        "publishedDate": "2026-10-23"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://openai.com/index/openai-nask-ai-safety-security-partnership",
+      "category": "safety-governance",
+      "headline": "OpenAI and Poland’s NASK partner to advance AI safety and security",
+      "source": {
+        "name": "OpenAI — News",
+        "url": "https://openai.com/index/openai-nask-ai-safety-security-partnership",
         "publishedDate": "2026-10-23"
       },
       "traceToAnchors": []
@@ -648,17 +659,6 @@
         "name": "Forbes — Innovation",
         "url": "https://www.forbes.com/sites/joemckendrick/2026/10/20/data-sovereignty-should-be-recognized-inside-enterprise-walls-too/",
         "publishedDate": "2026-10-20"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6ad52bc243b3bab85c56ef33",
-      "category": "ai-lifecycle",
-      "headline": "Pixel 11 Pro: Why Agentic AI Can’t Hide Modest Hardware Upgrades",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/sites/ewanspence/2026/10/18/pixel-11-pro-long-term-experience-display-hilight-battery-camera-gemini-ai/",
-        "publishedDate": "2026-10-19"
       },
       "traceToAnchors": []
     }

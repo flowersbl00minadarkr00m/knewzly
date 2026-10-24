@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-23T20:54:19.184Z",
+  "lastUpdated": "2026-10-24T02:59:45.918Z",
   "freshnessState": "fresh",
   "stories": [
     {
@@ -108,6 +108,28 @@
       "source": {
         "name": "NVIDIA — Technical Blog",
         "url": "https://developer.nvidia.com/blog/scaling-nvidia-tensorrt-performance-optimization-beyond-a-single-build-route-with-the-global-performance-tuner-part-1/",
+        "publishedDate": "2026-10-23"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3181396",
+      "category": "safety-governance",
+      "headline": "OpenAI says it will no longer train its AI models on the live internet, citing “significant risks”",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/",
+        "publishedDate": "2026-10-23"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6adbe0b56e70bbcfffd2a11d",
+      "category": "compute-energy",
+      "headline": "2016 OCP Storage And Memory Data Center Developments",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/sites/tomcoughlin/2026/10/23/2016-ocp-storage-and-memory-data-center-developments/",
         "publishedDate": "2026-10-23"
       },
       "traceToAnchors": []
@@ -636,28 +658,6 @@
       "source": {
         "name": "Hugging Face — Blog",
         "url": "https://huggingface.co/blog/anylanguagemodel-1-0",
-        "publishedDate": "2026-10-20"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://openai.com/index/ted-taylor-restaurant",
-      "category": "ai-lifecycle",
-      "headline": "Franchisee reconciles cash in 94% less time with ChatGPT Work",
-      "source": {
-        "name": "OpenAI — News",
-        "url": "https://openai.com/index/ted-taylor-restaurant",
-        "publishedDate": "2026-10-20"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3179696",
-      "category": "ai-lifecycle",
-      "headline": "Meta&#8217;s Muse hits 10M U.S. downloads in 40 days, a milestone reached by only 11 other apps",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/10/20/metas-muse-hits-10m-u-s-downloads-in-40-days-a-milestone-reached-by-only-11-other-apps/",
         "publishedDate": "2026-10-20"
       },
       "traceToAnchors": []

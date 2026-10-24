@@ -1,7 +1,18 @@
 {
-  "lastUpdated": "2026-10-24T10:08:54.790Z",
+  "lastUpdated": "2026-10-24T15:16:30.604Z",
   "freshnessState": "fresh",
   "stories": [
+    {
+      "id": "content_6adcbb8327a6f644c4c463ad",
+      "category": "models",
+      "headline": "MyMonthlyCar Looks To Help Dealers Turn Idle Used Cars To Cash",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/sites/edgarsten/2026/10/24/mymonthlycar-looks-to-help-dealers-turn-idle-used-cars-to-cash/",
+        "publishedDate": "2026-10-24"
+      },
+      "traceToAnchors": []
+    },
     {
       "id": "https://techcrunch.com/?p=3181016",
       "category": "research",
@@ -647,17 +658,6 @@
       "source": {
         "name": "Hugging Face — Blog",
         "url": "https://huggingface.co/blog/hf-torchtpu",
-        "publishedDate": "2026-10-20"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://huggingface.co/blog/anylanguagemodel-1-0",
-      "category": "models",
-      "headline": "AnyLanguageModel 1.0: One Year of Local Models on Apple Platforms",
-      "source": {
-        "name": "Hugging Face — Blog",
-        "url": "https://huggingface.co/blog/anylanguagemodel-1-0",
         "publishedDate": "2026-10-20"
       },
       "traceToAnchors": []

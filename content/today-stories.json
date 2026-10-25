@@ -1,7 +1,29 @@
 {
-  "lastUpdated": "2026-10-25T02:53:41.709Z",
+  "lastUpdated": "2026-10-25T10:34:47.091Z",
   "freshnessState": "fresh",
   "stories": [
+    {
+      "id": "6adaac0658fe17d926e679bc",
+      "category": "compute-energy",
+      "headline": "What the US Movement Against Data Centers Can Learn From Abroad",
+      "source": {
+        "name": "Wired — Artificial Intelligence",
+        "url": "https://www.wired.com/story/what-the-us-anti-data-center-movement-can-learn-from-everywhere-else/",
+        "publishedDate": "2026-10-25"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6add65fbb948ce390ae2921a",
+      "category": "models",
+      "headline": "EA Sports Fight Night’s Comeback Cover Has Room For More Than 1 Fighter",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/sites/brianmazique/2026/10/24/ea-sports-fight-nights-comeback-cover-has-room-for-more-than-1-fighter/",
+        "publishedDate": "2026-10-25"
+      },
+      "traceToAnchors": []
+    },
     {
       "id": "content_6adcbb8327a6f644c4c463ad",
       "category": "models",
@@ -637,28 +659,6 @@
         "name": "Forbes — Innovation",
         "url": "https://www.forbes.com/sites/delltechnologies/2026/10/21/optimizing-ai-workloads-build-for-the-workload-not-the-hype/",
         "publishedDate": "2026-10-21"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3179571",
-      "category": "models",
-      "headline": "US orders federal agencies to remove China’s DeepSeek AI from their systems",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/10/20/us-orders-federal-agencies-to-remove-chinas-deepseek-ai-from-their-systems/",
-        "publishedDate": "2026-10-20"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://huggingface.co/blog/allenai/fairstress",
-      "category": "ai-lifecycle",
-      "headline": "FairStress: A deeper evaluation of fairness in LLM decision-making",
-      "source": {
-        "name": "Hugging Face — Blog",
-        "url": "https://huggingface.co/blog/allenai/fairstress",
-        "publishedDate": "2026-10-20"
       },
       "traceToAnchors": []
     }

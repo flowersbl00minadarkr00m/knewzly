@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-24T20:05:53.062Z",
+  "lastUpdated": "2026-10-25T02:53:41.709Z",
   "freshnessState": "fresh",
   "stories": [
     {
@@ -9,6 +9,17 @@
       "source": {
         "name": "Forbes — Innovation",
         "url": "https://www.forbes.com/sites/edgarsten/2026/10/24/mymonthlycar-looks-to-help-dealers-turn-idle-used-cars-to-cash/",
+        "publishedDate": "2026-10-24"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6adb935e02dfd1eca85d09d1",
+      "category": "models",
+      "headline": "What To Watch This Weekend: New Shows And Movies To Stream On Netflix, Hulu, Prime Video, Apple TV And More",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/sites/erikkain/2026/10/24/what-to-watch-this-weekend-new-shows-and-movies-to-stream-on-netflix-hulu-prime-video-apple-tv-and-more/",
         "publishedDate": "2026-10-24"
       },
       "traceToAnchors": []
@@ -647,17 +658,6 @@
       "source": {
         "name": "Hugging Face — Blog",
         "url": "https://huggingface.co/blog/allenai/fairstress",
-        "publishedDate": "2026-10-20"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://huggingface.co/blog/hf-torchtpu",
-      "category": "safety-governance",
-      "headline": "Hugging Face ❤️ TorchTPU: TPUs, Natively",
-      "source": {
-        "name": "Hugging Face — Blog",
-        "url": "https://huggingface.co/blog/hf-torchtpu",
         "publishedDate": "2026-10-20"
       },
       "traceToAnchors": []

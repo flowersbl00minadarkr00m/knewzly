@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-25T10:34:47.091Z",
+  "lastUpdated": "2026-10-25T15:26:25.623Z",
   "freshnessState": "fresh",
   "stories": [
     {
@@ -20,6 +20,39 @@
       "source": {
         "name": "Forbes — Innovation",
         "url": "https://www.forbes.com/sites/brianmazique/2026/10/24/ea-sports-fight-nights-comeback-cover-has-room-for-more-than-1-fighter/",
+        "publishedDate": "2026-10-25"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theverge.com/?p=1018217",
+      "category": "research",
+      "headline": "r/opensource just banned AI, non-English speakers, and more",
+      "source": {
+        "name": "The Verge — Artificial Intelligence",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1018217/reddit-opensource-ai-ban",
+        "publishedDate": "2026-10-25"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6add036227a6f644c4c463b4",
+      "category": "models",
+      "headline": "AI Agents Are Splitting The Customer Relationship Into Pieces",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/sites/stephenwunker/2026/10/25/ai-agents-are-splitting-the-customer-relationship-into-pieces/",
+        "publishedDate": "2026-10-25"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6addec4ecb4dfa20c5c4c8be",
+      "category": "models",
+      "headline": "Google Backtracks On Free AI Plan Limits For Unnamed Premium Devices",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/sites/paulmonckton/2026/10/25/google-ai-pro-argon-antigravity-pixel-plan/",
         "publishedDate": "2026-10-25"
       },
       "traceToAnchors": []
@@ -625,39 +658,6 @@
       "source": {
         "name": "TechCrunch — Artificial Intelligence",
         "url": "https://techcrunch.com/2026/10/21/meta-says-muse-has-over-10m-users-with-shopping-a-top-activity/",
-        "publishedDate": "2026-10-21"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theverge.com/?p=1015958",
-      "category": "research",
-      "headline": "Data centers could erase decades of air quality gains",
-      "source": {
-        "name": "The Verge — Artificial Intelligence",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/1015958/data-center-pollution-rising-report",
-        "publishedDate": "2026-10-21"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6ad9388819bf17d7c4065c42",
-      "category": "models",
-      "headline": "Why Enterprise AI Agents Require More Than A Technology Strategy",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/sites/davidchou/2026/10/21/why-enterprise-ai-agents-require-more-than-a-technology-strategy/",
-        "publishedDate": "2026-10-21"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6ad91bdeb7c9740673e0c4d6",
-      "category": "ai-lifecycle",
-      "headline": "Optimizing AI Workloads: Build For The Workload, Not The Hype",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/sites/delltechnologies/2026/10/21/optimizing-ai-workloads-build-for-the-workload-not-the-hype/",
         "publishedDate": "2026-10-21"
       },
       "traceToAnchors": []

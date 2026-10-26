@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-26T12:07:44.606Z",
+  "lastUpdated": "2026-10-26T22:12:27.691Z",
   "freshnessState": "fresh",
   "stories": [
     {
@@ -9,6 +9,83 @@
       "source": {
         "name": "Wired — Artificial Intelligence",
         "url": "https://www.wired.com/story/ai-agents-are-trying-to-be-journalists-now/",
+        "publishedDate": "2026-10-26"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security",
+      "category": "models",
+      "headline": "GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases",
+      "source": {
+        "name": "OpenAI — News",
+        "url": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security",
+        "publishedDate": "2026-10-26"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://openai.com/index/chatgpt-expanding-world-of-work",
+      "category": "ai-lifecycle",
+      "headline": "ChatGPT’s expanding world of work",
+      "source": {
+        "name": "OpenAI — News",
+        "url": "https://openai.com/index/chatgpt-expanding-world-of-work",
+        "publishedDate": "2026-10-26"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://openai.com/index/introducing-gpt-6-1-terra",
+      "category": "models",
+      "headline": "Introducing GPT-6.1 Terra",
+      "source": {
+        "name": "OpenAI — News",
+        "url": "https://openai.com/index/introducing-gpt-6-1-terra",
+        "publishedDate": "2026-10-26"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3181689",
+      "category": "models",
+      "headline": "Anthropic’s IPO filing reveals its strategy for keeping enterprise customers hooked",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/10/26/anthropics-ipo-filing-reveals-its-strategy-for-keeping-enterprise-customers-hooked/",
+        "publishedDate": "2026-10-26"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theverge.com/?p=1018713",
+      "category": "research",
+      "headline": "The RealReal won’t let AI agents hog designer clothing",
+      "source": {
+        "name": "The Verge — Artificial Intelligence",
+        "url": "https://www.theverge.com/news/1018713/meta-muse-agentic-shopping-ai-the-realreal",
+        "publishedDate": "2026-10-26"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6adfb8bc79e506da0b296c2f",
+      "category": "compute-energy",
+      "headline": "Inside Anthropic’s $1 Trillion Spending Plan On Data Centers, AI Chips",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/sites/giacomotognini/2026/10/26/anthropics-ipo-filing-reveals-the-scale-of-its-ai-infrastructure-spending/",
+        "publishedDate": "2026-10-26"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://developer.nvidia.com/blog/?p=123987",
+      "category": "compute-energy",
+      "headline": "How NVIDIA Minerva Turns Telemetry Chaos Into Peak GPU Yield",
+      "source": {
+        "name": "NVIDIA — Technical Blog",
+        "url": "https://developer.nvidia.com/blog/how-nvidia-minerva-turns-telemetry-chaos-into-peak-gpu-yield/",
         "publishedDate": "2026-10-26"
       },
       "traceToAnchors": []
@@ -581,83 +658,6 @@
       "source": {
         "name": "Hugging Face — Blog",
         "url": "https://huggingface.co/blog/ibm-granite/granite-speech-5",
-        "publishedDate": "2026-10-21"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://developer.nvidia.com/blog/?p=123747",
-      "category": "ai-lifecycle",
-      "headline": "Design Proteins with RFD4-Proteina Using Reward-Guided Inference-Time Search",
-      "source": {
-        "name": "NVIDIA — Technical Blog",
-        "url": "https://developer.nvidia.com/blog/design-proteins-with-rfd4-proteina-using-reward-guided-inference-time-search/",
-        "publishedDate": "2026-10-21"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://openai.com/index/att-legal",
-      "category": "ai-lifecycle",
-      "headline": "How AT&T is rethinking in-house legal work with OpenAI",
-      "source": {
-        "name": "OpenAI — News",
-        "url": "https://openai.com/index/att-legal",
-        "publishedDate": "2026-10-21"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3180139",
-      "category": "safety-governance",
-      "headline": "While Amazon blocks AI agents, Walmart rolls out the welcome mat",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/10/21/while-amazon-blocks-ai-agents-walmart-rolls-out-the-welcome-mat/",
-        "publishedDate": "2026-10-21"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theverge.com/?p=1015843",
-      "category": "models",
-      "headline": "Anthropic takes on Muse with Claude Duet, its new AI agent",
-      "source": {
-        "name": "The Verge — Artificial Intelligence",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/1015843/anthropic-claude-duet-ai-agent",
-        "publishedDate": "2026-10-21"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theverge.com/?p=1015281",
-      "category": "models",
-      "headline": "Conversational Gemini navigation comes to Apple CarPlay",
-      "source": {
-        "name": "The Verge — Artificial Intelligence",
-        "url": "https://www.theverge.com/transportation/1015281/gemini-ai-apple-carplay-voice-google-maps",
-        "publishedDate": "2026-10-21"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theverge.com/?p=1015316",
-      "category": "safety-governance",
-      "headline": "OpenAI says an AI agent lied about disabling its safety monitoring system",
-      "source": {
-        "name": "The Verge — Artificial Intelligence",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/1015316/openai-ai-agent-disabling-monitoring-systems",
-        "publishedDate": "2026-10-21"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://huggingface.co/blog/nvidia/kumo-relational",
-      "category": "research",
-      "headline": "NVIDIA Kumo Relational Outperforms Supervised Machine Learning on Relational Data, No Training Required",
-      "source": {
-        "name": "Hugging Face — Blog",
-        "url": "https://huggingface.co/blog/nvidia/kumo-relational",
         "publishedDate": "2026-10-21"
       },
       "traceToAnchors": []

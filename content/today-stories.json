@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-26T22:12:27.691Z",
+  "lastUpdated": "2026-10-27T03:25:26.849Z",
   "freshnessState": "fresh",
   "stories": [
     {
@@ -86,6 +86,17 @@
       "source": {
         "name": "NVIDIA — Technical Blog",
         "url": "https://developer.nvidia.com/blog/how-nvidia-minerva-turns-telemetry-chaos-into-peak-gpu-yield/",
+        "publishedDate": "2026-10-26"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6adfce300772bffdb9c563f6",
+      "category": "models",
+      "headline": "Meta’s Muse And The ‘Cutification’ Of AI Agents",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/sites/kianbakhtiari/2026/10/26/metas-muse-and-the-cutification-of-ai-agents/",
         "publishedDate": "2026-10-26"
       },
       "traceToAnchors": []
@@ -647,17 +658,6 @@
       "source": {
         "name": "TLDR AI",
         "url": "https://tldr.tech/ai/2026-10-21",
-        "publishedDate": "2026-10-21"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://huggingface.co/blog/ibm-granite/granite-speech-5",
-      "category": "models",
-      "headline": "Granite Speech 5.0: Transcribe, Translate, and Attribute more Accurately and Faster",
-      "source": {
-        "name": "Hugging Face — Blog",
-        "url": "https://huggingface.co/blog/ibm-granite/granite-speech-5",
         "publishedDate": "2026-10-21"
       },
       "traceToAnchors": []

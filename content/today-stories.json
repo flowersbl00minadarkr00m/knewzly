@@ -1,7 +1,29 @@
 {
-  "lastUpdated": "2026-10-27T03:25:26.849Z",
+  "lastUpdated": "2026-10-27T11:29:11.485Z",
   "freshnessState": "fresh",
   "stories": [
+    {
+      "id": "content_6adf82bdb948ce390ae29248",
+      "category": "research",
+      "headline": "Physical AI Is Coming: When AI Stops Generating Content And Starts Acting On The World",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/councils/forbestechcouncil/2026/10/27/physical-ai-is-coming-when-ai-stops-generating-content-and-starts-acting-on-the-world/",
+        "publishedDate": "2026-10-27"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6adf7e7c1fcdf972e37359da",
+      "category": "safety-governance",
+      "headline": "Why AI Oversight Should Reach Beyond The Model",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/councils/forbestechcouncil/2026/10/27/why-ai-oversight-should-reach-beyond-the-model/",
+        "publishedDate": "2026-10-27"
+      },
+      "traceToAnchors": []
+    },
     {
       "id": "6ada485dbf3ea47f4d281be1",
       "category": "models",
@@ -636,28 +658,6 @@
       "source": {
         "name": "OpenAI — News",
         "url": "https://openai.com/index/scaling-ai-research-for-complex-biological-data",
-        "publishedDate": "2026-10-21"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "6ad7d96421d5362b857b93a4",
-      "category": "models",
-      "headline": "A Design Flaw in Share Links Exposes Users’ Personal Conversations With Meta’s Muse",
-      "source": {
-        "name": "Wired — Artificial Intelligence",
-        "url": "https://www.wired.com/story/a-design-flaw-in-share-links-exposes-users-personal-conversations-with-meta-muse/",
-        "publishedDate": "2026-10-21"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://tldr.tech/ai/2026-10-21",
-      "category": "models",
-      "headline": "DeepSeek DeepInfer 🐋, PyTorch on TPUs ⚡, Ramp’s agent framework 👨‍💻",
-      "source": {
-        "name": "TLDR AI",
-        "url": "https://tldr.tech/ai/2026-10-21",
         "publishedDate": "2026-10-21"
       },
       "traceToAnchors": []

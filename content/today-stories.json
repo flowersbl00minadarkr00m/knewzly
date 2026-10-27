@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-27T11:29:11.485Z",
+  "lastUpdated": "2026-10-27T17:18:31.607Z",
   "freshnessState": "fresh",
   "stories": [
     {
@@ -20,6 +20,116 @@
       "source": {
         "name": "Forbes — Innovation",
         "url": "https://www.forbes.com/councils/forbestechcouncil/2026/10/27/why-ai-oversight-should-reach-beyond-the-model/",
+        "publishedDate": "2026-10-27"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.technologyreview.com/?p=1147142",
+      "category": "research",
+      "headline": "Industrial Intelligence: The next growth opportunity for manufacturing",
+      "source": {
+        "name": "MIT Technology Review — Artificial Intelligence",
+        "url": "https://www.technologyreview.com/2026/10/27/1147142/industrial-intelligence-the-next-growth-opportunity-for-manufacturing/",
+        "publishedDate": "2026-10-27"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://openai.com/index/oracle-apps-in-chatgpt",
+      "category": "ai-lifecycle",
+      "headline": "OpenAI expands partnership with Oracle to bring its apps to ChatGPT",
+      "source": {
+        "name": "OpenAI — News",
+        "url": "https://openai.com/index/oracle-apps-in-chatgpt",
+        "publishedDate": "2026-10-27"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3182045",
+      "category": "models",
+      "headline": "Google’s Genie 4 world model adds audio, more realistic worlds, and real-time steering",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/10/27/googles-genie-4-world-model-adds-audio-more-realistic-worlds-and-real-time-steering/",
+        "publishedDate": "2026-10-27"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3182018",
+      "category": "ai-lifecycle",
+      "headline": "Meta AI director Rohit Patel leaves to take on Microsoft Office and Google Workspace",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/10/27/meta-ai-director-rohit-patel-leaves-to-take-on-microsoft-office-and-google-workspace/",
+        "publishedDate": "2026-10-27"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3181625",
+      "category": "models",
+      "headline": "Nvidia backs Indian startup helping companies run AI models with fewer GPUs",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/10/27/nvidia-backs-indian-startup-helping-companies-run-ai-models-with-fewer-gpus/",
+        "publishedDate": "2026-10-27"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theverge.com/?p=1019076",
+      "category": "models",
+      "headline": "Google’s next Genie AI model generates more realistic experiences",
+      "source": {
+        "name": "The Verge — Artificial Intelligence",
+        "url": "https://www.theverge.com/tech/1019076/google-genie-4-ai-model",
+        "publishedDate": "2026-10-27"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "6ad9cfffb974411ce94e5e2c",
+      "category": "safety-governance",
+      "headline": "UK Home Office May Face Investigation Over Use of OpenAI Tech",
+      "source": {
+        "name": "Wired — Artificial Intelligence",
+        "url": "https://www.wired.com/story/uk-home-office-may-face-investigation-over-use-of-openai-tools/",
+        "publishedDate": "2026-10-27"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://tldr.tech/ai/2026-10-27",
+      "category": "models",
+      "headline": "GPT-6.1 Terra ⚡, Anthropic IPO filing 📈, agent native git 👨‍💻",
+      "source": {
+        "name": "TLDR AI",
+        "url": "https://tldr.tech/ai/2026-10-27",
+        "publishedDate": "2026-10-27"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://developer.nvidia.com/blog/?p=124229",
+      "category": "ai-lifecycle",
+      "headline": "Fine-Tuning NVIDIA Nemotron to Know Local Rules, Not Just Local Languages",
+      "source": {
+        "name": "NVIDIA — Technical Blog",
+        "url": "https://developer.nvidia.com/blog/fine-tuning-nvidia-nemotron-to-know-local-rules-not-just-local-languages/",
+        "publishedDate": "2026-10-27"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://developer.nvidia.com/blog/?p=124221",
+      "category": "ai-lifecycle",
+      "headline": "3 Ways to Boost MoE Inference on NVIDIA DGX Spark",
+      "source": {
+        "name": "NVIDIA — Technical Blog",
+        "url": "https://developer.nvidia.com/blog/3-ways-to-boost-moe-inference-on-nvidia-dgx-spark/",
         "publishedDate": "2026-10-27"
       },
       "traceToAnchors": []
@@ -549,116 +659,6 @@
         "name": "Hugging Face — Blog",
         "url": "https://huggingface.co/blog/microsoft/thinkingbox-training",
         "publishedDate": "2026-10-22"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "6ad79c45a4cc6513f80c0b82",
-      "category": "compute-energy",
-      "headline": "Europe Wants Data Centers. Its Climate Goals Are Getting in the Way",
-      "source": {
-        "name": "Wired — Artificial Intelligence",
-        "url": "https://www.wired.com/story/europe-data-centers-climate-change/",
-        "publishedDate": "2026-10-21"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theneurondaily.com/p/meta-s-muse-made-shared-chats-searchable",
-      "category": "models",
-      "headline": "😺 Meta’s Muse made shared chats searchable",
-      "source": {
-        "name": "The Neuron",
-        "url": "https://www.theneurondaily.com/p/meta-s-muse-made-shared-chats-searchable",
-        "publishedDate": "2026-10-21"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6ad85568a5f459ded99390fb",
-      "category": "compute-energy",
-      "headline": "Nvidia Backs $164.5 Billion Of AI Data Centers To Keep GPUs Selling",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/sites/janakirammsv/2026/10/21/nvidia-backs-1645-billion-of-ai-data-centers-to-keep-gpus-selling/",
-        "publishedDate": "2026-10-21"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://developer.nvidia.com/blog/?p=123898",
-      "category": "ai-lifecycle",
-      "headline": "Inside NVIDIA Sentry: Secure AI Agents at Runtime",
-      "source": {
-        "name": "NVIDIA — Technical Blog",
-        "url": "https://developer.nvidia.com/blog/inside-nvidia-sentry-secure-ai-agents-at-runtime/",
-        "publishedDate": "2026-10-21"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://developer.nvidia.com/blog/?p=123932",
-      "category": "ai-lifecycle",
-      "headline": "How NVIDIA OpenShell Reference Architecture Secures and Governs AI Agent Workloads at Scale",
-      "source": {
-        "name": "NVIDIA — Technical Blog",
-        "url": "https://developer.nvidia.com/blog/how-nvidia-openshell-reference-architecture-secures-and-governs-ai-agent-workloads-at-scale/",
-        "publishedDate": "2026-10-21"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://developer.nvidia.com/blog/?p=123879",
-      "category": "models",
-      "headline": "Developing an AI Factory Digital Twin with an Agent-Assisted Workflow",
-      "source": {
-        "name": "NVIDIA — Technical Blog",
-        "url": "https://developer.nvidia.com/blog/developing-an-ai-factory-digital-twin-with-an-agent-assisted-workflow/",
-        "publishedDate": "2026-10-21"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://developer.nvidia.com/blog/?p=123892",
-      "category": "models",
-      "headline": "Achieve Productive AI Capacity Faster and More Predictably with NVIDIA DSX POD",
-      "source": {
-        "name": "NVIDIA — Technical Blog",
-        "url": "https://developer.nvidia.com/blog/achieve-productive-ai-capacity-faster-and-more-predictably-with-nvidia-dsx-pod/",
-        "publishedDate": "2026-10-21"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://openai.com/index/openai-models-google-cloud",
-      "category": "models",
-      "headline": "OpenAI models are coming to Google Cloud",
-      "source": {
-        "name": "OpenAI — News",
-        "url": "https://openai.com/index/openai-models-google-cloud",
-        "publishedDate": "2026-10-21"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities",
-      "category": "safety-governance",
-      "headline": "Patch the Planet: global response coordination as agents uncover critical vulnerabilities",
-      "source": {
-        "name": "OpenAI — News",
-        "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities",
-        "publishedDate": "2026-10-21"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://openai.com/index/scaling-ai-research-for-complex-biological-data",
-      "category": "research",
-      "headline": "Using thousands of AI agents to uncover new leads in biological data",
-      "source": {
-        "name": "OpenAI — News",
-        "url": "https://openai.com/index/scaling-ai-research-for-complex-biological-data",
-        "publishedDate": "2026-10-21"
       },
       "traceToAnchors": []
     }

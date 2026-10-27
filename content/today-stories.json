@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-27T17:18:31.607Z",
+  "lastUpdated": "2026-10-27T21:43:57.922Z",
   "freshnessState": "fresh",
   "stories": [
     {
@@ -130,6 +130,50 @@
       "source": {
         "name": "NVIDIA — Technical Blog",
         "url": "https://developer.nvidia.com/blog/3-ways-to-boost-moe-inference-on-nvidia-dgx-spark/",
+        "publishedDate": "2026-10-27"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theverge.com/?p=1019921",
+      "category": "research",
+      "headline": "Researchers are getting tired of OpenAI gatekeeping its breakthroughs",
+      "source": {
+        "name": "The Verge — Artificial Intelligence",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1019921/openai-breakthrough-math-computer-science-physics",
+        "publishedDate": "2026-10-27"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6ae0de0060ce0d793bd2569c",
+      "category": "safety-governance",
+      "headline": "AI Agents Need Human Accountability, Not More Oversight",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/councils/forbestechcouncil/2026/10/27/ai-agents-need-human-accountability-not-more-oversight/",
+        "publishedDate": "2026-10-27"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6ae0d768c432b7c03fffe9cb",
+      "category": "models",
+      "headline": "This $600 Million Startup Is Helping Keep Company Secrets Away From AI Agents",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/sites/rashishrivastava/2026/10/27/this-600-million-startup-is-helping-keep-company-secrets-away-from-ai-agents/",
+        "publishedDate": "2026-10-27"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://developer.nvidia.com/blog/?p=124247",
+      "category": "compute-energy",
+      "headline": "Memory-Enforced GPU Sharing in Kubernetes with NVIDIA CUDA 13.4",
+      "source": {
+        "name": "NVIDIA — Technical Blog",
+        "url": "https://developer.nvidia.com/blog/memory-enforced-gpu-sharing-in-kubernetes-with-nvidia-cuda-13-4/",
         "publishedDate": "2026-10-27"
       },
       "traceToAnchors": []
@@ -614,50 +658,6 @@
       "source": {
         "name": "The Verge — Artificial Intelligence",
         "url": "https://www.theverge.com/tech/1017066/meta-muse-sharing-back-on-artifiacts",
-        "publishedDate": "2026-10-22"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theverge.com/?p=1016905",
-      "category": "models",
-      "headline": "In Meta’s version of the future, I’ll have my Muse call your Muse",
-      "source": {
-        "name": "The Verge — Artificial Intelligence",
-        "url": "https://www.theverge.com/tech/1016905/meta-earnings-fall-2026-muse-network",
-        "publishedDate": "2026-10-22"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://developer.nvidia.com/blog/?p=123962",
-      "category": "compute-energy",
-      "headline": "How to Read Data into GPU Memory in Python with NVIDIA GPUDirect Storage",
-      "source": {
-        "name": "NVIDIA — Technical Blog",
-        "url": "https://developer.nvidia.com/blog/how-to-read-data-into-gpu-memory-in-python-with-nvidia-gpudirect-storage/",
-        "publishedDate": "2026-10-22"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3180936",
-      "category": "ai-lifecycle",
-      "headline": "OpenAI working on new $30B raise at $1.25T valuation ahead of IPO",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/",
-        "publishedDate": "2026-10-22"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://huggingface.co/blog/microsoft/thinkingbox-training",
-      "category": "ai-lifecycle",
-      "headline": "Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox",
-      "source": {
-        "name": "Hugging Face — Blog",
-        "url": "https://huggingface.co/blog/microsoft/thinkingbox-training",
         "publishedDate": "2026-10-22"
       },
       "traceToAnchors": []

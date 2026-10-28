@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-28T11:59:40.796Z",
+  "lastUpdated": "2026-10-28T18:15:22.487Z",
   "freshnessState": "fresh",
   "stories": [
     {
@@ -42,6 +42,83 @@
       "source": {
         "name": "Forbes — Innovation",
         "url": "https://www.forbes.com/sites/barrycollins/2026/10/28/football-manager-27-first-look-the-games-back/",
+        "publishedDate": "2026-10-28"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://openai.com/index/legora",
+      "category": "ai-lifecycle",
+      "headline": "Legora is building the agentic operating system for legal work",
+      "source": {
+        "name": "OpenAI — News",
+        "url": "https://openai.com/index/legora",
+        "publishedDate": "2026-10-28"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3182509",
+      "category": "models",
+      "headline": "As AI agents reshape the web, Google opens Gemini and Search to more apps",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/10/28/as-ai-agents-reshape-the-web-google-opens-gemini-and-search-to-more-apps/",
+        "publishedDate": "2026-10-28"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theverge.com/?p=1020626",
+      "category": "models",
+      "headline": "Chrome’s enhanced autofill can now pull info from Gmail to help you fill out forms",
+      "source": {
+        "name": "The Verge — Artificial Intelligence",
+        "url": "https://www.theverge.com/tech/1020626/chrome-enhanced-autofill-gmail-forms-gemini-personal-intelligence",
+        "publishedDate": "2026-10-28"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theverge.com/?p=1020596",
+      "category": "compute-energy",
+      "headline": "xAI is buying out homeowners who promise not to sue over data center noise",
+      "source": {
+        "name": "The Verge — Artificial Intelligence",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1020596/xai-mississippi-neighborhood-data-center-lawsuit",
+        "publishedDate": "2026-10-28"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theverge.com/?p=1018676",
+      "category": "compute-energy",
+      "headline": "Voters in Texas agree: They hate data centers",
+      "source": {
+        "name": "The Verge — Artificial Intelligence",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1018676/data-center-midterm-election-energy-water-texas",
+        "publishedDate": "2026-10-28"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://tldr.tech/ai/2026-10-28",
+      "category": "research",
+      "headline": "Genie 4 worlds 🌍, Frontier Code 2 👨‍💻, AI drug discovery 🧬",
+      "source": {
+        "name": "TLDR AI",
+        "url": "https://tldr.tech/ai/2026-10-28",
+        "publishedDate": "2026-10-28"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6ae20ea82813421524f85481",
+      "category": "research",
+      "headline": "Say Hello To ED138, A Massive New World Beyond Pluto",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/sites/jamiecartereurope/2026/10/28/say-hello-to-ed138-a-massive-new-world-beyond-pluto/",
         "publishedDate": "2026-10-28"
       },
       "traceToAnchors": []
@@ -581,83 +658,6 @@
       "source": {
         "name": "Forbes — Innovation",
         "url": "https://www.forbes.com/councils/forbestechcouncil/2026/10/22/beyond-test-scores-rethinking-academic-achievement-in-the-age-of-predictive-learning/",
-        "publishedDate": "2026-10-22"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6ad8e02da559fd5ac5a7396e",
-      "category": "models",
-      "headline": "​From Dashboard Builders To Agent Managers: The New Frontier For Data Teams",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/councils/forbestechcouncil/2026/10/22/from-dashboard-builders-to-agent-managers-the-new-frontier-for-data-teams/",
-        "publishedDate": "2026-10-22"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6ad9afacb7c9740673e0c4e9",
-      "category": "models",
-      "headline": "First Look: Land Rover Freelander Is Back But Bigger Than Ever Before",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/sites/jamesmorris/2026/10/22/first-look-land-rover-freelander-is-back-but-bigger-than-ever-before/",
-        "publishedDate": "2026-10-22"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/",
-      "category": "research",
-      "headline": "Beyond tree cover: mapping the world’s forest types",
-      "source": {
-        "name": "Google DeepMind — Blog",
-        "url": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/",
-        "publishedDate": "2026-10-22"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3180196",
-      "category": "ai-lifecycle",
-      "headline": "Uber puts all 30,000 employees on ChatGPT Work",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/10/22/uber-puts-all-30000-employees-on-chatgpt-work/",
-        "publishedDate": "2026-10-22"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3180587",
-      "category": "models",
-      "headline": "Claude Duet app is Anthropic&#8217;s bet on agents",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/10/22/claude-duet-app-is-anthropics-bet-on-agents/",
-        "publishedDate": "2026-10-22"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theverge.com/?p=1016399",
-      "category": "research",
-      "headline": "1Password lets AI agents use your passwords without seeing them",
-      "source": {
-        "name": "The Verge — Artificial Intelligence",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/1016399/1password-ai-agent-password-sign-in",
-        "publishedDate": "2026-10-22"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://tldr.tech/ai/2026-10-22",
-      "category": "models",
-      "headline": "Claude Duet 🤖, Anthropic API changes 👨‍💻, Recursive’s local model 💻",
-      "source": {
-        "name": "TLDR AI",
-        "url": "https://tldr.tech/ai/2026-10-22",
         "publishedDate": "2026-10-22"
       },
       "traceToAnchors": []

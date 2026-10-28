@@ -1,7 +1,18 @@
 {
-  "lastUpdated": "2026-10-27T21:43:57.922Z",
+  "lastUpdated": "2026-10-28T03:41:17.905Z",
   "freshnessState": "fresh",
   "stories": [
+    {
+      "id": "https://techcrunch.com/?p=3182406",
+      "category": "models",
+      "headline": "VCs will make billions on Anthropic&#8217;s IPO, but Amazon is set to make much (much) more",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/10/27/vcs-will-make-billions-on-anthropics-ipo-but-amazon-is-set-to-make-much-much-more/",
+        "publishedDate": "2026-10-28"
+      },
+      "traceToAnchors": []
+    },
     {
       "id": "content_6adf82bdb948ce390ae29248",
       "category": "research",
@@ -174,6 +185,28 @@
       "source": {
         "name": "NVIDIA — Technical Blog",
         "url": "https://developer.nvidia.com/blog/memory-enforced-gpu-sharing-in-kubernetes-with-nvidia-cuda-13-4/",
+        "publishedDate": "2026-10-27"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://openai.com/index/retell-ai",
+      "category": "models",
+      "headline": "Retell uses OpenAI models to help power 100M monthly calls",
+      "source": {
+        "name": "OpenAI — News",
+        "url": "https://openai.com/index/retell-ai",
+        "publishedDate": "2026-10-27"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3181301",
+      "category": "compute-energy",
+      "headline": "The data center boom has an upside: innovation for the US grid",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/10/27/the-data-center-boom-has-an-upside-innovation-for-the-us-grid/",
         "publishedDate": "2026-10-27"
       },
       "traceToAnchors": []
@@ -625,39 +658,6 @@
       "source": {
         "name": "NVIDIA — Technical Blog",
         "url": "https://developer.nvidia.com/blog/running-frontier-class-ai-models-across-8-nvidia-dgx-spark-nodes/",
-        "publishedDate": "2026-10-22"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://openai.com/index/uber-chatgpt-work-rollout",
-      "category": "ai-lifecycle",
-      "headline": "Uber brings ChatGPT Work to all employees with OpenAI",
-      "source": {
-        "name": "OpenAI — News",
-        "url": "https://openai.com/index/uber-chatgpt-work-rollout",
-        "publishedDate": "2026-10-22"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3180727",
-      "category": "models",
-      "headline": "1Password launches a way for AI agents to log in on your behalf without seeing your password",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/10/22/1password-launches-a-way-for-ai-agents-to-log-in-on-your-behalf-without-seeing-your-password/",
-        "publishedDate": "2026-10-22"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theverge.com/?p=1017066",
-      "category": "models",
-      "headline": "Meta turns Muse sharing back on",
-      "source": {
-        "name": "The Verge — Artificial Intelligence",
-        "url": "https://www.theverge.com/tech/1017066/meta-muse-sharing-back-on-artifiacts",
         "publishedDate": "2026-10-22"
       },
       "traceToAnchors": []

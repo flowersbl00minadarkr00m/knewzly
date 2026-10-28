@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-28T03:41:17.905Z",
+  "lastUpdated": "2026-10-28T11:59:40.796Z",
   "freshnessState": "fresh",
   "stories": [
     {
@@ -9,6 +9,39 @@
       "source": {
         "name": "TechCrunch — Artificial Intelligence",
         "url": "https://techcrunch.com/2026/10/27/vcs-will-make-billions-on-anthropics-ipo-but-amazon-is-set-to-make-much-much-more/",
+        "publishedDate": "2026-10-28"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://openai.com/index/legora-agentic-operating-system-for-legal-work",
+      "category": "ai-lifecycle",
+      "headline": "Legora is building the agentic operating system for legal work",
+      "source": {
+        "name": "OpenAI — News",
+        "url": "https://openai.com/index/legora-agentic-operating-system-for-legal-work",
+        "publishedDate": "2026-10-28"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theneurondaily.com/p/google-launches-genie-4-with-sound",
+      "category": "models",
+      "headline": "😺 Google launches Genie 4 with sound",
+      "source": {
+        "name": "The Neuron",
+        "url": "https://www.theneurondaily.com/p/google-launches-genie-4-with-sound",
+        "publishedDate": "2026-10-28"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6adf5b8179e506da0b296c10",
+      "category": "models",
+      "headline": "‘Football Manager 27’ First Look: The Game’s Back",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/sites/barrycollins/2026/10/28/football-manager-27-first-look-the-games-back/",
         "publishedDate": "2026-10-28"
       },
       "traceToAnchors": []
@@ -625,39 +658,6 @@
       "source": {
         "name": "TLDR AI",
         "url": "https://tldr.tech/ai/2026-10-22",
-        "publishedDate": "2026-10-22"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6ad92a29e9ef6418b24b2f11",
-      "category": "research",
-      "headline": "The Real Disruption In Mobility Isn't Technology—It's Everything Else",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/councils/forbestechcouncil/2026/10/22/the-real-disruption-in-mobility-isnt-technology-its-everything-else/",
-        "publishedDate": "2026-10-22"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://huggingface.co/blog/allenai/olmoearth-v1-3",
-      "category": "models",
-      "headline": "OlmoEarth v1.3: State-of-the-art embeddings for the whole planet",
-      "source": {
-        "name": "Hugging Face — Blog",
-        "url": "https://huggingface.co/blog/allenai/olmoearth-v1-3",
-        "publishedDate": "2026-10-22"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://developer.nvidia.com/blog/?p=123934",
-      "category": "ai-lifecycle",
-      "headline": "Running Frontier-Class AI Models Across 8 NVIDIA DGX Spark Nodes",
-      "source": {
-        "name": "NVIDIA — Technical Blog",
-        "url": "https://developer.nvidia.com/blog/running-frontier-class-ai-models-across-8-nvidia-dgx-spark-nodes/",
         "publishedDate": "2026-10-22"
       },
       "traceToAnchors": []

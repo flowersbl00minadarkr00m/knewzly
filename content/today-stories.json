@@ -1,7 +1,51 @@
 {
-  "lastUpdated": "2026-10-29T04:01:46.006Z",
+  "lastUpdated": "2026-10-29T12:09:37.039Z",
   "freshnessState": "fresh",
   "stories": [
+    {
+      "id": "https://www.technologyreview.com/?p=1147824",
+      "category": "safety-governance",
+      "headline": "We urgently need to monitor AI agents’ actions in real time",
+      "source": {
+        "name": "MIT Technology Review — Artificial Intelligence",
+        "url": "https://www.technologyreview.com/2026/10/29/1147824/monitor-ai-agents-actions-real-time/",
+        "publishedDate": "2026-10-29"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theneurondaily.com/p/new-york-curbs-ai-chatbots-for-kids",
+      "category": "research",
+      "headline": "😸 New York curbs AI chatbots for kids",
+      "source": {
+        "name": "The Neuron",
+        "url": "https://www.theneurondaily.com/p/new-york-curbs-ai-chatbots-for-kids",
+        "publishedDate": "2026-10-29"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6ae28edc1a56321928355290",
+      "category": "research",
+      "headline": "The 10 Best Scary Movies To Watch On Netflix This Halloween",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/sites/erikkain/2026/10/28/best-scary-horror-movies-netflix-halloween-2026/",
+        "publishedDate": "2026-10-29"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://huggingface.co/blog/anydecisionmodel",
+      "category": "models",
+      "headline": "Introducing AnySpeechRecognizer and AnyDecisionModel: Open Models for Speech and Decisions on Apple Platforms",
+      "source": {
+        "name": "Hugging Face — Blog",
+        "url": "https://huggingface.co/blog/anydecisionmodel",
+        "publishedDate": "2026-10-29"
+      },
+      "traceToAnchors": []
+    },
     {
       "id": "https://techcrunch.com/?p=3182406",
       "category": "models",
@@ -614,50 +658,6 @@
       "source": {
         "name": "Forbes — Innovation",
         "url": "https://www.forbes.com/sites/heatherwishartsmith/2026/10/23/ai-cyber-defense-now-has-to-move-at-machine-speed/",
-        "publishedDate": "2026-10-23"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6ada781bc476547eb0b35823",
-      "category": "ai-lifecycle",
-      "headline": "Who Will Your AI Agent Work For When Everyone Wants The Sale?",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/councils/forbestechcouncil/2026/10/23/who-will-your-ai-agent-work-for-when-everyone-wants-the-sale/",
-        "publishedDate": "2026-10-23"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
-      "category": "research",
-      "headline": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
-      "source": {
-        "name": "OpenAI — News",
-        "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
-        "publishedDate": "2026-10-23"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6adba50e8476997c34aad7ac",
-      "category": "models",
-      "headline": "Meta's Muse Could Transform Its AI Business. But Can It Make Money?",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/sites/chuckbrooks/2026/10/23/meta-muse-ai-business-model-profitability/",
-        "publishedDate": "2026-10-23"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://developer.nvidia.com/blog/?p=124139",
-      "category": "ai-lifecycle",
-      "headline": "Scaling NVIDIA TensorRT Performance Optimization Beyond a Single Build Route with the Global Performance Tuner, Part 2",
-      "source": {
-        "name": "NVIDIA — Technical Blog",
-        "url": "https://developer.nvidia.com/blog/scaling-nvidia-tensorrt-performance-optimization-beyond-a-single-build-route-with-the-global-performance-tuner-part-2/",
         "publishedDate": "2026-10-23"
       },
       "traceToAnchors": []

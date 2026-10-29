@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-28T18:15:22.487Z",
+  "lastUpdated": "2026-10-29T04:01:46.006Z",
   "freshnessState": "fresh",
   "stories": [
     {
@@ -119,6 +119,72 @@
       "source": {
         "name": "Forbes — Innovation",
         "url": "https://www.forbes.com/sites/jamiecartereurope/2026/10/28/say-hello-to-ed138-a-massive-new-world-beyond-pluto/",
+        "publishedDate": "2026-10-28"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://openai.com/index/openai-servicenow-partnership-expansion",
+      "category": "ai-lifecycle",
+      "headline": "OpenAI and ServiceNow expand partnership across enterprise workflows",
+      "source": {
+        "name": "OpenAI — News",
+        "url": "https://openai.com/index/openai-servicenow-partnership-expansion",
+        "publishedDate": "2026-10-28"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3182841",
+      "category": "compute-energy",
+      "headline": "Microsoft just shared Azure&#8217;s actual revenue in dollars: $33.2 billion",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/10/28/microsoft-just-shared-azures-actual-revenue-in-dollars-33-2-billion/",
+        "publishedDate": "2026-10-28"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theverge.com/?p=1021339",
+      "category": "models",
+      "headline": "Google launches Gemini 4 Carbon with a ‘significant leap’ in cybersecurity",
+      "source": {
+        "name": "The Verge — Artificial Intelligence",
+        "url": "https://www.theverge.com/tech/1021339/google-gemini-4-carbon-cybersecurity-frontier",
+        "publishedDate": "2026-10-28"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theverge.com/?p=1021143",
+      "category": "ai-lifecycle",
+      "headline": "Microsoft is ending Copilot support on smart TVs",
+      "source": {
+        "name": "The Verge — Artificial Intelligence",
+        "url": "https://www.theverge.com/tech/1021143/microsoft-lg-samsung-copilot-ai-assistant-smart-tvs-ending",
+        "publishedDate": "2026-10-28"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "6adfcf10fff166c1bb1e044f",
+      "category": "models",
+      "headline": "I Put a Bunch of AI Agents in Charge of a Fantasy Soccer Team. They’re Not Better Than Humans—Yet",
+      "source": {
+        "name": "Wired — Artificial Intelligence",
+        "url": "https://www.wired.com/story/i-put-ai-agents-in-charge-of-a-fantasy-team/",
+        "publishedDate": "2026-10-28"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6ae1ab4d65e3718ed5e519e0",
+      "category": "safety-governance",
+      "headline": "2 Rules The Happiest Single People Swear By, By A Psychologist",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/sites/traversmark/2026/10/28/2-rules-the-happiest-single-people-swear-by-by-a-psychologist/",
         "publishedDate": "2026-10-28"
       },
       "traceToAnchors": []
@@ -593,72 +659,6 @@
         "name": "NVIDIA — Technical Blog",
         "url": "https://developer.nvidia.com/blog/scaling-nvidia-tensorrt-performance-optimization-beyond-a-single-build-route-with-the-global-performance-tuner-part-2/",
         "publishedDate": "2026-10-23"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://developer.nvidia.com/blog/?p=124071",
-      "category": "ai-lifecycle",
-      "headline": "Scaling NVIDIA TensorRT Performance Optimization Beyond a Single Build Route with the Global Performance Tuner, Part 1",
-      "source": {
-        "name": "NVIDIA — Technical Blog",
-        "url": "https://developer.nvidia.com/blog/scaling-nvidia-tensorrt-performance-optimization-beyond-a-single-build-route-with-the-global-performance-tuner-part-1/",
-        "publishedDate": "2026-10-23"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3181396",
-      "category": "safety-governance",
-      "headline": "OpenAI says it will no longer train its AI models on the live internet, citing “significant risks”",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/",
-        "publishedDate": "2026-10-23"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6adbe0b56e70bbcfffd2a11d",
-      "category": "compute-energy",
-      "headline": "2016 OCP Storage And Memory Data Center Developments",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/sites/tomcoughlin/2026/10/23/2016-ocp-storage-and-memory-data-center-developments/",
-        "publishedDate": "2026-10-23"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6ad910ed840caf732877f85b",
-      "category": "models",
-      "headline": "Epic Is Exploring Launching Clinical Agents To Handle “Routine Visits”",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/sites/saibala/2026/10/21/epic-is-exploring-launching-clinical-agents-to-handle-routine-visits/",
-        "publishedDate": "2026-10-22"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "6ad8f3de7f4e8c7bfb89b8b0",
-      "category": "safety-governance",
-      "headline": "Hugging Face’s New AI Biology Model Lets You Chat With DNA",
-      "source": {
-        "name": "Wired — Artificial Intelligence",
-        "url": "https://www.wired.com/story/hugging-face-new-ai-biology-model-chat-with-dna/",
-        "publishedDate": "2026-10-22"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6ad8e39740abd472a3d06175",
-      "category": "research",
-      "headline": "Beyond Test Scores: Rethinking Academic Achievement In The Age Of Predictive Learning",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/councils/forbestechcouncil/2026/10/22/beyond-test-scores-rethinking-academic-achievement-in-the-age-of-predictive-learning/",
-        "publishedDate": "2026-10-22"
       },
       "traceToAnchors": []
     }

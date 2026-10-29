@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-29T12:09:37.039Z",
+  "lastUpdated": "2026-10-29T22:21:35.392Z",
   "freshnessState": "fresh",
   "stories": [
     {
@@ -42,6 +42,72 @@
       "source": {
         "name": "Hugging Face — Blog",
         "url": "https://huggingface.co/blog/anydecisionmodel",
+        "publishedDate": "2026-10-29"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3183122",
+      "category": "models",
+      "headline": "Meta quietly launches an AI fashion app called Style Sketch",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/10/29/meta-quietly-launches-an-ai-fashion-app-called-style-sketch/",
+        "publishedDate": "2026-10-29"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theverge.com/?p=1022519",
+      "category": "models",
+      "headline": "You can generate and edit Google Docs files directly in Gemini chats now",
+      "source": {
+        "name": "The Verge — Artificial Intelligence",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1022519/google-gemini-file-editing-documents-pdfs",
+        "publishedDate": "2026-10-29"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theverge.com/?p=1022023",
+      "category": "ai-lifecycle",
+      "headline": "Microsoft’s AI future has fewer jobs",
+      "source": {
+        "name": "The Verge — Artificial Intelligence",
+        "url": "https://www.theverge.com/tech/1022023/microsoft-exit-offer-layoffs-notepad",
+        "publishedDate": "2026-10-29"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theverge.com/?p=1021476",
+      "category": "models",
+      "headline": "Anthropic’s business plan: Build God or die trying",
+      "source": {
+        "name": "The Verge — Artificial Intelligence",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1021476/anthropic-s-1-compute-recursive",
+        "publishedDate": "2026-10-29"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://tldr.tech/ai/2026-10-29",
+      "category": "models",
+      "headline": "Gemini 4 Carbon 🌱, Nemotron Transcribe 📝, benchmarker’s dilemma ❓",
+      "source": {
+        "name": "TLDR AI",
+        "url": "https://tldr.tech/ai/2026-10-29",
+        "publishedDate": "2026-10-29"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://huggingface.co/blog/mistral-large4",
+      "category": "safety-governance",
+      "headline": "Welcome Le Chonk: Mistral Large 4 on Hugging Face",
+      "source": {
+        "name": "Hugging Face — Blog",
+        "url": "https://huggingface.co/blog/mistral-large4",
         "publishedDate": "2026-10-29"
       },
       "traceToAnchors": []
@@ -593,72 +659,6 @@
         "name": "Forbes — Innovation",
         "url": "https://www.forbes.com/sites/edgarsten/2026/10/24/mymonthlycar-looks-to-help-dealers-turn-idle-used-cars-to-cash/",
         "publishedDate": "2026-10-24"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6adb935e02dfd1eca85d09d1",
-      "category": "models",
-      "headline": "What To Watch This Weekend: New Shows And Movies To Stream On Netflix, Hulu, Prime Video, Apple TV And More",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/sites/erikkain/2026/10/24/what-to-watch-this-weekend-new-shows-and-movies-to-stream-on-netflix-hulu-prime-video-apple-tv-and-more/",
-        "publishedDate": "2026-10-24"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3181016",
-      "category": "research",
-      "headline": "Left alone with nothing to do, AI agents started playing",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/10/22/left-alone-with-nothing-to-do-ai-agents-started-playing/",
-        "publishedDate": "2026-10-23"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://openai.com/index/openai-nask-ai-safety-security-partnership",
-      "category": "safety-governance",
-      "headline": "OpenAI and Poland’s NASK partner to advance AI safety and security",
-      "source": {
-        "name": "OpenAI — News",
-        "url": "https://openai.com/index/openai-nask-ai-safety-security-partnership",
-        "publishedDate": "2026-10-23"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theverge.com/?p=1017450",
-      "category": "models",
-      "headline": "Meta delays new business terms after publisher pushback on AI scraping",
-      "source": {
-        "name": "The Verge — Artificial Intelligence",
-        "url": "https://www.theverge.com/tech/1017450/meta-business-terms-delayed-ai-scraping",
-        "publishedDate": "2026-10-23"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://tldr.tech/ai/2026-10-23",
-      "category": "models",
-      "headline": "OpenAI nears $1.25T 💰,  ☁️, 1Password for Agents 🔑, Gemini 3.5 Pro postmortem 🤖",
-      "source": {
-        "name": "TLDR AI",
-        "url": "https://tldr.tech/ai/2026-10-23",
-        "publishedDate": "2026-10-23"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6ada6e16a84572be3ac41cb7",
-      "category": "models",
-      "headline": "AI Cyber Defense Now Has To Move At Machine Speed",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/sites/heatherwishartsmith/2026/10/23/ai-cyber-defense-now-has-to-move-at-machine-speed/",
-        "publishedDate": "2026-10-23"
       },
       "traceToAnchors": []
     }

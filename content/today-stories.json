@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-30T12:00:29.134Z",
+  "lastUpdated": "2026-10-30T21:53:10.341Z",
   "freshnessState": "fresh",
   "stories": [
     {
@@ -9,6 +9,72 @@
       "source": {
         "name": "The Verge — Artificial Intelligence",
         "url": "https://www.theverge.com/ai-artificial-intelligence/1021080/maine-senate-race-susan-collins-ai-data-centers",
+        "publishedDate": "2026-10-30"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://openai.com/index/helping-websites-express-ai-training-preferences",
+      "category": "safety-governance",
+      "headline": "Making it easier for websites to express AI training preferences",
+      "source": {
+        "name": "OpenAI — News",
+        "url": "https://openai.com/index/helping-websites-express-ai-training-preferences",
+        "publishedDate": "2026-10-30"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "6ae2572fb8b2eb024a124f0c",
+      "category": "models",
+      "headline": "How a Contractor’s Claude Agent Got Into the Pentagon",
+      "source": {
+        "name": "Wired — Artificial Intelligence",
+        "url": "https://www.wired.com/story/uncanny-valley-podcast-how-a-contractors-claude-agent-got-into-the-pentagon/",
+        "publishedDate": "2026-10-30"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6adfd15b4015e078eea6c35e",
+      "category": "models",
+      "headline": "What To Watch This Weekend: New Shows And Movies To Stream On Netflix, Hulu, Prime Video, Apple TV And More",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/sites/erikkain/2026/10/30/what-to-watch-this-weekend-new-shows-and-movies-to-stream-on-netflix-hulu-prime-video-apple-tv-and-more/",
+        "publishedDate": "2026-10-30"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6ae4e0ab4f20f87f75c53d8b",
+      "category": "models",
+      "headline": "Apple’s iPhone AI Watermark Has A Catch: Google’s Gemini May Not Read It",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/sites/paulmonckton/2026/10/30/iphone-ai-watermark-check/",
+        "publishedDate": "2026-10-30"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://developer.nvidia.com/blog/?p=124341",
+      "category": "ai-lifecycle",
+      "headline": "Build Specialized Agents on a Stack You Control with NVIDIA NemoClaw",
+      "source": {
+        "name": "NVIDIA — Technical Blog",
+        "url": "https://developer.nvidia.com/blog/build-specialized-agents-on-a-stack-you-control-with-nvidia-nemoclaw/",
+        "publishedDate": "2026-10-30"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://developer.nvidia.com/blog/?p=124327",
+      "category": "compute-energy",
+      "headline": "How to Check and Configure NVIDIA GPUDirect Storage for Your Platform",
+      "source": {
+        "name": "NVIDIA — Technical Blog",
+        "url": "https://developer.nvidia.com/blog/how-to-check-and-configure-nvidia-gpudirect-storage-for-your-platform/",
         "publishedDate": "2026-10-30"
       },
       "traceToAnchors": []
@@ -593,72 +659,6 @@
         "name": "NVIDIA — Technical Blog",
         "url": "https://developer.nvidia.com/blog/how-nvidia-minerva-turns-telemetry-chaos-into-peak-gpu-yield/",
         "publishedDate": "2026-10-26"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6adfce300772bffdb9c563f6",
-      "category": "models",
-      "headline": "Meta’s Muse And The ‘Cutification’ Of AI Agents",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/sites/kianbakhtiari/2026/10/26/metas-muse-and-the-cutification-of-ai-agents/",
-        "publishedDate": "2026-10-26"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "6adaac0658fe17d926e679bc",
-      "category": "compute-energy",
-      "headline": "What the US Movement Against Data Centers Can Learn From Abroad",
-      "source": {
-        "name": "Wired — Artificial Intelligence",
-        "url": "https://www.wired.com/story/what-the-us-anti-data-center-movement-can-learn-from-everywhere-else/",
-        "publishedDate": "2026-10-25"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6add65fbb948ce390ae2921a",
-      "category": "models",
-      "headline": "EA Sports Fight Night’s Comeback Cover Has Room For More Than 1 Fighter",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/sites/brianmazique/2026/10/24/ea-sports-fight-nights-comeback-cover-has-room-for-more-than-1-fighter/",
-        "publishedDate": "2026-10-25"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theverge.com/?p=1018217",
-      "category": "research",
-      "headline": "r/opensource just banned AI, non-English speakers, and more",
-      "source": {
-        "name": "The Verge — Artificial Intelligence",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/1018217/reddit-opensource-ai-ban",
-        "publishedDate": "2026-10-25"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6add036227a6f644c4c463b4",
-      "category": "models",
-      "headline": "AI Agents Are Splitting The Customer Relationship Into Pieces",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/sites/stephenwunker/2026/10/25/ai-agents-are-splitting-the-customer-relationship-into-pieces/",
-        "publishedDate": "2026-10-25"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6addec4ecb4dfa20c5c4c8be",
-      "category": "models",
-      "headline": "Google Backtracks On Free AI Plan Limits For Unnamed Premium Devices",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/sites/paulmonckton/2026/10/25/google-ai-pro-argon-antigravity-pixel-plan/",
-        "publishedDate": "2026-10-25"
       },
       "traceToAnchors": []
     }

@@ -1,7 +1,18 @@
 {
-  "lastUpdated": "2026-10-30T04:03:04.395Z",
+  "lastUpdated": "2026-10-30T12:00:29.134Z",
   "freshnessState": "fresh",
   "stories": [
+    {
+      "id": "https://www.theverge.com/?p=1021080",
+      "category": "compute-energy",
+      "headline": "Maine’s data center revolt will decide who controls the Senate",
+      "source": {
+        "name": "The Verge — Artificial Intelligence",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1021080/maine-senate-race-susan-collins-ai-data-centers",
+        "publishedDate": "2026-10-30"
+      },
+      "traceToAnchors": []
+    },
     {
       "id": "https://www.technologyreview.com/?p=1147824",
       "category": "safety-governance",
@@ -648,17 +659,6 @@
         "name": "Forbes — Innovation",
         "url": "https://www.forbes.com/sites/paulmonckton/2026/10/25/google-ai-pro-argon-antigravity-pixel-plan/",
         "publishedDate": "2026-10-25"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6adcbb8327a6f644c4c463ad",
-      "category": "models",
-      "headline": "MyMonthlyCar Looks To Help Dealers Turn Idle Used Cars To Cash",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/sites/edgarsten/2026/10/24/mymonthlycar-looks-to-help-dealers-turn-idle-used-cars-to-cash/",
-        "publishedDate": "2026-10-24"
       },
       "traceToAnchors": []
     }

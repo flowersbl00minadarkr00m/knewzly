@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
   "methodologyVersion": "weekly-momentum-v1",
-  "windowStart": "2026-10-23T04:03:04.504Z",
-  "windowEnd": "2026-10-30T04:03:04.504Z",
-  "lastAttemptedAt": "2026-10-30T04:03:04.504Z",
-  "lastSuccessfulAt": "2026-10-30T04:03:04.504Z",
+  "windowStart": "2026-10-23T12:00:29.328Z",
+  "windowEnd": "2026-10-30T12:00:29.328Z",
+  "lastAttemptedAt": "2026-10-30T12:00:29.328Z",
+  "lastSuccessfulAt": "2026-10-30T12:00:29.328Z",
   "status": "partial",
   "providers": {
     "gdelt": {
@@ -12,7 +12,7 @@
     },
     "hackerNews": {
       "status": "ok",
-      "sampledAt": "2026-10-30T04:03:04.504Z",
+      "sampledAt": "2026-10-30T12:00:29.328Z",
       "itemCount": 199
     },
     "bluesky": {
@@ -22,13 +22,43 @@
   "entries": [
     {
       "rank": 1,
+      "leadStoryId": "https://www.theverge.com/?p=1021080",
+      "memberStoryIds": [
+        "https://www.theverge.com/?p=1021080"
+      ],
+      "category": "compute-energy",
+      "publishedAt": "2026-10-30T00:00:00.000Z",
+      "momentumScore": 0.4279138737858055,
+      "signals": {
+        "coverage": {
+          "state": "observed",
+          "basis": "canonical_today_sources",
+          "independentOutletCount": 1,
+          "sampledDomains": [
+            "theverge.com"
+          ]
+        },
+        "hackerNews": {
+          "state": "not_observed"
+        },
+        "recency": {
+          "state": "observed",
+          "ageHours": 12.008146666666667
+        },
+        "bluesky": {
+          "state": "not_configured"
+        }
+      }
+    },
+    {
+      "rank": 2,
       "leadStoryId": "content_6ae28edc1a56321928355290",
       "memberStoryIds": [
         "content_6ae28edc1a56321928355290"
       ],
       "category": "research",
       "publishedAt": "2026-10-29T00:00:00.000Z",
-      "momentumScore": 0.4006296825537571,
+      "momentumScore": 0.38709754725519324,
       "signals": {
         "coverage": {
           "state": "observed",
@@ -43,37 +73,7 @@
         },
         "recency": {
           "state": "observed",
-          "ageHours": 28.05125111111111
-        },
-        "bluesky": {
-          "state": "not_configured"
-        }
-      }
-    },
-    {
-      "rank": 2,
-      "leadStoryId": "https://huggingface.co/blog/anydecisionmodel",
-      "memberStoryIds": [
-        "https://huggingface.co/blog/anydecisionmodel"
-      ],
-      "category": "models",
-      "publishedAt": "2026-10-29T00:00:00.000Z",
-      "momentumScore": 0.4006296825537571,
-      "signals": {
-        "coverage": {
-          "state": "observed",
-          "basis": "canonical_today_sources",
-          "independentOutletCount": 1,
-          "sampledDomains": [
-            "huggingface.co"
-          ]
-        },
-        "hackerNews": {
-          "state": "not_observed"
-        },
-        "recency": {
-          "state": "observed",
-          "ageHours": 28.05125111111111
+          "ageHours": 36.00814666666667
         },
         "bluesky": {
           "state": "not_configured"
@@ -82,13 +82,13 @@
     },
     {
       "rank": 3,
-      "leadStoryId": "https://huggingface.co/blog/mistral-large4",
+      "leadStoryId": "https://huggingface.co/blog/anydecisionmodel",
       "memberStoryIds": [
-        "https://huggingface.co/blog/mistral-large4"
+        "https://huggingface.co/blog/anydecisionmodel"
       ],
-      "category": "safety-governance",
+      "category": "models",
       "publishedAt": "2026-10-29T00:00:00.000Z",
-      "momentumScore": 0.4006296825537571,
+      "momentumScore": 0.38709754725519324,
       "signals": {
         "coverage": {
           "state": "observed",
@@ -103,7 +103,7 @@
         },
         "recency": {
           "state": "observed",
-          "ageHours": 28.05125111111111
+          "ageHours": 36.00814666666667
         },
         "bluesky": {
           "state": "not_configured"
@@ -112,13 +112,43 @@
     },
     {
       "rank": 4,
+      "leadStoryId": "https://huggingface.co/blog/mistral-large4",
+      "memberStoryIds": [
+        "https://huggingface.co/blog/mistral-large4"
+      ],
+      "category": "safety-governance",
+      "publishedAt": "2026-10-29T00:00:00.000Z",
+      "momentumScore": 0.38709754725519324,
+      "signals": {
+        "coverage": {
+          "state": "observed",
+          "basis": "canonical_today_sources",
+          "independentOutletCount": 1,
+          "sampledDomains": [
+            "huggingface.co"
+          ]
+        },
+        "hackerNews": {
+          "state": "not_observed"
+        },
+        "recency": {
+          "state": "observed",
+          "ageHours": 36.00814666666667
+        },
+        "bluesky": {
+          "state": "not_configured"
+        }
+      }
+    },
+    {
+      "rank": 5,
       "leadStoryId": "https://techcrunch.com/?p=3183122",
       "memberStoryIds": [
         "https://techcrunch.com/?p=3183122"
       ],
       "category": "models",
       "publishedAt": "2026-10-29T00:00:00.000Z",
-      "momentumScore": 0.4006296825537571,
+      "momentumScore": 0.38709754725519324,
       "signals": {
         "coverage": {
           "state": "observed",
@@ -133,7 +163,7 @@
         },
         "recency": {
           "state": "observed",
-          "ageHours": 28.05125111111111
+          "ageHours": 36.00814666666667
         },
         "bluesky": {
           "state": "not_configured"
@@ -141,14 +171,14 @@
       }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "leadStoryId": "https://tldr.tech/ai/2026-10-29",
       "memberStoryIds": [
         "https://tldr.tech/ai/2026-10-29"
       ],
       "category": "models",
       "publishedAt": "2026-10-29T00:00:00.000Z",
-      "momentumScore": 0.4006296825537571,
+      "momentumScore": 0.38709754725519324,
       "signals": {
         "coverage": {
           "state": "observed",
@@ -163,7 +193,7 @@
         },
         "recency": {
           "state": "observed",
-          "ageHours": 28.05125111111111
+          "ageHours": 36.00814666666667
         },
         "bluesky": {
           "state": "not_configured"
@@ -171,14 +201,14 @@
       }
     },
     {
-      "rank": 6,
+      "rank": 7,
       "leadStoryId": "https://www.technologyreview.com/?p=1147824",
       "memberStoryIds": [
         "https://www.technologyreview.com/?p=1147824"
       ],
       "category": "safety-governance",
       "publishedAt": "2026-10-29T00:00:00.000Z",
-      "momentumScore": 0.4006296825537571,
+      "momentumScore": 0.38709754725519324,
       "signals": {
         "coverage": {
           "state": "observed",
@@ -193,7 +223,7 @@
         },
         "recency": {
           "state": "observed",
-          "ageHours": 28.05125111111111
+          "ageHours": 36.00814666666667
         },
         "bluesky": {
           "state": "not_configured"
@@ -201,14 +231,14 @@
       }
     },
     {
-      "rank": 7,
+      "rank": 8,
       "leadStoryId": "https://www.theneurondaily.com/p/new-york-curbs-ai-chatbots-for-kids",
       "memberStoryIds": [
         "https://www.theneurondaily.com/p/new-york-curbs-ai-chatbots-for-kids"
       ],
       "category": "research",
       "publishedAt": "2026-10-29T00:00:00.000Z",
-      "momentumScore": 0.4006296825537571,
+      "momentumScore": 0.38709754725519324,
       "signals": {
         "coverage": {
           "state": "observed",
@@ -223,37 +253,7 @@
         },
         "recency": {
           "state": "observed",
-          "ageHours": 28.05125111111111
-        },
-        "bluesky": {
-          "state": "not_configured"
-        }
-      }
-    },
-    {
-      "rank": 8,
-      "leadStoryId": "https://www.theverge.com/?p=1021476",
-      "memberStoryIds": [
-        "https://www.theverge.com/?p=1021476"
-      ],
-      "category": "models",
-      "publishedAt": "2026-10-29T00:00:00.000Z",
-      "momentumScore": 0.4006296825537571,
-      "signals": {
-        "coverage": {
-          "state": "observed",
-          "basis": "canonical_today_sources",
-          "independentOutletCount": 1,
-          "sampledDomains": [
-            "theverge.com"
-          ]
-        },
-        "hackerNews": {
-          "state": "not_observed"
-        },
-        "recency": {
-          "state": "observed",
-          "ageHours": 28.05125111111111
+          "ageHours": 36.00814666666667
         },
         "bluesky": {
           "state": "not_configured"
@@ -262,13 +262,13 @@
     },
     {
       "rank": 9,
-      "leadStoryId": "https://www.theverge.com/?p=1022023",
+      "leadStoryId": "https://www.theverge.com/?p=1021476",
       "memberStoryIds": [
-        "https://www.theverge.com/?p=1022023"
+        "https://www.theverge.com/?p=1021476"
       ],
-      "category": "ai-lifecycle",
+      "category": "models",
       "publishedAt": "2026-10-29T00:00:00.000Z",
-      "momentumScore": 0.4006296825537571,
+      "momentumScore": 0.38709754725519324,
       "signals": {
         "coverage": {
           "state": "observed",
@@ -283,7 +283,7 @@
         },
         "recency": {
           "state": "observed",
-          "ageHours": 28.05125111111111
+          "ageHours": 36.00814666666667
         },
         "bluesky": {
           "state": "not_configured"
@@ -292,20 +292,20 @@
     },
     {
       "rank": 10,
-      "leadStoryId": "content_6ae1ab4d65e3718ed5e519e0",
+      "leadStoryId": "https://www.theverge.com/?p=1022023",
       "memberStoryIds": [
-        "content_6ae1ab4d65e3718ed5e519e0"
+        "https://www.theverge.com/?p=1022023"
       ],
-      "category": "safety-governance",
-      "publishedAt": "2026-10-28T00:00:00.000Z",
-      "momentumScore": 0.3598133560231448,
+      "category": "ai-lifecycle",
+      "publishedAt": "2026-10-29T00:00:00.000Z",
+      "momentumScore": 0.38709754725519324,
       "signals": {
         "coverage": {
           "state": "observed",
           "basis": "canonical_today_sources",
           "independentOutletCount": 1,
           "sampledDomains": [
-            "forbes.com"
+            "theverge.com"
           ]
         },
         "hackerNews": {
@@ -313,7 +313,7 @@
         },
         "recency": {
           "state": "observed",
-          "ageHours": 52.051251111111114
+          "ageHours": 36.00814666666667
         },
         "bluesky": {
           "state": "not_configured"
@@ -322,13 +322,13 @@
     },
     {
       "rank": 11,
-      "leadStoryId": "content_6ae20ea82813421524f85481",
+      "leadStoryId": "content_6ae1ab4d65e3718ed5e519e0",
       "memberStoryIds": [
-        "content_6ae20ea82813421524f85481"
+        "content_6ae1ab4d65e3718ed5e519e0"
       ],
-      "category": "research",
+      "category": "safety-governance",
       "publishedAt": "2026-10-28T00:00:00.000Z",
-      "momentumScore": 0.3598133560231448,
+      "momentumScore": 0.34628122072458095,
       "signals": {
         "coverage": {
           "state": "observed",
@@ -343,7 +343,7 @@
         },
         "recency": {
           "state": "observed",
-          "ageHours": 52.051251111111114
+          "ageHours": 60.00814666666667
         },
         "bluesky": {
           "state": "not_configured"
@@ -352,21 +352,20 @@
     },
     {
       "rank": 12,
-      "leadStoryId": "https://openai.com/index/legora",
+      "leadStoryId": "content_6ae20ea82813421524f85481",
       "memberStoryIds": [
-        "https://openai.com/index/legora",
-        "https://openai.com/index/legora-agentic-operating-system-for-legal-work"
+        "content_6ae20ea82813421524f85481"
       ],
-      "category": "ai-lifecycle",
+      "category": "research",
       "publishedAt": "2026-10-28T00:00:00.000Z",
-      "momentumScore": 0.3598133560231448,
+      "momentumScore": 0.34628122072458095,
       "signals": {
         "coverage": {
           "state": "observed",
           "basis": "canonical_today_sources",
           "independentOutletCount": 1,
           "sampledDomains": [
-            "openai.com"
+            "forbes.com"
           ]
         },
         "hackerNews": {
@@ -374,7 +373,7 @@
         },
         "recency": {
           "state": "observed",
-          "ageHours": 52.051251111111114
+          "ageHours": 60.00814666666667
         },
         "bluesky": {
           "state": "not_configured"

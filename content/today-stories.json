@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-31T03:47:29.726Z",
+  "lastUpdated": "2026-10-31T11:35:35.740Z",
   "freshnessState": "fresh",
   "stories": [
     {
@@ -9,6 +9,17 @@
       "source": {
         "name": "TechCrunch — Artificial Intelligence",
         "url": "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/",
+        "publishedDate": "2026-10-31"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "6ae4e6ac964b916949bd58ed",
+      "category": "models",
+      "headline": "Meta’s Muse Could Upend All Kinds of Businesses. It Hasn’t Yet",
+      "source": {
+        "name": "Wired — Artificial Intelligence",
+        "url": "https://www.wired.com/story/metas-muse-could-upend-all-kinds-of-businesses-it-hasnt-yet/",
         "publishedDate": "2026-10-31"
       },
       "traceToAnchors": []
@@ -647,17 +658,6 @@
       "source": {
         "name": "TechCrunch — Artificial Intelligence",
         "url": "https://techcrunch.com/2026/10/26/anthropics-ipo-filing-reveals-its-strategy-for-keeping-enterprise-customers-hooked/",
-        "publishedDate": "2026-10-26"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theverge.com/?p=1018713",
-      "category": "research",
-      "headline": "The RealReal won’t let AI agents hog designer clothing",
-      "source": {
-        "name": "The Verge — Artificial Intelligence",
-        "url": "https://www.theverge.com/news/1018713/meta-muse-agentic-shopping-ai-the-realreal",
         "publishedDate": "2026-10-26"
       },
       "traceToAnchors": []

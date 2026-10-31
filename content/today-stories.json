@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-31T11:35:35.740Z",
+  "lastUpdated": "2026-10-31T16:42:38.120Z",
   "freshnessState": "fresh",
   "stories": [
     {
@@ -20,6 +20,17 @@
       "source": {
         "name": "Wired — Artificial Intelligence",
         "url": "https://www.wired.com/story/metas-muse-could-upend-all-kinds-of-businesses-it-hasnt-yet/",
+        "publishedDate": "2026-10-31"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6ae6028d775b11d46072b08c",
+      "category": "models",
+      "headline": "Google DeepMind Is Trying To Solve A Huge Problem In Healthcare: Antimicrobial Resistance",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/sites/saibala/2026/10/31/google-deepmind-is-trying-to-solve-a-huge-problem-in-healthcare-antimicrobial-resistance/",
         "publishedDate": "2026-10-31"
       },
       "traceToAnchors": []
@@ -647,17 +658,6 @@
       "source": {
         "name": "OpenAI — News",
         "url": "https://openai.com/index/introducing-gpt-6-1-terra",
-        "publishedDate": "2026-10-26"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3181689",
-      "category": "models",
-      "headline": "Anthropic’s IPO filing reveals its strategy for keeping enterprise customers hooked",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/10/26/anthropics-ipo-filing-reveals-its-strategy-for-keeping-enterprise-customers-hooked/",
         "publishedDate": "2026-10-26"
       },
       "traceToAnchors": []

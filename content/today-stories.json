@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-31T16:42:38.120Z",
+  "lastUpdated": "2026-10-31T20:54:18.321Z",
   "freshnessState": "fresh",
   "stories": [
     {
@@ -36,6 +36,17 @@
       "traceToAnchors": []
     },
     {
+      "id": "content_6adfd15b4015e078eea6c35e",
+      "category": "models",
+      "headline": "What To Watch This Weekend: New Shows And Movies To Stream On Netflix, Hulu, Prime Video, Apple TV And More",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/sites/erikkain/2026/10/31/what-to-watch-this-weekend-new-shows-and-movies-to-stream-on-netflix-hulu-prime-video-apple-tv-and-more/",
+        "publishedDate": "2026-10-31"
+      },
+      "traceToAnchors": []
+    },
+    {
       "id": "https://www.theverge.com/?p=1021080",
       "category": "compute-energy",
       "headline": "Maine’s data center revolt will decide who controls the Senate",
@@ -64,17 +75,6 @@
       "source": {
         "name": "Wired — Artificial Intelligence",
         "url": "https://www.wired.com/story/uncanny-valley-podcast-how-a-contractors-claude-agent-got-into-the-pentagon/",
-        "publishedDate": "2026-10-30"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6adfd15b4015e078eea6c35e",
-      "category": "models",
-      "headline": "What To Watch This Weekend: New Shows And Movies To Stream On Netflix, Hulu, Prime Video, Apple TV And More",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/sites/erikkain/2026/10/30/what-to-watch-this-weekend-new-shows-and-movies-to-stream-on-netflix-hulu-prime-video-apple-tv-and-more/",
         "publishedDate": "2026-10-30"
       },
       "traceToAnchors": []

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-31T20:54:18.321Z",
+  "lastUpdated": "2026-11-01T03:56:26.893Z",
   "freshnessState": "fresh",
   "stories": [
     {
@@ -42,6 +42,28 @@
       "source": {
         "name": "Forbes — Innovation",
         "url": "https://www.forbes.com/sites/erikkain/2026/10/31/what-to-watch-this-weekend-new-shows-and-movies-to-stream-on-netflix-hulu-prime-video-apple-tv-and-more/",
+        "publishedDate": "2026-10-31"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3184015",
+      "category": "models",
+      "headline": "4 days left: How TechCrunch Founder Summit helps you make more useful connections to scale",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/10/31/4-days-left-how-techcrunch-founder-summit-helps-you-make-more-useful-connections-to-scale/",
+        "publishedDate": "2026-10-31"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3184013",
+      "category": "compute-energy",
+      "headline": "Judge allows NAACP lawsuit over xAI data center pollution to move forward",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/",
         "publishedDate": "2026-10-31"
       },
       "traceToAnchors": []
@@ -636,28 +658,6 @@
       "source": {
         "name": "OpenAI — News",
         "url": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security",
-        "publishedDate": "2026-10-26"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://openai.com/index/chatgpt-expanding-world-of-work",
-      "category": "ai-lifecycle",
-      "headline": "ChatGPT’s expanding world of work",
-      "source": {
-        "name": "OpenAI — News",
-        "url": "https://openai.com/index/chatgpt-expanding-world-of-work",
-        "publishedDate": "2026-10-26"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://openai.com/index/introducing-gpt-6-1-terra",
-      "category": "models",
-      "headline": "Introducing GPT-6.1 Terra",
-      "source": {
-        "name": "OpenAI — News",
-        "url": "https://openai.com/index/introducing-gpt-6-1-terra",
         "publishedDate": "2026-10-26"
       },
       "traceToAnchors": []

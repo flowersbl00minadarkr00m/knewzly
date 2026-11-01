@@ -1,7 +1,18 @@
 {
-  "lastUpdated": "2026-11-01T12:32:54.129Z",
+  "lastUpdated": "2026-11-01T21:37:04.360Z",
   "freshnessState": "fresh",
   "stories": [
+    {
+      "id": "content_6adfd15b4015e078eea6c35e",
+      "category": "models",
+      "headline": "What To Watch This Weekend: New Shows And Movies To Stream On Netflix, Hulu, Prime Video, Apple TV And More",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/sites/erikkain/2026/11/01/what-to-watch-this-weekend-new-shows-and-movies-to-stream-on-netflix-hulu-prime-video-apple-tv-and-more/",
+        "publishedDate": "2026-11-01"
+      },
+      "traceToAnchors": []
+    },
     {
       "id": "https://techcrunch.com/?p=3183989",
       "category": "compute-energy",
@@ -31,17 +42,6 @@
       "source": {
         "name": "Forbes — Innovation",
         "url": "https://www.forbes.com/sites/saibala/2026/10/31/google-deepmind-is-trying-to-solve-a-huge-problem-in-healthcare-antimicrobial-resistance/",
-        "publishedDate": "2026-10-31"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6adfd15b4015e078eea6c35e",
-      "category": "models",
-      "headline": "What To Watch This Weekend: New Shows And Movies To Stream On Netflix, Hulu, Prime Video, Apple TV And More",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/sites/erikkain/2026/10/31/what-to-watch-this-weekend-new-shows-and-movies-to-stream-on-netflix-hulu-prime-video-apple-tv-and-more/",
         "publishedDate": "2026-10-31"
       },
       "traceToAnchors": []

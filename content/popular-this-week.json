@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
   "methodologyVersion": "weekly-momentum-v1",
-  "windowStart": "2026-10-25T12:32:54.308Z",
-  "windowEnd": "2026-11-01T12:32:54.308Z",
-  "lastAttemptedAt": "2026-11-01T12:32:54.308Z",
-  "lastSuccessfulAt": "2026-11-01T12:32:54.308Z",
+  "windowStart": "2026-10-25T21:37:04.497Z",
+  "windowEnd": "2026-11-01T21:37:04.497Z",
+  "lastAttemptedAt": "2026-11-01T21:37:04.497Z",
+  "lastSuccessfulAt": "2026-11-01T21:37:04.497Z",
   "status": "partial",
   "providers": {
     "gdelt": {
@@ -12,8 +12,8 @@
     },
     "hackerNews": {
       "status": "ok",
-      "sampledAt": "2026-11-01T12:32:54.308Z",
-      "itemCount": 198
+      "sampledAt": "2026-11-01T21:37:04.497Z",
+      "itemCount": 200
     },
     "bluesky": {
       "status": "not_configured"
@@ -22,13 +22,43 @@
   "entries": [
     {
       "rank": 1,
+      "leadStoryId": "content_6adfd15b4015e078eea6c35e",
+      "memberStoryIds": [
+        "content_6adfd15b4015e078eea6c35e"
+      ],
+      "category": "models",
+      "publishedAt": "2026-11-01T00:00:00.000Z",
+      "momentumScore": 0.4115707289445356,
+      "signals": {
+        "coverage": {
+          "state": "observed",
+          "basis": "canonical_today_sources",
+          "independentOutletCount": 1,
+          "sampledDomains": [
+            "forbes.com"
+          ]
+        },
+        "hackerNews": {
+          "state": "not_observed"
+        },
+        "recency": {
+          "state": "observed",
+          "ageHours": 21.617915833333335
+        },
+        "bluesky": {
+          "state": "not_configured"
+        }
+      }
+    },
+    {
+      "rank": 2,
       "leadStoryId": "6ae4e6ac964b916949bd58ed",
       "memberStoryIds": [
         "6ae4e6ac964b916949bd58ed"
       ],
       "category": "models",
       "publishedAt": "2026-10-31T00:00:00.000Z",
-      "momentumScore": 0.38617871694529143,
+      "momentumScore": 0.3707544024139234,
       "signals": {
         "coverage": {
           "state": "observed",
@@ -43,37 +73,7 @@
         },
         "recency": {
           "state": "observed",
-          "ageHours": 36.54841888888889
-        },
-        "bluesky": {
-          "state": "not_configured"
-        }
-      }
-    },
-    {
-      "rank": 2,
-      "leadStoryId": "content_6adfd15b4015e078eea6c35e",
-      "memberStoryIds": [
-        "content_6adfd15b4015e078eea6c35e"
-      ],
-      "category": "models",
-      "publishedAt": "2026-10-31T00:00:00.000Z",
-      "momentumScore": 0.38617871694529143,
-      "signals": {
-        "coverage": {
-          "state": "observed",
-          "basis": "canonical_today_sources",
-          "independentOutletCount": 1,
-          "sampledDomains": [
-            "forbes.com"
-          ]
-        },
-        "hackerNews": {
-          "state": "not_observed"
-        },
-        "recency": {
-          "state": "observed",
-          "ageHours": 36.54841888888889
+          "ageHours": 45.617915833333335
         },
         "bluesky": {
           "state": "not_configured"
@@ -88,7 +88,7 @@
       ],
       "category": "models",
       "publishedAt": "2026-10-31T00:00:00.000Z",
-      "momentumScore": 0.38617871694529143,
+      "momentumScore": 0.3707544024139234,
       "signals": {
         "coverage": {
           "state": "observed",
@@ -103,7 +103,7 @@
         },
         "recency": {
           "state": "observed",
-          "ageHours": 36.54841888888889
+          "ageHours": 45.617915833333335
         },
         "bluesky": {
           "state": "not_configured"
@@ -118,7 +118,7 @@
       ],
       "category": "compute-energy",
       "publishedAt": "2026-10-31T00:00:00.000Z",
-      "momentumScore": 0.38617871694529143,
+      "momentumScore": 0.3707544024139234,
       "signals": {
         "coverage": {
           "state": "observed",
@@ -133,7 +133,7 @@
         },
         "recency": {
           "state": "observed",
-          "ageHours": 36.54841888888889
+          "ageHours": 45.617915833333335
         },
         "bluesky": {
           "state": "not_configured"
@@ -148,7 +148,7 @@
       ],
       "category": "compute-energy",
       "publishedAt": "2026-10-31T00:00:00.000Z",
-      "momentumScore": 0.38617871694529143,
+      "momentumScore": 0.3707544024139234,
       "signals": {
         "coverage": {
           "state": "observed",
@@ -163,7 +163,7 @@
         },
         "recency": {
           "state": "observed",
-          "ageHours": 36.54841888888889
+          "ageHours": 45.617915833333335
         },
         "bluesky": {
           "state": "not_configured"
@@ -178,7 +178,7 @@
       ],
       "category": "models",
       "publishedAt": "2026-10-31T00:00:00.000Z",
-      "momentumScore": 0.38617871694529143,
+      "momentumScore": 0.3707544024139234,
       "signals": {
         "coverage": {
           "state": "observed",
@@ -193,7 +193,7 @@
         },
         "recency": {
           "state": "observed",
-          "ageHours": 36.54841888888889
+          "ageHours": 45.617915833333335
         },
         "bluesky": {
           "state": "not_configured"
@@ -208,7 +208,7 @@
       ],
       "category": "compute-energy",
       "publishedAt": "2026-10-30T00:00:00.000Z",
-      "momentumScore": 0.3453623904146792,
+      "momentumScore": 0.3299380758833111,
       "signals": {
         "coverage": {
           "state": "observed",
@@ -223,7 +223,7 @@
         },
         "recency": {
           "state": "observed",
-          "ageHours": 60.54841888888889
+          "ageHours": 69.61791583333333
         },
         "bluesky": {
           "state": "not_configured"
@@ -238,7 +238,7 @@
       ],
       "category": "ai-lifecycle",
       "publishedAt": "2026-10-30T00:00:00.000Z",
-      "momentumScore": 0.3453623904146792,
+      "momentumScore": 0.3299380758833111,
       "signals": {
         "coverage": {
           "state": "observed",
@@ -253,7 +253,7 @@
         },
         "recency": {
           "state": "observed",
-          "ageHours": 60.54841888888889
+          "ageHours": 69.61791583333333
         },
         "bluesky": {
           "state": "not_configured"
@@ -268,7 +268,7 @@
       ],
       "category": "safety-governance",
       "publishedAt": "2026-10-30T00:00:00.000Z",
-      "momentumScore": 0.3453623904146792,
+      "momentumScore": 0.3299380758833111,
       "signals": {
         "coverage": {
           "state": "observed",
@@ -283,7 +283,7 @@
         },
         "recency": {
           "state": "observed",
-          "ageHours": 60.54841888888889
+          "ageHours": 69.61791583333333
         },
         "bluesky": {
           "state": "not_configured"
@@ -298,7 +298,7 @@
       ],
       "category": "compute-energy",
       "publishedAt": "2026-10-30T00:00:00.000Z",
-      "momentumScore": 0.3453623904146792,
+      "momentumScore": 0.3299380758833111,
       "signals": {
         "coverage": {
           "state": "observed",
@@ -313,7 +313,7 @@
         },
         "recency": {
           "state": "observed",
-          "ageHours": 60.54841888888889
+          "ageHours": 69.61791583333333
         },
         "bluesky": {
           "state": "not_configured"
@@ -328,7 +328,7 @@
       ],
       "category": "research",
       "publishedAt": "2026-10-29T00:00:00.000Z",
-      "momentumScore": 0.30454606388406696,
+      "momentumScore": 0.28912174935269885,
       "signals": {
         "coverage": {
           "state": "observed",
@@ -343,7 +343,7 @@
         },
         "recency": {
           "state": "observed",
-          "ageHours": 84.54841888888889
+          "ageHours": 93.61791583333333
         },
         "bluesky": {
           "state": "not_configured"
@@ -358,7 +358,7 @@
       ],
       "category": "safety-governance",
       "publishedAt": "2026-10-29T00:00:00.000Z",
-      "momentumScore": 0.30454606388406696,
+      "momentumScore": 0.28912174935269885,
       "signals": {
         "coverage": {
           "state": "observed",
@@ -373,7 +373,7 @@
         },
         "recency": {
           "state": "observed",
-          "ageHours": 84.54841888888889
+          "ageHours": 93.61791583333333
         },
         "bluesky": {
           "state": "not_configured"

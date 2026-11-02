@@ -1,7 +1,73 @@
 {
-  "lastUpdated": "2026-11-02T03:59:40.413Z",
+  "lastUpdated": "2026-11-02T14:35:42.493Z",
   "freshnessState": "fresh",
   "stories": [
+    {
+      "id": "https://www.technologyreview.com/?p=1147846",
+      "category": "ai-lifecycle",
+      "headline": "The agentic web is here",
+      "source": {
+        "name": "MIT Technology Review — Artificial Intelligence",
+        "url": "https://www.technologyreview.com/2026/11/02/1147846/the-agentic-web-is-here/",
+        "publishedDate": "2026-11-02"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3184089",
+      "category": "ai-lifecycle",
+      "headline": "OpenAI is finally merging ChatGPT&#8217;s chat and Work tabs",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/11/02/openai-is-finally-merging-chatgpts-chat-and-work-tabs/",
+        "publishedDate": "2026-11-02"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "6ace3a4387812505ce91e493",
+      "category": "ai-lifecycle",
+      "headline": "Hundreds of Mundane AI Apps Are Hiding Sexually Abusive Deepfake Features",
+      "source": {
+        "name": "Wired — Artificial Intelligence",
+        "url": "https://www.wired.com/story/hundreds-of-mundane-ai-apps-are-hiding-abusive-deepfake-features/",
+        "publishedDate": "2026-11-02"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://tldr.tech/ai/2026-11-02",
+      "category": "models",
+      "headline": "DeepSeek super agent 🤖, GPT-6 Rosalind 🧬, Google orbital compute 🛰️",
+      "source": {
+        "name": "TLDR AI",
+        "url": "https://tldr.tech/ai/2026-11-02",
+        "publishedDate": "2026-11-02"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6ae500574f20f87f75c53da1",
+      "category": "ai-lifecycle",
+      "headline": "The Engineering Behind An AI-Native Software Development Life Cycle",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/councils/forbestechcouncil/2026/11/02/the-engineering-behind-an-ai-native-software-development-life-cycle/",
+        "publishedDate": "2026-11-02"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6ae4fcc3775b11d46072b061",
+      "category": "research",
+      "headline": "The Next Frontier Of Business Requires A Space Mindset",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/councils/forbestechcouncil/2026/11/02/the-next-frontier-of-business-requires-a-space-mindset/",
+        "publishedDate": "2026-11-02"
+      },
+      "traceToAnchors": []
+    },
     {
       "id": "content_6adfd15b4015e078eea6c35e",
       "category": "models",
@@ -593,72 +659,6 @@
         "name": "The Verge — Artificial Intelligence",
         "url": "https://www.theverge.com/ai-artificial-intelligence/1019921/openai-breakthrough-math-computer-science-physics",
         "publishedDate": "2026-10-27"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6ae0de0060ce0d793bd2569c",
-      "category": "safety-governance",
-      "headline": "AI Agents Need Human Accountability, Not More Oversight",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/councils/forbestechcouncil/2026/10/27/ai-agents-need-human-accountability-not-more-oversight/",
-        "publishedDate": "2026-10-27"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6ae0d768c432b7c03fffe9cb",
-      "category": "models",
-      "headline": "This $600 Million Startup Is Helping Keep Company Secrets Away From AI Agents",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/sites/rashishrivastava/2026/10/27/this-600-million-startup-is-helping-keep-company-secrets-away-from-ai-agents/",
-        "publishedDate": "2026-10-27"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://developer.nvidia.com/blog/?p=124247",
-      "category": "compute-energy",
-      "headline": "Memory-Enforced GPU Sharing in Kubernetes with NVIDIA CUDA 13.4",
-      "source": {
-        "name": "NVIDIA — Technical Blog",
-        "url": "https://developer.nvidia.com/blog/memory-enforced-gpu-sharing-in-kubernetes-with-nvidia-cuda-13-4/",
-        "publishedDate": "2026-10-27"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://openai.com/index/retell-ai",
-      "category": "models",
-      "headline": "Retell uses OpenAI models to help power 100M monthly calls",
-      "source": {
-        "name": "OpenAI — News",
-        "url": "https://openai.com/index/retell-ai",
-        "publishedDate": "2026-10-27"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3181301",
-      "category": "compute-energy",
-      "headline": "The data center boom has an upside: innovation for the US grid",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/10/27/the-data-center-boom-has-an-upside-innovation-for-the-us-grid/",
-        "publishedDate": "2026-10-27"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "6ada485dbf3ea47f4d281be1",
-      "category": "models",
-      "headline": "Meet the AI Agents Trying to Be Real-Life Journalists",
-      "source": {
-        "name": "Wired — Artificial Intelligence",
-        "url": "https://www.wired.com/story/ai-agents-are-trying-to-be-journalists-now/",
-        "publishedDate": "2026-10-26"
       },
       "traceToAnchors": []
     }

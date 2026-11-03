@@ -1,7 +1,62 @@
 {
-  "lastUpdated": "2026-11-03T00:23:35.963Z",
+  "lastUpdated": "2026-11-03T13:29:48.566Z",
   "freshnessState": "fresh",
   "stories": [
+    {
+      "id": "https://www.technologyreview.com/?p=1147934",
+      "category": "research",
+      "headline": "How “reverse game theory” could keep AI agents in check",
+      "source": {
+        "name": "MIT Technology Review — Artificial Intelligence",
+        "url": "https://www.technologyreview.com/2026/11/03/1147934/reverse-game-theory-mechanism-design-ai-alignment/",
+        "publishedDate": "2026-11-03"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3184378",
+      "category": "ai-lifecycle",
+      "headline": "Apple Watch&#8217;s AI features for rewinding and recapping conversations begin beta testing",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/11/02/apple-watchs-ai-features-for-rewinding-and-recapping-conversations-begin-beta-testing/",
+        "publishedDate": "2026-11-03"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3184485",
+      "category": "ai-lifecycle",
+      "headline": "Y Combinator&#8217;s Garry Tan uses AI agents so much, he spends up to $200K a year on tokens",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/11/02/y-combinators-garry-tan-uses-ai-agents-so-much-he-spends-up-to-200k-a-year-on-tokens/",
+        "publishedDate": "2026-11-03"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "6ae37585b7cef7207a0617e3",
+      "category": "compute-energy",
+      "headline": "‘Our Risk, Their Reward’: Zohran Mamdani on AI and Data Centers",
+      "source": {
+        "name": "Wired — Artificial Intelligence",
+        "url": "https://www.wired.com/story/the-big-interview-podcast-nyc-mayor-zohran-mamdani/",
+        "publishedDate": "2026-11-03"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6ae8a9820f633be185bed938",
+      "category": "models",
+      "headline": "From Data Layer To Decision Layer: Why AI Agents Need More Than Information",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/councils/forbestechcouncil/2026/11/03/from-data-layer-to-decision-layer-why-ai-agents-need-more-than-information/",
+        "publishedDate": "2026-11-03"
+      },
+      "traceToAnchors": []
+    },
     {
       "id": "https://www.technologyreview.com/?p=1147846",
       "category": "ai-lifecycle",
@@ -604,61 +659,6 @@
         "name": "Wired — Artificial Intelligence",
         "url": "https://www.wired.com/story/i-put-ai-agents-in-charge-of-a-fantasy-team/",
         "publishedDate": "2026-10-28"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6ae1ab4d65e3718ed5e519e0",
-      "category": "safety-governance",
-      "headline": "2 Rules The Happiest Single People Swear By, By A Psychologist",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/sites/traversmark/2026/10/28/2-rules-the-happiest-single-people-swear-by-by-a-psychologist/",
-        "publishedDate": "2026-10-28"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6adf82bdb948ce390ae29248",
-      "category": "research",
-      "headline": "Physical AI Is Coming: When AI Stops Generating Content And Starts Acting On The World",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/councils/forbestechcouncil/2026/10/27/physical-ai-is-coming-when-ai-stops-generating-content-and-starts-acting-on-the-world/",
-        "publishedDate": "2026-10-27"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6adf7e7c1fcdf972e37359da",
-      "category": "safety-governance",
-      "headline": "Why AI Oversight Should Reach Beyond The Model",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/councils/forbestechcouncil/2026/10/27/why-ai-oversight-should-reach-beyond-the-model/",
-        "publishedDate": "2026-10-27"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.technologyreview.com/?p=1147142",
-      "category": "research",
-      "headline": "Industrial Intelligence: The next growth opportunity for manufacturing",
-      "source": {
-        "name": "MIT Technology Review — Artificial Intelligence",
-        "url": "https://www.technologyreview.com/2026/10/27/1147142/industrial-intelligence-the-next-growth-opportunity-for-manufacturing/",
-        "publishedDate": "2026-10-27"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://openai.com/index/oracle-apps-in-chatgpt",
-      "category": "ai-lifecycle",
-      "headline": "OpenAI expands partnership with Oracle to bring its apps to ChatGPT",
-      "source": {
-        "name": "OpenAI — News",
-        "url": "https://openai.com/index/oracle-apps-in-chatgpt",
-        "publishedDate": "2026-10-27"
       },
       "traceToAnchors": []
     }

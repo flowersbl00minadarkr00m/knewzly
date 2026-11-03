@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-02T14:35:42.493Z",
+  "lastUpdated": "2026-11-03T00:23:35.963Z",
   "freshnessState": "fresh",
   "stories": [
     {
@@ -64,6 +64,105 @@
       "source": {
         "name": "Forbes — Innovation",
         "url": "https://www.forbes.com/councils/forbestechcouncil/2026/11/02/the-next-frontier-of-business-requires-a-space-mindset/",
+        "publishedDate": "2026-11-02"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.technologyreview.com/?p=1147660",
+      "category": "ai-lifecycle",
+      "headline": "Raising the quality of insights in agentic analytics",
+      "source": {
+        "name": "MIT Technology Review — Artificial Intelligence",
+        "url": "https://www.technologyreview.com/2026/11/02/1147660/raising-the-quality-of-insights-in-agentic-analytics/",
+        "publishedDate": "2026-11-02"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theverge.com/?p=1024632",
+      "category": "models",
+      "headline": "Anthropic clamps down on Claude’s AI video game clones",
+      "source": {
+        "name": "The Verge — Artificial Intelligence",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1024632/anthropic-claude-ai-video-game-clones",
+        "publishedDate": "2026-11-02"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theverge.com/?p=1024604",
+      "category": "compute-energy",
+      "headline": "OpenAI pitches data center power plants as a way to protect nearby areas",
+      "source": {
+        "name": "The Verge — Artificial Intelligence",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1024604/openai-data-center-grid-protection-program",
+        "publishedDate": "2026-11-02"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6ae8f4d430465d2baac03489",
+      "category": "research",
+      "headline": "The Best New Movies To Watch This Week On Netflix, HBO Max, Prime Video, In Theaters And More",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/sites/erikkain/2026/11/02/best-new-movies-to-stream-this-week-netflix-hbo-and-more/",
+        "publishedDate": "2026-11-02"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://developer.nvidia.com/blog/?p=124515",
+      "category": "ai-lifecycle",
+      "headline": "Diagnose Distributed AI Workload Failures with NVIDIA Attribution",
+      "source": {
+        "name": "NVIDIA — Technical Blog",
+        "url": "https://developer.nvidia.com/blog/diagnose-distributed-ai-workload-failures-with-nvidia-attribution/",
+        "publishedDate": "2026-11-02"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://developer.nvidia.com/blog/?p=124491",
+      "category": "ai-lifecycle",
+      "headline": "Keep Distributed Training Running with Automated Workload Recovery",
+      "source": {
+        "name": "NVIDIA — Technical Blog",
+        "url": "https://developer.nvidia.com/blog/keep-distributed-training-running-with-automated-workload-recovery/",
+        "publishedDate": "2026-11-02"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://developer.nvidia.com/blog/?p=124438",
+      "category": "ai-lifecycle",
+      "headline": "Making Kubernetes AI-Ready for NVIDIA Vera Rubin on Day One",
+      "source": {
+        "name": "NVIDIA — Technical Blog",
+        "url": "https://developer.nvidia.com/blog/making-kubernetes-ai-ready-for-nvidia-vera-rubin-on-day-one/",
+        "publishedDate": "2026-11-02"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://developer.nvidia.com/blog/?p=124402",
+      "category": "ai-lifecycle",
+      "headline": "Build World Models for Interactive Simulation with NVIDIA Cosmos",
+      "source": {
+        "name": "NVIDIA — Technical Blog",
+        "url": "https://developer.nvidia.com/blog/build-world-models-for-interactive-simulation-with-nvidia-cosmos/",
+        "publishedDate": "2026-11-02"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://developer.nvidia.com/blog/?p=124270",
+      "category": "ai-lifecycle",
+      "headline": "Support New AI Frameworks Faster Using NVIDIA Workload Map",
+      "source": {
+        "name": "NVIDIA — Technical Blog",
+        "url": "https://developer.nvidia.com/blog/support-new-ai-frameworks-faster-using-nvidia-workload-map/",
         "publishedDate": "2026-11-02"
       },
       "traceToAnchors": []
@@ -559,105 +658,6 @@
       "source": {
         "name": "OpenAI — News",
         "url": "https://openai.com/index/oracle-apps-in-chatgpt",
-        "publishedDate": "2026-10-27"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3182045",
-      "category": "models",
-      "headline": "Google’s Genie 4 world model adds audio, more realistic worlds, and real-time steering",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/10/27/googles-genie-4-world-model-adds-audio-more-realistic-worlds-and-real-time-steering/",
-        "publishedDate": "2026-10-27"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3182018",
-      "category": "ai-lifecycle",
-      "headline": "Meta AI director Rohit Patel leaves to take on Microsoft Office and Google Workspace",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/10/27/meta-ai-director-rohit-patel-leaves-to-take-on-microsoft-office-and-google-workspace/",
-        "publishedDate": "2026-10-27"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3181625",
-      "category": "models",
-      "headline": "Nvidia backs Indian startup helping companies run AI models with fewer GPUs",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/10/27/nvidia-backs-indian-startup-helping-companies-run-ai-models-with-fewer-gpus/",
-        "publishedDate": "2026-10-27"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theverge.com/?p=1019076",
-      "category": "models",
-      "headline": "Google’s next Genie AI model generates more realistic experiences",
-      "source": {
-        "name": "The Verge — Artificial Intelligence",
-        "url": "https://www.theverge.com/tech/1019076/google-genie-4-ai-model",
-        "publishedDate": "2026-10-27"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "6ad9cfffb974411ce94e5e2c",
-      "category": "safety-governance",
-      "headline": "UK Home Office May Face Investigation Over Use of OpenAI Tech",
-      "source": {
-        "name": "Wired — Artificial Intelligence",
-        "url": "https://www.wired.com/story/uk-home-office-may-face-investigation-over-use-of-openai-tools/",
-        "publishedDate": "2026-10-27"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://tldr.tech/ai/2026-10-27",
-      "category": "models",
-      "headline": "GPT-6.1 Terra ⚡, Anthropic IPO filing 📈, agent native git 👨‍💻",
-      "source": {
-        "name": "TLDR AI",
-        "url": "https://tldr.tech/ai/2026-10-27",
-        "publishedDate": "2026-10-27"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://developer.nvidia.com/blog/?p=124229",
-      "category": "ai-lifecycle",
-      "headline": "Fine-Tuning NVIDIA Nemotron to Know Local Rules, Not Just Local Languages",
-      "source": {
-        "name": "NVIDIA — Technical Blog",
-        "url": "https://developer.nvidia.com/blog/fine-tuning-nvidia-nemotron-to-know-local-rules-not-just-local-languages/",
-        "publishedDate": "2026-10-27"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://developer.nvidia.com/blog/?p=124221",
-      "category": "ai-lifecycle",
-      "headline": "3 Ways to Boost MoE Inference on NVIDIA DGX Spark",
-      "source": {
-        "name": "NVIDIA — Technical Blog",
-        "url": "https://developer.nvidia.com/blog/3-ways-to-boost-moe-inference-on-nvidia-dgx-spark/",
-        "publishedDate": "2026-10-27"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theverge.com/?p=1019921",
-      "category": "research",
-      "headline": "Researchers are getting tired of OpenAI gatekeeping its breakthroughs",
-      "source": {
-        "name": "The Verge — Artificial Intelligence",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/1019921/openai-breakthrough-math-computer-science-physics",
         "publishedDate": "2026-10-27"
       },
       "traceToAnchors": []

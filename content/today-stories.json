@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-04T13:40:38.329Z",
+  "lastUpdated": "2026-11-04T23:06:59.369Z",
   "freshnessState": "fresh",
   "stories": [
     {
@@ -9,6 +9,160 @@
       "source": {
         "name": "MIT Technology Review — Artificial Intelligence",
         "url": "https://www.technologyreview.com/2026/11/04/1147596/securing-the-agentic-enterprise-with-data-lineage/",
+        "publishedDate": "2026-11-04"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.technologyreview.com/?p=1148043",
+      "category": "compute-energy",
+      "headline": "Texas was the new epicenter of the AI data center buildout. That might be kaput.",
+      "source": {
+        "name": "MIT Technology Review — Artificial Intelligence",
+        "url": "https://www.technologyreview.com/2026/11/04/1148043/texas-was-the-new-epicenter-of-the-ai-data-center-buildout-that-might-be-kaput/",
+        "publishedDate": "2026-11-04"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://openai.com/index/daybreak-red-aws-govcloud",
+      "category": "models",
+      "headline": "Daybreak Red is now available in AWS GovCloud (US-East)",
+      "source": {
+        "name": "OpenAI — News",
+        "url": "https://openai.com/index/daybreak-red-aws-govcloud",
+        "publishedDate": "2026-11-04"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3185172",
+      "category": "research",
+      "headline": "Nothing CEO says company&#8217;s mysterious AI-first device is dropping next month",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/11/04/nothing-ceo-says-companys-mysterious-ai-first-device-is-dropping-next-month/",
+        "publishedDate": "2026-11-04"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?post_type=tc_video&#038;p=3185186",
+      "category": "safety-governance",
+      "headline": "Open source AI is booming. Hugging Face explains who profits.",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/video/open-source-ai-is-booming-hugging-face-explains-who-profits/",
+        "publishedDate": "2026-11-04"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3185129",
+      "category": "models",
+      "headline": "DuckDuckGo pitches itself to schools amid backlash over Google&#8217;s AI policy",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/11/04/duckduckgo-pitches-itself-to-schools-amid-backlash-over-googles-ai-policy/",
+        "publishedDate": "2026-11-04"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?post_type=tc_podcast&#038;p=3185167",
+      "category": "safety-governance",
+      "headline": "Building on open source AI? Hugging Face’s policy chief on the costs, risks, and trade-offs",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/podcast/building-on-open-source-ai-hugging-faces-policy-chief-on-the-costs-risks-and-trade-offs/",
+        "publishedDate": "2026-11-04"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theverge.com/?p=1026867",
+      "category": "compute-energy",
+      "headline": "Qualcomm is betting big on data centers as smartphone sales sink",
+      "source": {
+        "name": "The Verge — Artificial Intelligence",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1026867/qualcomm-earnings-data-centers",
+        "publishedDate": "2026-11-04"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theverge.com/?p=1026586",
+      "category": "research",
+      "headline": "Nothing teases a screen-free AI device ahead of launch next month",
+      "source": {
+        "name": "The Verge — Artificial Intelligence",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1026586/nothing-screen-free-ai-device-carl-pei",
+        "publishedDate": "2026-11-04"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theverge.com/?p=1026365",
+      "category": "compute-energy",
+      "headline": "Data centers lost the midterms",
+      "source": {
+        "name": "The Verge — Artificial Intelligence",
+        "url": "https://www.theverge.com/policy/1026365/data-centers-midterms-results",
+        "publishedDate": "2026-11-04"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "6ad2762c3bafd52c8d60c16a",
+      "category": "safety-governance",
+      "headline": "Hugging Face’s CEO Says His P(Doom) Is ‘Close to Zero’",
+      "source": {
+        "name": "Wired — Artificial Intelligence",
+        "url": "https://www.wired.com/story/wired-world-fair-2026-clement-delangue-hugging-face/",
+        "publishedDate": "2026-11-04"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "6ae4a246273b3c41ba93a346",
+      "category": "compute-energy",
+      "headline": "The Results Are In: Voters Hate Data Centers",
+      "source": {
+        "name": "Wired — Artificial Intelligence",
+        "url": "https://www.wired.com/story/the-results-are-in-voters-hate-data-centers/",
+        "publishedDate": "2026-11-04"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://developer.nvidia.com/blog/?p=124627",
+      "category": "ai-lifecycle",
+      "headline": "How NVIDIA Uses AI Agents to Streamline AI Factory Operations",
+      "source": {
+        "name": "NVIDIA — Technical Blog",
+        "url": "https://developer.nvidia.com/blog/how-nvidia-uses-ai-agents-to-streamline-ai-factory-operations/",
+        "publishedDate": "2026-11-04"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://developer.nvidia.com/blog/?p=124039",
+      "category": "ai-lifecycle",
+      "headline": "How NVIDIA Factory Operations Blueprint Coordinates AI Agents to Investigate Production Issues",
+      "source": {
+        "name": "NVIDIA — Technical Blog",
+        "url": "https://developer.nvidia.com/blog/how-nvidia-factory-operations-blueprint-coordinates-ai-agents-to-investigate-production-issues/",
+        "publishedDate": "2026-11-04"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://developer.nvidia.com/blog/?p=124389",
+      "category": "models",
+      "headline": "Use NVIDIA NeMo to Turn Agent Failures into Tests and Harness Fixes",
+      "source": {
+        "name": "NVIDIA — Technical Blog",
+        "url": "https://developer.nvidia.com/blog/use-nvidia-nemo-to-turn-agent-failures-into-tests-and-harness-fixes/",
         "publishedDate": "2026-11-04"
       },
       "traceToAnchors": []
@@ -505,160 +659,6 @@
         "name": "MIT Technology Review — Artificial Intelligence",
         "url": "https://www.technologyreview.com/2026/10/29/1147824/monitor-ai-agents-actions-real-time/",
         "publishedDate": "2026-10-29"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theneurondaily.com/p/new-york-curbs-ai-chatbots-for-kids",
-      "category": "research",
-      "headline": "😸 New York curbs AI chatbots for kids",
-      "source": {
-        "name": "The Neuron",
-        "url": "https://www.theneurondaily.com/p/new-york-curbs-ai-chatbots-for-kids",
-        "publishedDate": "2026-10-29"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6ae28edc1a56321928355290",
-      "category": "research",
-      "headline": "The 10 Best Scary Movies To Watch On Netflix This Halloween",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/sites/erikkain/2026/10/28/best-scary-horror-movies-netflix-halloween-2026/",
-        "publishedDate": "2026-10-29"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://huggingface.co/blog/anydecisionmodel",
-      "category": "models",
-      "headline": "Introducing AnySpeechRecognizer and AnyDecisionModel: Open Models for Speech and Decisions on Apple Platforms",
-      "source": {
-        "name": "Hugging Face — Blog",
-        "url": "https://huggingface.co/blog/anydecisionmodel",
-        "publishedDate": "2026-10-29"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3183122",
-      "category": "models",
-      "headline": "Meta quietly launches an AI fashion app called Style Sketch",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/10/29/meta-quietly-launches-an-ai-fashion-app-called-style-sketch/",
-        "publishedDate": "2026-10-29"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theverge.com/?p=1022519",
-      "category": "models",
-      "headline": "You can generate and edit Google Docs files directly in Gemini chats now",
-      "source": {
-        "name": "The Verge — Artificial Intelligence",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/1022519/google-gemini-file-editing-documents-pdfs",
-        "publishedDate": "2026-10-29"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theverge.com/?p=1022023",
-      "category": "ai-lifecycle",
-      "headline": "Microsoft’s AI future has fewer jobs",
-      "source": {
-        "name": "The Verge — Artificial Intelligence",
-        "url": "https://www.theverge.com/tech/1022023/microsoft-exit-offer-layoffs-notepad",
-        "publishedDate": "2026-10-29"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theverge.com/?p=1021476",
-      "category": "models",
-      "headline": "Anthropic’s business plan: Build God or die trying",
-      "source": {
-        "name": "The Verge — Artificial Intelligence",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/1021476/anthropic-s-1-compute-recursive",
-        "publishedDate": "2026-10-29"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://tldr.tech/ai/2026-10-29",
-      "category": "models",
-      "headline": "Gemini 4 Carbon 🌱, Nemotron Transcribe 📝, benchmarker’s dilemma ❓",
-      "source": {
-        "name": "TLDR AI",
-        "url": "https://tldr.tech/ai/2026-10-29",
-        "publishedDate": "2026-10-29"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://huggingface.co/blog/mistral-large4",
-      "category": "safety-governance",
-      "headline": "Welcome Le Chonk: Mistral Large 4 on Hugging Face",
-      "source": {
-        "name": "Hugging Face — Blog",
-        "url": "https://huggingface.co/blog/mistral-large4",
-        "publishedDate": "2026-10-29"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3182406",
-      "category": "models",
-      "headline": "VCs will make billions on Anthropic&#8217;s IPO, but Amazon is set to make much (much) more",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/10/27/vcs-will-make-billions-on-anthropics-ipo-but-amazon-is-set-to-make-much-much-more/",
-        "publishedDate": "2026-10-28"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://openai.com/index/legora-agentic-operating-system-for-legal-work",
-      "category": "ai-lifecycle",
-      "headline": "Legora is building the agentic operating system for legal work",
-      "source": {
-        "name": "OpenAI — News",
-        "url": "https://openai.com/index/legora-agentic-operating-system-for-legal-work",
-        "publishedDate": "2026-10-28"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theneurondaily.com/p/google-launches-genie-4-with-sound",
-      "category": "models",
-      "headline": "😺 Google launches Genie 4 with sound",
-      "source": {
-        "name": "The Neuron",
-        "url": "https://www.theneurondaily.com/p/google-launches-genie-4-with-sound",
-        "publishedDate": "2026-10-28"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6adf5b8179e506da0b296c10",
-      "category": "models",
-      "headline": "‘Football Manager 27’ First Look: The Game’s Back",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/sites/barrycollins/2026/10/28/football-manager-27-first-look-the-games-back/",
-        "publishedDate": "2026-10-28"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://openai.com/index/legora",
-      "category": "ai-lifecycle",
-      "headline": "Legora is building the agentic operating system for legal work",
-      "source": {
-        "name": "OpenAI — News",
-        "url": "https://openai.com/index/legora",
-        "publishedDate": "2026-10-28"
       },
       "traceToAnchors": []
     }

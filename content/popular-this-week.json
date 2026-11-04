@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
   "methodologyVersion": "weekly-momentum-v1",
-  "windowStart": "2026-10-27T22:48:14.350Z",
-  "windowEnd": "2026-11-03T22:48:14.350Z",
-  "lastAttemptedAt": "2026-11-03T22:48:14.350Z",
-  "lastSuccessfulAt": "2026-11-03T22:48:14.350Z",
+  "windowStart": "2026-10-28T04:33:22.323Z",
+  "windowEnd": "2026-11-04T04:33:22.323Z",
+  "lastAttemptedAt": "2026-11-04T04:33:22.323Z",
+  "lastSuccessfulAt": "2026-11-04T04:33:22.323Z",
   "status": "partial",
   "providers": {
     "gdelt": {
@@ -12,7 +12,7 @@
     },
     "hackerNews": {
       "status": "ok",
-      "sampledAt": "2026-11-03T22:48:14.350Z",
+      "sampledAt": "2026-11-04T04:33:22.323Z",
       "itemCount": 200
     },
     "bluesky": {
@@ -28,7 +28,7 @@
       ],
       "category": "compute-energy",
       "publishedAt": "2026-11-03T00:00:00.000Z",
-      "momentumScore": 0.4095536026217843,
+      "momentumScore": 0.39977092452276697,
       "signals": {
         "coverage": {
           "state": "observed",
@@ -43,7 +43,7 @@
         },
         "recency": {
           "state": "observed",
-          "ageHours": 22.80398611111111
+          "ageHours": 28.55620083333333
         },
         "bluesky": {
           "state": "not_configured"
@@ -58,7 +58,7 @@
       ],
       "category": "models",
       "publishedAt": "2026-11-03T00:00:00.000Z",
-      "momentumScore": 0.4095536026217843,
+      "momentumScore": 0.39977092452276697,
       "signals": {
         "coverage": {
           "state": "observed",
@@ -73,7 +73,7 @@
         },
         "recency": {
           "state": "observed",
-          "ageHours": 22.80398611111111
+          "ageHours": 28.55620083333333
         },
         "bluesky": {
           "state": "not_configured"
@@ -82,13 +82,43 @@
     },
     {
       "rank": 3,
+      "leadStoryId": "content_6aea6131bff5ed506ae46d19",
+      "memberStoryIds": [
+        "content_6aea6131bff5ed506ae46d19"
+      ],
+      "category": "models",
+      "publishedAt": "2026-11-03T00:00:00.000Z",
+      "momentumScore": 0.39977092452276697,
+      "signals": {
+        "coverage": {
+          "state": "observed",
+          "basis": "canonical_today_sources",
+          "independentOutletCount": 1,
+          "sampledDomains": [
+            "forbes.com"
+          ]
+        },
+        "hackerNews": {
+          "state": "not_observed"
+        },
+        "recency": {
+          "state": "observed",
+          "ageHours": 28.55620083333333
+        },
+        "bluesky": {
+          "state": "not_configured"
+        }
+      }
+    },
+    {
+      "rank": 4,
       "leadStoryId": "https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/",
       "memberStoryIds": [
         "https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/"
       ],
       "category": "models",
       "publishedAt": "2026-11-03T00:00:00.000Z",
-      "momentumScore": 0.4095536026217843,
+      "momentumScore": 0.39977092452276697,
       "signals": {
         "coverage": {
           "state": "observed",
@@ -103,37 +133,7 @@
         },
         "recency": {
           "state": "observed",
-          "ageHours": 22.80398611111111
-        },
-        "bluesky": {
-          "state": "not_configured"
-        }
-      }
-    },
-    {
-      "rank": 4,
-      "leadStoryId": "https://huggingface.co/blog/allenai/statebench",
-      "memberStoryIds": [
-        "https://huggingface.co/blog/allenai/statebench"
-      ],
-      "category": "ai-lifecycle",
-      "publishedAt": "2026-11-03T00:00:00.000Z",
-      "momentumScore": 0.4095536026217843,
-      "signals": {
-        "coverage": {
-          "state": "observed",
-          "basis": "canonical_today_sources",
-          "independentOutletCount": 1,
-          "sampledDomains": [
-            "huggingface.co"
-          ]
-        },
-        "hackerNews": {
-          "state": "not_observed"
-        },
-        "recency": {
-          "state": "observed",
-          "ageHours": 22.80398611111111
+          "ageHours": 28.55620083333333
         },
         "bluesky": {
           "state": "not_configured"
@@ -142,13 +142,13 @@
     },
     {
       "rank": 5,
-      "leadStoryId": "https://huggingface.co/blog/ibm-research/palette-deck-building",
+      "leadStoryId": "https://huggingface.co/blog/allenai/statebench",
       "memberStoryIds": [
-        "https://huggingface.co/blog/ibm-research/palette-deck-building"
+        "https://huggingface.co/blog/allenai/statebench"
       ],
-      "category": "research",
+      "category": "ai-lifecycle",
       "publishedAt": "2026-11-03T00:00:00.000Z",
-      "momentumScore": 0.4095536026217843,
+      "momentumScore": 0.39977092452276697,
       "signals": {
         "coverage": {
           "state": "observed",
@@ -163,7 +163,7 @@
         },
         "recency": {
           "state": "observed",
-          "ageHours": 22.80398611111111
+          "ageHours": 28.55620083333333
         },
         "bluesky": {
           "state": "not_configured"
@@ -172,13 +172,43 @@
     },
     {
       "rank": 6,
+      "leadStoryId": "https://huggingface.co/blog/ibm-research/palette-deck-building",
+      "memberStoryIds": [
+        "https://huggingface.co/blog/ibm-research/palette-deck-building"
+      ],
+      "category": "research",
+      "publishedAt": "2026-11-03T00:00:00.000Z",
+      "momentumScore": 0.39977092452276697,
+      "signals": {
+        "coverage": {
+          "state": "observed",
+          "basis": "canonical_today_sources",
+          "independentOutletCount": 1,
+          "sampledDomains": [
+            "huggingface.co"
+          ]
+        },
+        "hackerNews": {
+          "state": "not_observed"
+        },
+        "recency": {
+          "state": "observed",
+          "ageHours": 28.55620083333333
+        },
+        "bluesky": {
+          "state": "not_configured"
+        }
+      }
+    },
+    {
+      "rank": 7,
       "leadStoryId": "https://openai.com/index/accelerating-engineering-for-the-physical-world",
       "memberStoryIds": [
         "https://openai.com/index/accelerating-engineering-for-the-physical-world"
       ],
       "category": "research",
       "publishedAt": "2026-11-03T00:00:00.000Z",
-      "momentumScore": 0.4095536026217843,
+      "momentumScore": 0.39977092452276697,
       "signals": {
         "coverage": {
           "state": "observed",
@@ -193,37 +223,7 @@
         },
         "recency": {
           "state": "observed",
-          "ageHours": 22.80398611111111
-        },
-        "bluesky": {
-          "state": "not_configured"
-        }
-      }
-    },
-    {
-      "rank": 7,
-      "leadStoryId": "https://techcrunch.com/?p=3184378",
-      "memberStoryIds": [
-        "https://techcrunch.com/?p=3184378"
-      ],
-      "category": "ai-lifecycle",
-      "publishedAt": "2026-11-03T00:00:00.000Z",
-      "momentumScore": 0.4095536026217843,
-      "signals": {
-        "coverage": {
-          "state": "observed",
-          "basis": "canonical_today_sources",
-          "independentOutletCount": 1,
-          "sampledDomains": [
-            "techcrunch.com"
-          ]
-        },
-        "hackerNews": {
-          "state": "not_observed"
-        },
-        "recency": {
-          "state": "observed",
-          "ageHours": 22.80398611111111
+          "ageHours": 28.55620083333333
         },
         "bluesky": {
           "state": "not_configured"
@@ -232,13 +232,13 @@
     },
     {
       "rank": 8,
-      "leadStoryId": "https://techcrunch.com/?p=3184485",
+      "leadStoryId": "https://techcrunch.com/?p=3184378",
       "memberStoryIds": [
-        "https://techcrunch.com/?p=3184485"
+        "https://techcrunch.com/?p=3184378"
       ],
       "category": "ai-lifecycle",
       "publishedAt": "2026-11-03T00:00:00.000Z",
-      "momentumScore": 0.4095536026217843,
+      "momentumScore": 0.39977092452276697,
       "signals": {
         "coverage": {
           "state": "observed",
@@ -253,7 +253,7 @@
         },
         "recency": {
           "state": "observed",
-          "ageHours": 22.80398611111111
+          "ageHours": 28.55620083333333
         },
         "bluesky": {
           "state": "not_configured"
@@ -262,13 +262,13 @@
     },
     {
       "rank": 9,
-      "leadStoryId": "https://techcrunch.com/?p=3184699",
+      "leadStoryId": "https://techcrunch.com/?p=3184485",
       "memberStoryIds": [
-        "https://techcrunch.com/?p=3184699"
+        "https://techcrunch.com/?p=3184485"
       ],
-      "category": "research",
+      "category": "ai-lifecycle",
       "publishedAt": "2026-11-03T00:00:00.000Z",
-      "momentumScore": 0.4095536026217843,
+      "momentumScore": 0.39977092452276697,
       "signals": {
         "coverage": {
           "state": "observed",
@@ -283,7 +283,7 @@
         },
         "recency": {
           "state": "observed",
-          "ageHours": 22.80398611111111
+          "ageHours": 28.55620083333333
         },
         "bluesky": {
           "state": "not_configured"
@@ -292,13 +292,13 @@
     },
     {
       "rank": 10,
-      "leadStoryId": "https://techcrunch.com/?p=3184717",
+      "leadStoryId": "https://techcrunch.com/?p=3184699",
       "memberStoryIds": [
-        "https://techcrunch.com/?p=3184717"
+        "https://techcrunch.com/?p=3184699"
       ],
       "category": "research",
       "publishedAt": "2026-11-03T00:00:00.000Z",
-      "momentumScore": 0.4095536026217843,
+      "momentumScore": 0.39977092452276697,
       "signals": {
         "coverage": {
           "state": "observed",
@@ -313,7 +313,7 @@
         },
         "recency": {
           "state": "observed",
-          "ageHours": 22.80398611111111
+          "ageHours": 28.55620083333333
         },
         "bluesky": {
           "state": "not_configured"
@@ -322,13 +322,13 @@
     },
     {
       "rank": 11,
-      "leadStoryId": "https://techcrunch.com/?p=3184891",
+      "leadStoryId": "https://techcrunch.com/?p=3184717",
       "memberStoryIds": [
-        "https://techcrunch.com/?p=3184891"
+        "https://techcrunch.com/?p=3184717"
       ],
-      "category": "models",
+      "category": "research",
       "publishedAt": "2026-11-03T00:00:00.000Z",
-      "momentumScore": 0.4095536026217843,
+      "momentumScore": 0.39977092452276697,
       "signals": {
         "coverage": {
           "state": "observed",
@@ -343,7 +343,7 @@
         },
         "recency": {
           "state": "observed",
-          "ageHours": 22.80398611111111
+          "ageHours": 28.55620083333333
         },
         "bluesky": {
           "state": "not_configured"
@@ -352,13 +352,13 @@
     },
     {
       "rank": 12,
-      "leadStoryId": "https://techcrunch.com/?p=3184896",
+      "leadStoryId": "https://techcrunch.com/?p=3184891",
       "memberStoryIds": [
-        "https://techcrunch.com/?p=3184896"
+        "https://techcrunch.com/?p=3184891"
       ],
-      "category": "compute-energy",
+      "category": "models",
       "publishedAt": "2026-11-03T00:00:00.000Z",
-      "momentumScore": 0.4095536026217843,
+      "momentumScore": 0.39977092452276697,
       "signals": {
         "coverage": {
           "state": "observed",
@@ -373,7 +373,7 @@
         },
         "recency": {
           "state": "observed",
-          "ageHours": 22.80398611111111
+          "ageHours": 28.55620083333333
         },
         "bluesky": {
           "state": "not_configured"

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-03T22:48:14.179Z",
+  "lastUpdated": "2026-11-04T04:33:22.145Z",
   "freshnessState": "fresh",
   "stories": [
     {
@@ -152,6 +152,17 @@
       "source": {
         "name": "Hugging Face — Blog",
         "url": "https://huggingface.co/blog/ibm-research/palette-deck-building",
+        "publishedDate": "2026-11-03"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6aea6131bff5ed506ae46d19",
+      "category": "models",
+      "headline": "Apple’s New Always-On Audio Intelligence Features Are Now Available In Beta",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/sites/prakharkhanna/2026/11/03/apples-new-always-on-audio-intelligence-features-are-now-available-in-beta/",
         "publishedDate": "2026-11-03"
       },
       "traceToAnchors": []
@@ -647,17 +658,6 @@
       "source": {
         "name": "TechCrunch — Artificial Intelligence",
         "url": "https://techcrunch.com/2026/10/28/as-ai-agents-reshape-the-web-google-opens-gemini-and-search-to-more-apps/",
-        "publishedDate": "2026-10-28"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theverge.com/?p=1020626",
-      "category": "models",
-      "headline": "Chrome’s enhanced autofill can now pull info from Gmail to help you fill out forms",
-      "source": {
-        "name": "The Verge — Artificial Intelligence",
-        "url": "https://www.theverge.com/tech/1020626/chrome-enhanced-autofill-gmail-forms-gemini-personal-intelligence",
         "publishedDate": "2026-10-28"
       },
       "traceToAnchors": []

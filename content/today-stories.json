@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-05T04:49:05.710Z",
+  "lastUpdated": "2026-11-05T13:53:28.121Z",
   "freshnessState": "fresh",
   "stories": [
     {
@@ -9,6 +9,61 @@
       "source": {
         "name": "TechCrunch — Artificial Intelligence",
         "url": "https://techcrunch.com/2026/11/04/after-the-midterms-a-bigger-clash-over-data-centers-could-be-coming/",
+        "publishedDate": "2026-11-05"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3185211",
+      "category": "research",
+      "headline": "A YC startup is putting $1M behind five unsolved materials science problems for AI",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/11/05/a-yc-startup-is-putting-1m-behind-five-unsolved-materials-science-problems-for-ai/",
+        "publishedDate": "2026-11-05"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "6ad269f3214a8f2918b4f89d",
+      "category": "research",
+      "headline": "AI’s Next Trick? Speaking Dolphin",
+      "source": {
+        "name": "Wired — Artificial Intelligence",
+        "url": "https://www.wired.com/story/wired-world-fair-2026-denise-herzing-wild-dolphin/",
+        "publishedDate": "2026-11-05"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "6ad26bec5976120efa9e5d95",
+      "category": "ai-lifecycle",
+      "headline": "He Trolls AI Labs for a Living. Now They All Want to Work With Him",
+      "source": {
+        "name": "Wired — Artificial Intelligence",
+        "url": "https://www.wired.com/story/wired-world-fair-2026-evan-ratliff-and-husk/",
+        "publishedDate": "2026-11-05"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6aea4763a642e92af7e213ef",
+      "category": "ai-lifecycle",
+      "headline": "AI Will Make Code Cheap, But It Won’t Shrink Most Engineering Teams",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/councils/forbestechcouncil/2026/11/05/ai-will-make-code-cheap-but-it-wont-shrink-most-engineering-teams/",
+        "publishedDate": "2026-11-05"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://huggingface.co/blog/phonon-tts",
+      "category": "models",
+      "headline": "A Closer Look at Phonon TTS. Launching High-Quality On-Device Speech That Tops the Benchmarks.",
+      "source": {
+        "name": "Hugging Face — Blog",
+        "url": "https://huggingface.co/blog/phonon-tts",
         "publishedDate": "2026-11-05"
       },
       "traceToAnchors": []
@@ -604,61 +659,6 @@
         "name": "TechCrunch — Artificial Intelligence",
         "url": "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/",
         "publishedDate": "2026-10-31"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theverge.com/?p=1021080",
-      "category": "compute-energy",
-      "headline": "Maine’s data center revolt will decide who controls the Senate",
-      "source": {
-        "name": "The Verge — Artificial Intelligence",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/1021080/maine-senate-race-susan-collins-ai-data-centers",
-        "publishedDate": "2026-10-30"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://openai.com/index/helping-websites-express-ai-training-preferences",
-      "category": "safety-governance",
-      "headline": "Making it easier for websites to express AI training preferences",
-      "source": {
-        "name": "OpenAI — News",
-        "url": "https://openai.com/index/helping-websites-express-ai-training-preferences",
-        "publishedDate": "2026-10-30"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "6ae2572fb8b2eb024a124f0c",
-      "category": "models",
-      "headline": "How a Contractor’s Claude Agent Got Into the Pentagon",
-      "source": {
-        "name": "Wired — Artificial Intelligence",
-        "url": "https://www.wired.com/story/uncanny-valley-podcast-how-a-contractors-claude-agent-got-into-the-pentagon/",
-        "publishedDate": "2026-10-30"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6ae4e0ab4f20f87f75c53d8b",
-      "category": "models",
-      "headline": "Apple’s iPhone AI Watermark Has A Catch: Google’s Gemini May Not Read It",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/sites/paulmonckton/2026/10/30/iphone-ai-watermark-check/",
-        "publishedDate": "2026-10-30"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://developer.nvidia.com/blog/?p=124341",
-      "category": "ai-lifecycle",
-      "headline": "Build Specialized Agents on a Stack You Control with NVIDIA NemoClaw",
-      "source": {
-        "name": "NVIDIA — Technical Blog",
-        "url": "https://developer.nvidia.com/blog/build-specialized-agents-on-a-stack-you-control-with-nvidia-nemoclaw/",
-        "publishedDate": "2026-10-30"
       },
       "traceToAnchors": []
     }

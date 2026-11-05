@@ -1,7 +1,18 @@
 {
-  "lastUpdated": "2026-11-04T23:06:59.369Z",
+  "lastUpdated": "2026-11-05T04:49:05.710Z",
   "freshnessState": "fresh",
   "stories": [
+    {
+      "id": "https://techcrunch.com/?p=3185307",
+      "category": "research",
+      "headline": "After the midterms, a bigger clash over data centers could be coming",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/11/04/after-the-midterms-a-bigger-clash-over-data-centers-could-be-coming/",
+        "publishedDate": "2026-11-05"
+      },
+      "traceToAnchors": []
+    },
     {
       "id": "https://www.technologyreview.com/?p=1147596",
       "category": "ai-lifecycle",
@@ -163,6 +174,28 @@
       "source": {
         "name": "NVIDIA — Technical Blog",
         "url": "https://developer.nvidia.com/blog/use-nvidia-nemo-to-turn-agent-failures-into-tests-and-harness-fixes/",
+        "publishedDate": "2026-11-04"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "6aeb5a0c899aefeeb033196c",
+      "category": "compute-energy",
+      "headline": "The Blue Wave Has Tech Bros Scrambling for Data Centers in Space",
+      "source": {
+        "name": "Wired — Artificial Intelligence",
+        "url": "https://www.wired.com/story/the-blue-wave-has-tech-bros-scrambling-for-data-centers-in-space/",
+        "publishedDate": "2026-11-04"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6aeba470bff5ed506ae46d85",
+      "category": "research",
+      "headline": "Do Data Centers Cause Heat Islands? A New Study Says No",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/sites/marshallshepherd/2026/11/04/do-data-centers-cause-heat-islands-a-new-study-says-no/",
         "publishedDate": "2026-11-04"
       },
       "traceToAnchors": []
@@ -626,39 +659,6 @@
         "name": "NVIDIA — Technical Blog",
         "url": "https://developer.nvidia.com/blog/build-specialized-agents-on-a-stack-you-control-with-nvidia-nemoclaw/",
         "publishedDate": "2026-10-30"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://developer.nvidia.com/blog/?p=124327",
-      "category": "compute-energy",
-      "headline": "How to Check and Configure NVIDIA GPUDirect Storage for Your Platform",
-      "source": {
-        "name": "NVIDIA — Technical Blog",
-        "url": "https://developer.nvidia.com/blog/how-to-check-and-configure-nvidia-gpudirect-storage-for-your-platform/",
-        "publishedDate": "2026-10-30"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theverge.com/?p=1023974",
-      "category": "models",
-      "headline": "Apple Intelligence is finally coming to China with iOS 27.3",
-      "source": {
-        "name": "The Verge — Artificial Intelligence",
-        "url": "https://www.theverge.com/tech/1023974/apple-intelligence-china-ios-27-3",
-        "publishedDate": "2026-10-30"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.technologyreview.com/?p=1147824",
-      "category": "safety-governance",
-      "headline": "We urgently need to monitor AI agents’ actions in real time",
-      "source": {
-        "name": "MIT Technology Review — Artificial Intelligence",
-        "url": "https://www.technologyreview.com/2026/10/29/1147824/monitor-ai-agents-actions-real-time/",
-        "publishedDate": "2026-10-29"
       },
       "traceToAnchors": []
     }

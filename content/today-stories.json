@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-06T04:48:30.081Z",
+  "lastUpdated": "2026-11-06T13:38:50.761Z",
   "freshnessState": "fresh",
   "stories": [
     {
@@ -31,6 +31,61 @@
       "source": {
         "name": "Forbes — Innovation",
         "url": "https://www.forbes.com/sites/zinnialee/2026/11/05/this-nvidia-backed-ai-startup-is-helping-chip-giants-save-time-and-money/",
+        "publishedDate": "2026-11-06"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3185713",
+      "category": "ai-lifecycle",
+      "headline": "Palo Alto Networks in talks to buy AI agent security startup Clutch for $500M",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/11/05/palo-alto-networks-in-talks-to-buy-ai-agent-security-startup-clutch-for-500m/",
+        "publishedDate": "2026-11-06"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theverge.com/?p=1028549",
+      "category": "compute-energy",
+      "headline": "Protesters break into Microsoft data center site in Amsterdam",
+      "source": {
+        "name": "The Verge — Artificial Intelligence",
+        "url": "https://www.theverge.com/news/1028549/protesters-microsoft-data-center-site-amsterdam",
+        "publishedDate": "2026-11-06"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theneurondaily.com/p/openai-released-gpt-6-cyber-a-hacking-ai",
+      "category": "models",
+      "headline": "😺 OpenAI released GPT-6 Cyber, a hacking AI",
+      "source": {
+        "name": "The Neuron",
+        "url": "https://www.theneurondaily.com/p/openai-released-gpt-6-cyber-a-hacking-ai",
+        "publishedDate": "2026-11-06"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6aedbf011b0a60a6e730bfc8",
+      "category": "models",
+      "headline": "Motorola Moto Watch 2 Fit: Looks Like An Apple Watch But Lasts 2 Weeks",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/sites/andrewwilliams/2026/11/06/motorola-moto-watch-2-fit-looks-like-an-applewatch-but-lasts-2-weeks/",
+        "publishedDate": "2026-11-06"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6aeb9608bff5ed506ae46d79",
+      "category": "ai-lifecycle",
+      "headline": "How To Redesign Infrastructure Operations For Agentic AI",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/councils/forbestechcouncil/2026/11/06/how-to-redesign-infrastructure-operations-for-agentic-ai/",
         "publishedDate": "2026-11-06"
       },
       "traceToAnchors": []
@@ -603,61 +658,6 @@
       "source": {
         "name": "TechCrunch — Artificial Intelligence",
         "url": "https://techcrunch.com/2026/11/02/openai-is-finally-merging-chatgpts-chat-and-work-tabs/",
-        "publishedDate": "2026-11-02"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "6ace3a4387812505ce91e493",
-      "category": "ai-lifecycle",
-      "headline": "Hundreds of Mundane AI Apps Are Hiding Sexually Abusive Deepfake Features",
-      "source": {
-        "name": "Wired — Artificial Intelligence",
-        "url": "https://www.wired.com/story/hundreds-of-mundane-ai-apps-are-hiding-abusive-deepfake-features/",
-        "publishedDate": "2026-11-02"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://tldr.tech/ai/2026-11-02",
-      "category": "models",
-      "headline": "DeepSeek super agent 🤖, GPT-6 Rosalind 🧬, Google orbital compute 🛰️",
-      "source": {
-        "name": "TLDR AI",
-        "url": "https://tldr.tech/ai/2026-11-02",
-        "publishedDate": "2026-11-02"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6ae500574f20f87f75c53da1",
-      "category": "ai-lifecycle",
-      "headline": "The Engineering Behind An AI-Native Software Development Life Cycle",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/councils/forbestechcouncil/2026/11/02/the-engineering-behind-an-ai-native-software-development-life-cycle/",
-        "publishedDate": "2026-11-02"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6ae4fcc3775b11d46072b061",
-      "category": "research",
-      "headline": "The Next Frontier Of Business Requires A Space Mindset",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/councils/forbestechcouncil/2026/11/02/the-next-frontier-of-business-requires-a-space-mindset/",
-        "publishedDate": "2026-11-02"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.technologyreview.com/?p=1147660",
-      "category": "ai-lifecycle",
-      "headline": "Raising the quality of insights in agentic analytics",
-      "source": {
-        "name": "MIT Technology Review — Artificial Intelligence",
-        "url": "https://www.technologyreview.com/2026/11/02/1147660/raising-the-quality-of-insights-in-agentic-analytics/",
         "publishedDate": "2026-11-02"
       },
       "traceToAnchors": []

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-06T13:38:50.761Z",
+  "lastUpdated": "2026-11-06T22:38:34.547Z",
   "freshnessState": "fresh",
   "stories": [
     {
@@ -86,6 +86,116 @@
       "source": {
         "name": "Forbes — Innovation",
         "url": "https://www.forbes.com/councils/forbestechcouncil/2026/11/06/how-to-redesign-infrastructure-operations-for-agentic-ai/",
+        "publishedDate": "2026-11-06"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
+      "category": "research",
+      "headline": "Measuring how AI agents handle everyday wet-lab science",
+      "source": {
+        "name": "OpenAI — News",
+        "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
+        "publishedDate": "2026-11-06"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3185929",
+      "category": "models",
+      "headline": "Meta introduces Spaces, a new way to collaborate with your Muse agent",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/11/06/meta-introduces-spaces-a-new-way-to-collaborate-with-your-muse-agent/",
+        "publishedDate": "2026-11-06"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3185848",
+      "category": "research",
+      "headline": "Ramp data shows AI spending stalling just as Anthropic nears its IPO",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/11/06/ramp-data-shows-ai-spending-stalling-just-as-anthropic-nears-its-ipo/",
+        "publishedDate": "2026-11-06"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3185780",
+      "category": "models",
+      "headline": "After blocking Muse, Amazon now lets users text Alexa to help them shop",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/11/06/after-blocking-muse-amazon-now-lets-users-text-alexa-to-help-them-shop/",
+        "publishedDate": "2026-11-06"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theverge.com/?post_type=vm_stream&#038;p=902546",
+      "category": "compute-energy",
+      "headline": "All the latest updates on AI data centers",
+      "source": {
+        "name": "The Verge — Artificial Intelligence",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/902546/data-centers-ai-energy-power-grids-controversy",
+        "publishedDate": "2026-11-06"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theverge.com/?p=1028871",
+      "category": "models",
+      "headline": "Meta&#8217;s Muse AI can create custom &#8216;spaces&#8217; for the version of the app you need right now",
+      "source": {
+        "name": "The Verge — Artificial Intelligence",
+        "url": "https://www.theverge.com/tech/1028871/meta-muse-ai-spaces",
+        "publishedDate": "2026-11-06"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://tldr.tech/ai/2026-11-06",
+      "category": "models",
+      "headline": "Anthropic R&D accelerates 📈, GPT-6 Cyber 🔐, Inkling 2 Small 🧠",
+      "source": {
+        "name": "TLDR AI",
+        "url": "https://tldr.tech/ai/2026-11-06",
+        "publishedDate": "2026-11-06"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://huggingface.co/blog/allenai/toyblocks",
+      "category": "research",
+      "headline": "ToyBlocks: A controlled world for robot learning and evaluation",
+      "source": {
+        "name": "Hugging Face — Blog",
+        "url": "https://huggingface.co/blog/allenai/toyblocks",
+        "publishedDate": "2026-11-06"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://developer.nvidia.com/blog/?p=124785",
+      "category": "compute-energy",
+      "headline": "Speed Up Image Generation with FLUX 3 Image Klein on NVIDIA Blackwell GPUs",
+      "source": {
+        "name": "NVIDIA — Technical Blog",
+        "url": "https://developer.nvidia.com/blog/speed-up-image-generation-with-flux-3-image-klein-on-nvidia-blackwell-gpus/",
+        "publishedDate": "2026-11-06"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://developer.nvidia.com/blog/?p=124653",
+      "category": "research",
+      "headline": "Accelerating Reinforcement Learning Weight Refit with the Reshard Collective",
+      "source": {
+        "name": "NVIDIA — Technical Blog",
+        "url": "https://developer.nvidia.com/blog/accelerating-reinforcement-learning-weight-refit-with-the-reshard-collective/",
         "publishedDate": "2026-11-06"
       },
       "traceToAnchors": []
@@ -549,116 +659,6 @@
         "name": "Google DeepMind — Blog",
         "url": "https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/",
         "publishedDate": "2026-11-03"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3184891",
-      "category": "models",
-      "headline": "Anthropic is working on a system to prove AI models&#8217; identity",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity/",
-        "publishedDate": "2026-11-03"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3184896",
-      "category": "compute-energy",
-      "headline": "Data centers are turning to old jet engines as the wait for power grows",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/11/03/data-centers-are-turning-to-old-jet-engines-as-the-wait-for-power-grows/",
-        "publishedDate": "2026-11-03"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3184699",
-      "category": "research",
-      "headline": "Hiding inside Palantir&#8217;s skyrocketing quarter is a foreboding signal",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/11/03/hiding-inside-palantirs-skyrocketing-quarter-is-a-foreboding-signal/",
-        "publishedDate": "2026-11-03"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3184717",
-      "category": "research",
-      "headline": "Netflix&#8217;s new AI Discover tab helps you find something to watch based on your mood",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/11/03/netflixs-new-ai-discover-tab-helps-you-find-something-to-watch-based-on-your-mood/",
-        "publishedDate": "2026-11-03"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://tldr.tech/ai/2026-11-03",
-      "category": "models",
-      "headline": "Claude Message Threads 🧵, Astra 6.2 spotted 👀, Anthropic nears RSI 🔄",
-      "source": {
-        "name": "TLDR AI",
-        "url": "https://tldr.tech/ai/2026-11-03",
-        "publishedDate": "2026-11-03"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://huggingface.co/blog/allenai/statebench",
-      "category": "ai-lifecycle",
-      "headline": "StateBench: Testing how language models track state changes over long documents",
-      "source": {
-        "name": "Hugging Face — Blog",
-        "url": "https://huggingface.co/blog/allenai/statebench",
-        "publishedDate": "2026-11-03"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://huggingface.co/blog/ibm-research/palette-deck-building",
-      "category": "research",
-      "headline": "Palette: teaching a small model to build decks in your design language",
-      "source": {
-        "name": "Hugging Face — Blog",
-        "url": "https://huggingface.co/blog/ibm-research/palette-deck-building",
-        "publishedDate": "2026-11-03"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6aea6131bff5ed506ae46d19",
-      "category": "models",
-      "headline": "Apple’s New Always-On Audio Intelligence Features Are Now Available In Beta",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/sites/prakharkhanna/2026/11/03/apples-new-always-on-audio-intelligence-features-are-now-available-in-beta/",
-        "publishedDate": "2026-11-03"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.technologyreview.com/?p=1147846",
-      "category": "ai-lifecycle",
-      "headline": "The agentic web is here",
-      "source": {
-        "name": "MIT Technology Review — Artificial Intelligence",
-        "url": "https://www.technologyreview.com/2026/11/02/1147846/the-agentic-web-is-here/",
-        "publishedDate": "2026-11-02"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3184089",
-      "category": "ai-lifecycle",
-      "headline": "OpenAI is finally merging ChatGPT&#8217;s chat and Work tabs",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/11/02/openai-is-finally-merging-chatgpts-chat-and-work-tabs/",
-        "publishedDate": "2026-11-02"
       },
       "traceToAnchors": []
     }

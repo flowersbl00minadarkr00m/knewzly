@@ -1,7 +1,40 @@
 {
-  "lastUpdated": "2026-11-05T23:10:48.008Z",
+  "lastUpdated": "2026-11-06T04:48:30.081Z",
   "freshnessState": "fresh",
   "stories": [
+    {
+      "id": "https://www.theverge.com/?p=1028412",
+      "category": "ai-lifecycle",
+      "headline": "Airbnb is working on an AI travel agent",
+      "source": {
+        "name": "The Verge — Artificial Intelligence",
+        "url": "https://www.theverge.com/tech/1028412/airbnb-ai-travel-agent-q3-2026-earnings",
+        "publishedDate": "2026-11-06"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6aec8d08a642e92af7e214bd",
+      "category": "research",
+      "headline": "The Midterms Sent A Warning To AI. Four Things To Watch For",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/sites/robertszczerba/2026/11/05/the-midterms-sent-a-warning-to-ai-four-things-to-watch-for/",
+        "publishedDate": "2026-11-06"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6aea9281bff5ed506ae46d1f",
+      "category": "models",
+      "headline": "This Nvidia-Backed AI Startup Is Helping Chip Giants Save Time And Money",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/sites/zinnialee/2026/11/05/this-nvidia-backed-ai-startup-is-helping-chip-giants-save-time-and-money/",
+        "publishedDate": "2026-11-06"
+      },
+      "traceToAnchors": []
+    },
     {
       "id": "https://techcrunch.com/?p=3185307",
       "category": "research",
@@ -625,39 +658,6 @@
       "source": {
         "name": "MIT Technology Review — Artificial Intelligence",
         "url": "https://www.technologyreview.com/2026/11/02/1147660/raising-the-quality-of-insights-in-agentic-analytics/",
-        "publishedDate": "2026-11-02"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theverge.com/?p=1024632",
-      "category": "models",
-      "headline": "Anthropic clamps down on Claude’s AI video game clones",
-      "source": {
-        "name": "The Verge — Artificial Intelligence",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/1024632/anthropic-claude-ai-video-game-clones",
-        "publishedDate": "2026-11-02"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theverge.com/?p=1024604",
-      "category": "compute-energy",
-      "headline": "OpenAI pitches data center power plants as a way to protect nearby areas",
-      "source": {
-        "name": "The Verge — Artificial Intelligence",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/1024604/openai-data-center-grid-protection-program",
-        "publishedDate": "2026-11-02"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6ae8f4d430465d2baac03489",
-      "category": "research",
-      "headline": "The Best New Movies To Watch This Week On Netflix, HBO Max, Prime Video, In Theaters And More",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/sites/erikkain/2026/11/02/best-new-movies-to-stream-this-week-netflix-hbo-and-more/",
         "publishedDate": "2026-11-02"
       },
       "traceToAnchors": []

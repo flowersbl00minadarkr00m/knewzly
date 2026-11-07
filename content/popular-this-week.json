@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
   "methodologyVersion": "weekly-momentum-v1",
-  "windowStart": "2026-10-31T12:19:20.425Z",
-  "windowEnd": "2026-11-07T12:19:20.425Z",
-  "lastAttemptedAt": "2026-11-07T12:19:20.425Z",
-  "lastSuccessfulAt": "2026-11-07T12:19:20.425Z",
+  "windowStart": "2026-10-31T21:21:44.196Z",
+  "windowEnd": "2026-11-07T21:21:44.196Z",
+  "lastAttemptedAt": "2026-11-07T21:21:44.196Z",
+  "lastSuccessfulAt": "2026-11-07T21:21:44.196Z",
   "status": "partial",
   "providers": {
     "gdelt": {
@@ -12,8 +12,8 @@
     },
     "hackerNews": {
       "status": "ok",
-      "sampledAt": "2026-11-07T12:19:20.425Z",
-      "itemCount": 200
+      "sampledAt": "2026-11-07T21:21:44.196Z",
+      "itemCount": 199
     },
     "bluesky": {
       "status": "not_configured"
@@ -28,7 +28,7 @@
       ],
       "category": "compute-energy",
       "publishedAt": "2026-11-06T00:00:00.000Z",
-      "momentumScore": 0.4353848367065992,
+      "momentumScore": 0.4249990639540888,
       "signals": {
         "coverage": {
           "state": "observed",
@@ -41,14 +41,14 @@
         "hackerNews": {
           "state": "observed",
           "points": 39,
-          "comments": 37,
+          "comments": 38,
           "itemIds": [
             50392330
           ]
         },
         "recency": {
           "state": "observed",
-          "ageHours": 36.322340277777776
+          "ageHours": 45.362276666666666
         },
         "bluesky": {
           "state": "not_configured"
@@ -57,33 +57,28 @@
     },
     {
       "rank": 2,
-      "leadStoryId": "https://openai.com/index/introducing-gpt-6-cyber",
+      "leadStoryId": "content_6aef7fe94dd753cc5b9e5c22",
       "memberStoryIds": [
-        "https://openai.com/index/introducing-gpt-6-cyber"
+        "content_6aef7fe94dd753cc5b9e5c22"
       ],
-      "category": "models",
-      "publishedAt": "2026-11-05T00:00:00.000Z",
-      "momentumScore": 0.39757689010319364,
+      "category": "research",
+      "publishedAt": "2026-11-07T00:00:00.000Z",
+      "momentumScore": 0.41200548943206394,
       "signals": {
         "coverage": {
           "state": "observed",
           "basis": "canonical_today_sources",
           "independentOutletCount": 1,
           "sampledDomains": [
-            "openai.com"
+            "forbes.com"
           ]
         },
         "hackerNews": {
-          "state": "observed",
-          "points": 61,
-          "comments": 7,
-          "itemIds": [
-            50381590
-          ]
+          "state": "not_observed"
         },
         "recency": {
           "state": "observed",
-          "ageHours": 60.322340277777776
+          "ageHours": 21.362276666666666
         },
         "bluesky": {
           "state": "not_configured"
@@ -92,20 +87,20 @@
     },
     {
       "rank": 3,
-      "leadStoryId": "content_6aea9281bff5ed506ae46d1f",
+      "leadStoryId": "https://www.theverge.com/?p=1029038",
       "memberStoryIds": [
-        "content_6aea9281bff5ed506ae46d1f"
+        "https://www.theverge.com/?p=1029038"
       ],
-      "category": "models",
-      "publishedAt": "2026-11-06T00:00:00.000Z",
-      "momentumScore": 0.3865632043791539,
+      "category": "research",
+      "publishedAt": "2026-11-07T00:00:00.000Z",
+      "momentumScore": 0.41200548943206394,
       "signals": {
         "coverage": {
           "state": "observed",
           "basis": "canonical_today_sources",
           "independentOutletCount": 1,
           "sampledDomains": [
-            "forbes.com"
+            "theverge.com"
           ]
         },
         "hackerNews": {
@@ -113,7 +108,7 @@
         },
         "recency": {
           "state": "observed",
-          "ageHours": 36.322340277777776
+          "ageHours": 21.362276666666666
         },
         "bluesky": {
           "state": "not_configured"
@@ -122,20 +117,20 @@
     },
     {
       "rank": 4,
-      "leadStoryId": "content_6aeb9608bff5ed506ae46d79",
+      "leadStoryId": "https://www.theverge.com/?p=1029483",
       "memberStoryIds": [
-        "content_6aeb9608bff5ed506ae46d79"
+        "https://www.theverge.com/?p=1029483"
       ],
-      "category": "ai-lifecycle",
-      "publishedAt": "2026-11-06T00:00:00.000Z",
-      "momentumScore": 0.3865632043791539,
+      "category": "compute-energy",
+      "publishedAt": "2026-11-07T00:00:00.000Z",
+      "momentumScore": 0.41200548943206394,
       "signals": {
         "coverage": {
           "state": "observed",
           "basis": "canonical_today_sources",
           "independentOutletCount": 1,
           "sampledDomains": [
-            "forbes.com"
+            "theverge.com"
           ]
         },
         "hackerNews": {
@@ -143,7 +138,7 @@
         },
         "recency": {
           "state": "observed",
-          "ageHours": 36.322340277777776
+          "ageHours": 21.362276666666666
         },
         "bluesky": {
           "state": "not_configured"
@@ -152,13 +147,13 @@
     },
     {
       "rank": 5,
-      "leadStoryId": "content_6aec8d08a642e92af7e214bd",
+      "leadStoryId": "content_6aea9281bff5ed506ae46d1f",
       "memberStoryIds": [
-        "content_6aec8d08a642e92af7e214bd"
+        "content_6aea9281bff5ed506ae46d1f"
       ],
-      "category": "research",
+      "category": "models",
       "publishedAt": "2026-11-06T00:00:00.000Z",
-      "momentumScore": 0.3865632043791539,
+      "momentumScore": 0.37118916290145176,
       "signals": {
         "coverage": {
           "state": "observed",
@@ -173,7 +168,7 @@
         },
         "recency": {
           "state": "observed",
-          "ageHours": 36.322340277777776
+          "ageHours": 45.362276666666666
         },
         "bluesky": {
           "state": "not_configured"
@@ -182,13 +177,13 @@
     },
     {
       "rank": 6,
-      "leadStoryId": "content_6aedbf011b0a60a6e730bfc8",
+      "leadStoryId": "content_6aeb9608bff5ed506ae46d79",
       "memberStoryIds": [
-        "content_6aedbf011b0a60a6e730bfc8"
+        "content_6aeb9608bff5ed506ae46d79"
       ],
-      "category": "models",
+      "category": "ai-lifecycle",
       "publishedAt": "2026-11-06T00:00:00.000Z",
-      "momentumScore": 0.3865632043791539,
+      "momentumScore": 0.37118916290145176,
       "signals": {
         "coverage": {
           "state": "observed",
@@ -203,7 +198,7 @@
         },
         "recency": {
           "state": "observed",
-          "ageHours": 36.322340277777776
+          "ageHours": 45.362276666666666
         },
         "bluesky": {
           "state": "not_configured"
@@ -212,20 +207,20 @@
     },
     {
       "rank": 7,
-      "leadStoryId": "https://developer.nvidia.com/blog/?p=124653",
+      "leadStoryId": "content_6aec8d08a642e92af7e214bd",
       "memberStoryIds": [
-        "https://developer.nvidia.com/blog/?p=124653"
+        "content_6aec8d08a642e92af7e214bd"
       ],
       "category": "research",
       "publishedAt": "2026-11-06T00:00:00.000Z",
-      "momentumScore": 0.3865632043791539,
+      "momentumScore": 0.37118916290145176,
       "signals": {
         "coverage": {
           "state": "observed",
           "basis": "canonical_today_sources",
           "independentOutletCount": 1,
           "sampledDomains": [
-            "developer.nvidia.com"
+            "forbes.com"
           ]
         },
         "hackerNews": {
@@ -233,7 +228,7 @@
         },
         "recency": {
           "state": "observed",
-          "ageHours": 36.322340277777776
+          "ageHours": 45.362276666666666
         },
         "bluesky": {
           "state": "not_configured"
@@ -242,13 +237,43 @@
     },
     {
       "rank": 8,
-      "leadStoryId": "https://developer.nvidia.com/blog/?p=124785",
+      "leadStoryId": "content_6aedbf011b0a60a6e730bfc8",
       "memberStoryIds": [
-        "https://developer.nvidia.com/blog/?p=124785"
+        "content_6aedbf011b0a60a6e730bfc8"
       ],
-      "category": "compute-energy",
+      "category": "models",
       "publishedAt": "2026-11-06T00:00:00.000Z",
-      "momentumScore": 0.3865632043791539,
+      "momentumScore": 0.37118916290145176,
+      "signals": {
+        "coverage": {
+          "state": "observed",
+          "basis": "canonical_today_sources",
+          "independentOutletCount": 1,
+          "sampledDomains": [
+            "forbes.com"
+          ]
+        },
+        "hackerNews": {
+          "state": "not_observed"
+        },
+        "recency": {
+          "state": "observed",
+          "ageHours": 45.362276666666666
+        },
+        "bluesky": {
+          "state": "not_configured"
+        }
+      }
+    },
+    {
+      "rank": 9,
+      "leadStoryId": "https://developer.nvidia.com/blog/?p=124653",
+      "memberStoryIds": [
+        "https://developer.nvidia.com/blog/?p=124653"
+      ],
+      "category": "research",
+      "publishedAt": "2026-11-06T00:00:00.000Z",
+      "momentumScore": 0.37118916290145176,
       "signals": {
         "coverage": {
           "state": "observed",
@@ -263,37 +288,7 @@
         },
         "recency": {
           "state": "observed",
-          "ageHours": 36.322340277777776
-        },
-        "bluesky": {
-          "state": "not_configured"
-        }
-      }
-    },
-    {
-      "rank": 9,
-      "leadStoryId": "https://huggingface.co/blog/allenai/toyblocks",
-      "memberStoryIds": [
-        "https://huggingface.co/blog/allenai/toyblocks"
-      ],
-      "category": "research",
-      "publishedAt": "2026-11-06T00:00:00.000Z",
-      "momentumScore": 0.3865632043791539,
-      "signals": {
-        "coverage": {
-          "state": "observed",
-          "basis": "canonical_today_sources",
-          "independentOutletCount": 1,
-          "sampledDomains": [
-            "huggingface.co"
-          ]
-        },
-        "hackerNews": {
-          "state": "not_observed"
-        },
-        "recency": {
-          "state": "observed",
-          "ageHours": 36.322340277777776
+          "ageHours": 45.362276666666666
         },
         "bluesky": {
           "state": "not_configured"
@@ -302,20 +297,20 @@
     },
     {
       "rank": 10,
-      "leadStoryId": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
+      "leadStoryId": "https://developer.nvidia.com/blog/?p=124785",
       "memberStoryIds": [
-        "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science"
+        "https://developer.nvidia.com/blog/?p=124785"
       ],
-      "category": "research",
+      "category": "compute-energy",
       "publishedAt": "2026-11-06T00:00:00.000Z",
-      "momentumScore": 0.3865632043791539,
+      "momentumScore": 0.37118916290145176,
       "signals": {
         "coverage": {
           "state": "observed",
           "basis": "canonical_today_sources",
           "independentOutletCount": 1,
           "sampledDomains": [
-            "openai.com"
+            "developer.nvidia.com"
           ]
         },
         "hackerNews": {
@@ -323,7 +318,7 @@
         },
         "recency": {
           "state": "observed",
-          "ageHours": 36.322340277777776
+          "ageHours": 45.362276666666666
         },
         "bluesky": {
           "state": "not_configured"
@@ -338,7 +333,7 @@
       ],
       "category": "ai-lifecycle",
       "publishedAt": "2026-11-06T00:00:00.000Z",
-      "momentumScore": 0.3865632043791539,
+      "momentumScore": 0.37118916290145176,
       "signals": {
         "coverage": {
           "state": "observed",
@@ -353,7 +348,7 @@
         },
         "recency": {
           "state": "observed",
-          "ageHours": 36.322340277777776
+          "ageHours": 45.362276666666666
         },
         "bluesky": {
           "state": "not_configured"
@@ -368,7 +363,7 @@
       ],
       "category": "models",
       "publishedAt": "2026-11-06T00:00:00.000Z",
-      "momentumScore": 0.3865632043791539,
+      "momentumScore": 0.37118916290145176,
       "signals": {
         "coverage": {
           "state": "observed",
@@ -383,7 +378,7 @@
         },
         "recency": {
           "state": "observed",
-          "ageHours": 36.322340277777776
+          "ageHours": 45.362276666666666
         },
         "bluesky": {
           "state": "not_configured"

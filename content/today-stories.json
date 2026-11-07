@@ -1,7 +1,40 @@
 {
-  "lastUpdated": "2026-11-07T12:19:19.968Z",
+  "lastUpdated": "2026-11-07T21:21:44.025Z",
   "freshnessState": "fresh",
   "stories": [
+    {
+      "id": "https://www.theverge.com/?p=1029483",
+      "category": "compute-energy",
+      "headline": "The US let Nvidia sell chips to an empty office in China",
+      "source": {
+        "name": "The Verge — Artificial Intelligence",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1029483/nvidia-ai-chips-china-blacklist-government",
+        "publishedDate": "2026-11-07"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theverge.com/?p=1029038",
+      "category": "research",
+      "headline": "AI broke the cybersecurity world. What’s next?",
+      "source": {
+        "name": "The Verge — Artificial Intelligence",
+        "url": "https://www.theverge.com/podcast/1029038/ai-cybersecurity-hackers-data-breach-dark-age-alex-stamos",
+        "publishedDate": "2026-11-07"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6aef7fe94dd753cc5b9e5c22",
+      "category": "research",
+      "headline": "Coherent Moves Trade Compliance AI Agents To The Front Of The Process",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/sites/stevebanker/2026/11/07/coherent-moves-trade-compliance-ai-agents-to-the-front-of-the-process/",
+        "publishedDate": "2026-11-07"
+      },
+      "traceToAnchors": []
+    },
     {
       "id": "https://www.theverge.com/?p=1028412",
       "category": "ai-lifecycle",
@@ -625,39 +658,6 @@
       "source": {
         "name": "Wired — Artificial Intelligence",
         "url": "https://www.wired.com/story/the-big-interview-podcast-nyc-mayor-zohran-mamdani/",
-        "publishedDate": "2026-11-03"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6ae8a9820f633be185bed938",
-      "category": "models",
-      "headline": "From Data Layer To Decision Layer: Why AI Agents Need More Than Information",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/councils/forbestechcouncil/2026/11/03/from-data-layer-to-decision-layer-why-ai-agents-need-more-than-information/",
-        "publishedDate": "2026-11-03"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://openai.com/index/accelerating-engineering-for-the-physical-world",
-      "category": "research",
-      "headline": "Accelerating engineering for the physical world",
-      "source": {
-        "name": "OpenAI — News",
-        "url": "https://openai.com/index/accelerating-engineering-for-the-physical-world",
-        "publishedDate": "2026-11-03"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/",
-      "category": "models",
-      "headline": "Agentic cheminformatics with Google Antigravity",
-      "source": {
-        "name": "Google DeepMind — Blog",
-        "url": "https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/",
         "publishedDate": "2026-11-03"
       },
       "traceToAnchors": []

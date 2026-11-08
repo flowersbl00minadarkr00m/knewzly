@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-07T21:21:44.025Z",
+  "lastUpdated": "2026-11-08T03:59:48.213Z",
   "freshnessState": "fresh",
   "stories": [
     {
@@ -31,6 +31,17 @@
       "source": {
         "name": "Forbes — Innovation",
         "url": "https://www.forbes.com/sites/stevebanker/2026/11/07/coherent-moves-trade-compliance-ai-agents-to-the-front-of-the-process/",
+        "publishedDate": "2026-11-07"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3186091",
+      "category": "research",
+      "headline": "After the midterms, things are looking rocky for Elon Musk and data centers",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/11/07/after-the-midterms-things-are-looking-rocky-for-elon-musk-and-data-centers/",
         "publishedDate": "2026-11-07"
       },
       "traceToAnchors": []
@@ -647,17 +658,6 @@
       "source": {
         "name": "TechCrunch — Artificial Intelligence",
         "url": "https://techcrunch.com/2026/11/02/y-combinators-garry-tan-uses-ai-agents-so-much-he-spends-up-to-200k-a-year-on-tokens/",
-        "publishedDate": "2026-11-03"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "6ae37585b7cef7207a0617e3",
-      "category": "compute-energy",
-      "headline": "‘Our Risk, Their Reward’: Zohran Mamdani on AI and Data Centers",
-      "source": {
-        "name": "Wired — Artificial Intelligence",
-        "url": "https://www.wired.com/story/the-big-interview-podcast-nyc-mayor-zohran-mamdani/",
         "publishedDate": "2026-11-03"
       },
       "traceToAnchors": []

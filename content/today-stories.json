@@ -1,7 +1,29 @@
 {
-  "lastUpdated": "2026-11-08T12:38:53.286Z",
+  "lastUpdated": "2026-11-08T21:36:04.717Z",
   "freshnessState": "fresh",
   "stories": [
+    {
+      "id": "https://www.theverge.com/?p=1029552",
+      "category": "models",
+      "headline": "Apple is racing to make Siri more agentic",
+      "source": {
+        "name": "The Verge — Artificial Intelligence",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1029552/apple-siri-ai-agentic",
+        "publishedDate": "2026-11-08"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theneurondaily.com/p/voters-reject-data-centers-openai-offers-concessions",
+      "category": "compute-energy",
+      "headline": "😸 Voters reject data centers. OpenAI offers concessions.",
+      "source": {
+        "name": "The Neuron",
+        "url": "https://www.theneurondaily.com/p/voters-reject-data-centers-openai-offers-concessions",
+        "publishedDate": "2026-11-08"
+      },
+      "traceToAnchors": []
+    },
     {
       "id": "https://www.theverge.com/?p=1029483",
       "category": "compute-energy",
@@ -636,28 +658,6 @@
       "source": {
         "name": "MIT Technology Review — Artificial Intelligence",
         "url": "https://www.technologyreview.com/2026/11/03/1147934/reverse-game-theory-mechanism-design-ai-alignment/",
-        "publishedDate": "2026-11-03"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3184378",
-      "category": "ai-lifecycle",
-      "headline": "Apple Watch&#8217;s AI features for rewinding and recapping conversations begin beta testing",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/11/02/apple-watchs-ai-features-for-rewinding-and-recapping-conversations-begin-beta-testing/",
-        "publishedDate": "2026-11-03"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3184485",
-      "category": "ai-lifecycle",
-      "headline": "Y Combinator&#8217;s Garry Tan uses AI agents so much, he spends up to $200K a year on tokens",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/11/02/y-combinators-garry-tan-uses-ai-agents-so-much-he-spends-up-to-200k-a-year-on-tokens/",
         "publishedDate": "2026-11-03"
       },
       "traceToAnchors": []

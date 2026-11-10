@@ -1,7 +1,84 @@
 {
-  "lastUpdated": "2026-11-09T14:57:54.196Z",
+  "lastUpdated": "2026-11-10T01:05:31.152Z",
   "freshnessState": "fresh",
   "stories": [
+    {
+      "id": "https://www.technologyreview.com/?p=1148194",
+      "category": "research",
+      "headline": "The backlash about data centers might really just be about electricity",
+      "source": {
+        "name": "MIT Technology Review — Artificial Intelligence",
+        "url": "https://www.technologyreview.com/2026/11/09/1148194/the-backlash-about-data-centers-might-really-just-be-about-electricity/",
+        "publishedDate": "2026-11-09"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://openai.com/index/control-room",
+      "category": "ai-lifecycle",
+      "headline": "Control Room: A central system to track and stop model workloads across our research infrastructure",
+      "source": {
+        "name": "OpenAI — News",
+        "url": "https://openai.com/index/control-room",
+        "publishedDate": "2026-11-09"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://openai.com/index/coderabbit-codex-daybreak",
+      "category": "models",
+      "headline": "CodeRabbit scales agentic software development and ships 20x more",
+      "source": {
+        "name": "OpenAI — News",
+        "url": "https://openai.com/index/coderabbit-codex-daybreak",
+        "publishedDate": "2026-11-09"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3186369",
+      "category": "models",
+      "headline": "Anthropic releases new Mythos and Fable models amid RSI concerns",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns/",
+        "publishedDate": "2026-11-09"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3186298",
+      "category": "ai-lifecycle",
+      "headline": "Meta releases Muse Ember, a new lightweight model for agent execution",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/11/09/meta-releases-muse-ember-a-new-lightweight-model-for-agent-execution/",
+        "publishedDate": "2026-11-09"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theverge.com/?p=1030005",
+      "category": "models",
+      "headline": "Anthropic launches new Claude Fable and Mythos 5.2 models",
+      "source": {
+        "name": "The Verge — Artificial Intelligence",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1030005/anthropic-claude-fable-mythos-5-2",
+        "publishedDate": "2026-11-09"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theverge.com/?p=1029802",
+      "category": "safety-governance",
+      "headline": "Trump’s 60 Minutes interview touched on AI safety, threat to arrest an AI exec",
+      "source": {
+        "name": "The Verge — Artificial Intelligence",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1029802/trump-60-minutes-ai",
+        "publishedDate": "2026-11-09"
+      },
+      "traceToAnchors": []
+    },
     {
       "id": "https://www.theverge.com/?p=1029552",
       "category": "models",
@@ -582,83 +659,6 @@
         "name": "Wired — Artificial Intelligence",
         "url": "https://www.wired.com/story/wired-world-fair-2026-clement-delangue-hugging-face/",
         "publishedDate": "2026-11-04"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "6ae4a246273b3c41ba93a346",
-      "category": "compute-energy",
-      "headline": "The Results Are In: Voters Hate Data Centers",
-      "source": {
-        "name": "Wired — Artificial Intelligence",
-        "url": "https://www.wired.com/story/the-results-are-in-voters-hate-data-centers/",
-        "publishedDate": "2026-11-04"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://developer.nvidia.com/blog/?p=124627",
-      "category": "ai-lifecycle",
-      "headline": "How NVIDIA Uses AI Agents to Streamline AI Factory Operations",
-      "source": {
-        "name": "NVIDIA — Technical Blog",
-        "url": "https://developer.nvidia.com/blog/how-nvidia-uses-ai-agents-to-streamline-ai-factory-operations/",
-        "publishedDate": "2026-11-04"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://developer.nvidia.com/blog/?p=124039",
-      "category": "ai-lifecycle",
-      "headline": "How NVIDIA Factory Operations Blueprint Coordinates AI Agents to Investigate Production Issues",
-      "source": {
-        "name": "NVIDIA — Technical Blog",
-        "url": "https://developer.nvidia.com/blog/how-nvidia-factory-operations-blueprint-coordinates-ai-agents-to-investigate-production-issues/",
-        "publishedDate": "2026-11-04"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://developer.nvidia.com/blog/?p=124389",
-      "category": "models",
-      "headline": "Use NVIDIA NeMo to Turn Agent Failures into Tests and Harness Fixes",
-      "source": {
-        "name": "NVIDIA — Technical Blog",
-        "url": "https://developer.nvidia.com/blog/use-nvidia-nemo-to-turn-agent-failures-into-tests-and-harness-fixes/",
-        "publishedDate": "2026-11-04"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "6aeb5a0c899aefeeb033196c",
-      "category": "compute-energy",
-      "headline": "The Blue Wave Has Tech Bros Scrambling for Data Centers in Space",
-      "source": {
-        "name": "Wired — Artificial Intelligence",
-        "url": "https://www.wired.com/story/the-blue-wave-has-tech-bros-scrambling-for-data-centers-in-space/",
-        "publishedDate": "2026-11-04"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6aeba470bff5ed506ae46d85",
-      "category": "research",
-      "headline": "Do Data Centers Cause Heat Islands? A New Study Says No",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/sites/marshallshepherd/2026/11/04/do-data-centers-cause-heat-islands-a-new-study-says-no/",
-        "publishedDate": "2026-11-04"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.technologyreview.com/?p=1147934",
-      "category": "research",
-      "headline": "How “reverse game theory” could keep AI agents in check",
-      "source": {
-        "name": "MIT Technology Review — Artificial Intelligence",
-        "url": "https://www.technologyreview.com/2026/11/03/1147934/reverse-game-theory-mechanism-design-ai-alignment/",
-        "publishedDate": "2026-11-03"
       },
       "traceToAnchors": []
     }

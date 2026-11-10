@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-10T14:11:02.761Z",
+  "lastUpdated": "2026-11-10T22:45:01.490Z",
   "freshnessState": "fresh",
   "stories": [
     {
@@ -86,6 +86,149 @@
       "source": {
         "name": "Forbes — Innovation",
         "url": "https://www.forbes.com/councils/forbestechcouncil/2026/11/10/why-investigational-treatments-depend-on-access-not-just-breakthroughs/",
+        "publishedDate": "2026-11-10"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://deepmind.google/blog/gemini-4-carbon-is-now-available/",
+      "category": "models",
+      "headline": "Gemini 4 Carbon is now available",
+      "source": {
+        "name": "Google DeepMind — Blog",
+        "url": "https://deepmind.google/blog/gemini-4-carbon-is-now-available/",
+        "publishedDate": "2026-11-10"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3187145",
+      "category": "safety-governance",
+      "headline": "OpenAI, Anthropic face new oversight as New York’s AI safety law takes effect",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect/",
+        "publishedDate": "2026-11-10"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3186906",
+      "category": "research",
+      "headline": "PSI is trying to make a business out of AI-driven scientific discovery",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/11/10/psi-is-trying-to-make-a-business-out-of-ai-driven-scientific-discovery/",
+        "publishedDate": "2026-11-10"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3186632",
+      "category": "ai-lifecycle",
+      "headline": "OpenAI rolls out new business profiles, making ChatGPT just a little bit more like Google",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/11/10/openai-rolls-out-new-business-profiles-making-chatgpt-just-a-little-bit-more-like-google/",
+        "publishedDate": "2026-11-10"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?p=3186876",
+      "category": "models",
+      "headline": "Anthropic launches Claude Meetings to turn workplace discussions into plans and tasks",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/11/10/anthropic-launches-claude-meetings-to-turn-workplace-discussions-into-plans-and-tasks/",
+        "publishedDate": "2026-11-10"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theverge.com/?p=1030552",
+      "category": "ai-lifecycle",
+      "headline": "ChatGPT is getting verified AI ‘Business Agents’",
+      "source": {
+        "name": "The Verge — Artificial Intelligence",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1030552/openai-chatgpt-business-agents-hub",
+        "publishedDate": "2026-11-10"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theverge.com/?p=1030787",
+      "category": "models",
+      "headline": "Google releases Gemini 4 Carbon with agent ‘swarm’ feature",
+      "source": {
+        "name": "The Verge — Artificial Intelligence",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1030787/google-gemini-4-carbon-public-rollout",
+        "publishedDate": "2026-11-10"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://tldr.tech/ai/2026-11-10",
+      "category": "models",
+      "headline": "Claude Fable 5.2 ✨, Meta Ember 🤖, Google’s new TPUs ⚡",
+      "source": {
+        "name": "TLDR AI",
+        "url": "https://tldr.tech/ai/2026-11-10",
+        "publishedDate": "2026-11-10"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6af3603323ef39b62cea8407",
+      "category": "ai-lifecycle",
+      "headline": "What’s Behind The Agentic Security Operations Boom?",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/sites/rscottraynovich/2026/11/10/whats-behind-the-agentic-security-operations-boom/",
+        "publishedDate": "2026-11-10"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://huggingface.co/blog/hub-gcp-marketplace",
+      "category": "safety-governance",
+      "headline": "Pay for Hugging Face Hub with your Google Cloud Account",
+      "source": {
+        "name": "Hugging Face — Blog",
+        "url": "https://huggingface.co/blog/hub-gcp-marketplace",
+        "publishedDate": "2026-11-10"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://huggingface.co/blog/decision",
+      "category": "safety-governance",
+      "headline": "Decision Models in Hugging Face",
+      "source": {
+        "name": "Hugging Face — Blog",
+        "url": "https://huggingface.co/blog/decision",
+        "publishedDate": "2026-11-10"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://developer.nvidia.com/blog/?p=124736",
+      "category": "ai-lifecycle",
+      "headline": "Start and Restore GPU Workloads in Seconds with NVIDIA Snapshot",
+      "source": {
+        "name": "NVIDIA — Technical Blog",
+        "url": "https://developer.nvidia.com/blog/start-and-restore-gpu-workloads-in-seconds-with-nvidia-snapshot/",
+        "publishedDate": "2026-11-10"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://developer.nvidia.com/blog/?p=124939",
+      "category": "compute-energy",
+      "headline": "Manage Kubernetes Clusters for GPU Infrastructure with NVIDIA Kubernetes Engine",
+      "source": {
+        "name": "NVIDIA — Technical Blog",
+        "url": "https://developer.nvidia.com/blog/manage-kubernetes-clusters-for-gpu-infrastructure-with-nvidia-kubernetes-engine/",
         "publishedDate": "2026-11-10"
       },
       "traceToAnchors": []
@@ -516,149 +659,6 @@
         "name": "Google DeepMind — Blog",
         "url": "https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips/",
         "publishedDate": "2026-11-05"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3185656",
-      "category": "models",
-      "headline": "Airbnb says it&#8217;s launching an AI travel agent in the first half of 2027",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/11/05/airbnb-says-its-launching-an-ai-travel-agent-in-the-first-half-of-2027/",
-        "publishedDate": "2026-11-05"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3185610",
-      "category": "models",
-      "headline": "Meta says US users can now video chat with their Muse AI avatar",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/11/05/meta-says-us-users-can-now-video-chat-with-their-muse-ai-avatar/",
-        "publishedDate": "2026-11-05"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3185548",
-      "category": "models",
-      "headline": "Meta warns that election backlash against data centers could make AI expansion harder",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/11/05/metas-warns-that-election-backlash-against-data-centers-could-make-ai-expansion-harder/",
-        "publishedDate": "2026-11-05"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theverge.com/?p=1028302",
-      "category": "models",
-      "headline": "Perplexity launches its own take on AI agents for work",
-      "source": {
-        "name": "The Verge — Artificial Intelligence",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/1028302/perplexity-teammates-ai-agents-work",
-        "publishedDate": "2026-11-05"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theverge.com/?p=1027599",
-      "category": "models",
-      "headline": "OpenAI says its new cybersecurity model is better at not hacking other companies",
-      "source": {
-        "name": "The Verge — Artificial Intelligence",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/1027599/openai-gpt-6-cyber-launch",
-        "publishedDate": "2026-11-05"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "6ad27b839e1279e3a28f38db",
-      "category": "ai-lifecycle",
-      "headline": "Reddit Founder Says Building Social Media Apps Is ‘Not Cool Anymore’",
-      "source": {
-        "name": "Wired — Artificial Intelligence",
-        "url": "https://www.wired.com/story/wired-world-fair-2026-alexis-ohanian/",
-        "publishedDate": "2026-11-05"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://tldr.tech/ai/2026-11-05",
-      "category": "models",
-      "headline": "GPT-Image-2.6 🖼️, Meta buys Conductor 💻, Cognition SWE-2 Flash ⚡",
-      "source": {
-        "name": "TLDR AI",
-        "url": "https://tldr.tech/ai/2026-11-05",
-        "publishedDate": "2026-11-05"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6aea26fda642e92af7e213da",
-      "category": "ai-lifecycle",
-      "headline": "Nvidia Open Models Help Developers Accelerate Science And Engineering",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/sites/karlfreund/2026/11/05/nvidia-open-models-help-developers-accelerate-science-and-engineering/",
-        "publishedDate": "2026-11-05"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation",
-      "category": "ai-lifecycle",
-      "headline": "New NVIDIA Cosmos 3 Open Models for Interactive World Simulation",
-      "source": {
-        "name": "Hugging Face — Blog",
-        "url": "https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation",
-        "publishedDate": "2026-11-05"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://developer.nvidia.com/blog/?p=124575",
-      "category": "compute-energy",
-      "headline": "Configure, Certify, and Operate Kubernetes GPU Clusters with NVIDIA DSX OS",
-      "source": {
-        "name": "NVIDIA — Technical Blog",
-        "url": "https://developer.nvidia.com/blog/configure-certify-and-operate-kubernetes-gpu-clusters-with-nvidia-dsx-os/",
-        "publishedDate": "2026-11-05"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.technologyreview.com/?p=1147596",
-      "category": "ai-lifecycle",
-      "headline": "Securing the agentic enterprise with data lineage",
-      "source": {
-        "name": "MIT Technology Review — Artificial Intelligence",
-        "url": "https://www.technologyreview.com/2026/11/04/1147596/securing-the-agentic-enterprise-with-data-lineage/",
-        "publishedDate": "2026-11-04"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.technologyreview.com/?p=1148043",
-      "category": "compute-energy",
-      "headline": "Texas was the new epicenter of the AI data center buildout. That might be kaput.",
-      "source": {
-        "name": "MIT Technology Review — Artificial Intelligence",
-        "url": "https://www.technologyreview.com/2026/11/04/1148043/texas-was-the-new-epicenter-of-the-ai-data-center-buildout-that-might-be-kaput/",
-        "publishedDate": "2026-11-04"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://openai.com/index/daybreak-red-aws-govcloud",
-      "category": "models",
-      "headline": "Daybreak Red is now available in AWS GovCloud (US-East)",
-      "source": {
-        "name": "OpenAI — News",
-        "url": "https://openai.com/index/daybreak-red-aws-govcloud",
-        "publishedDate": "2026-11-04"
       },
       "traceToAnchors": []
     }

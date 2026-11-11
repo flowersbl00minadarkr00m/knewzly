@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-11T13:26:38.405Z",
+  "lastUpdated": "2026-11-11T23:57:46.503Z",
   "freshnessState": "fresh",
   "stories": [
     {
@@ -31,6 +31,61 @@
       "source": {
         "name": "Hugging Face — Blog",
         "url": "https://huggingface.co/blog/qvac/botpsy",
+        "publishedDate": "2026-11-11"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://techcrunch.com/?post_type=tc_video&#038;p=3187347",
+      "category": "compute-energy",
+      "headline": "Why the data center you dread might never even be built",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/video/why-the-data-center-you-dread-might-never-even-be-built/",
+        "publishedDate": "2026-11-11"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theverge.com/?p=1031526",
+      "category": "models",
+      "headline": "Google’s Tabletop AI experiment lets you build custom collaboration apps",
+      "source": {
+        "name": "The Verge — Artificial Intelligence",
+        "url": "https://www.theverge.com/tech/1031526/google-tabletop-ai-experiment-waitlist-availability",
+        "publishedDate": "2026-11-11"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://tldr.tech/ai/2026-11-11",
+      "category": "models",
+      "headline": "Gemini 4 Carbon ⚡, Claude Sheets 📊, Antigravity Swarm 🤖",
+      "source": {
+        "name": "TLDR AI",
+        "url": "https://tldr.tech/ai/2026-11-11",
+        "publishedDate": "2026-11-11"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://huggingface.co/blog/token-pooling",
+      "category": "models",
+      "headline": "Token Pooling-Aware Training for Multi-Vector Embedding Models",
+      "source": {
+        "name": "Hugging Face — Blog",
+        "url": "https://huggingface.co/blog/token-pooling",
+        "publishedDate": "2026-11-11"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://developer.nvidia.com/blog/?p=124959",
+      "category": "compute-energy",
+      "headline": "Validating GPU Platforms with Runtime AI Inventory via the NVIDIA DSX AI Factory",
+      "source": {
+        "name": "NVIDIA — Technical Blog",
+        "url": "https://developer.nvidia.com/blog/validating-gpu-platforms-with-runtime-ai-inventory-via-the-nvidia-dsx-ai-factory/",
         "publishedDate": "2026-11-11"
       },
       "traceToAnchors": []
@@ -604,61 +659,6 @@
         "name": "NVIDIA — Technical Blog",
         "url": "https://developer.nvidia.com/blog/accelerating-reinforcement-learning-weight-refit-with-the-reshard-collective/",
         "publishedDate": "2026-11-06"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3185307",
-      "category": "research",
-      "headline": "After the midterms, a bigger clash over data centers could be coming",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/11/04/after-the-midterms-a-bigger-clash-over-data-centers-could-be-coming/",
-        "publishedDate": "2026-11-05"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3185211",
-      "category": "research",
-      "headline": "A YC startup is putting $1M behind five unsolved materials science problems for AI",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/11/05/a-yc-startup-is-putting-1m-behind-five-unsolved-materials-science-problems-for-ai/",
-        "publishedDate": "2026-11-05"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "6ad269f3214a8f2918b4f89d",
-      "category": "research",
-      "headline": "AI’s Next Trick? Speaking Dolphin",
-      "source": {
-        "name": "Wired — Artificial Intelligence",
-        "url": "https://www.wired.com/story/wired-world-fair-2026-denise-herzing-wild-dolphin/",
-        "publishedDate": "2026-11-05"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "6ad26bec5976120efa9e5d95",
-      "category": "ai-lifecycle",
-      "headline": "He Trolls AI Labs for a Living. Now They All Want to Work With Him",
-      "source": {
-        "name": "Wired — Artificial Intelligence",
-        "url": "https://www.wired.com/story/wired-world-fair-2026-evan-ratliff-and-husk/",
-        "publishedDate": "2026-11-05"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6aea4763a642e92af7e213ef",
-      "category": "ai-lifecycle",
-      "headline": "AI Will Make Code Cheap, But It Won’t Shrink Most Engineering Teams",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/councils/forbestechcouncil/2026/11/05/ai-will-make-code-cheap-but-it-wont-shrink-most-engineering-teams/",
-        "publishedDate": "2026-11-05"
       },
       "traceToAnchors": []
     }

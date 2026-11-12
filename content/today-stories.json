@@ -1,7 +1,18 @@
 {
-  "lastUpdated": "2026-11-11T23:57:46.503Z",
+  "lastUpdated": "2026-11-12T06:14:52.594Z",
   "freshnessState": "fresh",
   "stories": [
+    {
+      "id": "https://techcrunch.com/?p=3187615",
+      "category": "research",
+      "headline": "Who could replace Jensen Huang? A highly unscientific list of possible successors",
+      "source": {
+        "name": "TechCrunch — Artificial Intelligence",
+        "url": "https://techcrunch.com/2026/11/11/who-could-replace-jensen-huang-a-highly-unscientific-list-of-possible-successors/",
+        "publishedDate": "2026-11-12"
+      },
+      "traceToAnchors": []
+    },
     {
       "id": "https://techcrunch.com/?p=3187258",
       "category": "safety-governance",
@@ -647,17 +658,6 @@
       "source": {
         "name": "NVIDIA — Technical Blog",
         "url": "https://developer.nvidia.com/blog/speed-up-image-generation-with-flux-3-image-klein-on-nvidia-blackwell-gpus/",
-        "publishedDate": "2026-11-06"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://developer.nvidia.com/blog/?p=124653",
-      "category": "research",
-      "headline": "Accelerating Reinforcement Learning Weight Refit with the Reshard Collective",
-      "source": {
-        "name": "NVIDIA — Technical Blog",
-        "url": "https://developer.nvidia.com/blog/accelerating-reinforcement-learning-weight-refit-with-the-reshard-collective/",
         "publishedDate": "2026-11-06"
       },
       "traceToAnchors": []

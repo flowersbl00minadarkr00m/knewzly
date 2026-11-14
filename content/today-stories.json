@@ -1,7 +1,40 @@
 {
-  "lastUpdated": "2026-11-14T04:39:44.412Z",
+  "lastUpdated": "2026-11-14T12:52:30.372Z",
   "freshnessState": "fresh",
   "stories": [
+    {
+      "id": "6aed23d9bbed27ba0f21394f",
+      "category": "research",
+      "headline": "No Pilots. Few Air Traffic Controllers. What Could Go Wrong?",
+      "source": {
+        "name": "Wired — Artificial Intelligence",
+        "url": "https://www.wired.com/story/no-pilots-few-air-traffic-controllers-what-could-go-wrong/",
+        "publishedDate": "2026-11-14"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6af741bbce52b544538a7e8b",
+      "category": "models",
+      "headline": "‘Football Manager 27’ Review: Back On Form, But Must Do Better",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/sites/barrycollins/2026/11/14/football-manager-27-review-back-on-form-but-must-do-better/",
+        "publishedDate": "2026-11-14"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6af8128db6ecc5b0911a3f6f",
+      "category": "research",
+      "headline": "John Cena Just Invited The Woman Who Could Break His Record To His Classic, And WWE Is Running Two Raws That Day",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/sites/brianmazique/2026/11/14/john-cena-just-invited-the-woman-who-could-break-his-record-to-his-classic-and-wwe-is-running-two-raws-that-day/",
+        "publishedDate": "2026-11-14"
+      },
+      "traceToAnchors": []
+    },
     {
       "id": "https://techcrunch.com/?p=3187846",
       "category": "compute-energy",
@@ -626,39 +659,6 @@
         "name": "Hugging Face — Blog",
         "url": "https://huggingface.co/blog/decision",
         "publishedDate": "2026-11-10"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://developer.nvidia.com/blog/?p=124736",
-      "category": "ai-lifecycle",
-      "headline": "Start and Restore GPU Workloads in Seconds with NVIDIA Snapshot",
-      "source": {
-        "name": "NVIDIA — Technical Blog",
-        "url": "https://developer.nvidia.com/blog/start-and-restore-gpu-workloads-in-seconds-with-nvidia-snapshot/",
-        "publishedDate": "2026-11-10"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://developer.nvidia.com/blog/?p=124939",
-      "category": "compute-energy",
-      "headline": "Manage Kubernetes Clusters for GPU Infrastructure with NVIDIA Kubernetes Engine",
-      "source": {
-        "name": "NVIDIA — Technical Blog",
-        "url": "https://developer.nvidia.com/blog/manage-kubernetes-clusters-for-gpu-infrastructure-with-nvidia-kubernetes-engine/",
-        "publishedDate": "2026-11-10"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.technologyreview.com/?p=1148194",
-      "category": "research",
-      "headline": "The backlash about data centers might really just be about electricity",
-      "source": {
-        "name": "MIT Technology Review — Artificial Intelligence",
-        "url": "https://www.technologyreview.com/2026/11/09/1148194/the-backlash-about-data-centers-might-really-just-be-about-electricity/",
-        "publishedDate": "2026-11-09"
       },
       "traceToAnchors": []
     }

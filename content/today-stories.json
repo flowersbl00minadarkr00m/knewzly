@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-13T23:10:03.981Z",
+  "lastUpdated": "2026-11-14T04:39:44.412Z",
   "freshnessState": "fresh",
   "stories": [
     {
@@ -130,6 +130,17 @@
       "source": {
         "name": "NVIDIA — Technical Blog",
         "url": "https://developer.nvidia.com/blog/when-one-gpu-isnt-enough-serving-glm-5-3-across-two-nvidia-dgx-stations-with-vllm/",
+        "publishedDate": "2026-11-13"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theverge.com/?p=1033697",
+      "category": "research",
+      "headline": "Amazon has a plan to index the world’s online shopping data",
+      "source": {
+        "name": "The Verge — Artificial Intelligence",
+        "url": "https://www.theverge.com/tech/1033697/amazon-world-product-graph-ai-search",
         "publishedDate": "2026-11-13"
       },
       "traceToAnchors": []
@@ -647,17 +658,6 @@
       "source": {
         "name": "MIT Technology Review — Artificial Intelligence",
         "url": "https://www.technologyreview.com/2026/11/09/1148194/the-backlash-about-data-centers-might-really-just-be-about-electricity/",
-        "publishedDate": "2026-11-09"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://openai.com/index/control-room",
-      "category": "ai-lifecycle",
-      "headline": "Control Room: A central system to track and stop model workloads across our research infrastructure",
-      "source": {
-        "name": "OpenAI — News",
-        "url": "https://openai.com/index/control-room",
         "publishedDate": "2026-11-09"
       },
       "traceToAnchors": []

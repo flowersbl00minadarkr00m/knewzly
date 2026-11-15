@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-15T04:29:29.273Z",
+  "lastUpdated": "2026-11-15T13:20:06.220Z",
   "freshnessState": "fresh",
   "stories": [
     {
@@ -9,6 +9,28 @@
       "source": {
         "name": "Forbes — Innovation",
         "url": "https://www.forbes.com/sites/chuckbrooks/2026/11/14/6-technology-trends-that-will-transform-the-world-in-the-next-decade/",
+        "publishedDate": "2026-11-15"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6af8b2b07aaefa2525a3372b",
+      "category": "research",
+      "headline": "Needs For Robotic Design And Mastery",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/sites/johnwerner/2026/11/15/needs-for-robotic-design-and-mastery/",
+        "publishedDate": "2026-11-15"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6af93f6f7aaefa2525a33739",
+      "category": "research",
+      "headline": "UFC 334 Delivered A Champion Who Survived, A Legend Who Walked Off A Winner And A Draw Nobody Could Explain",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/sites/brianmazique/2026/11/15/ufc-334-delivered-a-champion-who-survived-a-legend-who-walked-off-a-winner-and-a-draw-nobody-could-explain/",
         "publishedDate": "2026-11-15"
       },
       "traceToAnchors": []
@@ -636,28 +658,6 @@
       "source": {
         "name": "TLDR AI",
         "url": "https://tldr.tech/ai/2026-11-10",
-        "publishedDate": "2026-11-10"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6af3603323ef39b62cea8407",
-      "category": "ai-lifecycle",
-      "headline": "What’s Behind The Agentic Security Operations Boom?",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/sites/rscottraynovich/2026/11/10/whats-behind-the-agentic-security-operations-boom/",
-        "publishedDate": "2026-11-10"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://huggingface.co/blog/hub-gcp-marketplace",
-      "category": "safety-governance",
-      "headline": "Pay for Hugging Face Hub with your Google Cloud Account",
-      "source": {
-        "name": "Hugging Face — Blog",
-        "url": "https://huggingface.co/blog/hub-gcp-marketplace",
         "publishedDate": "2026-11-10"
       },
       "traceToAnchors": []

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-15T13:20:06.220Z",
+  "lastUpdated": "2026-11-15T22:24:44.946Z",
   "freshnessState": "fresh",
   "stories": [
     {
@@ -31,6 +31,17 @@
       "source": {
         "name": "Forbes — Innovation",
         "url": "https://www.forbes.com/sites/brianmazique/2026/11/15/ufc-334-delivered-a-champion-who-survived-a-legend-who-walked-off-a-winner-and-a-draw-nobody-could-explain/",
+        "publishedDate": "2026-11-15"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theverge.com/?p=1033984",
+      "category": "compute-energy",
+      "headline": "Congress wants to tighten export rules on AI chips after Nvidia spy scandal",
+      "source": {
+        "name": "The Verge — Artificial Intelligence",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1033984/congress-export-rules-ai-chips-china",
         "publishedDate": "2026-11-15"
       },
       "traceToAnchors": []
@@ -647,17 +658,6 @@
       "source": {
         "name": "The Verge — Artificial Intelligence",
         "url": "https://www.theverge.com/ai-artificial-intelligence/1030787/google-gemini-4-carbon-public-rollout",
-        "publishedDate": "2026-11-10"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://tldr.tech/ai/2026-11-10",
-      "category": "models",
-      "headline": "Claude Fable 5.2 ✨, Meta Ember 🤖, Google’s new TPUs ⚡",
-      "source": {
-        "name": "TLDR AI",
-        "url": "https://tldr.tech/ai/2026-11-10",
         "publishedDate": "2026-11-10"
       },
       "traceToAnchors": []

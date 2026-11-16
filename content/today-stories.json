@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-16T04:26:35.249Z",
+  "lastUpdated": "2026-11-16T14:34:20.998Z",
   "freshnessState": "fresh",
   "stories": [
     {
@@ -9,6 +9,28 @@
       "source": {
         "name": "The Verge — Artificial Intelligence",
         "url": "https://www.theverge.com/tech/1033355/apples-new-study-looks-to-improve-the-effectiveness-of-ai-health-tools",
+        "publishedDate": "2026-11-16"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.technologyreview.com/?p=1146070",
+      "category": "ai-lifecycle",
+      "headline": "Building AI that can work across the enterprise",
+      "source": {
+        "name": "MIT Technology Review — Artificial Intelligence",
+        "url": "https://www.technologyreview.com/2026/11/16/1146070/building-ai-that-can-work-across-the-enterprise/",
+        "publishedDate": "2026-11-16"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://tldr.tech/ai/2026-11-16",
+      "category": "ai-lifecycle",
+      "headline": "ChatGPT Wallet 💳, Devin Apps 🛠️, always-on agents ⚡",
+      "source": {
+        "name": "TLDR AI",
+        "url": "https://tldr.tech/ai/2026-11-16",
         "publishedDate": "2026-11-16"
       },
       "traceToAnchors": []
@@ -636,28 +658,6 @@
       "source": {
         "name": "TechCrunch — Artificial Intelligence",
         "url": "https://techcrunch.com/2026/11/10/openai-rolls-out-new-business-profiles-making-chatgpt-just-a-little-bit-more-like-google/",
-        "publishedDate": "2026-11-10"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3186876",
-      "category": "models",
-      "headline": "Anthropic launches Claude Meetings to turn workplace discussions into plans and tasks",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/11/10/anthropic-launches-claude-meetings-to-turn-workplace-discussions-into-plans-and-tasks/",
-        "publishedDate": "2026-11-10"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theverge.com/?p=1030552",
-      "category": "ai-lifecycle",
-      "headline": "ChatGPT is getting verified AI ‘Business Agents’",
-      "source": {
-        "name": "The Verge — Artificial Intelligence",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/1030552/openai-chatgpt-business-agents-hub",
         "publishedDate": "2026-11-10"
       },
       "traceToAnchors": []

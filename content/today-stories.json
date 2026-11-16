@@ -1,7 +1,18 @@
 {
-  "lastUpdated": "2026-11-15T22:24:44.946Z",
+  "lastUpdated": "2026-11-16T04:26:35.249Z",
   "freshnessState": "fresh",
   "stories": [
+    {
+      "id": "https://www.theverge.com/?p=1033355",
+      "category": "models",
+      "headline": "Apple’s new study looks to improve the effectiveness of AI health tools",
+      "source": {
+        "name": "The Verge — Artificial Intelligence",
+        "url": "https://www.theverge.com/tech/1033355/apples-new-study-looks-to-improve-the-effectiveness-of-ai-health-tools",
+        "publishedDate": "2026-11-16"
+      },
+      "traceToAnchors": []
+    },
     {
       "id": "content_6af902e8cb595c2a53d78a5e",
       "category": "research",
@@ -647,17 +658,6 @@
       "source": {
         "name": "The Verge — Artificial Intelligence",
         "url": "https://www.theverge.com/ai-artificial-intelligence/1030552/openai-chatgpt-business-agents-hub",
-        "publishedDate": "2026-11-10"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theverge.com/?p=1030787",
-      "category": "models",
-      "headline": "Google releases Gemini 4 Carbon with agent ‘swarm’ feature",
-      "source": {
-        "name": "The Verge — Artificial Intelligence",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/1030787/google-gemini-4-carbon-public-rollout",
         "publishedDate": "2026-11-10"
       },
       "traceToAnchors": []

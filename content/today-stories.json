@@ -1,7 +1,40 @@
 {
-  "lastUpdated": "2026-11-17T01:28:38.983Z",
+  "lastUpdated": "2026-11-17T15:24:42.689Z",
   "freshnessState": "fresh",
   "stories": [
+    {
+      "id": "6af3622682931ce68d5ff1c4",
+      "category": "safety-governance",
+      "headline": "Rogue Agents Hacked His Company. Why Is Clément Delangue So Optimistic About AI?",
+      "source": {
+        "name": "Wired — Artificial Intelligence",
+        "url": "https://www.wired.com/story/wired-yearbook-2026-clement-delangue/",
+        "publishedDate": "2026-11-17"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://tldr.tech/ai/2026-11-17",
+      "category": "safety-governance",
+      "headline": "Perplexity Research 🧪, NVIDIA Rubin HPC 🖥️, OpenAI safety assessments 👨‍💻",
+      "source": {
+        "name": "TLDR AI",
+        "url": "https://tldr.tech/ai/2026-11-17",
+        "publishedDate": "2026-11-17"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theneurondaily.com/p/california-sued-openai-over-rogue-agents",
+      "category": "safety-governance",
+      "headline": "😺 California sued OpenAI over rogue agents",
+      "source": {
+        "name": "The Neuron",
+        "url": "https://www.theneurondaily.com/p/california-sued-openai-over-rogue-agents",
+        "publishedDate": "2026-11-17"
+      },
+      "traceToAnchors": []
+    },
     {
       "id": "https://www.theverge.com/?p=1033355",
       "category": "models",
@@ -625,39 +658,6 @@
       "source": {
         "name": "Wired — Artificial Intelligence",
         "url": "https://www.wired.com/story/a-new-ai-tool-from-google-deepmind-formally-verified-the-signal-protocol/",
-        "publishedDate": "2026-11-10"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theneurondaily.com/p/anthropic-released-claude-fable-5-2",
-      "category": "models",
-      "headline": "😺 Anthropic released Claude Fable 5.2",
-      "source": {
-        "name": "The Neuron",
-        "url": "https://www.theneurondaily.com/p/anthropic-released-claude-fable-5-2",
-        "publishedDate": "2026-11-10"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6af3178e9d304c80500dd041",
-      "category": "compute-energy",
-      "headline": "Natural Gas-Powered Data Centers Are A Risk We Can’t Afford",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/sites/mindylubber/2026/11/10/natural-gas-powered-data-centers-are-a-risk-we-cant-afford/",
-        "publishedDate": "2026-11-10"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6aee2e8fbe79a5c7edcaf9ce",
-      "category": "research",
-      "headline": "Why Investigational Treatments Depend On Access, Not Just Breakthroughs",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/councils/forbestechcouncil/2026/11/10/why-investigational-treatments-depend-on-access-not-just-breakthroughs/",
         "publishedDate": "2026-11-10"
       },
       "traceToAnchors": []

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-16T14:34:20.998Z",
+  "lastUpdated": "2026-11-17T01:28:38.983Z",
   "freshnessState": "fresh",
   "stories": [
     {
@@ -31,6 +31,50 @@
       "source": {
         "name": "TLDR AI",
         "url": "https://tldr.tech/ai/2026-11-16",
+        "publishedDate": "2026-11-16"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theverge.com/?p=1034694",
+      "category": "compute-energy",
+      "headline": "Big Nuclear isn’t worried about the Democrats stopping data centers",
+      "source": {
+        "name": "The Verge — Artificial Intelligence",
+        "url": "https://www.theverge.com/science/1034694/nuclear-energy-constellation-earnings-data-centers-democrats",
+        "publishedDate": "2026-11-16"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theverge.com/?p=1034581",
+      "category": "models",
+      "headline": "Apple is testing daily usage limits for more complex Siri AI interactions",
+      "source": {
+        "name": "The Verge — Artificial Intelligence",
+        "url": "https://www.theverge.com/tech/1034581/apple-intelligence-siri-ai-daily-usage-limits-icloud-subscription",
+        "publishedDate": "2026-11-16"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6afb776fdff7b9f5c141fd10",
+      "category": "models",
+      "headline": "Apple iPhone Duo 2: Face ID Top Priority For New Model But Not Yet, Report Says",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/sites/davidphelan/2026/11/16/apple-iphone-duo-2-face-id-top-priority-for-new-model-but-not-yet-report-says/",
+        "publishedDate": "2026-11-16"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://developer.nvidia.com/blog/?p=125279",
+      "category": "ai-lifecycle",
+      "headline": "NVIDIA Vera Rubin NVL72 Leads Agentic Inference Performance on MLPerf Endpoints v1.0",
+      "source": {
+        "name": "NVIDIA — Technical Blog",
+        "url": "https://developer.nvidia.com/blog/nvidia-vera-rubin-nvl72-leads-agentic-inference-performance-on-mlperf-endpoints-v1-0/",
         "publishedDate": "2026-11-16"
       },
       "traceToAnchors": []
@@ -614,50 +658,6 @@
       "source": {
         "name": "Forbes — Innovation",
         "url": "https://www.forbes.com/councils/forbestechcouncil/2026/11/10/why-investigational-treatments-depend-on-access-not-just-breakthroughs/",
-        "publishedDate": "2026-11-10"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://deepmind.google/blog/gemini-4-carbon-is-now-available/",
-      "category": "models",
-      "headline": "Gemini 4 Carbon is now available",
-      "source": {
-        "name": "Google DeepMind — Blog",
-        "url": "https://deepmind.google/blog/gemini-4-carbon-is-now-available/",
-        "publishedDate": "2026-11-10"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3187145",
-      "category": "safety-governance",
-      "headline": "OpenAI, Anthropic face new oversight as New York’s AI safety law takes effect",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect/",
-        "publishedDate": "2026-11-10"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3186906",
-      "category": "research",
-      "headline": "PSI is trying to make a business out of AI-driven scientific discovery",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/11/10/psi-is-trying-to-make-a-business-out-of-ai-driven-scientific-discovery/",
-        "publishedDate": "2026-11-10"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3186632",
-      "category": "ai-lifecycle",
-      "headline": "OpenAI rolls out new business profiles, making ChatGPT just a little bit more like Google",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/11/10/openai-rolls-out-new-business-profiles-making-chatgpt-just-a-little-bit-more-like-google/",
         "publishedDate": "2026-11-10"
       },
       "traceToAnchors": []

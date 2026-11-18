@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-17T15:24:42.689Z",
+  "lastUpdated": "2026-11-18T00:24:44.979Z",
   "freshnessState": "fresh",
   "stories": [
     {
@@ -31,6 +31,50 @@
       "source": {
         "name": "The Neuron",
         "url": "https://www.theneurondaily.com/p/california-sued-openai-over-rogue-agents",
+        "publishedDate": "2026-11-17"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+      "category": "models",
+      "headline": "Introducing GPT-6.2 Astra and Sol",
+      "source": {
+        "name": "OpenAI — News",
+        "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+        "publishedDate": "2026-11-17"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://news.microsoft.com/source/?p=26543",
+      "category": "ai-lifecycle",
+      "headline": "Microsoft and Salesforce Announce Copilotforce, Bringing Trusted Customer Context and Action into Microsoft AI Experiences",
+      "source": {
+        "name": "Microsoft — AI news",
+        "url": "https://news.microsoft.com/source/2026/11/17/microsoft-and-salesforce-announce-copilotforce-bringing-trusted-customer-context-and-action-into-microsoft-ai-experiences/",
+        "publishedDate": "2026-11-17"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theverge.com/?p=1035756",
+      "category": "models",
+      "headline": "Google’s Spark AI agent becomes ‘Tasks’ — and now it’s free",
+      "source": {
+        "name": "The Verge — Artificial Intelligence",
+        "url": "https://www.theverge.com/tech/1035756/google-spark-ai-tasks-free",
+        "publishedDate": "2026-11-17"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6afcbea3bacd56eb84e51a3e",
+      "category": "research",
+      "headline": "Motorola Signature 27 Hands-On: Curved Design, B&O Audio And 3 Rear Cameras",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/sites/davidphelan/2026/11/17/motorola-signature-27-hands-on-curved-design-bo-audio-and-3-rear-cameras/",
         "publishedDate": "2026-11-17"
       },
       "traceToAnchors": []
@@ -614,50 +658,6 @@
       "source": {
         "name": "TechCrunch — Artificial Intelligence",
         "url": "https://techcrunch.com/2026/11/10/adobe-adds-more-ai-to-its-products-and-launches-an-mcp/",
-        "publishedDate": "2026-11-10"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3185992",
-      "category": "safety-governance",
-      "headline": "Cyberattacks threaten to make open-source AI a little less open, Hugging Face exec warns",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/11/10/cyberattacks-threaten-to-make-open-source-ai-a-little-less-open-hugging-face-exec-warns/",
-        "publishedDate": "2026-11-10"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theverge.com/?p=1030593",
-      "category": "ai-lifecycle",
-      "headline": "Adobe is going all in on agentic AI",
-      "source": {
-        "name": "The Verge — Artificial Intelligence",
-        "url": "https://www.theverge.com/tech/1030593/adobe-max-ai-agents-mcp-firefly-assistant-updates",
-        "publishedDate": "2026-11-10"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theverge.com/?p=1030510",
-      "category": "research",
-      "headline": "David Ellison says AI could be the ‘biggest creative unlock in modern history’",
-      "source": {
-        "name": "The Verge — Artificial Intelligence",
-        "url": "https://www.theverge.com/entertainment/1030510/paramount-skydance-david-ellison-ai",
-        "publishedDate": "2026-11-10"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "6aee309b9f03214bd39f9693",
-      "category": "research",
-      "headline": "A New AI Tool From Google DeepMind Proved the Signal Protocol Is Secure",
-      "source": {
-        "name": "Wired — Artificial Intelligence",
-        "url": "https://www.wired.com/story/a-new-ai-tool-from-google-deepmind-formally-verified-the-signal-protocol/",
         "publishedDate": "2026-11-10"
       },
       "traceToAnchors": []

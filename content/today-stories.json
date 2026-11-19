@@ -1,7 +1,18 @@
 {
-  "lastUpdated": "2026-11-19T05:38:35.054Z",
+  "lastUpdated": "2026-11-19T15:06:24.160Z",
   "freshnessState": "fresh",
   "stories": [
+    {
+      "id": "https://tldr.tech/ai/2026-11-19",
+      "category": "research",
+      "headline": "Gemini 4 Neon 🚀, Genie 4 worlds 🌍, AI designs chips 🔬",
+      "source": {
+        "name": "TLDR AI",
+        "url": "https://tldr.tech/ai/2026-11-19",
+        "publishedDate": "2026-11-19"
+      },
+      "traceToAnchors": []
+    },
     {
       "id": "https://www.theverge.com/?p=1036445",
       "category": "models",
@@ -647,17 +658,6 @@
       "source": {
         "name": "The Verge — Artificial Intelligence",
         "url": "https://www.theverge.com/ai-artificial-intelligence/1032505/google-search-ai-mode-gemini-4-hydrogen",
-        "publishedDate": "2026-11-12"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6af62eb1066fd76a94f225aa",
-      "category": "ai-lifecycle",
-      "headline": "Nvidia, Just Ranked Forbes' Most Trusted Company, Now Has Work To Do",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/sites/johnschroyer/2026/11/12/jensen-huangs-spectacular-fall-shows-how-quickly-reputation-can-be-destroyed/",
         "publishedDate": "2026-11-12"
       },
       "traceToAnchors": []

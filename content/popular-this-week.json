@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
   "methodologyVersion": "weekly-momentum-v1",
-  "windowStart": "2026-11-11T23:49:15.145Z",
-  "windowEnd": "2026-11-18T23:49:15.145Z",
-  "lastAttemptedAt": "2026-11-18T23:49:15.145Z",
-  "lastSuccessfulAt": "2026-11-18T23:49:15.145Z",
+  "windowStart": "2026-11-12T05:38:35.190Z",
+  "windowEnd": "2026-11-19T05:38:35.190Z",
+  "lastAttemptedAt": "2026-11-19T05:38:35.190Z",
+  "lastSuccessfulAt": "2026-11-19T05:38:35.190Z",
   "status": "partial",
   "providers": {
     "gdelt": {
@@ -12,7 +12,7 @@
     },
     "hackerNews": {
       "status": "ok",
-      "sampledAt": "2026-11-18T23:49:15.145Z",
+      "sampledAt": "2026-11-19T05:38:35.190Z",
       "itemCount": 199
     },
     "bluesky": {
@@ -22,48 +22,13 @@
   "entries": [
     {
       "rank": 1,
-      "leadStoryId": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
-      "memberStoryIds": [
-        "https://openai.com/index/introducing-gpt-6-2-astra-sol"
-      ],
-      "category": "models",
-      "publishedAt": "2026-11-17T00:00:00.000Z",
-      "momentumScore": 0.5569055129066776,
-      "signals": {
-        "coverage": {
-          "state": "observed",
-          "basis": "canonical_today_sources",
-          "independentOutletCount": 1,
-          "sampledDomains": [
-            "openai.com"
-          ]
-        },
-        "hackerNews": {
-          "state": "observed",
-          "points": 1336,
-          "comments": 850,
-          "itemIds": [
-            50535230
-          ]
-        },
-        "recency": {
-          "state": "observed",
-          "ageHours": 47.82087361111111
-        },
-        "bluesky": {
-          "state": "not_configured"
-        }
-      }
-    },
-    {
-      "rank": 2,
       "leadStoryId": "https://deepmind.google/blog/introducing-gemini-4-neon/",
       "memberStoryIds": [
         "https://deepmind.google/blog/introducing-gemini-4-neon/"
       ],
       "category": "models",
       "publishedAt": "2026-11-18T00:00:00.000Z",
-      "momentumScore": 0.5453476324800729,
+      "momentumScore": 0.5649498896343528,
       "signals": {
         "coverage": {
           "state": "observed",
@@ -75,8 +40,8 @@
         },
         "hackerNews": {
           "state": "observed",
-          "points": 329,
-          "comments": 321,
+          "points": 639,
+          "comments": 560,
           "itemIds": [
             50552067,
             50552424
@@ -84,7 +49,42 @@
         },
         "recency": {
           "state": "observed",
-          "ageHours": 23.82087361111111
+          "ageHours": 29.643108333333334
+        },
+        "bluesky": {
+          "state": "not_configured"
+        }
+      }
+    },
+    {
+      "rank": 2,
+      "leadStoryId": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+      "memberStoryIds": [
+        "https://openai.com/index/introducing-gpt-6-2-astra-sol"
+      ],
+      "category": "models",
+      "publishedAt": "2026-11-17T00:00:00.000Z",
+      "momentumScore": 0.5499742810945083,
+      "signals": {
+        "coverage": {
+          "state": "observed",
+          "basis": "canonical_today_sources",
+          "independentOutletCount": 1,
+          "sampledDomains": [
+            "openai.com"
+          ]
+        },
+        "hackerNews": {
+          "state": "observed",
+          "points": 1339,
+          "comments": 852,
+          "itemIds": [
+            50535230
+          ]
+        },
+        "recency": {
+          "state": "observed",
+          "ageHours": 53.64310833333333
         },
         "bluesky": {
           "state": "not_configured"
@@ -99,7 +99,7 @@
       ],
       "category": "research",
       "publishedAt": "2026-11-18T00:00:00.000Z",
-      "momentumScore": 0.4078242021115802,
+      "momentumScore": 0.3979224423799098,
       "signals": {
         "coverage": {
           "state": "observed",
@@ -114,7 +114,7 @@
         },
         "recency": {
           "state": "observed",
-          "ageHours": 23.82087361111111
+          "ageHours": 29.643108333333334
         },
         "bluesky": {
           "state": "not_configured"
@@ -129,7 +129,7 @@
       ],
       "category": "research",
       "publishedAt": "2026-11-18T00:00:00.000Z",
-      "momentumScore": 0.4078242021115802,
+      "momentumScore": 0.3979224423799098,
       "signals": {
         "coverage": {
           "state": "observed",
@@ -144,7 +144,7 @@
         },
         "recency": {
           "state": "observed",
-          "ageHours": 23.82087361111111
+          "ageHours": 29.643108333333334
         },
         "bluesky": {
           "state": "not_configured"
@@ -159,7 +159,7 @@
       ],
       "category": "ai-lifecycle",
       "publishedAt": "2026-11-18T00:00:00.000Z",
-      "momentumScore": 0.4078242021115802,
+      "momentumScore": 0.3979224423799098,
       "signals": {
         "coverage": {
           "state": "observed",
@@ -174,7 +174,7 @@
         },
         "recency": {
           "state": "observed",
-          "ageHours": 23.82087361111111
+          "ageHours": 29.643108333333334
         },
         "bluesky": {
           "state": "not_configured"
@@ -189,7 +189,7 @@
       ],
       "category": "models",
       "publishedAt": "2026-11-18T00:00:00.000Z",
-      "momentumScore": 0.4078242021115802,
+      "momentumScore": 0.3979224423799098,
       "signals": {
         "coverage": {
           "state": "observed",
@@ -204,7 +204,7 @@
         },
         "recency": {
           "state": "observed",
-          "ageHours": 23.82087361111111
+          "ageHours": 29.643108333333334
         },
         "bluesky": {
           "state": "not_configured"
@@ -219,7 +219,7 @@
       ],
       "category": "compute-energy",
       "publishedAt": "2026-11-18T00:00:00.000Z",
-      "momentumScore": 0.4078242021115802,
+      "momentumScore": 0.3979224423799098,
       "signals": {
         "coverage": {
           "state": "observed",
@@ -234,7 +234,7 @@
         },
         "recency": {
           "state": "observed",
-          "ageHours": 23.82087361111111
+          "ageHours": 29.643108333333334
         },
         "bluesky": {
           "state": "not_configured"
@@ -249,7 +249,7 @@
       ],
       "category": "research",
       "publishedAt": "2026-11-18T00:00:00.000Z",
-      "momentumScore": 0.4078242021115802,
+      "momentumScore": 0.3979224423799098,
       "signals": {
         "coverage": {
           "state": "observed",
@@ -264,7 +264,7 @@
         },
         "recency": {
           "state": "observed",
-          "ageHours": 23.82087361111111
+          "ageHours": 29.643108333333334
         },
         "bluesky": {
           "state": "not_configured"
@@ -279,7 +279,7 @@
       ],
       "category": "safety-governance",
       "publishedAt": "2026-11-18T00:00:00.000Z",
-      "momentumScore": 0.4078242021115802,
+      "momentumScore": 0.3979224423799098,
       "signals": {
         "coverage": {
           "state": "observed",
@@ -294,7 +294,7 @@
         },
         "recency": {
           "state": "observed",
-          "ageHours": 23.82087361111111
+          "ageHours": 29.643108333333334
         },
         "bluesky": {
           "state": "not_configured"
@@ -309,7 +309,7 @@
       ],
       "category": "models",
       "publishedAt": "2026-11-18T00:00:00.000Z",
-      "momentumScore": 0.4078242021115802,
+      "momentumScore": 0.3979224423799098,
       "signals": {
         "coverage": {
           "state": "observed",
@@ -324,7 +324,7 @@
         },
         "recency": {
           "state": "observed",
-          "ageHours": 23.82087361111111
+          "ageHours": 29.643108333333334
         },
         "bluesky": {
           "state": "not_configured"
@@ -339,7 +339,7 @@
       ],
       "category": "research",
       "publishedAt": "2026-11-18T00:00:00.000Z",
-      "momentumScore": 0.4078242021115802,
+      "momentumScore": 0.3979224423799098,
       "signals": {
         "coverage": {
           "state": "observed",
@@ -354,7 +354,7 @@
         },
         "recency": {
           "state": "observed",
-          "ageHours": 23.82087361111111
+          "ageHours": 29.643108333333334
         },
         "bluesky": {
           "state": "not_configured"
@@ -369,7 +369,7 @@
       ],
       "category": "safety-governance",
       "publishedAt": "2026-11-17T00:00:00.000Z",
-      "momentumScore": 0.367007875580968,
+      "momentumScore": 0.3571061158492975,
       "signals": {
         "coverage": {
           "state": "observed",
@@ -384,7 +384,7 @@
         },
         "recency": {
           "state": "observed",
-          "ageHours": 47.82087361111111
+          "ageHours": 53.64310833333333
         },
         "bluesky": {
           "state": "not_configured"

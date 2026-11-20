@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-20T14:47:32.868Z",
+  "lastUpdated": "2026-11-20T23:36:10.367Z",
   "freshnessState": "fresh",
   "stories": [
     {
@@ -31,6 +31,61 @@
       "source": {
         "name": "Hugging Face — Blog",
         "url": "https://huggingface.co/blog/harness-adapters-at-scale",
+        "publishedDate": "2026-11-20"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theverge.com/?p=1038892",
+      "category": "compute-energy",
+      "headline": "Trump threatens ‘tremendous tax’ for moving AI data centers outside the US",
+      "source": {
+        "name": "The Verge — Artificial Intelligence",
+        "url": "https://www.theverge.com/policy/1038892/trump-foreign-data-centers-tax",
+        "publishedDate": "2026-11-20"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theverge.com/?p=1010051",
+      "category": "models",
+      "headline": "Anthropic mathematician claims to have solved prestigious Millennium Prize problem with Claude",
+      "source": {
+        "name": "The Verge — Artificial Intelligence",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem",
+        "publishedDate": "2026-11-20"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "6b006eaa6873ef9746910ed7",
+      "category": "ai-lifecycle",
+      "headline": "Jensen Huang’s ‘Lying’ Alarmed Nvidia Board Ahead of His Resignation",
+      "source": {
+        "name": "Wired — Artificial Intelligence",
+        "url": "https://www.wired.com/story/jensen-huangs-lying-alarmed-nvidia-board-ahead-of-his-resignation/",
+        "publishedDate": "2026-11-20"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6b00a6223e054c2b9988357b",
+      "category": "compute-energy",
+      "headline": "Clean, Green Data Centers? It Is Achievable",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/sites/joemckendrick/2026/11/20/clean-green-data-centers-it-is-achievable/",
+        "publishedDate": "2026-11-20"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6b00a1cfa3494083a8480797",
+      "category": "research",
+      "headline": "SpaceX Showed The Risk Of IPO Hype—Anthropic Could Be Next",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/sites/eriksherman/2026/11/20/spacex-stock-fell-below-its-ipo-in-34-days-anthropics-could-today/",
         "publishedDate": "2026-11-20"
       },
       "traceToAnchors": []
@@ -604,61 +659,6 @@
         "name": "NVIDIA — Technical Blog",
         "url": "https://developer.nvidia.com/blog/when-one-gpu-isnt-enough-serving-glm-5-3-across-two-nvidia-dgx-stations-with-vllm/",
         "publishedDate": "2026-11-13"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theverge.com/?p=1033697",
-      "category": "research",
-      "headline": "Amazon has a plan to index the world’s online shopping data",
-      "source": {
-        "name": "The Verge — Artificial Intelligence",
-        "url": "https://www.theverge.com/tech/1033697/amazon-world-product-graph-ai-search",
-        "publishedDate": "2026-11-13"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3187615",
-      "category": "research",
-      "headline": "Who could replace Jensen Huang? A highly unscientific list of possible successors",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/11/11/who-could-replace-jensen-huang-a-highly-unscientific-list-of-possible-successors/",
-        "publishedDate": "2026-11-12"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
-      "category": "models",
-      "headline": "Introducing Gemini 4 Hydrogen",
-      "source": {
-        "name": "Google DeepMind — Blog",
-        "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
-        "publishedDate": "2026-11-12"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3187494",
-      "category": "models",
-      "headline": "Nectar launches an AI agent to automate creator discovery and outreach for brands",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/11/12/nectar-launches-an-ai-agent-to-automate-creator-discovery-and-outreach-for-brands/",
-        "publishedDate": "2026-11-12"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3187922",
-      "category": "safety-governance",
-      "headline": "Hugging Face CEO vows to keep fighting for open source AI after Jensen Huang&#8217;s exit",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/11/12/hugging-face-ceo-vows-to-keep-fighting-for-open-source-ai-after-jensen-huangs-exit/",
-        "publishedDate": "2026-11-12"
       },
       "traceToAnchors": []
     }

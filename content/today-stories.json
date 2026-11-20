@@ -1,7 +1,40 @@
 {
-  "lastUpdated": "2026-11-20T00:12:45.685Z",
+  "lastUpdated": "2026-11-20T14:47:32.868Z",
   "freshnessState": "fresh",
   "stories": [
+    {
+      "id": "https://tldr.tech/ai/2026-11-20",
+      "category": "models",
+      "headline": "Gemini tool retrieval 🔧, Stripe evals methods 👨‍💻, agent swarms 🐝",
+      "source": {
+        "name": "TLDR AI",
+        "url": "https://tldr.tech/ai/2026-11-20",
+        "publishedDate": "2026-11-20"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theneurondaily.com/p/meta-s-muse-ai-agent-reportedly-accessed-signal-messages",
+      "category": "models",
+      "headline": "😺 Meta's Muse AI Agent Reportedly Accessed Signal Messages",
+      "source": {
+        "name": "The Neuron",
+        "url": "https://www.theneurondaily.com/p/meta-s-muse-ai-agent-reportedly-accessed-signal-messages",
+        "publishedDate": "2026-11-20"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://huggingface.co/blog/harness-adapters-at-scale",
+      "category": "models",
+      "headline": "Introducing harness adapters: adapt your favorite model to your harness to improve performance and cost",
+      "source": {
+        "name": "Hugging Face — Blog",
+        "url": "https://huggingface.co/blog/harness-adapters-at-scale",
+        "publishedDate": "2026-11-20"
+      },
+      "traceToAnchors": []
+    },
     {
       "id": "https://tldr.tech/ai/2026-11-19",
       "category": "research",
@@ -625,39 +658,6 @@
       "source": {
         "name": "TechCrunch — Artificial Intelligence",
         "url": "https://techcrunch.com/2026/11/12/hugging-face-ceo-vows-to-keep-fighting-for-open-source-ai-after-jensen-huangs-exit/",
-        "publishedDate": "2026-11-12"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3187972",
-      "category": "models",
-      "headline": "United Airlines blocks AI agents from booking flights, citing cybersecurity risks",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/11/12/united-airlines-blocks-ai-agents-from-booking-flights-citing-cybersecurity-risks/",
-        "publishedDate": "2026-11-12"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theverge.com/?p=1032020",
-      "category": "safety-governance",
-      "headline": "AI chatbots are recommending fake retail websites, study finds",
-      "source": {
-        "name": "The Verge — Artificial Intelligence",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/1032020/gemini-chatgpt-perplexity-shopping-test-risky-fake-websites-citations",
-        "publishedDate": "2026-11-12"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theverge.com/?post_type=vm_stream&#038;p=1030422",
-      "category": "research",
-      "headline": "Nvidia CEO Jensen Huang has resigned. What happens next?",
-      "source": {
-        "name": "The Verge — Artificial Intelligence",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/1030422/nvidia-jensen-huang-ai-china-alice-huang",
         "publishedDate": "2026-11-12"
       },
       "traceToAnchors": []

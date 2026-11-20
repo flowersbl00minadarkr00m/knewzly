@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-19T15:06:24.160Z",
+  "lastUpdated": "2026-11-20T00:12:45.685Z",
   "freshnessState": "fresh",
   "stories": [
     {
@@ -9,6 +9,83 @@
       "source": {
         "name": "TLDR AI",
         "url": "https://tldr.tech/ai/2026-11-19",
+        "publishedDate": "2026-11-19"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theverge.com/?p=1038227",
+      "category": "models",
+      "headline": "Apple is hiring engineers to build its own AI agent",
+      "source": {
+        "name": "The Verge — Artificial Intelligence",
+        "url": "https://www.theverge.com/tech/1038227/apple-ai-agent-engineer-job-listing",
+        "publishedDate": "2026-11-19"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theverge.com/?p=1038087",
+      "category": "models",
+      "headline": "Meta’s Muse Charm might cost $300",
+      "source": {
+        "name": "The Verge — Artificial Intelligence",
+        "url": "https://www.theverge.com/tech/1038087/meta-muse-charm-ai-price",
+        "publishedDate": "2026-11-19"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "6afe1975e2b495550e9a348e",
+      "category": "models",
+      "headline": "Google Built a Giant ‘Mirror Dimension’ Internet to Test Its Chrome AI Agents",
+      "source": {
+        "name": "Wired — Artificial Intelligence",
+        "url": "https://www.wired.com/story/google-built-a-giant-mirror-dimension-internet-to-test-its-chrome-ai-agents/",
+        "publishedDate": "2026-11-19"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6aff6b567393aa3304a21b2d",
+      "category": "research",
+      "headline": "How Anthropic's IPO Could Make Amazon The Next Yahoo",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/sites/josipamajic/2026/11/19/how-anthropics-ipo-could-make-amazon-the-next-yahoo/",
+        "publishedDate": "2026-11-19"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6aff4f6256b6fa2aacdf25fa",
+      "category": "research",
+      "headline": "The Gritty World Needs Ruggedized AI",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/sites/johnwerner/2026/11/19/the-gritty-world-needs-ruggedized-ai/",
+        "publishedDate": "2026-11-19"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://developer.nvidia.com/blog/?p=125485",
+      "category": "ai-lifecycle",
+      "headline": "Reducing Rollout Bottlenecks in Reinforcement Learning with NVIDIA Dynamo",
+      "source": {
+        "name": "NVIDIA — Technical Blog",
+        "url": "https://developer.nvidia.com/blog/reducing-rollout-bottlenecks-in-reinforcement-learning-with-nvidia-dynamo/",
+        "publishedDate": "2026-11-19"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://developer.nvidia.com/blog/?p=124964",
+      "category": "research",
+      "headline": "Enabling Real-Time AI for Scientific Instruments with GPU-Native Data Acquisition",
+      "source": {
+        "name": "NVIDIA — Technical Blog",
+        "url": "https://developer.nvidia.com/blog/enabling-real-time-ai-for-scientific-instruments-with-gpu-native-data-acquisition/",
         "publishedDate": "2026-11-19"
       },
       "traceToAnchors": []
@@ -581,83 +658,6 @@
       "source": {
         "name": "The Verge — Artificial Intelligence",
         "url": "https://www.theverge.com/ai-artificial-intelligence/1030422/nvidia-jensen-huang-ai-china-alice-huang",
-        "publishedDate": "2026-11-12"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://tldr.tech/ai/2026-11-12",
-      "category": "models",
-      "headline": "Grok Bot 1.0 🤖, AlphaGenome 2 🧬, Gemini Decisions 🧠",
-      "source": {
-        "name": "TLDR AI",
-        "url": "https://tldr.tech/ai/2026-11-12",
-        "publishedDate": "2026-11-12"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6af39b4a25d67f684cb5a313",
-      "category": "ai-lifecycle",
-      "headline": "19 Ways To Rethink Network Design For Distributed Workloads",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/councils/forbestechcouncil/2026/11/12/19-ways-to-rethink-network-design-for-distributed-workloads/",
-        "publishedDate": "2026-11-12"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://huggingface.co/blog/3d-lora-finetuning",
-      "category": "models",
-      "headline": "The Definitive Fine-Tuning Guide for 3D Generation Models",
-      "source": {
-        "name": "Hugging Face — Blog",
-        "url": "https://huggingface.co/blog/3d-lora-finetuning",
-        "publishedDate": "2026-11-12"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.technologyreview.com/?p=1148483",
-      "category": "compute-energy",
-      "headline": "Nvidia privately confirmed it could track chips to fight smuggling, even as industry publicly questioned feasibility",
-      "source": {
-        "name": "MIT Technology Review — Artificial Intelligence",
-        "url": "https://www.technologyreview.com/2026/11/12/1148483/nvidia-chip-tracking/",
-        "publishedDate": "2026-11-12"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3188108",
-      "category": "research",
-      "headline": "Democrats launch Nvidia investigation, write scathing letter on Huang&#8217;s &#8216;scheme&#8217; with Trump",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/11/12/democrats-launch-nvidia-investigation-write-scathing-letter-on-huangs-scheme-with-trump/",
-        "publishedDate": "2026-11-12"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3188050",
-      "category": "models",
-      "headline": "Google&#8217;s latest Search upgrade promises better answers to your most complicated questions",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/11/12/googles-latest-search-upgrade-promises-better-answers-to-your-most-complicated-questions/",
-        "publishedDate": "2026-11-12"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theverge.com/?p=1032505",
-      "category": "models",
-      "headline": "Google’s new Gemini model is better at understanding complicated questions",
-      "source": {
-        "name": "The Verge — Artificial Intelligence",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/1032505/google-search-ai-mode-gemini-4-hydrogen",
         "publishedDate": "2026-11-12"
       },
       "traceToAnchors": []

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-21T14:03:31.548Z",
+  "lastUpdated": "2026-11-21T22:42:36.855Z",
   "freshnessState": "fresh",
   "stories": [
     {
@@ -9,6 +9,17 @@
       "source": {
         "name": "Forbes — Innovation",
         "url": "https://www.forbes.com/sites/martineparis/2026/11/21/anthropic-ipo-amazon-google-and-the-art-of-the-ai-cloud-deal/",
+        "publishedDate": "2026-11-21"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6b0053daaf77c73d44fb4169",
+      "category": "safety-governance",
+      "headline": "Trump Wants AI Data Centers In West Virginia. The Gulf Wants Them Too, And Needs His Permission.",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/sites/guneyyildiz/2026/11/21/trump-wants-ai-data-centers-in-west-virginia-the-gulf-wants-them-too-and-needs-his-permission/",
         "publishedDate": "2026-11-21"
       },
       "traceToAnchors": []
@@ -647,17 +658,6 @@
       "source": {
         "name": "NVIDIA — Technical Blog",
         "url": "https://developer.nvidia.com/blog/run-gpu-powered-black-hole-interferometry-with-nvidia-cuphoton/",
-        "publishedDate": "2026-11-13"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://developer.nvidia.com/blog/?p=121180",
-      "category": "ai-lifecycle",
-      "headline": "Run Native DLA Inference in Python on NVIDIA Jetson AGX Orin Using cuDLA",
-      "source": {
-        "name": "NVIDIA — Technical Blog",
-        "url": "https://developer.nvidia.com/blog/run-native-dla-inference-in-python-on-nvidia-jetson-agx-orin-using-cudla/",
         "publishedDate": "2026-11-13"
       },
       "traceToAnchors": []

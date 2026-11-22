@@ -1,7 +1,18 @@
 {
-  "lastUpdated": "2026-11-21T22:42:36.855Z",
+  "lastUpdated": "2026-11-22T04:44:43.218Z",
   "freshnessState": "fresh",
   "stories": [
+    {
+      "id": "content_6b0256cdcb5a7acaff59ac60",
+      "category": "compute-energy",
+      "headline": "Saving Data Center Energy And Water With Higher Voltage Memory And Storage",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/sites/tomcoughlin/2026/11/21/saving-data-center-energy-and-water-with-higher-voltage-memory-and-storage/",
+        "publishedDate": "2026-11-22"
+      },
+      "traceToAnchors": []
+    },
     {
       "id": "content_6b00691e3e054c2b99883561",
       "category": "models",
@@ -20,6 +31,17 @@
       "source": {
         "name": "Forbes — Innovation",
         "url": "https://www.forbes.com/sites/guneyyildiz/2026/11/21/trump-wants-ai-data-centers-in-west-virginia-the-gulf-wants-them-too-and-needs-his-permission/",
+        "publishedDate": "2026-11-21"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6b02212ecb5a7acaff59ac5e",
+      "category": "safety-governance",
+      "headline": "FBI Reportedly Hacked Again—Apparent Breach Hits NCIC Crime Database",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/sites/larsdaniel/2026/11/21/fbi-reportedly-hacked-again-apparent-breach-hits-ncic-crime-database/",
         "publishedDate": "2026-11-21"
       },
       "traceToAnchors": []
@@ -636,28 +658,6 @@
       "source": {
         "name": "The Verge — Artificial Intelligence",
         "url": "https://www.theverge.com/ai-artificial-intelligence/1032518/claude-duet-ai-agent-hands-on",
-        "publishedDate": "2026-11-13"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://tldr.tech/ai/2026-11-13",
-      "category": "models",
-      "headline": "Gemini 4 Hydrogen 🚀, self-hosted Claude agents 🔒, Replit agent commerce 🛒",
-      "source": {
-        "name": "TLDR AI",
-        "url": "https://tldr.tech/ai/2026-11-13",
-        "publishedDate": "2026-11-13"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://developer.nvidia.com/blog/?p=125204",
-      "category": "compute-energy",
-      "headline": "Run GPU-Powered Black Hole Interferometry with NVIDIA cuPhoton",
-      "source": {
-        "name": "NVIDIA — Technical Blog",
-        "url": "https://developer.nvidia.com/blog/run-gpu-powered-black-hole-interferometry-with-nvidia-cuphoton/",
         "publishedDate": "2026-11-13"
       },
       "traceToAnchors": []

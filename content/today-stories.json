@@ -1,7 +1,18 @@
 {
-  "lastUpdated": "2026-11-22T04:44:43.218Z",
+  "lastUpdated": "2026-11-23T05:23:17.528Z",
   "freshnessState": "fresh",
   "stories": [
+    {
+      "id": "content_6b016c87af77c73d44fb419e",
+      "category": "research",
+      "headline": "New ‘Planet X’ Theory Suggests Something Big Is Hiding Beyond Neptune",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/sites/jamiecartereurope/2026/11/22/new-planet-x-theory-suggests-something-big-is-hiding-beyond-neptune/",
+        "publishedDate": "2026-11-23"
+      },
+      "traceToAnchors": []
+    },
     {
       "id": "content_6b0256cdcb5a7acaff59ac60",
       "category": "compute-energy",
@@ -9,6 +20,17 @@
       "source": {
         "name": "Forbes — Innovation",
         "url": "https://www.forbes.com/sites/tomcoughlin/2026/11/21/saving-data-center-energy-and-water-with-higher-voltage-memory-and-storage/",
+        "publishedDate": "2026-11-22"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6b035f94cb5a7acaff59ac84",
+      "category": "models",
+      "headline": "The Robot House-Builder: Construction At The Speed Of AI",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/sites/johnwerner/2026/11/22/the-robot-house-builder-construction-at-the-speed-of-ai/",
         "publishedDate": "2026-11-22"
       },
       "traceToAnchors": []
@@ -636,28 +658,6 @@
       "source": {
         "name": "Forbes — Innovation",
         "url": "https://www.forbes.com/councils/forbestechcouncil/2026/11/13/authorize-the-action-not-just-the-agent/",
-        "publishedDate": "2026-11-13"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theverge.com/?p=1033425",
-      "category": "ai-lifecycle",
-      "headline": "ChatGPT Wallet lets OpenAI’s Dots agents make purchases for you",
-      "source": {
-        "name": "The Verge — Artificial Intelligence",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet",
-        "publishedDate": "2026-11-13"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theverge.com/?p=1032518",
-      "category": "models",
-      "headline": "Claude’s Duet agent is a little neurotic and surprisingly helpful",
-      "source": {
-        "name": "The Verge — Artificial Intelligence",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/1032518/claude-duet-ai-agent-hands-on",
         "publishedDate": "2026-11-13"
       },
       "traceToAnchors": []

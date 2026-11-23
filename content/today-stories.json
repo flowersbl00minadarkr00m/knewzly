@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-23T05:23:17.528Z",
+  "lastUpdated": "2026-11-23T17:11:33.997Z",
   "freshnessState": "fresh",
   "stories": [
     {
@@ -9,6 +9,61 @@
       "source": {
         "name": "Forbes — Innovation",
         "url": "https://www.forbes.com/sites/jamiecartereurope/2026/11/22/new-planet-x-theory-suggests-something-big-is-hiding-beyond-neptune/",
+        "publishedDate": "2026-11-23"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/",
+      "category": "models",
+      "headline": "Finding faster quantum algorithms with agents and formal verification",
+      "source": {
+        "name": "Google DeepMind — Blog",
+        "url": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/",
+        "publishedDate": "2026-11-23"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theverge.com/?p=1039874",
+      "category": "models",
+      "headline": "Meta Muse can do your Black Friday shopping at Walmart",
+      "source": {
+        "name": "The Verge — Artificial Intelligence",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1039874/walmart-agent-gateway-meta-muse-black-friday",
+        "publishedDate": "2026-11-23"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6b04616eeb734f39feb380db",
+      "category": "compute-energy",
+      "headline": "America's Power Grid Has An AI Problem. The U.S. DOE Has A Plan",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/sites/ronschmelzer/2026/11/23/americas-power-grid-has-an-ai-problem-the-us-doe-has-a-plan/",
+        "publishedDate": "2026-11-23"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6b0057c6c76d7138b0a7fdbd",
+      "category": "ai-lifecycle",
+      "headline": "Engineering Trust: A Safe Path To Agentic AI In Utility Contact Centers",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/councils/forbestechcouncil/2026/11/23/engineering-trust-a-safe-path-to-agentic-ai-in-utility-contact-centers/",
+        "publishedDate": "2026-11-23"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://huggingface.co/blog/agentic-evals",
+      "category": "ai-lifecycle",
+      "headline": "How to build and maintain an agentic evaluation",
+      "source": {
+        "name": "Hugging Face — Blog",
+        "url": "https://huggingface.co/blog/agentic-evals",
         "publishedDate": "2026-11-23"
       },
       "traceToAnchors": []
@@ -603,61 +658,6 @@
       "source": {
         "name": "TechCrunch — Artificial Intelligence",
         "url": "https://techcrunch.com/2026/11/13/israels-vcs-see-opportunity-for-challengers-in-nvidias-turmoil/",
-        "publishedDate": "2026-11-13"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6af5e524a20b508bf08828d1",
-      "category": "ai-lifecycle",
-      "headline": "Securing Microsoft Identities At Agentic Speed",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/councils/forbestechcouncil/2026/11/13/securing-microsoft-identities-at-agentic-speed/",
-        "publishedDate": "2026-11-13"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6af5e45db572ec752a709a88",
-      "category": "models",
-      "headline": "Why Customers Aren't Letting AI Agents Take The Wheel On Payments Yet",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/councils/forbestechcouncil/2026/11/13/why-customers-arent-letting-ai-agents-take-the-wheel-on-payments-yet/",
-        "publishedDate": "2026-11-13"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6af5e12fb572ec752a709a86",
-      "category": "safety-governance",
-      "headline": "Why Human Oversight Of AI Needs More Than A Human In The Loop",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/councils/forbestechcouncil/2026/11/13/why-human-oversight-of-ai-needs-more-than-a-human-in-the-loop/",
-        "publishedDate": "2026-11-13"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6af6eb1d784823a98c059f0e",
-      "category": "research",
-      "headline": "Electrification Is How The World Moves Away From Fossil Fuels - COP31 Shouldn’t Make It Wait",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/sites/mariamendiluce/2026/11/13/electrification-is-how-the-world-moves-away-from-fossil-fuelscop31-shouldnt-make-it-wait/",
-        "publishedDate": "2026-11-13"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6af5dfafb572ec752a709a83",
-      "category": "research",
-      "headline": "Authorize The Action, Not Just The Agent",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/councils/forbestechcouncil/2026/11/13/authorize-the-action-not-just-the-agent/",
         "publishedDate": "2026-11-13"
       },
       "traceToAnchors": []

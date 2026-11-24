@@ -1,7 +1,29 @@
 {
-  "lastUpdated": "2026-11-24T03:43:49.985Z",
+  "lastUpdated": "2026-11-24T16:52:58.420Z",
   "freshnessState": "fresh",
   "stories": [
+    {
+      "id": "6b04860c53bb4d55d8bfbf94",
+      "category": "models",
+      "headline": "Anthropic Created a Honeypot to Lure AI Agents Into Misbehaving",
+      "source": {
+        "name": "Wired — Artificial Intelligence",
+        "url": "https://www.wired.com/story/ai-agents-can-get-honeypotted-too-aw/",
+        "publishedDate": "2026-11-24"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://tldr.tech/ai/2026-11-24",
+      "category": "safety-governance",
+      "headline": "GLM-5.4 loops 🔁, Claude Ship 🚢, OpenAI secures Linux 🔒",
+      "source": {
+        "name": "TLDR AI",
+        "url": "https://tldr.tech/ai/2026-11-24",
+        "publishedDate": "2026-11-24"
+      },
+      "traceToAnchors": []
+    },
     {
       "id": "content_6b016c87af77c73d44fb419e",
       "category": "research",
@@ -636,28 +658,6 @@
       "source": {
         "name": "Forbes — Innovation",
         "url": "https://www.forbes.com/sites/johnwerner/2026/11/15/needs-for-robotic-design-and-mastery/",
-        "publishedDate": "2026-11-15"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6af93f6f7aaefa2525a33739",
-      "category": "research",
-      "headline": "UFC 334 Delivered A Champion Who Survived, A Legend Who Walked Off A Winner And A Draw Nobody Could Explain",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/sites/brianmazique/2026/11/15/ufc-334-delivered-a-champion-who-survived-a-legend-who-walked-off-a-winner-and-a-draw-nobody-could-explain/",
-        "publishedDate": "2026-11-15"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theverge.com/?p=1033984",
-      "category": "compute-energy",
-      "headline": "Congress wants to tighten export rules on AI chips after Nvidia spy scandal",
-      "source": {
-        "name": "The Verge — Artificial Intelligence",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/1033984/congress-export-rules-ai-chips-china",
         "publishedDate": "2026-11-15"
       },
       "traceToAnchors": []

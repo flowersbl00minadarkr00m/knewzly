@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-23T17:11:33.997Z",
+  "lastUpdated": "2026-11-24T03:43:49.985Z",
   "freshnessState": "fresh",
   "stories": [
     {
@@ -64,6 +64,50 @@
       "source": {
         "name": "Hugging Face — Blog",
         "url": "https://huggingface.co/blog/agentic-evals",
+        "publishedDate": "2026-11-23"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theverge.com/?p=1040652",
+      "category": "safety-governance",
+      "headline": "Trump engineered a risky comeback for Jensen Huang",
+      "source": {
+        "name": "The Verge — Artificial Intelligence",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1040652/jensen-huang-nvidia-trump-reinstated",
+        "publishedDate": "2026-11-23"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theverge.com/?p=1040497",
+      "category": "compute-energy",
+      "headline": "AI data centers throw another wrench into chaotic UN climate talks",
+      "source": {
+        "name": "The Verge — Artificial Intelligence",
+        "url": "https://www.theverge.com/science/1040497/ai-data-centers-electricity-un-climate-summit",
+        "publishedDate": "2026-11-23"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6b03c4d7af77c73d44fb41e1",
+      "category": "safety-governance",
+      "headline": "Prevent AI Agents From Going Rogue By Sending Them To Human Psychologists For Needed Therapy",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/sites/lanceeliot/2026/11/23/prevent-ai-agents-from-going-rogue-by-sending-them-to-human-psychologists-for-needed-therapy/",
+        "publishedDate": "2026-11-23"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://developer.nvidia.com/blog/?p=125662",
+      "category": "ai-lifecycle",
+      "headline": "Accelerating Direct Sparse Solvers for Computational Engineering with NVIDIA cuDSS 1.0",
+      "source": {
+        "name": "NVIDIA — Technical Blog",
+        "url": "https://developer.nvidia.com/blog/accelerating-direct-sparse-solvers-for-computational-engineering-with-nvidia-cudss-1-0/",
         "publishedDate": "2026-11-23"
       },
       "traceToAnchors": []
@@ -615,50 +659,6 @@
         "name": "The Verge — Artificial Intelligence",
         "url": "https://www.theverge.com/ai-artificial-intelligence/1033984/congress-export-rules-ai-chips-china",
         "publishedDate": "2026-11-15"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "6aed23d9bbed27ba0f21394f",
-      "category": "research",
-      "headline": "No Pilots. Few Air Traffic Controllers. What Could Go Wrong?",
-      "source": {
-        "name": "Wired — Artificial Intelligence",
-        "url": "https://www.wired.com/story/no-pilots-few-air-traffic-controllers-what-could-go-wrong/",
-        "publishedDate": "2026-11-14"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6af741bbce52b544538a7e8b",
-      "category": "models",
-      "headline": "‘Football Manager 27’ Review: Back On Form, But Must Do Better",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/sites/barrycollins/2026/11/14/football-manager-27-review-back-on-form-but-must-do-better/",
-        "publishedDate": "2026-11-14"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6af8128db6ecc5b0911a3f6f",
-      "category": "research",
-      "headline": "John Cena Just Invited The Woman Who Could Break His Record To His Classic, And WWE Is Running Two Raws That Day",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/sites/brianmazique/2026/11/14/john-cena-just-invited-the-woman-who-could-break-his-record-to-his-classic-and-wwe-is-running-two-raws-that-day/",
-        "publishedDate": "2026-11-14"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://techcrunch.com/?p=3187846",
-      "category": "compute-energy",
-      "headline": "Israel&#8217;s VCs see opportunity for challengers in Nvidia&#8217;s turmoil",
-      "source": {
-        "name": "TechCrunch — Artificial Intelligence",
-        "url": "https://techcrunch.com/2026/11/13/israels-vcs-see-opportunity-for-challengers-in-nvidias-turmoil/",
-        "publishedDate": "2026-11-13"
       },
       "traceToAnchors": []
     }

@@ -1,7 +1,40 @@
 {
-  "lastUpdated": "2026-11-25T01:51:16.188Z",
+  "lastUpdated": "2026-11-25T16:41:10.566Z",
   "freshnessState": "fresh",
   "stories": [
+    {
+      "id": "content_681bae34459bde3f934ed019",
+      "category": "research",
+      "headline": "Product Testing Could Be Your Next Side Hustle. Here’s How And Where To Start",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/sites/kristenbousquet/article/how-to-become-a-product-tester/",
+        "publishedDate": "2026-11-25"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6b05eb7fc3474fa26bfbeacc",
+      "category": "research",
+      "headline": "How Legacy Data Pipelines Become A Liability When AI Moves From Chat To Action",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/councils/forbestechcouncil/2026/11/25/how-legacy-data-pipelines-become-a-liability-when-ai-moves-from-chat-to-action/",
+        "publishedDate": "2026-11-25"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6b05e88236eae64528bf698b",
+      "category": "ai-lifecycle",
+      "headline": "The AI Infrastructure Bet That Smart Enterprises Are Making",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/councils/forbestechcouncil/2026/11/25/the-ai-infrastructure-bet-that-smart-enterprises-are-making/",
+        "publishedDate": "2026-11-25"
+      },
+      "traceToAnchors": []
+    },
     {
       "id": "6b04860c53bb4d55d8bfbf94",
       "category": "models",
@@ -625,39 +658,6 @@
       "source": {
         "name": "TLDR AI",
         "url": "https://tldr.tech/ai/2026-11-16",
-        "publishedDate": "2026-11-16"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theverge.com/?p=1034694",
-      "category": "compute-energy",
-      "headline": "Big Nuclear isn’t worried about the Democrats stopping data centers",
-      "source": {
-        "name": "The Verge — Artificial Intelligence",
-        "url": "https://www.theverge.com/science/1034694/nuclear-energy-constellation-earnings-data-centers-democrats",
-        "publishedDate": "2026-11-16"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theverge.com/?p=1034581",
-      "category": "models",
-      "headline": "Apple is testing daily usage limits for more complex Siri AI interactions",
-      "source": {
-        "name": "The Verge — Artificial Intelligence",
-        "url": "https://www.theverge.com/tech/1034581/apple-intelligence-siri-ai-daily-usage-limits-icloud-subscription",
-        "publishedDate": "2026-11-16"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6afb776fdff7b9f5c141fd10",
-      "category": "models",
-      "headline": "Apple iPhone Duo 2: Face ID Top Priority For New Model But Not Yet, Report Says",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/sites/davidphelan/2026/11/16/apple-iphone-duo-2-face-id-top-priority-for-new-model-but-not-yet-report-says/",
         "publishedDate": "2026-11-16"
       },
       "traceToAnchors": []

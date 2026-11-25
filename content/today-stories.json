@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-24T16:52:58.420Z",
+  "lastUpdated": "2026-11-25T01:51:16.188Z",
   "freshnessState": "fresh",
   "stories": [
     {
@@ -20,6 +20,39 @@
       "source": {
         "name": "TLDR AI",
         "url": "https://tldr.tech/ai/2026-11-24",
+        "publishedDate": "2026-11-24"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
+      "category": "models",
+      "headline": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+      "source": {
+        "name": "OpenAI — News",
+        "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
+        "publishedDate": "2026-11-24"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theverge.com/?p=1041362",
+      "category": "research",
+      "headline": "Tidal will start banning AI-generated music next month",
+      "source": {
+        "name": "The Verge — Artificial Intelligence",
+        "url": "https://www.theverge.com/entertainment/1041362/tidal-ai-music-ban",
+        "publishedDate": "2026-11-24"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://developer.nvidia.com/blog/?p=125590",
+      "category": "ai-lifecycle",
+      "headline": "How to Run NVIDIA Cosmos 3 on Local AI Devices Using Hugging Face Diffusers",
+      "source": {
+        "name": "NVIDIA — Technical Blog",
+        "url": "https://developer.nvidia.com/blog/how-to-run-nvidia-cosmos-3-on-local-ai-devices-using-hugging-face-diffusers/",
         "publishedDate": "2026-11-24"
       },
       "traceToAnchors": []
@@ -626,39 +659,6 @@
         "name": "Forbes — Innovation",
         "url": "https://www.forbes.com/sites/davidphelan/2026/11/16/apple-iphone-duo-2-face-id-top-priority-for-new-model-but-not-yet-report-says/",
         "publishedDate": "2026-11-16"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://developer.nvidia.com/blog/?p=125279",
-      "category": "ai-lifecycle",
-      "headline": "NVIDIA Vera Rubin NVL72 Leads Agentic Inference Performance on MLPerf Endpoints v1.0",
-      "source": {
-        "name": "NVIDIA — Technical Blog",
-        "url": "https://developer.nvidia.com/blog/nvidia-vera-rubin-nvl72-leads-agentic-inference-performance-on-mlperf-endpoints-v1-0/",
-        "publishedDate": "2026-11-16"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6af902e8cb595c2a53d78a5e",
-      "category": "research",
-      "headline": "6 Technology Trends That Will Transform The World In The Next Decade",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/sites/chuckbrooks/2026/11/14/6-technology-trends-that-will-transform-the-world-in-the-next-decade/",
-        "publishedDate": "2026-11-15"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6af8b2b07aaefa2525a3372b",
-      "category": "research",
-      "headline": "Needs For Robotic Design And Mastery",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/sites/johnwerner/2026/11/15/needs-for-robotic-design-and-mastery/",
-        "publishedDate": "2026-11-15"
       },
       "traceToAnchors": []
     }

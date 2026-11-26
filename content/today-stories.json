@@ -1,7 +1,51 @@
 {
-  "lastUpdated": "2026-11-26T01:28:02.130Z",
+  "lastUpdated": "2026-11-26T16:15:33.602Z",
   "freshnessState": "fresh",
   "stories": [
+    {
+      "id": "6b07095da2c32fc4ddb30859",
+      "category": "ai-lifecycle",
+      "headline": "Meta Refused to Share Muse for Testing, UK Financial Watchdog Complains",
+      "source": {
+        "name": "Wired — Artificial Intelligence",
+        "url": "https://www.wired.com/story/meta-refused-to-share-muse-for-testing-uk-financial-watchdog-complains/",
+        "publishedDate": "2026-11-26"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://tldr.tech/ai/2026-11-26",
+      "category": "ai-lifecycle",
+      "headline": "Opus 5.6 testing 🤖, OpenAI private Inference 🔒, Jev is probably Qwen 📝",
+      "source": {
+        "name": "TLDR AI",
+        "url": "https://tldr.tech/ai/2026-11-26",
+        "publishedDate": "2026-11-26"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
+      "category": "models",
+      "headline": "Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon",
+      "source": {
+        "name": "Hugging Face — Blog",
+        "url": "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
+        "publishedDate": "2026-11-26"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin",
+      "category": "models",
+      "headline": "Building on Nemotron 3.5 Parse: Open Data, Fine-Tuning, and Faster Inference",
+      "source": {
+        "name": "Hugging Face — Blog",
+        "url": "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin",
+        "publishedDate": "2026-11-26"
+      },
+      "traceToAnchors": []
+    },
     {
       "id": "content_681bae34459bde3f934ed019",
       "category": "research",
@@ -615,50 +659,6 @@
         "name": "OpenAI — News",
         "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
         "publishedDate": "2026-11-17"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://news.microsoft.com/source/?p=26543",
-      "category": "ai-lifecycle",
-      "headline": "Microsoft and Salesforce Announce Copilotforce, Bringing Trusted Customer Context and Action into Microsoft AI Experiences",
-      "source": {
-        "name": "Microsoft — AI news",
-        "url": "https://news.microsoft.com/source/2026/11/17/microsoft-and-salesforce-announce-copilotforce-bringing-trusted-customer-context-and-action-into-microsoft-ai-experiences/",
-        "publishedDate": "2026-11-17"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theverge.com/?p=1035756",
-      "category": "models",
-      "headline": "Google’s Spark AI agent becomes ‘Tasks’ — and now it’s free",
-      "source": {
-        "name": "The Verge — Artificial Intelligence",
-        "url": "https://www.theverge.com/tech/1035756/google-spark-ai-tasks-free",
-        "publishedDate": "2026-11-17"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "content_6afcbea3bacd56eb84e51a3e",
-      "category": "research",
-      "headline": "Motorola Signature 27 Hands-On: Curved Design, B&O Audio And 3 Rear Cameras",
-      "source": {
-        "name": "Forbes — Innovation",
-        "url": "https://www.forbes.com/sites/davidphelan/2026/11/17/motorola-signature-27-hands-on-curved-design-bo-audio-and-3-rear-cameras/",
-        "publishedDate": "2026-11-17"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theverge.com/?p=1033355",
-      "category": "models",
-      "headline": "Apple’s new study looks to improve the effectiveness of AI health tools",
-      "source": {
-        "name": "The Verge — Artificial Intelligence",
-        "url": "https://www.theverge.com/tech/1033355/apples-new-study-looks-to-improve-the-effectiveness-of-ai-health-tools",
-        "publishedDate": "2026-11-16"
       },
       "traceToAnchors": []
     }

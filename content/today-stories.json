@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-25T16:41:10.566Z",
+  "lastUpdated": "2026-11-26T01:28:02.130Z",
   "freshnessState": "fresh",
   "stories": [
     {
@@ -31,6 +31,28 @@
       "source": {
         "name": "Forbes — Innovation",
         "url": "https://www.forbes.com/councils/forbestechcouncil/2026/11/25/the-ai-infrastructure-bet-that-smart-enterprises-are-making/",
+        "publishedDate": "2026-11-25"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theverge.com/?p=1042221",
+      "category": "models",
+      "headline": "Google’s patent for custom AI video feeds paints a bleak picture of entertainment’s future",
+      "source": {
+        "name": "The Verge — Artificial Intelligence",
+        "url": "https://www.theverge.com/entertainment/1042221/google-my-channel-ai-video-patent",
+        "publishedDate": "2026-11-25"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "https://www.theverge.com/?p=1042278",
+      "category": "compute-energy",
+      "headline": "FCC signs off on SpaceX’s plan to put up to 1 million data center satellites into space",
+      "source": {
+        "name": "The Verge — Artificial Intelligence",
+        "url": "https://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers",
         "publishedDate": "2026-11-25"
       },
       "traceToAnchors": []
@@ -636,28 +658,6 @@
       "source": {
         "name": "The Verge — Artificial Intelligence",
         "url": "https://www.theverge.com/tech/1033355/apples-new-study-looks-to-improve-the-effectiveness-of-ai-health-tools",
-        "publishedDate": "2026-11-16"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.technologyreview.com/?p=1146070",
-      "category": "ai-lifecycle",
-      "headline": "Building AI that can work across the enterprise",
-      "source": {
-        "name": "MIT Technology Review — Artificial Intelligence",
-        "url": "https://www.technologyreview.com/2026/11/16/1146070/building-ai-that-can-work-across-the-enterprise/",
-        "publishedDate": "2026-11-16"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://tldr.tech/ai/2026-11-16",
-      "category": "ai-lifecycle",
-      "headline": "ChatGPT Wallet 💳, Devin Apps 🛠️, always-on agents ⚡",
-      "source": {
-        "name": "TLDR AI",
-        "url": "https://tldr.tech/ai/2026-11-16",
         "publishedDate": "2026-11-16"
       },
       "traceToAnchors": []

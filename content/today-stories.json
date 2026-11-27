@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-26T16:15:33.602Z",
+  "lastUpdated": "2026-11-27T01:25:25.129Z",
   "freshnessState": "fresh",
   "stories": [
     {
@@ -42,6 +42,28 @@
       "source": {
         "name": "Hugging Face — Blog",
         "url": "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin",
+        "publishedDate": "2026-11-26"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6b084504a43a39655071b43b",
+      "category": "models",
+      "headline": "What To Watch This Weekend: New Shows And Movies To Stream On Netflix, Hulu, Prime Video, Apple TV And More",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/sites/erikkain/2026/11/26/what-to-watch-this-weekend-new-shows-and-movies-to-stream-on-netflix-hulu-prime-video-apple-tv-and-more/",
+        "publishedDate": "2026-11-26"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6b05bad957076ba7b70b10af",
+      "category": "models",
+      "headline": "Tesla Grok Isn’t The Only Game In Town: Google Gemini On GM Vehicles Delivers",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/sites/brookecrothers/2026/11/26/tesla-grok-isnt-the-only-game-in-town-google-gemini-on-gm-vehicles-delivers/",
         "publishedDate": "2026-11-26"
       },
       "traceToAnchors": []
@@ -636,28 +658,6 @@
       "source": {
         "name": "TLDR AI",
         "url": "https://tldr.tech/ai/2026-11-17",
-        "publishedDate": "2026-11-17"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://www.theneurondaily.com/p/california-sued-openai-over-rogue-agents",
-      "category": "safety-governance",
-      "headline": "😺 California sued OpenAI over rogue agents",
-      "source": {
-        "name": "The Neuron",
-        "url": "https://www.theneurondaily.com/p/california-sued-openai-over-rogue-agents",
-        "publishedDate": "2026-11-17"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
-      "category": "models",
-      "headline": "Introducing GPT-6.2 Astra and Sol",
-      "source": {
-        "name": "OpenAI — News",
-        "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
         "publishedDate": "2026-11-17"
       },
       "traceToAnchors": []

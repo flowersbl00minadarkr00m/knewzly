@@ -1,7 +1,29 @@
 {
-  "lastUpdated": "2026-11-27T01:25:25.129Z",
+  "lastUpdated": "2026-11-27T15:59:47.368Z",
   "freshnessState": "fresh",
   "stories": [
+    {
+      "id": "content_6b084fdd1349224112606c00",
+      "category": "safety-governance",
+      "headline": "AI Agents Will Take The Middleman's Chores, Not Its Risks",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/sites/stephenwunker/2026/11/27/ai-agents-will-take-the-middlemans-chores-not-its-risks/",
+        "publishedDate": "2026-11-27"
+      },
+      "traceToAnchors": []
+    },
+    {
+      "id": "content_6b08c4cbc0fb9e0700f61604",
+      "category": "research",
+      "headline": "Todoist Data Breach: Hacker Stole Emails And Password Hashes From About 6% Of Users",
+      "source": {
+        "name": "Forbes — Innovation",
+        "url": "https://www.forbes.com/sites/larsdaniel/2026/11/27/todoist-data-breach-hacker-stole-emails-and-password-hashes-from-about-6-of-users/",
+        "publishedDate": "2026-11-27"
+      },
+      "traceToAnchors": []
+    },
     {
       "id": "6b07095da2c32fc4ddb30859",
       "category": "ai-lifecycle",
@@ -637,28 +659,6 @@
         "name": "NVIDIA — Technical Blog",
         "url": "https://developer.nvidia.com/blog/build-training-ready-physical-ai-datasets-with-two-prompts-in-nvidia-cosmos/",
         "publishedDate": "2026-11-18"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "6af3622682931ce68d5ff1c4",
-      "category": "safety-governance",
-      "headline": "Rogue Agents Hacked His Company. Why Is Clément Delangue So Optimistic About AI?",
-      "source": {
-        "name": "Wired — Artificial Intelligence",
-        "url": "https://www.wired.com/story/wired-yearbook-2026-clement-delangue/",
-        "publishedDate": "2026-11-17"
-      },
-      "traceToAnchors": []
-    },
-    {
-      "id": "https://tldr.tech/ai/2026-11-17",
-      "category": "safety-governance",
-      "headline": "Perplexity Research 🧪, NVIDIA Rubin HPC 🖥️, OpenAI safety assessments 👨‍💻",
-      "source": {
-        "name": "TLDR AI",
-        "url": "https://tldr.tech/ai/2026-11-17",
-        "publishedDate": "2026-11-17"
       },
       "traceToAnchors": []
     }
